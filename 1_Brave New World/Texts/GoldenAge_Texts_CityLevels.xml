@@ -1,84 +1,72 @@
 <GameData>
     <LocalizedText>	
-	<Replace Tag="LOC_POP_TEXT" Language="zh_Hans_CN">
-      <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]其中{1_Num}来自城市数量惩罚[ENDCOLOR]</Text>
-    </Replace>
-	<Replace Tag="LOC_POP_TEXT" Language="en_US">
-      <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]including {1_Num} from city number punishment[ENDCOLOR]</Text>
-    </Replace>	
-	<!-- 城市扩建系统 -->
-	<Replace Tag="LOC_BUILDING_CITYHALL_VILLAGE_NAME" Language="zh_Hans_CN">
-      <Text>市政厅（村庄）</Text>
-    </Replace>
-	<Replace Tag="LOC_BUILDING_CITYHALL_VILLAGE_NAME" Language="en_US">
-      <Text>Guildhall (Village)</Text>
-    </Replace>
-	<Replace Tag="LOC_BUILDING_CITYHALL_VILLAGE_DESCRIPTION" Language="zh_Hans_CN">
-      <Text>这是一个尚未发展的村庄所建立起的最低级市政厅。[NEWLINE]该城市将受到最严厉的爆铺惩罚：[ICON_Science] 科技值、[ICON_Culture] 文化值、[ICON_Gold] 金币及 [ICON_Faith] 信仰值产出[COLOR_RED]-4%*（您文明的城市总数量）[ENDCOLOR]。[NEWLINE]每个 [ICON_CITIZEN] 公民产出+0.4 [ICON_Science] 科技值、[ICON_Culture] 文化值以及 [ICON_Production] 生产力。</Text>
-    </Replace>
-	<Replace Tag="LOC_BUILDING_CITYHALL_VILLAGE_DESCRIPTION" Language="en_US">
-      <Text>It is the lowest level of Guildhall found by a rudimentary Village.[NEWLINE]This city will get the most severe Crazy-Expansion Punishment, which is: [COLOR_RED]-4%* (total number of cities in your civilization)[ENDCOLOR] yields for [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Gold] Gold and [ICON_Faith] Faith.[NEWLINE]Each [ICON_CITIZEN] Citizen may yield +0.4 [ICON_Science] Science, [ICON_Culture] Culture and [ICON_Production] Production.</Text>
-    </Replace>
-	<Replace Tag="LOC_BUILDING_CITYHALL_TOWN_NAME" Language="zh_Hans_CN">
-      <Text>市政厅（小镇）</Text>
-    </Replace>
-	<Replace Tag="LOC_BUILDING_CITYHALL_TOWN_NAME" Language="en_US">
-      <Text>Guildhall (Town)</Text>
-    </Replace>
-	<Replace Tag="LOC_BUILDING_CITYHALL_TOWN_DESCRIPTION" Language="zh_Hans_CN">
-      <Text>人口增长促进村庄发展，进而衍生集市，乃至小镇。市政厅因此扩建。[NEWLINE]在升级为小镇级市政厅后，该城市获得以下效果：[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口少于10，则仍会受到最严厉的爆铺惩罚：[ICON_Science] 科技值、[ICON_Culture] 文化值、[ICON_Gold] 金币及 [ICON_Faith] 信仰值产出[COLOR_RED]-4%*（您文明的城市总数量）[ENDCOLOR]。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于10，则受到的爆铺惩罚削弱至“[COLOR_RED]-3%*[ENDCOLOR]”。[NEWLINE][ICON_Bullet]每个 [ICON_CITIZEN] 公民产出+0.6 [ICON_Science] 科技值、[ICON_Culture] 文化值以及 [ICON_Production] 生产力。[NEWLINE][ICON_Bullet]向周围其他的城市释放极少的 [ICON_PressureUp] 忠诚度压力。</Text>
-    </Replace>
-	<Replace Tag="LOC_BUILDING_CITYHALL_TOWN_DESCRIPTION" Language="en_US">
-      <Text>The growth of Population promoted the development of Village, and then derived markets, even Town. Therefore Guildhall could be extended.[NEWLINE]After upgrading to Guildhall (Town), this city may get the following effects:[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is less than 10, it will still get the most severe Crazy-Expansion Punishment, which is: [COLOR_RED]-4%* (total number of cities in your civilization)[ENDCOLOR] yields for [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Gold] Gold and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 10, Crazy-Expansion Punishment in this city will be reduced to "[COLOR_RED]-3%[ENDCOLOR]".[NEWLINE][ICON_Bullet]Each [ICON_CITIZEN] Citizen may yield +0.6 [ICON_Science] Science, [ICON_Culture] Culture and [ICON_Production] Production.[NEWLINE][ICON_Bullet]Export tiny [ICON_PressureUp] Loyalty pressure to your cities nearby, as well as [ICON_PressureDown] Loyalty pressure to cities of other civilizations nearby.</Text>
-    </Replace>
-	<Replace Tag="LOC_BUILDING_CITYHALL_COUNTY_NAME" Language="zh_Hans_CN">
-      <Text>市政厅（郡县）</Text>
-    </Replace>
-	<Replace Tag="LOC_BUILDING_CITYHALL_COUNTY_NAME" Language="en_US">
-      <Text>Guildhall (County)</Text>
-    </Replace>
-	<Replace Tag="LOC_BUILDING_CITYHALL_COUNTY_DESCRIPTION" Language="zh_Hans_CN">
-      <Text>小镇繁荣使商客纷至沓来，真正意义的市政机关逐步建立，郡县就此诞生。[NEWLINE]在升级为郡县级市政厅后，该城市获得以下效果：[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口少于10，则仍会受到最严厉的爆铺惩罚：[ICON_Science] 科技值、[ICON_Culture] 文化值、[ICON_Gold] 金币及 [ICON_Faith] 信仰值产出[COLOR_RED]-4%*（您文明的城市总数量）[ENDCOLOR]。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于10，则受到的爆铺惩罚削弱至“[COLOR_RED]-3%*[ENDCOLOR]”。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于20，则受到的爆铺惩罚削弱至“[COLOR_RED]-2%*[ENDCOLOR]”。[NEWLINE][ICON_Bullet]每个 [ICON_CITIZEN] 公民产出+0.8 [ICON_Science] 科技值、[ICON_Culture] 文化值以及 [ICON_Production] 生产力。[NEWLINE][ICON_Bullet]向周围其他的城市释放较少的 [ICON_PressureUp] 忠诚度压力。</Text>
-    </Replace>
-	<Replace Tag="LOC_BUILDING_CITYHALL_COUNTY_DESCRIPTION" Language="en_US">
-      <Text>Prosperity of Town made traders come in a throng, and Guildhall with true meaning was built up gradually, so County is emerged at this point.[NEWLINE]After upgrading to Guildhall (County), this city may get the following effects:[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is less than 10, it will still get the most severe Crazy-Expansion Punishment, which is: [COLOR_RED]-4%* (total number of cities in your civilization)[ENDCOLOR] yields for [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Gold] Gold and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 10, Crazy-Expansion Punishment in this city will be reduced to "[COLOR_RED]-3%*[ENDCOLOR]".[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 20, Crazy-Expansion Punishment in this city will be reduced to "[COLOR_RED]-2%*[ENDCOLOR]".[NEWLINE][ICON_Bullet]Each [ICON_CITIZEN] Citizen may yield +0.8 [ICON_Science] Science, [ICON_Culture] Culture and [ICON_Production] Production.[NEWLINE][ICON_Bullet]Export small [ICON_PressureUp] Loyalty pressure to your cities nearby, as well as [ICON_PressureDown] Loyalty pressure to cities of other civilizations nearby.</Text>
-    </Replace>
-	<Replace Tag="LOC_BUILDING_CITYHALL_CITY_NAME" Language="zh_Hans_CN">
-      <Text>市政厅（城市）</Text>
-    </Replace>
-	<Replace Tag="LOC_BUILDING_CITYHALL_CITY_NAME" Language="en_US">
-      <Text>Guildhall (City)</Text>
-    </Replace>
-	<Replace Tag="LOC_BUILDING_CITYHALL_CITY_DESCRIPTION" Language="zh_Hans_CN">
-      <Text>郡县继续稳步发展，而科技的火花也在众多思维碰撞中迸发，极大加速更高级的市政厅形成。[NEWLINE]在升级为城市级市政厅后，该城市获得以下效果：[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口少于10，则仍会受到最严厉的爆铺惩罚：[ICON_Science] 科技值、[ICON_Culture] 文化值、[ICON_Gold] 金币及 [ICON_Faith] 信仰值产出[COLOR_RED]-4%*（您文明的城市总数量）[ENDCOLOR]。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于10，则受到的爆铺惩罚削弱至“[COLOR_RED]-3%*[ENDCOLOR]”。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于20，则受到的爆铺惩罚削弱至“[COLOR_RED]-2%*[ENDCOLOR]”。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于30，则受到的爆铺惩罚削弱至“[COLOR_RED]-1%*[ENDCOLOR]”。[NEWLINE][ICON_Bullet]每个 [ICON_CITIZEN] 公民产出+1 [ICON_Science] 科技值、[ICON_Culture] 文化值以及 [ICON_Production] 生产力。[NEWLINE][ICON_Bullet]向周围其他的城市释放一定的 [ICON_PressureUpLarge] 忠诚度压力。</Text>
-    </Replace>
-	<Replace Tag="LOC_BUILDING_CITYHALL_CITY_DESCRIPTION" Language="en_US">
-      <Text>County continued to expand steadily, while the sparks of technology were also burst out by the collision of numerous thoughts, which accelerate the formation of higher-level Guildhall rapidly.[NEWLINE]After upgrading to Guildhall (City), this city may get the following effects:[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is less than 10, it will still get the most severe Crazy-Expansion Punishment, which is: [COLOR_RED]-4%* (total number of cities in your civilization)[ENDCOLOR] yields for [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Gold] Gold and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 10, Crazy-Expansion Punishment in this city will be reduced to "[COLOR_RED]-3%*[ENDCOLOR]".[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 20, Crazy-Expansion Punishment in this city will be reduced to "[COLOR_RED]-2%*[ENDCOLOR]".[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 30, Crazy-Expansion Punishment in this city will be reduced to "[COLOR_RED]-1%*[ENDCOLOR]".[NEWLINE][ICON_Bullet]Each [ICON_CITIZEN] Citizen may yield +1 [ICON_Science] Science, [ICON_Culture] Culture and [ICON_Production] Production.[NEWLINE][ICON_Bullet]Export moderate [ICON_PressureUp] Loyalty pressure to your cities nearby, as well as [ICON_PressureDown] Loyalty pressure to cities of other civilizations nearby.</Text>
-    </Replace>
-	<Replace Tag="LOC_BUILDING_CITYHALL_METROPOLIS_NAME" Language="zh_Hans_CN">
-      <Text>市政厅（大都会）</Text>
-    </Replace>
-	<Replace Tag="LOC_BUILDING_CITYHALL_METROPOLIS_NAME" Language="en_US">
-      <Text>Guildhall (Metropolis)</Text>
-    </Replace>
-	<Replace Tag="LOC_BUILDING_CITYHALL_METROPOLIS_DESCRIPTION" Language="zh_Hans_CN">
-      <Text>城市的快速发展无疑创造许多机遇，吸引更多年轻人前来追求梦想、实现价值。[NEWLINE]在升级为大都会级市政厅后，该城市获得以下效果：[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口少于10，则仍会受到最严厉的爆铺惩罚：[ICON_Science] 科技值、[ICON_Culture] 文化值、[ICON_Gold] 金币及 [ICON_Faith] 信仰值产出[COLOR_RED]-4%*（您文明的城市总数量）[ENDCOLOR]。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于10，则受到的爆铺惩罚削弱至“[COLOR_RED]-3%*[ENDCOLOR]”。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于20，则受到的爆铺惩罚削弱至“[COLOR_RED]-2%*[ENDCOLOR]”。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于30，则受到的爆铺惩罚削弱至“[COLOR_RED]-1%*[ENDCOLOR]”。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于40，则彻底免除爆铺惩罚！[NEWLINE][ICON_Bullet]每个 [ICON_CITIZEN] 公民产出+1.2 [ICON_Science] 科技值、[ICON_Culture] 文化值以及 [ICON_Production] 生产力。[NEWLINE][ICON_Bullet]向周围其他的城市释放大量的 [ICON_PressureUpLarge] 忠诚度压力。</Text>
-    </Replace>
-	<Replace Tag="LOC_BUILDING_CITYHALL_METROPOLIS_DESCRIPTION" Language="en_US">
-      <Text>A burgeoning City could create various opportunities undoubtedly, attracting more young people to persue dreams and realize values.[NEWLINE]After upgrading to Guildhall (Metropolis), this city may get the following effects:[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is less than 10, it will still get the most severe Crazy-Expansion Punishment, which is: [COLOR_RED]-4%* (total number of cities in your civilization)[ENDCOLOR] yields for [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Gold] Gold and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 10, Crazy-Expansion Punishment in this city will be reduced to "[COLOR_RED]-3%*[ENDCOLOR]".[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 20, Crazy-Expansion Punishment in this city will be reduced to "[COLOR_RED]-2%*[ENDCOLOR]".[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 30, Crazy-Expansion Punishment in this city will be reduced to "[COLOR_RED]-1%*[ENDCOLOR]".[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 40, Crazy-Expansion Punishment in this city will be removed![NEWLINE][ICON_Bullet]Each [ICON_CITIZEN] Citizen may yield +1.2 [ICON_Science] Science, [ICON_Culture] Culture and [ICON_Production] Production.[NEWLINE][ICON_Bullet]Export large [ICON_PressureUp] Loyalty pressure to your cities nearby, as well as [ICON_PressureDown] Loyalty pressure to cities of other civilizations nearby.</Text>
-    </Replace>
-	<!-- <Replace Tag="LOC_BUILDING_CITYHALL_MEGALOPOLIS_NAME" Language="zh_Hans_CN"> -->
-      <!-- <Text>市政厅（国际大都市）</Text> -->
-    <!-- </Replace> -->
-	<!-- <Replace Tag="LOC_BUILDING_CITYHALL_MEGALOPOLIS_NAME" Language="en_US"> -->
-      <!-- <Text>Guildhall (Megalopolis)</Text> -->
-    <!-- </Replace> -->
-	<!-- <Replace Tag="LOC_BUILDING_CITYHALL_MEGALOPOLIS_DESCRIPTION" Language="zh_Hans_CN"> -->
-      <!-- <Text>集各项资源为一体的大都会在互联网上极易引起世界各地人们的关注，市政厅也将面临国际化改革。[NEWLINE]在升级为国际大都市级市政厅后，该城市获得以下效果：[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口少于10，则仍会受到最严厉的爆铺惩罚：[ICON_Science] 科技值、[ICON_Culture] 文化值、[ICON_Gold] 金币及 [ICON_Faith] 信仰值产出[COLOR_RED]-5%*（您文明的城市总数量）[ENDCOLOR]。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于10，则受到的爆铺惩罚削弱至“[COLOR_RED]-4%*[ENDCOLOR]”。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于20，则受到的爆铺惩罚削弱至“[COLOR_RED]-3%[ENDCOLOR]”。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于30，则受到的爆铺惩罚削弱至“[COLOR_RED]-2%[ENDCOLOR]”。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于40，则受到的爆铺惩罚削弱至“[COLOR_RED]-1%[ENDCOLOR]”。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于50，则彻底免除爆铺惩罚！[NEWLINE][ICON_Bullet]每个 [ICON_CITIZEN] 公民产出+0.7 [ICON_Science] 科技值、[ICON_Culture] 文化值以及 [ICON_Production] 生产力。[NEWLINE][ICON_Bullet]向周围其他的城市释放极大的 [ICON_PressureUpLarge] 忠诚度压力。</Text> -->
-    <!-- </Replace> -->
-	<!-- <Replace Tag="LOC_BUILDING_CITYHALL_MEGALOPOLIS_DESCRIPTION" Language="en_US"> -->
-      <!-- <Text>Metropolis integrating various resources could be focused easily in the Internet by people from the world, hence Guildhall will also be faced with the Internationalization Reform.[NEWLINE]After upgrading to Guildhall (Megalopolis), this city may get the following effects:[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is less than 10, it will still get the most severe Crazy-Expansion Punishment, which is: [COLOR_RED]-5%* (total number of cities in your civilization)[ENDCOLOR] yields for [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Gold] Gold and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 10, Crazy-Expansion Punishment in this city will be reduced to "[COLOR_RED]-4%[ENDCOLOR]".[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 20, Crazy-Expansion Punishment in this city will be reduced to "[COLOR_RED]-3%[ENDCOLOR]".[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 30, Crazy-Expansion Punishment in this city will be reduced to "[COLOR_RED]-2%[ENDCOLOR]".[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 40, Crazy-Expansion Punishment in this city will be reduced to "[COLOR_RED]-1%[ENDCOLOR]".[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 50, Crazy-Expansion Punishment in this city will be removed![NEWLINE][ICON_Bullet]Each [ICON_CITIZEN] Citizen may yield +0.7 [ICON_Science] Science, [ICON_Culture] Culture and [ICON_Production] Production.[NEWLINE][ICON_Bullet]Each [ICON_CITIZEN]Export huge [ICON_PressureUp] Loyalty pressure to your cities nearby, as well as [ICON_PressureDown] Loyalty pressure to cities of other civilizations nearby.</Text> -->
-    <!-- </Replace> -->
+		<Replace Tag="LOC_GA_CITYLEVEL_POP_TEXT" Language="zh_Hans_CN">
+			<Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]其中{1_Num}来自城市数量惩罚[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_CITYLEVEL_POP_TEXT" Language="en_US">
+			<Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]including {1_Num} from city number punishment[ENDCOLOR]</Text>
+		</Replace>	
+		<!-- 城市扩建系统 -->
+		<Replace Tag="LOC_BUILDING_CITYHALL_VILLAGE_NAME" Language="zh_Hans_CN">
+			<Text>市政厅（村庄）</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITYHALL_VILLAGE_NAME" Language="en_US">
+			<Text>Guildhall (Village)</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITYHALL_VILLAGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>这是一个尚未发展的村庄所建立起的最低级市政厅。[NEWLINE]该城市将受到最严厉的爆铺惩罚：[ICON_Science] 科技值、[ICON_Culture] 文化值、[ICON_Gold] 金币及 [ICON_Faith] 信仰值产出[COLOR_RED]-4%*（您文明的城市总数量）[ENDCOLOR]。[NEWLINE]每个 [ICON_CITIZEN] 公民产出+0.4 [ICON_Science] 科技值、[ICON_Culture] 文化值以及 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITYHALL_VILLAGE_DESCRIPTION" Language="en_US">
+			<Text>It is the lowest level of Guildhall found by a rudimentary Village.[NEWLINE]This city will get the most severe Crazy-Expansion Punishment, which is: [COLOR_RED]-4%* (total number of cities in your civilization)[ENDCOLOR] yields for [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Gold] Gold and [ICON_Faith] Faith.[NEWLINE]Each [ICON_CITIZEN] Citizen may yield +0.4 [ICON_Science] Science, [ICON_Culture] Culture and [ICON_Production] Production.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITYHALL_TOWN_NAME" Language="zh_Hans_CN">
+			<Text>市政厅（小镇）</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITYHALL_TOWN_NAME" Language="en_US">
+			<Text>Guildhall (Town)</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITYHALL_TOWN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>人口增长促进村庄发展，进而衍生集市，乃至小镇。市政厅因此扩建。[NEWLINE]在升级为小镇级市政厅后，该城市获得以下效果：[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口少于10，则仍会受到最严厉的爆铺惩罚：[ICON_Science] 科技值、[ICON_Culture] 文化值、[ICON_Gold] 金币及 [ICON_Faith] 信仰值产出[COLOR_RED]-4%*（您文明的城市总数量）[ENDCOLOR]。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于10，则受到的爆铺惩罚削弱至“[COLOR_RED]-3%*[ENDCOLOR]”。[NEWLINE][ICON_Bullet]每个 [ICON_CITIZEN] 公民产出+0.6 [ICON_Science] 科技值、[ICON_Culture] 文化值以及 [ICON_Production] 生产力。[NEWLINE][ICON_Bullet]向周围其他的城市释放极少的 [ICON_PressureUp] 忠诚度压力。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITYHALL_TOWN_DESCRIPTION" Language="en_US">
+			<Text>The growth of Population promoted the development of Village, and then derived markets, even Town. Therefore Guildhall could be extended.[NEWLINE]After upgrading to Guildhall (Town), this city may get the following effects:[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is less than 10, it will still get the most severe Crazy-Expansion Punishment, which is: [COLOR_RED]-4%* (total number of cities in your civilization)[ENDCOLOR] yields for [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Gold] Gold and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 10, Crazy-Expansion Punishment in this city will be reduced to "[COLOR_RED]-3%[ENDCOLOR]".[NEWLINE][ICON_Bullet]Each [ICON_CITIZEN] Citizen may yield +0.6 [ICON_Science] Science, [ICON_Culture] Culture and [ICON_Production] Production.[NEWLINE][ICON_Bullet]Export tiny [ICON_PressureUp] Loyalty pressure to your cities nearby, as well as [ICON_PressureDown] Loyalty pressure to cities of other civilizations nearby.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITYHALL_COUNTY_NAME" Language="zh_Hans_CN">
+			<Text>市政厅（郡县）</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITYHALL_COUNTY_NAME" Language="en_US">
+			<Text>Guildhall (County)</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITYHALL_COUNTY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>小镇繁荣使商客纷至沓来，真正意义的市政机关逐步建立，郡县就此诞生。[NEWLINE]在升级为郡县级市政厅后，该城市获得以下效果：[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口少于10，则仍会受到最严厉的爆铺惩罚：[ICON_Science] 科技值、[ICON_Culture] 文化值、[ICON_Gold] 金币及 [ICON_Faith] 信仰值产出[COLOR_RED]-4%*（您文明的城市总数量）[ENDCOLOR]。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于10，则受到的爆铺惩罚削弱至“[COLOR_RED]-3%*[ENDCOLOR]”。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于20，则受到的爆铺惩罚削弱至“[COLOR_RED]-2%*[ENDCOLOR]”。[NEWLINE][ICON_Bullet]每个 [ICON_CITIZEN] 公民产出+0.8 [ICON_Science] 科技值、[ICON_Culture] 文化值以及 [ICON_Production] 生产力。[NEWLINE][ICON_Bullet]向周围其他的城市释放较少的 [ICON_PressureUp] 忠诚度压力。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITYHALL_COUNTY_DESCRIPTION" Language="en_US">
+			<Text>Prosperity of Town made traders come in a throng, and Guildhall with true meaning was built up gradually, so County is emerged at this point.[NEWLINE]After upgrading to Guildhall (County), this city may get the following effects:[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is less than 10, it will still get the most severe Crazy-Expansion Punishment, which is: [COLOR_RED]-4%* (total number of cities in your civilization)[ENDCOLOR] yields for [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Gold] Gold and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 10, Crazy-Expansion Punishment in this city will be reduced to "[COLOR_RED]-3%*[ENDCOLOR]".[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 20, Crazy-Expansion Punishment in this city will be reduced to "[COLOR_RED]-2%*[ENDCOLOR]".[NEWLINE][ICON_Bullet]Each [ICON_CITIZEN] Citizen may yield +0.8 [ICON_Science] Science, [ICON_Culture] Culture and [ICON_Production] Production.[NEWLINE][ICON_Bullet]Export small [ICON_PressureUp] Loyalty pressure to your cities nearby, as well as [ICON_PressureDown] Loyalty pressure to cities of other civilizations nearby.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITYHALL_CITY_NAME" Language="zh_Hans_CN">
+			<Text>市政厅（城市）</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITYHALL_CITY_NAME" Language="en_US">
+			<Text>Guildhall (City)</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITYHALL_CITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>郡县继续稳步发展，而科技的火花也在众多思维碰撞中迸发，极大加速更高级的市政厅形成。[NEWLINE]在升级为城市级市政厅后，该城市获得以下效果：[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口少于10，则仍会受到最严厉的爆铺惩罚：[ICON_Science] 科技值、[ICON_Culture] 文化值、[ICON_Gold] 金币及 [ICON_Faith] 信仰值产出[COLOR_RED]-4%*（您文明的城市总数量）[ENDCOLOR]。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于10，则受到的爆铺惩罚削弱至“[COLOR_RED]-3%*[ENDCOLOR]”。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于20，则受到的爆铺惩罚削弱至“[COLOR_RED]-2%*[ENDCOLOR]”。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于30，则受到的爆铺惩罚削弱至“[COLOR_RED]-1%*[ENDCOLOR]”。[NEWLINE][ICON_Bullet]每个 [ICON_CITIZEN] 公民产出+1 [ICON_Science] 科技值、[ICON_Culture] 文化值以及 [ICON_Production] 生产力。[NEWLINE][ICON_Bullet]向周围其他的城市释放一定的 [ICON_PressureUpLarge] 忠诚度压力。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITYHALL_CITY_DESCRIPTION" Language="en_US">
+			<Text>County continued to expand steadily, while the sparks of technology were also burst out by the collision of numerous thoughts, which accelerate the formation of higher-level Guildhall rapidly.[NEWLINE]After upgrading to Guildhall (City), this city may get the following effects:[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is less than 10, it will still get the most severe Crazy-Expansion Punishment, which is: [COLOR_RED]-4%* (total number of cities in your civilization)[ENDCOLOR] yields for [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Gold] Gold and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 10, Crazy-Expansion Punishment in this city will be reduced to "[COLOR_RED]-3%*[ENDCOLOR]".[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 20, Crazy-Expansion Punishment in this city will be reduced to "[COLOR_RED]-2%*[ENDCOLOR]".[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 30, Crazy-Expansion Punishment in this city will be reduced to "[COLOR_RED]-1%*[ENDCOLOR]".[NEWLINE][ICON_Bullet]Each [ICON_CITIZEN] Citizen may yield +1 [ICON_Science] Science, [ICON_Culture] Culture and [ICON_Production] Production.[NEWLINE][ICON_Bullet]Export moderate [ICON_PressureUp] Loyalty pressure to your cities nearby, as well as [ICON_PressureDown] Loyalty pressure to cities of other civilizations nearby.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITYHALL_METROPOLIS_NAME" Language="zh_Hans_CN">
+			<Text>市政厅（大都会）</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITYHALL_METROPOLIS_NAME" Language="en_US">
+			<Text>Guildhall (Metropolis)</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITYHALL_METROPOLIS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市的快速发展无疑创造许多机遇，吸引更多年轻人前来追求梦想、实现价值。[NEWLINE]在升级为大都会级市政厅后，该城市获得以下效果：[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口少于10，则仍会受到最严厉的爆铺惩罚：[ICON_Science] 科技值、[ICON_Culture] 文化值、[ICON_Gold] 金币及 [ICON_Faith] 信仰值产出[COLOR_RED]-4%*（您文明的城市总数量）[ENDCOLOR]。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于10，则受到的爆铺惩罚削弱至“[COLOR_RED]-3%*[ENDCOLOR]”。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于20，则受到的爆铺惩罚削弱至“[COLOR_RED]-2%*[ENDCOLOR]”。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于30，则受到的爆铺惩罚削弱至“[COLOR_RED]-1%*[ENDCOLOR]”。[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于40，则彻底免除爆铺惩罚！[NEWLINE][ICON_Bullet]每个 [ICON_CITIZEN] 公民产出+1.2 [ICON_Science] 科技值、[ICON_Culture] 文化值以及 [ICON_Production] 生产力。[NEWLINE][ICON_Bullet]向周围其他的城市释放大量的 [ICON_PressureUpLarge] 忠诚度压力。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CITYHALL_METROPOLIS_DESCRIPTION" Language="en_US">
+			<Text>A burgeoning City could create various opportunities undoubtedly, attracting more young people to persue dreams and realize values.[NEWLINE]After upgrading to Guildhall (Metropolis), this city may get the following effects:[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is less than 10, it will still get the most severe Crazy-Expansion Punishment, which is: [COLOR_RED]-4%* (total number of cities in your civilization)[ENDCOLOR] yields for [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Gold] Gold and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 10, Crazy-Expansion Punishment in this city will be reduced to "[COLOR_RED]-3%*[ENDCOLOR]".[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 20, Crazy-Expansion Punishment in this city will be reduced to "[COLOR_RED]-2%*[ENDCOLOR]".[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 30, Crazy-Expansion Punishment in this city will be reduced to "[COLOR_RED]-1%*[ENDCOLOR]".[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is NOT less than 40, Crazy-Expansion Punishment in this city will be removed![NEWLINE][ICON_Bullet]Each [ICON_CITIZEN] Citizen may yield +1.2 [ICON_Science] Science, [ICON_Culture] Culture and [ICON_Production] Production.[NEWLINE][ICON_Bullet]Export large [ICON_PressureUp] Loyalty pressure to your cities nearby, as well as [ICON_PressureDown] Loyalty pressure to cities of other civilizations nearby.</Text>
+		</Replace>
 		<Replace Tag="LOC_PROJECT_VILLAGE_TOWN_NAME" Language="zh_Hans_CN">
 			<Text>扩建为小镇</Text>		
 		</Replace>

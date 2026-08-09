@@ -1,11 +1,4 @@
 --15
--- UPDATE GlobalParameters
--- SET Value = -15
--- WHERE Name = 'BARBARIAN_BOLDNESS_PER_KILL';
---2
--- UPDATE GlobalParameters
--- SET Value = -2
--- WHERE Name = 'BARBARIAN_BOLDNESS_PER_TURN';
 --3
 UPDATE GlobalParameters
 SET Value = 6
@@ -15,9 +8,6 @@ UPDATE GlobalParameters
 SET Value = 4
 WHERE Name = 'BARBARIAN_CAMP_MINIMUM_DISTANCE_ANOTHER_CAMP';
 --50
--- UPDATE GlobalParameters
--- SET Value = 100
--- WHERE Name = 'BARBARIAN_TECH_PERCENT';
 --2
 UPDATE GlobalParameters
 SET Value = 20

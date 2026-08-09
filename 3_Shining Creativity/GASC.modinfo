@@ -97,6 +97,15 @@
         <Value>1</Value>
       </ConfigurationValueMatches>
     </Criteria>
+	<!--Sukritact's Oceans 兼容-->
+	<Criteria id="GASC_OCEAN">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_SUK_OCEANS</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+      <ModInUse>4922ba47-61e1-4b15-9281-db996b14522d</ModInUse>
+    </Criteria>
   </ActionCriteria>
   <InGameActions>
     <UpdateDatabase id="GASC_RF">
@@ -131,7 +140,6 @@
       <Criteria>GASC_BUILDING_EXPANSION_MIK</Criteria>	 
 	  <File>GASC_BuildingExpansion/GASC_MIK.sql</File>
     </UpdateDatabase>
-    <UpdateDatabase id="GASC_MEGA" />
     <UpdateDatabase id="GASC_NW_MIK">
       <Properties>
 		<LoadOrder>1000000</LoadOrder>
@@ -153,6 +161,13 @@
       <Criteria>GASC_UNIT_EXPANSION</Criteria>	 
 	  <File>GASC_UnitExpansion/UE_Units.sql</File>
     </UpdateDatabase>
+    <UpdateDatabase id="GASC_OCEAN">
+      <Properties>
+		<LoadOrder>1000000</LoadOrder>
+	  </Properties>  
+      <Criteria>GASC_OCEAN</Criteria>	 
+	  <File>GASC_Ocean.sql</File>
+    </UpdateDatabase>
   </InGameActions>
   <Files>
     <File>GASC_BuildingExpansion/GASC_IdolMaster.sql</File>
@@ -161,10 +176,10 @@
     <File>GASC_BuildingExpansion/GASC_MIK.sql</File>
     <File>GASC_BuildingExpansion/GASC_Wonders.sql</File>
     <File>GASC_Config.sql</File>
-    <File>GASC_CustomTrait/CT_Traits.sql</File>
     <File>GASC_Megalopolis/MEGA_MIK.sql</File>
     <File>GASC_ModText.xml</File>
     <File>GASC_NationalWonder/NW_MIK.sql</File>
+    <File>GASC_Ocean.sql</File>
     <File>GASC_RiseFall/RF_Table.sql</File>
     <File>GASC_RiseFall/RF_Text.xml</File>
     <File>GASC_RiseFall/RF_Traits.sql</File>

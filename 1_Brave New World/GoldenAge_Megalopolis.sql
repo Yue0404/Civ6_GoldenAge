@@ -20,16 +20,18 @@ INSERT OR REPLACE INTO District_Adjacencies
 ('DISTRICT_HARBOR',          'GA_HARBOR_GOLD_MEGA');
 
 INSERT OR REPLACE INTO Adjacency_YieldChanges 
-(ID,                                             Description,                                YieldType,           YieldChange,  TilesRequired,  AdjacentDistrict) VALUES 
-('GA_CAMPUS_SCIENCE_STANDARD',               'LOC_CAMPUS_SCIENCE_STANDARD',              'YIELD_SCIENCE',     1,          	1,            	'DISTRICT_CAMPUS'),
-('GA_THEATER_CULTURE_STANDARD',              'LOC_THEATER_CULTURE_STANDARD',             'YIELD_CULTURE',     1,          	1,            	'DISTRICT_THEATER'),
-('GA_HOLY_SITE_FAITH_STANDARD',              'LOC_HOLY_SITE_FAITH_STANDARD',             'YIELD_FAITH',       1,          	1,            	'DISTRICT_HOLY_SITE'),
-('GA_COMMERCIAL_HUB_GOLD_STANDARD',          'LOC_COMMERCIAL_HUB_GOLD_STANDARD',         'YIELD_GOLD',        1,          	1,            	'DISTRICT_COMMERCIAL_HUB'),
-('GA_INDUSTRIAL_ZONE_PRODUCTION_STANDARD',   'LOC_INDUSTRIAL_ZONE_PRODUCTION_STANDARD',  'YIELD_PRODUCTION',  1,          	1,            	'DISTRICT_INDUSTRIAL_ZONE'),
-('GA_HARBOR_GOLD_STANDARD',                  'LOC_HARBOR_GOLD_STANDARD',                 'YIELD_GOLD',        1,          	1,            	'DISTRICT_HARBOR');
+(ID,										Description,								YieldType,				YieldChange,	TilesRequired,	AdjacentDistrict)
+VALUES 
+('GA_CAMPUS_SCIENCE_STANDARD',				'LOC_CAMPUS_SCIENCE_STANDARD',				'YIELD_SCIENCE',		1,				1,				'DISTRICT_CAMPUS'),
+('GA_THEATER_CULTURE_STANDARD',				'LOC_THEATER_CULTURE_STANDARD',				'YIELD_CULTURE',		1,				1,				'DISTRICT_THEATER'),
+('GA_HOLY_SITE_FAITH_STANDARD',				'LOC_HOLY_SITE_FAITH_STANDARD',				'YIELD_FAITH',			1,				1,				'DISTRICT_HOLY_SITE'),
+('GA_COMMERCIAL_HUB_GOLD_STANDARD',			'LOC_COMMERCIAL_HUB_GOLD_STANDARD',			'YIELD_GOLD',			1,				1,				'DISTRICT_COMMERCIAL_HUB'),
+('GA_INDUSTRIAL_ZONE_PRODUCTION_STANDARD',	'LOC_INDUSTRIAL_ZONE_PRODUCTION_STANDARD',	'YIELD_PRODUCTION',		1,				1,				'DISTRICT_INDUSTRIAL_ZONE'),
+('GA_HARBOR_GOLD_STANDARD',					'LOC_HARBOR_GOLD_STANDARD',					'YIELD_GOLD',			1,				1,				'DISTRICT_HARBOR');
 	
 INSERT OR REPLACE INTO Adjacency_YieldChanges 
-(ID,                                  		Description,                      		YieldType,          	YieldChange, 	TilesRequired,  AdjacentDistrict,             PrereqCivic) VALUES
+(ID,									Description,							YieldType,				YieldChange,	TilesRequired,	AdjacentDistrict,			PrereqCivic) 
+VALUES
 ('GA_CAMPUS_SCIENCE',             		'LOC_CAMPUS_SCIENCE',             		'YIELD_SCIENCE',    	1,         		1,            	'DISTRICT_CAMPUS',           'CIVIC_CIVIL_SERVICE'),
 ('GA_THEATER_CULTURE',            		'LOC_THEATER_CULTURE',            		'YIELD_CULTURE',    	1,         		1,            	'DISTRICT_THEATER',          'CIVIC_CIVIL_SERVICE'),
 ('GA_HOLY_SITE_FAITH',            		'LOC_HOLY_SITE_FAITH',            		'YIELD_FAITH',      	1,         		1,            	'DISTRICT_HOLY_SITE',        'CIVIC_CIVIL_SERVICE'),

@@ -1,10 +1,10 @@
 
-function DeclareWar(player1, player2)
+function DeclareWar(iPlayer1, iPlayer2)
     local localPlayer = Game.GetLocalPlayer();
-	if (Players[localPlayer] ~= player1) then
-		Players[player1]:GetDiplomacy():DeclareWarOn(player2, WarTypes.FORMAL_WAR, true);
+	if (Players[localPlayer] ~= iPlayer1) then
+		Players[iPlayer1]:GetDiplomacy():DeclareWarOn(iPlayer2, WarTypes.FORMAL_WAR, true);
 	else
-		Players[player2]:GetDiplomacy():DeclareWarOn(player1, WarTypes.FORMAL_WAR, true);
+		Players[iPlayer2]:GetDiplomacy():DeclareWarOn(iPlayer1, WarTypes.FORMAL_WAR, true);
 	end
 end
 ExposedMembers.TEST = ExposedMembers.TEST or {}

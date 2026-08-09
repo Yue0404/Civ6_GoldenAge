@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mod id="236af578-08bc-4278-ab57-c700ab3e1457" version="209">
   <Properties>
     <Name>LOC_GOLDENAGE_NAME</Name>
@@ -201,14 +201,7 @@
         <Value>1</Value>
       </ConfigurationValueMatches>
     </Criteria>
-	<!-- <Criteria id="CITYSTATE"> -->
-      <!-- <ConfigurationValueMatches> -->
-        <!-- <Group>Game</Group> -->
-        <!-- <ConfigurationId>GA_CITYSTATE</ConfigurationId> -->
-        <!-- <Value>1</Value> -->
-      <!-- </ConfigurationValueMatches> -->
-    <!-- </Criteria> -->
-		<Criteria id="GA_CITYSTATE">
+	<Criteria id="GA_CITYSTATE">
 			<ConfigurationValueMatches>
 				<Group>Game</Group>
 				<ConfigurationId>GA_CITYSTATE</ConfigurationId>
@@ -231,22 +224,6 @@
       </ConfigurationValueMatches>
 	  <ModInUse inverse="1">d3ee498a-0063-40c8-9c9c-1dedb902f8c6</ModInUse>
     </Criteria>
-	<!-- <Criteria id="SPECIALIST"> -->
-      <!-- <ConfigurationValueMatches> -->
-        <!-- <Group>Game</Group> -->
-        <!-- <ConfigurationId>GA_SPECIALIST</ConfigurationId> -->
-        <!-- <Value>1</Value> -->
-      <!-- </ConfigurationValueMatches> -->
-    <!-- </Criteria> -->
-	<!-- <Criteria id="CITYSTATE_DLC"> -->
-      <!-- <ConfigurationValueMatches> -->
-        <!-- <Group>Game</Group> -->
-        <!-- <ConfigurationId>GA_CITYSTATE</ConfigurationId> -->
-        <!-- <Value>1</Value> -->
-      <!-- </ConfigurationValueMatches> -->
-	  <!-- ETHIOPIA -->
-	  <!-- <ModInUse>1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse> -->
-    <!-- </Criteria> -->
 	<Criteria id="RANDOMEVENTS">
       <ConfigurationValueMatches>
         <Group>Game</Group>
@@ -582,15 +559,6 @@
 			<ModInUse>ed6d133e-4b9d-4194-b8db-10075e8dd90c</ModInUse>
 		</Criteria>	
 
-  <!-- 创意工坊模组兼容-->
-		<!-- <Criteria id="WARFARE_MOARUNIQUEUNITS_GA"> -->
-			<!-- <ConfigurationValueMatches> -->
-				<!-- <Group>Game</Group> -->
-				<!-- <ConfigurationId>WARFARE_OPTION</ConfigurationId> -->
-				<!-- <Value>1</Value> -->
-			<!-- </ConfigurationValueMatches> -->
-			<!-- <ModInUse>a1fe0ce2-ca98-4998-a0c9-2aa1639eb6d0</ModInUse> -->
-		<!-- </Criteria> -->
   </ActionCriteria> 
 
   <FrontEndActions>
@@ -631,10 +599,6 @@
 		  <File>Icons/GoldenAge_Icons.xml</File>
     </UpdateIcons>
 	  
-	
-	<!-- <AddGameplayScripts id="lua"> -->
-	        <!-- <Properties><LoadOrder>8021</LoadOrder></Properties> -->
-	<!-- </AddGameplayScripts> -->
 	
 	<!-- 核心-->
 	<UpdateDatabase id="Gameplay">
@@ -866,12 +830,6 @@
     </UpdateText>		
 
 	
-	<!-- <UpdateDatabase id="Specialist"> -->
-	  <!-- <Properties><LoadOrder>8295</LoadOrder></Properties>   -->
-      <!-- <Criteria>SPECIALIST</Criteria>	  -->
-	      <!-- <File>GoldenAge_Specialists.sql</File>  -->
-	<!-- </UpdateDatabase> -->
-	
 	<UpdateDatabase id="Improvements">
 	  <Properties><LoadOrder>8301</LoadOrder></Properties>  
       <Criteria>IMPROVEMENT</Criteria>	
@@ -914,11 +872,6 @@
       <Criteria>RESOURCE</Criteria>	
       <File>Icons/GoldenAge_Icons_Gold_Resources.xml</File>
     </UpdateIcons>
-	<!-- <UpdateText id="Resources"> -->
-	  <!-- <Properties><LoadOrder>8322</LoadOrder></Properties> -->
-      <!-- <Criteria>RESOURCE</Criteria>	   -->
-    <!-- </UpdateText> -->
-	
 	<UpdateDatabase id="Featureterrain">
 	  <Properties><LoadOrder>8331</LoadOrder></Properties>  
       <Criteria>FEATURETERRAIN</Criteria>	 	        
@@ -926,11 +879,6 @@
 		  <File>GoldenAge_Features.xml</File>
 		  <File>GoldenAge_Terrains.xml</File>
 	</UpdateDatabase>
-	<!-- <UpdateText id="Featureterrain"> -->
-	  <!-- <Properties><LoadOrder>8332</LoadOrder></Properties> -->
-      <!-- <Criteria>FEATURETERRAIN</Criteria>	   -->
-    <!-- </UpdateText> -->
-	
 	<UpdateDatabase id="Governments">
 	  <Properties><LoadOrder>8341</LoadOrder></Properties>  
       <Criteria>GOVERNMENT</Criteria>	
@@ -1395,21 +1343,9 @@
 	<!-- 模组支持 -->
 	<UpdateDatabase id="Mod_Support">
 	  <Properties><LoadOrder>8900</LoadOrder></Properties>  
-	      <!-- <File>Mod_Support/Botanist_Herdsman.sql</File> -->
-		  <!-- <File>Mod_Support/CIVITAS_City_States_Expanded.sql</File>		 -->
-          <!-- <File>Mod_Support/Great_Person_Adjustments.sql</File>		  		   -->
 		  <File>Mod_Support/Immigration.sql</File>
 		  <File>Mod_Support/National_Projects_Satellites.sql</File>
-		  <!-- <File>Mod_Support/Renewable_Energies_Complexity.sql</File>		  		  	 -->
 	</UpdateDatabase>	
-	<UpdateText id="Mod_Support">
-	  <Properties><LoadOrder>8901</LoadOrder></Properties>  		  
-		  <!-- <File>Mod_Support/CIVITAS_City_States_Expanded_Texts.sql</File> -->
-		  <!-- <File>Mod_Support/CIVITAS_City_States_Expanded_Texts.xml</File> -->
-		  <!-- <File>Mod_Support/Great_Person_Adjustments_Texts.xml</File> -->
-          <!-- <File>Mod_Support/Renewable_Energy_Complexity_Texts.xml</File>	 -->
-    </UpdateText>
-	
   </InGameActions> 	
 	
   <Files>	
@@ -1519,7 +1455,6 @@
 	<File>GoldenAge_Resources.sql</File>	
 	<File>GoldenAge_Resources.xml</File>		
 	<File>GoldenAge_Routes.xml</File>
-	<!-- <File>GoldenAge_Specialists.sql</File>	 -->	
 	<File>GoldenAge_TallplayCores.xml</File>
     <File>GoldenAge_Technologies.sql</File>	
 	<File>GoldenAge_Terrains.xml</File>

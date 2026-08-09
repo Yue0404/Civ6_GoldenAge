@@ -171,16 +171,10 @@ UPDATE Units SET Cost = 120, Combat = 20, RangedCombat = 30, Maintenance = 2, Pr
 WHERE UnitType = 'UNIT_ARCHER';
 UPDATE Units SET Cost = 220, Combat = 30, RangedCombat = 40, Maintenance = 3, PrereqTech = 'TECH_APPRENTICESHIP', MandatoryObsoleteTech = 'TECH_PRINTING'
 WHERE UnitType = 'UNIT_CROSSBOWMAN';
--- UPDATE Units SET Cost = 340, Combat = 40, RangedCombat = 50, Maintenance = 4, PrereqTech = 'TECH_PRINTING', MandatoryObsoleteTech = 'TECH_SCIENTIFIC_THEORY'
--- WHERE UnitType = 'UNIT_CULVERIN';
 UPDATE Units SET Cost = 500, Combat = 50, RangedCombat = 60, Maintenance = 5, PrereqTech = 'TECH_SCIENTIFIC_THEORY', MandatoryObsoleteTech = 'TECH_REFINING'
 WHERE UnitType = 'UNIT_FIELD_CANNON';
--- UPDATE Units SET Cost = 700, Combat = 60, RangedCombat = 70, Maintenance = 6, PrereqTech = 'TECH_REFINING', MandatoryObsoleteTech = 'TECH_ADVANCED_BALLISTICS'
--- WHERE UnitType = 'UNIT_HOWITZER';
 UPDATE Units SET Cost = 900, Combat = 70, RangedCombat = 80, Maintenance = 7, PrereqTech = 'TECH_ADVANCED_BALLISTICS', MandatoryObsoleteTech = 'TECH_GUIDANCE_SYSTEMS'
 WHERE UnitType = 'UNIT_MACHINE_GUN';
--- UPDATE Units SET Cost = 1100, Combat = 80, RangedCombat = 90, Maintenance = 8, PrereqTech = 'TECH_GUIDANCE_SYSTEMS'
--- WHERE UnitType = 'UNIT_MISSILE_VEHICLE';
 
 --近战
 UPDATE Units SET BaseSightRange = 1
@@ -197,8 +191,6 @@ UPDATE Units SET Cost = 400, Combat = 67, Maintenance = 5, PrereqTech = 'TECH_RI
 WHERE UnitType = 'UNIT_LINE_INFANTRY';
 UPDATE Units SET Cost = 600, Combat = 77, Maintenance = 6, PrereqTech = 'TECH_REPLACEABLE_PARTS', MandatoryObsoleteTech = 'TECH_COMBINED_ARMS', StrategicResource='RESOURCE_NITER'
 WHERE UnitType = 'UNIT_INFANTRY';
--- UPDATE Units SET Cost = 800, Combat = 87, Maintenance = 7, PrereqTech = 'TECH_COMBINED_ARMS', MandatoryObsoleteTech = 'TECH_LASERS', StrategicResource='RESOURCE_NITER'
--- WHERE UnitType = 'UNIT_ELITE_INFANTRY';
 UPDATE Units SET Cost = 1000, Combat = 97, Maintenance = 8, PrereqTech = 'TECH_LASERS', StrategicResource='RESOURCE_NITER'
 WHERE UnitType = 'UNIT_MECHANIZED_INFANTRY';
 
@@ -207,20 +199,14 @@ UPDATE Units SET BaseSightRange = 1
 WHERE PromotionClass = 'PROMOTION_CLASS_ANTI_CAVALRY';
 UPDATE Units SET Cost = 40, Combat = 23, Maintenance = 1, PrereqTech = 'TECH_BRONZE_WORKING', MandatoryObsoleteTech = 'TECH_IRON_WORKING'
 WHERE UnitType = 'UNIT_SPEARMAN';
--- UPDATE Units SET Cost = 80, Combat = 33, Maintenance = 2, PrereqTech = 'TECH_IRON_WORKING', MandatoryObsoleteTech = 'TECH_MILITARY_TACTICS'
--- WHERE UnitType = 'UNIT_HEAVY_INFANTRY';
 UPDATE Units SET Cost = 160, Combat = 43, Maintenance = 3, PrereqTech = 'TECH_MILITARY_TACTICS', MandatoryObsoleteTech = 'TECH_GUNPOWDER'
 WHERE UnitType = 'UNIT_PIKEMAN';
 UPDATE Units SET Cost = 280, Combat = 53, Maintenance = 4, PrereqTech = 'TECH_GUNPOWDER', MandatoryObsoleteTech = 'TECH_RIFLING'
 WHERE UnitType = 'UNIT_PIKE_AND_SHOT';
--- UPDATE Units SET Cost = 400, Combat = 63, Maintenance = 5, PrereqTech = 'TECH_RIFLING', MandatoryObsoleteTech = 'TECH_REPLACEABLE_PARTS'
--- WHERE UnitType = 'UNIT_ARQUEBUSIER';
 UPDATE Units SET Cost = 600, Combat = 73, Maintenance = 6, PrereqTech = 'TECH_REPLACEABLE_PARTS', MandatoryObsoleteTech = 'TECH_ADVANCED_BALLISTICS'
 WHERE UnitType = 'UNIT_AT_CREW';
 UPDATE Units SET Cost = 800, Combat = 83, Maintenance = 7, PrereqTech = 'TECH_ADVANCED_BALLISTICS', MandatoryObsoleteTech = 'TECH_COMPOSITES', BaseMoves = 2
 WHERE UnitType = 'UNIT_MODERN_AT';
--- UPDATE Units SET Cost = 1000, Combat = 93, Maintenance = 8, PrereqTech = 'TECH_COMPOSITES'
--- WHERE UnitType = 'UNIT_AT_MISSILE';
 
 --攻城
 UPDATE Units SET BaseSightRange = 1
@@ -231,28 +217,18 @@ UPDATE Units SET Cost = 280, Combat = 30, Bombard = 50, Range = 3, BaseMoves = 1
 WHERE UnitType = 'UNIT_TREBUCHET';
 UPDATE Units SET Cost = 400, Combat = 40, Bombard = 60, Range = 3, BaseMoves = 1, Maintenance = 4, PrereqTech = 'TECH_SIEGE_TACTICS', MandatoryObsoleteTech = 'TECH_BALLISTICS', StrategicResource='RESOURCE_IRON'
 WHERE UnitType = 'UNIT_BOMBARD';
--- UPDATE Units SET Cost = 600, Combat = 50, Bombard = 70, Range = 3, BaseMoves = 1, Maintenance = 5, PrereqTech = 'TECH_BALLISTICS', MandatoryObsoleteTech = 'TECH_STEEL', StrategicResource='RESOURCE_IRON'
--- WHERE UnitType = 'UNIT_RIFLED_CANNON';
 UPDATE Units SET Cost = 800, Combat = 60, Bombard = 80, Range = 3, BaseMoves = 1, Maintenance = 6, PrereqTech = 'TECH_STEEL', MandatoryObsoleteTech = 'TECH_COMBINED_ARMS', StrategicResource='RESOURCE_IRON'
 WHERE UnitType = 'UNIT_ARTILLERY';
--- UPDATE Units SET Cost = 1000, Combat = 70, Bombard = 90, Range = 3, BaseMoves = 1, Maintenance = 7, PrereqTech = 'TECH_COMBINED_ARMS', MandatoryObsoleteTech = 'TECH_GUIDANCE_SYSTEMS', StrategicResource='RESOURCE_IRON'
--- WHERE UnitType = 'UNIT_ATOMIC_ARTILLERY';
 UPDATE Units SET Cost = 1200, Combat = 80, Bombard = 100, Range = 3, BaseMoves = 1, Maintenance = 8, PrereqTech = 'TECH_GUIDANCE_SYSTEMS', StrategicResource='RESOURCE_IRON'
 WHERE UnitType = 'UNIT_ROCKET_ARTILLERY';
 
 --重骑兵
 UPDATE Units SET Cost = 80, Combat = 30, Maintenance = 1, PrereqTech = 'TECH_THE_WHEEL', MandatoryObsoleteTech = 'TECH_HORSEBACK_RIDING'
 WHERE UnitType = 'UNIT_HEAVY_CHARIOT';
--- UPDATE Units SET Cost = 160, Combat = 40, Maintenance = 2, PrereqTech = 'TECH_HORSEBACK_RIDING', MandatoryObsoleteTech = 'TECH_STIRRUPS', StrategicResource='RESOURCE_HORSES'
--- WHERE UnitType = 'UNIT_ARMORED_HORSEMAN';
 UPDATE Units SET Cost = 280, Combat = 50, Maintenance = 3, PrereqTech = 'TECH_STIRRUPS', MandatoryObsoleteTech = 'TECH_METAL_CASTING', StrategicResource='RESOURCE_HORSES'
 WHERE UnitType = 'UNIT_KNIGHT';
--- UPDATE Units SET Cost = 400, Combat = 60, Maintenance = 4, PrereqTech = 'TECH_METAL_CASTING', MandatoryObsoleteTech = 'TECH_MILITARY_SCIENCE', StrategicResource='RESOURCE_HORSES'
--- WHERE UnitType = 'UNIT_REITER';
 UPDATE Units SET Cost = 600, Combat = 70, Maintenance = 5, PrereqTech = 'TECH_MILITARY_SCIENCE', MandatoryObsoleteTech = 'TECH_COMBUSTION', StrategicResource='RESOURCE_HORSES'
 WHERE UnitType = 'UNIT_CUIRASSIER';
--- UPDATE Units SET Cost = 800, Combat = 80, Maintenance = 6, PrereqTech = 'TECH_COMBUSTION', MandatoryObsoleteTech = 'TECH_SYNTHETIC_MATERIALS', StrategicResource='RESOURCE_OIL'
--- WHERE UnitType = 'UNIT_LANDSHIP';
 UPDATE Units SET Cost = 1000, Combat = 90, Maintenance = 7, PrereqTech = 'TECH_SYNTHETIC_MATERIALS', MandatoryObsoleteTech = 'TECH_ROBOTICS', StrategicResource='RESOURCE_OIL'
 WHERE UnitType = 'UNIT_TANK';
 UPDATE Units SET Cost = 1200, Combat = 100, Maintenance = 8, PrereqTech = 'TECH_ROBOTICS', StrategicResource='RESOURCE_OIL'
@@ -263,16 +239,10 @@ UPDATE Units SET Cost = 120, Combat = 35, BaseMoves = 5, Maintenance = 2, Prereq
 WHERE UnitType = 'UNIT_HORSEMAN';
 UPDATE Units SET Cost = 220, Combat = 45, BaseMoves = 5, Maintenance = 3, PrereqTech = 'TECH_STIRRUPS', MandatoryObsoleteTech = 'TECH_METAL_CASTING', StrategicResource='RESOURCE_HORSES'
 WHERE UnitType = 'UNIT_COURSER';
--- UPDATE Units SET Cost = 340, Combat = 55, BaseMoves = 5, Maintenance = 4, PrereqTech = 'TECH_METAL_CASTING', MandatoryObsoleteTech = 'TECH_MILITARY_SCIENCE', StrategicResource='RESOURCE_HORSES'
--- WHERE UnitType = 'UNIT_DRAGOON';
 UPDATE Units SET Cost = 500, Combat = 65, BaseMoves = 5, Maintenance = 5, PrereqTech = 'TECH_MILITARY_SCIENCE', MandatoryObsoleteTech = 'TECH_COMBUSTION', StrategicResource='RESOURCE_HORSES'
 WHERE UnitType = 'UNIT_CAVALRY';
--- UPDATE Units SET Cost = 700, Combat = 75, BaseMoves = 5, Maintenance = 6, PrereqTech = 'TECH_COMBUSTION', MandatoryObsoleteTech = 'TECH_SYNTHETIC_MATERIALS', StrategicResource='RESOURCE_HORSES'
--- WHERE UnitType = 'UNIT_CARABINIER';
 UPDATE Units SET Cost = 900, Combat = 85, BaseMoves = 5, Maintenance = 7, PrereqTech = 'TECH_SYNTHETIC_MATERIALS', MandatoryObsoleteTech = 'TECH_ROBOTICS', StrategicResource='RESOURCE_OIL'
 WHERE UnitType = 'UNIT_HELICOPTER';
--- UPDATE Units SET Cost = 1100, Combat = 95, BaseMoves = 5, Maintenance = 8, PrereqTech = 'TECH_ROBOTICS', StrategicResource='RESOURCE_OIL'
--- WHERE UnitType = 'UNIT_SUPER_HELICOPTER';
 
 --侦察
 UPDATE Units SET Cost = 40, Combat= 22, RangedCombat = 0, BaseMoves = 3, BaseSightRange = 3, Range = 0

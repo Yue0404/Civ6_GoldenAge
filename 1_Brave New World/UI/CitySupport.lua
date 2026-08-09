@@ -381,7 +381,7 @@ function HistoricalEra(pCity)
             sResult2 = '-15%'
         end
     end
-    local eratext = Locale.Lookup("LOC_ERA_TEXT", sResult2)
+    local eratext = Locale.Lookup("LOC_GA_HISTORICAL_ERA_TEXT", sResult2)
     return "[NEWLINE]" .. eratext
 end
 -- =========================
@@ -486,7 +486,7 @@ function CrazyExpansion(pCity)
     end
 
     local sResultText = "-" .. iTotalPenalty .. "%"
-    local sPoptext = Locale.Lookup("LOC_POP_TEXT", sResultText)
+    local sPoptext = Locale.Lookup("LOC_GA_CITYLEVEL_POP_TEXT", sResultText)
 
     return "[NEWLINE]" .. sPoptext
 end
@@ -514,7 +514,7 @@ function CityPolicy(pCity, pYieldType)
         iYieldRate = "-5%"
     end
 
-    return "[NEWLINE]" .. Locale.Lookup("LOC_CITYPOLICY_TEXT", iYieldRate)
+    return "[NEWLINE]" .. Locale.Lookup("LOC_GA_CITYPOLICY_TEXT", iYieldRate)
 end	
 -- ===========================================================================
 --	Update the yield data for a city.

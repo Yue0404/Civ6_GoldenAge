@@ -537,16 +537,3 @@ INSERT OR REPLACE INTO CivilizationTraits (CivilizationType,              TraitT
 
 
 
--- INSERT OR REPLACE INTO RequirementSets 				(RequirementSetId ,         RequirementSetType) 	VALUES 		
--- ('GOLDEN_PLANTATION_CITY_HAS_NO_LESS_THAN_3_LUXURY_RESOURCE_REQUIREMENTS' , 		    'REQUIREMENTSET_TEST_ALL');
-
--- INSERT OR REPLACE INTO RequirementSetRequirements 	(RequirementSetId ,         RequirementId) 			VALUES 		
--- ('GOLDEN_PLANTATION_CITY_HAS_NO_LESS_THAN_3_LUXURY_RESOURCE_REQUIREMENTS' , 		    'GOLDEN_REQUIRES_PLANTATION_CITY_HAS_NO_LESS_THAN_3_LUXURY_RESOURCE');
-
--- INSERT OR REPLACE INTO 		Requirements (RequirementId,				            RequirementType) VALUES					    
--- ('GOLDEN_REQUIRES_PLANTATION_CITY_HAS_NO_LESS_THAN_3_LUXURY_RESOURCE',	       'REQUIREMENT_COLLECTION_COUNT_ATLEAST');
-
--- INSERT OR REPLACE INTO 		RequirementArguments (RequirementId,		                Name,			        Value) VALUES					    
--- ('GOLDEN_REQUIRES_PLANTATION_CITY_HAS_NO_LESS_THAN_3_LUXURY_RESOURCE',		                    'RequirementSetId',		    'GOLDEN_PLOT_HAS_ANY_LUXURY_RESOURCE_REQUIREMENTS'),
--- ('GOLDEN_REQUIRES_PLANTATION_CITY_HAS_NO_LESS_THAN_3_LUXURY_RESOURCE',				            'CollectionType',			'COLLECTION_CITY_PLOT_YIELDS'),
--- ('GOLDEN_REQUIRES_PLANTATION_CITY_HAS_NO_LESS_THAN_3_LUXURY_RESOURCE',				            'Count',					3);

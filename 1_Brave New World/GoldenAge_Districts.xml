@@ -510,7 +510,9 @@
 		<Delete DistrictType="DISTRICT_HARBOR" YieldChangeId="Harbor_City_Gold"/>			
         <Row DistrictType="DISTRICT_HARBOR" YieldChangeId="CANAL_GOLD"/>		
 		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="CANAL_GOLD"/>		
-		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="RESOURCE_GOLD_ECONOMICS"/>		
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="GAD_ENTERTAINMENT_COMPLEX_GOLD"/>
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="GAD_WATER_ENTERTAINMENT_COMPLEX_GOLD"/>
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="RESOURCE_GOLD_ECONOMICS"/>	
 		<Row DistrictType="DISTRICT_HARBOR" YieldChangeId="RESOURCE_GOLD_ECONOMICS"/>		
 		<!--学院区-->
 		<Delete DistrictType="DISTRICT_CAMPUS" YieldChangeId="Jungle_Science"/>
@@ -553,6 +555,8 @@
 	        <Where ID="Cothon_Gold"/> <Set YieldChange="1"/>
 	    </Update>
 		<Row ID="CANAL_GOLD" Description="LOC_CANAL_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_CANAL"/>
+		<Row ID="GAD_ENTERTAINMENT_COMPLEX_GOLD" Description="LOC_GAD_ENTERTAINMENT_COMPLEX_GOLD_DESCRIPTION" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_ENTERTAINMENT_COMPLEX"/>
+		<Row ID="GAD_WATER_ENTERTAINMENT_COMPLEX_GOLD" Description="LOC_GAD_WATER_ENTERTAINMENT_COMPLEX_GOLD_DESCRIPTION" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_WATER_ENTERTAINMENT_COMPLEX"/>
 		<!--工业区-->
 		<Row ID="LUMBER_PRODUCTION" Description="LOC_LUMBER_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_LUMBER_MILL"/>
 		<Update>

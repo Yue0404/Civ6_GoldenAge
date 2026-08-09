@@ -5,36 +5,27 @@ DELETE FROM StartingBuildings WHERE Era <> 'ERA_ANCIENT';
 --学院
 UPDATE Buildings SET Cost = 100, Maintenance = 2, RegionalRange = 3, CitizenSlots = 1, Description = 'LOC_BUILDING_LIBRARY_DESCRIPTION' WHERE BuildingType = 'BUILDING_LIBRARY';
 UPDATE Buildings SET Cost = 360, Maintenance = 3, RegionalRange = 4, CitizenSlots = 1, Description = 'LOC_BUILDING_UNIVERSITY_DESCRIPTION', Housing = 0 WHERE BuildingType = 'BUILDING_UNIVERSITY';
--- UPDATE Buildings SET Cost = 180, Maintenance = 3, RegionalRange = 4, CitizenSlots = 1, Housing = 0 WHERE BuildingType = 'BUILDING_MADRASA';--UB
 UPDATE Buildings SET Cost = 180, Maintenance = 3, RegionalRange = 4, CitizenSlots = 1, Housing = 0 WHERE BuildingType = 'BUILDING_ALCHEMICAL_SOCIETY' AND EXISTS (SELECT * FROM Buildings WHERE BuildingType='BUILDING_ALCHEMICAL_SOCIETY');
--- UPDATE Buildings SET Cost = 180, Maintenance = 3, RegionalRange = 4, CitizenSlots = 1, Housing = 0 WHERE BuildingType = 'BUILDING_NAVIGATION_SCHOOL' AND EXISTS (SELECT * FROM Buildings WHERE BuildingType='BUILDING_NAVIGATION_SCHOOL');--UB
 UPDATE Buildings SET Cost = 800, Maintenance = 4, RegionalRange = 5, CitizenSlots = 1, Description = 'LOC_BUILDING_RESEARCH_LAB_DESCRIPTION', PrereqTech="TECH_SANITATION" WHERE BuildingType = 'BUILDING_RESEARCH_LAB';
 --工业区
 UPDATE Buildings SET Cost = 240, Maintenance = 2, RegionalRange = 3, CitizenSlots = 1 WHERE BuildingType = 'BUILDING_WORKSHOP';
 UPDATE Buildings SET Cost = 600, Maintenance = 3, RegionalRange = 4, CitizenSlots = 1 WHERE BuildingType = 'BUILDING_FACTORY';
--- UPDATE Buildings SET Cost = 300, Maintenance = 3, RegionalRange = 4, CitizenSlots = 1 WHERE BuildingType = 'BUILDING_ELECTRONICS_FACTORY';--UB
 UPDATE Buildings SET Cost = 1000, Maintenance = 4, RegionalRange = 5, CitizenSlots = 1, PrereqTech="TECH_STEAM_POWER" WHERE BuildingType = 'BUILDING_COAL_POWER_PLANT';
 UPDATE Buildings SET Cost = 1000, Maintenance = 4, RegionalRange = 5, CitizenSlots = 1 WHERE BuildingType = 'BUILDING_FOSSIL_FUEL_POWER_PLANT';
 UPDATE Buildings SET Cost = 1000, Maintenance = 4, RegionalRange = 5, CitizenSlots = 1 WHERE BuildingType = 'BUILDING_POWER_PLANT';
 --剧院
 UPDATE Buildings SET Cost = 160, Maintenance = 2, RegionalRange = 3, CitizenSlots = 1, Description = 'LOC_BUILDING_AMPHITHEATER_DESCRIPTION' WHERE BuildingType = 'BUILDING_AMPHITHEATER';
--- UPDATE Buildings SET Cost = 80, Maintenance = 2, RegionalRange = 3, CitizenSlots = 1 WHERE BuildingType = 'BUILDING_MARAE';--UB
 UPDATE Buildings SET Cost = 480, Maintenance = 3, RegionalRange = 4, CitizenSlots = 1 WHERE BuildingType = 'BUILDING_MUSEUM_ART';
 UPDATE Buildings SET Cost = 480, Maintenance = 3, RegionalRange = 4, CitizenSlots = 1 WHERE BuildingType = 'BUILDING_MUSEUM_ARTIFACT';
 UPDATE Buildings SET Cost = 1000, Maintenance = 4, RegionalRange = 5, CitizenSlots = 1, Description = 'LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION' WHERE BuildingType = 'BUILDING_BROADCAST_CENTER';
--- UPDATE Buildings SET Cost = 500, Maintenance = 4, RegionalRange = 5, CitizenSlots = 1 WHERE BuildingType = 'BUILDING_FILM_STUDIO';--UB
 --商业
 UPDATE Buildings SET Cost = 160, Maintenance = 2, RegionalRange = 3, CitizenSlots = 1 WHERE BuildingType = 'BUILDING_MARKET';
--- UPDATE Buildings SET Cost = 80, Maintenance = 2, RegionalRange = 3, CitizenSlots = 1 WHERE BuildingType = 'BUILDING_SUKIENNICE' AND EXISTS (SELECT * FROM Buildings WHERE BuildingType='BUILDING_SUKIENNICE');--UB
 UPDATE Buildings SET Cost = 480, Maintenance = 3, RegionalRange = 4, CitizenSlots = 1 WHERE BuildingType = 'BUILDING_BANK';
--- UPDATE Buildings SET Cost = 240, Maintenance = 3, RegionalRange = 4, CitizenSlots = 1 WHERE BuildingType = 'BUILDING_GRAND_BAZAAR';--UB
 UPDATE Buildings SET Cost = 240, Maintenance = 3, RegionalRange = 4, CitizenSlots = 1 WHERE BuildingType = 'BUILDING_GILDED_VAULT' AND EXISTS (SELECT * FROM Buildings WHERE BuildingType='BUILDING_GILDED_VAULT');
 UPDATE Buildings SET Cost = 800, Maintenance = 4, RegionalRange = 5, CitizenSlots = 1 WHERE BuildingType = 'BUILDING_STOCK_EXCHANGE';
 --圣地
 UPDATE Buildings SET Cost = 100, Maintenance = 2, RegionalRange = 3, CitizenSlots = 1 WHERE BuildingType = 'BUILDING_SHRINE';
 UPDATE Buildings SET Cost = 200, Maintenance = 3, RegionalRange = 4, CitizenSlots = 1 WHERE BuildingType = 'BUILDING_TEMPLE';
--- UPDATE Buildings SET Cost = 100, Maintenance = 3, RegionalRange = 4, CitizenSlots = 1 WHERE BuildingType = 'BUILDING_STAVE_CHURCH';--UB
--- UPDATE Buildings SET Cost = 100, Maintenance = 3, RegionalRange = 4, CitizenSlots = 1 WHERE BuildingType = 'BUILDING_PRASAT' AND EXISTS (SELECT * FROM Buildings WHERE BuildingType='BUILDING_PRASAT');--UB
 UPDATE Buildings SET Cost = 500, Maintenance = 4, RegionalRange = 5, CitizenSlots = 1 WHERE EnabledByReligion = 1;--WORSHIP
 --港口
 UPDATE Buildings SET Cost = 160, Maintenance = 2, CitizenSlots = 1, Housing = 0 WHERE BuildingType = 'BUILDING_LIGHTHOUSE';
@@ -43,15 +34,11 @@ UPDATE Buildings SET Cost = 1000, Maintenance = 4, CitizenSlots = 1, Housing = 0
 --军营
 UPDATE Buildings SET Cost = 100, Maintenance = 2, CitizenSlots = 1, Housing = 2 WHERE BuildingType = 'BUILDING_BARRACKS';
 UPDATE Buildings SET Cost = 100, Maintenance = 2, CitizenSlots = 1, Housing = 2 WHERE BuildingType = 'BUILDING_STABLE';
--- UPDATE Buildings SET Cost = 50, Maintenance = 2, CitizenSlots = 1, Housing = 2 WHERE BuildingType = 'BUILDING_ORDU';--UB
--- UPDATE Buildings SET Cost = 50, Maintenance = 2, CitizenSlots = 1, Housing = 2 WHERE BuildingType = 'BUILDING_BASILIKOI_PAIDES' AND EXISTS (SELECT * FROM Buildings WHERE BuildingType='BUILDING_BASILIKOI_PAIDES');--UB
 UPDATE Buildings SET Cost = 360, Maintenance = 3, CitizenSlots = 1, Housing = 3 WHERE BuildingType = 'BUILDING_ARMORY';
 UPDATE Buildings SET Cost = 800, Maintenance = 4, CitizenSlots = 1, Housing = 4 WHERE BuildingType = 'BUILDING_MILITARY_ACADEMY';
 --娱乐
 UPDATE Buildings SET Cost = 160, Maintenance = 2, RegionalRange = 3, CitizenSlots = 1, Entertainment = 1 WHERE BuildingType = 'BUILDING_ARENA';
--- UPDATE Buildings SET Cost = 80, Maintenance = 2, RegionalRange = 3, CitizenSlots = 1, Entertainment = 1 WHERE BuildingType = 'BUILDING_TLACHTLI' AND EXISTS (SELECT * FROM Buildings WHERE BuildingType='BUILDING_TLACHTLI');--UB
 UPDATE Buildings SET Cost = 500, Maintenance = 3, RegionalRange = 4, CitizenSlots = 1, Entertainment = 2, PrereqCivic = 'CIVIC_THE_ENLIGHTENMENT' WHERE BuildingType = 'BUILDING_ZOO';
--- UPDATE Buildings SET Cost = 250, Maintenance = 3, RegionalRange = 4, CitizenSlots = 1, Entertainment = 2 WHERE BuildingType = 'BUILDING_THERMAL_BATH';--UB
 UPDATE Buildings SET Cost = 1200, Maintenance = 4, RegionalRange = 5, CitizenSlots = 1, Entertainment = 3 WHERE BuildingType = 'BUILDING_STADIUM';
 UPDATE Buildings SET Cost = 160, Maintenance = 2, RegionalRange = 3, CitizenSlots = 1, Entertainment = 1, PrereqCivic="CIVIC_COLONIALISM" WHERE BuildingType = 'BUILDING_FERRIS_WHEEL';
 UPDATE Buildings SET Cost = 500, Maintenance = 3, RegionalRange = 4, CitizenSlots = 1, Entertainment = 2 WHERE BuildingType = 'BUILDING_AQUARIUM';

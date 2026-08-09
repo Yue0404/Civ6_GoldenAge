@@ -1,46 +1,4 @@
 <GameInfo>
-	<Governments>
-	    <Update>
-	        <Where GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC"/> <Set OtherGovernmentIntolerance="-4"/>
-	    </Update>
-		<Update>
-	        <Where GovernmentType="GOVERNMENT_AUTOCRACY"/> <Set OtherGovernmentIntolerance="-4"/>
-	    </Update>
-		<Update>
-	        <Where GovernmentType="GOVERNMENT_OLIGARCHY"/> <Set OtherGovernmentIntolerance="-4"/>
-	    </Update>
-		<Update>
-	        <Where GovernmentType="GOVERNMENT_MONARCHY"/> <Set OtherGovernmentIntolerance="-8" />
-	    </Update>
-		<Update>
-	        <Where GovernmentType="GOVERNMENT_THEOCRACY"/> <Set OtherGovernmentIntolerance="-8"/>
-	    </Update>
-		<Update>
-	        <Where GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC"/> <Set OtherGovernmentIntolerance="-8"/>
-	    </Update>
-		<Update>
-	        <Where GovernmentType="GOVERNMENT_FASCISM"/> <Set OtherGovernmentIntolerance="-12"/>
-	    </Update>
-		<Update>
-	        <Where GovernmentType="GOVERNMENT_COMMUNISM"/> <Set OtherGovernmentIntolerance="-12"/>
-	    </Update>
-		<Update>
-	        <Where GovernmentType="GOVERNMENT_DEMOCRACY"/> <Set OtherGovernmentIntolerance="-12"/>
-	    </Update>
-		<Update>
-	        <Where GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM"/> <Set OtherGovernmentIntolerance="-16"/>
-	    </Update>
-		<Update>
-	        <Where GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY"/> <Set OtherGovernmentIntolerance="-16"/>
-	    </Update>
-		<Update>
-	        <Where GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY"/> <Set OtherGovernmentIntolerance="-16"/>
-	    </Update>				
-	</Governments>
-	
-	<Policies>
-	</Policies>	
-	
 	<GovernmentModifiers>
 	<!--寡头-->
 	    <Delete GovernmentType="GOVERNMENT_OLIGARCHY" ModifierId="OLIGARCHY_MELEE"/>
@@ -338,10 +296,6 @@
 			<Name>Amount</Name>
 			<Value>-15</Value>
 		</Row>
-	    <!-- <Update> -->
-		   <!-- <Where ModifierId="OLIGARCHY_UNIT_EXPERIENCE" Name="Amount"/> -->
-		   <!-- <Set Value="50"/> -->
-	    <!-- </Update> -->
 	<!--古典共和-->		
 	    <Update>
 		   <Where ModifierId="CLASSICAL_REPUBLIC_GREAT_PEOPLE" Name="Amount"/>

@@ -4,7 +4,8 @@ DELETE FROM Improvement_ValidTerrains WHERE ImprovementType='IMPROVEMENT_MINE';
 
 --资源培育 Credit to 'Resource Cultivation' by Zegangani.
 INSERT OR REPLACE INTO Types
-(Type,						Kind) VALUES	
+(Type,				Kind)
+VALUES	
 ('UNIT_FARMER',		'KIND_UNIT'),
 ('UNIT_HERDMAN',	'KIND_UNIT'),
 ('UNIT_FISHER',		'KIND_UNIT'),
@@ -18,7 +19,8 @@ INSERT OR REPLACE INTO Units
 ('UNIT_MINER',		'LOC_UNIT_MINER_NAME',		'LOC_UNIT_MINER_DESCRIPTION',		1,				 2, 		'DOMAIN_LAND', 'FORMATION_CLASS_CIVILIAN',	100,		'COST_PROGRESSION_PREVIOUS_COPIES',		25,					2,				'YIELD_GOLD',	 1, 			'TECH_CONSTRUCTION');
 
 INSERT OR REPLACE INTO TypeTags
-(Type,				Tag) VALUES	
+(Type,				Tag)
+VALUES	
 ('UNIT_FARMER',		'CLASS_BUILDER'),
 ('UNIT_FARMER',		'CLASS_LANDCIVILIAN'),
 ('UNIT_HERDMAN',	'CLASS_BUILDER'),
@@ -36,7 +38,8 @@ INSERT OR REPLACE INTO UnitCaptures
 ('UNIT_MINER',		'UNIT_MINER');
 
 INSERT OR REPLACE INTO Improvement_ValidBuildUnits
-(ImprovementType,				UnitType) VALUES	
+(ImprovementType,				UnitType)
+VALUES	
 ('IMPROVEMENT_FARM',			'UNIT_FARMER'),
 ('IMPROVEMENT_PLANTATION',		'UNIT_FARMER'),
 ('IMPROVEMENT_PASTURE',			'UNIT_HERDMAN'),
@@ -47,7 +50,8 @@ INSERT OR REPLACE INTO Improvement_ValidBuildUnits
 ('IMPROVEMENT_QUARRY',			'UNIT_MINER');
 	
 INSERT OR REPLACE INTO UnitAiInfos
-(UnitType,			AiType)  VALUES	
+(UnitType,			AiType)
+VALUES	
 ('UNIT_FARMER',		'UNITAI_BUILD'),
 ('UNIT_FARMER',		'UNITTYPE_CIVILIAN'),
 ('UNIT_HERDMAN',	'UNITAI_BUILD'),
@@ -58,73 +62,13 @@ INSERT OR REPLACE INTO UnitAiInfos
 ('UNIT_MINER',		'UNITTYPE_CIVILIAN');
 
 INSERT OR REPLACE INTO AiFavoredItems
-(ListType,					Item,				Value) VALUES	
+(ListType,					Item,				Value)
+VALUES	
 ('UnitPriorityBoosts',		'UNIT_FARMER',		50),
 ('UnitPriorityBoosts',		'UNIT_HERDMAN',		50),
 ('UnitPriorityBoosts',		'UNIT_FISHER',		50),
 ('UnitPriorityBoosts',		'UNIT_MINER',		50);
 
---==========================================================================================================================
---AI free units by era
--- INSERT OR REPLACE INTO TraitModifiers
-       -- (TraitType ,           ModifierId)
--- SELECT 'TRAIT_LEADER_MAJOR_CIV' ,  'GOLDEN_AI_UNIT_FARMER_' ||EraType 
--- FROM Eras WHERE ChronologyIndex = 3 OR ChronologyIndex = 5 OR ChronologyIndex = 7;
--- INSERT OR REPLACE INTO TraitModifiers
-       -- (TraitType ,           ModifierId)
--- SELECT 'TRAIT_LEADER_MAJOR_CIV' ,  'GOLDEN_AI_UNIT_HERDMAN_' ||EraType 
--- FROM Eras WHERE ChronologyIndex = 3 OR ChronologyIndex = 5 OR ChronologyIndex = 7;
--- INSERT OR REPLACE INTO TraitModifiers
-       -- (TraitType ,           ModifierId)
--- SELECT 'TRAIT_LEADER_MAJOR_CIV' ,  'GOLDEN_AI_UNIT_FISHER_' ||EraType 
--- FROM Eras WHERE ChronologyIndex = 3 OR ChronologyIndex = 5 OR ChronologyIndex = 7;
--- INSERT OR REPLACE INTO TraitModifiers
-       -- (TraitType ,           ModifierId)
--- SELECT 'TRAIT_LEADER_MAJOR_CIV' ,  'GOLDEN_AI_UNIT_MINER_' ||EraType 
--- FROM Eras WHERE ChronologyIndex = 3 OR ChronologyIndex = 5 OR ChronologyIndex = 7;
-
--- INSERT OR REPLACE INTO Modifiers
-       -- (ModifierId ,                                ModifierType,                                    		SubjectRequirementSetId)
--- SELECT 'GOLDEN_AI_UNIT_FARMER_' ||EraType,        	'MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL',   				'GOLDEN_AI_IS_GAME_ERA_ATLEAST_' ||EraType|| '_REQUIREMENTS' 
--- FROM Eras WHERE ChronologyIndex = 3 OR ChronologyIndex = 5 OR ChronologyIndex = 7;
--- INSERT OR REPLACE INTO Modifiers
-       -- (ModifierId ,                                ModifierType,                                    		SubjectRequirementSetId)
--- SELECT 'GOLDEN_AI_UNIT_HERDMAN_' ||EraType,        	'MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL',   				'GOLDEN_AI_IS_GAME_ERA_ATLEAST_' ||EraType|| '_REQUIREMENTS' 
--- FROM Eras WHERE ChronologyIndex = 3 OR ChronologyIndex = 5 OR ChronologyIndex = 7;
--- INSERT OR REPLACE INTO Modifiers
-       -- (ModifierId ,                                ModifierType,                                    		SubjectRequirementSetId)
--- SELECT 'GOLDEN_AI_UNIT_FISHER_' ||EraType,        	'MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL',   				'GOLDEN_AI_IS_GAME_ERA_ATLEAST_' ||EraType|| '_REQUIREMENTS' 
--- FROM Eras WHERE ChronologyIndex = 3 OR ChronologyIndex = 5 OR ChronologyIndex = 7;
--- INSERT OR REPLACE INTO Modifiers
-       -- (ModifierId ,                                ModifierType,                                    		SubjectRequirementSetId)
--- SELECT 'GOLDEN_AI_UNIT_MINER_' ||EraType,        	'MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL',   				'GOLDEN_AI_IS_GAME_ERA_ATLEAST_' ||EraType|| '_REQUIREMENTS' 
--- FROM Eras WHERE ChronologyIndex = 3 OR ChronologyIndex = 5 OR ChronologyIndex = 7;
-
--- INSERT OR REPLACE INTO ModifierArguments
-       -- (ModifierId , Name , Value)
--- SELECT ModifierId , 'Amount' , 		1 FROM TraitModifiers WHERE ModifierId LIKE 'GOLDEN_AI_UNIT_FARMER_%';
--- INSERT OR REPLACE INTO ModifierArguments
-       -- (ModifierId , Name , Value)
--- SELECT ModifierId , 'UnitType' , 	'UNIT_FARMER' FROM TraitModifiers WHERE ModifierId LIKE 'GOLDEN_AI_UNIT_FARMER_%';
--- INSERT OR REPLACE INTO ModifierArguments
-       -- (ModifierId , Name , Value)
--- SELECT ModifierId , 'Amount' , 		1 FROM TraitModifiers WHERE ModifierId LIKE 'GOLDEN_AI_UNIT_HERDMAN_%';
--- INSERT OR REPLACE INTO ModifierArguments
-       -- (ModifierId , Name , Value)
--- SELECT ModifierId , 'UnitType' , 	'UNIT_HERDMAN' FROM TraitModifiers WHERE ModifierId LIKE 'GOLDEN_AI_UNIT_HERDMAN_%';
--- INSERT OR REPLACE INTO ModifierArguments
-       -- (ModifierId , Name , Value)
--- SELECT ModifierId , 'Amount' , 		1 FROM TraitModifiers WHERE ModifierId LIKE 'GOLDEN_AI_UNIT_FISHER_%';
--- INSERT OR REPLACE INTO ModifierArguments
-       -- (ModifierId , Name , Value)
--- SELECT ModifierId , 'UnitType' , 	'UNIT_FISHER' FROM TraitModifiers WHERE ModifierId LIKE 'GOLDEN_AI_UNIT_FISHER_%';
--- INSERT OR REPLACE INTO ModifierArguments
-       -- (ModifierId , Name , Value)
--- SELECT ModifierId , 'Amount' , 		1 FROM TraitModifiers WHERE ModifierId LIKE 'GOLDEN_AI_UNIT_MINER_%';
--- INSERT OR REPLACE INTO ModifierArguments
-       -- (ModifierId , Name , Value)
--- SELECT ModifierId , 'UnitType' , 	'UNIT_MINER' FROM TraitModifiers WHERE ModifierId LIKE 'GOLDEN_AI_UNIT_MINER_%';
---==========================================================================================================================
 CREATE TABLE GA_Resource_Cultivation(
 	ResourceType 			varchar(100),
 	ResourceClassType 		varchar(100),

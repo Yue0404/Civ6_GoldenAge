@@ -106,8 +106,4 @@
 		
 		<Row Type="IMPROVEMENT_MAORI_PA"		Name="PLOT_DAMAGE_TO_WALKING_INTO" Value="10"/>
 	</TypeProperties>
-	<Modifiers>
-	</Modifiers>
-	<ModifierArguments>
-	</ModifierArguments>
 </GameInfo>

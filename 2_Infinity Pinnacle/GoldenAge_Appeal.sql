@@ -1,12 +1,6 @@
 --------------------------------------------------------------
 --Appeal change: Genernal, no unique
 --------------------------------------------------------------
--- UPDATE Features		SET Appeal = 1	WHERE FeatureType = 'FEATURE_FOREST';
--- UPDATE Features		SET Appeal = -1	WHERE FeatureType = 'FEATURE_JUNGLE';
--- UPDATE Features		SET Appeal = -1	WHERE FeatureType = 'FEATURE_FLOODPLAINS';
--- UPDATE Features		SET Appeal = -1	WHERE FeatureType = 'FEATURE_FLOODPLAINS_GRASSLAND';
--- UPDATE Features		SET Appeal = -1	WHERE FeatureType = 'FEATURE_FLOODPLAINS_PLAINS';
--- UPDATE Features		SET Appeal = -1	WHERE FeatureType = 'FEATURE_MARSH';
 UPDATE Features		SET Appeal = 1	WHERE FeatureType = 'FEATURE_REEF';
 UPDATE Features		SET Appeal = 1	WHERE FeatureType = 'FEATURE_GEOTHERMAL_FISSURE';
 UPDATE Features		SET Appeal = 1	WHERE FeatureType = 'FEATURE_ICE';
@@ -28,12 +22,7 @@ UPDATE Improvements	SET Appeal = -1	WHERE ImprovementType = 'IMPROVEMENT_FORT';
 UPDATE Improvements	SET Appeal = 1	WHERE ImprovementType = 'IMPROVEMENT_CITY_PARK';
 UPDATE Improvements	SET Appeal = 1	WHERE ImprovementType = 'IMPROVEMENT_SKI_RESORT';
 UPDATE Improvements	SET Appeal = 1	WHERE ImprovementType = 'IMPROVEMENT_BEACH_RESORT';
--- UPDATE Improvements	SET Appeal = 1	WHERE ImprovementType = 'IMPROVEMENT_PASTURE';
--- UPDATE Improvements	SET Appeal = 1	WHERE ImprovementType = 'IMPROVEMENT_PLANTATION';
--- UPDATE Improvements	SET Appeal = 1	WHERE ImprovementType = 'IMPROVEMENT_CAMP';
 UPDATE Improvements	SET Appeal = 0	WHERE ImprovementType = 'IMPROVEMENT_GEOTHERMAL_PLANT';
--- UPDATE Improvements	SET Appeal = -2	WHERE ImprovementType = 'IMPROVEMENT_MINE';
--- UPDATE Improvements	SET Appeal = -2	WHERE ImprovementType = 'IMPROVEMENT_QUARRY';
 UPDATE Improvements	SET Appeal = -1	WHERE ImprovementType = 'IMPROVEMENT_OIL_WELL';
 UPDATE Improvements	SET Appeal = -1	WHERE ImprovementType = 'IMPROVEMENT_OFFSHORE_OIL_RIG';
 UPDATE Improvements	SET Appeal = -2	WHERE ImprovementType = 'IMPROVEMENT_MOUNTAIN_TUNNEL';
@@ -97,7 +86,6 @@ VALUES	('DISTRICT_BREATHTAKING_APPEAL',					'GOLDEN_REQUIRES_PLOT_HAS_ANY_DISTRI
 INSERT OR REPLACE INTO BuildingModifiers (BuildingType, ModifierId) VALUES 
 ('BUILDING_COAL_POWER_PLANT', 			'GOLDEN_IZ_T3_APPEAL_DEBUFF'),
 ('BUILDING_FOSSIL_FUEL_POWER_PLANT', 	'GOLDEN_IZ_T3_APPEAL_DEBUFF');
--- ('BUILDING_POWER_PLANT', 				'GOLDEN_IZ_T3_APPEAL_DEBUFF');
 INSERT OR REPLACE INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES 
 ('GOLDEN_IZ_T3_APPEAL_DEBUFF', 'MODIFIER_SINGLE_CITY_ADJUST_CITY_APPEAL', NULL);
 INSERT OR REPLACE INTO ModifierArguments (ModifierId, Name, Value) VALUES 

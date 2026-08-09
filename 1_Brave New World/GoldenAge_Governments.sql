@@ -28,3 +28,36 @@ UPDATE Government_SlotCounts SET NumSlots = 1 WHERE GovernmentType = 'GOVERNMENT
 UPDATE Government_SlotCounts SET NumSlots = 3 WHERE GovernmentType = 'GOVERNMENT_SYNTHETIC_TECHNOCRACY' AND GovernmentSlotType='SLOT_WILDCARD';
 UPDATE Government_SlotCounts SET NumSlots = 3 WHERE GovernmentType = 'GOVERNMENT_SYNTHETIC_TECHNOCRACY' AND GovernmentSlotType='SLOT_MILITARY';
 UPDATE Government_SlotCounts SET NumSlots = 1 WHERE GovernmentType = 'GOVERNMENT_SYNTHETIC_TECHNOCRACY' AND GovernmentSlotType='SLOT_DIPLOMATIC';
+
+UPDATE Governments
+SET OtherGovernmentIntolerance = -4
+WHERE GovernmentType IN (
+    'GOVERNMENT_CLASSICAL_REPUBLIC',
+    'GOVERNMENT_AUTOCRACY',
+    'GOVERNMENT_OLIGARCHY'
+);
+
+UPDATE Governments
+SET OtherGovernmentIntolerance = -8
+WHERE GovernmentType IN (
+    'GOVERNMENT_MONARCHY',
+    'GOVERNMENT_THEOCRACY',
+    'GOVERNMENT_MERCHANT_REPUBLIC'
+);
+
+UPDATE Governments
+SET OtherGovernmentIntolerance = -12
+WHERE GovernmentType IN (
+    'GOVERNMENT_FASCISM',
+    'GOVERNMENT_COMMUNISM',
+    'GOVERNMENT_DEMOCRACY'
+);
+
+UPDATE Governments
+SET OtherGovernmentIntolerance = -16
+WHERE GovernmentType IN (
+    'GOVERNMENT_CORPORATE_LIBERTARIANISM',
+    'GOVERNMENT_DIGITAL_DEMOCRACY',
+    'GOVERNMENT_SYNTHETIC_TECHNOCRACY'
+);
+

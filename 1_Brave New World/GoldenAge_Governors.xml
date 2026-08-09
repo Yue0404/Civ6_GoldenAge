@@ -1,11 +1,4 @@
 <GameInfo>
-    <GlobalParameters>
-	<!--总督部署时间（5）-->
-		<Replace Name="GOVERNOR_BASE_TURNS_TO_ESTABLISH" Value="3"/>
-	<!--最多任职总督数（7）-->
-		<Replace Name="MAX_GOVERNOR_APPOINTMENTS" Value="9" />		
-	</GlobalParameters>
-	
 	<CivicModifiers>
 	<!--Governor Title-->
 		<Row CivicType="CIVIC_MERCANTILISM" ModifierId="CIVIC_GRANT_PLAYER_GOVERNOR_POINTS"/>

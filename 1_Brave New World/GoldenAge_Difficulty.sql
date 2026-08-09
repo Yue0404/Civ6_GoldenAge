@@ -840,32 +840,7 @@ INSERT OR REPLACE INTO TraitModifiers
 (TraitType,						ModifierId) VALUES	
 ('MINOR_CIV_DEFAULT_TRAIT',		'HIGH_DIFFICULTY_COMBAT_SCALING');
 
--- INSERT OR REPLACE INTO Modifiers 
--- (ModifierId,										ModifierType,												SubjectRequirementSetId) VALUES	
--- ('GOLDEN_AI_COMBAT',	                            'MODIFIER_PLAYER_UNITS_ADJUST_COMBAT_DIFFICULTY',		    'GOLDEN_PLAYER_IS_AI_DIFFICULTY_SETTLER');
-
--- INSERT OR REPLACE INTO ModifierArguments 
--- (ModifierId,		                        Name,			Type,                           Value, Extra) VALUES	
--- ('GOLDEN_AI_COMBAT',	                    'Amount',		'LinearScaleFromDefaultHandicap', 2,     1);
-
--- INSERT OR REPLACE INTO ModifierStrings 
--- (ModifierId,		                                        Context,			Text) VALUES	
--- ('GOLDEN_AI_COMBAT',	                    'Preview',		    'GOLDEN_LOC_COMBAT_SCALING');
-
--- INSERT OR REPLACE INTO RequirementSets 				(RequirementSetId ,         RequirementSetType) 	
--- VALUES 		('GOLDEN_PLAYER_IS_AI_DIFFICULTY_SETTLER', 		    'REQUIREMENTSET_TEST_ALL');
-
--- INSERT OR REPLACE INTO RequirementSetRequirements 	(RequirementSetId ,         RequirementId) 			
--- VALUES 		('GOLDEN_PLAYER_IS_AI_DIFFICULTY_SETTLER', 		    'REQUIRES_PLAYER_IS_AI'),
-            -- ('GOLDEN_PLAYER_IS_AI_DIFFICULTY_SETTLER', 		    'GOLDEN_REQUIRES_DIFFICULTY_SETTLER');
-			
---AI BOOST (removed from major AI)
--- INSERT OR REPLACE INTO TraitModifiers 
--- (TraitType,						ModifierId) SELECT	
--- 'TRAIT_LEADER_MAJOR_CIV',		'GOLDEN_AI_TECH_BOOST_' ||DifficultyType FROM Difficulties WHERE DifficultyType <> 'DIFFICULTY_SETTLER';
--- INSERT OR REPLACE INTO TraitModifiers 
--- (TraitType,						ModifierId) SELECT	
--- 'TRAIT_LEADER_MAJOR_CIV',		'GOLDEN_AI_CIVIC_BOOST_' ||DifficultyType FROM Difficulties WHERE DifficultyType <> 'DIFFICULTY_SETTLER';
+--AI BOOST (removed from major AI, now applied to MINOR_CIV only)
 INSERT OR REPLACE INTO TraitModifiers 
 (TraitType,						ModifierId) SELECT	
 'MINOR_CIV_DEFAULT_TRAIT',		'GOLDEN_AI_TECH_BOOST_' ||DifficultyType FROM Difficulties WHERE DifficultyType <> 'DIFFICULTY_SETTLER';
@@ -886,22 +861,6 @@ INSERT OR REPLACE INTO ModifierArguments
 INSERT OR REPLACE INTO ModifierArguments 
 (ModifierId,		                                        Name,			Value) SELECT	
 'GOLDEN_AI_CIVIC_BOOST_' ||DifficultyType,	                    'Amount',		1            FROM Difficulties WHERE DifficultyType <> 'DIFFICULTY_SETTLER';
-
---AI unit experience
--- INSERT OR REPLACE INTO TraitModifiers 
--- (TraitType,						ModifierId) SELECT	
--- 'TRAIT_LEADER_MAJOR_CIV',		'GOLDEN_AI_EXPERIENCE_' ||DifficultyType FROM Difficulties WHERE DifficultyType <> 'DIFFICULTY_SETTLER';
--- INSERT OR REPLACE INTO TraitModifiers 
--- (TraitType,						ModifierId) SELECT	
--- 'MINOR_CIV_DEFAULT_TRAIT',		'GOLDEN_AI_EXPERIENCE_' ||DifficultyType FROM Difficulties WHERE DifficultyType <> 'DIFFICULTY_SETTLER';
-
--- INSERT OR REPLACE INTO Modifiers 
--- (ModifierId,										ModifierType,												SubjectRequirementSetId) SELECT	
--- 'GOLDEN_AI_EXPERIENCE_' ||DifficultyType,	        'MODIFIER_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_MODIFIER',		'GOLDEN_PLAYER_IS_' ||DifficultyType|| '_AI' FROM Difficulties WHERE DifficultyType <> 'DIFFICULTY_SETTLER';
-
--- INSERT OR REPLACE INTO ModifierArguments 
--- (ModifierId,		                                        Name,			Value) SELECT	
--- 'GOLDEN_AI_EXPERIENCE_' ||DifficultyType,	                    'Amount',		5            FROM Difficulties WHERE DifficultyType <> 'DIFFICULTY_SETTLER';
 
 --V229 AI ATTACK DISTRICT BONUS
 INSERT OR REPLACE INTO TraitModifiers (TraitType,						ModifierId) SELECT	

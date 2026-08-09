@@ -2,10 +2,10 @@
     <LocalizedText>	
 	<!--区域相邻-->	
 	<Replace Tag="LOC_DISTRICT_COMMERICAL_HUB_GOLD" Language="zh_Hans_CN">
-      <Text>+{1_num} [ICON_Gold] 金币来自相邻商业中心区域。</Text>
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻{LOC_DISTRICT_COMMERCIAL_HUB_NAME}。</Text>
     </Replace>
 	<Replace Tag="LOC_DISTRICT_COMMERICAL_HUB_GOLD" Language="en_US">
-      <Text>+{1_num} [ICON_Gold] Gold from the adjacent Commercial Hub district.</Text>
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent {LOC_DISTRICT_COMMERCIAL_HUB_NAME}.</Text>
     </Replace>
 	<Replace Tag="LOC_DISTRICT_RESOURCE_GOLD" Language="zh_Hans_CN">
       <Text>+{1_num} [ICON_Gold] 金币来自相邻资源。</Text>
@@ -14,16 +14,28 @@
       <Text>+{1_num} [ICON_Gold] Gold from the adjacent Resource.</Text>
     </Replace>
 	<Replace Tag="LOC_LUMBER_PRODUCTION" Language="zh_Hans_CN">
-      <Text>+{1_num} [ICON_Production] 生产力来自相邻伐木场。</Text>
+      <Text>+{1_num} [ICON_Production] 生产力来自相邻{LOC_IMPROVEMENT_LUMBER_MILL_NAME}。</Text>
     </Replace>
 	<Replace Tag="LOC_LUMBER_PRODUCTION" Language="en_US">
-      <Text>+{1_num} [ICON_Production] Production from the adjacent Lumber mill.</Text>
+      <Text>+{1_num} [ICON_Production] Production from the adjacent {LOC_IMPROVEMENT_LUMBER_MILL_NAME}.</Text>
     </Replace>
 	<Replace Tag="LOC_CANAL_GOLD" Language="zh_Hans_CN">
-      <Text>+{1_num} [ICON_Gold] 金币来自相邻运河。</Text>
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻{LOC_DISTRICT_CANAL_NAME}。</Text>
     </Replace>
 	<Replace Tag="LOC_CANAL_GOLD" Language="en_US">
-      <Text>+{1_num} [ICON_Gold] Gold from the adjacent Canal.</Text>
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent {LOC_DISTRICT_CANAL_NAME}.</Text>
+    </Replace>
+	<Replace Tag="LOC_GAD_ENTERTAINMENT_COMPLEX_GOLD_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻{LOC_DISTRICT_ENTERTAINMENT_COMPLEX_NAME}。</Text>
+    </Replace>
+	<Replace Tag="LOC_GAD_ENTERTAINMENT_COMPLEX_GOLD_DESCRIPTION" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent {LOC_DISTRICT_ENTERTAINMENT_COMPLEX_NAME}.</Text>
+    </Replace>
+	<Replace Tag="LOC_GAD_WATER_ENTERTAINMENT_COMPLEX_GOLD_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻{LOC_DISTRICT_WATER_ENTERTAINMENT_COMPLEX_NAME}。</Text>
+    </Replace>
+	<Replace Tag="LOC_GAD_WATER_ENTERTAINMENT_COMPLEX_GOLD_DESCRIPTION" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent {LOC_DISTRICT_WATER_ENTERTAINMENT_COMPLEX_NAME}.</Text>
     </Replace>
 	<Replace Tag="LOC_SNOW_SCIENCE" Language="zh_Hans_CN">
       <Text>+{1_num} [ICON_Science] 科技值来自相邻雪地 {1_Num : plural 1?单元格; other?单元格;}。</Text>
@@ -62,46 +74,46 @@
       <Text>+{1_num} [ICON_Production] Production from the adjacent Resource.</Text>
     </Replace>
 	<Replace Tag="LOC_CITY_CENTER_CULTURE" Language="zh_Hans_CN">
-      <Text>+{1_num} [ICON_Culture] 文化值来自相邻市中心。</Text>
+      <Text>+{1_num} [ICON_Culture] 文化值来自相邻{LOC_DISTRICT_CITY_CENTER_NAME}。</Text>
     </Replace>
 	<Replace Tag="LOC_CITY_CENTER_CULTURE" Language="en_US">
-      <Text>+{1_num} [ICON_Culture] Culture from the adjacent City center.</Text>
+      <Text>+{1_num} [ICON_Culture] Culture from the adjacent {LOC_DISTRICT_CITY_CENTER_NAME}.</Text>
     </Replace>
 	<Replace Tag="LOC_CITY_CENTER_FAITH" Language="zh_Hans_CN">
-      <Text>+{1_num} [ICON_Faith] 信仰值来自相邻市中心。</Text>
+      <Text>+{1_num} [ICON_Faith] 信仰值来自相邻{LOC_DISTRICT_CITY_CENTER_NAME}。</Text>
     </Replace>
 	<Replace Tag="LOC_CITY_CENTER_FAITH" Language="en_US">
-      <Text>+{1_num} [ICON_Faith] Faith from the adjacent City center.</Text>
+      <Text>+{1_num} [ICON_Faith] Faith from the adjacent {LOC_DISTRICT_CITY_CENTER_NAME}.</Text>
     </Replace>
 	<Replace Tag="LOC_CITY_CENTER_GOLD" Language="zh_Hans_CN">
-      <Text>+{1_num} [ICON_Gold] 金币来自相邻市中心。</Text>
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻{LOC_DISTRICT_CITY_CENTER_NAME}。</Text>
     </Replace>
 	<Replace Tag="LOC_CITY_CENTER_GOLD" Language="en_US">
-      <Text>+{1_num} [ICON_Gold] Gold from the adjacent City center.</Text>
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent {LOC_DISTRICT_CITY_CENTER_NAME}.</Text>
     </Replace>
 	<Replace Tag="LOC_CITY_CENTER_PRODUCTION" Language="zh_Hans_CN">
-      <Text>+{1_num} [ICON_Production] 生产力来自相邻市中心。</Text>
+      <Text>+{1_num} [ICON_Production] 生产力来自相邻{LOC_DISTRICT_CITY_CENTER_NAME}。</Text>
     </Replace>
 	<Replace Tag="LOC_CITY_CENTER_PRODUCTION" Language="en_US">
-      <Text>+{1_num} [ICON_Production] Production from the adjacent City center.</Text>
+      <Text>+{1_num} [ICON_Production] Production from the adjacent {LOC_DISTRICT_CITY_CENTER_NAME}.</Text>
     </Replace>
 	<Replace Tag="LOC_CITY_CENTER_SCIENCE" Language="zh_Hans_CN">
-      <Text>+{1_num} [ICON_Science] 科技值来自相邻市中心。</Text>
+      <Text>+{1_num} [ICON_Science] 科技值来自相邻{LOC_DISTRICT_CITY_CENTER_NAME}。</Text>
     </Replace>
 	<Replace Tag="LOC_CITY_CENTER_SCIENCE" Language="en_US">
-      <Text>+{1_num} [ICON_Science] Science from the adjacent City center.</Text>
+      <Text>+{1_num} [ICON_Science] Science from the adjacent {LOC_DISTRICT_CITY_CENTER_NAME}.</Text>
     </Replace>
 	<Replace Tag="LOC_CITY_CENTER_FOOD" Language="zh_Hans_CN">
-      <Text>+{1_num} [ICON_Food] 食物来自相邻市中心。</Text>
+      <Text>+{1_num} [ICON_Food] 食物来自相邻{LOC_DISTRICT_CITY_CENTER_NAME}。</Text>
     </Replace>
 	<Replace Tag="LOC_CITY_CENTER_FOOD" Language="en_US">
-      <Text>+{1_num} [ICON_Food] Food from the adjacent City center.</Text>
+      <Text>+{1_num} [ICON_Food] Food from the adjacent {LOC_DISTRICT_CITY_CENTER_NAME}.</Text>
     </Replace>
 	<Replace Tag="LOC_GOVERNMENT_FOOD" Language="zh_Hans_CN">
-      <Text>+{1_num} [ICON_Food] 食物来自相邻市政广场。</Text>
+      <Text>+{1_num} [ICON_Food] 食物来自相邻{LOC_DISTRICT_GOVERNMENT_NAME}。</Text>
     </Replace>
 	<Replace Tag="LOC_GOVERNMENT_FOOD" Language="en_US">
-      <Text>+{1_num} [ICON_Food] Food from the adjacent Government.</Text>
+      <Text>+{1_num} [ICON_Food] Food from the adjacent {LOC_DISTRICT_GOVERNMENT_NAME}.</Text>
     </Replace>
 	<Replace Tag="LOC_DISTRICT_FOOD" Language="zh_Hans_CN">
       <Text>+{1_num} [ICON_Food] 食物来自相邻 {1_Num : plural 1?区域; other?区域;}。</Text>
@@ -199,18 +211,6 @@
 	<Replace Tag="LOC_THEATER_CULTURE_STANDARD" Language="en_US">
       <Text>+{1_num} [ICON_Culture] Culture from the adjacent Theater {1_Num : plural 1?district; other?districts;}.</Text>
     </Replace>
-	<!-- <Replace Tag="LOC_ENTERTAINMENT_Culture" Language="zh_Hans_CN"> -->
-      <!-- <Text>+{1_num} [ICON_Culture] 文化值来自相邻娱乐中心 {1_Num : plural 1?区域; other?区域;}。</Text> -->
-    <!-- </Replace> -->
-	<!-- <Replace Tag="LOC_ENTERTAINMENT_Culture" Language="en_US"> -->
-      <!-- <Text>+{1_num} [ICON_Culture] Culture from the adjacent DISTRICT_ENTERTAINMENT_COMPLEX {1_Num : plural 1?district; other?districts;}.</Text> -->
-    <!-- </Replace> -->
-	<!-- <Replace Tag="LOC_WATER_ENTERTAINMENT_Culture" Language="zh_Hans_CN"> -->
-      <!-- <Text>+{1_num} [ICON_Culture] 文化值来自相邻水上乐园 {1_Num : plural 1?区域; other?区域;}。</Text> -->
-    <!-- </Replace> -->
-	<!-- <Replace Tag="LOC_WATER_ENTERTAINMENT_Culture" Language="en_US"> -->
-      <!-- <Text>+{1_num} [ICON_Culture] Culture from the adjacent DISTRICT_WATER_ENTERTAINMENT_COMPLEX {1_Num : plural 1?district; other?districts;}.</Text> -->
-    <!-- </Replace> -->
 	<Replace Tag="LOC_HOLY_SITE_FAITH" Language="zh_Hans_CN">
       <Text>+{1_num} [ICON_Faith] 信仰值来自相邻圣地 {1_Num : plural 1?区域; other?区域;}。</Text>
     </Replace>

@@ -3,8 +3,8 @@ VALUES
 ("zh_Hans_CN",	"LOC_GOLDEN_TRAIT_NAME",		"史实时代"		),
 ("en_US",	    "LOC_GOLDEN_TRAIT_NAME",		"Historical Era"	),
 
-("zh_Hans_CN",	"LOC_ERA_TEXT",		"[ICON_BULLET][COLOR_FLOAT_CULTURE]其中{1_Num}来自辉煌或至暗时代[ENDCOLOR]"		),
-("en_US",	    "LOC_ERA_TEXT",		"[ICON_BULLET][COLOR_FLOAT_CULTURE]including {1_Num} from Glorious Era or Dark Era[ENDCOLOR]"	),
+("zh_Hans_CN",	"LOC_GA_HISTORICAL_ERA_TEXT",		"[ICON_BULLET][COLOR_FLOAT_CULTURE]其中{1_Num}来自辉煌或至暗时代[ENDCOLOR]"		),
+("en_US",	    "LOC_GA_HISTORICAL_ERA_TEXT",		"[ICON_BULLET][COLOR_FLOAT_CULTURE]including {1_Num} from Glorious Era or Dark Era[ENDCOLOR]"	),
 --CIVILIZATION_AMERICA
 ("zh_Hans_CN",	"LOC_GOLDEN_TRAIT_CIVILIZATION_AMERICA_DESCRIPTION",		"[ICON_GLORY_GOLDEN_AGE] 辉煌时代：原子能时代。[ICON_GLORY_DARK_AGE] 至暗时代：工业时代。"		),
 ("en_US",	    "LOC_GOLDEN_TRAIT_CIVILIZATION_AMERICA_DESCRIPTION",		"[ICON_GLORY_GOLDEN_AGE] Glorious Era: Atomic Era. [ICON_GLORY_DARK_AGE] Dark Era: Industrial Era."	),

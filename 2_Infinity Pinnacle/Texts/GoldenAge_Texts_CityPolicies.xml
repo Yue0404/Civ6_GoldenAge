@@ -1,10 +1,10 @@
 <GameData>
     <LocalizedText>	
 <!--城市内政-->
-	<Replace Tag="LOC_CITYPOLICY_TEXT" Language="zh_Hans_CN">
+	<Replace Tag="LOC_GA_CITYPOLICY_TEXT" Language="zh_Hans_CN">
       <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]其中{1_Num}来自城市政策[ENDCOLOR]</Text>
     </Replace>
-	<Replace Tag="LOC_CITYPOLICY_TEXT" Language="en_US">
+	<Replace Tag="LOC_GA_CITYPOLICY_TEXT" Language="en_US">
       <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]including {1_Num} from City Policy[ENDCOLOR]</Text>
     </Replace>	
 	

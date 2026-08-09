@@ -206,12 +206,6 @@ SELECT
 'GA_TRAIT_FRIENDS_BB_'||CivilizationName,	'KIND_TRAIT'
 FROM GA_Official_Civilization WHERE Kind = 'BB';
 
--- INSERT OR REPLACE INTO Traits 
--- (TraitType,									Name,								Description)
--- SELECT
--- 'GA_TRAIT_FRIENDS_BB_'||CivilizationName,	'LOC_GA_TRAIT_FRIEND_GIFT_NAME',	'LOC_GA_TRAIT_FRIENDS_'||CivilizationName||'_DESCRIPTION'
--- FROM GA_Official_Civilization WHERE Kind = 'BB';
-
 INSERT OR REPLACE INTO Traits 
 (TraitType,									Name,								Description)
 SELECT
@@ -381,12 +375,6 @@ SELECT
 'GA_TRAIT_FRIENDS_BY_'||CivilizationName,	'KIND_TRAIT'
 FROM GA_Official_Civilization WHERE Kind = 'BY';
 
--- INSERT OR REPLACE INTO Traits 
--- (TraitType,									Name,								Description)
--- SELECT
--- 'GA_TRAIT_FRIENDS_BY_'||CivilizationName,	'LOC_GA_TRAIT_FRIEND_GIFT_NAME',	'LOC_GA_TRAIT_FRIENDS_'||CivilizationName||'_DESCRIPTION'
--- FROM GA_Official_Civilization WHERE Kind = 'BY';
-
 INSERT OR REPLACE INTO Traits 
 (TraitType,									Name,								Description)
 SELECT
@@ -505,12 +493,6 @@ SELECT
 'GA_TRAIT_FRIENDS_DA_'||CivilizationName,	'KIND_TRAIT'
 FROM GA_Official_Civilization WHERE Kind = 'DA';
 
--- INSERT OR REPLACE INTO Traits 
--- (TraitType,									Name,								Description)
--- SELECT
--- 'GA_TRAIT_FRIENDS_DA_'||CivilizationName,	'LOC_GA_TRAIT_FRIEND_GIFT_NAME',	'LOC_GA_TRAIT_FRIENDS_'||CivilizationName||'_DESCRIPTION'
--- FROM GA_Official_Civilization WHERE Kind = 'DA';
-
 INSERT OR REPLACE INTO Traits 
 (TraitType,									Name,								Description)
 SELECT
@@ -570,12 +552,6 @@ INSERT OR REPLACE INTO Types
 SELECT
 'GA_TRAIT_FRIENDS_DB_'||CivilizationName,	'KIND_TRAIT'
 FROM GA_Official_Civilization WHERE Kind = 'DB';
-
--- INSERT OR REPLACE INTO Traits 
--- (TraitType,									Name,								Description)
--- SELECT
--- 'GA_TRAIT_FRIENDS_DB_'||CivilizationName,	'LOC_GA_TRAIT_FRIEND_GIFT_NAME',	'LOC_GA_TRAIT_FRIENDS_'||CivilizationName||'_DESCRIPTION'
--- FROM GA_Official_Civilization WHERE Kind = 'DB';
 
 INSERT OR REPLACE INTO Traits 
 (TraitType,									Name,								Description)
@@ -658,12 +634,6 @@ INSERT OR REPLACE INTO Types
 SELECT
 'GA_TRAIT_FRIENDS_GP_'||CivilizationName,	'KIND_TRAIT'
 FROM GA_Official_Civilization WHERE Kind = 'GP';
-
--- INSERT OR REPLACE INTO Traits 
--- (TraitType,									Name,								Description)
--- SELECT
--- 'GA_TRAIT_FRIENDS_GP_'||CivilizationName,	'LOC_GA_TRAIT_FRIEND_GIFT_NAME',	'LOC_GA_TRAIT_FRIENDS_'||CivilizationName||'_DESCRIPTION'
--- FROM GA_Official_Civilization WHERE Kind = 'GP';
 
 INSERT OR REPLACE INTO Traits 
 (TraitType,									Name,								Description)
@@ -770,12 +740,6 @@ INSERT OR REPLACE INTO Types
 SELECT
 'GA_TRAIT_FRIENDS_UI_'||CivilizationName,	'KIND_TRAIT'
 FROM GA_Official_Civilization WHERE Kind = 'UI';
-
--- INSERT OR REPLACE INTO Traits 
--- (TraitType,									Name,								Description)
--- SELECT
--- 'GA_TRAIT_FRIENDS_UI_'||CivilizationName,	'LOC_GA_TRAIT_FRIEND_GIFT_NAME',	'LOC_GA_TRAIT_FRIENDS_'||CivilizationName||'_DESCRIPTION'
--- FROM GA_Official_Civilization WHERE Kind = 'UI';
 
 INSERT OR REPLACE INTO Traits 
 (TraitType,									Name,								Description)

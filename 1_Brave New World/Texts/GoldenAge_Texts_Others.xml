@@ -18,22 +18,22 @@
     </Replace>	
 
 	<!--lua-->	
-	<Replace Tag="LOC_POP_TEXT" Language="zh_Hans_CN">
+	<Replace Tag="LOC_GA_CITYLEVEL_POP_TEXT" Language="zh_Hans_CN">
       <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]未开启城市分级模式[ENDCOLOR]</Text>
     </Replace>
-	<Replace Tag="LOC_POP_TEXT" Language="en_US">
+	<Replace Tag="LOC_GA_CITYLEVEL_POP_TEXT" Language="en_US">
       <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]City Grading mode disabled[ENDCOLOR]</Text>
     </Replace>	
-	<Replace Tag="LOC_ERA_TEXT" Language="zh_Hans_CN">
+	<Replace Tag="LOC_GA_HISTORICAL_ERA_TEXT" Language="zh_Hans_CN">
       <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]未开启史实时代模式[ENDCOLOR]</Text>
     </Replace>
-	<Replace Tag="LOC_ERA_TEXT" Language="en_US">
+	<Replace Tag="LOC_GA_HISTORICAL_ERA_TEXT" Language="en_US">
       <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]Historical Era mode disabled[ENDCOLOR]</Text>
     </Replace>		
-	<Replace Tag="LOC_CITYPOLICY_TEXT" Language="zh_Hans_CN">
+	<Replace Tag="LOC_GA_CITYPOLICY_TEXT" Language="zh_Hans_CN">
       <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]未开启城市内政模式[ENDCOLOR]</Text>
     </Replace>
-	<Replace Tag="LOC_CITYPOLICY_TEXT" Language="en_US">
+	<Replace Tag="LOC_GA_CITYPOLICY_TEXT" Language="en_US">
       <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]City Policy mode disabled[ENDCOLOR]</Text>
     </Replace>	
 	
@@ -325,13 +325,6 @@
 	<Replace Tag="LOC_BUILDING_HERO_MONUMENT_NAME" Language="en_US">
       <Text>BAN AI HERO</Text>
     </Replace>
-	
-	<Replace Tag="LOC_POP_TEXT" Language="zh_Hans_CN">
-      <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]其中{1_Num}来自城市数量惩罚[ENDCOLOR]</Text>
-    </Replace>
-	<Replace Tag="LOC_POP_TEXT" Language="en_US">
-      <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]including {1_Num} from Crazy-expansion Penalty[ENDCOLOR]</Text>
-    </Replace>	
 	</LocalizedText>
 </GameData>	
 	
