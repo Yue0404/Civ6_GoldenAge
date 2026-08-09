@@ -1,0 +1,337 @@
+<GameData>
+    <LocalizedText>		
+	<Replace Tag="LOC_ERA_MODERN_NAME" Language="zh_Hans_CN">
+      <Text>电气时代</Text>
+    </Replace>
+		
+	<Replace Tag="LOC_RESOURCE_GOLD_NAME" Language="zh_Hans_CN">
+      <Text>黄金</Text>
+    </Replace>
+	<Replace Tag="LOC_RESOURCE_GOLD_NAME" Language="en_US">
+      <Text>Gold</Text>
+    </Replace>	
+	<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_GOLD_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>黄金是一种柔软、有光泽、有延展性的金属，在历史上一直受到人们的珍视。它是一种稀有金属，它的稀有性大大增加了它的价值。尽管黄金有一些工业和医药用途，但它主要用作铸币或装饰用途，装饰珠宝、杯子、器皿和超级富豪和有权有势的人的用具。</Text>
+    </Replace>	
+	<Replace Tag="LOC_PEDIA_RESOURCES_PAGE_RESOURCE_GOLD_CHAPTER_HISTORY_PARA_1" Language="en_US">
+      <Text>Gold is a soft, shiny and malleable metal, and it has been prized by men and women throughout history. It is a rare metal, and its rarity greatly adds to its value. Although it has some industrial and medicinal purposes, gold is used primarily as coinage or for decorative purposes, adorning jewelry, cups, utensils and the commodes of the super-rich and powerful. </Text>
+    </Replace>	
+
+	<!--lua-->	
+	<Replace Tag="LOC_POP_TEXT" Language="zh_Hans_CN">
+      <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]未开启城市分级模式[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_POP_TEXT" Language="en_US">
+      <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]City Grading mode disabled[ENDCOLOR]</Text>
+    </Replace>	
+	<Replace Tag="LOC_ERA_TEXT" Language="zh_Hans_CN">
+      <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]未开启史实时代模式[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_ERA_TEXT" Language="en_US">
+      <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]Historical Era mode disabled[ENDCOLOR]</Text>
+    </Replace>		
+	<Replace Tag="LOC_CITYPOLICY_TEXT" Language="zh_Hans_CN">
+      <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]未开启城市内政模式[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_CITYPOLICY_TEXT" Language="en_US">
+      <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]City Policy mode disabled[ENDCOLOR]</Text>
+    </Replace>	
+	
+
+	<!--界面-->	
+	<Replace Tag="LOC_HUD_CITY_HOUSING_FROM_CIVICS" Language="zh_Hans_CN">
+      <Text>特质提供的住房：</Text>
+    </Replace>
+	<Replace Tag="LOC_HUD_CITY_HOUSING_FROM_CIVICS" Language="en_US">
+      <Text>HOUSING FROM TRAIT:</Text>
+    </Replace>
+	<Replace Tag="LOC_C8S_SAT_POWER_REQUIREMENT_MISC" Language="zh_Hans_CN">
+		<Text>杂项耗电</Text>
+	</Replace>
+	<Replace Tag="LOC_C8S_SAT_POWER_REQUIREMENT_MISC" Language="en_US">
+		<Text>Miscellaneous</Text>
+	</Replace>	
+	<Replace Tag="LOC_TYPE_TRAIT_CITIZENSLOTS" Language="zh_Hans_CN">
+      <Text>公民槽位数量：{1_Amount}</Text>
+    </Replace>
+	<Replace Tag="LOC_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE_TOOLTIP" Language="zh_Hans_CN">
+      <Text>{Value : number +#;-#}%（{ActualValue : number +#.#;-#.#}）来自总督晋升（拥有{1}次{1 : plural 1?升级; other?升级;}的 [ICON_Governor] 总督）</Text>
+    </Replace>
+	<Replace Tag="LOC_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE_TOOLTIP" Language="en_US">
+      <Text>{Value : number +#;-#}% ({ActualValue : number +#.#;-#.#}) from Governor promotions ([ICON_Governor] Governor with {1} {1 : plural 1?Promotion; other?Promotions;})</Text>
+    </Replace>
+	<Replace Tag="LOC_WORLD_RANKINGS_CULTURE_VICTORY_DETAILS" Language="zh_Hans_CN">
+      <Text>为获得[COLOR:ResCultureLabelCS]文化[ENDCOLOR] 胜利，您必须通过大幅提升 [ICON_Culture] 文化值和 [ICON_Tourism] 旅游业绩。各个文明每累积150点[ICON_Culture] 文化值即可产生一名[COLOR:ResCultureLabelCS]国内游客[ENDCOLOR]。每累积（150*玩家数量）点[ICON_Tourism] 旅游业绩即可吸引一名[COLOR:ResCultureLabelCS]国际游客[ENDCOLOR]。对不同文明输出的 [ICON_Tourism] 旅游业绩数量会受到贸易、宗教、意识形态等的影响。当您因自己文明所吸引的[COLOR:ResCultureLabelCS]国际游客[ENDCOLOR]数量比[COLOR:ResCultureLabelCS]国内游客[ENDCOLOR]数量最多的其他文明的多时，您会取得该类型胜利。</Text>
+    </Replace>
+	<Replace Tag="LOC_WORLD_RANKINGS_CULTURE_VICTORY_DETAILS" Language="en_US">
+      <Text>To achieve a [COLOR:ResCultureLabelCS]CULTURE[ENDCOLOR] victory, you must become [COLOR:ResCultureLabelCS]CULTURALLY DOMINANT[ENDCOLOR] over all other civilizations. Cultural dominance occurs when you attract more [COLOR:ResCultureLabelCS]VISITING TOURISTS[ENDCOLOR] to your civilization than other civilization who has the most number of [COLOR:ResCultureLabelCS]DOMESTIC TOURISTS[ENDCOLOR].[NEWLINE][NEWLINE]Generating high amounts of [ICON_Culture] Culture increases your domestic tourists (150 [ICON_Culture] Culture for 1 domestic tourist). Generating high amounts of [ICON_Tourism] Tourism increases visiting tourists from other civilizations ((150*number of players) [ICON_Tourism] Tourism for 1 visiting tourist).</Text>
+    </Replace>
+	<!--宜居度-->	
+	<Replace Tag="LOC_HUD_CITY_STATUS_HELL" Language="zh_Hans_CN">
+      <Text>[COLOR:StatBadCS]地狱！[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_HUD_CITY_STATUS_HELL" Language="en_US">
+      <Text>[COLOR:StatBadCS]Hell[ENDCOLOR]</Text>
+    </Replace>
+    <Replace Tag="LOC_HAPPINESS_HELL_NAME" Language="zh_Hans_CN">
+      <Text>地狱</Text>
+    </Replace>
+	<Replace Tag="LOC_HAPPINESS_HELL_NAME" Language="en_US">
+      <Text>Hell</Text>
+    </Replace>
+	<Replace Tag="LOC_HUD_CITY_STATUS_REVOLT" Language="zh_Hans_CN">
+      <Text>[COLOR:StatBadCS]革命！[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_HUD_CITY_STATUS_REVOLT" Language="en_US">
+      <Text>[COLOR:StatBadCS]Revolt[ENDCOLOR]</Text>
+    </Replace>
+    <Replace Tag="LOC_HAPPINESS_REVOLT_NAME" Language="zh_Hans_CN">
+      <Text>革命</Text>
+    </Replace>
+	<Replace Tag="LOC_HAPPINESS_REVOLT_NAME" Language="en_US">
+      <Text>Revolt</Text>
+    </Replace>
+	<Replace Tag="LOC_HUD_CITY_STATUS_UNREST" Language="zh_Hans_CN">
+      <Text>[COLOR:StatBadCS]动荡不安的[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_HUD_CITY_STATUS_UNREST" Language="en_US">
+      <Text>[COLOR:StatBadCS]Unrest[ENDCOLOR]</Text>
+    </Replace>
+    <Replace Tag="LOC_HAPPINESS_UNREST_NAME" Language="zh_Hans_CN">
+      <Text>动荡不安的</Text>
+    </Replace>
+	<Replace Tag="LOC_HAPPINESS_UNREST_NAME" Language="en_US">
+      <Text>Unrest</Text>
+    </Replace>
+	<Replace Tag="LOC_HUD_CITY_STATUS_FURIOUS" Language="zh_Hans_CN">
+      <Text>[COLOR:StatBadCS]恼怒的[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_HUD_CITY_STATUS_FURIOUS" Language="en_US">
+      <Text>[COLOR:StatBadCS]Furious[ENDCOLOR]</Text>
+    </Replace>
+    <Replace Tag="LOC_HAPPINESS_FURIOUS_NAME" Language="zh_Hans_CN">
+      <Text>恼怒的</Text>
+    </Replace>
+	<Replace Tag="LOC_HAPPINESS_FURIOUS_NAME" Language="en_US">
+      <Text>Furious</Text>
+    </Replace>	
+	<Replace Tag="LOC_HUD_CITY_STATUS_JOYOUS" Language="zh_Hans_CN">
+      <Text>充满欢乐的</Text>
+    </Replace>
+	<Replace Tag="LOC_HUD_CITY_STATUS_JOYOUS" Language="en_US">
+      <Text>Joyous</Text>
+    </Replace>
+    <Replace Tag="LOC_HAPPINESS_JOYOUS_NAME" Language="zh_Hans_CN">
+      <Text>充满欢乐的</Text>
+    </Replace>
+	<Replace Tag="LOC_HAPPINESS_JOYOUS_NAME" Language="en_US">
+      <Text>Joyous</Text>
+    </Replace>		
+	<Replace Tag="LOC_HUD_CITY_STATUS_ELATED" Language="zh_Hans_CN">
+      <Text>兴高采烈的</Text>
+    </Replace>
+	<Replace Tag="LOC_HUD_CITY_STATUS_ELATED" Language="en_US">
+      <Text>Elated</Text>
+    </Replace>
+    <Replace Tag="LOC_HAPPINESS_ELATED_NAME" Language="zh_Hans_CN">
+      <Text>兴高采烈的</Text>
+    </Replace>
+	<Replace Tag="LOC_HAPPINESS_ELATED_NAME" Language="en_US">
+      <Text>Elated</Text>
+    </Replace>
+	<Replace Tag="LOC_HUD_CITY_STATUS_UTOPIC" Language="zh_Hans_CN">
+      <Text>乌托邦</Text>
+    </Replace>
+	<Replace Tag="LOC_HUD_CITY_STATUS_UTOPIC" Language="en_US">
+      <Text>Utopic</Text>
+    </Replace>
+    <Replace Tag="LOC_HAPPINESS_UTOPIC_NAME" Language="zh_Hans_CN">
+      <Text>乌托邦</Text>
+    </Replace>
+	<Replace Tag="LOC_HAPPINESS_UTOPIC_NAME" Language="en_US">
+      <Text>Utopic</Text>
+    </Replace>
+	<Replace Tag="LOC_HUD_CITY_STATUS_HEAVEN" Language="zh_Hans_CN">
+      <Text>天堂</Text>
+    </Replace>
+	<Replace Tag="LOC_HUD_CITY_STATUS_HEAVEN" Language="en_US">
+      <Text>Heaven</Text>
+    </Replace>
+    <Replace Tag="LOC_HAPPINESS_HEAVEN_NAME" Language="zh_Hans_CN">
+      <Text>天堂</Text>
+    </Replace>
+	<Replace Tag="LOC_HAPPINESS_HEAVEN_NAME" Language="en_US">
+      <Text>Heaven</Text>
+    </Replace>
+	<!--时代-->	
+	<Replace Tag="LOC_ERA_TT_HAVE_HEROIC_AGE_EFFECT" Language="zh_Hans_CN">
+      <Text>您的文明在这个时代进入了 [ICON_GLORY_SUPER_GOLDEN_AGE] 英雄时代！[NEWLINE][NEWLINE][ICON_BULLET]城市中的每个 [ICON_Citizen] 公民每回合施加1.3点忠诚度压力。此压力还会对9个单元格以内的其他城市产生影响，但每远离1个单元格，效果减弱10%。因此在城市中维持忠诚度相对容易，并能对附近外国城市的忠诚度构成威胁。</Text>
+    </Replace>
+	<Replace Tag="LOC_ERA_TT_HAVE_HEROIC_AGE_EFFECT" Language="en_US">
+      <Text>You are in a [ICON_GLORY_SUPER_GOLDEN_AGE] Heroic Age during this game era![NEWLINE][NEWLINE][ICON_BULLET]Each of your [ICON_Citizen] Citizens exerts 1.3 Loyalty pressure in their city. This pressure also affects other cities within 9 tiles, but is 10% less effective per tile. It will be easier to maintain Loyalty in your cities, and challenge the Loyalty of nearby foreign cities.</Text>
+    </Replace>
+    <Replace Tag="LOC_ERA_TT_HAVE_GOLDEN_AGE_EFFECT" Language="zh_Hans_CN">
+      <Text>您的文明在这个时代进入了 [ICON_GLORY_GOLDEN_AGE] 黄金时代！[NEWLINE][NEWLINE][ICON_BULLET]城市中的每个 [ICON_Citizen] 公民每回合施加1.3点忠诚度压力。此压力还会对9个单元格以内的其他城市产生影响，但每远离1个单元格，效果减弱10%。因此在城市中维持忠诚度相对容易，并能对附近外国城市的忠诚度构成威胁。</Text>
+    </Replace>
+	<Replace Tag="LOC_ERA_TT_HAVE_GOLDEN_AGE_EFFECT" Language="en_US">
+      <Text>You are in a [ICON_GLORY_GOLDEN_AGE] Golden Age during this game era![NEWLINE][NEWLINE][ICON_BULLET]Each of your [ICON_Citizen] Citizens exerts 1.3 Loyalty pressure in their city. This pressure also affects other cities within 9 tiles, but is 10% less effective per tile. It will be easier to maintain Loyalty in your cities, and challenge the Loyalty of nearby foreign cities.</Text>
+    </Replace>
+    <Replace Tag="LOC_ERA_TT_HAVE_DARK_AGE_EFFECT" Language="zh_Hans_CN">
+      <Text>您的文明在这个时代不幸坠入 [ICON_GLORY_DARK_AGE] 黑暗时代。[NEWLINE][NEWLINE][ICON_BULLET]城市中的每个 [ICON_Citizen] 公民每回合施加0.7点忠诚度压力。此压力还会对9个单元格以内的其他城市产生影响，但每远离1个单元格，效果减弱10%。因此在城市中维持忠诚度颇为不易，对附近外国城市的忠诚度产生影响更是难上加难。[NEWLINE][NEWLINE][ICON_BULLET]您可以将强力的黑暗政策纳入政体，但代价颇为沉重。[NEWLINE][NEWLINE][ICON_BULLET]若您未处于最终时代，且已获得足够在下个时代进入黄金时代的时代得分，则可进入复兴的英雄时代，并选择数个带来强力加成的着力点。</Text>
+    </Replace>
+    <Replace Tag="LOC_ERA_TT_HAVE_DARK_AGE_EFFECT" Language="en_US">
+      <Text>You are in a [ICON_GLORY_DARK_AGE] Dark Age during this game era.[NEWLINE][NEWLINE][ICON_BULLET]Each of your [ICON_Citizen] Citizens exerts 0.7 Loyalty pressure in their city. This pressure also affects other cities within 9 tiles, but is 10% less effective per tile. It will be harder to maintain Loyalty in your cities, and more difficult to affect the Loyalty of nearby foreign cities.[NEWLINE][NEWLINE][ICON_BULLET]You may adopt powerful Dark Policies in your Government, but which may carry a heavy price.[NEWLINE][NEWLINE][ICON_BULLET]If you are not in the last Era, and earn enough Era Score for a Golden Age in the next game era, you will instead earn a Heroic Age, able to make multiple Dedications for multiple powerful bonuses.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_DIPLOACTION_DENOUNCE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>通常会向该国正式表达您的不满。3个额外回合之后可正式宣战（使用或不使用战争借口均可）。</Text>
+    </Replace>
+	<Replace Tag="LOC_DIPLOACTION_DENOUNCE_DESCRIPTION" Language="en_US">
+      <Text>Used to formally state your unhappiness with this power. A formal declaration of war (with or without a Casus Belli) can follow after 3 additional turns have passed.</Text>
+    </Replace>
+	<Replace Tag="LOC_DIPLOACTION_DECLARE_FORMAL_WAR_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>用于对谴责过您的玩家，或您之前谴责过（至少3回合前）的玩家宣战。不限制具体的占领城市。</Text>
+    </Replace>
+	<Replace Tag="LOC_DIPLOACTION_DECLARE_FORMAL_WAR_DESCRIPTION" Language="en_US">
+      <Text>Used to declare war on a player that Denounced you or that you have Denounced at least 3 turns ago. No restrictions on which cities you may capture.</Text>
+    </Replace>
+	
+	<!--流星雨-->	
+	<Replace Tag="LOC_METEOR_CIVIC_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[COLOR_FLOAT_CULTURE]奖励1个市政![ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_METEOR_CIVIC_DESCRIPTION" Language="en_US">
+      <Text>[COLOR_FLOAT_CULTURE]Free Civic![ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_METEOR_TECH_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[COLOR_FLOAT_CULTURE]奖励1个科技![ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_METEOR_TECH_DESCRIPTION" Language="en_US">
+      <Text>[COLOR_FLOAT_CULTURE]Free Tech![ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_METEOR_RELIC_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[COLOR_FLOAT_CULTURE]奖励1个 [ICON_GreatWork_Relic] 遗物![ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_METEOR_RELIC_DESCRIPTION" Language="en_US">
+      <Text>[COLOR_FLOAT_CULTURE]Free [ICON_GreatWork_Relic] Relic![ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_METEOR_ADD_POP_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[COLOR_FLOAT_CULTURE]拯救2个 [ICON_Citizen] 幸存者![ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_METEOR_ADD_POP_DESCRIPTION" Language="en_US">
+      <Text>[COLOR_FLOAT_CULTURE]Two [ICON_Citizen] Survivors found![ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_METEOR_GOVERNOR_TITLE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[COLOR_FLOAT_CULTURE]奖励1个 [ICON_Governor] 总督头衔![ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_METEOR_GOVERNOR_TITLE_DESCRIPTION" Language="en_US">
+      <Text>[COLOR_FLOAT_CULTURE]Free [ICON_Governor] Governor Title![ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_METEOR_ENVOYS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[COLOR_FLOAT_CULTURE]奖励1个 [ICON_Envoy] 遗物![ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_METEOR_ENVOYS_DESCRIPTION" Language="en_US">
+      <Text>[COLOR_FLOAT_CULTURE]Free [ICON_Envoy] Envoy![ENDCOLOR]</Text>
+    </Replace>
+	<!--地貌-->
+	<Replace Tag="LOC_FEATURE_FLOODPLAINS_TUNDRA_NAME" Language="zh_Hans_CN">
+      <Text>冻土泛滥平原</Text>
+    </Replace>
+	<Replace Tag="LOC_FEATURE_FLOODPLAINS_TUNDRA_NAME" Language="en_US">
+      <Text>Tundra Floodplains</Text>
+    </Replace>
+	<Replace Tag="LOC_FEATURE_FLOODPLAINS_TUNDRA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>与其它种类的泛滥平原不同，解锁“土木工程”市政后才可以在冻土泛滥平原上建造农场。</Text>
+    </Replace>
+	<Replace Tag="LOC_FEATURE_FLOODPLAINS_TUNDRA_DESCRIPTION" Language="en_US">
+      <Text>Unlike other types of Floodplains, you can not build Farm on Tundra Floodplains until you have researched 'Civil Engineering' civic. </Text>
+    </Replace>
+	<!--服役与退役-->
+	<Replace Tag="LOC_MODE_UNIT_RETIREMENT" Language="zh_Hans_CN">
+      <Text>退役</Text>
+    </Replace>
+	<Replace Tag="LOC_MODE_UNIT_RETIREMENT" Language="en_US">
+      <Text>Retirement</Text>
+    </Replace>
+	<Replace Tag="LOC_MODE_UNIT_RETIREMENT_SUCCESS" Language="zh_Hans_CN">
+      <Text>告老还乡！</Text>
+    </Replace>
+	<Replace Tag="LOC_MODE_UNIT_RETIREMENT_SUCCESS" Language="en_US">
+      <Text>Happy to go home!</Text>
+    </Replace>
+	<Replace Tag="LOC_MODE_UNIT_RETIREMENT_CITY_WARNING" Language="zh_Hans_CN">
+      <Text>必须在城市退役！</Text>
+    </Replace>
+	<Replace Tag="LOC_MODE_UNIT_RETIREMENT_CITY_WARNING" Language="en_US">
+      <Text>Must retire at a city!</Text>
+    </Replace>
+	<Replace Tag="LOC_MODE_UNIT_RETIREMENT_HOUSING_WARNING" Language="zh_Hans_CN">
+      <Text>[ICON_Housing] 住房不足！</Text>
+    </Replace>
+	<Replace Tag="LOC_MODE_UNIT_RETIREMENT_HOUSING_WARNING" Language="en_US">
+      <Text>No [ICON_Housing] housing!</Text>
+    </Replace>
+	<!--英雄-->
+	<Replace Tag="LOC_ABILITY_ARTHUR_AOE_NAME" Language="zh_Hans_CN">
+      <Text>亚瑟的激励</Text>
+    </Replace>
+	<Replace Tag="LOC_ABILITY_ARTHUR_AOE_NAME" Language="en_US">
+      <Text>Arthur's Inspiring</Text>
+    </Replace>
+	<Replace Tag="LOC_ABILITY_ARTHUR_AOE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>2个单元格内所有战斗单位+1 [ICON_Movement] 移动力。（不与大将军的能力叠加）</Text>
+    </Replace>
+	<Replace Tag="LOC_ABILITY_ARTHUR_AOE_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Movement] Movement to all combat units within 2 tiles. (Not stacking with great general's ability)</Text>
+    </Replace>
+	<!-- <Replace Tag="LOC_ABILITY_ARTHUR_AOE_MOVEMENT_DESCRIPTION" Language="zh_Hans_CN"> -->
+      <!-- <Text>+1 [ICON_Movement] 移动力。（亚瑟的激励）</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_ABILITY_ARTHUR_AOE_MOVEMENT_DESCRIPTION" Language="en_US"> -->
+      <!-- <Text>+1 [ICON_Movement] Movement. (Arthur's Inspiring)</Text> -->
+    <!-- </Replace> -->
+	<Replace Tag="LOC_UNIT_HERO_ARTHUR_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>以美德和骑士精神著称的国王，圆桌骑士的创建者。[NEWLINE][NEWLINE]亚瑟的激励：2个单元格内所有战斗单位+1 [ICON_Movement] 移动力。</Text>
+    </Replace>
+	<Replace Tag="LOC_UNIT_HERO_ARTHUR_DESCRIPTION" Language="en_US">
+      <Text>King and founder of the Knights of the Round Table, renowned for his virtue and chivalry.[NEWLINE][NEWLINE]Arthur's Inspiring: +1 [ICON_Movement] Movement to all combat units within 2 tiles.</Text>
+    </Replace>
+	
+
+	<Replace Tag="LOC_DVP_TOOLTIP_DIFFICULTIES" Language="zh_Hans_CN">
+      <Text>[ICON_Bullet]从游戏难度获得{1_Amount}点</Text>
+    </Replace>
+	<Replace Tag="LOC_DVP_TOOLTIP_DIFFICULTIES" Language="en_US">
+      <Text>[ICON_Bullet]{1_Amount} points from game difficulties.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_WORLD_RANKINGS_CULTURE_VICTORY_DETAILS" Language="zh_Hans_CN">
+      <Text>为获得[COLOR:ResCultureLabelCS]文化[ENDCOLOR] 胜利，您必须通过大幅提升 [ICON_Culture] 文化值和 [ICON_Tourism] 旅游业绩。各个文明每累积150点[ICON_Culture] 文化值即可产生一名[COLOR:ResCultureLabelCS]国内游客[ENDCOLOR]。每累积（150*玩家数量）点[ICON_Tourism] 旅游业绩即可吸引一名[COLOR:ResCultureLabelCS]国际游客[ENDCOLOR]。对不同文明输出的 [ICON_Tourism] 旅游业绩数量会受到贸易、宗教、意识形态等的影响。当您因自己文明所吸引的[COLOR:ResCultureLabelCS]国际游客[ENDCOLOR]数量比[COLOR:ResCultureLabelCS]国内游客[ENDCOLOR]数量最多的其他文明的多时，您会取得该类型胜利。</Text>
+    </Replace>
+	<Replace Tag="LOC_WORLD_RANKINGS_CULTURE_VICTORY_DETAILS" Language="en_US">
+      <Text>To achieve a [COLOR:ResCultureLabelCS]CULTURE[ENDCOLOR] victory, you must become [COLOR:ResCultureLabelCS]CULTURALLY DOMINANT[ENDCOLOR] over all other civilizations. Cultural dominance occurs when you attract more [COLOR:ResCultureLabelCS]VISITING TOURISTS[ENDCOLOR] to your civilization than other civilization who has the most number of [COLOR:ResCultureLabelCS]DOMESTIC TOURISTS[ENDCOLOR].[NEWLINE][NEWLINE]Generating high amounts of [ICON_Culture] Culture increases your domestic tourists (150 [ICON_Culture] Culture for 1 domestic tourist). Generating high amounts of [ICON_Tourism] Tourism increases visiting tourists from other civilizations ((150*number of players) [ICON_Tourism] Tourism for 1 visiting tourist).</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_VICTORY_DIPLOMATIC_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>抢先累积足够数量的外交胜利点数后即可达成[COLOR:DiplomaticLabelCS]外交[ENDCOLOR]胜利。投票支持的目标和项目通过世界议会决议后，即可获得1点外交胜利点数。利用世界议会中的外交胜利提案即可获得更多胜利点数，方法有：在请求援助中得到最高分；建成“自由女神像”、“摩诃菩提寺”或“布达拉宫”奇观等等。</Text>
+    </Replace>
+	<Replace Tag="LOC_VICTORY_DIPLOMATIC_DESCRIPTION" Language="en_US">
+      <Text>To achieve a [COLOR:DiplomaticLabelCS]DIPLOMATIC[ENDCOLOR] victory, be the first to accumulate the target number of Diplomatic Points. Whenever you vote for the target and option combination that passes for a World Congress Resolution, you will earn one Diplomatic Point.  You can earn additional points through the Diplomatic Victory Proposal in the World Congress, by generating the highest score in Aid Requests, or the Statue of Liberty, Mahabodhi Temple, or Potala Palace Wonders etc.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_HERO_MONUMENT_NAME" Language="zh_Hans_CN">
+      <Text>禁止AI招募英雄</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_HERO_MONUMENT_NAME" Language="en_US">
+      <Text>BAN AI HERO</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POP_TEXT" Language="zh_Hans_CN">
+      <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]其中{1_Num}来自城市数量惩罚[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_POP_TEXT" Language="en_US">
+      <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]including {1_Num} from Crazy-expansion Penalty[ENDCOLOR]</Text>
+    </Replace>	
+	</LocalizedText>
+</GameData>	
+	

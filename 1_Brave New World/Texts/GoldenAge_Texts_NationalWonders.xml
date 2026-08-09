@@ -1,0 +1,476 @@
+<GameData>
+    <LocalizedText>	
+	<!--国家奇观-->
+	<Replace Tag="LOC_BUILDING_NATIONAL_LIBRARY_NAME" Language="zh_Hans_CN">
+      <Text>国家图书馆</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_LIBRARY_NAME" Language="en_US">
+      <Text>National Library</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_LIBRARY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本建筑额外+10 [ICON_SCIENCE] 科技值。每拥有一座其他城市，则-1 [ICON_SCIENCE] 科技值额外加成，直至+4 [ICON_SCIENCE] 科技值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_LIBRARY_DESCRIPTION" Language="en_US">
+      <Text>+10 extra [ICON_SCIENCE] Science for this building. This bonus is lowered by 1 [ICON_SCIENCE] Science for each additional city in your empire (down to a minimum +4 [ICON_SCIENCE] Science).</Text> 
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_UNIVERSITY_NAME" Language="zh_Hans_CN">
+      <Text>国家大学</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_UNIVERSITY_NAME" Language="en_US">
+      <Text>National University</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_UNIVERSITY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城每个人口+2 [ICON_SCIENCE] 科技值。每拥有一座其他城市，则每人口-0.2 [ICON_SCIENCE] 科技值，直至每人口+0.4 [ICON_SCIENCE] 科技值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_UNIVERSITY_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_SCIENCE] Science per citizen in this city. This bonus is lowered by 0.2 [ICON_SCIENCE] Science per citizen for each additional city in your empire (down to a minimum +0.4 [ICON_SCIENCE] Science per citizen).</Text> 
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_RESEARCH_LAB_NAME" Language="zh_Hans_CN">
+      <Text>国家研究实验室</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_RESEARCH_LAB_NAME" Language="en_US">
+      <Text>National Research Lab</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_RESEARCH_LAB_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城+60% [ICON_SCIENCE] 科技值。每拥有一座其他城市，则-4% [ICON_SCIENCE] 科技值，直至+16% [ICON_SCIENCE] 科技值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_RESEARCH_LAB_DESCRIPTION" Language="en_US">
+      <Text>+60% [ICON_SCIENCE] Science in this city. This bonus is lowered by 4% [ICON_SCIENCE] Science for each additional city in your empire (down to a minimum +16% [ICON_SCIENCE] Science).</Text> 
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_MARKET_NAME" Language="zh_Hans_CN">
+      <Text>国家市场</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_MARKET_NAME" Language="en_US">
+      <Text>National Market</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_MARKET_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本建筑额外+10 [ICON_Gold] 金币。每拥有一座其他城市，则-1 [ICON_Gold] 金币额外加成，直至+4 [ICON_Gold] 金币。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_MARKET_DESCRIPTION" Language="en_US">
+      <Text>+10 extra [ICON_Gold] Gold for this building. This bonus is lowered by 1 [ICON_Gold] Gold for each additional city in your empire (down to a minimum +4 [ICON_Gold] Gold).</Text> 
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_BANK_NAME" Language="zh_Hans_CN">
+      <Text>国家银行</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_BANK_NAME" Language="en_US">
+      <Text>National Bank</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_BANK_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城每个人口+2 [ICON_Gold] 金币。每拥有一座其他城市，则每人口-0.2 [ICON_Gold] 金币，直至每人口+0.4 [ICON_Gold] 金币。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_BANK_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_Gold] Gold per citizen in this city. This bonus is lowered by 0.2 [ICON_Gold] Gold per citizen for each additional city in your empire (down to a minimum +0.4 [ICON_Gold] Gold per citizen).</Text> 
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_STOCK_EXCHANGE_NAME" Language="zh_Hans_CN">
+      <Text>国家证券交易所</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_STOCK_EXCHANGE_NAME" Language="en_US">
+      <Text>National Stock Exchange</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_STOCK_EXCHANGE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城+60% [ICON_Gold] 金币。每拥有一座其他城市，则-4% [ICON_Gold] 金币，直至+16% [ICON_Gold] 金币。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_STOCK_EXCHANGE_DESCRIPTION" Language="en_US">
+      <Text>+60% [ICON_Gold] Gold in this city. This bonus is lowered by 4% [ICON_Gold] Gold for each additional city in your empire (down to a minimum +16% [ICON_Gold] Gold).</Text> 
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_WORKSHOP_NAME" Language="zh_Hans_CN">
+      <Text>国家工作坊</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_WORKSHOP_NAME" Language="en_US">
+      <Text>National Workshop</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_WORKSHOP_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本建筑额外+10 [ICON_Production] 生产力。每拥有一座其他城市，则-1 [ICON_Production] 生产力额外加成，直至+4 [ICON_Production] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_WORKSHOP_DESCRIPTION" Language="en_US">
+      <Text>+10 extra [ICON_Production] Production for this building. This bonus is lowered by 1 [ICON_Production] Production for each additional city in your empire (down to a minimum +4 [ICON_Production] Production).</Text> 
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_FACTORY_NAME" Language="zh_Hans_CN">
+      <Text>国家工厂</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_FACTORY_NAME" Language="en_US">
+      <Text>National Factory</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_FACTORY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城每个人口+2 [ICON_Production] 生产力。每拥有一座其他城市，则每人口-0.2 [ICON_Production] 生产力，直至每人口+0.4 [ICON_Production] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_FACTORY_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_Production] Production per citizen in this city. This bonus is lowered by 0.2 [ICON_Production] Production per citizen for each additional city in your empire (down to a minimum +0.4 [ICON_Production] Production per citizen).</Text> 
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_POWER_STATION_NAME" Language="zh_Hans_CN">
+      <Text>国家能源站</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_POWER_STATION_NAME" Language="en_US">
+      <Text>National Power Station</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_POWER_STATION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城+60% [ICON_Production] 生产力。每拥有一座其他城市，则-4% [ICON_Production] 生产力，直至+16% [ICON_Production] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_POWER_STATION_DESCRIPTION" Language="en_US">
+      <Text>+60% [ICON_Production] Production in this city. This bonus is lowered by 4% [ICON_Production] Production for each additional city in your empire (down to a minimum +16% [ICON_Production] Production).</Text> 
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_SHRINE_NAME" Language="zh_Hans_CN">
+      <Text>国家神社</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_SHRINE_NAME" Language="en_US">
+      <Text>National Shrine</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_SHRINE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本建筑额外+10 [ICON_Faith] 信仰值。每拥有一座其他城市，则-1 [ICON_Faith] 信仰值额外加成，直至+4 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_SHRINE_DESCRIPTION" Language="en_US">
+      <Text>+10 extra [ICON_Faith] Faith for this building. This bonus is lowered by 1 [ICON_Faith] Faith for each additional city in your empire (down to a minimum +4 [ICON_Faith] Faith).</Text> 
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_TEMPLE_NAME" Language="zh_Hans_CN">
+      <Text>国家寺庙</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_TEMPLE_NAME" Language="en_US">
+      <Text>National Temple</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_TEMPLE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城每个人口+2 [ICON_Faith] 信仰值。每拥有一座其他城市，则每人口-0.2 [ICON_Faith] 信仰值，直至每人口+0.4 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_TEMPLE_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_Faith] Faith per citizen in this city. This bonus is lowered by 0.2 [ICON_Faith] Faith per citizen for each additional city in your empire (down to a minimum +0.4 [ICON_Faith] Faith per citizen).</Text> 
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_CATHEDRAL_NAME" Language="zh_Hans_CN">
+      <Text>国家大教堂</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_CATHEDRAL_NAME" Language="en_US">
+      <Text>National Cathedral</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_CATHEDRAL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城+60% [ICON_Faith] 信仰值。每拥有一座其他城市，则-4% [ICON_Faith] 信仰值，直至+16% [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_CATHEDRAL_DESCRIPTION" Language="en_US">
+      <Text>+60% [ICON_Faith] Faith in this city. This bonus is lowered by 4% [ICON_Faith] Faith for each additional city in your empire (down to a minimum +16% [ICON_Faith] Faith).</Text> 
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_AMPHITHEATER_NAME" Language="zh_Hans_CN">
+      <Text>国家剧场</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_AMPHITHEATER_NAME" Language="en_US">
+      <Text>National Amphitheater</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_AMPHITHEATER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本建筑额外+10 [ICON_Culture] 文化值。每拥有一座其他城市，则-1 [ICON_Culture] 文化值额外加成，直至+4 [ICON_Culture] 文化值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_AMPHITHEATER_DESCRIPTION" Language="en_US">
+      <Text>+10 extra [ICON_Culture] Culture for this building. This bonus is lowered by 1 [ICON_Culture] Culture for each additional city in your empire (down to a minimum +4 [ICON_Culture] Culture).</Text> 
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_MUSEUM_NAME" Language="zh_Hans_CN">
+      <Text>国家博物馆</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_MUSEUM_NAME" Language="en_US">
+      <Text>National Museum</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_MUSEUM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城每个人口+2 [ICON_Culture] 文化值。每拥有一座其他城市，则每人口-0.2 [ICON_Culture] 文化值，直至每人口+0.4 [ICON_Culture] 文化值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_MUSEUM_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_Culture] Culture per citizen in this city. This bonus is lowered by 0.2 [ICON_Culture] Culture per citizen for each additional city in your empire (down to a minimum +0.4 [ICON_Culture] Culture per citizen).</Text> 
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_BROADCAST_CENTER_NAME" Language="zh_Hans_CN">
+      <Text>国家广播中心</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_BROADCAST_CENTER_NAME" Language="en_US">
+      <Text>National Broadcast Center</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_BROADCAST_CENTER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城+60% [ICON_Culture] 文化值。每拥有一座其他城市，则-4% [ICON_Culture] 文化值，直至+16% [ICON_Culture] 文化值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_BROADCAST_CENTER_DESCRIPTION" Language="en_US">
+      <Text>+60% [ICON_Culture] Culture in this city. This bonus is lowered by 4% [ICON_Culture] Culture for each additional city in your empire (down to a minimum +16% [ICON_Culture] Culture).</Text> 
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_BARRACKS_NAME" Language="zh_Hans_CN">
+      <Text>国家兵营</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_BARRACKS_NAME" Language="en_US">
+      <Text>National Barracks</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_BARRACKS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>战略资源储备+10。解锁显示对应资源的科技后，每回合产出5点（标准速度下） [ICON_RESOURCE_HORSES] 马和 [ICON_RESOURCE_IRON] 铁。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_BARRACKS_DESCRIPTION" Language="en_US">
+      <Text>Strategic Resource Stockpiles increased +10. +5 [ICON_RESOURCE_HORSES] Horses and [ICON_RESOURCE_IRON] Iron per turn (on Standard Speed) after unlocking the tech that reveals these resources. </Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_ARMORY_NAME" Language="zh_Hans_CN">
+      <Text>国家军械库</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_ARMORY_NAME" Language="en_US">
+      <Text>National Armory</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_ARMORY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>战略资源储备+20。解锁显示对应资源的科技后，每回合产出5点（标准速度下） [ICON_RESOURCE_NITER] 硝石和 [ICON_RESOURCE_COAL] 煤。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_ARMORY_DESCRIPTION" Language="en_US">
+      <Text>Strategic Resource Stockpiles increased +20. +5 [ICON_RESOURCE_NITER] Niter and [ICON_RESOURCE_COAL] Coal per turn (on Standard Speed) after unlocking the tech that reveals these resources. </Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_MILITARY_ACADEMY_NAME" Language="zh_Hans_CN">
+      <Text>国家军事学院</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_MILITARY_ACADEMY_NAME" Language="en_US">
+      <Text>National Military Academy</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_MILITARY_ACADEMY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>战略资源储备+30。解锁显示对应资源的科技后，每回合产出5点（标准速度下） [ICON_RESOURCE_ALUMINUM] 铝、[ICON_RESOURCE_OIL] 石油和 [ICON_RESOURCE_URANIUM] 铀。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_MILITARY_ACADEMY_DESCRIPTION" Language="en_US">
+      <Text>Strategic Resource Stockpiles increased +30. +5 [ICON_RESOURCE_ALUMINUM] Aluminum, [ICON_RESOURCE_OIL] Oil, and [ICON_RESOURCE_URANIUM] Uranium per turn (on Standard Speed) after unlocking the tech that reveals these resources.</Text>
+    </Replace>			
+	<Replace Tag="LOC_BUILDING_NATIONAL_ARENA_NAME" Language="zh_Hans_CN">
+      <Text>国家竞技场</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_ARENA_NAME" Language="en_US">
+      <Text>National Arena</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_ARENA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+10%城市人口增长速度。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_ARENA_DESCRIPTION" Language="en_US">
+      <Text>+10% City growth.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_ZOO_NAME" Language="zh_Hans_CN">
+      <Text>国家动物园</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_ZOO_NAME" Language="en_US">
+      <Text>National Zoo</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_ZOO_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+20%城市人口增长速度。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_ZOO_DESCRIPTION" Language="en_US">
+      <Text>+20% City growth.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_STADIUM_NAME" Language="zh_Hans_CN">
+      <Text>国家体育场</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_STADIUM_NAME" Language="en_US">
+      <Text>National Stadium</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_STADIUM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+30%城市人口增长速度。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_STADIUM_DESCRIPTION" Language="en_US">
+      <Text>+30% City growth.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_BUILDING_NATIONAL_LIGHTHOUSE_NAME" Language="zh_Hans_CN">
+      <Text>国家灯塔</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_LIGHTHOUSE_NAME" Language="en_US">
+      <Text>National Lighthouse</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_LIGHTHOUSE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>此城所有海岸单元格+1 [ICON_Food] 食物，解锁电力科技后海洋单元格也+1 [ICON_Food] 食物。+1 [ICON_TradeRoute] 贸易路线容量。从此城出发的 [ICON_TradeRoute] 贸易路线+1 [ICON_Gold] 金币。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_LIGHTHOUSE_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Food] Food on all Coast tiles for this city, +1 [ICON_Food] Food for Ocean tiles after Electricity technology. +1 [ICON_TradeRoute] TradeRoute capacity. +1 [ICON_Gold] Gold for [ICON_TradeRoute] TradeRoutes that start from this city.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_SHIPYARD_NAME" Language="zh_Hans_CN">
+      <Text>国家造船厂</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_SHIPYARD_NAME" Language="en_US">
+      <Text>National Shipyard</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_SHIPYARD_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>此城所有海岸单元格+1 [ICON_Production] 生产力，解锁电力科技后海洋单元格也+1 [ICON_Production] 生产力。+1 [ICON_TradeRoute] 贸易路线容量。从此城出发的[ICON_TradeRoute] 贸易路线+2 [ICON_Gold] 金币。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_SHIPYARD_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Production] Production on all Coast tiles for this city, +1 [ICON_Production] Production for Ocean tiles after Electricity technology. +1 [ICON_TradeRoute] TradeRoute capacity. +2 [ICON_Gold] Gold for [ICON_TradeRoute] TradeRoutes that start from this city.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_SEAPORT_NAME" Language="zh_Hans_CN">
+      <Text>国家码头</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_SEAPORT_NAME" Language="en_US">
+      <Text>National Seaport</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_SEAPORT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>此城所有海岸单元格和海洋单元格+2 [ICON_Gold] 金币。+1 [ICON_TradeRoute] 贸易路线容量。从此城出发的[ICON_TradeRoute] 贸易路线+3 [ICON_Gold] 金币。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_NATIONAL_SEAPORT_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_Gold] Gold on all Coast tiles and Ocean tiles for this city. +1 [ICON_TradeRoute] TradeRoute capacity. +3 [ICON_Gold] Gold for [ICON_TradeRoute] TradeRoutes that start from this city.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_DISTRICT_NATIONAL_CAMPUS_NAME" Language="zh_Hans_CN">
+      <Text>国家学院</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_CAMPUS_NAME" Language="en_US">
+      <Text>National Campus</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_CAMPUS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>国家奇观，每个文明只能建造一个，不得与其它类型国家奇观位于同一城市。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_CAMPUS_NO_EXCLUSIVE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>国家奇观，每个文明只能建造一个。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_CAMPUS_DESCRIPTION" Language="en_US">
+      <Text>National wonder, can only be built once in each civilization, can't be in the same city as other types of national wonders.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_CAMPUS_NO_EXCLUSIVE_DESCRIPTION" Language="en_US">
+      <Text>National wonder, can only be built once in each civilization.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_HOLY_SITE_NAME" Language="zh_Hans_CN">
+      <Text>国家圣地</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_HOLY_SITE_NAME" Language="en_US">
+      <Text>National Holy Site</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_HOLY_SITE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>国家奇观，每个文明只能建造一个，不得与其它类型国家奇观位于同一城市。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_HOLY_SITE_NO_EXCLUSIVE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>国家奇观，每个文明只能建造一个。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_HOLY_SITE_DESCRIPTION" Language="en_US">
+      <Text>National wonder, can only be built once in each civilization, can't be in the same city as other types of national wonders.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_HOLY_SITE_NO_EXCLUSIVE_DESCRIPTION" Language="en_US">
+      <Text>National wonder, can only be built once in each civilization.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_COMMERCIAL_HUB_NAME" Language="zh_Hans_CN">
+      <Text>国家商业中心</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_COMMERCIAL_HUB_NAME" Language="en_US">
+      <Text>National Commercial Hub</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_COMMERCIAL_HUB_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>国家奇观，每个文明只能建造一个，不得与其它类型国家奇观位于同一城市。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_COMMERCIAL_HUB_NO_EXCLUSIVE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>国家奇观，每个文明只能建造一个。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_COMMERCIAL_HUB_DESCRIPTION" Language="en_US">
+      <Text>National wonder, can only be built once in each civilization, can't be in the same city as other types of national wonders.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_COMMERCIAL_HUB_NO_EXCLUSIVE_DESCRIPTION" Language="en_US">
+      <Text>National wonder, can only be built once in each civilization.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_THEATER_NAME" Language="zh_Hans_CN">
+      <Text>国家剧院广场</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_THEATER_NAME" Language="en_US">
+      <Text>National Theater</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_THEATER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>国家奇观，每个文明只能建造一个，不得与其它类型国家奇观位于同一城市。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_THEATER_NO_EXCLUSIVE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>国家奇观，每个文明只能建造一个。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_THEATER_DESCRIPTION" Language="en_US">
+      <Text>National wonder, can only be built once in each civilization, can't be in the same city as other types of national wonders.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_THEATER_NO_EXCLUSIVE_DESCRIPTION" Language="en_US">
+      <Text>National wonder, can only be built once in each civilization.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_INDUSTRIAL_ZONE_NAME" Language="zh_Hans_CN">
+      <Text>国家工业区</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_INDUSTRIAL_ZONE_NAME" Language="en_US">
+      <Text>National Industrial Zone</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_INDUSTRIAL_ZONE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>国家奇观，每个文明只能建造一个，不得与其它类型国家奇观位于同一城市。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_INDUSTRIAL_ZONE_NO_EXCLUSIVE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>国家奇观，每个文明只能建造一个。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_INDUSTRIAL_ZONE_DESCRIPTION" Language="en_US">
+      <Text>National wonder, can only be built once in each civilization, can't be in the same city as other types of national wonders.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_INDUSTRIAL_ZONE_NO_EXCLUSIVE_DESCRIPTION" Language="en_US">
+      <Text>National wonder, can only be built once in each civilization.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_ENCAMPMENT_NAME" Language="zh_Hans_CN">
+      <Text>国家军营</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_ENCAMPMENT_NAME" Language="en_US">
+      <Text>National Encampment</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_ENCAMPMENT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>国家奇观，每个文明只能建造一个，不得与其它类型国家奇观位于同一城市。防御工事的攻击范围为2。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_ENCAMPMENT_NO_EXCLUSIVE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>国家奇观，每个文明只能建造一个。防御工事的攻击范围为2。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_ENCAMPMENT_DESCRIPTION" Language="en_US">
+      <Text>National wonder, can only be built once in each civilization, can't be in the same city as other types of national wonders, attack range of defence is 2.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_ENCAMPMENT_NO_EXCLUSIVE_DESCRIPTION" Language="en_US">
+      <Text>National wonder, can only be built once in each civilization, attack range of defence is 2.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_ENTERTAINMENT_COMPLEX_NAME" Language="zh_Hans_CN">
+      <Text>国家娱乐中心</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_ENTERTAINMENT_COMPLEX_NAME" Language="en_US">
+      <Text>National Entertainment Complex</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_ENTERTAINMENT_COMPLEX_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>国家奇观，每个文明只能建造一个，不得与其它类型国家奇观位于同一城市。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_ENTERTAINMENT_COMPLEX_NO_EXCLUSIVE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>国家奇观，每个文明只能建造一个。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_ENTERTAINMENT_COMPLEX_DESCRIPTION" Language="en_US">
+      <Text>National wonder, can only be built once in each civilization, can't be in the same city as other types of national wonders.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_ENTERTAINMENT_COMPLEX_NO_EXCLUSIVE_DESCRIPTION" Language="en_US">
+      <Text>National wonder, can only be built once in each civilization.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_HARBOR_NAME" Language="zh_Hans_CN">
+      <Text>国家港口</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_HARBOR_NAME" Language="en_US">
+      <Text>National Harbor</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_HARBOR_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>国家奇观，每个文明只能建造一个，不得与其它类型国家奇观位于同一城市。防御工事的攻击范围为2。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_HARBOR_NO_EXCLUSIVE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>国家奇观，每个文明只能建造一个。防御工事的攻击范围为2。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_HARBOR_DESCRIPTION" Language="en_US">
+      <Text>National wonder, can only be built once in each civilization, can't be in the same city as other types of national wonders, attack range of defence is 2.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NATIONAL_HARBOR_NO_EXCLUSIVE_DESCRIPTION" Language="en_US">
+      <Text>National wonder, can only be built once in each civilization, attack range of defence is 2.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_NATIONAL_COMMERCIAL_HUB_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻国家商业中心。</Text>
+    </Replace>
+	<Replace Tag="LOC_NATIONAL_COMMERCIAL_HUB_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent National Commercial Hub.</Text>
+    </Replace>
+	<Replace Tag="LOC_NATIONAL_HARBOR_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻国家港口。</Text>
+    </Replace>
+	<Replace Tag="LOC_NATIONAL_HARBOR_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent National Harbor.</Text>
+    </Replace>
+	<Replace Tag="LOC_NATIONAL_THEATER_CULTURE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Culture] 文化值来自相邻国家剧院广场。</Text>
+    </Replace>
+	<Replace Tag="LOC_NATIONAL_THEATER_CULTURE" Language="en_US">
+      <Text>+{1_num} [ICON_Culture] Culture from the adjacent National Theater.</Text>
+    </Replace>
+	<Replace Tag="LOC_NATIONAL_HOLY_SITE_FAITH" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Faith] 信仰值来自相邻国家圣地。</Text>
+    </Replace>
+	<Replace Tag="LOC_NATIONAL_HOLY_SITE_FAITH" Language="en_US">
+      <Text>+{1_num} [ICON_Faith] Faith from the adjacent National Holy Site.</Text>
+    </Replace>
+	<Replace Tag="LOC_NATIONAL_CAMPUS_SCIENCE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Science] 科技值来自相邻国家学院。</Text>
+    </Replace>
+	<Replace Tag="LOC_NATIONAL_CAMPUS_SCIENCE" Language="en_US">
+      <Text>+{1_num} [ICON_Science] Science from the adjacent National Campus.</Text>
+    </Replace>
+	<Replace Tag="LOC_NATIONAL_INDUSTRIAL_ZONE_PRODUCTION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自相邻国家工业区。</Text>
+    </Replace>
+	<Replace Tag="LOC_NATIONAL_INDUSTRIAL_ZONE_PRODUCTION" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from the adjacent National Industrial Zone.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

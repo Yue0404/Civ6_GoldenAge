@@ -1,0 +1,48 @@
+<GameData>
+    <LocalizedText>	
+	<!--奇观胜利-->
+	<Replace Tag="LOC_GA_VICTORY_WONDER_NAME" Language="zh_Hans_CN">
+      <Text>奇观胜利</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_VICTORY_WONDER_NAME" Language="en_US">
+      <Text>Wonder Victory</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_VICTORY_WONDER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁“环境保护主义”市政后，若您的帝国拥有[COLOR_FLOAT_CULTURE]远古时代到原子能时代中每个时代的至少一个世界奇观，则你可以进行“申请文化遗产”项目。[ENDCOLOR]此后，越来越多来自世界各地的游客会前来观光宏伟的世界奇观，您的文化价值观也输出向全世界。[COLOR_FLOAT_CULTURE]解锁“文化霸权”市政后，进行“奇观文化霸权”项目，你便可获得游戏胜利。[ENDCOLOR][NEWLINE][NEWLINE]这个胜利模式十分适合在 [ICON_Culture] 文化值和 [ICON_Production] 生产力有优势，但 [ICON_Science] 科技、[ICON_Strength] 军事和 [ICON_Faith] 宗教实力较弱的文明。你费尽苦心修建（或占领）的宏伟奇观是否能经受住时间的考验？夺取文化霸权，赢得胜利吧！</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_VICTORY_WONDER_DESCRIPTION" Language="en_US">
+      <Text>After researching "Environmentalism" civic, if your empire has [COLOR_FLOAT_CULTURE]at least one World Wonder from every era from the Ancient era to the Atomic era, you can unlock and run "Application for Cultural Heritage" project in your city.[ENDCOLOR]Since then, more and more tourists from all over the world will come to see the magnificent wonders of the world, and your cultural values will be exported to the whole world. [COLOR_FLOAT_CULTURE]After researching "Cultural Hegemony" civic, you can run another project in your city and win the Wonder Victory.[ENDCOLOR][NEWLINE][NEWLINE]This victory type is suitable for civilizations that are predominant in [ICON_Culture] culture and [ICON_Production] productivity, but weak in [ICON_Science] science, [ICON_Strength] military, and [ICON_Faith] religion. Will the magnificent spectacle you have laboriously built (or captured) stand the test of time? Seize cultural hegemony and win the game!</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_VICTORY_WONDER_TEXT" Language="zh_Hans_CN">
+      <Text>从多年前的卑微开始，我们已经创造了一个能够经受时间考验的文明。我们见证了周围无数文明的迭起与兴衰，我们不只是生存下来，我们繁荣且强盛。</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_VICTORY_WONDER_TEXT" Language="en_US">
+      <Text>From our humble beginnings ages ago have you forged a civilization that has withstood time itself. Though countless civilizations rise and fall around us, we do not just survive. We prosper.</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_PROJECT_WONDER_VICTORY1_NAME" Language="zh_Hans_CN">
+      <Text>申请文化遗产</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_PROJECT_WONDER_VICTORY1_NAME" Language="en_US">
+      <Text>Application for Cultural Heritage</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_PROJECT_WONDER_VICTORY1_DESC" Language="zh_Hans_CN">
+      <Text>若您的帝国拥有远古时代到原子能时代中每个时代的至少一个世界奇观，便可以在城市进行此项目，完成后将解锁“奇观文化霸权”项目。标志着奇观胜利的第一步。</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_PROJECT_WONDER_VICTORY1_DESC" Language="en_US">
+      <Text>If your empire has at least one World Wonder from every era from the Ancient era to the Atomic era, you can run this project in your city and unlock the 'Wonder Cultural Hegemony' project upon completion. It marked the first step towards world wonder victory.</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_PROJECT_WONDER_VICTORY2_NAME" Language="zh_Hans_CN">
+      <Text>奇观文化霸权</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_PROJECT_WONDER_VICTORY2_NAME" Language="en_US">
+      <Text>Cultural Hegemony of Wonders</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_PROJECT_WONDER_VICTORY2_DESC" Language="zh_Hans_CN">
+      <Text>您帝国的世界奇观的文化输出对全世界的文化价值观产生了巨大的影响，完成此项目后您将获得奇观胜利。</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_PROJECT_WONDER_VICTORY2_DESC" Language="en_US">
+      <Text>The cultural export of your empire's World Wonders has had a huge impact on cultural values around the world. You will win Wonders Victory upon completion of this project.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>	
+	

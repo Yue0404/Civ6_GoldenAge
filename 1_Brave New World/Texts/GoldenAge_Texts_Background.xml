@@ -1,0 +1,176 @@
+<GameData>
+  <LocalizedText>	
+  <!--百科-->	
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_TRAINING_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>远古时期的部落，没有哪一个人是专职的战士，或者说人人都是战士，只要警戒声响起——或是野兽的嘶吼声，或是部落外围斥候的怒喊，或者干脆就是某个倒霉鬼的惨叫，整个部落的人都会拿起身边的武器奔赴危险的战场。这个勇敢战斗的部落有时能击败来袭者，大获全胜，保全村落，有时则会不幸地输掉战斗，被猛兽或是另一个野蛮的部落掠夺。</Text>
+    </Replace> 
+	<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_TRAINING_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>经过无数次这样的战斗，幸存下来的部落人民发现，一些经历过多次战斗，健壮有力的人在战场上有更好的身手，能够最大程度的打击敌人，保护村落。于是大家从村民中选出这些人，给他们准备最锋利的长矛和最厚实的皮甲，而这些有丰富战斗经验的人成为了部落的战士，专门保护部落不受袭击——或是袭击掠夺其他部落。</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_CHURCH_COMMUNITY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>每个社区都会有必须的基建满足人们生活所需，市场，银行，车站，餐厅，娱乐场所，当然少不了教堂。</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_CHURCH_COMMUNITY_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>在美国每个周末，都能看见基督徒和亲友或是邻居，步行去最近的教堂，听唱诗班颂唱诗歌，或听牧师诵读经文，而教会每年会举行一些面向孩子的活动，比如暑期圣经班，并向社区宣传，让孩子也能参与到教会活动。很多人通过教会活动建立社区关系，比如参加社区里的组织、服务团体、家庭联欢、聚会、二手市场等等，让人们对自己的社区有着更好的认同感。对住在这些社区生活的人来说，礼拜或是祈祷已经不仅仅是一种宗教活动，更像一种社交活动，教会也已经成为了人们生活的一部分。</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PROSPEROUS_PORT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>深海即是危险，在航海技术并不完善的时代，人类是这样认为的。无论是测量技术的落后导致航行偏离，还是船体材质被海水侵蚀导致航船沉落，或者是坏血病导致船员死亡，都是极大的远航阻力。</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_PROSPEROUS_PORT_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>但人类天生渴望探求未知，无论何种危险都能克服，新的测绘技术，新的船体材质，新的医疗理念，激励着勇敢者们向深航前行。虽然还是有许多勇敢的先驱者们们没能回到故乡，但他们所进行的探索，极大地扩展了已知世界的范围。而回到故乡的幸运儿带回来其他大陆的各种珍稀货物，也带回来其他大陆的独特文明和传说。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_BIG_EXPANSION_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>15世纪，随着欧洲勇敢的先驱者们踏上船只，向未知的大陆前进，大航海时代开启了，他们出现在世界各处的海洋里，寻找着新的大陆和国度。</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_BIG_EXPANSION_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>但在当时，远洋航行意味着冒险：深海里无法准确测量经度导致航向不准；木制船壳无法抵抗船蛆的侵蚀导致船体损毁；储备的食物不适于长期航行而导致坏血病以至船员死亡。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_BIG_EXPANSION_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+      <Text>发明新的深海测量方式；加固材质抵挡海水对船体的侵蚀；准备更多的柑橘以防止坏血病，人们在一次又一次的失败里不断的总结学习，克服掉一个又一个的难题，船只也越行越远，直达另一个大陆。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_RESEARCH_FUNDING_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>1895年11月27日，诺贝尔写下遗嘱，捐献全部财产3122万余瑞典克朗设立基金，每年把利息作为奖金，授予“一年来对人类作出最大贡献的人”。而诺贝尔科学奖也是其中之一。这是世界性的最重要的科学奖励系统，无论是放射元素镭的发现者居里夫人，还是创建量子力学的.海森堡，以及其他上百名获奖者，都为促进人类科学研究，技术进步，社会发展中发挥了巨大作用。</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_RESEARCH_FUNDING_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>如今诺贝尔科学奖的奖金在三万美元到七万美元（根据诺贝尔基金会的每年收益不同而会有所增减），随着得奖名单越来越长，人类对科技的探索也将越来越深入。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_COLLECTIVE_PRODUCTION_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>20世纪30年代，苏联建立了世界上第一个社会主义国家，斯大林认为“社会主义是按计划进行的”，并在1929年4月制定并通过了1928－1932年国民经济计划，标志着五年计划在苏联的诞生。</Text>
+	</Replace>
+	<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_COLLECTIVE_PRODUCTION_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>第一个五年计划让苏联完成了从农业国到工业国的基本转变，到1937年第二个五年计划完成，苏联已经实现了以重工业为中心的工业化，工业总产值迅速跃升至欧洲第一，世界第二。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_COLLECTIVE_PRODUCTION_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+      <Text>这种根据国情制定五年内发展计划的思路，被许多社会主义国家学习借鉴，如今中国已经在执行第十四个五年计划（又称五年规划）。</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_CONCILIATION_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>“百战百胜，非善之善者也；不战而屈人之兵，善之善者也。”</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_CONCILIATION_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>这本是中国古代的军事家孙子，以彰显军事实力或是外交等手段，达到“不战而胜”的战争思想，但在后世，很多聪明的统治者也学会这样的思想，并活用于政治外交中，用和亲等政治手段笼络其他的民族或国家归附自己，以达到“不战而胜”的政治目的。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_MEDIA_TRANSMISSION_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>随着工业革命的兴起，报纸和电话快速传达着每一个声音，人们每时每刻都在接触着全新的事物，从未感觉到世界如此之小。广播与电缆也把国与国之间的距离拉近，长城，兵马俑，金字塔，古罗马斗兽场，这些在之前仅是传闻中的奇观，如今也能通过图片或是光影一览全貌，人类第一次清晰的得知其他国度的独特文化，并渴望与之交流。直到巨大的远洋客轮的兴起，这些旅游者的好奇心终于得到了满足。</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_CULTURAL_EXCHANGE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>随着商路的开拓，人们发现除了自己居住地以外，还有许许多多的城邦或是国家，这些城邦和国家都有自己独特的文化，从舞蹈，音乐，语言这些传统艺术，到丝绸，茶叶，瓷器，建筑这些特有物品，都让从未接触过的人大开眼界。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DIPLOMATIC_OFFICE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>在尚武的远古时代，一些强大的部落或是氏族，认为棍棒和石块就是一切，部落里每一个人，都会拿起所有能拿到的武器，攻击掠夺其他村落。</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_DIPLOMATIC_OFFICE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>随着时代进步，棍棒和石块变成了刀剑，冲突变成战争，但统治者们发现，就算赢得一场战争，但在战争里失去的士兵，损失的物资，还有衰减的国力，不一定比得上在战争中所得的收益。于是聪明的统治者们渴求找到其他不用战争也能达到目的的办法，无论是和平的怀柔拉拢他国，还是直接的军演展示国力。因为他们发现，有些时候语言比刀剑有更大的影响力。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_ARTS_HUMANITIES_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>无论是远古时期，某个狩猎归来的部落勇士，伴随着有节奏的呼喊声，在火堆边扭动身体，在部族其他人面前跳起展现自己与猛兽搏斗时的情景与战斗勇气的舞蹈（如果那能算得上舞蹈的话），还是昨天你我一起在影院看的某部带着地球一起逃离太阳系，用数代人的时间寻找人类新家园，以此让观众对人文，科技，环境等要素引发思考的科幻大片，这些表演者的目的都是一样：把自己所经历的此情此景与所思所感，分享给身边的其他人。</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_ARTS_HUMANITIES_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>如果历史记载是人类客观冷静的经验积累，那么人文艺术就是人类特有的感性洋溢。现如今每个人都可以用Vlog随手记录自己的当下，与身边的人分享那一刻的心情，或许你我，以及每一个人，都是天生的艺术家。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_RELAXATION_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>当人们无聊的时候，中世纪的贵族会和至交好友在猎场比一比谁的猎物多，而现在我们则会选择来一场街头球赛。竞技，是人们最普遍的休闲方式。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_RELAXATION_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>而最出名的竞技比赛，当属两千多年前的希腊古奥运会，当时的希腊有近200个城邦，纷争不断，一些渴求和平的希腊人民想出一种安全的解决方式——奥林匹亚运动会，在运动会上，所有城邦都可以通过竞技运动，安全的展示军事实力。这个运动会被绝大多数城邦接纳，并逐渐演变成象征和平和友谊的运动会。传闻人们聚集在奥林匹亚宙斯神庙前，举行庄严肃穆的仪式，从祭坛点燃圣火火炬，然后奔赴希腊各个城邦，圣火到哪里，哪里的战火就熄灭了，所有城邦的人都来到奥林匹亚参加运动会。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_RELAXATION_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+      <Text>当然这只是记载在古代文献里的情景，但或许当年谁也没有想到，熄灭了上千年的圣火会在1896年再次燃起，那个举着火炬奔跑的身影会成为如今世界上最著名的综合性运动会的象征，全世界的目光都会聚集于此，当时期盼的团结友谊的和平场景，会在如今每四年举行一次的奥运会上一直保持下去。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SACRED_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>在远古时期，对自然的未知探索，让知之甚少的原始人类相信现实世界之外存在着超乎自己所知的神秘力量或实体，并让他们对此产生敬畏及崇拜，进而衍生出向这些“神明”祈祷平安的宗教活动。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SACRED_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>但在封建君主时期，神明与宗教演变成为了统治者巩固自己的地位与权力的工具，那个时期的绝大多数统治者，都把自己与这些“神明”联系在一起，无论是持着刻有“受命于天，既寿永昌”的传国玉玺的“天子”，还是在加冕仪式上，给一国之王戴上皇冠的教皇，都无时无刻提醒着普通民众：君王是神明或是上帝的代理人，你们崇拜君王，就是崇拜你们的神明或是上帝。而这种思想，直到17世纪的启蒙运动才有所转变。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SACRED_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+      <Text>但抛开那段时期宗教的政治因素，无论是佛教中“因缘”的因果思想，还是道教里“道可道非常道”所教导的自然与社会规律，抑或是基督教的“福音”为信徒撑起永不磨灭的希望，以及其他绝大多数宗教的教义，都带给人类社会积极的思想与动力。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_BUSINESS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>当某个原始部落里，一名勇士用刚猎来的猎物，从娴熟的老手艺人那里换来一柄崭新的长矛的时候，历史上的第一次交易便诞生了。渐渐地人们发现了以物易物的不便，于是发明了交换的替代品——贝壳，骨头，小块布片，虽然这些替代的物件容易损毁，但也体现了交易的基本原则：公平交换，各取所需。</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_BUSINESS_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>随着科技与人文的进步，人们不再满足自己所居村落以及城镇的物品，开始尝试追求其他新奇的物件，这也成为了人类向外探索，开辟商路的动力。在古代商路里，最有名的应该是全长6440公里，横跨亚欧大陆，连接中国与罗马的丝绸之路，这条道路不但给双方带来了珍奇的货物，也带来了文化的交流，更重要的是带给人类勇于探索开辟其他未知的信心和勇气。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_MOTIVATION_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>在远古时期，为了把重大事件记录下来，部落的酋长或是巫师便用不同粗细的绳子，在上面结成不同大小和距离的结来表达所经历过的一切，并在部落里传承下去。</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_MOTIVATION_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>人类智慧之所以能够代代传承，正是因为能够把先祖的经验记录下来，这些经验记录的方式根据记录者所处的时代不同，而有很大的差异，或是一段早已腐朽的绳索上的绳结，或是一块风化石碑上的象形文字，或是印刷成册的厚重书本，抑或是储存在平板电脑里的一段视频。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_MOTIVATION_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+      <Text>但无论怎样改变记录的形式，这些一代又一代积累下来的经验，都是供后人学习进步的阶梯。从石块到青铜，从刀剑到火枪，从燃煤到太阳能，人类的智慧也因此能够不断前进。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_URBAN_EXPANSION_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>随着工业时代的来临，蒸汽机带来的交通便利，让城市人口逐渐增加；而工业技术的进步，使城市外圈的农场与种植园逐步现代化，城市也慢慢以圈层式向外扩张。</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_URBAN_EXPANSION_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>扩大基建——人口增多——继续扩大基建，这样的循环随着时间的积累，让城市的规模不停的扩大到惊人的地步。如今的一些国际大都市，或许在当年也就仅仅是一个小村庄而已。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_MASS_MIGRATION_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>17世纪初，伴随着第一台蒸汽机的嗡嗡响声和刺鼻的烟尘一起诞生的，还有工业革命的萌芽。蒸汽，煤炭，让旧时依靠火药和刀剑的人民能不断推动本土社会的发展，也给予他们扩展世界版图新的动力。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_MASS_MIGRATION_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>在短短几十年时间里，不列颠的维多利亚女皇，借着工业革命的大潮，领着英勇的红衫军和黄金舰队，开辟了一个又一个海外殖民地，不列颠国土面积和人口迅速壮大到全球的四分之一，殖民地面积更是惊人地达到本土面积的110倍，不列颠，从此号称日不落帝国。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SPECIAL_FORCES_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>在尚武的蛮族社会里，每个男人都是战士，一个部族可能会因为一场惨烈的战斗，失去所有成年男人而一蹶不振，直至消亡。随着封建社会的到来，统治者们也开始意识到，战场上获胜的不一定是人数更多的一方，相反，因为彼此步伐的不协调而扰乱阵型，使用武器不熟练而误伤友军，以及其他的各种情况，有可能会损失更多的士兵。而步调更加统一，使用武器更加熟练，意志更坚定的一方能够在损失较少的情况下取得胜利。于是统治者在治下招募精壮的男人，统一训练，配给装备并拨发薪饷。这样训练出来的战士人数虽然较之前全民皆兵的状态为少，但战术素养更高。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SPECIAL_FORCES_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>而和平时期，大量的职业军人对统治者也会造成负担，于是聪明的统治者会也想出军民相辅的相关政策，以减轻国家的经济压力。比如中国在三国时期的“屯田兵”，数十万的军人在边境，一边训练一边进行农业生产，充实军粮。而欧洲则是数户人家合力供养一个民兵，他往往有更好的装备以及更长时间的训练，不时还会有领主的薪饷下发——这样的民兵制度不断发展完善，最终演变成世界知名的骑士文化。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_RESOURCE_RECYCLE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>原先需要一吨煤才能驱动的装甲舰，现在只需要用几张太阳能板。原先需要每天消耗数吨石油才能供给城市足够的电力，现在只需要几座沿河而建的水电站。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_RESOURCE_RECYCLE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>随着近年来环保意识的增强，人们意识到生活所需要的水资源、森林资源、生物资源、大气资源，本来是可以不断再生，但却在过去的发展中消耗了大量的自然资源，不但给地球带来了生态灾难，也给人类生存带来了严重的威胁。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_RESOURCE_RECYCLE_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+      <Text>太阳能，地热，水利，人们不断的在寻找开辟新的纯净资源，而之前所有的资源，也得到了更有效的发挥。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_WATER_CONSERVANCY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>江河可以提供清凉可口的淡水，肥美的鱼类，于是远古时代的人民很自然的选择在江河边定居或是顺着江河游牧，但汹涌的泛滥洪水总会侵袭一些倒霉的部落，人们开始想办法防治泛滥的洪水。古老的中国就有五千年前大禹治水的神话传说。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_WATER_CONSERVANCY_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>时代变迁，人们沿河建设村庄和城镇，防洪、排涝、灌溉、漕运的需要也逐渐增加，水利事业也逐渐开发使用，从到水渠到，从运河到水坝，人们开渐渐熟悉与江河相辅相成的生存方式。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_WATER_CONSERVANCY_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+      <Text>如今世界上有成千上万座水坝，每一座水坝不但能为城市提供供水与农业灌溉，也为城市提供了大量的水力电能。而当今世界最大的水坝就是中国建造的三峡大坝。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_MANUFACTURE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>每个原始人都会随手从地上抓起一把泥土，用手固定成型，再用火烧热让其变硬，用来装盛割成小块的猎物或是收集来的植物果实；或是从树上取下最坚固的树枝，削尖一端以用来耕作土地，依附农业而生，就是最早的手工业。	</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_MANUFACTURE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>随着人类文明的进步，金属加工、纺织、制陶、造船、皮革加工等活动逐渐增多，制作技术不断改进，专职的手工业者也逐渐增多，手工业也渐渐从农业脱离而出。人们对制作手艺的要求越来越高，终于在封建时代出现了专业的手工艺作坊，这正是工业的萌芽。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SEAFAIRING_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>“大海的对面，是自由。”不知道会有多少年轻人会在海边，用手指着远方的大海说出这句话。而远古时期的人们发现大海除了能提供鲜美的鱼类以外，还会给人们带来掉入海水的无助感。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SEAFAIRING_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>当某个幸运儿偶然的登上一段从上游飘过的浮木，体验到在海水里漂浮的感觉，于是渐渐学会乘上不易损坏的木头，试着踏入海洋。这种简陋的船只除了能让人们获得更多的食物，也提供了相对安全一些的探索未知地理的手段，但面对着一望无际的深海，人们还是只能选择在临近陆地的近海航行。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_SEAFAIRING_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+      <Text>随着造船技术的成熟，天文学和罗盘等导航技术的发展，人类终于可以制造出坚固的船只，在一望无际的深海里确定自己的位置与航向，安全的到达预定的目的地。于是尝试穿越深海，探索未知，航海业也逐渐发展，最终在15世纪，出现了航海业最辉煌的大航海时代。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_AIRFORCE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>人类曾以为高耸入云的山脉和一望无际的荒野是不可逾越的障碍，但在两千年前，中国的张骞开辟了举世闻名的丝绸之路；人类曾以为蔚蓝的深海是无法踏足的领域，但在五百年前，葡萄牙航海探险家麦哲伦勇敢的踏上船只，成为第一个拥抱地球的人；人类曾以为天空是只能仰望的存在，但在一百年前，美国的莱特兄弟驾驶着自制的飞机升上蓝天；人类曾以为一片漆黑，没有空气的太空是生命的禁区，但在六十年前，前苏联的加加林成为第一个踏入太空的人。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_AIRFORCE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>至本mod《黄金时代》此次更新之际，美国的“毅力号”已经成功在火星着陆，中国的“天问一号”与阿联酋的“希望号”也临近火星，这或许又是一个突破人类极限的契机。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_AIRFORCE_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+      <Text>或许对这些勇敢的先驱者来说，人类没有极限可言，因为只要勇于探索未知，那么人类的未来，就有无限的可能。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LIVELIHOOD_ARMY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>工业革命后，随着权力与资源的分配问题，国与国之间的分歧也越发明显，最终爆发了以争夺霸权与资源为目的的第一次与第二次世界大战。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_LIVELIHOOD_ARMY_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>在战争的初期，因为侵略者充分的准备，很多被侵略的国家节节败退，但这些国家的军人，都勇敢的站在自己祖国每一个需要他们的地方——城市，交通要道，战场，他们勇敢战斗的身影，表现出反抗侵略者的决心，给本国人民带来了希望与信心，并与最终取得保卫国家战争的胜利。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_OPTIMAL_MANAGEMENT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+      <Text>每个组织将要做的每一个决定，多会系统客观的对一切因素、条件及其相互之间的关系进行全面的分析，并在此基础上拟定出多种可供选择的方案，通过比较、论证，选择其中最能实现管理目的的一个方案。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_GOVERNMENTS_PAGE_POLICY_OPTIMAL_MANAGEMENT_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+      <Text>这个方案，除了有最高速的执行力以外，还应该有最低廉的成本。在信息时代的今天，这种管理理念，上至国家军事储备，下至普通公司，都已经烂熟于心。</Text>
+    </Replace>
+  </LocalizedText>
+</GameData>

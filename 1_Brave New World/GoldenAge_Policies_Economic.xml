@@ -1,0 +1,1618 @@
+<GameInfo>
+      
+	<PolicyModifiers>
+        <!--POLICY_GOD_KING-->	   
+		<Row PolicyType='POLICY_GOD_KING' ModifierId='GOLDEN_GOD_KING_CULTURE'/>		
+		<!--POLICY_FREE_TRIBE-->
+		<Row PolicyType='POLICY_FREE_TRIBE' ModifierId='GOLDEN_GOD_KING_FOOD'/>
+		<Row PolicyType='POLICY_FREE_TRIBE' ModifierId='GOLDEN_GOD_KING_SCIENCE'/>
+		<Row PolicyType='POLICY_FREE_TRIBE' ModifierId='GOLDEN_GOD_KING_PRODUCTION'/>
+		<!--POLICY_URBAN_PLANNING-->
+		<Row PolicyType='POLICY_URBAN_PLANNING' ModifierId='GOLDEN_URBAN_PLANNING_ALLCITYGOLD'/>
+		<!--POLICY_URBAN_EXPANSION-->
+		<Row PolicyType='POLICY_URBAN_EXPANSION' ModifierId='GOLDEN_URBAN_EXPANSION_ALLCITYPRODUCTION'/>
+		<Row PolicyType='POLICY_URBAN_EXPANSION' ModifierId='GOLDEN_URBAN_EXPANSION_ALLCITYGOLD'/>	
+		<!--POLICY_EXPROPRIATION-->
+		<Delete PolicyType='POLICY_EXPROPRIATION' ModifierId='EXPROPRIATION_SETTLERPRODUCTION'/>
+        <!--建造者开拓者-->
+		<Row PolicyType='POLICY_SERFDOM' ModifierId='ILKUM_BUILDERPRODUCTION'/>
+		<Row PolicyType='POLICY_MASS_MIGRATION' ModifierId='GOLDEN_MASS_MIGRATION_SETTLERPRODUCTION'/>
+        <Row PolicyType='POLICY_COLONIZATION' ModifierId='GOLDEN_COLONIZATION_SETTLER_MOVEMENT'/>
+		<Row PolicyType='POLICY_MASS_MIGRATION' ModifierId='GOLDEN_MASS_MIGRATION_SETTLER_MOVEMENT'/>
+	    <!--区域与建筑产能-->
+		<Delete PolicyType='POLICY_VETERANCY' ModifierId='VETERANCY_HARBOR_PRODUCTION'/>
+		<Delete PolicyType='POLICY_VETERANCY' ModifierId='VETERANCY_HARBOR_BUILDINGS_PRODUCTION'/>
+		<!-- POLICY_RELAXATION -->
+		<Row PolicyType='POLICY_RELAXATION' ModifierId='GOLDEN_RELAXATION_ENTERTAINMENT_COMPLEX_PRODUCTION'/>
+		<Row PolicyType='POLICY_RELAXATION' ModifierId='GOLDEN_RELAXATION_ENTERTAINMENT_COMPLEX_BUILDINGS_PRODUCTION'/>
+		<Row PolicyType='POLICY_RELAXATION' ModifierId='GOLDEN_RELAXATION_WATER_ENTERTAINMENT_COMPLEX_PRODUCTION'/>
+		<Row PolicyType='POLICY_RELAXATION' ModifierId='GOLDEN_RELAXATION_WATER_ENTERTAINMENT_COMPLEX_BUILDINGS_PRODUCTION'/>
+		<!-- POLICY_SACRED -->
+		<Row PolicyType='POLICY_SACRED' ModifierId='GOLDEN_SACRED_HOLY_SITE_PRODUCTION'/>
+		<Row PolicyType='POLICY_SACRED' ModifierId='GOLDEN_SACRED_HOLY_SITE_BUILDINGS_PRODUCTION'/>
+		<!-- POLICY_SEAFAIRING -->
+		<Row PolicyType='POLICY_SEAFAIRING' ModifierId='GOLDEN_SEAFAIRING_HARBOR_PRODUCTION'/>
+		<Row PolicyType='POLICY_SEAFAIRING' ModifierId='GOLDEN_SEAFAIRING_HARBOR_BUILDINGS_PRODUCTION'/>
+		<!-- POLICY_ARTS_HUMANITIES -->
+		<Row PolicyType='POLICY_ARTS_HUMANITIES' ModifierId='GOLDEN_ARTS_HUMANITIES_THEATER_PRODUCTION'/>
+		<Row PolicyType='POLICY_ARTS_HUMANITIES' ModifierId='GOLDEN_ARTS_HUMANITIES_THEATER_BUILDINGS_PRODUCTION'/>
+		<!-- POLICY_MANUFACTURE -->
+		<Row PolicyType='POLICY_MANUFACTURE' ModifierId='GOLDEN_MANUFACTURE_INDUSTRIAL_ZONE_PRODUCTION'/>
+		<Row PolicyType='POLICY_MANUFACTURE' ModifierId='GOLDEN_MANUFACTURE_INDUSTRIAL_ZONE_BUILDINGS_PRODUCTION'/>
+		<!-- POLICY_BUSINESS -->
+		<Row PolicyType='POLICY_BUSINESS' ModifierId='GOLDEN_BUSINESS_COMMERCIAL_HUB_PRODUCTION'/>
+		<Row PolicyType='POLICY_BUSINESS' ModifierId='GOLDEN_BUSINESS_COMMERCIAL_HUB_BUILDINGS_PRODUCTION'/>
+		<!-- POLICY_MOTIVATION -->
+		<Row PolicyType='POLICY_MOTIVATION' ModifierId='GOLDEN_MOTIVATION_CAMPUS_PRODUCTION'/>
+		<Row PolicyType='POLICY_MOTIVATION' ModifierId='GOLDEN_MOTIVATION_CAMPUS_BUILDINGS_PRODUCTION'/>
+		<!-- POLICY_INSULAE -->
+		<Delete PolicyType='POLICY_INSULAE' ModifierId='INSULAE_SPECIALTYHOUSING'/>
+		<Row PolicyType='POLICY_INSULAE' ModifierId='GOLDEN_CAPITAL_CONSTRUCTION_CITY_CENTER_BUILDINGS_PRODUCTION'/>
+		<Row PolicyType='POLICY_INSULAE' ModifierId='GOLDEN_CAPITAL_CONSTRUCTION_GOVERNMENT_PRODUCTION'/>
+		<Row PolicyType='POLICY_INSULAE' ModifierId='GOLDEN_CAPITAL_CONSTRUCTION_GOVERNMENT_BUILDINGS_PRODUCTION'/>
+		<!-- POLICY_WATER_CONSERVANCY -->
+	    <Row PolicyType='POLICY_WATER_CONSERVANCY' ModifierId='GOLDEN_WATER_CONSERVANCY_AQUEDUCT_PRODUCTION'/>
+		<Row PolicyType='POLICY_WATER_CONSERVANCY' ModifierId='GOLDEN_WATER_CONSERVANCY_AQUEDUCT_BUILDINGS_PRODUCTION'/>
+		<Row PolicyType='POLICY_WATER_CONSERVANCY' ModifierId='GOLDEN_WATER_CONSERVANCY_DAM_PRODUCTION'/>
+		<Row PolicyType='POLICY_WATER_CONSERVANCY' ModifierId='GOLDEN_WATER_CONSERVANCY_DAM_BUILDINGS_PRODUCTION'/>
+		<Row PolicyType='POLICY_WATER_CONSERVANCY' ModifierId='GOLDEN_WATER_CONSERVANCY_CANAL_PRODUCTION'/>
+		<Row PolicyType='POLICY_WATER_CONSERVANCY' ModifierId='GOLDEN_WATER_CONSERVANCY_NEIGHBORHOOD_PRODUCTION'/>
+		<Row PolicyType='POLICY_WATER_CONSERVANCY' ModifierId='GOLDEN_WATER_CONSERVANCY_NEIGHBORHOOD_BUILDINGS_PRODUCTION'/>
+        <!-- POLICY_AIRFORCE -->
+	    <Row PolicyType='POLICY_AIRFORCE' ModifierId='GOLDEN_AIRFORCE_AERODROME_PRODUCTION'/>
+	    <Row PolicyType='POLICY_AIRFORCE' ModifierId='GOLDEN_AIRFORCE_AERODROME_BUILDINGS_PRODUCTION'/>
+	    <Row PolicyType='POLICY_AIRFORCE' ModifierId='GOLDEN_AIRFORCE_SPACEPORT_PRODUCTION'/>		
+        <!--建筑产出与人口相关-->
+		<!-- POLICY_FREE_MARKET -->
+		<Delete PolicyType="POLICY_FREE_MARKET" ModifierId="FREEMARKET_BUILDING_YIELDS_HIGH_POP"/>
+		<Delete PolicyType="POLICY_FREE_MARKET" ModifierId="FREEMARKET_BUILDING_YIELDS_HIGH_ADJACENCY"/>
+		<Row PolicyType="POLICY_FREE_MARKET" ModifierId="GOLDEN_FREEMARKET_BUILDING_YIELDS_TEN"/>
+		<Row PolicyType="POLICY_FREE_MARKET" ModifierId="GOLDEN_FREEMARKET_BUILDING_YIELDS_TWEENTY"/>
+		<Row PolicyType="POLICY_FREE_MARKET" ModifierId="GOLDEN_FREEMARKET_BUILDING_YIELDS_THIRTY"/>
+		<Row PolicyType="POLICY_FREE_MARKET" ModifierId="GOLDEN_FREEMARKET_BUILDING_YIELDS_FOURTY"/>
+		<Row PolicyType="POLICY_FREE_MARKET" ModifierId="GOLDEN_FREEMARKET_BUILDING_YIELDS"/>
+		<Row PolicyType="POLICY_FREE_MARKET" ModifierId="GOLDEN_FREEMARKET_BUILDING_YIELDS_FIFTY"/>
+		<!-- POLICY_GRAND_OPERA -->
+		<Delete PolicyType="POLICY_GRAND_OPERA" ModifierId="GRANDOPERA_BUILDING_YIELDS_HIGH_ADJACENCY"/>
+		<Delete PolicyType="POLICY_GRAND_OPERA" ModifierId="GRANDOPERA_BUILDING_YIELDS_HIGH_POP"/>
+		<Row PolicyType="POLICY_GRAND_OPERA" ModifierId="GOLDEN_GRAND_OPERA_BUILDING_YIELDS_TEN"/>
+		<Row PolicyType="POLICY_GRAND_OPERA" ModifierId="GOLDEN_GRAND_OPERA_BUILDING_YIELDS_TWEENTY"/>
+		<Row PolicyType="POLICY_GRAND_OPERA" ModifierId="GOLDEN_GRAND_OPERA_BUILDING_YIELDS_THIRTY"/>
+		<Row PolicyType="POLICY_GRAND_OPERA" ModifierId="GOLDEN_GRAND_OPERA_BUILDING_YIELDS_FOURTY"/>
+		<Row PolicyType="POLICY_GRAND_OPERA" ModifierId="GOLDEN_GRAND_OPERA_BUILDING_YIELDS"/>
+		<Row PolicyType="POLICY_GRAND_OPERA" ModifierId="GOLDEN_GRAND_OPERA_BUILDING_YIELDS_FIFTY"/>
+		<!-- POLICY_RATIONALISM -->
+		<Delete PolicyType="POLICY_RATIONALISM" ModifierId="RATIONALISM_BUILDING_YIELDS_HIGH_ADJACENCY"/>
+		<Delete PolicyType="POLICY_RATIONALISM" ModifierId="RATIONALISM_BUILDING_YIELDS_HIGH_POP"/>
+		<Row PolicyType="POLICY_RATIONALISM" ModifierId="GOLDEN_RATIONALISM_BUILDING_YIELDS_TEN"/>
+		<Row PolicyType="POLICY_RATIONALISM" ModifierId="GOLDEN_RATIONALISM_BUILDING_YIELDS_TWEENTY"/>
+		<Row PolicyType="POLICY_RATIONALISM" ModifierId="GOLDEN_RATIONALISM_BUILDING_YIELDS_THIRTY"/>
+		<Row PolicyType="POLICY_RATIONALISM" ModifierId="GOLDEN_RATIONALISM_BUILDING_YIELDS_FOURTY"/>
+		<Row PolicyType="POLICY_RATIONALISM" ModifierId="GOLDEN_RATIONALISM_BUILDING_YIELDS"/>
+		<Row PolicyType="POLICY_RATIONALISM" ModifierId="GOLDEN_RATIONALISM_BUILDING_YIELDS_FIFTY"/>
+		<!-- POLICY_SIMULTANEUM -->
+		<Delete PolicyType="POLICY_SIMULTANEUM" ModifierId="SIMULTANEUM_BUILDING_YIELDS_HIGH_ADJACENCY"/>
+		<Delete PolicyType="POLICY_SIMULTANEUM" ModifierId="SIMULTANEUM_BUILDING_YIELDS_HIGH_POP"/>
+		<Row PolicyType="POLICY_SIMULTANEUM" ModifierId="GOLDEN_SIMULTANEUM_BUILDING_YIELDS_TEN"/>
+		<Row PolicyType="POLICY_SIMULTANEUM" ModifierId="GOLDEN_SIMULTANEUM_BUILDING_YIELDS_TWEENTY"/>
+		<Row PolicyType="POLICY_SIMULTANEUM" ModifierId="GOLDEN_SIMULTANEUM_BUILDING_YIELDS_THIRTY"/>
+		<Row PolicyType="POLICY_SIMULTANEUM" ModifierId="GOLDEN_SIMULTANEUM_BUILDING_YIELDS_FOURTY"/>	
+		<Row PolicyType="POLICY_SIMULTANEUM" ModifierId="GOLDEN_SIMULTANEUM_BUILDING_YIELDS"/>
+		<Row PolicyType="POLICY_SIMULTANEUM" ModifierId="GOLDEN_SIMULTANEUM_BUILDING_YIELDS_FIFTY"/>
+        <!--伟人政策-->
+		<Delete PolicyType="POLICY_INSPIRATION"/>
+		<Row PolicyType="POLICY_INSPIRATION" ModifierId="GOLDEN_INSPIRATION_GREATSCIENTISTPOINTS"/>
+		<Delete PolicyType="POLICY_REVELATION"/>
+		<Row PolicyType="POLICY_REVELATION" ModifierId="GOLDEN_REVELATION_GREATPROPHETPOINTS"/>
+		<Delete PolicyType="POLICY_TRAVELING_MERCHANTS"/>
+		<Row PolicyType="POLICY_TRAVELING_MERCHANTS" ModifierId="GOLDEN_TRAVELINGMERCHANTS_GREATMERCHANTPOINTS"/>
+		<Delete PolicyType="POLICY_INVENTION"/>
+		<Row PolicyType="POLICY_INVENTION" ModifierId="GOLDEN_INVENTION_GREATENGINEERPOINTS"/>
+		<Delete PolicyType="POLICY_LITERARY_TRADITION"/>
+		<Row PolicyType="POLICY_LITERARY_TRADITION" ModifierId="GOLDEN_LITERARYTRADITION_GREATWRITERPOINTS"/>
+		<Delete PolicyType="POLICY_FRESCOES"/>
+		<Row PolicyType="POLICY_FRESCOES" ModifierId="GOLDEN_FRESCOES_GREATARTISTPOINTS"/>
+		<Delete PolicyType="POLICY_SYMPHONIES"/>
+		<Row PolicyType="POLICY_SYMPHONIES" ModifierId="GOLDEN_SYMPHONIES_GREATMUSICIANPOINTS"/>
+        <Delete PolicyType='POLICY_STRATEGOS'/> 
+	    <Row PolicyType='POLICY_STRATEGOS' ModifierId='GOLDEN_STRATEGOS_GREATGENERALPOINTS'/>
+	    <Delete PolicyType='POLICY_NAVIGATION'/> 
+	    <Row PolicyType='POLICY_NAVIGATION' ModifierId='GOLDEN_NAVIGATION_GREATADMIRALPOINTS'/>		
+	    <!--区域相邻加成-->
+		<Row PolicyType='POLICY_NATURAL_PHILOSOPHY' ModifierId='GOLDEN_NATURAL_PHILOSOPHY_DISTRICTSCIENCE'/>
+        <Row PolicyType='POLICY_NAVAL_INFRASTRUCTURE' ModifierId='GOLDEN_NAVAL_INFRASTRUCTURE_DISTRICTGOLD'/>	
+		<Row PolicyType='POLICY_SCRIPTURE' ModifierId='GOLDEN_SCRIPTURE_DISTRICTFAITH'/>
+		<Row PolicyType='POLICY_TOWN_CHARTERS' ModifierId='GOLDEN_TOWN_CHARTERS_DISTRICTGOLD'/>
+		<Row PolicyType='POLICY_AESTHETICS' ModifierId='GOLDEN_AESTHETICS_DISTRICTCULTURE'/>
+		<Row PolicyType='POLICY_CRAFTSMEN' ModifierId='GOLDEN_CRAFTSMEN_DISTRICTPRODUCTION'/>       		
+	</PolicyModifiers>
+	
+	<Modifiers>
+        <!--POLICY_GOD_KING-->
+	    <Row>
+			<ModifierId>GOLDEN_GOD_KING_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOD_KING_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOD_KING_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOD_KING_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!--POLICY_URBAN_PLANNING-->
+		<Row>
+			<ModifierId>GOLDEN_URBAN_PLANNING_ALLCITYGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!--POLICY_URBAN_EXPANSION-->
+		<Row>
+			<ModifierId>GOLDEN_URBAN_EXPANSION_ALLCITYPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_URBAN_EXPANSION_ALLCITYGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!--建造者开拓者-->
+		<Row>
+			<ModifierId>GOLDEN_MASS_MIGRATION_SETTLERPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_COLONIZATION_SETTLER_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MASS_MIGRATION_SETTLER_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+
+		<!--区域与建筑产能-->
+		<!-- POLICY_RELAXATION -->
+		<Row>
+			<ModifierId>GOLDEN_RELAXATION_ENTERTAINMENT_COMPLEX_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RELAXATION_ENTERTAINMENT_COMPLEX_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RELAXATION_WATER_ENTERTAINMENT_COMPLEX_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RELAXATION_WATER_ENTERTAINMENT_COMPLEX_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<!-- POLICY_SACRED -->
+		<Row>
+			<ModifierId>GOLDEN_SACRED_HOLY_SITE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SACRED_HOLY_SITE_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<!-- POLICY_SEAFAIRING -->
+		<Row>
+			<ModifierId>GOLDEN_SEAFAIRING_HARBOR_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SEAFAIRING_HARBOR_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<!-- POLICY_ARTS_HUMANITIES -->
+		<Row>
+			<ModifierId>GOLDEN_ARTS_HUMANITIES_THEATER_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ARTS_HUMANITIES_THEATER_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<!-- POLICY_MANUFACTURE -->
+		<Row>
+			<ModifierId>GOLDEN_MANUFACTURE_INDUSTRIAL_ZONE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MANUFACTURE_INDUSTRIAL_ZONE_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<!-- POLICY_BUSINESS -->
+		<Row>
+			<ModifierId>GOLDEN_BUSINESS_COMMERCIAL_HUB_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_BUSINESS_COMMERCIAL_HUB_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<!-- POLICY_MOTIVATION -->
+		<Row>
+			<ModifierId>GOLDEN_MOTIVATION_CAMPUS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MOTIVATION_CAMPUS_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<!-- POLICY_CAPITAL_CONSTRUCTION -->
+		<Row>
+			<ModifierId>GOLDEN_CAPITAL_CONSTRUCTION_CITY_CENTER_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CAPITAL_CONSTRUCTION_GOVERNMENT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CAPITAL_CONSTRUCTION_GOVERNMENT_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<!-- POLICY_WATER_CONSERVANCY -->
+		<Row>
+			<ModifierId>GOLDEN_WATER_CONSERVANCY_AQUEDUCT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_WATER_CONSERVANCY_AQUEDUCT_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_WATER_CONSERVANCY_DAM_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_WATER_CONSERVANCY_DAM_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_WATER_CONSERVANCY_CANAL_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_WATER_CONSERVANCY_NEIGHBORHOOD_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_WATER_CONSERVANCY_NEIGHBORHOOD_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<!-- POLICY_AIRFORCE -->
+		<Row>
+			<ModifierId>GOLDEN_AIRFORCE_AERODROME_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_AIRFORCE_AERODROME_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_AIRFORCE_SPACEPORT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<!--建筑产出与人口相关-->
+		<!-- POLICY_FREE_MARKET -->
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS_TEN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_TEN_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS_TWEENTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_TWENTY_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS_THIRTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_THIRTY_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS_FOURTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_FOURTY_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS_FIFTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_FIFTY_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- POLICY_GRAND_OPERA -->
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS_TEN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_TEN_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS_TWEENTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_TWENTY_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS_THIRTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_THIRTY_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS_FOURTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_FOURTY_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS_FIFTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_FIFTY_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- POLICY_RATIONALISM -->
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS_TEN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_TEN_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS_TWEENTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_TWENTY_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS_THIRTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_THIRTY_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS_FOURTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_FOURTY_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS_FIFTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_FIFTY_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- POLICY_SIMULTANEUM -->
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS_TEN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_TEN_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS_TWEENTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_TWENTY_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS_THIRTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_THIRTY_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS_FOURTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_FOURTY_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS_FIFTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_MODIFIERS_FOR_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_FIFTY_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!--伟人政策-->
+		<Row>
+			<ModifierId>GOLDEN_INSPIRATION_GREATSCIENTISTPOINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_REVELATION_GREATPROPHETPOINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_TRAVELINGMERCHANTS_GREATMERCHANTPOINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_INVENTION_GREATENGINEERPOINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_LITERARYTRADITION_GREATWRITERPOINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FRESCOES_GREATARTISTPOINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SYMPHONIES_GREATMUSICIANPOINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_STRATEGOS_GREATGENERALPOINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_NAVIGATION_GREATADMIRALPOINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS_PERCENT</ModifierType>
+		</Row>
+		
+        <!--区域相邻加成-->
+        <Row>
+			<ModifierId>GOLDEN_NATURAL_PHILOSOPHY_DISTRICTSCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_DISTRICT_IS_CAMPUS_ADJACENT_TO_CAMPUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_NAVAL_INFRASTRUCTURE_DISTRICTGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_DISTRICT_IS_HARBOR_ADJACENT_TO_HARBOR_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_SCRIPTURE_DISTRICTFAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_DISTRICT_IS_HOLY_SITE_ADJACENT_TO_HOLY_SITE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_TOWN_CHARTERS_DISTRICTGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_DISTRICT_IS_COMMERCIAL_HUB_ADJACENT_TO_COMMERCIAL_HUB_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_AESTHETICS_DISTRICTCULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_DISTRICT_IS_THEATER_ADJACENT_TO_THEATER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CRAFTSMEN_DISTRICTPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_DISTRICT_IS_INDUSTRIAL_ZONE_ADJACENT_TO_INDUSTRIAL_ZONE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>  		
+	</Modifiers>
+	
+	<ModifierArguments>	
+        <!--POLICY_GOD_KING-->
+	    <Row>
+			<ModifierId>GOLDEN_GOD_KING_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOD_KING_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOD_KING_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOD_KING_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOD_KING_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOD_KING_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOD_KING_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOD_KING_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Update>
+		   <Where ModifierId="GOD_KING_GOLD" Name="Amount"/>
+		   <Set Value="2"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="GOD_KING_FAITH" Name="Amount"/>
+		   <Set Value="2"/>
+	    </Update>
+		<!--POLICY_URBAN_PLANNING-->
+		<Row>
+			<ModifierId>GOLDEN_URBAN_PLANNING_ALLCITYGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_URBAN_PLANNING_ALLCITYGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!--POLICY_URBAN_EXPANSION-->
+		<Row>
+			<ModifierId>GOLDEN_URBAN_EXPANSION_ALLCITYPRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_URBAN_EXPANSION_ALLCITYPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_URBAN_EXPANSION_ALLCITYGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_URBAN_EXPANSION_ALLCITYGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>	
+		<!--POLICY_COLONIAL_OFFICES-->
+		<Update>
+		   <Where ModifierId="COLONIALOFFICES_FOREIGNGROWTH" Name="Amount"/>
+		   <Set Value="25"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="COLONIALOFFICES_FOREIGNIDENTITY" Name="Amount"/>
+		   <Set Value="5"/>
+	    </Update>
+		<!--建造者开拓者-->
+		<!--POLICY_ILKUM-->
+		<Update>
+		   <Where ModifierId="ILKUM_BUILDERPRODUCTION" Name="Amount"/>
+		   <Set Value="50"/>
+	    </Update>
+		<!--POLICY_SERFDOM-->
+		<Update>
+		   <Where ModifierId="SERFDOM_BUILDERCHARGES" Name="Amount"/>
+		   <Set Value="1"/>
+	    </Update>
+		<!--POLICY_PUBLIC_WORKS-->
+		<Update>
+		   <Where ModifierId="PUBLICWORKS_BUILDERPRODUCTION" Name="Amount"/>
+		   <Set Value="50"/>
+	    </Update>		
+		<Row>
+			<ModifierId>GOLDEN_MASS_MIGRATION_SETTLERPRODUCTION</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SETTLER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MASS_MIGRATION_SETTLERPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_COLONIZATION_SETTLER_MOVEMENT</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_SETTLER_MOVEMENT_ONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MASS_MIGRATION_SETTLER_MOVEMENT</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_SETTLER_MOVEMENT_TWO</Value>
+		</Row>
+        <!--区域与建筑产能-->
+		<!-- POLICY_RELAXATION -->
+		<Row>
+			<ModifierId>GOLDEN_RELAXATION_ENTERTAINMENT_COMPLEX_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENTERTAINMENT_COMPLEX</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RELAXATION_ENTERTAINMENT_COMPLEX_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RELAXATION_ENTERTAINMENT_COMPLEX_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENTERTAINMENT_COMPLEX</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RELAXATION_ENTERTAINMENT_COMPLEX_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RELAXATION_WATER_ENTERTAINMENT_COMPLEX_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_WATER_ENTERTAINMENT_COMPLEX</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RELAXATION_WATER_ENTERTAINMENT_COMPLEX_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RELAXATION_WATER_ENTERTAINMENT_COMPLEX_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_WATER_ENTERTAINMENT_COMPLEX</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RELAXATION_WATER_ENTERTAINMENT_COMPLEX_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!-- POLICY_SACRED -->
+		<Row>
+			<ModifierId>GOLDEN_SACRED_HOLY_SITE_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SACRED_HOLY_SITE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SACRED_HOLY_SITE_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SACRED_HOLY_SITE_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!-- POLICY_SEAFAIRING -->
+		<Row>
+			<ModifierId>GOLDEN_SEAFAIRING_HARBOR_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HARBOR</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SEAFAIRING_HARBOR_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SEAFAIRING_HARBOR_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HARBOR</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SEAFAIRING_HARBOR_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!-- POLICY_ARTS_HUMANITIES -->
+		<Row>
+			<ModifierId>GOLDEN_ARTS_HUMANITIES_THEATER_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ARTS_HUMANITIES_THEATER_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ARTS_HUMANITIES_THEATER_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ARTS_HUMANITIES_THEATER_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!-- POLICY_MANUFACTURE -->
+		<Row>
+			<ModifierId>GOLDEN_MANUFACTURE_INDUSTRIAL_ZONE_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MANUFACTURE_INDUSTRIAL_ZONE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MANUFACTURE_INDUSTRIAL_ZONE_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MANUFACTURE_INDUSTRIAL_ZONE_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!-- POLICY_BUSINESS -->
+		<Row>
+			<ModifierId>GOLDEN_BUSINESS_COMMERCIAL_HUB_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_BUSINESS_COMMERCIAL_HUB_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_BUSINESS_COMMERCIAL_HUB_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_BUSINESS_COMMERCIAL_HUB_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!-- POLICY_MOTIVATION -->
+		<Row>
+			<ModifierId>GOLDEN_MOTIVATION_CAMPUS_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MOTIVATION_CAMPUS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MOTIVATION_CAMPUS_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MOTIVATION_CAMPUS_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!-- POLICY_CAPITAL_CONSTRUCTION -->
+		<Row>
+			<ModifierId>GOLDEN_CAPITAL_CONSTRUCTION_CITY_CENTER_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CITY_CENTER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CAPITAL_CONSTRUCTION_CITY_CENTER_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CAPITAL_CONSTRUCTION_GOVERNMENT_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_GOVERNMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CAPITAL_CONSTRUCTION_GOVERNMENT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CAPITAL_CONSTRUCTION_GOVERNMENT_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_GOVERNMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CAPITAL_CONSTRUCTION_GOVERNMENT_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!-- POLICY_WATER_CONSERVANCY -->
+		<Row>
+			<ModifierId>GOLDEN_WATER_CONSERVANCY_AQUEDUCT_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AQUEDUCT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_WATER_CONSERVANCY_AQUEDUCT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_WATER_CONSERVANCY_AQUEDUCT_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AQUEDUCT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_WATER_CONSERVANCY_AQUEDUCT_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_WATER_CONSERVANCY_DAM_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_DAM</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_WATER_CONSERVANCY_DAM_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_WATER_CONSERVANCY_DAM_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_DAM</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_WATER_CONSERVANCY_DAM_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_WATER_CONSERVANCY_CANAL_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CANAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_WATER_CONSERVANCY_CANAL_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_WATER_CONSERVANCY_NEIGHBORHOOD_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_NEIGHBORHOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_WATER_CONSERVANCY_NEIGHBORHOOD_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_WATER_CONSERVANCY_NEIGHBORHOOD_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_NEIGHBORHOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_WATER_CONSERVANCY_NEIGHBORHOOD_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>		
+		<!-- POLICY_AIRFORCE -->
+		<Row>
+			<ModifierId>GOLDEN_AIRFORCE_AERODROME_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AERODROME</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_AIRFORCE_AERODROME_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_AIRFORCE_AERODROME_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AERODROME</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_AIRFORCE_AERODROME_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_AIRFORCE_SPACEPORT_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_SPACEPORT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_AIRFORCE_SPACEPORT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		
+		<!--建筑产出与人口相关-->
+		<!-- POLICY_FREE_MARKET -->		
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS_TEN</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS_TEN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS_TEN</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS_TWEENTY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS_TWEENTY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS_TWEENTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS_THIRTY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS_THIRTY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS_THIRTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS_FOURTY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS_FOURTY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS_FOURTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>		
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS_FIFTY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS_FIFTY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FREEMARKET_BUILDING_YIELDS_FIFTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<!-- POLICY_GRAND_OPERA -->
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS_TEN</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS_TEN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS_TEN</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS_TWEENTY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS_TWEENTY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS_TWEENTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS_THIRTY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS_THIRTY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS_THIRTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS_FOURTY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS_FOURTY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS_FOURTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>		
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS_FIFTY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS_FIFTY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRAND_OPERA_BUILDING_YIELDS_FIFTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<!-- POLICY_RATIONALISM -->
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS_TEN</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS_TEN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS_TEN</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS_TWEENTY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS_TWEENTY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS_TWEENTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS_THIRTY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS_THIRTY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS_THIRTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS_FOURTY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS_FOURTY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS_FOURTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS_FIFTY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS_FIFTY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RATIONALISM_BUILDING_YIELDS_FIFTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<!-- POLICY_SIMULTANEUM -->
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS_TEN</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS_TEN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS_TEN</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS_TWEENTY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS_TWEENTY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS_TWEENTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS_THIRTY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS_THIRTY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS_THIRTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS_FOURTY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS_FOURTY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS_FOURTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS_FIFTY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS_FIFTY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SIMULTANEUM_BUILDING_YIELDS_FIFTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<!--伟人政策-->
+		<Row>
+			<ModifierId>GOLDEN_INSPIRATION_GREATSCIENTISTPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_SCIENTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_INSPIRATION_GREATSCIENTISTPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_REVELATION_GREATPROPHETPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_PROPHET</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_REVELATION_GREATPROPHETPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_TRAVELINGMERCHANTS_GREATMERCHANTPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MERCHANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_TRAVELINGMERCHANTS_GREATMERCHANTPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_INVENTION_GREATENGINEERPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ENGINEER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_INVENTION_GREATENGINEERPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_LITERARYTRADITION_GREATWRITERPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_LITERARYTRADITION_GREATWRITERPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FRESCOES_GREATARTISTPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FRESCOES_GREATARTISTPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SYMPHONIES_GREATMUSICIANPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SYMPHONIES_GREATMUSICIANPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		  <Row>
+			<ModifierId>GOLDEN_STRATEGOS_GREATGENERALPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_STRATEGOS_GREATGENERALPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_NAVIGATION_GREATADMIRALPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ADMIRAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_NAVIGATION_GREATADMIRALPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		
+		<!--奇观-->
+		<Update>
+		   <Where ModifierId="SKYSCRAPERS_INDUSTRIALINFORMATION" Name="Amount"/>
+		   <Set Value="50"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="GOTHICARCHITECTURE_MEDIEVALRENAISSANCEWONDER" Name="Amount"/>
+		   <Set Value="50"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="CORVEE_ANCIENTCLASSICALWONDER" Name="Amount"/>
+		   <Set Value="50"/>
+	    </Update>	
+		<!--买地-->
+		<Update>
+		   <Where ModifierId="LANDSURVEYORS_PLOTPURCHASECOST" Name="Amount"/>
+		   <Set Value="-25"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="EXPROPRIATION_PLOTPURCHASECOST" Name="Amount"/>
+		   <Set Value="-50"/>
+	    </Update>	
+        <!--区域相邻加成-->
+		<Update>
+		   <Where ModifierId="NATURALPHILOSOPHY_DISTRICTSCIENCE" Name="Amount"/>
+		   <Set Value="50"/>
+	    </Update>	
+		<Update>
+		   <Where ModifierId="NAVALINFRASTRUCTURE_HARBORGOLD" Name="Amount"/>
+		   <Set Value="50"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="SCRIPTURE_DISTRICTFAITH" Name="Amount"/>
+		   <Set Value="50"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="TOWNCHARTERS_DISTRICTGOLD" Name="Amount"/>
+		   <Set Value="50"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="AESTHETICS_DISTRICTCULTURE" Name="Amount"/>
+		   <Set Value="50"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="CRAFTSMEN_DISTRICTPRODUCTION" Name="Amount"/>
+		   <Set Value="50"/>
+	    </Update>		
+		<Row>
+			<ModifierId>GOLDEN_NATURAL_PHILOSOPHY_DISTRICTSCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_NATURAL_PHILOSOPHY_DISTRICTSCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_NAVAL_INFRASTRUCTURE_DISTRICTGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_NAVAL_INFRASTRUCTURE_DISTRICTGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SCRIPTURE_DISTRICTFAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SCRIPTURE_DISTRICTFAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_TOWN_CHARTERS_DISTRICTGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_TOWN_CHARTERS_DISTRICTGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_AESTHETICS_DISTRICTCULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_AESTHETICS_DISTRICTCULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CRAFTSMEN_DISTRICTPRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CRAFTSMEN_DISTRICTPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>	
+	
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_CAMPUS_ADJACENT_TO_CAMPUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_HARBOR_ADJACENT_TO_HARBOR_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_HOLY_SITE_ADJACENT_TO_HOLY_SITE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_COMMERCIAL_HUB_ADJACENT_TO_COMMERCIAL_HUB_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_THEATER_ADJACENT_TO_THEATER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_INDUSTRIAL_ZONE_ADJACENT_TO_INDUSTRIAL_ZONE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>	
+	
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_CAMPUS_ADJACENT_TO_CAMPUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_HAS_DISTRICT_CAMPUS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_CAMPUS_ADJACENT_TO_CAMPUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_DISTRICT_CAMPUS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_HARBOR_ADJACENT_TO_HARBOR_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_HAS_DISTRICT_HARBOR</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_HARBOR_ADJACENT_TO_HARBOR_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_DISTRICT_HARBOR</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_HOLY_SITE_ADJACENT_TO_HOLY_SITE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_HAS_DISTRICT_HOLY_SITE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_HOLY_SITE_ADJACENT_TO_HOLY_SITE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_DISTRICT_HOLY_SITE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_COMMERCIAL_HUB_ADJACENT_TO_COMMERCIAL_HUB_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_HAS_DISTRICT_COMMERCIAL_HUB</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_COMMERCIAL_HUB_ADJACENT_TO_COMMERCIAL_HUB_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_DISTRICT_COMMERCIAL_HUB</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_THEATER_ADJACENT_TO_THEATER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_HAS_DISTRICT_THEATER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_THEATER_ADJACENT_TO_THEATER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_DISTRICT_THEATER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_INDUSTRIAL_ZONE_ADJACENT_TO_INDUSTRIAL_ZONE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_HAS_DISTRICT_INDUSTRIAL_ZONE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_INDUSTRIAL_ZONE_ADJACENT_TO_INDUSTRIAL_ZONE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_DISTRICT_INDUSTRIAL_ZONE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>	
+	
+	<Types>
+	    <Row Type="ABILITY_SETTLER_MOVEMENT_ONE" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SETTLER_MOVEMENT_TWO" Kind="KIND_ABILITY"/>
+	</Types>
+	
+	<TypeTags>
+	    <Row Type="ABILITY_SETTLER_MOVEMENT_ONE" Tag="CLASS_SETTLER"/>
+		<Row Type="ABILITY_SETTLER_MOVEMENT_TWO" Tag="CLASS_SETTLER"/>
+	</TypeTags>
+	
+	<UnitAbilities>
+	    <Row UnitAbilityType="ABILITY_SETTLER_MOVEMENT_ONE" Name="LOC_ABILITY_SETTLER_MOVEMENT_ONE_NAME" Description="LOC_ABILITY_SETTLER_MOVEMENT_ONE_DESCRIPTION" Inactive="true" Permanent="false"/>
+		<Row UnitAbilityType="ABILITY_SETTLER_MOVEMENT_TWO" Name="LOC_ABILITY_SETTLER_MOVEMENT_TWO_NAME" Description="LOC_ABILITY_SETTLER_MOVEMENT_TWO_DESCRIPTION" Inactive="true" Permanent="false"/>
+	</UnitAbilities>
+	
+	<UnitAbilityModifiers>
+	    <Row>
+			<UnitAbilityType>ABILITY_SETTLER_MOVEMENT_ONE</UnitAbilityType>
+			<ModifierId>GOLDEN_ABILITY_SETTLER_MOVEMENT_ONE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SETTLER_MOVEMENT_TWO</UnitAbilityType>
+			<ModifierId>GOLDEN_ABILITY_SETTLER_MOVEMENT_TWO</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	
+	<Modifiers>
+	    <Row>
+			<ModifierId>GOLDEN_ABILITY_SETTLER_MOVEMENT_ONE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ABILITY_SETTLER_MOVEMENT_TWO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+	</Modifiers>
+    
+	<ModifierArguments>
+	    <Row>
+			<ModifierId>GOLDEN_ABILITY_SETTLER_MOVEMENT_ONE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ABILITY_SETTLER_MOVEMENT_TWO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+	
+</GameInfo>

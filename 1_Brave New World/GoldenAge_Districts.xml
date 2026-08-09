@@ -1,0 +1,924 @@
+<GameInfo>
+	<District_TradeRouteYields>
+		<Delete DistrictType="DISTRICT_HOLY_SITE"/>
+		<Delete DistrictType="DISTRICT_CAMPUS"/>
+		<Delete DistrictType="DISTRICT_ENCAMPMENT" />
+		<Delete DistrictType="DISTRICT_HARBOR"/>		
+		<Delete DistrictType="DISTRICT_COMMERCIAL_HUB"/>
+		<Delete DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" />
+		<Delete DistrictType="DISTRICT_THEATER" />	
+		<Delete DistrictType="DISTRICT_INDUSTRIAL_ZONE" />		
+		<Delete DistrictType="DISTRICT_WATER_ENTERTAINMENT_COMPLEX" />
+		<Replace DistrictType="DISTRICT_HOLY_SITE" YieldType="YIELD_FAITH" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>	
+        <Replace DistrictType="DISTRICT_HOLY_SITE" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>			
+		<Replace DistrictType="DISTRICT_CAMPUS" YieldType="YIELD_SCIENCE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Replace DistrictType="DISTRICT_CAMPUS" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
+		<Replace DistrictType="DISTRICT_ENCAMPMENT" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>	
+        <Replace DistrictType="DISTRICT_ENCAMPMENT" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>		
+		<Replace DistrictType="DISTRICT_HARBOR" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="2"/>		
+		<Replace DistrictType="DISTRICT_COMMERCIAL_HUB" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="2"/>		
+		<Replace DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>	
+        <Replace DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>			
+		<Replace DistrictType="DISTRICT_THEATER" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>		
+		<Replace DistrictType="DISTRICT_THEATER" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
+		<Replace DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>		
+        <Replace DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>		
+		<Replace DistrictType="DISTRICT_WATER_ENTERTAINMENT_COMPLEX" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+        <Replace DistrictType="DISTRICT_WATER_ENTERTAINMENT_COMPLEX" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>		
+        <Replace DistrictType="DISTRICT_CANAL" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="2"/>
+		<Replace DistrictType="DISTRICT_DAM" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+        <Replace DistrictType="DISTRICT_DAM" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>		
+		<Replace DistrictType="DISTRICT_AERODROME" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="2"/>
+		<Replace DistrictType="DISTRICT_AQUEDUCT" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+        <Replace DistrictType="DISTRICT_AQUEDUCT" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>		
+        <Replace DistrictType="DISTRICT_NEIGHBORHOOD" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="2"/>			
+		<Replace DistrictType="DISTRICT_SPACEPORT" YieldType="YIELD_SCIENCE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Replace DistrictType="DISTRICT_SPACEPORT" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
+		<Update>
+	        <Where DistrictType="DISTRICT_CITY_CENTER" YieldType="YIELD_GOLD"/> <Set YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="2"/>
+	    </Update>
+		<Update>
+	        <Where DistrictType="DISTRICT_GOVERNMENT" YieldType="YIELD_GOLD"/> <Set YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="2"/>
+	    </Update>
+	</District_TradeRouteYields>
+	
+    <District_CitizenYieldChanges>	
+		<Delete DistrictType="DISTRICT_ENCAMPMENT"/>
+		<Replace DistrictType="DISTRICT_ENCAMPMENT" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Replace DistrictType="DISTRICT_ENCAMPMENT" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Update>
+	        <Where DistrictType="DISTRICT_HARBOR" YieldType="YIELD_GOLD"/> <Set YieldChange="2"/>
+	    </Update>
+		<Replace DistrictType="DISTRICT_HARBOR" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Delete DistrictType="DISTRICT_HARBOR" YieldType="YIELD_FOOD"/>
+		<Update>
+	        <Where DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldType="YIELD_PRODUCTION"/> <Set YieldChange="4"/>
+	    </Update>
+		<Update>
+	        <Where DistrictType="DISTRICT_COMMERCIAL_HUB" YieldType="YIELD_GOLD"/> <Set YieldChange="4"/>
+	    </Update>
+		<Update>
+	        <Where DistrictType="DISTRICT_CAMPUS" YieldType="YIELD_SCIENCE"/> <Set YieldChange="4"/>
+	    </Update>
+		<Update>
+	        <Where DistrictType="DISTRICT_THEATER" YieldType="YIELD_CULTURE"/> <Set YieldChange="4"/>
+	    </Update>
+		<Update>
+	        <Where DistrictType="DISTRICT_HOLY_SITE" YieldType="YIELD_FAITH"/> <Set YieldChange="4"/>
+	    </Update>
+		<Replace DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Replace DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Replace DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Replace DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Replace DistrictType="DISTRICT_WATER_ENTERTAINMENT_COMPLEX" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Replace DistrictType="DISTRICT_WATER_ENTERTAINMENT_COMPLEX" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Replace DistrictType="DISTRICT_WATER_ENTERTAINMENT_COMPLEX" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Replace DistrictType="DISTRICT_WATER_ENTERTAINMENT_COMPLEX" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		
+		<Replace DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		<Replace DistrictType="DISTRICT_COMMERCIAL_HUB" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		<Replace DistrictType="DISTRICT_CAMPUS" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		<Replace DistrictType="DISTRICT_THEATER" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		<Replace DistrictType="DISTRICT_HOLY_SITE" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		<Replace DistrictType="DISTRICT_ENCAMPMENT" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		<Replace DistrictType="DISTRICT_HARBOR" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		<Replace DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		<Replace DistrictType="DISTRICT_WATER_ENTERTAINMENT_COMPLEX" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		
+	</District_CitizenYieldChanges>
+		
+	<District_CitizenGreatPersonPoints>
+	    <Row DistrictType="DISTRICT_ENCAMPMENT" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_HARBOR" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_HOLY_SITE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_CAMPUS" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_THEATER" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_THEATER" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_THEATER" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="1"/>		
+	</District_CitizenGreatPersonPoints>
+			
+	<DistrictModifiers>
+	<!-- Water districts-->		
+		<Delete DistrictType="DISTRICT_AQUEDUCT" ModifierId="AQUEDUCT_ADDAMENITIES"/>
+		<Row DistrictType="DISTRICT_AQUEDUCT" ModifierId="GOLDEN_AQUEDUCT_CITY_GROWTH"/>								
+		<Row DistrictType="DISTRICT_NEIGHBORHOOD" ModifierId="GOLDEN_NEIGHBORHOOD_CITY_GROWTH"/>
+		
+		<Row DistrictType="DISTRICT_AQUEDUCT" ModifierId="GOLDEN_AQUEDUCT_FARM_FOOD"/>		
+		<Row DistrictType="DISTRICT_DAM" ModifierId="GOLDEN_DAM_PRODUCTION"/>
+		<Row DistrictType="DISTRICT_DAM" ModifierId="GOLDEN_DAM_PRODUCTION_ELECTRICITY"/>	
+        <Row DistrictType="DISTRICT_CANAL" ModifierId="GOLDEN_CANAL_GOLD"/>	
+        <Row DistrictType="DISTRICT_CANAL" ModifierId="GOLDEN_CANAL_GOLD_ELECTRICITY"/>	
+		
+		<Row DistrictType="DISTRICT_CANAL" ModifierId="GOLDEN_CANAL_WATER_HOUSING"/>
+		<Row DistrictType="DISTRICT_DAM" ModifierId="GOLDEN_DAM_WATER_HOUSING"/>		
+		<Row DistrictType="DISTRICT_CANAL" ModifierId="GOLDEN_CANAL_HOUSING_AQUEDUCT_MODIFIER"/>
+        <Row DistrictType="DISTRICT_CANAL" ModifierId="GOLDEN_CANAL_HOUSING_COASTAL_MODIFIER"/>
+        <Row DistrictType="DISTRICT_CANAL" ModifierId="GOLDEN_CANAL_HOUSING_DRY_MODIFIER"/>
+		<Row DistrictType="DISTRICT_CITY_CENTER" ModifierId="GOLDEN_DAM_HOUSING_AQUEDUCT"/>
+        <Row DistrictType="DISTRICT_CITY_CENTER" ModifierId="GOLDEN_DAM_HOUSING_COASTAL"/>
+        <Row DistrictType="DISTRICT_CITY_CENTER" ModifierId="GOLDEN_DAM_HOUSING_DRY"/>		
+	</DistrictModifiers>
+	  	
+	<Modifiers>	
+		<Row>
+			<ModifierId>GOLDEN_AQUEDUCT_CITY_GROWTH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH</ModifierType>
+		</Row>				
+		<Row>
+			<ModifierId>GOLDEN_NEIGHBORHOOD_CITY_GROWTH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_AQUEDUCT_FARM_FOOD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_FARM_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>		
+		<Row>
+			<ModifierId>GOLDEN_DAM_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_PLOT_IS_ADJACENT_TO_DISTRICT_DAM_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DAM_PRODUCTION_ELECTRICITY</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_PLOT_IS_DAM_ADJACENT_ELECTRICITY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CANAL_GOLD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_PLOT_IS_ADJACENT_TO_DISTRICT_CANAL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CANAL_GOLD_ELECTRICITY</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_PLOT_IS_ADJACENT_TO_DISTRICT_CANAL_ELECTRICITY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>						      		
+		<Row>
+			<ModifierId>GOLDEN_CANAL_WATER_HOUSING</ModifierId>
+			<ModifierType>GOLDEN_MODIFIER_SINGLE_CITY_ADJUST_WATER_HOUSING</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_PLOT_IS_FRESH_WATER_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectStackLimit>1</SubjectStackLimit>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DAM_WATER_HOUSING</ModifierId>
+			<ModifierType>GOLDEN_MODIFIER_SINGLE_CITY_ADJUST_WATER_HOUSING</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_PLOT_IS_FRESH_WATER_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectStackLimit>1</SubjectStackLimit>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CANAL_HOUSING_AQUEDUCT_MODIFIER</ModifierId>
+			<ModifierType>GOLDEN_MODIFIER_ALL_DISTRICTS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_ADJACENT_FRESH_WATER_CANAL_REQUIREMENTS </SubjectRequirementSetId>
+			<OwnerRequirementSetId>GOLDEN_PLOT_IS_FRESH_WATER_REQUIREMENTS</OwnerRequirementSetId>
+			<SubjectStackLimit>1</SubjectStackLimit>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CANAL_HOUSING_COASTAL_MODIFIER</ModifierId>
+			<ModifierType>GOLDEN_MODIFIER_ALL_DISTRICTS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_ADJACENT_FRESH_WATER_CANAL_REQUIREMENTS</SubjectRequirementSetId>
+			<OwnerRequirementSetId>GOLDEN_PLOT_IS_FRESH_WATER_REQUIREMENTS</OwnerRequirementSetId>
+			<SubjectStackLimit>1</SubjectStackLimit>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CANAL_HOUSING_DRY_MODIFIER</ModifierId>
+			<ModifierType>GOLDEN_MODIFIER_ALL_DISTRICTS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_ADJACENT_FRESH_WATER_CANAL_REQUIREMENTS</SubjectRequirementSetId>
+			<OwnerRequirementSetId>GOLDEN_PLOT_IS_FRESH_WATER_REQUIREMENTS</OwnerRequirementSetId>
+			<SubjectStackLimit>1</SubjectStackLimit>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CANAL_HOUSING_AQUEDUCT</ModifierId>
+			<ModifierType>GOLDEN_MODIFIER_SINGLE_CITY_ADJUST_WATER_HOUSING</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CANAL_HOUSING_AQUEDUCT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CANAL_HOUSING_COASTAL</ModifierId>
+			<ModifierType>GOLDEN_MODIFIER_SINGLE_CITY_ADJUST_WATER_HOUSING</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CANAL_HOUSING_COASTAL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CANAL_HOUSING_DRY</ModifierId>
+			<ModifierType>GOLDEN_MODIFIER_SINGLE_CITY_ADJUST_WATER_HOUSING</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CANAL_HOUSING_DRY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DAM_HOUSING_AQUEDUCT</ModifierId>
+			<ModifierType>GOLDEN_MODIFIER_SINGLE_CITY_ADJUST_WATER_HOUSING</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_DAM_HOUSING_AQUEDUCT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DAM_HOUSING_COASTAL</ModifierId>
+			<ModifierType>GOLDEN_MODIFIER_SINGLE_CITY_ADJUST_WATER_HOUSING</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_DAM_HOUSING_COASTAL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DAM_HOUSING_DRY</ModifierId>
+			<ModifierType>GOLDEN_MODIFIER_SINGLE_CITY_ADJUST_WATER_HOUSING</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_DAM_HOUSING_DRY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>			
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GOLDEN_AQUEDUCT_CITY_GROWTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>				
+		<Row>
+			<ModifierId>GOLDEN_NEIGHBORHOOD_CITY_GROWTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_AQUEDUCT_FARM_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_AQUEDUCT_FARM_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>		
+		<Row>
+			<ModifierId>GOLDEN_DAM_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DAM_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DAM_PRODUCTION_ELECTRICITY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DAM_PRODUCTION_ELECTRICITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>	
+        <Row>
+			<ModifierId>GOLDEN_CANAL_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CANAL_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CANAL_GOLD_ELECTRICITY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CANAL_GOLD_ELECTRICITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>					      
+	   <Row>
+			<ModifierId>GOLDEN_CANAL_WATER_HOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DAM_WATER_HOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CANAL_HOUSING_AQUEDUCT_MODIFIER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_CANAL_HOUSING_AQUEDUCT</Value>
+		</Row>
+		 <Row>
+			<ModifierId>GOLDEN_CANAL_HOUSING_COASTAL_MODIFIER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_CANAL_HOUSING_COASTAL</Value>
+		</Row>
+		 <Row>
+			<ModifierId>GOLDEN_CANAL_HOUSING_DRY_MODIFIER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_CANAL_HOUSING_DRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CANAL_HOUSING_AQUEDUCT</ModifierId>
+			<Name>Amount</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CANAL_HOUSING_COASTAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CANAL_HOUSING_DRY</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DAM_HOUSING_AQUEDUCT</ModifierId>
+			<Name>Amount</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DAM_HOUSING_COASTAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DAM_HOUSING_DRY</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>	
+	</ModifierArguments>	
+	
+	<RequirementSets>
+	    <Row>
+			<RequirementSetId>GOLDEN_PLOT_IS_DAM_ADJACENT_ELECTRICITY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>	
+        <Row>
+			<RequirementSetId>GOLDEN_PLOT_IS_ADJACENT_TO_DISTRICT_CANAL_ELECTRICITY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>										
+		<Row>
+			<RequirementSetId>GOLDEN_ADJACENT_FRESH_WATER_CANAL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_CANAL_HOUSING_AQUEDUCT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		 <Row>
+			<RequirementSetId>GOLDEN_CANAL_HOUSING_COASTAL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		 <Row>
+			<RequirementSetId>GOLDEN_CANAL_HOUSING_DRY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DAM_HOUSING_AQUEDUCT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		 <Row>
+			<RequirementSetId>GOLDEN_DAM_HOUSING_COASTAL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DAM_HOUSING_DRY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>	
+	</RequirementSets>
+	
+	<RequirementSetRequirements>
+	    <Row>
+			<RequirementSetId>GOLDEN_PLOT_IS_DAM_ADJACENT_ELECTRICITY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLAYER_HAS_TECH_ELECTRICITY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_IS_DAM_ADJACENT_ELECTRICITY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_DISTRICT_DAM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_IS_ADJACENT_TO_DISTRICT_CANAL_ELECTRICITY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLAYER_HAS_TECH_ELECTRICITY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_IS_ADJACENT_TO_DISTRICT_CANAL_ELECTRICITY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_DISTRICT_CANAL</RequirementId>
+		</Row>		
+			
+		<Row>
+			<RequirementSetId>GOLDEN_ADJACENT_FRESH_WATER_CANAL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_CITY_CENTER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_ADJACENT_FRESH_WATER_CANAL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>ADJACENT_TO_OWNER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_CANAL_HOUSING_AQUEDUCT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_NOT_FRESH_WATER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_CANAL_HOUSING_AQUEDUCT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_CITY_HAS_DISTRICT_AQUEDUCT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_CANAL_HOUSING_AQUEDUCT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_CITY_HAS_NO_DISTRICT_DAM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_CANAL_HOUSING_COASTAL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_NOT_FRESH_WATER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_CANAL_HOUSING_COASTAL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_CITY_HAS_NO_DISTRICT_AQUEDUCT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_CANAL_HOUSING_COASTAL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_IS_ADJACENT_TO_COAST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_CANAL_HOUSING_COASTAL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_CITY_HAS_NO_DISTRICT_DAM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_CANAL_HOUSING_DRY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_NOT_FRESH_WATER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_CANAL_HOUSING_DRY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_CITY_HAS_NO_DISTRICT_AQUEDUCT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_CANAL_HOUSING_DRY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_NOT_ADJACENT_TO_COAST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_CANAL_HOUSING_DRY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_CITY_HAS_NO_DISTRICT_DAM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DAM_HOUSING_AQUEDUCT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_NOT_FRESH_WATER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DAM_HOUSING_AQUEDUCT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_CITY_HAS_DISTRICT_AQUEDUCT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DAM_HOUSING_AQUEDUCT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_CITY_HAS_DISTRICT_DAM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DAM_HOUSING_COASTAL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_NOT_FRESH_WATER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DAM_HOUSING_COASTAL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_CITY_HAS_NO_DISTRICT_AQUEDUCT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DAM_HOUSING_COASTAL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_IS_ADJACENT_TO_COAST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DAM_HOUSING_COASTAL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_CITY_HAS_DISTRICT_DAM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DAM_HOUSING_DRY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_NOT_FRESH_WATER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DAM_HOUSING_DRY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_CITY_HAS_NO_DISTRICT_AQUEDUCT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DAM_HOUSING_DRY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_NOT_ADJACENT_TO_COAST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DAM_HOUSING_DRY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_CITY_HAS_DISTRICT_DAM</RequirementId>
+		</Row>				
+	</RequirementSetRequirements>
+	
+<!-- 区域相邻加成	 -->
+	<District_Adjacencies>
+	    <!--工业区-->
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="LUMBER_PRODUCTION"/>
+		<Delete DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="LumberMill_HalfProduction"/>		
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="OFFSHORE_OIL_RIG_PRODUCTION"/>
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="OIL_WELL_PRODUCTION"/>		
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="AERODROME_PRODUCTION"/>
+		<!--剧院广场-->		
+		<Row DistrictType="DISTRICT_THEATER" YieldChangeId="NATURALWONDER_CULTURE"/>	   	
+		<Row DistrictType="DISTRICT_THEATER" YieldChangeId="ANTIQUITY_CULTURE"/>		
+		<!--商业区/港口-->
+		<Row DistrictType="DISTRICT_HARBOR" YieldChangeId="COMMERICAL_HUB_GOLD"/>		
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="RESOURCE_GOLD"/>		
+		<Delete DistrictType="DISTRICT_HARBOR" YieldChangeId="Harbor_City_Gold"/>			
+        <Row DistrictType="DISTRICT_HARBOR" YieldChangeId="CANAL_GOLD"/>		
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="CANAL_GOLD"/>		
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="RESOURCE_GOLD_ECONOMICS"/>		
+		<Row DistrictType="DISTRICT_HARBOR" YieldChangeId="RESOURCE_GOLD_ECONOMICS"/>		
+		<!--学院区-->
+		<Delete DistrictType="DISTRICT_CAMPUS" YieldChangeId="Jungle_Science"/>
+		<Row DistrictType="DISTRICT_CAMPUS" YieldChangeId="SNOW_SCIENCE"/>
+		<Row DistrictType="DISTRICT_CAMPUS" YieldChangeId="SNOWHILL_SCIENCE"/>
+		<Row DistrictType="DISTRICT_CAMPUS" YieldChangeId="VOLCANO_SCIENCE"/>
+		<Row DistrictType="DISTRICT_CAMPUS" YieldChangeId="VOLCANIC_SOIL_SCIENCE"/>		
+		<Row DistrictType="DISTRICT_CAMPUS" YieldChangeId="SPACE_SCIENCE"/>		
+		<!--圣地区-->
+		<Row DistrictType="DISTRICT_HOLY_SITE" YieldChangeId="Jungle_Faith"/>		
+		<!--市中心标准加成-->
+		<Row DistrictType="DISTRICT_THEATER" YieldChangeId="CITY_CENTER_CULTURE"/>		
+		<Row DistrictType="DISTRICT_HOLY_SITE" YieldChangeId="CITY_CENTER_FAITH"/>		
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="CITY_CENTER_GOLD"/>
+		<Row DistrictType="DISTRICT_HARBOR" YieldChangeId="CITY_CENTER_GOLD"/>		
+		<Row DistrictType="DISTRICT_CAMPUS" YieldChangeId="CITY_CENTER_SCIENCE"/>		
+	</District_Adjacencies>
+			
+	<Adjacency_YieldChanges>
+	    <!--商业区/港口/运河-->
+		<Row ID="COMMERICAL_HUB_GOLD" Description="LOC_DISTRICT_COMMERICAL_HUB_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
+		<Row ID="RESOURCE_GOLD" Description="LOC_DISTRICT_RESOURCE_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentResourceClass="RESOURCECLASS_LUXURY"/>
+		<Row ID="RESOURCE_GOLD_ECONOMICS" Description="LOC_DISTRICT_RESOURCE_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentResource="true" PrereqTech="TECH_ECONOMICS"/>
+		<Update>
+	        <Where ID="River_Gold"/> <Set YieldChange="1"/>
+	    </Update>
+		<Update>
+	        <Where ID="Harbor_City_Gold"/> <Set YieldChange="1"/>
+	    </Update>
+		<Update>
+	        <Where ID="RoyalDock_City_Gold"/> <Set YieldChange="1"/>
+	    </Update>
+		<Update>
+	        <Where ID="HARBOR_GOLD"/> <Set YieldChange="1"/>
+	    </Update>
+		<Update>
+	        <Where ID="RoyalDock_Gold"/> <Set YieldChange="1"/>
+	    </Update>
+		<Update>
+	        <Where ID="Cothon_Gold"/> <Set YieldChange="1"/>
+	    </Update>
+		<Row ID="CANAL_GOLD" Description="LOC_CANAL_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_CANAL"/>
+		<!--工业区-->
+		<Row ID="LUMBER_PRODUCTION" Description="LOC_LUMBER_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_LUMBER_MILL"/>
+		<Update>
+	        <Where ID="Minel_HalfProduction"/> <Set TilesRequired="1"/>
+	    </Update>
+		<Row ID="OFFSHORE_OIL_RIG_PRODUCTION" Description="LOC_OIL_WELL_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_OFFSHORE_OIL_RIG"/>
+		<Row ID="OIL_WELL_PRODUCTION" Description="LOC_OIL_WELL_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_OIL_WELL"/>
+		<Row ID="AERODROME_PRODUCTION" Description="LOC_AERODROME_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_AERODROME"/>
+		<!--剧院广场-->
+		<Row ID="NATURALWONDER_CULTURE" Description="LOC_NATURALWONDER_CULTURE" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentNaturalWonder="true" PrereqCivic="CIVIC_NATURAL_HISTORY"/>
+		<Update>
+	        <Where ID="Wonder_Culture"/> <Set YieldChange="2"/>
+	    </Update>
+		<Row ID="ANTIQUITY_CULTURE" Description="LOC_ANTIQUITY_CULTURE" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentResourceClass="RESOURCECLASS_ARTIFACT" PrereqCivic="CIVIC_NATURAL_HISTORY"/>
+		<!--学院区-->
+		<Row ID="SNOW_SCIENCE" Description="LOC_SNOW_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_SNOW" PrereqCivic="CIVIC_NUCLEAR_PROGRAM"/>
+		<Row ID="SNOWHILL_SCIENCE" Description="LOC_SNOWHILL_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_SNOW_HILLS" PrereqCivic="CIVIC_NUCLEAR_PROGRAM"/>
+		<Row ID="VOLCANO_SCIENCE" Description="LOC_VOLCANO_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_VOLCANO" PrereqTech="TECH_SCIENTIFIC_THEORY"/>
+		<Row ID="VOLCANIC_SOIL_SCIENCE" Description="LOC_VOLCANIC_SOIL_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_VOLCANIC_SOIL" PrereqTech="TECH_SCIENTIFIC_THEORY"/>	
+        <Row ID="SPACE_SCIENCE" Description="LOC_SPACE_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="3" TilesRequired="1" AdjacentDistrict="DISTRICT_SPACEPORT"/>	
+		<Update>
+	        <Where ID="Mountains_Science1"/> <Set PrereqTech="TECH_ASTRONOMY"/>
+	    </Update>
+		<Update>
+	        <Where ID="Mountains_Science2"/> <Set PrereqTech="TECH_ASTRONOMY"/>
+	    </Update>
+		<Update>
+	        <Where ID="Mountains_Science3"/> <Set PrereqTech="TECH_ASTRONOMY"/>
+	    </Update>
+		<Update>
+	        <Where ID="Mountains_Science4"/> <Set PrereqTech="TECH_ASTRONOMY"/>
+	    </Update>
+		<Update>
+	        <Where ID="Mountains_Science5"/> <Set PrereqTech="TECH_ASTRONOMY"/>
+	    </Update>
+		<Update>
+	        <Where ID="Geothermal_Science"/> <Set YieldChange="3" PrereqTech="TECH_SCIENTIFIC_THEORY"/>
+	    </Update>
+		<Update>
+	        <Where ID="Reef_Science"/> <Set YieldChange="3" PrereqTech="TECH_SCIENTIFIC_THEORY"/>
+	    </Update>
+		<!--圣地区-->
+		<Row ID="Jungle_Faith" Description="LOC_JUNGLE_FAITH" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="2" AdjacentFeature="FEATURE_JUNGLE" PrereqCivic="CIVIC_THEOLOGY"/>
+		<Update>
+	        <Where ID="Forest_Faith"/> <Set PrereqCivic="CIVIC_THEOLOGY"/>
+	    </Update>
+	</Adjacency_YieldChanges>	
+			
+	<TraitModifiers>
+	<!--军营-->	
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="GOLDEN_ENCAMPMENT_FARM_HOUSING"/>
+        <Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="GOLDEN_ENCAMPMENT_PASTURE_HOUSING"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="GOLDEN_ENCAMPMENT_PLANTATION_HOUSING"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="GOLDEN_ENCAMPMENT_CAMP_HOUSING"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="GOLDEN_ENCAMPMENT_CANAL_HOUSING"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="GOLDEN_ENCAMPMENT_AERODROME_HOUSING"/>	
+        <Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="GOLDEN_ENCAMPMENT_GOVERNMENT_HOUSING"/>		
+	<!--娱乐中心-->		
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="GOLDEN_ENTERTAINMENT_COMPLEX_CITY_CENTER_AMENITY"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="GOLDEN_ENTERTAINMENT_COMPLEX_GOVERNMENT_AMENITY"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="GOLDEN_ENTERTAINMENT_COMPLEX_WATER_ENTERTAINMENT_COMPLEX_AMENITY"/>		
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="GOLDEN_WATER_ENTERTAINMENT_COMPLEX_ENTERTAINMENT_COMPLEX_AMENITY"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="GOLDEN_WATER_ENTERTAINMENT_COMPLEX_CITY_CENTER_AMENITY"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="GOLDEN_WATER_ENTERTAINMENT_COMPLEX_GOVERNMENT_AMENITY"/>
+	</TraitModifiers>
+	
+	<Modifiers>	
+	    <!--军营-->	
+        <Row>
+			<ModifierId>GOLDEN_ENCAMPMENT_FARM_HOUSING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_FARM_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>	
+        <Row>
+			<ModifierId>GOLDEN_ENCAMPMENT_PASTURE_HOUSING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_PASTURE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+        <Row>
+			<ModifierId>GOLDEN_ENCAMPMENT_PLANTATION_HOUSING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_PLANTATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+        <Row>
+			<ModifierId>GOLDEN_ENCAMPMENT_CAMP_HOUSING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_CAMP_REQUIREMENTS</SubjectRequirementSetId>
+		</Row> 
+        <Row>
+			<ModifierId>GOLDEN_ENCAMPMENT_CANAL_HOUSING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_CANAL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row> 	
+		<Row>
+			<ModifierId>GOLDEN_ENCAMPMENT_AERODROME_HOUSING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_AERODROME_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>		
+		<Row>
+			<ModifierId>GOLDEN_ENCAMPMENT_GOVERNMENT_HOUSING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_GOVERNMENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>		
+        <!--娱乐中心-->	
+        <Row>
+			<ModifierId>GOLDEN_ENTERTAINMENT_COMPLEX_CITY_CENTER_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_EXTRA_ENTERTAINMENT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_DISTRICT_IS_ENTERTAINMENT_COMPLEX_ADJACENT_TO_CITY_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_ENTERTAINMENT_COMPLEX_GOVERNMENT_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_EXTRA_ENTERTAINMENT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_DISTRICT_IS_ENTERTAINMENT_COMPLEX_ADJACENT_TO_GOVERNMENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_ENTERTAINMENT_COMPLEX_WATER_ENTERTAINMENT_COMPLEX_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_EXTRA_ENTERTAINMENT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_DISTRICT_IS_ENTERTAINMENT_COMPLEX_ADJACENT_TO_WATER_ENTERTAINMENT_COMPLEX_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>			
+		<Row>
+			<ModifierId>GOLDEN_WATER_ENTERTAINMENT_COMPLEX_ENTERTAINMENT_COMPLEX_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_EXTRA_ENTERTAINMENT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_DISTRICT_IS_WATER_ENTERTAINMENT_COMPLEX_ADJACENT_TO_ENTERTAINMENT_COMPLEX_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+        <Row>
+			<ModifierId>GOLDEN_WATER_ENTERTAINMENT_COMPLEX_CITY_CENTER_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_EXTRA_ENTERTAINMENT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_DISTRICT_IS_WATER_ENTERTAINMENT_COMPLEX_ADJACENT_TO_CITY_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_WATER_ENTERTAINMENT_COMPLEX_GOVERNMENT_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_EXTRA_ENTERTAINMENT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_DISTRICT_IS_WATER_ENTERTAINMENT_COMPLEX_ADJACENT_TO_GOVERNMENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>	
+	</Modifiers>
+
+    <ModifierArguments>
+	    <!--军营-->	
+		<Row>
+			<ModifierId>GOLDEN_ENCAMPMENT_FARM_HOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ENCAMPMENT_PASTURE_HOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ENCAMPMENT_PLANTATION_HOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ENCAMPMENT_CAMP_HOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ENCAMPMENT_CANAL_HOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ENCAMPMENT_AERODROME_HOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ENCAMPMENT_GOVERNMENT_HOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--娱乐中心-->		
+		<Row>
+			<ModifierId>GOLDEN_ENTERTAINMENT_COMPLEX_CITY_CENTER_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ENTERTAINMENT_COMPLEX_GOVERNMENT_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ENTERTAINMENT_COMPLEX_WATER_ENTERTAINMENT_COMPLEX_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_WATER_ENTERTAINMENT_COMPLEX_ENTERTAINMENT_COMPLEX_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_WATER_ENTERTAINMENT_COMPLEX_CITY_CENTER_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_WATER_ENTERTAINMENT_COMPLEX_GOVERNMENT_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+    </ModifierArguments>
+
+	<RequirementSets>
+	    <Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_FARM_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_PASTURE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_PLANTATION_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_CAMP_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_CANAL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_AERODROME_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_GOVERNMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>				
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENTERTAINMENT_COMPLEX_ADJACENT_TO_CITY_CENTER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENTERTAINMENT_COMPLEX_ADJACENT_TO_GOVERNMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENTERTAINMENT_COMPLEX_ADJACENT_TO_WATER_ENTERTAINMENT_COMPLEX_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_WATER_ENTERTAINMENT_COMPLEX_ADJACENT_TO_ENTERTAINMENT_COMPLEX_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_WATER_ENTERTAINMENT_COMPLEX_ADJACENT_TO_CITY_CENTER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_WATER_ENTERTAINMENT_COMPLEX_ADJACENT_TO_GOVERNMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	
+	<RequirementSetRequirements>
+	    <Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_FARM_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_ENCAMPMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_FARM_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_IMPROVEMENT_FARM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_PASTURE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_ENCAMPMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_PASTURE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_IMPROVEMENT_PASTURE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_PLANTATION_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_ENCAMPMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_PLANTATION_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_IMPROVEMENT_PLANTATION</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_CAMP_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_ENCAMPMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_CAMP_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_IMPROVEMENT_CAMP</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_CANAL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_ENCAMPMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_CANAL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_DISTRICT_CANAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_AERODROME_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_ENCAMPMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_AERODROME_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_DISTRICT_AERODROME</RequirementId>
+		</Row>			
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_GOVERNMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_ENCAMPMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENCAMPMENT_ADJACENT_TO_GOVERNMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_DISTRICT_GOVERNMENT</RequirementId>
+		</Row>	
+		
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENTERTAINMENT_COMPLEX_ADJACENT_TO_CITY_CENTER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_HAS_DISTRICT_ENTERTAINMENT_COMPLEX</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENTERTAINMENT_COMPLEX_ADJACENT_TO_CITY_CENTER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_DISTRICT_CITY_CENTER</RequirementId>
+		</Row>	
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENTERTAINMENT_COMPLEX_ADJACENT_TO_GOVERNMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_HAS_DISTRICT_ENTERTAINMENT_COMPLEX</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENTERTAINMENT_COMPLEX_ADJACENT_TO_GOVERNMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_DISTRICT_GOVERNMENT</RequirementId>
+		</Row>	
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENTERTAINMENT_COMPLEX_ADJACENT_TO_WATER_ENTERTAINMENT_COMPLEX_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_HAS_DISTRICT_ENTERTAINMENT_COMPLEX</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_ENTERTAINMENT_COMPLEX_ADJACENT_TO_WATER_ENTERTAINMENT_COMPLEX_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_DISTRICT_WATER_ENTERTAINMENT_COMPLEX</RequirementId>
+		</Row>			
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_WATER_ENTERTAINMENT_COMPLEX_ADJACENT_TO_ENTERTAINMENT_COMPLEX_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_HAS_DISTRICT_WATER_ENTERTAINMENT_COMPLEX</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_WATER_ENTERTAINMENT_COMPLEX_ADJACENT_TO_ENTERTAINMENT_COMPLEX_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_DISTRICT_ENTERTAINMENT_COMPLEX</RequirementId>
+		</Row>	
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_WATER_ENTERTAINMENT_COMPLEX_ADJACENT_TO_CITY_CENTER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_HAS_DISTRICT_WATER_ENTERTAINMENT_COMPLEX</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_WATER_ENTERTAINMENT_COMPLEX_ADJACENT_TO_CITY_CENTER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_DISTRICT_CITY_CENTER</RequirementId>
+		</Row>	
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_WATER_ENTERTAINMENT_COMPLEX_ADJACENT_TO_GOVERNMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_HAS_DISTRICT_WATER_ENTERTAINMENT_COMPLEX</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_DISTRICT_IS_WATER_ENTERTAINMENT_COMPLEX_ADJACENT_TO_GOVERNMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_DISTRICT_GOVERNMENT</RequirementId>
+		</Row>	
+	</RequirementSetRequirements>
+</GameInfo>

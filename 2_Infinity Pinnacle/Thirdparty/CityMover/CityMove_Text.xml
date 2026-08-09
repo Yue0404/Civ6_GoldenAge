@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+    <!-- The name of the unit. -->
+		<Row Tag="LOC_UNIT_FLY_CITY_NAME" Language="en_US">
+			<Text>City on wheels</Text>
+		</Row>
+		<Replace Language="zh_Hans_CN" Tag="LOC_UNIT_FLY_CITY_NAME">
+            <Text>打包好的城市</Text>
+        </Replace>
+		
+		<!-- It's description. -->
+		<Row Tag="LOC_UNIT_FLY_CITY_DESCRIPTION" Language="en_US">
+			<Text>Has unlimited movements, must complete the city movement within one turn, otherwise it will return to the original position.</Text>
+		</Row>
+		<Replace Language="zh_Hans_CN" Tag="LOC_UNIT_FLY_CITY_DESCRIPTION">
+            <Text>拥有无限移动力，必须在当回合内完成城市移动，否则会回到原位。</Text>
+        </Replace>
+		
+		<Row Tag="LOC_PROJECT_MOVE_CITY_SHORTNAME" Language="en_US">
+			<Text>Pack this city!</Text>
+		</Row>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PROJECT_MOVE_CITY_SHORTNAME">
+            <Text>打包城市！</Text>
+        </Replace>
+		<Row Tag="LOC_PROJECT_MOVE_CITY_NAME" Language="en_US">
+			<Text>Pack this city!</Text>
+		</Row>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PROJECT_MOVE_CITY_NAME">
+            <Text>打包城市！</Text>
+        </Replace>
+		<Row Tag="LOC_PROJECT_MOVE_CITY_DESCRIPTION" Language="en_US">
+			<Text>Pack your entire city! This will create the unit 'city on wheels'. This unit has unlimited movements and can settle at a better location. Districts and buildings in this city will be copied, except for the world wonders. District will be completed immediately once you choose where it will be placed.</Text>
+		</Row>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PROJECT_MOVE_CITY_DESCRIPTION">
+            <Text>打包这个城市！创建新单位“打包好的城市”，这个单位拥有无限的移动力，可以立刻把城市移动到一个更好的地方！城市中的已经建好的区域和建筑将被拷贝到新城市，世界奇观除外。建过的区域在选择好单元格之后将立即完成。</Text>
+        </Replace>
+  </LocalizedText>
+</GameData>

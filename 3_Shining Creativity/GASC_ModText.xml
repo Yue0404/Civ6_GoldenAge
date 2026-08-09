@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GASC_ModText -->
+<!-- Author: Flactine -->
+<!-- DateCreated: 10/14/2023 9:50:34 AM -->
+<GameData>
+	<EnglishText>
+		<Row Tag="LOC_MOD_GOLDENAGE_SC_NAME">
+			<Text>[ICON_GLORY_SUPER_GOLDEN_AGE][COLOR_FLOAT_GOLD]GoldenAge[ENDCOLOR]· [COLOR:ButtonCS]Shining Creativity[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="LOC_MOD_GOLDENAGE_SC_AUTHOR">
+			<Text>Gold, Flactine</Text>
+		</Row>
+		<Row Tag="LOC_MOD_GOLDENAGE_SC_TEASER">
+			<Text>Golden Age - Mod Civilizations adaptation</Text>
+		</Row>
+		<Row Tag="LOC_MOD_GOLDENAGE_SC_DESCRIPTION">
+			<Text>Added "Historical Era" and "Regional &amp; Cultural Trait" to unofficial civilizations (real and fictional) from Steam Workshop, as well as modified some unofficial contexts to adapt to Golden Age gameplay mechanics.</Text>
+		</Row>
+	</EnglishText>
+
+	<LocalizedText>
+		<Replace Tag="LOC_MOD_GOLDENAGE_SC_NAME" Language="zh_Hans_CN">
+			<Text>[ICON_GLORY_SUPER_GOLDEN_AGE][COLOR_FLOAT_GOLD]黄金时代[ENDCOLOR]·[COLOR:ButtonCS]创意闪耀[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_MOD_GOLDENAGE_SC_AUTHOR" Language="zh_Hans_CN">
+			<Text>黄小金，焰色光芒</Text>
+		</Replace>
+		<Replace Tag="LOC_MOD_GOLDENAGE_SC_TEASER" Language="zh_Hans_CN">
+			<Text>黄金时代 —— 创意工坊模组适配</Text>
+		</Replace>
+		<Replace Tag="LOC_MOD_GOLDENAGE_SC_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为创意工坊中的非官方文明（现实文明和虚构文明）添加“史实时代”与“地域与人文特性”，以及部分新加入的内容修改，使其适应黄金时代的游戏机制。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

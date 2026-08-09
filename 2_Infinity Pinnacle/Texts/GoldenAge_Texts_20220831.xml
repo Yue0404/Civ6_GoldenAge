@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GoldenAge_Texts_20220831 -->
+<!-- Author: Flactine -->
+<!-- DateCreated: 8/31/2022 2:35:10 PM -->
+<GameData>
+	<LocalizedText>
+		<!--自然灾害-->
+		<Replace Tag="LOC_RANDOM_EVENT_FLOOD_TRIGGERED_NAME" Language="zh_Hans_CN">
+			<Text>惊涛骇浪</Text>
+		</Replace>
+		<Replace Tag="LOC_RANDOM_EVENT_FLOOD_TRIGGERED_NAME" Language="en_US">
+			<Text>Terrifying Waves</Text>
+		</Replace>
+		<Replace Tag="LOC_RANDOM_EVENT_VOLCANO_TRIGGERED_NAME" Language="zh_Hans_CN">
+			<Text>熔岩爆裂</Text>
+		</Replace>
+		<Replace Tag="LOC_RANDOM_EVENT_VOLCANO_TRIGGERED_NAME" Language="en_US">
+			<Text>Lava Burst</Text>
+		</Replace>
+		<Replace Tag="LOC_RANDOM_EVENT_BLIZZARD_TRIGGERED_NAME" Language="zh_Hans_CN">
+			<Text>魔鬼暴风雪</Text>
+		</Replace>
+		<Replace Tag="LOC_RANDOM_EVENT_BLIZZARD_TRIGGERED_NAME" Language="en_US">
+			<Text>Devil Blizzard</Text>
+		</Replace>
+		<Replace Tag="LOC_RANDOM_EVENT_DUST_STORM_TRIGGERED_NAME" Language="zh_Hans_CN">
+			<Text>邪恶沙尘暴</Text>
+		</Replace>
+		<Replace Tag="LOC_RANDOM_EVENT_DUST_STORM_TRIGGERED_NAME" Language="en_US">
+			<Text>Evil Sandstorm</Text>
+		</Replace>
+		<Replace Tag="LOC_RANDOM_EVENT_JUNGLE_FIRE_TRIGGERED_NAME" Language="zh_Hans_CN">
+			<Text>地狱火</Text>
+		</Replace>
+		<Replace Tag="LOC_RANDOM_EVENT_JUNGLE_FIRE_TRIGGERED_NAME" Language="en_US">
+			<Text>Hellfire</Text>
+		</Replace>
+		<Replace Tag="LOC_RANDOM_EVENT_FOREST_FIRE_TRIGGERED_NAME" Language="zh_Hans_CN">
+			<Text>地狱火</Text>
+		</Replace>
+		<Replace Tag="LOC_RANDOM_EVENT_FOREST_FIRE_TRIGGERED_NAME" Language="en_US">
+			<Text>Hellfire</Text>
+		</Replace>
+		<!--新模式-->
+		<Replace Tag="LOC_GA_CAPITAL_LOYAL_NAME" Language="zh_Hans_CN">
+			<Text>首都永久忠诚</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_CAPITAL_LOYAL_NAME" Language="en_US">
+			<Text>Capital keep Loyalty Forever</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_CAPITAL_LOYAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有文明及城邦的首都永久保持忠诚。</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_CAPITAL_LOYAL_DESCRIPTION" Language="en_US">
+			<Text>The capitals of all Civilizations and Citystates remain Permanently Loyal.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MODE_FASTER_NAME" Language="zh_Hans_CN">
+			<Text>开局开拓者快速移动</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MODE_FASTER_NAME" Language="en_US">
+			<Text>Faster Starting Settlers</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MODE_FASTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造第一座城市前，开拓者将获得更多移动力，移动时不受地形的阻碍。[NEWLINE]建议与“开局获得更多视野”一同使用。[NEWLINE][NEWLINE]感谢 Sejick 的 Faster Starting Settlers。</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MODE_FASTER_DESCRIPTION" Language="en_US">
+			<Text>Starting Settlers have +1 movement and ignore terrain costs before you settle your first city.[NEWLINE]Recommended to be used in conjunction with "More Start Sights".[NEWLINE][NEWLINE]Credit to Faster Starting Settlers by Sejick.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MODE_PANTHEON_NAME" Language="zh_Hans_CN">
+			<Text>开局选择万神殿</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MODE_PANTHEON_NAME" Language="en_US">
+			<Text>Start with the Pantheon</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MODE_PANTHEON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造第一座城市后，即可选择万神殿。</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MODE_PANTHEON_DESCRIPTION" Language="en_US">
+			<Text>You can choose the Pantheon at the beginning.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MODE_PROPHET_NAME" Language="zh_Hans_CN">
+			<Text>保底大预言家</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MODE_PROPHET_NAME" Language="en_US">
+			<Text>Guarantee Great Prophet</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MODE_PROPHET_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>当倒数第二名大预言家被招募后，玩家立刻获得最后一名大预言家。</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MODE_PROPHET_DESCRIPTION" Language="en_US">
+			<Text>Player automatically receive the final [ICON_GreatProphet] Great Prophet when the next-to-last one is claimed (if you have not earned a [ICON_GreatProphet] Great Prophet already).</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MODE_NO_POP_LOSE_NAME" Language="zh_Hans_CN">
+			<Text>自然灾害不损失城市人口</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MODE_NO_POP_LOSE_NAME" Language="en_US">
+			<Text>Natural disasters do not lose City Population</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MODE_NO_POP_LOSE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>自然灾害不会导致城市人口降低。</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MODE_NO_POP_LOSE_DESCRIPTION" Language="en_US">
+			<Text>Natural disasters do not reduce the City's Population.</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MODE_BARRIERS_NAME" Language="zh_Hans_CN">
+			<Text>免费防洪坝</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MODE_BARRIERS_NAME" Language="en_US">
+			<Text>Free Flood Barriers</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MODE_BARRIERS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>玩家的所有城市初始即拥有防洪坝。[NEWLINE][NEWLINE]感谢 Adriaman 的 Free Flood Barriers for City-States。</Text>
+		</Replace>
+		<Replace Tag="LOC_GA_MODE_BARRIERS_DESCRIPTION" Language="en_US">
+			<Text>Provides free Flood Barriers to Player.[NEWLINE][NEWLINE]Credit to Free Flood Barriers for City-States by Adriaman.</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_CONGRESS_NOBEL_PRIZE_PEACE_SUMMARY" Language="zh_Hans_CN">
+			<Text>“世界人民希望对最热爱和平的文明表达认可。我们将评出诺贝尔和平奖。”</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_CONGRESS_NOBEL_PRIZE_PEACE_SUMMARY" Language="en_US">
+			<Text>"People of the world wishes to acknowledge the most peaceful nation.  We shall see which of us that is."</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_CONGRESS_NOBEL_PRIZE_LITERATURE_SUMMARY" Language="zh_Hans_CN">
+			<Text>“世界人民希望看到力透纸背的作品。我们将评出诺贝尔文学奖。”</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_CONGRESS_NOBEL_PRIZE_LITERATURE_SUMMARY" Language="en_US">
+			<Text>"People of the world wishes to acknowledge superb penmanship.  We shall see who produces the best literature."</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_CONGRESS_NOBEL_PRIZE_SCIENCE_SUMMARY" Language="zh_Hans_CN">
+			<Text>“世界人民希望看到科学界的领军人物。我们将评出诺贝尔科学奖。”</Text>
+		</Replace>
+		<Replace Tag="LOC_WORLD_CONGRESS_NOBEL_PRIZE_SCIENCE_SUMMARY" Language="en_US">
+			<Text>"People of the world wishes to acknowledge scientific leadership.  We shall see who best fosters the sciences."</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_NATIONALISM_TOTALWAR" Language="zh_Hans_CN">
+			<Text>您的军队有20个陆地战斗单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_BOOST_TRIGGER_NATIONALISM_TOTALWAR" Language="en_US">
+			<Text>Have 20 land combat units in your military.</Text>
+		</Replace>
+	</LocalizedText>	
+</GameData>

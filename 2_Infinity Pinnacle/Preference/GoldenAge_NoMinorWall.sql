@@ -1,0 +1,1 @@
+DELETE FROM StartingBuildings WHERE MinorOnly = 1 AND Building = 'BUILDING_WALLS';

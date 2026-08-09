@@ -1,0 +1,264 @@
+-- INSERT OR REPLACE INTO LocalizedText 
+-- (Tag,                                                    Language,       Text) VALUES
+-- ("LOC_GOLDEN_TRAIT_FRIENDS",                             "en_US",        "The Gift of Friendship"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS",                             "zh_Hans_CN",   "友谊的礼物");
+--BASE
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_GERMANY",        "en_US",        "+50% [ICON_PRODUCTION] Production adjacency bonus for Industrial Zone."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_GERMANY",        "zh_Hans_CN",   "工业区 [ICON_PRODUCTION] 生产力相邻加成+50%。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_FRANCE",         "zh_Hans_CN",   "解锁建造者修建法国特色改良设施城堡的能力。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_FRANCE",         "en_US",        "Unlock the Bulider ability to construct a Chateau, unique to the France."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_EGYPT",          "zh_Hans_CN",   "解锁建造者修建埃及特色改良设施狮身人面像的能力。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_EGYPT",          "en_US",        "Unlock the Bulider ability to construct a Sphinx, unique to the Egypt."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_INDIA",          "zh_Hans_CN",   "解锁建造者修建印度特色改良设施梯井的能力。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_INDIA",          "en_US",        "Unlock the Bulider ability to construct a Stepwell, unique to the India."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_SUMERIA",        "zh_Hans_CN",   "解锁建造者修建苏美尔特色改良设施金字型神塔的能力。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_SUMERIA",        "en_US",        "Unlock the Bulider ability to construct a Ziggurat, unique to the Sumeria."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_GREECE",         "zh_Hans_CN",   "剧院广场 [ICON_CULTURE] 文化值相邻加成+50%。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_GREECE",         "en_US",        "+50% [ICON_CULTURE] Culture adjacency bonus for Theaher Square."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_NORWAY",         "zh_Hans_CN",   "圣地的建筑+50% [ICON_FAITH] 信仰值产出。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_NORWAY",         "en_US",        "+50% [ICON_FAITH] Faith yields for buildings in Holy Site."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_JAPAN",          "zh_Hans_CN",   "工业区的建筑+50% [ICON_PRODUCTION] 生产力产出。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_JAPAN",          "en_US",        "+50% [ICON_PRODUCTION] production yields for buildings in Industrial Zone."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_KONGO",          "zh_Hans_CN",   "+25% [ICON_GreatWriter] 大作家、 [ICON_GreatArtist] 大艺术家和 [ICON_GreatMusician] 大音乐家点数。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_KONGO",          "en_US",        "+25% [ICON_GREATWRITER] Great Writer, [ICON_GREATARTIST] Great Artist and [ICON_GreatMusician] Great Musition pionts."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_BRAZIL",         "zh_Hans_CN",   "娱乐中心和水上乐园额外+2 [ICON_AMENITIES] 宜居度。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_BRAZIL",         "en_US",        "+2 [ICON_AMENITIES] Amenity for Entertainment Complex."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_RUSSIA",         "zh_Hans_CN",   "圣地 [ICON_FAITH] 信仰值相邻加成+50%。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_RUSSIA",         "en_US",        "+50% [ICON_FAITH] Faith adjacency bonus for Holy Site."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_SPAIN",          "zh_Hans_CN",   "解锁建造者修建西班牙特色改良设施传教团的能力。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_SPAIN",          "en_US",        "Unlock the Bulider ability to construct a Mission, unique to the Spain."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_CHINA",          "zh_Hans_CN",   "解锁建造者修建中国特色改良设施长城的能力。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_CHINA",          "en_US",        "Unlock the Bulider ability to construct a Great Wall, unique to the China."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_ARABIA",         "zh_Hans_CN",   "学院的建筑+50% [ICON_SCIENCE] 科技值产出。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_ARABIA",         "en_US",        "+50% [ICON_SCIENCE] Science yields for buildings in Campus."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_SCYTHIA",        "zh_Hans_CN",   "解锁建造者修建斯基泰特色改良设施坟墩的能力。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_SCYTHIA",        "en_US",        "Unlock the Bulider ability to construct a Kurgan, unique to the Scythia."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_ROME",           "zh_Hans_CN",   "水渠+3 [ICON_Housing] 住房。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_ROME",           "en_US",        "+3 [ICON_Housing] housing for Aqueduct."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_AMERICA",        "zh_Hans_CN",   "剧院广场的建筑+50% [ICON_CULTURE] 文化值产出。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_AMERICA",        "en_US",        "+50% [ICON_CULTURE] Culture yields for buildings in Theaher Square."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_ENGLAND",        "zh_Hans_CN",   "港口 [ICON_GOLD] 金币相邻加成+50%。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_ENGLAND",        "en_US",        "+50% [ICON_Gold] Gold adjacency bonus for Harbor."), 
+-- RF
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_KOREA",          "zh_Hans_CN",   "学院 [ICON_SCIENCE] 科技值相邻加成+50%。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_KOREA",          "en_US",        "+50% [ICON_SCIENCE] Science adjacency bonus for Campus."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_SCOTLAND",       "zh_Hans_CN",   "解锁建造者修建苏格兰特色改良设施高尔夫球场的能力。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_SCOTLAND",       "en_US",        "Unlock the Bulider ability to construct a Golf Course, unique to the Scotland."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_CREE",           "zh_Hans_CN",   "解锁建造者修建克里特色改良设施棚屋的能力。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_CREE",           "en_US",        "Unlock the Bulider ability to construct a Mekewap, unique to the Cree."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_MAPUCHE",        "zh_Hans_CN",   "解锁建造者修建马普切特色改良设施马普切木人的能力。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_MAPUCHE",        "en_US",        "Unlock the Bulider ability to construct a Chemamull, unique to the Mapuche."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_MONGOLIA",       "zh_Hans_CN",   "军营内的建筑+1 [ICON_Housing] 住房。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_MONGOLIA",       "en_US",        "The building in Encampment provide extra +1 [ICON_HOUSING] Housing."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_ZULU",           "zh_Hans_CN",   "军营+2 [ICON_Housing] 住房。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_ZULU",           "en_US",        "Encampment provide extra +2 [ICON_HOUSING] Housing."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_GEORGIA",        "zh_Hans_CN",   "+25% [ICON_GreatWriter] 大作家、 [ICON_GreatArtist] 大艺术家和 [ICON_GreatMusician] 大音乐家点数。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_GEORGIA",        "en_US",        "+25% [ICON_GREATWRITER] Great Writer, [ICON_GREATARTIST] Great Artist and [ICON_GreatMusician] Great Musition pionts."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_NETHERLANDS",    "zh_Hans_CN",   "解锁建造者修建荷兰特色改良设施圩田的能力。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_NETHERLANDS",    "en_US",        "Unlock the Bulider ability to construct a Polder, unique to the Netherlands."),
+-- GS
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_CANADA",         "zh_Hans_CN",   "解锁建造者修建加拿大特色改良设施冰球场的能力。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_CANADA",         "en_US",        "Unlock the Bulider ability to construct a Ice Hockey Rink, unique to the Canada."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_SWEDEN",         "zh_Hans_CN",   "+25% [ICON_GREATSCIENTIST] 大科学家、 [ICON_GREATENGINEER] 大工程师和 [ICON_GREATMERCHANT] 大商人点数。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_SWEDEN",         "en_US",        "+25% [ICON_GREATENGINEER] Great Engineer, [ICON_GREATSCIENTIST] Great Scientist and [ICON_GREATMERCHANT] Great Merchant pionts."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_MALI",           "zh_Hans_CN",   "商业中心 [ICON_GOLD] 金币相邻加成+50%。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_MALI",           "en_US",        "+50% [ICON_Gold] Gold adjacency bonus for Commercial Hub."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_PHOENICIA",      "zh_Hans_CN",   "港口 [ICON_GOLD] 金币相邻加成+50%。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_PHOENICIA",      "en_US",        "+50% [ICON_Gold] Gold adjacency bonus for Harbor."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_HUNGARY",        "zh_Hans_CN",   "娱乐中心和水上乐园额外中的建筑+1 [ICON_AMENITIES] 宜居度。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_HUNGARY",        "en_US",        "The building in Entertainment Complex and Water Park provide extra +1 [ICON_AMENITIES] Amenity."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_OTTOMAN",        "zh_Hans_CN",   "商业中心的建筑+50% [ICON_Gold] 金币产出。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_OTTOMAN",        "en_US",        "+50% [ICON_Gold] Gold yields for buildings in Commercial Hub."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_INCA",           "zh_Hans_CN",   "解锁建造者修建印加特色改良设施印加梯田的能力。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_INCA",           "en_US",        "Unlock the Bulider ability to construct a Ferrace Farm, unique to the Inca."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_MAORI",          "zh_Hans_CN",   "剧院广场的建筑+50% [ICON_CULTURE] 文化值产出。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_MAORI",          "en_US",        "+50% [ICON_CULTURE] Culture yields for buildings in Theaher Square."),
+-- NFP
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_GRAN_COLOMBIA",  "zh_Hans_CN",   "解锁建造者修建大哥伦比亚特色改良设施大庄园的能力。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_GRAN_COLOMBIA",  "en_US",        "Unlock the Bulider ability to construct a Hacienda, unique to the Gran Colombia."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_AUSTRALIA",      "zh_Hans_CN",   "解锁建造者修建澳大利亚特色改良设施内陆牧场的能力。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_AUSTRALIA",      "en_US",        "Unlock the Bulider ability to construct a Outback Station, unique to the Australia."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_AZTEC",          "zh_Hans_CN",   "娱乐中心和水上乐园额外中的建筑+1 [ICON_AMENITIES] 宜居度。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_AZTEC",          "en_US",        "The building in Entertainment Complex and Water Park provide extra +1 [ICON_AMENITIES] Amenity."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_POLAND",         "zh_Hans_CN",   "商业中心的建筑+50% [ICON_Gold] 金币产出。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_POLAND",         "en_US",        "+50% [ICON_Gold] Gold yields for buildings in Commercial Hub."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_MACEDON",        "zh_Hans_CN",   "军营内的建筑+1 [ICON_Housing] 住房"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_MACEDON",        "en_US",        "The building in Encampment provide extra +1 [ICON_HOUSING] Housing."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_PERSIA",         "zh_Hans_CN",   "解锁建造者修建波斯特色改良设施波斯庭院的能力。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_PERSIA",         "en_US",        "Unlock the Bulider ability to construct a Pairidaeza, unique to the Persia."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_NUBIA",          "zh_Hans_CN",   "解锁建造者修建努比亚特色改良设施努比亚金字塔的能力。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_NUBIA",          "en_US",        "Unlock the Bulider ability to construct a Nubian Pyramid, unique to the Nubia."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_INDONESIA",      "zh_Hans_CN",   "解锁建造者修建印度尼西亚特色改良设施甘邦屋的能力。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_INDONESIA",      "en_US",        "Unlock the Bulider ability to construct a Kampung, unique to the Indonisia."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_KHMER",          "zh_Hans_CN",   "圣地的建筑+50% [ICON_FAITH] 信仰值产出。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_KHMER",          "en_US",        "+50% [ICON_FAITH] Faith yields for buildings in Holy Site."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_MAYA",           "zh_Hans_CN",   "学院 [ICON_SCIENCE] 科技值相邻加成+50%。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_MAYA",           "en_US",        "+50% [ICON_SCIENCE] Science adjacency bonus for Campus."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_ETHIOPIA",       "zh_Hans_CN",   "解锁建造者修建埃塞俄比亚特色改良设施独石教堂的能力。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_ETHIOPIA",       "en_US",        "Unlock the Bulider ability to construct a Rock-Hewn Church, unique to the Ethiopia."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_BYZANTIUM",      "zh_Hans_CN",   "娱乐中心和水上乐园额外+2 [ICON_AMENITIES] 宜居度。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_BYZANTIUM",      "en_US",        "+2 [ICON_AMENITIES] Amenity for Entertainment Complex and Water Park."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_GAUL",           "zh_Hans_CN",   "工业区 [ICON_PRODUCTION] 生产力相邻加成+50%。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_GAUL",           "en_US",        "+50% [ICON_PRODUCTION] Production adjacency bonus for Industrial Zone."),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_BABYLON_STK",    "zh_Hans_CN",   "+25% [ICON_GREATSCIENTIST] 大科学家、 [ICON_GREATENGINEER] 大工程师和 [ICON_GREATMERCHANT] 大商人点数。"),
+-- ("LOC_GOLDEN_TRAIT_FRIENDS_CIVILIZATION_BABYLON_STK",    "en_US",        "+25% [ICON_GREATENGINEER] Great Engineer, [ICON_GREATSCIENTIST] Great Scientist and [ICON_GREATMERCHANT] Great Merchant pionts.");
+
+--BASE
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_PRODUCTION] Production adjacency bonus for Industrial Zone.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_IRON_CROWN_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Chateau, unique to the France.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_BLACK_QUEEN_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Sphinx, unique to the Egypt.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_QUEEN_OF_THE_NILE_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Stepwell, unique to the India.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_PEACEKEEPER_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Ziggurat, unique to the Sumeria.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_ALLY_OF_ENKIDU_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_CULTURE] Culture adjacency bonus for Theaher Square.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_WITH_YOUR_SHIELD_OR_ON_IT_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_FAITH] Faith adjacency bonus for Holy Site.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_LAST_VIKING_KING_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_PRODUCTION] production yields for buildings in Industrial Zone.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_BUSHIDO_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+25% [ICON_GREATWRITER] Great Writer, [ICON_GREATARTIST] Great Artist and [ICON_GreatMusician] Great Musition pionts.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_ENTHUSIASTIC_DISCIPLE_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+2 [ICON_AMENITIES] Amenity for Entertainment Complex.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_GREAT_PERSON_OBSESSED_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_CULTURE] Culture adjacency bonus for Theaher Square.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_DELIAN_LEAGUE_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_FAITH] Faith adjacency bonus for Holy Site.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_WESTERNIZER_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Mission, unique to the Spain.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_COUNTER_REFORMER_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Great Wall, unique to the China.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_WONDER_OBSESSED_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_SCIENCE] Science yields for buildings in Campus.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_AYYUBID_DYNASTY_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Kurgan, unique to the Scythia.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_BACKSTAB_AVERSE_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+3 [ICON_Housing] housing for Aqueduct.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_OPTIMUS_PRINCEPS_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_CULTURE] Culture yields for buildings in Theaher Square.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_BIG_STICK_POLICY_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_Gold] Gold adjacency bonus for Harbor.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SUN_NEVER_SETS_DESCRIPTION' AND Language ='en_US';
+--RF
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_SCIENCE] Science adjacency bonus for Campus.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_CHEOMSEONGDAE_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Golf Course, unique to the Scotland.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_FLOWER_OF_SCOTLAND_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Mekewap, unique to the Cree.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_IRON_CONFEDERACY_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Chemamull, unique to the Mapuche.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SPIRIT_OF_TUCAPEL_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]The buildings in Encampment provide extra +1 [ICON_HOUSING] Housing.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_HORSE_LORD_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Stepwell, unique to the India.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_MAURYA_EMPIRE_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Encampment provide extra +2 [ICON_HOUSING] Housing.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_HORN_CHEST_LOINS_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+25% [ICON_GREATWRITER] Great Writer, [ICON_GREATARTIST] Great Artist and [ICON_GreatMusician] Great Musition pionts.[ENDCOLOR]' WHERE Tag='LOC_AGENDA_NARIKALA_FORTRESS_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Polder, unique to the Netherlands.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_BILLIONAIRE_DESCRIPTION' AND Language ='en_US';
+--GS
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Eleanor is the leader of England: +50% [ICON_Gold] Gold adjacency bonus for Harbor. [NEWLINE][ICON_Bullet]Eleanor is the leader of France: Unlock the Bulider ability to construct a Chateau, unique to the France.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_ANGEVIN_EMPIRE_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Ice Hockey Rink, unique to the Canada.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_CANADIAN_EXPEDITIONARY_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+25% [ICON_GREATENGINEER] Great Engineer, [ICON_GREATSCIENTIST] Great Scientist and [ICON_GREATMERCHANT] Great Merchant pionts.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_PATRON_OF_ARTS_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_Gold] Gold adjacency bonus for Commercial Hub.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_LORD_OF_MINES_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_Gold] Gold adjacency bonus for Harbor.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SICILIAN_WARS_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]The buildings in Entertainment Complex and Water Park provide extra +1 [ICON_AMENITIES] Amenity.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_RAVEN_BANNER_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_Gold] Gold yields for buildings in Commercial Hub.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_LAWGIVER_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Ferrace Farm, unique to the Inca.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SAPA_INCA_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_CULTURE] Culture yields for buildings in Theaher Square.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_KAITIAKITANGA_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Hacienda, unique to the Gran Colombia.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SIMON_BOLIVAR_DESCRIPTION' AND Language ='en_US';
+--DLC
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Outback Station, unique to the Australia.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_PERPETUALLY_ON_GUARD_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]The buildings in Entertainment Complex and Water Park provide extra +1 [ICON_AMENITIES] Amenity.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_TLATOANI_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_Gold] Gold yields for buildings in Commercial Hub.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SAINT_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]The buildings in Encampment provide extra +1 [ICON_HOUSING] Housing.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SHORT_LIFE_GLORY_XP2_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Pairidaeza, unique to the Persia.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_BACKSTABBER_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Nubian Pyramid, unique to the Nubia.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_CITY_PLANNER_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Kampung, unique to the Indonisia.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_ARCHIPELAGIC_STATE_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_FAITH] Faith yields for buildings in Holy Site.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_END_TO_SUFFERING_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_SCIENCE] Science yields for buildings in Campus.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_LADY_SIX_SKY_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Rock-Hewn Church, unique to the Ethiopia.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_ETHIOPIAN_HIGHLANDS_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Chateau, unique to the France.[ENDCOLOR]' WHERE Tag ='LOC_TRAIT_AGENDA_MAGNIFICENCES_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_CULTURE] Culture yields for buildings in Theaher Square.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_BULL_MOOSE_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+2 [ICON_AMENITIES] Amenity for Entertainment Complex.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_BASIL_ZEALOT_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_PRODUCTION] Production adjacency bonus for Industrial Zone.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_AMBIORIX_ARMY_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+25% [ICON_GREATENGINEER] Great Engineer, [ICON_GREATSCIENTIST] Great Scientist and [ICON_GREATMERCHANT] Great Merchant pionts.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_HAMMURABI_DISTRICTS_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Encampment provide extra +2 [ICON_HOUSING] Housing.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_DEFENDER_OF_THE_HOMELAND_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Kublai Khan is the leader of China: Unlock the Bulider ability to construct a Great Wall, unique to the China. [NEWLINE][ICON_Bullet]Kublai Khan is the leader of Mongolia: The buildings in Encampment provide extra +1 [ICON_HOUSING] Housing.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_PAX_MONGOLICA_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_SCIENCE] Science yields for buildings in Campus.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_NAVIGATORS_LEGACY_DESCRIPTION' AND Language ='en_US';
+--BASE
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]工业区 [ICON_PRODUCTION] 生产力相邻加成+50%。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_IRON_CROWN_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建法国特色改良设施城堡的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_BLACK_QUEEN_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建埃及特色改良设施狮身人面像的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_QUEEN_OF_THE_NILE_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建印度特色改良设施梯井的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_PEACEKEEPER_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建苏美尔特色改良设施通灵塔的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_ALLY_OF_ENKIDU_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]剧院 [ICON_CULTURE] 文化值相邻加成+50%。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_WITH_YOUR_SHIELD_OR_ON_IT_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]圣地的建筑+50% [ICON_FAITH] 信仰值产出。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_LAST_VIKING_KING_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]工业区的建筑+50% [ICON_PRODUCTION] 生产力产出。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_BUSHIDO_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]+25% [ICON_GreatWriter] 大作家、 [ICON_GreatArtist] 大艺术家和 [ICON_GreatMusician] 大音乐家点数。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_ENTHUSIASTIC_DISCIPLE_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]娱乐中心和水上乐园额外+2 [ICON_AMENITIES] 宜居度。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_GREAT_PERSON_OBSESSED_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]剧院广场 [ICON_CULTURE] 文化值相邻加成+50%。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_DELIAN_LEAGUE_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]圣地 [ICON_FAITH] 信仰值相邻加成+50%。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_WESTERNIZER_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建西班牙特色改良设施传教团的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_COUNTER_REFORMER_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建中国特色改良设施长城的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_WONDER_OBSESSED_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]学院的建筑+50% [ICON_SCIENCE] 科技值产出。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_AYYUBID_DYNASTY_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建斯基泰特色改良设施坟墩的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_BACKSTAB_AVERSE_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]水渠+3 [ICON_Housing] 住房。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_OPTIMUS_PRINCEPS_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]剧院广场的建筑+50% [ICON_CULTURE] 文化值产出。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_BIG_STICK_POLICY_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]港口 [ICON_GOLD] 金币相邻加成+50%。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SUN_NEVER_SETS_DESCRIPTION' AND Language ='zh_Hans_CN';
+--RF
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]学院 [ICON_SCIENCE] 科技值相邻加成+50%。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_CHEOMSEONGDAE_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建苏格兰特色改良设施高尔夫球场的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_FLOWER_OF_SCOTLAND_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建克里特色改良设施棚屋的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_IRON_CONFEDERACY_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建马普切特色改良设施马普切木人的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SPIRIT_OF_TUCAPEL_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]军营内的建筑+1 [ICON_Housing] 住房。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_HORSE_LORD_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建印度特色改良设施梯井的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_MAURYA_EMPIRE_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]军营+2 [ICON_Housing] 住房。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_HORN_CHEST_LOINS_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]+25% [ICON_GreatWriter] 大作家、 [ICON_GreatArtist] 大艺术家和 [ICON_GreatMusician] 大音乐家点数。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_NARIKALA_FORTRESS_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建荷兰特色改良设施圩田的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_BILLIONAIRE_DESCRIPTION' AND Language ='zh_Hans_CN';
+--GS
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]埃莉诺是英国领袖时：港口 [ICON_GOLD] 金币相邻加成+50%。[NEWLINE][ICON_Bullet]埃莉诺是法国领袖时：解锁建造者修建法国特色改良设施城堡的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_ANGEVIN_EMPIRE_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建加拿大特色改良设施冰球场的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_CANADIAN_EXPEDITIONARY_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]+25% [ICON_GREATSCIENTIST] 大科学家、 [ICON_GREATENGINEER] 大工程师和 [ICON_GREATMERCHANT] 大商人点数。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_PATRON_OF_ARTS_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]商业中心 [ICON_GOLD] 金币相邻加成+50%。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_LORD_OF_MINES_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]港口 [ICON_GOLD] 金币相邻加成+50%。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SICILIAN_WARS_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]娱乐中心和水上乐园额外中的建筑+1 [ICON_AMENITIES] 宜居度。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_RAVEN_BANNER_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]商业中心的建筑+50% [ICON_Gold] 金币产出。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_LAWGIVER_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建印加特色改良设施印加梯田的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SAPA_INCA_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]剧院广场的建筑+50% [ICON_CULTURE] 文化值产出。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_KAITIAKITANGA_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建大哥伦比亚特色改良设施大庄园的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SIMON_BOLIVAR_DESCRIPTION' AND Language ='zh_Hans_CN';
+--DLC
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建澳大利亚特色改良设施内陆牧场的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_PERPETUALLY_ON_GUARD_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]娱乐中心和水上乐园额外中的建筑+1 [ICON_AMENITIES] 宜居度。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_TLATOANI_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]商业中心的建筑+50% [ICON_Gold] 金币产出。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SAINT_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]军营内的建筑+1 [ICON_Housing] 住房[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SHORT_LIFE_GLORY_XP2_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建波斯特色改良设施波斯庭院的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_BACKSTABBER_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建努比亚特色改良设施努比亚金字塔的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_CITY_PLANNER_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建印度尼西亚特色改良设施甘邦屋的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_ARCHIPELAGIC_STATE_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]圣地的建筑+50% [ICON_FAITH] 信仰值产出。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_END_TO_SUFFERING_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]学院的建筑+50% [ICON_SCIENCE] 科技值产出。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_LADY_SIX_SKY_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建埃塞俄比亚特色改良设施独石教堂的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_ETHIOPIAN_HIGHLANDS_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建法国特色改良设施城堡的能力。[ENDCOLOR]' WHERE Tag ='LOC_TRAIT_AGENDA_MAGNIFICENCES_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]剧院广场的建筑+50% [ICON_CULTURE] 文化值产出。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_BULL_MOOSE_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]娱乐中心和水上乐园额外+2 [ICON_AMENITIES] 宜居度。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_BASIL_ZEALOT_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]工业区 [ICON_PRODUCTION] 生产力相邻加成+50%。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_AMBIORIX_ARMY_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物: [NEWLINE][ICON_Bullet]+25% [ICON_GREATSCIENTIST] 大科学家、 [ICON_GREATENGINEER] 大工程师和 [ICON_GREATMERCHANT] 大商人点数。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_HAMMURABI_DISTRICTS_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物: [NEWLINE][ICON_Bullet]军营+2 [ICON_Housing] 住房。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_TRIEU_DEFENDER_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物: [NEWLINE][ICON_Bullet]忽必烈是中国领袖时：解锁建造者修建中国特色改良设施长城的能力。[NEWLINE][ICON_Bullet]忽必烈是蒙古领袖时：军营内的建筑+1 [ICON_Housing] 住房[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_KUBLAI_PAX_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物: [NEWLINE][ICON_Bullet]学院的建筑+50% [ICON_SCIENCE] 科技值产出。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_JOAO_EXPLORER_DESCRIPTION' AND Language ='zh_Hans_CN';
+--Leader pass
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]水渠+3 [ICON_Housing] 住房。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_GALLIC_WARS_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+3 [ICON_Housing] housing for Aqueduct.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_GALLIC_WARS_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]剧院广场的建筑+50% [ICON_CULTURE] 文化值产出。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_PRESERVER_OF_THE_UNION_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_CULTURE] Culture yields for buildings in Theaher Square.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_PRESERVER_OF_THE_UNION_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物: [NEWLINE][ICON_Bullet]学院的建筑+50% [ICON_SCIENCE] 科技值产出。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SULTAN_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_SCIENCE] Science yields for buildings in Campus.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SULTAN_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]+25% [ICON_GreatWriter] 大作家、 [ICON_GreatArtist] 大艺术家和 [ICON_GreatMusician] 大音乐家点数。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_DECOLONIZATION_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+25% [ICON_GREATWRITER] Great Writer, [ICON_GREATARTIST] Great Artist and [ICON_GreatMusician] Great Musition pionts.[ENDCOLOR]' WHERE Tag='LOC_AGENDA_DECOLONIZATION_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]工业区的建筑+50% [ICON_PRODUCTION] 生产力产出。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SAKOKU_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_PRODUCTION] production yields for buildings in Industrial Zone.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SAKOKU_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建波斯特色改良设施波斯庭院的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_PREFER_LANDPOWER_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Pairidaeza, unique to the Persia.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_PREFER_LANDPOWER_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]商业中心的建筑+50% [ICON_Gold] 金币产出。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_GOLDEN_AGE_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_Gold] Gold yields for buildings in Commercial Hub.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_GOLDEN_AGE_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建中国特色改良设施长城的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SIHAI_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Great Wall, unique to the China.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SIHAI_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建中国特色改良设施长城的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_YINDING_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Great Wall, unique to the China.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_YINDING_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建中国特色改良设施长城的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_COURT_INTRIGUE_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Great Wall, unique to the China.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_COURT_INTRIGUE_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建埃及特色改良设施狮身人面像的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_MAAT_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Sphinx, unique to the Egypt.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_MAAT_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]解锁建造者修建埃及特色改良设施狮身人面像的能力。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_PREFER_FOOD_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]Unlock the Bulider ability to construct a Sphinx, unique to the Egypt.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_PREFER_FOOD_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]商业中心 [ICON_GOLD] 金币相邻加成+50%。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_LION_OF_MALI_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_Gold] Gold adjacency bonus for Commercial Hub.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_LION_OF_MALI_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]工业区 [ICON_PRODUCTION] 生产力相邻加成+50%。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_ETERNAL_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_PRODUCTION] Production adjacency bonus for Industrial Zone.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_ETERNAL_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]学院 [ICON_SCIENCE] 科技值相邻加成+50%。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SEJONG_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_SCIENCE] Science adjacency bonus for Campus.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SEJONG_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]娱乐中心和水上乐园额外+2 [ICON_AMENITIES] 宜居度。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_NEW_ROME_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+2 [ICON_AMENITIES] Amenity for Entertainment Complex.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_NEW_ROME_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]港口 [ICON_GOLD] 金币相邻加成+50%。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_TRADE_AGREEMENT_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_Gold] Gold adjacency bonus for Harbor.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_TRADE_AGREEMENT_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]港口 [ICON_GOLD] 金币相邻加成+50%。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_INDUSTRIAL_REVOLUTION_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_Gold] Gold adjacency bonus for Harbor.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_INDUSTRIAL_REVOLUTION_DESCRIPTION' AND Language ='en_US';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]友谊的礼物：[NEWLINE][ICON_Bullet]圣地的建筑+50% [ICON_FAITH] 信仰值产出。[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SAGA_DESCRIPTION' AND Language ='zh_Hans_CN';
+UPDATE LocalizedText SET Text = Text || ' [NEWLINE][NEWLINE][COLOR_RED]The Gift of Friendship:[NEWLINE][ICON_Bullet]+50% [ICON_FAITH] Faith adjacency bonus for Holy Site.[ENDCOLOR]' WHERE Tag ='LOC_AGENDA_SAGA_DESCRIPTION' AND Language ='en_US';

@@ -1,0 +1,196 @@
+<GameInfo>
+    <Types>
+	    <!--所有城市允许买区域-->
+		<Row Type="GOLDEN_MODIFIER_PLAYER_CITIES_ADJUST_CAN_PURCHASE_DISTRICTS" Kind="KIND_MODIFIER"/>
+		<!--单城水住房-->
+		<Row Type="GOLDEN_MODIFIER_SINGLE_CITY_ADJUST_WATER_HOUSING" Kind="KIND_MODIFIER"/>
+		<!--所有区域-->
+		<Row Type="GOLDEN_MODIFIER_ALL_DISTRICTS_ATTACH_MODIFIER" Kind="KIND_MODIFIER"/>
+		<!--首都造区域速度-->
+		<Row Type="GOLDEN_MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_DISTRICT_PRODUCTION_MODIFIER" Kind="KIND_MODIFIER"/>	
+		<!--所有城市地块拓展速度-->
+		<Row Type="GOLDEN_MODIFIER_PLAYER_CITIES_CULTURE_BORDER_EXPANSION" Kind="KIND_MODIFIER"/>	
+		<!--所有城市收获额外产出-->
+        <Row Type="GOLDEN_MODIFIER_PLAYER_CITIES_ADJUST_RESOURCE_HARVEST_BONUS" Kind="KIND_MODIFIER"/>	
+		<!--所有城市防自然灾害-->
+        <Row Type="GOLDEN_MODIFIER_PLAYER_CITIES_PREVENET_STRUCTURAL_DAMAGE" Kind="KIND_MODIFIER"/>	
+		<!--单区域加宜居度-->
+        <Row Type="GOLDEN_MODIFIER_PLAYER_DISTRICT_ADJUST_EXTRA_ENTERTAINMENT" Kind="KIND_MODIFIER"/>	
+        <!-- <Row Type="GOLDEN_MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_CITIZEN" Kind="KIND_MODIFIER"/>				 -->
+		<!--单城调整人口-->
+		<Row Type="GOLDEN_MODIFIER_SINGLE_CITY_ADJUST_POPULATION" Kind="KIND_MODIFIER"/>
+		<!--所有城市送建筑-->
+		<Row Type="GOLDEN_MODIFIER_PLAYER_CITIES_GRANT_BUILDING_IN_CITY_IGNORE" Kind="KIND_MODIFIER"/>
+		<!--所有城市完成建筑送产出-->
+        <Row Type="GOLDEN_MODIFIER_PLAYER_CITIES_GRANT_YIELD_PER_BUILDING_COST" Kind="KIND_MODIFIER"/>	
+		<!--所有城市宇航项目加速-->
+		<Row Type="GOLDEN_MODIFIER_PLAYER_CITIES_ADJUST_SPACE_RACE_PROJECTS_PRODUCTION" Kind="KIND_MODIFIER"/>	
+		<!--OWNER送单位-->
+		<Row Type="GOLDEN_MODIFIER_PLAYER_GRANT_UNIT" Kind="KIND_MODIFIER"/>
+		<!--所有城市送单位-->
+		<Row Type="GOLDEN_MODIFIER_PLAYER_CITIES_GRANT_UNIT" Kind="KIND_MODIFIER"/>
+		<!--每个城市免费战略资源-->
+		<Row Type="GOLDEN_MODIFIER_PLAYER_GRANT_FREE_RESOURCE_EXTRACTED" Kind="KIND_MODIFIER"/>
+		<!--单个区域相邻加成（伟人效果）-->
+		<Row Type="GOLDEN_MODIFIER_DISTRICT_ADJUST_YIELD_MODIFIER" Kind="KIND_MODIFIER"/>
+		<!--所有单位支援加成（可用于政策，不可用于给单位ABILITY，否则会*单位数量）-->
+		<Row Type="GOLDEN_MODIFIER_PLAYER_UNITS_ADJUST_SUPPORT_BONUS_MODIFIER" Kind="KIND_MODIFIER"/>
+		<!--单位防辐射-->
+		<Row Type="GOLDEN_MODIFIER_PLAYER_UNITS_ADJUST_WMD_RESISTANCE" Kind="KIND_MODIFIER"/>
+		<!--单个单位无视所有城墙-->
+		<Row Type="GOLDEN_MODIFIER_OWNER_ADJUST_ENABLE_WALL_ATTACK_WHOLE_GAME_PROMOTION_CLASS" Kind="KIND_MODIFIER"/>
+		<!--解锁项目-->
+		<Row Type="GOLDEN_WONDER_VICTORY_MODIFIER_GRANT_PROJECT" Kind="KIND_MODIFIER"/>		
+		<!--击杀给伟人点数-->
+		<Row Type="GOLDEN_MODIFIER_PLAYER_ADJUST_UNITS_GREAT_PEOPLE_POINTS_PER_KILL_BY_DEFEATED_STRENGTH" Kind="KIND_MODIFIER"/>
+		<!--贸易路线根据距离更多收益-->	
+		<Row Type="GOLDEN_MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_PATH_TILE" Kind="KIND_MODIFIER"/>
+		<!--国际贸易路线收益-->	
+		<Row Type="GOLDEN_MODIFIER_PLAYER_ADJUST_INTERNATIONAL_TRADE_ROUTE_YIELD_MODIFIER" Kind="KIND_MODIFIER"/>
+		<!--玩家获得动态属性Property-->	
+		<Row Type="GOLDEN_MODIFIER_PLAYER_ADJUST_PROPERTY" Kind="KIND_MODIFIER"/>
+		<!--单位获得动态属性Property-->	
+		<Row Type="GOLDEN_MODIFIER_PLAYER_UNITS_ADJUST_PROPERTY" Kind="KIND_MODIFIER"/>
+		<!--玩家的首都获得Modifier（用于存储可累计的变量）-->	
+		<Row Type="GOLDEN_MODIFIER_PLAYER_CAPITAL_ATTACH_MODIFIER" Kind="KIND_MODIFIER"/>
+	</Types>
+    
+	<DynamicModifiers>
+	    <Row>
+			<ModifierType>GOLDEN_MODIFIER_PLAYER_CITIES_ADJUST_CAN_PURCHASE_DISTRICTS</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_CAN_PURCHASE_DISTRICTS</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>GOLDEN_MODIFIER_SINGLE_CITY_ADJUST_WATER_HOUSING</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_WATER_HOUSING</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>GOLDEN_MODIFIER_ALL_DISTRICTS_ATTACH_MODIFIER</ModifierType>
+			<CollectionType>COLLECTION_ALL_DISTRICTS</CollectionType>
+			<EffectType>EFFECT_ATTACH_MODIFIER</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>GOLDEN_MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_DISTRICT_PRODUCTION_MODIFIER</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CAPITAL_CITY</CollectionType>
+			<EffectType>EFFECT_ADJUST_ALL_DISTRICT_PRODUCTION_MODIFIER</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>GOLDEN_MODIFIER_PLAYER_CITIES_CULTURE_BORDER_EXPANSION</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_CULTURE_BORDER_EXPANSION</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>GOLDEN_MODIFIER_PLAYER_CITIES_ADJUST_RESOURCE_HARVEST_BONUS</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_RESOURCE_HARVEST_BONUS</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>GOLDEN_MODIFIER_PLAYER_CITIES_PREVENET_STRUCTURAL_DAMAGE</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_ADJUST_PREVENT_STRUCTURAL_DAMAGE</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>GOLDEN_MODIFIER_PLAYER_DISTRICT_ADJUST_EXTRA_ENTERTAINMENT</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_DISTRICT_EXTRA_ENTERTAINMENT</EffectType>
+		</Row>
+		<!-- <Row> -->
+			<!-- <ModifierType>GOLDEN_MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_CITIZEN</ModifierType> -->
+			<!-- <CollectionType>COLLECTION_OWNER</CollectionType> -->
+			<!-- <EffectType>EFFECT_ADJUST_CITY_IDENTITY_PER_CITIZEN</EffectType> -->
+		<!-- </Row> -->
+		<Row>
+			<ModifierType>GOLDEN_MODIFIER_SINGLE_CITY_ADJUST_POPULATION</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_POPULATION</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>GOLDEN_MODIFIER_PLAYER_CITIES_GRANT_BUILDING_IN_CITY_IGNORE</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_GRANT_BUILDING_IN_CITY_IGNORE</EffectType>
+		</Row>
+		<Row>
+          <ModifierType>GOLDEN_MODIFIER_PLAYER_CITIES_GRANT_YIELD_PER_BUILDING_COST</ModifierType>
+          <CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+          <EffectType>EFFECT_GRANT_CITY_YIELD_PERCENT_BUILDING_CREATED_COST</EffectType>
+        </Row>
+		<Row>
+          <ModifierType>GOLDEN_MODIFIER_PLAYER_CITIES_ADJUST_SPACE_RACE_PROJECTS_PRODUCTION</ModifierType>
+          <CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+          <EffectType>EFFECT_ADJUST_SPACE_RACE_PROJECTS_PRODUCTION</EffectType>
+        </Row>	
+		<Row>
+          <ModifierType>GOLDEN_MODIFIER_PLAYER_GRANT_UNIT</ModifierType>
+          <CollectionType>COLLECTION_OWNER</CollectionType>
+          <EffectType>EFFECT_GRANT_UNIT_IN_CITY</EffectType>
+        </Row>
+		<Row>
+          <ModifierType>GOLDEN_MODIFIER_PLAYER_CITIES_GRANT_UNIT</ModifierType>
+          <CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+          <EffectType>EFFECT_GRANT_UNIT_IN_CITY</EffectType>
+        </Row>
+		 <Row>
+          <ModifierType>GOLDEN_MODIFIER_PLAYER_GRANT_FREE_RESOURCE_EXTRACTED</ModifierType>
+          <CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+          <EffectType>EFFECT_GRANT_FREE_RESOURCE_EXTRACTED</EffectType>
+        </Row>
+		<Row>
+			<ModifierType>GOLDEN_MODIFIER_DISTRICT_ADJUST_YIELD_MODIFIER</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_DISTRICT_YIELD_MODIFIER</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>GOLDEN_MODIFIER_PLAYER_UNITS_ADJUST_SUPPORT_BONUS_MODIFIER</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_UNITS</CollectionType>
+			<EffectType>EFFECT_ADJUST_UNIT_SUPPORT_BONUS_MODIFIER</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>GOLDEN_MODIFIER_PLAYER_UNITS_ADJUST_WMD_RESISTANCE</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_UNITS</CollectionType>
+			<EffectType>EFFECT_ADJUST_UNIT_WMD_PROTECTION</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>GOLDEN_MODIFIER_OWNER_ADJUST_ENABLE_WALL_ATTACK_WHOLE_GAME_PROMOTION_CLASS</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_UNIT_ENABLE_WALL_ATTACK_WHOLE_GAME_PROMOTION_CLASS</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>GOLDEN_WONDER_VICTORY_MODIFIER_GRANT_PROJECT</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADD_PLAYER_PROJECT_AVAILABILITY</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>GOLDEN_MODIFIER_PLAYER_ADJUST_UNITS_GREAT_PEOPLE_POINTS_PER_KILL_BY_DEFEATED_STRENGTH</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_GREAT_PEOPLE_POINTS_PER_KILL_BY_DEFEATED_STRENGTH</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>GOLDEN_MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_PATH_TILE</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_PLAYER_TRADE_ROUTE_YIELD_PER_PATH_TILE</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>GOLDEN_MODIFIER_PLAYER_ADJUST_INTERNATIONAL_TRADE_ROUTE_YIELD_MODIFIER</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_PLAYER_INTERNATIONAL_TRADE_ROUTE_YIELD_MODIFIER</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>GOLDEN_MODIFIER_PLAYER_ADJUST_PROPERTY</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_PLAYER_PROPERTY</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>GOLDEN_MODIFIER_PLAYER_UNITS_ADJUST_PROPERTY</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_UNITS</CollectionType>
+			<EffectType>EFFECT_ADJUST_UNIT_PROPERTY</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>GOLDEN_MODIFIER_PLAYER_CAPITAL_ATTACH_MODIFIER</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CAPITAL_CITY</CollectionType>
+			<EffectType>EFFECT_ATTACH_MODIFIER</EffectType>
+		</Row>
+		
+	</DynamicModifiers>
+</GameInfo>

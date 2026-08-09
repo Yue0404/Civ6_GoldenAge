@@ -1,0 +1,766 @@
+<GameData>
+    <LocalizedText>	
+	<!--区域相邻-->	
+	<Replace Tag="LOC_DISTRICT_COMMERICAL_HUB_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻商业中心区域。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_COMMERICAL_HUB_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent Commercial Hub district.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_RESOURCE_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻资源。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_RESOURCE_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent Resource.</Text>
+    </Replace>
+	<Replace Tag="LOC_LUMBER_PRODUCTION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自相邻伐木场。</Text>
+    </Replace>
+	<Replace Tag="LOC_LUMBER_PRODUCTION" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from the adjacent Lumber mill.</Text>
+    </Replace>
+	<Replace Tag="LOC_CANAL_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻运河。</Text>
+    </Replace>
+	<Replace Tag="LOC_CANAL_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent Canal.</Text>
+    </Replace>
+	<Replace Tag="LOC_SNOW_SCIENCE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Science] 科技值来自相邻雪地 {1_Num : plural 1?单元格; other?单元格;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_SNOW_SCIENCE" Language="en_US">
+      <Text>+{1_num} [ICON_Science] Science from the adjacent Snow {1_Num : plural 1?tile; other?tiles;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_SNOWHILL_SCIENCE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Science] 科技值来自相邻雪地 {1_Num : plural 1?单元格; other?单元格;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_SNOWHILL_SCIENCE" Language="en_US">
+      <Text>+{1_num} [ICON_Science] Science from the adjacent Snow {1_Num : plural 1?tile; other?tiles;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_VOLCANO_SCIENCE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Science] 科技值来自相邻火山。</Text>
+    </Replace>
+	<Replace Tag="LOC_VOLCANO_SCIENCE" Language="en_US">
+      <Text>+{1_num} [ICON_Science] Science from the adjacent Volcano.</Text>
+    </Replace>
+	<Replace Tag="LOC_VOLCANIC_SOIL_SCIENCE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Science] 科技值来自相邻火山土。</Text>
+    </Replace>
+	<Replace Tag="LOC_VOLCANIC_SOIL_SCIENCE" Language="en_US">
+      <Text>+{1_num} [ICON_Science] Science from the adjacent Volcanic soil.</Text>
+    </Replace>
+	<Replace Tag="LOC_JUNGLE_FAITH" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Faith] 信仰值来自相邻丛林 {1_Num : plural 1?单元格; other?单元格;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_JUNGLE_FAITH" Language="en_US">
+      <Text>+{1_num} [ICON_Faith] Faith from the adjacent Jungle {1_Num : plural 1?tile; other?tiles;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_STRATEGIC_PRODUCTION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自相邻资源。</Text>
+    </Replace>
+	<Replace Tag="LOC_STRATEGIC_PRODUCTION" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from the adjacent Resource.</Text>
+    </Replace>
+	<Replace Tag="LOC_CITY_CENTER_CULTURE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Culture] 文化值来自相邻市中心。</Text>
+    </Replace>
+	<Replace Tag="LOC_CITY_CENTER_CULTURE" Language="en_US">
+      <Text>+{1_num} [ICON_Culture] Culture from the adjacent City center.</Text>
+    </Replace>
+	<Replace Tag="LOC_CITY_CENTER_FAITH" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Faith] 信仰值来自相邻市中心。</Text>
+    </Replace>
+	<Replace Tag="LOC_CITY_CENTER_FAITH" Language="en_US">
+      <Text>+{1_num} [ICON_Faith] Faith from the adjacent City center.</Text>
+    </Replace>
+	<Replace Tag="LOC_CITY_CENTER_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻市中心。</Text>
+    </Replace>
+	<Replace Tag="LOC_CITY_CENTER_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent City center.</Text>
+    </Replace>
+	<Replace Tag="LOC_CITY_CENTER_PRODUCTION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自相邻市中心。</Text>
+    </Replace>
+	<Replace Tag="LOC_CITY_CENTER_PRODUCTION" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from the adjacent City center.</Text>
+    </Replace>
+	<Replace Tag="LOC_CITY_CENTER_SCIENCE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Science] 科技值来自相邻市中心。</Text>
+    </Replace>
+	<Replace Tag="LOC_CITY_CENTER_SCIENCE" Language="en_US">
+      <Text>+{1_num} [ICON_Science] Science from the adjacent City center.</Text>
+    </Replace>
+	<Replace Tag="LOC_CITY_CENTER_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻市中心。</Text>
+    </Replace>
+	<Replace Tag="LOC_CITY_CENTER_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent City center.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVERNMENT_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻市政广场。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVERNMENT_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent Government.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_DISTRICT_1_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻区域。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_DISTRICT_1_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent district.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_JUNGLE_2_PRODUCTION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自相邻丛林单元格。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_JUNGLE_2_PRODUCTION" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from the adjacent rainforest tiles.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_JUNGLE_2_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻丛林单元格。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_JUNGLE_2_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent rainforest tiles.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NUSANTARA_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻海岸或湖泊单元格。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NUSANTARA_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent coast or lake tiles.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NUSANTARA_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金钱来自相邻海岸或湖泊单元格。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NUSANTARA_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent coast or lake tiles.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_RIVER_FAITH" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Faith] 信仰值来自相邻河流。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_RIVER_FAITH" Language="en_US">
+      <Text>+{1_num} [ICON_Faith] Faith from the adjacent river.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_RIVER_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻河流。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_RIVER_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent river.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_RIVER_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金钱来自相邻河流。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_RIVER_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent river.</Text>
+    </Replace>	
+	<Replace Tag="LOC_CAMPUS_SCIENCE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Science] 科技值来自相邻学院 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_CAMPUS_SCIENCE" Language="en_US">
+      <Text>+{1_num} [ICON_Science] Science from the adjacent Campus {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_SPACE_SCIENCE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Science] 科技值来自相邻宇航中心 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_SPACE_SCIENCE" Language="en_US">
+      <Text>+{1_num} [ICON_Science] Science from the adjacent DISTRICT_SPACEPORT {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_CAMPUS_SCIENCE_STANDARD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Science] 科技值来自相邻学院 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_CAMPUS_SCIENCE_STANDARD" Language="en_US">
+      <Text>+{1_num} [ICON_Science] Science from the adjacent Campus {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_THEATER_CULTURE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Culture] 文化值来自相邻剧院广场 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_THEATER_CULTURE" Language="en_US">
+      <Text>+{1_num} [ICON_Culture] Culture from the adjacent Theater {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_NATURALWONDER_CULTURE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Culture] 文化值来自相邻自然奇观。</Text>
+    </Replace>
+	<Replace Tag="LOC_NATURALWONDER_CULTURE" Language="en_US">
+      <Text>+{1_num} [ICON_Culture] Culture from the adjacent NATURALWONDER.</Text>
+    </Replace>
+	<Replace Tag="LOC_ANTIQUITY_CULTURE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Culture] 文化值来自相邻历史古迹或海难遗址。</Text>
+    </Replace>
+	<Replace Tag="LOC_ANTIQUITY_CULTURE" Language="en_US">
+      <Text>+{1_num} [ICON_Culture] Culture from the adjacent ANTIQUITY_SITE or SHIPWRECK.</Text>
+    </Replace>
+	<Replace Tag="LOC_THEATER_CULTURE_STANDARD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Culture] 文化值来自相邻剧院广场 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_THEATER_CULTURE_STANDARD" Language="en_US">
+      <Text>+{1_num} [ICON_Culture] Culture from the adjacent Theater {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<!-- <Replace Tag="LOC_ENTERTAINMENT_Culture" Language="zh_Hans_CN"> -->
+      <!-- <Text>+{1_num} [ICON_Culture] 文化值来自相邻娱乐中心 {1_Num : plural 1?区域; other?区域;}。</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_ENTERTAINMENT_Culture" Language="en_US"> -->
+      <!-- <Text>+{1_num} [ICON_Culture] Culture from the adjacent DISTRICT_ENTERTAINMENT_COMPLEX {1_Num : plural 1?district; other?districts;}.</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_WATER_ENTERTAINMENT_Culture" Language="zh_Hans_CN"> -->
+      <!-- <Text>+{1_num} [ICON_Culture] 文化值来自相邻水上乐园 {1_Num : plural 1?区域; other?区域;}。</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_WATER_ENTERTAINMENT_Culture" Language="en_US"> -->
+      <!-- <Text>+{1_num} [ICON_Culture] Culture from the adjacent DISTRICT_WATER_ENTERTAINMENT_COMPLEX {1_Num : plural 1?district; other?districts;}.</Text> -->
+    <!-- </Replace> -->
+	<Replace Tag="LOC_HOLY_SITE_FAITH" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Faith] 信仰值来自相邻圣地 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_HOLY_SITE_FAITH" Language="en_US">
+      <Text>+{1_num} [ICON_Faith] Faith from the adjacent Holy site {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_HOLY_SITE_FAITH_STANDARD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Faith] 信仰值来自相邻圣地 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_HOLY_SITE_FAITH_STANDARD" Language="en_US">
+      <Text>+{1_num} [ICON_Faith] Faith from the adjacent Holy site {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_COMMERCIAL_HUB_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻商业中心 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_COMMERCIAL_HUB_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent Commercial hub {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_COMMERCIAL_HUB_GOLD_STANDARD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻商业中心 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_COMMERCIAL_HUB_GOLD_STANDARD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent Commercial hub {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_INDUSTRIAL_ZONE_PRODUCTION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自相邻工业区 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_INDUSTRIAL_ZONE_PRODUCTION" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from the adjacent Industrial zone {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_INDUSTRIAL_ZONE_PRODUCTION_STANDARD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自相邻工业区 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_INDUSTRIAL_ZONE_PRODUCTION_STANDARD" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from the adjacent Industrial zone {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_ENCAMPMENT_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻军营区 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_ENCAMPMENT_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent Encampment {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_ENCAMPMENT_FOOD_STANDARD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻军营区 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_ENCAMPMENT_FOOD_STANDARD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent Encampment {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_HARBOR_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻港口{1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_HARBOR_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent Harbor {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_HARBOR_GOLD_STANDARD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻港口 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_HARBOR_GOLD_STANDARD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent Harbor {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_ENTERTAINMENT_COMPLEX_CULTURE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Culture] 文化值来自相邻娱乐中心 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_ENTERTAINMENT_COMPLEX_CULTURE" Language="en_US">
+      <Text>+{1_num} [ICON_Culture] Culture from the adjacent Entertainment_complex {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_ENTERTAINMENT_COMPLEX_CULTURE_STANDARD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Culture] 文化值来自相邻娱乐中心 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_ENTERTAINMENT_COMPLEX_CULTURE_STANDARD" Language="en_US">
+      <Text>+{1_num} [ICON_Culture] Culture from the adjacent Entertainment_complex {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_WATER_ENTERTAINMENT_COMPLEX_CULTURE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Culture] 文化值来自相邻水上乐园 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_WATER_ENTERTAINMENT_COMPLEX_CULTURE" Language="en_US">
+      <Text>+{1_num} [ICON_Culture] Culture from the adjacent Water_entertainment_complex {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_WATER_ENTERTAINMENT_COMPLEX_CULTURE_STANDARD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Culture] 文化值来自相邻水上乐园 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_WATER_ENTERTAINMENT_COMPLEX_CULTURE_STANDARD" Language="en_US">
+      <Text>+{1_num} [ICON_Culture] Culture from the adjacent Water_entertainment_complex {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_SPACEPORT_SCIENCE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Science] 科技值来自相邻宇航中心 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_SPACEPORT_SCIENCE" Language="en_US">
+      <Text>+{1_num} [ICON_Science] Science from the adjacent Spaceport {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_SPACEPORT_SCIENCE_STANDARD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Science] 科技值来自相邻宇航中心 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_SPACEPORT_SCIENCE_STANDARD" Language="en_US">
+      <Text>+{1_num} [ICON_Science] Science from the adjacent Spaceport {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_AERODROME_PRODUCTION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自相邻航空港 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_AERODROME_PRODUCTION" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from the adjacent Aerodrome {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_OIL_WELL_PRODUCTION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自相邻钻油井。</Text>
+    </Replace>
+	<Replace Tag="LOC_OIL_WELL_PRODUCTION" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from the adjacent IMPROVEMENT_OIL_WELL.</Text>
+    </Replace>
+	<Replace Tag="LOC_AERODROME_PRODUCTION_STANDARD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自相邻航空港 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_AERODROME_PRODUCTION_STANDARD" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from the adjacent Aerodrome {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>		
+	<Replace Tag="LOC_PASTURE_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻牧场。</Text>
+    </Replace>
+	<Replace Tag="LOC_PASTURE_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent IMPROVEMENT_PASTURE.</Text>
+    </Replace>
+	<Replace Tag="LOC_CAMP_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻营地。</Text>
+    </Replace>
+	<Replace Tag="LOC_CAMP_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent IMPROVEMENT_CAMP.</Text>
+    </Replace>
+	<Replace Tag="LOC_PLANTATION_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻种植园。</Text>
+    </Replace>
+	<Replace Tag="LOC_PLANTATION_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent IMPROVEMENT_PLANTATION.</Text>
+    </Replace>
+	<Replace Tag="LOC_Farm_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻农场。</Text>
+    </Replace>
+	<Replace Tag="LOC_Farm_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent IMPROVEMENT_FARM.</Text>
+    </Replace>
+	<Replace Tag="LOC_CANAL_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻运河 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_CANAL_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent Canal {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>	
+	<Replace Tag="LOC_AERODROME_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻航空港 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_AERODROME_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent AERODROME {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>	
+	<Replace Tag="LOC_NEIGHBORHOOD_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻社区 {1_Num : plural 1?区域; other?区域;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_NEIGHBORHOOD_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent NEIGHBORHOOD {1_Num : plural 1?district; other?districts;}.</Text>
+    </Replace>	
+	<Replace Tag="LOC_GOLDEN_DISTRICT_FOREST_SCIENCE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_SCIENCE] 科技值来自相邻森林。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_FOREST_SCIENCE" Language="en_US">
+      <Text>+{1_num} [ICON_SCIENCE] Science from the adjacent Forest.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_FOREST_CULTURE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_CULTURE] 文化值来自相邻森林。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_FOREST_CULTURE" Language="en_US">
+      <Text>+{1_num} [ICON_CULTURE] Culture from the adjacent Forest.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_FOREST_FAITH" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_FAITH] 信仰值来自相邻森林。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_FOREST_FAITH" Language="en_US">
+      <Text>+{1_num} [ICON_FAITH] Faith from the adjacent Forest.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_FOREST_PRODUCTION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自相邻森林。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_FOREST_PRODUCTION" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from the adjacent Forest.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_FOREST_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻森林。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_FOREST_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent Forest.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_FOREST_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻森林。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_FOREST_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent Forest.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_JUNGLE_SCIENCE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_SCIENCE] 科技值来自相邻雨林。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_JUNGLE_SCIENCE" Language="en_US">
+      <Text>+{1_num} [ICON_SCIENCE] Science from the adjacent jungle.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_JUNGLE_CULTURE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_CULTURE] 文化值来自相邻雨林。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_JUNGLE_CULTURE" Language="en_US">
+      <Text>+{1_num} [ICON_CULTURE] Culture from the adjacent jungle.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_JUNGLE_FAITH" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_FAITH] 信仰值来自相邻雨林。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_JUNGLE_FAITH" Language="en_US">
+      <Text>+{1_num} [ICON_FAITH] Faith from the adjacent jungle.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_JUNGLE_PRODUCTION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自相邻雨林。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_JUNGLE_PRODUCTION" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from the adjacent jungle.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_JUNGLE_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻雨林。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_JUNGLE_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent jungle.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_JUNGLE_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻雨林。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_DISTRICT_JUNGLE_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent jungle.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_MOUNTAIN_SCIENCE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_SCIENCE] 科技值来自相邻山脉。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_MOUNTAIN_SCIENCE" Language="en_US">
+      <Text>+{1_num} [ICON_SCIENCE] Science from the adjacent Mountain.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_MOUNTAIN_CULTURE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_CULTURE] 文化值来自相邻山脉。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_MOUNTAIN_CULTURE" Language="en_US">
+      <Text>+{1_num} [ICON_CULTURE] Culture from the adjacent Mountain.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_MOUNTAIN_FAITH" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_FAITH] 信仰值来自相邻山脉。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_MOUNTAIN_FAITH" Language="en_US">
+      <Text>+{1_num} [ICON_FAITH] Faith from the adjacent Mountain.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_MOUNTAIN_PRODUCTION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自相邻山脉。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_MOUNTAIN_PRODUCTION" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from the adjacent Mountain.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_MOUNTAIN_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻山脉。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_MOUNTAIN_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent Mountain.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_MOUNTAIN_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻山脉。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_MOUNTAIN_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent Mountain.</Text>
+    </Replace>	
+	<Replace Tag="GOLDEN_LOC_TUNDRA_SCIENCE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_SCIENCE] 科技值来自相邻冻土地形。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_TUNDRA_SCIENCE" Language="en_US">
+      <Text>+{1_num} [ICON_SCIENCE] Science from the adjacent Tundra terrain.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_TUNDRA_CULTURE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_CULTURE] 文化值来自相邻冻土地形。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_TUNDRA_CULTURE" Language="en_US">
+      <Text>+{1_num} [ICON_CULTURE] Culture from the adjacent Tundra terrain.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_TUNDRA_FAITH" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_FAITH] 信仰值来自相邻冻土地形。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_TUNDRA_FAITH" Language="en_US">
+      <Text>+{1_num} [ICON_FAITH] Faith from the adjacent Tundra terrain.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_TUNDRA_PRODUCTION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自相邻冻土地形。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_TUNDRA_PRODUCTION" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from the adjacent Tundra terrain.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_TUNDRA_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻冻土地形。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_TUNDRA_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent Tundra terrain.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_TUNDRA_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻冻土地形。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_TUNDRA_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent Tundra terrain.</Text>
+    </Replace>	
+	<Replace Tag="GOLDEN_LOC_SNOW_SCIENCE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_SCIENCE] 科技值来自相邻雪地地形。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_SNOW_SCIENCE" Language="en_US">
+      <Text>+{1_num} [ICON_SCIENCE] Science from the adjacent Snow terrain.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_SNOW_CULTURE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_CULTURE] 文化值来自相邻雪地地形。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_SNOW_CULTURE" Language="en_US">
+      <Text>+{1_num} [ICON_CULTURE] Culture from the adjacent Snow terrain.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_SNOW_FAITH" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_FAITH] 信仰值来自相邻雪地地形。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_SNOW_FAITH" Language="en_US">
+      <Text>+{1_num} [ICON_FAITH] Faith from the adjacent Snow terrain.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_SNOW_PRODUCTION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自相邻雪地地形。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_SNOW_PRODUCTION" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from the adjacent Snow terrain.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_SNOW_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻雪地地形。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_SNOW_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent Snow terrain.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_SNOW_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻雪地地形。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_SNOW_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent Snow terrain.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_DISTRICT_1_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻区域。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_DISTRICT_1_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent District.</Text>
+    </Replace>	
+	<Replace Tag="GOLDEN_LOC_HILLS_SCIENCE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_SCIENCE] 科技值来自相邻丘陵。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_HILLS_SCIENCE" Language="en_US">
+      <Text>+{1_num} [ICON_SCIENCE] Science from the adjacent Hills.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_HILLS_CULTURE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_CULTURE] 文化值来自相邻丘陵。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_HILLS_CULTURE" Language="en_US">
+      <Text>+{1_num} [ICON_CULTURE] Culture from the adjacent Hills.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_HILLS_FAITH" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_FAITH] 信仰值来自相邻丘陵。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_HILLS_FAITH" Language="en_US">
+      <Text>+{1_num} [ICON_FAITH] Faith from the adjacent Hills.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_HILLS_PRODUCTION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自相邻丘陵。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_HILLS_PRODUCTION" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from the adjacent Hills.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_HILLS_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻丘陵。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_HILLS_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent Hills.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_HILLS_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻丘陵。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_HILLS_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent Hills.</Text>
+    </Replace>	
+
+    <Replace Tag="GOLDEN_LOC_FLAT_TERRAINS_SCIENCE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_SCIENCE] 科技值来自相邻平坦地形。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_FLAT_TERRAINS_SCIENCE" Language="en_US">
+      <Text>+{1_num} [ICON_SCIENCE] Science from the adjacent flat terrains.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_FLAT_TERRAINS_CULTURE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_CULTURE] 文化值来自相邻平坦地形。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_FLAT_TERRAINS_CULTURE" Language="en_US">
+      <Text>+{1_num} [ICON_CULTURE] Culture from the adjacent flat terrains.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_FLAT_TERRAINS_FAITH" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_FAITH] 信仰值来自相邻平坦地形。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_FLAT_TERRAINS_FAITH" Language="en_US">
+      <Text>+{1_num} [ICON_FAITH] Faith from the adjacent flat terrains.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_FLAT_TERRAINS_PRODUCTION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自相邻平坦地形。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_FLAT_TERRAINS_PRODUCTION" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from the adjacent flat terrains.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_FLAT_TERRAINS_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻平坦地形。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_FLAT_TERRAINS_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent flat terrains.</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_FLAT_TERRAINS_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻平坦地形。</Text>
+    </Replace>
+	<Replace Tag="GOLDEN_LOC_FLAT_TERRAINS_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent flat terrains.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_DESERT_PRODUCTION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自相邻沙漠单元格。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_DESERT_PRODUCTION" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from the adjacent Desert tile.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_DESERT_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻沙漠单元格。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_DESERT_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent Desert tile.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_COAST_FAITH" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_FAITH] 信仰值来自相邻海岸单元格。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_COAST_FAITH" Language="en_US">
+      <Text>+{1_num} [ICON_FAITH] Faith from the adjacent Coast tile.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_COAST_PRODUCTION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自相邻海岸单元格。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_COAST_PRODUCTION" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from the adjacent Coast tile.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_COAST_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻海岸单元格。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_COAST_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent Coast tile.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_COAST_FOOD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Food] 食物来自相邻海岸单元格。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_COAST_FOOD" Language="en_US">
+      <Text>+{1_num} [ICON_Food] Food from the adjacent Coast tile.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_COAST_SCIENCE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_SCIENCE] 科技值来自相邻海岸单元格。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_COAST_SCIENCE" Language="en_US">
+      <Text>+{1_num} [ICON_SCIENCE] Science from the adjacent Coast tile.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_COAST_CULTURE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_CULTURE] 文化值来自相邻海岸单元格。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_COAST_CULTURE" Language="en_US">
+      <Text>+{1_num} [ICON_CULTURE] Culture from the adjacent Coast tile.</Text>
+    </Replace>	
+	<!-- encampment adjacency texts -->
+	<Replace Tag="LOC_Encampment_Farm_Housing" Language="zh_Hans_CN">
+      <Text>+1 [ICON_Housing] 住房来自相邻农场。</Text>
+    </Replace>
+	<Replace Tag="LOC_Encampment_Farm_Housing" Language="en_US">
+      <Text>+1 [ICON_Housing] Housing from the adjacent Farms.</Text>
+    </Replace>
+	<Replace Tag="LOC_Encampment_National_Encampment_Housing" Language="zh_Hans_CN">
+      <Text>+3 [ICON_Housing] 住房来自相邻国家兵营。</Text>
+    </Replace>
+	<Replace Tag="LOC_Encampment_National_Encampment_Housing" Language="en_US">
+      <Text>+3 [ICON_Housing] Housing from the adjacent National Encampment.</Text>
+    </Replace>
+	<Replace Tag="LOC_Encampment_Pasture_Housing" Language="zh_Hans_CN">
+      <Text>+1 [ICON_Housing] 住房来自相邻牧场。</Text>
+    </Replace>
+	<Replace Tag="LOC_Encampment_Pasture_Housing" Language="en_US">
+      <Text>+1 [ICON_Housing] Housing from the adjacent Pasture.</Text>
+    </Replace>
+	<Replace Tag="LOC_Encampment_Plantation_Housing" Language="zh_Hans_CN">
+      <Text>+1 [ICON_Housing] 住房来自相邻种植园。</Text>
+    </Replace>
+	<Replace Tag="LOC_Encampment_Plantation_Housing" Language="en_US">
+      <Text>+1 [ICON_Housing] Housing from the adjacent Plantations.</Text>
+    </Replace>
+	<Replace Tag="LOC_Encampment_Camp_Housing" Language="zh_Hans_CN">
+      <Text>+1 [ICON_Housing] 住房来自相邻营地。</Text>
+    </Replace>
+	<Replace Tag="LOC_Encampment_Camp_Housing" Language="en_US">
+      <Text>+1 [ICON_Housing] Housing from the adjacent Camps。</Text>
+    </Replace>
+	<Replace Tag="LOC_Encampment_Encampment_Housing" Language="zh_Hans_CN">
+      <Text>+1 [ICON_Housing] 住房来自相邻军营。</Text>
+    </Replace>
+	<Replace Tag="LOC_Encampment_Encampment_Housing" Language="en_US">
+      <Text>+1 [ICON_Housing] Housing from the adjacent Encampments.</Text>
+    </Replace>
+	<Replace Tag="LOC_Encampment_Government_Housing" Language="zh_Hans_CN">
+      <Text>+1 [ICON_Housing] 住房来自相邻市政广场。</Text>
+    </Replace>
+	<Replace Tag="LOC_Encampment_Government_Housing" Language="en_US">
+      <Text>+1 [ICON_Housing] Housing from the adjacent Government Plaza.</Text>
+    </Replace>
+	<Replace Tag="LOC_Encampment_Aerodrome_Housing" Language="zh_Hans_CN">
+      <Text>+1 [ICON_Housing] 住房来自相邻航空港。</Text>
+    </Replace>
+	<Replace Tag="LOC_Encampment_Aerodrome_Housing" Language="en_US">
+      <Text>+1 [ICON_Housing] Housing from the adjacent Aerodromes.</Text>
+    </Replace>
+	<Replace Tag="LOC_Encampment_Canal_Housing" Language="zh_Hans_CN">
+      <Text>+1 [ICON_Housing] 住房来自相邻运河。</Text>
+    </Replace>
+	<Replace Tag="LOC_Encampment_Canal_Housing" Language="en_US">
+      <Text>+1 [ICON_Housing] Housing from the adjacent Canals.</Text>
+    </Replace>
+	<!-- Entertainment adjacency bonus -->
+	<Replace Tag="LOC_ENTERTAINMENT_CITY_ENTERTAINMENT" Language="zh_Hans_CN">
+      <Text>+1 [ICON_Amenities] 宜居度来自市中心。</Text>
+    </Replace>
+	<Replace Tag="LOC_ENTERTAINMENT_CITY_ENTERTAINMENT" Language="en_US">
+      <Text>+1 [ICON_Amenities] Amenity from City Center.</Text>
+    </Replace>
+	<Replace Tag="LOC_ENTERTAINMENT_NATIONAL_ENTERTAINMENT_ENTERTAINMENT" Language="zh_Hans_CN">
+      <Text>+2 [ICON_Amenities] 宜居度来自国家娱乐中心。</Text>
+    </Replace>
+	<Replace Tag="LOC_ENTERTAINMENT_NATIONAL_ENTERTAINMENT_ENTERTAINMENT" Language="en_US">
+      <Text>+2 [ICON_Amenities] Amenity from National Entertainment Complex.</Text>
+    </Replace>
+	<Replace Tag="LOC_ENTERTAINMENT_ENTERTAINMENT_ENTERTAINMENT" Language="zh_Hans_CN">
+      <Text>+1 [ICON_Amenities] 宜居度来自娱乐中心。</Text>
+    </Replace>
+	<Replace Tag="LOC_ENTERTAINMENT_ENTERTAINMENT_ENTERTAINMENT" Language="en_US">
+      <Text>+1 [ICON_Amenities] Amenity from Entertainment Complex.</Text>
+    </Replace>
+	<Replace Tag="LOC_ENTERTAINMENT_GOVERNMENT_ENTERTAINMENT" Language="zh_Hans_CN">
+      <Text>+1 [ICON_Amenities] 宜居度来自市政广场。</Text>
+    </Replace>
+	<Replace Tag="LOC_ENTERTAINMENT_GOVERNMENT_ENTERTAINMENT" Language="en_US">
+      <Text>+1 [ICON_Amenities] Amenity from Government Plaza.</Text>
+    </Replace>
+	<Replace Tag="LOC_ENTERTAINMENT_WATER_ENTERTAINMENT_ENTERTAINMENT" Language="zh_Hans_CN">
+      <Text>+1 [ICON_Amenities] 宜居度来自水上娱乐中心。</Text>
+    </Replace>
+	<Replace Tag="LOC_ENTERTAINMENT_WATER_ENTERTAINMENT_ENTERTAINMENT" Language="en_US">
+      <Text>+1 [ICON_Amenities] Amenity from Water Entertainment Complex.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

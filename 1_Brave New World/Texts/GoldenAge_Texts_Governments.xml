@@ -1,0 +1,186 @@
+<GameData>
+    <LocalizedText>	
+	<!--着力点-->
+	<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+      <Text>“自由探索”黄金时代：[NEWLINE][ICON_TechBoosted]尤里卡额外提供10%科技开销。城市每拥有1处专业化区域，则+1 [ICON_Science] 科技值。</Text>
+    </Replace>
+	<Replace Tag="LOC_MOMENT_CATEGORY_SCIENTIFIC_BONUS_GOLDEN_AGE" Language="en_US">
+      <Text>Free Inquiry Golden Age:[NEWLINE][ICON_TechBoosted] Eurekas provide an additional 10% of technology costs. Each city receives +1 [ICON_Science] Science for each specialty district.</Text>
+    </Replace>
+	<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+      <Text>“雄伟壮丽”黄金时代：[NEWLINE]所有建造者+2 [ICON_Movement] 移动力。可用 [ICON_Faith] 信仰值购买平民单位。建造者使用次数+1。</Text>
+    </Replace>
+	<Replace Tag="LOC_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE" Language="en_US">
+      <Text>Monumentality Golden Age:[NEWLINE]+2 [ICON_Movement] Movement for all Builders. May purchase civilian units with [ICON_Faith] Faith. +1 builder charge.</Text>
+    </Replace>
+	<Replace Tag="LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+      <Text>“布道者的远行”黄金时代：[NEWLINE]所有传教士、使徒和审判官+2 [ICON_Movement] 移动力。此外，新生产的这些单位则+2使用次数。购买传教士和使徒的费用减少20%。</Text>
+    </Replace>
+	<Replace Tag="LOC_MOMENT_CATEGORY_RELIGIOUS_BONUS_GOLDEN_AGE" Language="en_US">
+      <Text>>Exodus of the Evangelists Golden Age:[NEWLINE]+2 [ICON_Movement] Movement for all Missionaries, Apostles, and Inquisitors. Additionally, newly trained ones get +2 Charges. Missionaries and Apostlesare 20% cheaper to purchase with [ICON_FAITH] Faith.</Text>
+    </Replace>
+	<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+      <Text>“滚滚蒸汽”黄金时代：[NEWLINE]所有城市可获得的来自建筑延伸至周围城市的 [ICON_PRODUCTION] 生产力加成没有次数限制。学院区域的 [ICON_SCIENCE] 科技值相邻加成也能提供 [ICON_PRODUCTION] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_MOMENT_CATEGORY_INDUSTRIAL_BONUS_GOLDEN_AGE" Language="en_US">
+      <Text>Heartbeat of Steam Golden Age:[NEWLINE] The regional bonus [ICON_Production] Production from buildings has no limit toward all cities. Campus district's [ICON_SCIENCE] Science adjacency bonus provides [ICON_PRODUCTION] Production as well.</Text>
+    </Replace>
+	<Replace Tag="LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE" Language="zh_Hans_CN">
+      <Text>“愿你在此”黄金时代：[NEWLINE]世界奇观产出的 [ICON_Tourism] 旅游业绩+100%。国家公园产出的 [ICON_Tourism] 旅游业绩+100%。</Text>
+    </Replace>
+	<Replace Tag="LOC_MOMENT_CATEGORY_TOURISM_BONUS_GOLDEN_AGE" Language="en_US">
+      <Text>Wish You Were Here Golden Age:[NEWLINE]+100% [ICON_Tourism] Tourism from World Wonders. +100% [ICON_Tourism] Tourism to all National Parks.</Text>
+    </Replace>
+	<!--政体-->
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_SYNTHETIC_TECHNOCRACY" Language="zh_Hans_CN">
+      <Text>位于市政广场8个单元格范围内的所有城市+7所有类型产出。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_SYNTHETIC_TECHNOCRACY" Language="en_US">
+      <Text>+7 for all types of yields for Cities that are 8 tiles within a Government plaza district.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_SYNTHETIC_TECHNOCRACY" Language="zh_Hans_CN">
+      <Text>进行城市项目时+25% [ICON_PRODUCTION] 生产力。-20% [ICON_Tourism] 旅游业绩。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_SYNTHETIC_TECHNOCRACY" Language="en_US">
+      <Text>+25% [ICON_PRODUCTION] Production toward all projects. -20% [ICON_Tourism] Tourism.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_DIGITAL_DEMOCRACY" Language="zh_Hans_CN">
+      <Text>拥有不少于30 [ICON_CITIZEN] 人口的城市+7所有类型产出。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_DIGITAL_DEMOCRACY" Language="en_US">
+      <Text>+7 for all types of yields for Cities with no less than 30 [ICON_CITIZEN] citizens.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DIGITAL_DEMOCRACY" Language="zh_Hans_CN">
+      <Text>+25% [ICON_Tourism] 旅游业绩。所有单位-5 [ICON_Strength] 战斗力。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DIGITAL_DEMOCRACY" Language="en_US">
+      <Text>+25% [ICON_Tourism] Tourism. All units -5 [ICON_Strength] Combat Strength.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_CORPORATE_LIBERTARIANISM" Language="zh_Hans_CN">
+      <Text>没有 [ICON_GOVERNOR] 总督就职的城市+7所有类型产出。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_CORPORATE_LIBERTARIANISM" Language="en_US">
+      <Text>+7 for all types of yields for Cities without established [ICON_GOVERNOR] governor.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CORPORATE_LIBERTARIANISM" Language="zh_Hans_CN">
+      <Text>政体中每个外交和通配符槽位每回合提供1点 [ICON_FAVOR] 外交支持。伟人点数-20%。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CORPORATE_LIBERTARIANISM" Language="en_US">
+      <Text>+1 [ICON_FAVOR] Diplomatic Favor per turn for every diplomatic and wildcard policy slot in the government. -20% Great person points.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_XP1" Language="zh_Hans_CN">
+      <Text>宫殿和市政广场区域及其中的每个建筑+2所有类型产出。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_XP1" Language="en_US">
+      <Text>+2 for all types of yields for government district, each government building, and palace in a city. </Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_ETHIOPIA" Language="zh_Hans_CN">
+      <Text>宫殿、市政广场、外交区及其中的每个建筑+2所有类型产出。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_ETHIOPIA" Language="en_US">
+      <Text>+2 for all types of yields for Palace, Government and Diplomatic Quarter, and their buildings in a city. </Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_XP1" Language="zh_Hans_CN">
+      <Text>建造奇观时+25% [ICON_Production] 生产力。城市人口增长速度-15%。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_XP1" Language="en_US">
+      <Text>+25% [ICON_Production] Production toward Wonders.  -15% city gReplaceth rate.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_XP1" Language="zh_Hans_CN">
+      <Text>城市获得新单元格的速度加快50%。建造区域时-15% [ICON_Production] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_XP1" Language="en_US">
+      <Text>Acquire new tiles in city 50% faster. -15% [ICON_Production] Production when building districts.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_CLASSREP_XP1" Language="zh_Hans_CN">
+      <Text>拥有至少1个区域和纪念碑的城市+2所有类型产出。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_CLASSREP_XP1" Language="en_US">
+      <Text>+2 for all types of yields for Cities with a Monument building and at least one district. </Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CLASSREP_XP1" Language="zh_Hans_CN">
+      <Text>+25%伟人点数。训练单位时-15% [ICON_Production] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CLASSREP_XP1" Language="en_US">
+      <Text>+25% Great Person points. -15% [ICON_Production] when training units.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_MONARCHY_XP1" Language="zh_Hans_CN">
+      <Text>首都所在大陆的城市+3所有类型产出。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_MONARCHY_XP1" Language="en_US">
+      <Text>+2 for all types of yields for Cities on the capital continent.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY_XP1" Language="zh_Hans_CN">
+      <Text>+50%影响力点数。非首都所在大陆的城市-8忠诚度。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY_XP1" Language="en_US">
+      <Text>+50% Influence Points. -8 identity for cities not on the capital continent.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MERCHREP_XP1" Language="zh_Hans_CN">
+      <Text>建造区域时+25% [ICON_Production] 生产力。-10% [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MERCHREP_XP1" Language="en_US">
+      <Text>+25% [ICON_Production] Production toward Districts. -10% [ICON_Faith] Faith.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_THEOCRACY_XP1" Language="zh_Hans_CN">
+      <Text>使用 [ICON_Faith] 信仰值购买可享受20%折扣。-10% [ICON_Science] 科技值</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_THEOCRACY_XP1" Language="en_US">
+      <Text>20% Discount on Purchases with [ICON_Faith] Faith. -10% [ICON_Science] Science.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_MERCHREP_XP1" Language="zh_Hans_CN">
+      <Text>首都大陆以外的城市+3所有类型产出。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_MERCHREP_XP1" Language="en_US">
+      <Text>+3 for all types of yields for Cities that not on the capital continent.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_FASCISM_XP1" Language="zh_Hans_CN">
+      <Text>拥有军事学院的城市+5所有类型产出。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_FASCISM_XP1" Language="en_US">
+      <Text>+5 for all types of yields for Cities with a Military Academy.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_FASCISM_XP1" Language="zh_Hans_CN">
+      <Text>生产单位时+25% [ICON_Production] 生产力。-10% [ICON_Culture] 文化值。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_FASCISM_XP1" Language="en_US">
+      <Text>+25% [ICON_Production] Production toward Units. -10% [ICON_Culture] Culture.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_COMMUNISM_XP1" Language="zh_Hans_CN">
+      <Text>拥有工业区二级建筑的城市+5所有类型产出。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_COMMUNISM_XP1" Language="en_US">
+      <Text>+5 for all types of yields for Cities with a Industrial Zone Tier 2 building.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_XP2" Language="zh_Hans_CN">
+      <Text>建造建筑时+25% [ICON_Production] 生产力。-10% [ICON_Gold] 金币。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_XP2" Language="en_US">
+      <Text>+25% [ICON_Production] Production for buildings in cities. -10% [ICON_Gold] Gold.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_XP2" Language="zh_Hans_CN">
+      <Text>拥有商业中心三级建筑的城市+5所有类型产出。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_XP2" Language="en_US">
+      <Text>+5 for all types of yields for Cities with a Commercial Hub Tier 3 building.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DEMOCRACY_XP1" Language="zh_Hans_CN">
+      <Text>使用 [ICON_Gold] 金币购买时费用-20%。-10% [ICON_Production] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DEMOCRACY_XP1" Language="en_US">
+      <Text>20% Discount on Purchases with [ICON_Gold] Gold. -10% [ICON_Production] Production.</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_OLIGARCHY_XP1" Language="zh_Hans_CN">
+      <Text>每个城市+1所有类型产出。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_OLIGARCHY_XP1" Language="en_US">
+      <Text>+1 for all types of yields for all Cities. </Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_THEOCRACY_XP1" Language="zh_Hans_CN">
+      <Text>信奉宗教的城市+3所有类型产出。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_THEOCRACY_XP1" Language="en_US">
+      <Text>+3 for all types of yields for Cities that follow a Religion.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

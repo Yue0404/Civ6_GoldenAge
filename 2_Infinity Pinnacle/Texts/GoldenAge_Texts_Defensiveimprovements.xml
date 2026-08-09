@@ -1,0 +1,54 @@
+<GameData>
+    <LocalizedText>		
+	<!--防御改良设施-->
+	<Replace Tag="LOC_IMPROVEMENT_ANCIENT_TOWER_DEFENSE_NAME" Language="zh_Hans_CN">
+      <Text>路障</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_MODERN_TOWER_DEFENSE_NAME" Language="zh_Hans_CN">
+      <Text>强化路障</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_ANCIENT_TRAP_DEFENSE_NAME" Language="zh_Hans_CN">
+      <Text>陷阱</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_MODERN_TRAP_DEFENSE_NAME" Language="zh_Hans_CN">
+      <Text>现代陷阱</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_ANCIENT_TOWER_DEFENSE_DESC" Language="zh_Hans_CN">
+      <Text>游戏早期的改良设施，公民无法在此工作，对经过其上方或相邻单元格的敌方单位造成少量伤害，并形成控制区。随“军事工程学”科技解锁，使用1点建造者次数进行建造。无法阻止单位移动通过此空间。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_MODERN_TOWER_DEFENSE_DESC" Language="zh_Hans_CN">
+      <Text>游戏后期的改良设施，公民无法在此工作，对经过其上方或相邻单元格的敌方单位造成中等伤害，并形成控制区。随“膛线”科技解锁，使用1点军事工程师次数进行建造。无法阻止单位移动通过此空间。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_ANCIENT_TRAP_DEFENSE_DESC" Language="zh_Hans_CN">
+      <Text>游戏早期的改良设施，公民无法在此工作，对直接经过其上方的敌方单位造成中等伤害，并耗尽其移动力。随“建设”科技解锁，使用1点建造者次数进行建造。无法阻止单位移动通过此空间。</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_MODERN_TRAP_DEFENSE_DESC" Language="zh_Hans_CN">
+      <Text>游戏后期的改良设施，公民无法在此工作，对直接经过其上方的敌方单位造成大量伤害，并耗尽其移动力。随“弹道学”科技解锁，使用1点军事工程师次数进行建造。无法阻止单位移动通过此空间。</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_ANCIENT_TOWER_DEFENSE_NAME" Language="en_US">
+      <Text>Barricade</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_MODERN_TOWER_DEFENSE_NAME" Language="en_US">
+      <Text>Reinforced Barricade</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_ANCIENT_TRAP_DEFENSE_NAME" Language="en_US">
+      <Text>Trap</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_MODERN_TRAP_DEFENSE_NAME" Language="en_US">
+      <Text>Modernized Trap</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_ANCIENT_TOWER_DEFENSE_DESC" Language="en_US">
+      <Text>An unworkable early Improvement that deals minor damage to, and exerts zone of control on, hostile units passing through or adjacent to it. Unlocked with Military Engineering and built using a Builder Charge. Does not prevent unit movement through this space.</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_MODERN_TOWER_DEFENSE_DESC" Language="en_US">
+      <Text>An unworkable later Improvement that deals moderate damage to, and exerts zone of control on, hostile units passing through or adjacent to it. Unlocked with Rifling and built using a Charge from a Military Engineer. Does not prevent unit movement through this space.</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_ANCIENT_TRAP_DEFENSE_DESC" Language="en_US">
+      <Text>An unworkable early Improvement that deals moderate damage to, and depletes the movement of, hostile units passing directly through it. Unlocked with Construction and built using a Builder Charge. Does not prevent unit movement through this space.</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_MODERN_TRAP_DEFENSE_DESC" Language="en_US">
+      <Text>An unworkable later Improvement that deals significant damage to, and depletes the movement of, hostile units passing directly through it. Unlocked with Ballistics and built using a Charge from a Military Engineer. Does not prevent unit movement through this space.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>	
+	

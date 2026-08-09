@@ -1,0 +1,1034 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a739fbf8-0b8d-40a3-8fd7-ddd8c8e2183b" version="1">
+  <Properties>
+    <Name>LOC_GOLDENAGE_IP_NAME</Name>
+    <Description>LOC_GOLDENAGE_IP_DESCRIPTION</Description>
+    <Created>1629663837</Created>
+    <Teaser>LOC_GOLDENAGE_IP_TEASER</Teaser>
+    <Authors>LOC_GOLDENAGE_IP_AUTHOR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  
+  <LocalizedText>
+	<Text id="LOC_GOLDENAGE_IP_NAME">
+		<en_US>[ICON_GLORY_SUPER_GOLDEN_AGE][COLOR_FLOAT_GOLD]GoldenAge· Infinity Pinnacle[ENDCOLOR]</en_US>
+		<zh_Hans_CN>[ICON_GLORY_SUPER_GOLDEN_AGE][COLOR_FLOAT_GOLD]黄金时代·无尽巅峰[ENDCOLOR]</zh_Hans_CN>
+	</Text>
+
+	<Text id="LOC_GOLDENAGE_IP_TEASER">
+		<en_US>Added a couple of new [COLOR:DiplomaticLabelCS]game play mechanics and personalized perference settings[ENDCOLOR] to make the game more interesting.</en_US>
+		<zh_Hans_CN>增添有趣的[COLOR:ResCultureLabelCS]游戏模式与个性化偏好设置[ENDCOLOR]。</zh_Hans_CN>
+		<zh_Hant_HK>增添有趣的[COLOR:ResCultureLabelCS]遊戲模式與個性化偏好設置[ENDCOLOR]。</zh_Hant_HK>
+	</Text>
+	
+	<Text id="LOC_GOLDENAGE_IP_AUTHOR">
+		<en_US>[COLOR_FLOAT_GOLD]Gold, Flactine, Errt[ENDCOLOR]</en_US>
+		<zh_Hans_CN>[COLOR_FLOAT_GOLD]黄小金, 焰色光芒, Errt[ENDCOLOR]</zh_Hans_CN>
+		<zh_Hant_HK>[COLOR_FLOAT_GOLD]黃小金, 焰色光芒, Errt[ENDCOLOR]</zh_Hant_HK>
+	</Text>
+	
+	<Text id="LOC_GOLDENAGE_IP_DESCRIPTION">
+		<en_US>Added a couple of new [COLOR:DiplomaticLabelCS]game play mechanics and personalized perference settings[ENDCOLOR] to make the game more interesting.</en_US>
+		<zh_Hans_CN>增添有趣的[COLOR:ResCultureLabelCS]游戏模式与个性化偏好设置[ENDCOLOR]。</zh_Hans_CN>
+		<zh_Hant_HK>增添有趣的[COLOR:ResCultureLabelCS]遊戲模式與個性化偏好設置[ENDCOLOR]。</zh_Hant_HK>
+	</Text>
+  </LocalizedText>
+  
+  <Dependencies> 
+      <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+      <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+	  <Mod id="236af578-08bc-4278-ab57-c700ab3e1457" title="GoldenAge· Brave New World" />
+  </Dependencies>
+  
+  <ActionCriteria>
+  <!--全新模式-->
+	<Criteria id="CUSTOM_TRAITS">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>EXTRA_TRAITS_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="HISTORY">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>HISTORY_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="APPEAL">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>APPEAL_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="CITYPOLICY">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_CITYPOLICY</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="MILITARYSERVICE">
+      <ConfigurationValueMatches>
+        <ConfigurationId>GA_MILITARYSERVICE</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="WORLDWAR">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>WORLDWAR_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="FRIEND">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>FRIEND_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>	
+	<Criteria id="TOTALWAR">
+      <ConfigurationValueMatches>
+        <ConfigurationId>GA_TOTALWAR</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>	
+	<Criteria id="MEGALOPOLIS_PRO">
+      <ConfigurationValueMatches>
+        <ConfigurationId>GA_MEGALOPOLIS_PRO</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="GA_CULTIVATION">
+      <ConfigurationValueMatches>
+        <ConfigurationId>GA_CULTIVATION</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <ModInUse inverse="1">ce74df9f-83c3-48f6-84a0-5c9628ac374b</ModInUse>
+    </Criteria>
+		<Criteria id="MILESTONE">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_MILESTONE</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>	
+
+		<!--mod兼容-->
+		<Criteria id="GA_OCEAN">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_SUK_OCEANS</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>4922ba47-61e1-4b15-9281-db996b14522d</ModInUse>
+		</Criteria>	
+		
+    <!--DLC-->
+        <Criteria id="GRANCOLOMBIAMAYA_GA">
+			<ModInUse>9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModInUse>
+		</Criteria>
+		<Criteria id="ETHIOPIA_GA">
+			<ModInUse>1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse>
+		</Criteria>
+		<Criteria id="BYZANTIUM_GAUL_GA">
+			<ModInUse>A1100FC4-70F2-4129-AC27-2A65A685ED08</ModInUse>
+		</Criteria>
+		<Criteria id="BABYLON_GA">
+			<ModInUse>8424840C-92EF-4426-A9B4-B4E0CB818049</ModInUse>
+		</Criteria>
+		<Criteria id="KUBLAIKHAN_VIETNAM_GA">
+			<ModInUse>A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C</ModInUse>
+		</Criteria>
+		<Criteria id="PORTUGAL_GA">
+			<ModInUse>FFDF4E79-DEE2-47BB-919B-F5739106627A</ModInUse>
+		</Criteria>
+  <!--偏好-->
+	<Criteria id="GA_BARBARIAN">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_BARBARIAN</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="GA_HARBOR">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_HARBOR</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="GA_YIELD_AMENDMENT">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_YIELD_AMENDMENT</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="GA_CAPITAL_LOYAL">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_CAPITAL_LOYAL</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="GA_AICHEAT">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_AICHEAT</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="GA_STORM">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_STORM</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<!-- <Criteria id="GA_NO_SPY"> -->
+      <!-- <ConfigurationValueMatches> -->
+        <!-- <Group>Game</Group> -->
+        <!-- <ConfigurationId>GA_NO_SPY</ConfigurationId> -->
+        <!-- <Value>1</Value> -->
+      <!-- </ConfigurationValueMatches> -->
+    <!-- </Criteria> -->
+	<Criteria id="GA_MORE_SIGHT">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_MORE_SIGHT</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <ModInUse inverse="1">954ccf1b-2763-49c9-9ac3-19ad8d4daecc</ModInUse>
+    </Criteria>
+	<Criteria id="GA_NOAI_HERO">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_NOAI_HERO</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <ConfigurationValueMatches>
+		<Group>Game</Group>
+		<ConfigurationId>GAMEMODE_HEROES</ConfigurationId>
+		<Value>1</Value>
+	  </ConfigurationValueMatches>
+    </Criteria>
+	<!--偏好-->
+		<Criteria id="DEFENSIVEIMPROVEMENTS_PORTUGAL_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_TOWERDEFENSE</ConfigurationId>
+				<Value>0</Value>
+			</ConfigurationValueMatches>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_DEFENSIVEIMPROVEMENTS</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>FFDF4E79-DEE2-47BB-919B-F5739106627A</ModInUse>
+		</Criteria>
+		
+	<Criteria id="COST_CIVIC_TECH_150">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_COST_CIVIC_TECH</ConfigurationId>
+        <Value>150</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="COST_CIVIC_TECH_200">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_COST_CIVIC_TECH</ConfigurationId>
+        <Value>200</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="COST_CIVIC_TECH_300">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_COST_CIVIC_TECH</ConfigurationId>
+        <Value>300</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	
+	<Criteria id="GA_CITY_DISTANCE_2">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_CITY_DISTANCE</ConfigurationId>
+        <Value>2</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="GA_CITY_DISTANCE_4">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_CITY_DISTANCE</ConfigurationId>
+        <Value>4</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="GA_CITY_DISTANCE_5">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_CITY_DISTANCE</ConfigurationId>
+        <Value>5</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	
+	<!-- <Criteria id="GA_ERALIMIT_20"> -->
+      <!-- <ConfigurationValueMatches> -->
+        <!-- <Group>Game</Group> -->
+        <!-- <ConfigurationId>GA_ERALIMIT</ConfigurationId> -->
+        <!-- <Value>20</Value> -->
+      <!-- </ConfigurationValueMatches> -->
+    <!-- </Criteria> -->
+	<!-- <Criteria id="GA_ERALIMIT_90"> -->
+      <!-- <ConfigurationValueMatches> -->
+        <!-- <Group>Game</Group> -->
+        <!-- <ConfigurationId>GA_ERALIMIT</ConfigurationId> -->
+        <!-- <Value>90</Value> -->
+      <!-- </ConfigurationValueMatches> -->
+    <!-- </Criteria> -->
+	<!-- <Criteria id="COST_CIVIC_TECH_400"> -->
+      <!-- <ConfigurationValueMatches> -->
+        <!-- <Group>Game</Group> -->
+        <!-- <ConfigurationId>GA_COST_CIVIC_TECH</ConfigurationId> -->
+        <!-- <Value>400</Value> -->
+      <!-- </ConfigurationValueMatches> -->
+    <!-- </Criteria> -->
+	<!-- <Criteria id="COST_CIVIC_TECH_500"> -->
+      <!-- <ConfigurationValueMatches> -->
+        <!-- <Group>Game</Group> -->
+        <!-- <ConfigurationId>GA_COST_CIVIC_TECH</ConfigurationId> -->
+        <!-- <Value>500</Value> -->
+      <!-- </ConfigurationValueMatches> -->
+    <!-- </Criteria> -->
+	<Criteria id="AIBANWONDER">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_AIBANWONDER</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<!-- <Criteria id="NOPUNISHMENT"> -->
+      <!-- <ConfigurationValueMatches> -->
+        <!-- <Group>Game</Group> -->
+        <!-- <ConfigurationId>GA_NOPUNISHMENT</ConfigurationId> -->
+        <!-- <Value>1</Value> -->
+      <!-- </ConfigurationValueMatches> -->
+    <!-- </Criteria> -->
+	<Criteria id="NOMINORWALL">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_NOMINORWALL</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="UNITPILEUP">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_UNITPILEUP</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<!-- 2022.8.31加入内容 -->
+	<Criteria id="GA_MODE_FASTER">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_MODE_FASTER</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <ModInUse inverse="1">b5776b4b-93b1-409c-acee-09f829856eed</ModInUse>
+    </Criteria>
+	
+	<Criteria id="GA_MODE_PANTHEON">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_MODE_PANTHEON</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	
+	<Criteria id="GA_MODE_PROPHET">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_MODE_PROPHET</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	
+	<Criteria id="GA_MODE_NO_POP_LOSE">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_MODE_NO_POP_LOSE</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	
+	<Criteria id="GA_MODE_BARRIERS">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_MODE_BARRIERS</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	
+	<Criteria id="GA_WONDER_WATER">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_WONDER_WATER</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	
+	<Criteria id="GA_NO_EXCLUSIVE">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_NO_EXCLUSIVE</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	
+		<!--模组兼并-->
+		<Criteria id="CITYROADS">
+			<ModInUse inverse="1">02a30b76-7b13-4937-b72f-5a949bb56b13</ModInUse>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_ROUTE</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="CAPTUREUNIQUEIMPROVEMENTS">
+			<ModInUse inverse="1">d85b5f9b-5025-47d9-9f70-872175bcb17f</ModInUse>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_IMPROVEMENT</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="CITYMOVER">
+			<ModInUse inverse="1">2c02af4b-38c5-4d16-a131-7cbc001f278d</ModInUse>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_CITYMOVER</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+  </ActionCriteria>
+  
+  <FrontEndActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties><LoadOrder>10000</LoadOrder></Properties>
+	  <File>GoldenAge_GameMode.sql</File>
+	  <File>GoldenAge_ConfigData.sql</File>
+
+	  <File>Fix/GA1_Fix_Config.sql</File>	
+    </UpdateDatabase>
+	
+	<UpdateText id="Text">
+      <Properties><LoadOrder>10001</LoadOrder></Properties>			  
+		<File>Texts/GoldenAge_Texts_Custom_Traits.sql</File>
+		<File>Texts/GoldenAge_Texts_Rise_Fall.sql</File>		 
+
+		<File>Texts/GoldenAge_Texts_20220831.xml</File>
+    </UpdateText>	
+	
+    <UpdateIcons id="Icons">
+	  <Properties><LoadOrder>10002</LoadOrder></Properties>
+          <File>Icons/GoldenAge_Icons_Front.xml</File>
+    </UpdateIcons>		
+  </FrontEndActions>
+  
+  <InGameActions>
+	<UpdateDatabase id="Gameplay">
+	  <Properties><LoadOrder>8000</LoadOrder></Properties>                		  		    	            		  			
+		  <File>GoldenAge_WonderVictory.sql</File>    		  
+    </UpdateDatabase>	
+	<UpdateText id="Custom_Traits">
+	  <Properties><LoadOrder>8000</LoadOrder></Properties>
+		  <File>Texts/GoldenAge_Texts_WonderVictory.xml</File>	
+    </UpdateText>
+	
+	<UpdateDatabase id="MILESTONE">
+	  <!-- Must after Tech_Civic-->
+	  <Properties><LoadOrder>18389</LoadOrder></Properties>  
+      <Criteria>MILESTONE</Criteria>	 
+		  <File>GoldenAge_Milestone.sql</File>	
+	</UpdateDatabase>
+	<UpdateIcons id="MILESTONE">
+      <Criteria>MILESTONE</Criteria>
+    <Properties><LoadOrder>18389</LoadOrder></Properties>
+      <File>Icons/GoldenAge_Icons_TechCivic.xml</File>
+    </UpdateIcons>
+	
+<!-- 新东西--><!-- 新东西-->
+	<UpdateDatabase id="Custom_Traits">
+	  <Properties><LoadOrder>8710</LoadOrder></Properties>  
+      <Criteria>CUSTOM_TRAITS</Criteria>	 
+          <File>GoldenAge_Custom_Traits.sql</File>
+          <File>GoldenAge_DLC_Custom_Traits.sql</File>		  
+	</UpdateDatabase>	
+	<UpdateText id="Custom_Traits">
+	  <Properties><LoadOrder>8711</LoadOrder></Properties>
+      <Criteria>CUSTOM_TRAITS</Criteria>	  
+		  <File>Texts/GoldenAge_Texts_Custom_Traits.sql</File>	
+    </UpdateText>
+	
+	<UpdateDatabase id="History">
+	  <Properties><LoadOrder>1</LoadOrder></Properties> 
+<!-- 为了让CitySupport.lua不出错，GoldenAge_Rise_Fall_Table不能设Criteria-->	  
+ 		  <File>GoldenAge_Rise_Fall_Table.sql</File>
+	</UpdateDatabase>		
+    <UpdateDatabase id="History">
+	  <Properties><LoadOrder>8741</LoadOrder></Properties>  
+      <Criteria>HISTORY</Criteria>	 
+ 		  <File>GoldenAge_Rise_Fall.sql</File>		    
+		  <File>GoldenAge_DLC_Rise_Fall.sql</File>  
+	</UpdateDatabase>	
+	<UpdateText id="History">
+	  <Properties><LoadOrder>8742</LoadOrder></Properties>
+      <Criteria>HISTORY</Criteria>	  
+		  <File>Texts/GoldenAge_Texts_Rise_Fall.sql</File>
+    </UpdateText>	
+	
+	<UpdateDatabase id="Appeal">
+	  <Properties><LoadOrder>8750</LoadOrder></Properties>  
+	  <Criteria>APPEAL</Criteria>	 
+		  <File>GoldenAge_Appeal.sql</File>	
+	</UpdateDatabase>
+	
+	<UpdateDatabase id="Citypolicy">
+	  <Properties><LoadOrder>8830</LoadOrder></Properties>  
+      <Criteria>CITYPOLICY</Criteria>	 
+          <File>GoldenAge_CityPolicies.sql</File>
+	</UpdateDatabase>
+	<UpdateText id="Citypolicy">
+	  <Properties><LoadOrder>8831</LoadOrder></Properties>
+      <Criteria>CITYPOLICY</Criteria>	  
+		  <File>Texts/GoldenAge_Texts_CityPolicies.xml</File>
+    </UpdateText>
+	
+	<UpdateDatabase id="Militaryservice">
+	  <Properties><LoadOrder>8810</LoadOrder></Properties>  
+      <Criteria>MILITARYSERVICE</Criteria>	 
+	  <File>GoldenAge_MilitaryService.sql</File>
+	</UpdateDatabase>
+    <AddUserInterfaces id="Militaryservice">
+           <Properties>
+                <Context>InGame</Context>
+                <LoadOrder>8811</LoadOrder>
+            </Properties>
+	   <Criteria>MILITARYSERVICE</Criteria>	 
+	   <File>UI/GoldenAge_MilitaryService_UI.xml</File>
+	   <!-- <File>UI/GoldenAge_MilitaryService_UI.lua</File> -->
+	</AddUserInterfaces>
+	<AddGameplayScripts id="Militaryservice">
+	    <Properties><LoadOrder>8812</LoadOrder></Properties>
+	    <Criteria>MILITARYSERVICE</Criteria>	 
+		<File>GoldenAge_MilitaryService.lua</File>
+	</AddGameplayScripts>
+	
+	<AddGameplayScripts id="WorldWar">
+		<Properties><LoadOrder>8730</LoadOrder></Properties>
+        <Criteria>WORLDWAR</Criteria>		
+			<File>GoldenAge_WorldWar.lua</File>
+	</AddGameplayScripts>
+    <ImportFiles id="UI">
+        <Properties><LoadOrder>8731</LoadOrder></Properties>
+        <Criteria>WORLDWAR</Criteria>	
+			<File>UI/NewTurnPanel_Expansion1.lua</File>
+    </ImportFiles>	
+	<UpdateText id="WorldWar">
+	  <Properties><LoadOrder>8732</LoadOrder></Properties>
+      <Criteria>WORLDWAR</Criteria>	  
+          <File>Texts/GoldenAge_Texts_WorldWar.xml</File>
+    </UpdateText>
+	
+	<UpdateDatabase id="FriendBonuses">
+	  <Properties><LoadOrder>8760</LoadOrder></Properties>  
+      <Criteria>FRIEND</Criteria>	 
+          <File>GoldenAge_FriendBonuses.sql</File>	
+	</UpdateDatabase>	
+	<UpdateText id="FriendBonuses">
+	  <Properties><LoadOrder>8771</LoadOrder></Properties>
+      <Criteria>FRIEND</Criteria>	  
+		  <File>Texts/GoldenAge_Texts_FriendBonuses.sql</File>	
+    </UpdateText>
+	
+	<UpdateDatabase id="Totalwar">
+	  <Properties><LoadOrder>8780</LoadOrder></Properties>  
+      <Criteria>TOTALWAR</Criteria>	 
+          <File>GoldenAge_Totalwar.sql</File>
+	</UpdateDatabase>
+	<AddUserInterfaces  id="Totalwar">
+			<Properties>
+                <Context>InGame</Context>
+                <LoadOrder>8781</LoadOrder>
+            </Properties>
+			<Criteria>TOTALWAR</Criteria>	
+			<File>UI/GoldenAge_Totalwar_UI.xml</File>
+			<!-- <File>UI/GoldenAge_Totalwar_UI.lua</File> -->
+    </AddUserInterfaces >
+	<AddGameplayScripts id="Totalwar">
+		<Properties><LoadOrder>8782</LoadOrder></Properties>
+        <Criteria>TOTALWAR</Criteria>		
+			<File>GoldenAge_Totalwar.lua</File>
+	</AddGameplayScripts>
+	<UpdateText id="Totalwar">
+	  <Properties><LoadOrder>8783</LoadOrder></Properties>
+      <Criteria>TOTALWAR</Criteria>	  
+		  <File>Texts/GoldenAge_Texts_Totalwar.xml</File>
+    </UpdateText>	
+	
+	<UpdateDatabase id="Megalopolis">
+	  <Properties><LoadOrder>18792</LoadOrder></Properties>  
+      <Criteria>MEGALOPOLIS_PRO</Criteria>	
+ 	      <File>GoldenAge_Megalopolis_Pro.sql</File>
+	</UpdateDatabase>	
+	
+	<AddGameplayScripts id="GA_CULTIVATION">
+		<Properties><LoadOrder>18850</LoadOrder></Properties>
+        <Criteria>GA_CULTIVATION</Criteria>		
+			<File>GoldenAge_Cultivation.lua</File>
+	</AddGameplayScripts>
+	<AddUserInterfaces  id="GA_CULTIVATION">
+			<Properties>
+                <Context>InGame</Context>
+                <LoadOrder>18850</LoadOrder>
+            </Properties>
+			<Criteria>GA_CULTIVATION</Criteria>	
+			<File>UI/GoldenAge_Cultivation_UI.xml</File>
+    </AddUserInterfaces >
+	<UpdateDatabase id="GA_CULTIVATION">
+	  <Properties><LoadOrder>18850</LoadOrder></Properties>  
+      <Criteria>GA_CULTIVATION</Criteria>	 
+			<File>GoldenAge_Cultivation.sql</File>
+	</UpdateDatabase>
+	<UpdateIcons id="GA_CULTIVATION">
+      <Criteria>GA_CULTIVATION</Criteria>
+    <Properties><LoadOrder>18850</LoadOrder></Properties>
+      <File>Icons/GoldenAge_Icons_Cultivation.xml</File>
+    </UpdateIcons>
+	<UpdateText id="GA_CULTIVATION">
+	  <Properties><LoadOrder>18850</LoadOrder></Properties>
+      <Criteria>GA_CULTIVATION</Criteria>
+		  <File>Texts/GoldenAge_Texts_Cultivations.sql</File>	
+    </UpdateText>	
+	
+	<!-- 偏好 -->
+	<UpdateDatabase id="GA_BARBARIAN">
+	  <Properties><LoadOrder>19032</LoadOrder></Properties>  
+      <Criteria>GA_BARBARIAN</Criteria>	 
+          <File>Preference/GoldenAge_Barbarian.sql</File>
+	</UpdateDatabase>
+	
+	<UpdateDatabase id="GA_HARBOR">
+	  <Properties><LoadOrder>19033</LoadOrder></Properties>  
+      <Criteria>GA_HARBOR</Criteria>	 
+          <File>Preference/GoldenAge_Harbor.sql</File>
+	</UpdateDatabase>
+	
+	<UpdateDatabase id="GA_YIELD_AMENDMENT">
+	  <Properties><LoadOrder>19034</LoadOrder></Properties>  
+      <Criteria>GA_YIELD_AMENDMENT</Criteria>	 
+          <File>Preference/GoldenAge_Yield_Amendment.sql</File>
+	</UpdateDatabase>
+	
+	<UpdateDatabase id="GA_CAPITAL_LOYAL">
+	  <Properties><LoadOrder>19035</LoadOrder></Properties>  
+      <Criteria>GA_CAPITAL_LOYAL</Criteria>
+		<File>Preference/GoldenAge_Capital_Loyal.sql</File>
+	</UpdateDatabase>
+
+	<UpdateDatabase id="GA_AICHEAT">
+	  <Properties><LoadOrder>19036</LoadOrder></Properties>  
+      <Criteria>GA_AICHEAT</Criteria>	 
+          <File>Preference/GoldenAge_AICheat.sql</File>
+	</UpdateDatabase>
+	
+	<UpdateDatabase id="GA_NOAI_HERO">
+	  <Properties><LoadOrder>19038</LoadOrder></Properties>  
+      <Criteria>GA_NOAI_HERO</Criteria>	 
+          <File>Preference/GoldenAge_NoAIHero.sql</File>
+	</UpdateDatabase>
+
+	<UpdateDatabase id="GA_MODE_FASTER">
+	  <Properties><LoadOrder>19039</LoadOrder></Properties>  
+      <Criteria>GA_MODE_FASTER</Criteria>	 
+          <File>Preference/GoldenAge_FasterSettlers.sql</File>
+	</UpdateDatabase>
+	
+	<AddUserInterfaces id="GA_MODE_PANTHEON">
+	  <Properties><Context>InGame</Context></Properties>  
+      <Criteria>GA_MODE_PANTHEON</Criteria>	 
+          <File>Preference/GoldenAge_Pantheon.xml</File>
+	</AddUserInterfaces>
+	
+	<UpdateDatabase id="GA_MODE_PROPHET">
+	  <Properties><LoadOrder>19039</LoadOrder></Properties>  
+      <Criteria>GA_MODE_PROPHET</Criteria>	 
+          <File>Preference/GoldenAge_Guarante_Prophet.sql</File>
+	</UpdateDatabase>
+	
+	<UpdateDatabase id="GA_MODE_NO_POP_LOSE">
+	  <Properties><LoadOrder>19039</LoadOrder></Properties>  
+      <Criteria>GA_MODE_NO_POP_LOSE</Criteria>	 
+          <File>Preference/GoldenAge_NoPopLose.sql</File>
+	</UpdateDatabase>
+	
+	<UpdateDatabase id="GA_MODE_BARRIERS">
+	  <Properties><LoadOrder>19039</LoadOrder></Properties>  
+      <Criteria>GA_MODE_BARRIERS</Criteria>	 
+          <File>Preference/GoldenAge_Free_Barriers.sql</File>
+	</UpdateDatabase>
+	
+	<UpdateDatabase id="GA_WONDER_WATER">
+	  <Properties><LoadOrder>19039</LoadOrder></Properties>
+      <Criteria>GA_WONDER_WATER</Criteria>
+          <File>Preference/GoldenAge_Wonder_Water.sql</File>
+	</UpdateDatabase>
+	
+	<UpdateDatabase id="GA_NO_EXCLUSIVE">
+	  <Properties><LoadOrder>19039</LoadOrder></Properties>
+      <Criteria>GA_NO_EXCLUSIVE</Criteria>
+          <File>Preference/GoldenAge_No_Exclusive.sql</File>
+	</UpdateDatabase>
+	
+	<UpdateDatabase id="GA_STORM">
+	  <Properties><LoadOrder>20001</LoadOrder></Properties>  
+      <Criteria>GA_STORM</Criteria>	 
+          <File>Preference/GoldenAge_Storm.sql</File>
+	</UpdateDatabase>
+	
+	<UpdateDatabase id="Defensiveimprovements">
+	  <Properties><LoadOrder>8610</LoadOrder></Properties>  
+      <Criteria>DEFENSIVEIMPROVEMENTS_PORTUGAL_GA</Criteria>	 
+          <File>GoldenAge_DefensiveImprovements.xml</File>	
+	</UpdateDatabase>	
+	<UpdateIcons id="Defensiveimprovements">
+	  <Properties><LoadOrder>8611</LoadOrder></Properties>  
+	  <Criteria>DEFENSIVEIMPROVEMENTS_PORTUGAL_GA</Criteria>	 
+      <File>Icons/GoldenAge_Icons_DefensiveImprovements.xml</File>
+    </UpdateIcons>
+		<UpdateText id="Defensiveimprovements">
+	  <Properties><LoadOrder>8611</LoadOrder></Properties>
+      <Criteria>DEFENSIVEIMPROVEMENTS_PORTUGAL_GA</Criteria>
+		  <File>Texts/GoldenAge_Texts_Defensiveimprovements.xml</File>	
+    </UpdateText>
+	<!-- 偏好 -->
+	<UpdateDatabase id="COST_CIVIC_TECH">
+	  <Properties><LoadOrder>9000</LoadOrder></Properties>  
+      <Criteria>COST_CIVIC_TECH_150</Criteria>	 
+          <File>Preference/GoldenAge_CostCivicTech150.sql</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="COST_CIVIC_TECH">
+	  <Properties><LoadOrder>9001</LoadOrder></Properties>  
+      <Criteria>COST_CIVIC_TECH_200</Criteria>	 
+          <File>Preference/GoldenAge_CostCivicTech200.sql</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="COST_CIVIC_TECH">
+	  <Properties><LoadOrder>9002</LoadOrder></Properties>  
+      <Criteria>COST_CIVIC_TECH_300</Criteria>	 
+          <File>Preference/GoldenAge_CostCivicTech300.sql</File>
+	</UpdateDatabase>
+	<!-- <UpdateDatabase id="COST_CIVIC_TECH"> -->
+	  <!-- <Properties><LoadOrder>8803</LoadOrder></Properties>   -->
+      <!-- <Criteria>COST_CIVIC_TECH_400</Criteria>	  -->
+          <!-- <File>Preference/GoldenAge_CostCivicTech400.sql</File> -->
+	<!-- </UpdateDatabase> -->
+	<!-- <UpdateDatabase id="COST_CIVIC_TECH"> -->
+	  <!-- <Properties><LoadOrder>8804</LoadOrder></Properties>   -->
+      <!-- <Criteria>COST_CIVIC_TECH_500</Criteria>	  -->
+          <!-- <File>Preference/GoldenAge_CostCivicTech500.sql</File> -->
+	<!-- </UpdateDatabase> -->
+	<UpdateDatabase id="CITY_DISTANCE">
+	  <Properties><LoadOrder>9010</LoadOrder></Properties>  
+      <Criteria>GA_CITY_DISTANCE_2</Criteria>	 
+          <File>Preference/GoldenAge_CityDistance2.sql</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="CITY_DISTANCE">
+	  <Properties><LoadOrder>9011</LoadOrder></Properties>  
+      <Criteria>GA_CITY_DISTANCE_4</Criteria>	 
+          <File>Preference/GoldenAge_CityDistance4.sql</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="CITY_DISTANCE">
+	  <Properties><LoadOrder>9012</LoadOrder></Properties>  
+      <Criteria>GA_CITY_DISTANCE_5</Criteria>	 
+          <File>Preference/GoldenAge_CityDistance5.sql</File>
+	</UpdateDatabase>
+	
+	<!-- <UpdateDatabase id="ERALIMIT"> -->
+	  <!-- <Properties><LoadOrder>9020</LoadOrder></Properties>   -->
+      <!-- <Criteria>GA_ERALIMIT_20</Criteria>	  -->
+          <!-- <File>Preference/GoldenAge_EraLimit20.sql</File> -->
+	<!-- </UpdateDatabase> -->
+	<!-- <UpdateDatabase id="ERALIMIT"> -->
+	  <!-- <Properties><LoadOrder>9021</LoadOrder></Properties>   -->
+      <!-- <Criteria>GA_ERALIMIT_90</Criteria>	  -->
+          <!-- <File>Preference/GoldenAge_EraLimit90.sql</File> -->
+	<!-- </UpdateDatabase> -->
+
+	<UpdateDatabase id="Aibanwonders">
+	  <Properties><LoadOrder>9030</LoadOrder></Properties>  
+      <Criteria>AIBANWONDER</Criteria>	 
+          <File>Preference/GoldenAge_NoAIWonders.sql</File>
+	</UpdateDatabase>
+		
+	<!-- <UpdateDatabase id="Nopunishment"> -->
+	  <!-- <Properties><LoadOrder>9020</LoadOrder></Properties>   -->
+      <!-- <Criteria>NOPUNISHMENT</Criteria>	  -->
+          <!-- <File>Preference/GoldenAge_NoPunishment.sql</File> -->
+	<!-- </UpdateDatabase>	 -->
+	<!-- <UpdateText id="Nopunishment"> -->
+	  <!-- <Properties><LoadOrder>9021</LoadOrder></Properties> -->
+      <!-- <Criteria>NOPUNISHMENT</Criteria>	   -->
+	      <!-- <File>Preference/GoldenAge_Texts_NoPunishment.xml</File>  -->
+    <!-- </UpdateText>	 -->
+		
+	<UpdateDatabase id="Nominorwall">
+	  <Properties><LoadOrder>9040</LoadOrder></Properties>  
+      <Criteria>NOMINORWALL</Criteria>	 
+          <File>Preference/GoldenAge_NoMinorWall.sql</File>
+	</UpdateDatabase>		
+	
+	<UpdateDatabase id="Unitpileup">
+	  <Properties><LoadOrder>9050</LoadOrder></Properties>  
+      <Criteria>UNITPILEUP</Criteria>	 
+          <File>Preference/GoldenAge_UnitPileup.sql</File>
+	</UpdateDatabase>	
+	<ImportFiles id="UI">
+      <Properties>
+        <LoadOrder>9060</LoadOrder>
+      </Properties>
+	  <Criteria>UNITPILEUP</Criteria>	 
+      <File>UI/GoldenAge_UnitPanel.lua</File>
+      <File>UI/GoldenAge_WorldInput.lua</File>
+    </ImportFiles>
+    <ReplaceUIScript id="UI_Script_UnitPanel">
+      <Properties>
+        <LoadOrder>9060</LoadOrder>
+        <LuaContext>UnitPanel</LuaContext>
+        <LuaReplace>UI/GoldenAge_UnitPanel.lua</LuaReplace>
+      </Properties>
+	  <Criteria>UNITPILEUP</Criteria>	 
+    </ReplaceUIScript>
+    <ReplaceUIScript id="UI_Script_WorldInput">
+      <Properties>
+        <LoadOrder>9060</LoadOrder>
+        <LuaContext>WorldInput</LuaContext>
+        <LuaReplace>UI/GoldenAge_WorldInput.lua</LuaReplace>
+      </Properties>
+	  <Criteria>UNITPILEUP</Criteria>	 
+    </ReplaceUIScript>
+	
+	<UpdateDatabase id="GA_OCEAN">
+	  <Properties><LoadOrder>19038</LoadOrder></Properties>  
+      <Criteria>GA_OCEAN</Criteria>	 
+          <File>Mod_Support/GoldenAge_Ocean.sql</File>
+	</UpdateDatabase>
+	
+	<!--模组兼并-->
+	<AddGameplayScripts id="GA_MORE_SIGHT">
+		<Properties><LoadOrder>19037</LoadOrder></Properties>
+        <Criteria>GA_MORE_SIGHT</Criteria>		
+			<File>Thirdparty/ExpandedInitialVision.lua</File>
+	</AddGameplayScripts>
+	
+	
+	<AddGameplayScripts id="Cityroads">
+		<Properties><LoadOrder>8950</LoadOrder></Properties>
+        <Criteria>CITYROADS</Criteria>	
+	    <File>Thirdparty/CityRoads/AOM_CityRoads.lua</File>
+    </AddGameplayScripts>
+	
+	<AddGameplayScripts id="Captureuniqueimprovements">
+		<Properties><LoadOrder>8960</LoadOrder></Properties>
+		<Criteria>CAPTUREUNIQUEIMPROVEMENTS</Criteria>
+		<File>Thirdparty/CaptureUniqueImprovements/CUI_Script.lua</File>
+	</AddGameplayScripts>
+	<UpdateArt id="Captureuniqueimprovements">
+		<Properties><LoadOrder>8961</LoadOrder></Properties>
+		<Criteria>CAPTUREUNIQUEIMPROVEMENTS</Criteria>	
+			<File>Thirdparty/CaptureUniqueImprovements/CUI_DLC4.dep</File>
+			<File>Thirdparty/CaptureUniqueImprovements/CUI_DLC5.dep</File>
+			<File>Thirdparty/CaptureUniqueImprovements/CUI_DLC6.dep</File>
+			<File>Thirdparty/CaptureUniqueImprovements/CUI_Expac1.dep</File>
+	</UpdateArt>
+	
+	<UpdateArt id="Citymover">
+		<Properties><LoadOrder>8970</LoadOrder></Properties>
+		<Criteria>CITYMOVER</Criteria>	
+	  <File>Thirdparty/CityMover/CityMove.dep</File>
+    </UpdateArt>
+	<UpdateDatabase id="Citymover">
+		<Properties><LoadOrder>8971</LoadOrder></Properties>
+		<Criteria>CITYMOVER</Criteria>	
+      <File>Thirdparty/CityMover/CityMove_Gameplay.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Citymover">
+		<Properties><LoadOrder>8972</LoadOrder></Properties>
+		<Criteria>CITYMOVER</Criteria>
+      <File>Thirdparty/CityMover/CityMove_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Citymover">
+		<Properties><LoadOrder>8973</LoadOrder></Properties>
+		<Criteria>CITYMOVER</Criteria>
+      <File>Thirdparty/CityMover/CityMove_Text.xml</File>
+    </UpdateText>
+    <AddGameplayScripts id="Citymover">
+		<Properties><LoadOrder>8974</LoadOrder></Properties>
+		<Criteria>CITYMOVER</Criteria>
+      <File>Thirdparty/CityMover/MoveScript.lua</File>
+    </AddGameplayScripts>
+    <AddUserInterfaces id="Citymover">
+		<Criteria>CITYMOVER</Criteria>
+      <Properties>
+        <Context>InGame</Context>
+		<LoadOrder>8975</LoadOrder>
+      </Properties>
+      <File>Thirdparty/CityMover/UI/MoveUnitPanel.xml</File>
+    </AddUserInterfaces>
+	
+	<!-- 修复部分 -->
+	<UpdateDatabase id="GA_2022_FIX">
+	  <Properties><LoadOrder>1000000</LoadOrder></Properties>  
+          <File>Fix/GA1_Fix.sql</File>
+		  <File>Fix/GA2_Fix.sql</File>
+	</UpdateDatabase>
+
+	<UpdateText id="GA_2022_FIX_Text">
+	  <Properties><LoadOrder>1000000</LoadOrder></Properties>
+		  <File>Texts/GoldenAge_Texts_20220831.xml</File>	
+    </UpdateText>
+	
+</InGameActions> 
+  
+  <Files>
+	<File>GoldenAge_ConfigData.sql</File>
+	<File>GoldenAge_GameMode.sql</File>
+	
+	<File>GoldenAge_DefensiveImprovements.xml</File>	
+	<File>GoldenAge_WonderVictory.sql</File> 
+
+	<File>Mod_Support/GoldenAge_Ocean.sql</File>
+	
+	<!--Gamemode-->	
+	<File>GoldenAge_Custom_Traits.sql</File>
+	<File>GoldenAge_DLC_Custom_Traits.sql</File>
+	<File>Texts/GoldenAge_Texts_Custom_Traits.sql</File>
+
+	<File>GoldenAge_Rise_Fall.sql</File>
+    <File>GoldenAge_Rise_Fall_Table.sql</File>	
+	<File>GoldenAge_DLC_Rise_Fall.sql</File>
+	<File>Texts/GoldenAge_Texts_Rise_Fall.sql</File>
+
+	<File>GoldenAge_Appeal.sql</File>	
+
+	<File>GoldenAge_CityPolicies.sql</File>
+	<File>Texts/GoldenAge_Texts_CityPolicies.xml</File>
+
+	<File>UI/GoldenAge_MilitaryService_UI.xml</File>
+	<File>UI/GoldenAge_MilitaryService_UI.lua</File>
+	<File>GoldenAge_MilitaryService.sql</File>
+	<File>GoldenAge_MilitaryService.lua</File>
+
+	<File>GoldenAge_WorldWar.lua</File>
+	<File>UI/NewTurnPanel_Expansion1.lua</File>
+	<File>Texts/GoldenAge_Texts_WorldWar.xml</File>
+
+	<File>GoldenAge_FriendBonuses.sql</File>	
+    <File>Texts/GoldenAge_Texts_FriendBonuses.sql</File>
+
+	<File>GoldenAge_Cultivation.lua</File>	
+	<File>GoldenAge_Cultivation.sql</File>
+	<File>UI/GoldenAge_Cultivation_UI.lua</File>
+	<File>UI/GoldenAge_Cultivation_UI.xml</File>	
+
+	<File>UI/GoldenAge_Totalwar_UI.xml</File>
+	<File>UI/GoldenAge_Totalwar_UI.lua</File>
+	<File>GoldenAge_Totalwar.sql</File>
+	<File>GoldenAge_Totalwar.lua</File>
+	<File>Texts/GoldenAge_Texts_Totalwar.xml</File>
+		
+	<File>GoldenAge_Megalopolis_Pro.sql</File>
+	
+	<File>GoldenAge_Milestone.sql</File>	
+	
+	<File>UI/GoldenAge_UnitPanel.lua</File>
+    <File>UI/GoldenAge_WorldInput.lua</File>
+
+	<!--Preference-->	
+	<File>Preference/GoldenAge_AICheat.sql</File>
+	<File>Preference/GoldenAge_Barbarian.sql</File>
+	<File>Preference/GoldenAge_Harbor.sql</File>
+	<File>Preference/GoldenAge_NoAIHero.sql</File>
+	<File>Preference/GoldenAge_Storm.sql</File>
+	<!--2022.8.31 更新加入内容开始 -->
+	<File>Preference/GoldenAge_FasterSettlers.sql</File>
+	<File>Preference/GoldenAge_Free_Barriers.sql</File>
+	<File>Preference/GoldenAge_Pantheon.xml</File>
+	<File>Preference/GoldenAge_Pantheon.lua</File>
+	<File>Preference/GoldenAge_Guarante_Prophet.sql</File>
+	<File>Preference/GoldenAge_NoPopLose.sql</File>
+	<File>Preference/GoldenAge_Capital_Loyal.sql</File>
+	<!--2023.11.21 更新加入内容开始 -->
+	<File>Preference/GoldenAge_Wonder_Water.sql</File>
+	<File>Preference/GoldenAge_No_Exclusive.sql</File>
+		  
+	<File>Preference/GoldenAge_CostCivicTech150.sql</File>
+	<File>Preference/GoldenAge_CostCivicTech200.sql</File>
+	<File>Preference/GoldenAge_CostCivicTech300.sql</File>
+	<!-- <File>Preference/GoldenAge_CostCivicTech400.sql</File> -->
+	<!-- <File>Preference/GoldenAge_CostCivicTech500.sql</File> -->
+	<File>Preference/GoldenAge_CityDistance2.sql</File>
+	<File>Preference/GoldenAge_CityDistance4.sql</File>
+	<File>Preference/GoldenAge_CityDistance5.sql</File>
+	<!-- <File>Preference/GoldenAge_EraLimit20.sql</File> -->
+	<!-- <File>Preference/GoldenAge_EraLimit90.sql</File> -->
+	<File>Preference/GoldenAge_NoAIWonders.sql</File>
+	<!-- <File>Preference/GoldenAge_NoPunishment.sql</File>		   -->
+	<!-- <File>Preference/GoldenAge_Texts_NoPunishment.xml</File> -->
+	<File>Preference/GoldenAge_NoMinorWall.sql</File>
+	<File>Preference/GoldenAge_UnitPileup.sql</File>
+	<File>Preference/GoldenAge_Yield_Amendment.sql</File>
+		  
+		  
+	<File>Fix/GA1_Fix.sql</File>
+	<File>Fix/GA2_Fix.sql</File>
+	<File>Fix/GA1_Fix_Config.sql</File>
+	<File>Texts/GoldenAge_Texts_20220831.xml</File>
+	<!--2022.8.31 更新加入内容结束 -->
+	<File>Texts/GoldenAge_Texts_Cultivations.sql</File>	 
+	<File>Texts/GoldenAge_Texts_Defensiveimprovements.xml</File>	
+	<File>Texts/GoldenAge_Texts_WonderVictory.xml</File>	
+
+	<File>Icons/GoldenAge_Icons_Cultivation.xml</File>
+	<File>Icons/GoldenAge_Icons_DefensiveImprovements.xml</File>
+	<File>Icons/GoldenAge_Icons_Front.xml</File>
+	<File>Icons/GoldenAge_Icons_TechCivic.xml</File>
+	
+	<!--模组兼并-->
+	<File>Thirdparty/CityRoads/AOM_CityRoads.lua</File>
+	
+	<File>Thirdparty/CaptureUniqueImprovements/CUI_Script.lua</File>
+	<File>Thirdparty/CaptureUniqueImprovements/CUI_DLC4.dep</File>
+	<File>Thirdparty/CaptureUniqueImprovements/CUI_DLC5.dep</File>
+	<File>Thirdparty/CaptureUniqueImprovements/CUI_DLC6.dep</File>
+	<File>Thirdparty/CaptureUniqueImprovements/CUI_Expac1.dep</File>
+	
+	<File>Thirdparty/CityMover/ArtDefs/Units.artdef</File>
+    <File>Thirdparty/CityMover/CityMove.dep</File>
+    <File>Thirdparty/CityMover/CityMove_Gameplay.xml</File>
+    <File>Thirdparty/CityMover/CityMove_Icons.xml</File>
+    <File>Thirdparty/CityMover/CityMove_Text.xml</File>
+    <File>Thirdparty/CityMover/MoveScript.lua</File>
+    <File>Thirdparty/CityMover/UI/MoveUnitPanel.lua</File>
+    <File>Thirdparty/CityMover/UI/MoveUnitPanel.xml</File>
+	
+	<File>Thirdparty/ExpandedInitialVision.lua</File>
+  </Files>
+</Mod>

@@ -1,0 +1,449 @@
+<GameInfo>
+    <GlobalParameters>
+		<!--奇观旅游业绩（2）-->	
+		<Replace Name="TOURISM_BASE_FROM_WONDER" Value="3"/>
+	</GlobalParameters>
+	
+	<Buildings>
+		<Update>
+	        <Where BuildingType="BUILDING_ST_BASILS_CATHEDRAL"/> <Set PrereqCivic="CIVIC_DIVINE_RIGHT" AdjacentDistrict=""/>
+	    </Update> 
+		
+		<Update>
+	        <Where BuildingType="BUILDING_MONT_ST_MICHEL"/> <Set PrereqCivic="CIVIC_REFORMED_CHURCH" ObsoleteEra="ERA_MODERN"/>
+	    </Update> 
+		<Update>
+	        <Where BuildingType="BUILDING_KOTOKU_IN"/> <Set PrereqCivic="CIVIC_REFORMED_CHURCH" ObsoleteEra="ERA_MODERN"/>
+	    </Update> 
+		<Update>
+	        <Where BuildingType="BUILDING_CASA_DE_CONTRATACION"/> <Set PrereqTech=""PrereqCivic="CIVIC_EXPLORATION"/>
+	    </Update> 
+	</Buildings>
+	
+	<Building_ValidTerrains>
+	    <Row BuildingType="BUILDING_ST_BASILS_CATHEDRAL" TerrainType="TERRAIN_TUNDRA"/>
+	</Building_ValidTerrains>
+	
+	<Building_YieldChanges>
+	    <!--大灯塔-->
+		<Update>
+	        <Where BuildingType="BUILDING_GREAT_LIGHTHOUSE" YieldType="YIELD_GOLD"/> <Set YieldChange="6"/>
+	    </Update>
+		<!--巨像-->
+		<Update>
+	        <Where BuildingType="BUILDING_COLOSSUS" YieldType="YIELD_GOLD"/> <Set YieldChange="6"/>
+	    </Update>
+		<!--马丘比丘-->
+		<Delete BuildingType="BUILDING_MACHU_PICCHU" YieldType="YIELD_GOLD" YieldChange="4"/>
+	</Building_YieldChanges>
+	
+	<Building_GreatWorks>
+	    <Update>
+	        <Where BuildingType="BUILDING_HERMITAGE"/> <Set NumSlots="6" ThemingUniquePerson="false" ThemingSameObjectType="false" ThemingYieldMultiplier="200" ThemingTourismMultiplier="200"/>
+	    </Update> 
+		<Update>
+	        <Where BuildingType="BUILDING_SYDNEY_OPERA_HOUSE"/> <Set NumSlots="4" ThemingUniquePerson="false" ThemingSameObjectType="false" ThemingYieldMultiplier="300" ThemingTourismMultiplier="300"/>
+	    </Update> 
+		<Row BuildingType="BUILDING_TAJ_MAHAL" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="3"/>
+	</Building_GreatWorks>
+	
+	<Building_GreatPersonPoints>
+	    <!--巨像-->
+	    <Row BuildingType="BUILDING_COLOSSUS" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<!--大灯塔-->
+		<Row BuildingType="BUILDING_GREAT_LIGHTHOUSE" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<!--巴拿马运河-->
+		<Row BuildingType="BUILDING_PANAMA_CANAL" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_PANAMA_CANAL" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_PANAMA_CANAL" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="2"/>
+	</Building_GreatPersonPoints>
+	
+	<BuildingModifiers>
+	    <!--圣瓦西里主教座堂-->
+		<Delete BuildingType="BUILDING_ST_BASILS_CATHEDRAL" ModifierId="STBASILS_ADDRELIGIOUSTOURISM"/>
+		<!--佩特拉古城-->
+		<Update>
+	        <Where BuildingType="BUILDING_PETRA"/> <Set ModifierId = "PETRA_YIELD"/>
+	    </Update> 
+		<!--大灯塔-->
+		<Row BuildingType="BUILDING_GREAT_LIGHTHOUSE" ModifierId="GOLDEN_GREAT_LIGHTHOUSE_ADJUST_MERCHANT_CHARGES"/>
+		<!--马丘比丘-->
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_CAMPUS_GRASSMOUNTAIN_SCIENCE"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_CAMPUS_PLAINSMOUNTAIN_SCIENCE"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_CAMPUS_DESERTMOUNTAIN_SCIENCE"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_CAMPUS_TUNDRAMOUNTAIN_SCIENCE"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_CAMPUS_SNOWMOUNTAIN_SCIENCE"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_HOLY_SITE_GRASSMOUNTAIN_FAITH"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_HOLY_SITE_PLAINSMOUNTAIN_FAITH"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_HOLY_SITE_DESERTMOUNTAIN_FAITH"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_HOLY_SITE_TUNDRAMOUNTAIN_FAITH"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_HOLY_SITE_SNOWMOUNTAIN_FAITH"/>
+		<!--泰姬陵，匈牙利议会大厦，救世基督像-->
+		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="MAHABODHI_DIPLOVP"/>
+		<Row BuildingType="BUILDING_ORSZAGHAZ" ModifierId="MAHABODHI_DIPLOVP"/>
+		<Row BuildingType="BUILDING_CRISTO_REDENTOR" ModifierId="MAHABODHI_DIPLOVP"/>	
+	</BuildingModifiers>
+	
+	<Modifiers>
+		<!--佩特拉古城-->
+		<Row>
+			<ModifierId>PETRA_YIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>		
+		<!--奇琴伊察-->
+		<Update>
+	        <Where ModifierId="CHICHEN_ITZA_JUNGLE_CULTURE"/> <Set ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId = ""/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="CHICHEN_ITZA_JUNGLE_PRODUCTION"/> <Set ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId = ""/>
+	    </Update> 
+		<!--圣瓦西里主教座堂-->
+		<Update>
+	        <Where ModifierId="STBASILS_ADDFOOD"/> <Set ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId = ""/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="STBASILS_ADDPRODUCTION"/> <Set ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId = ""/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="STBASILS_ADDCULTURE"/> <Set ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId = ""/>
+	    </Update> 	
+        <!--大灯塔-->
+        <Row>
+			<ModifierId>GOLDEN_GREAT_LIGHTHOUSE_ADJUST_MERCHANT_CHARGES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_GREAT_PERSON_CHARGES</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_UNIT_IS_MERCHANT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>	
+		<!--马丘比丘-->
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_GRASSMOUNTAIN_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_PLAINSMOUNTAIN_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_DESERTMOUNTAIN_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_TUNDRAMOUNTAIN_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_SNOWMOUNTAIN_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_GRASSMOUNTAIN_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_PLAINSMOUNTAIN_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_DESERTMOUNTAIN_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_TUNDRAMOUNTAIN_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_SNOWMOUNTAIN_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+	    <!--埃菲尔铁塔-->
+		<Update>
+	        <Where ModifierId="EIFFEL_TOWER_ADDAPPEAL" Name="Amount"/> <Set Value="1"/>
+	    </Update>
+		<!--佩特拉古城-->
+		<Update>
+	        <Where ModifierId="PETRA_YIELD_MODIFIER" Name="Amount"/> <Set Value="2,0,1"/>
+	    </Update>
+		<Row>
+			<ModifierId>PETRA_YIELD</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>PETRA_YIELD_MODIFIER</Value>
+		</Row>
+		<!--大灯塔-->
+		<Row>
+			<ModifierId>GOLDEN_GREAT_LIGHTHOUSE_ADJUST_MERCHANT_CHARGES</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--巨像-->
+		<Update>
+	        <Where ModifierId="COLOSSUS_ADDTRADEROUTE" Name="Amount"/> <Set Value="2"/>
+	    </Update>
+		<Update>
+	        <Where ModifierId="COLOSSUS_GRANT_TRADER" Name="Amount"/> <Set Value="2"/>
+	    </Update>
+		<!--奇琴伊察-->
+		<Update>
+	        <Where ModifierId="CHICHEN_ITZA_JUNGLE_PRODUCTION_MODIFIER" Name="YieldType"/> <Set Value="YIELD_SCIENCE"/>
+	    </Update>
+		<Update>
+	        <Where ModifierId="CHICHEN_ITZA_JUNGLE_CULTURE_MODIFIER" Name="Amount"/> <Set Value="1"/>
+	    </Update>
+		<!--金门大桥-->
+		<Update>
+	        <Where ModifierId="GOLDENGATE_CITYAPPEAL" Name="Amount"/> <Set Value="2"/>
+	    </Update>
+		<!--马丘比丘-->
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_GRASSMOUNTAIN_SCIENCE</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_GRASSMOUNTAIN_SCIENCE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_GRASSMOUNTAIN_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_GRASSMOUNTAIN_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_GRASSMOUNTAIN_SCIENCE</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_PLAINSMOUNTAIN_SCIENCE</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_PLAINSMOUNTAIN_SCIENCE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_PLAINSMOUNTAIN_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_PLAINSMOUNTAIN_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_PLAINSMOUNTAIN_SCIENCE</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_DESERTMOUNTAIN_SCIENCE</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_DESERTMOUNTAIN_SCIENCE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_DESERTMOUNTAIN_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_DESERTMOUNTAIN_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_DESERTMOUNTAIN_SCIENCE</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_TUNDRAMOUNTAIN_SCIENCE</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_TUNDRAMOUNTAIN_SCIENCE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_TUNDRAMOUNTAIN_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_TUNDRAMOUNTAIN_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_TUNDRAMOUNTAIN_SCIENCE</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_SNOWMOUNTAIN_SCIENCE</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_SNOWMOUNTAIN_SCIENCE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_SNOWMOUNTAIN_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_SNOWMOUNTAIN_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_CAMPUS_SNOWMOUNTAIN_SCIENCE</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_GRASSMOUNTAIN_FAITH</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_GRASSMOUNTAIN_FAITH</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_GRASSMOUNTAIN_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_GRASSMOUNTAIN_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_GRASSMOUNTAIN_FAITH</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_PLAINSMOUNTAIN_FAITH</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_PLAINSMOUNTAIN_FAITH</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_PLAINSMOUNTAIN_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_PLAINSMOUNTAIN_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_PLAINSMOUNTAIN_FAITH</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_DESERTMOUNTAIN_FAITH</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_DESERTMOUNTAIN_FAITH</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_DESERTMOUNTAIN_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_DESERTMOUNTAIN_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_DESERTMOUNTAIN_FAITH</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_TUNDRAMOUNTAIN_FAITH</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_TUNDRAMOUNTAIN_FAITH</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_TUNDRAMOUNTAIN_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_TUNDRAMOUNTAIN_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_TUNDRAMOUNTAIN_FAITH</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_SNOWMOUNTAIN_FAITH</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_SNOWMOUNTAIN_FAITH</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_SNOWMOUNTAIN_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_SNOWMOUNTAIN_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_HOLY_SITE_SNOWMOUNTAIN_FAITH</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_FAITH</Value>
+		</Row>		
+	</ModifierArguments>
+</GameInfo>

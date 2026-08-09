@@ -1,0 +1,1793 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="236af578-08bc-4278-ab57-c700ab3e1457" version="209">
+  <Properties>
+    <Name>LOC_GOLDENAGE_NAME</Name>
+    <Description>LOC_GOLDENAGE_DESCRIPTION</Description>
+    <Teaser>LOC_GOLDENAGE_TEASER</Teaser>
+	<Authors>LOC_GOLDENAGE_AUTHOR</Authors>
+	<CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+
+  <Dependencies> 
+      <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="LOC_EXPANSION1_MOD_TITLE"/>
+      <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="LOC_EXPANSION2_MOD_TITLE"/>
+  </Dependencies>
+  
+  <ActionCriteria>
+	<!--全新模式-->
+	<Criteria id="CITYLEVEL">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_CITYLEVEL</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="NATIONALWONDER">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_NATIONALWONDER</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>	
+	<Criteria id="MEGALOPOLIS">
+      <ConfigurationValueMatches>
+        <ConfigurationId>GA_MEGALOPOLIS</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="BUILDINGEXPANSION">
+      <ConfigurationValueMatches>
+        <ConfigurationId>GA_BUILDINGEXPANSION</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+		<Criteria id="BUILDINGEXPANSION_RENEWABLE">
+			<!-- <ModInUse inverse="1">95f89921-a4be-4cce-841d-a6a67b48a0f8</ModInUse> -->
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_BUILDINGEXPANSION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+
+	<!--高级设置-->
+	<Criteria id="CIVILIZATIONS_AND_LEADERS">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	    <Criteria id="TECH_CIVIC">
+            <ConfigurationValueMatches>
+                <ConfigurationId>GA_TECH_CIVIC</ConfigurationId>
+                <Group>Game</Group>
+                <Value>1</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+		<Criteria id="GOVERNORS">
+            <ConfigurationValueMatches>
+                <ConfigurationId>GA_GOVERNOR</ConfigurationId>
+                <Group>Game</Group>
+                <Value>1</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+		<Criteria id="GREATPERSONS">
+            <ConfigurationValueMatches>
+                <ConfigurationId>GA_GREATPERSON</ConfigurationId>
+                <Group>Game</Group>
+                <Value>1</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+	<Criteria id="POLICY">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>POLICY_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="RELIGION">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>RELIGION_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>	
+	<Criteria id="WARFARE">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>WARFARE_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <ModInUse inverse="1">38a49494-5ec4-46ac-b01b-9629d96950f3</ModInUse>
+    </Criteria>
+	<Criteria id="WORLDWONDER">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_WORLDWONDER</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="NATURALWONDER">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_NATURALWONDER</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="GOVERNMENT">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_GOVERNMENT</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="BUILDING">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_BUILDING</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="DISTRICT">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_DISTRICT</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="IMPROVEMENT">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_IMPROVEMENT</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="PROJECT">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_PROJECT</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="RESOURCE">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_RESOURCE</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="FEATURETERRAIN">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_FEATURETERRAIN</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="DIPLOMATIC">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_DIPLOMATIC</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="MAP">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_MAP</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="AI">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_AI</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="ROUTE">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_ROUTE</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="TALLPLAY">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_TALLPLAY</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<!-- <Criteria id="CITYSTATE"> -->
+      <!-- <ConfigurationValueMatches> -->
+        <!-- <Group>Game</Group> -->
+        <!-- <ConfigurationId>GA_CITYSTATE</ConfigurationId> -->
+        <!-- <Value>1</Value> -->
+      <!-- </ConfigurationValueMatches> -->
+    <!-- </Criteria> -->
+		<Criteria id="GA_CITYSTATE">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_CITYSTATE</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="GA_CITYSTATE_CSE">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_CITYSTATE</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6</ModInUse>
+		</Criteria>	
+	<Criteria id="WMD">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_WMD</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <ModInUse inverse="1">d3ee498a-0063-40c8-9c9c-1dedb902f8c6</ModInUse>
+    </Criteria>
+	<!-- <Criteria id="SPECIALIST"> -->
+      <!-- <ConfigurationValueMatches> -->
+        <!-- <Group>Game</Group> -->
+        <!-- <ConfigurationId>GA_SPECIALIST</ConfigurationId> -->
+        <!-- <Value>1</Value> -->
+      <!-- </ConfigurationValueMatches> -->
+    <!-- </Criteria> -->
+	<!-- <Criteria id="CITYSTATE_DLC"> -->
+      <!-- <ConfigurationValueMatches> -->
+        <!-- <Group>Game</Group> -->
+        <!-- <ConfigurationId>GA_CITYSTATE</ConfigurationId> -->
+        <!-- <Value>1</Value> -->
+      <!-- </ConfigurationValueMatches> -->
+	  <!-- ETHIOPIA -->
+	  <!-- <ModInUse>1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse> -->
+    <!-- </Criteria> -->
+	<Criteria id="RANDOMEVENTS">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_RANDOMEVENTS</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<Criteria id="RANDOMEVENTS_DLC">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_RANDOMEVENTS</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+	  <!-- GRANCOLOMBIAMAYA -->
+	  <ModInUse>9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModInUse>
+    </Criteria>
+	
+	<!--官方模式-->
+		<Criteria id="APOCALYPSE_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_APOCALYPSE</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_APOCALYPSE</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_RANDOMEVENTS</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>		
+
+	    <Criteria id="SECRETSOCIETIES_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_SECRETSOCIETIES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+	    </Criteria>	
+	    <Criteria id="DRAMATICAGES_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_DRAMATICAGES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_DRAMATICAGES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+	    </Criteria>
+	    <Criteria id="HEROES_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_HEROES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_HEROES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+	    </Criteria>
+	    <Criteria id="MONOPOLIES_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_MONOPOLIES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>		
+		<Criteria id="MONOPOLIES_GA_BXP">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_MONOPOLIES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_MONOPOLIES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ConfigurationValueMatches>
+				<ConfigurationId>GA_BUILDINGEXPANSION</ConfigurationId>
+				<Group>Game</Group>
+				<Value>1</Value>
+			</ConfigurationValueMatches>	
+		</Criteria>		
+    <!--DLC-->
+        <Criteria id="GRANCOLOMBIAMAYA_GA">
+			<ModInUse>9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModInUse>
+		</Criteria>
+		<Criteria id="ETHIOPIA_GA">
+			<ModInUse>1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse>
+		</Criteria>
+		<Criteria id="BYZANTIUM_GAUL_GA">
+			<ModInUse>A1100FC4-70F2-4129-AC27-2A65A685ED08</ModInUse>
+		</Criteria>
+		<Criteria id="BABYLON_GA">
+			<ModInUse>8424840C-92EF-4426-A9B4-B4E0CB818049</ModInUse>
+		</Criteria>
+		<Criteria id="KUBLAIKHAN_VIETNAM_GA">
+			<ModInUse>A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C</ModInUse>
+		</Criteria>
+		<Criteria id="PORTUGAL_GA">
+			<ModInUse>FFDF4E79-DEE2-47BB-919B-F5739106627A</ModInUse>
+		</Criteria>		
+		
+		<Criteria id="GA_GREATPERSON_BABYLON_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GA_GREATPERSON</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>8424840C-92EF-4426-A9B4-B4E0CB818049</ModInUse>
+		</Criteria>
+		
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_AUSTRALIA_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>E3F53C61-371C-440B-96CE-077D318B36C0</ModInUse>
+		</Criteria>
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_AZTEC_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>02A8BDDE-67EA-4D38-9540-26E685E3156E</ModInUse>
+		</Criteria>
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_BABYLON_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>8424840C-92EF-4426-A9B4-B4E0CB818049</ModInUse>
+		</Criteria>
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_BYZANTIUM_GAUL_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>A1100FC4-70F2-4129-AC27-2A65A685ED08</ModInUse>
+		</Criteria>
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_CATHERINEDEMEDICI_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>CE5876CD-6900-46D1-9C9C-8DBA1F28872E</ModInUse>
+		</Criteria>
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_ETHIOPIA_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse>
+		</Criteria>
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_GRANCOLOMBIA_MAYA_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModInUse>
+		</Criteria>
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_GREAT_BUILDERS_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>249D9276-0832-48E4-B370-14531FA4E33C</ModInUse>
+		</Criteria>	
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_GREATNEGOTIATORS_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>7A66DB58-B354-4061-8C80-95B638DD6F6C</ModInUse>
+		</Criteria>			
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_GREATWARLORDS_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>F48213B4-56F5-45DD-92F7-AC78E49BDA49</ModInUse>
+		</Criteria>			
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_INDONESIA_KHMER_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>1F367231-A040-4793-BDBB-088816853683</ModInUse>
+		</Criteria>
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_JULIUSCAESAR_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>9ED63236-617C-45A6-BB70-8CB6B0BE8ED2</ModInUse>
+		</Criteria>	
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_KUBLAIKHAN_VIETNAM_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C</ModInUse>
+		</Criteria>
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_MACEDONIA_PERSIA_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>E2749E9A-8056-45CD-901B-C368C8E83DEB</ModInUse>
+		</Criteria>
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_NUBIA_AMANITORE_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>643EA320-8E1A-4CF1-A01C-00D88DDD131A</ModInUse>
+		</Criteria>
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_POLAND_JADWIGA_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>3809975F-263F-40A2-A747-8BFB171D821A</ModInUse>
+		</Criteria>
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_PORTUGAL_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>FFDF4E79-DEE2-47BB-919B-F5739106627A</ModInUse>
+		</Criteria>
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_RULERS_OF_CHINA_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>7D27831B-BAA6-4A8B-A39C-94243BAD3F47</ModInUse>
+		</Criteria>	
+		
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_RULERS_OF_ENGLAND_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>258EF3CA-890B-4863-8A52-982822EFF7BD</ModInUse>
+		</Criteria>	
+		
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_RULERS_OF_THE_SAHARA_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>82AE6F24-930F-4640-833C-FCDFD4845757</ModInUse>
+		</Criteria>	
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_TEDDYROOSEVELT_GA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>113D9459-0A3B-4FCB-A49C-483F40303575</ModInUse>
+		</Criteria>	
+		
+	<!--领袖mod兼容-->
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_WILLIAM_OF_ORANGE">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>513c20cf-0de1-4992-a3a4-4d00ba78d6e3</ModInUse>
+		</Criteria>
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_OTTO_VON_BISMARCK">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>d9509a28-3312-40fa-bd60-c779f54afce3</ModInUse>
+		</Criteria>
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_DARIUS_I">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>482ce871-e31a-45f4-96b5-9366cb902047</ModInUse>
+		</Criteria>
+		<Criteria id="CIVILIZATIONS_AND_LEADERS_GAJA_MADA">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CIVILIZATIONS_AND_LEADERS_OPTION</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ModInUse>ed6d133e-4b9d-4194-b8db-10075e8dd90c</ModInUse>
+		</Criteria>	
+
+  <!-- 创意工坊模组兼容-->
+		<!-- <Criteria id="WARFARE_MOARUNIQUEUNITS_GA"> -->
+			<!-- <ConfigurationValueMatches> -->
+				<!-- <Group>Game</Group> -->
+				<!-- <ConfigurationId>WARFARE_OPTION</ConfigurationId> -->
+				<!-- <Value>1</Value> -->
+			<!-- </ConfigurationValueMatches> -->
+			<!-- <ModInUse>a1fe0ce2-ca98-4998-a0c9-2aa1639eb6d0</ModInUse> -->
+		<!-- </Criteria> -->
+  </ActionCriteria> 
+
+  <FrontEndActions>
+    <UpdateDatabase id="Gameplay">
+      <Properties><LoadOrder>7000</LoadOrder></Properties>
+      <File>GoldenAge_GameMode.xml</File>
+	  <File>GoldenAge_GameMode.sql</File>
+  	  <File>Mod_Support/Major/Leaders_ConfigData.sql</File>	
+    </UpdateDatabase>
+	
+	<UpdateText id="Text">
+      <Properties><LoadOrder>7001</LoadOrder></Properties>			  
+		  <File>Texts/GoldenAge_Texts_Front.xml</File>
+		  <File>Texts/GoldenAge_Texts_Major.sql</File>
+    </UpdateText>	
+
+    <UpdateIcons id="Icons">
+	  <Properties><LoadOrder>7002</LoadOrder></Properties>
+          <File>Icons/GoldenAge_Icons_Front.xml</File>
+    </UpdateIcons>		
+  </FrontEndActions>
+  
+  <InGameActions> 
+	<!-- load first to enhance mod compatability -->
+	<ImportFiles id="UI">
+        <Properties><LoadOrder>1</LoadOrder></Properties>
+		<File>UI/CitySupport.lua</File>
+		<File>UI/ProjectBuiltPopup.lua</File>
+    </ImportFiles>	 		
+	
+	<UpdateArt id="Art">
+	    <Properties><LoadOrder>7998</LoadOrder></Properties>	
+			<File>GoldenAge.dep</File>
+    </UpdateArt>
+	
+	<UpdateIcons id="Icons">
+	  <Properties><LoadOrder>7999</LoadOrder></Properties>
+		  <File>Icons/GoldenAge_Icons.xml</File>
+    </UpdateIcons>
+	  
+	
+	<!-- <AddGameplayScripts id="lua"> -->
+	        <!-- <Properties><LoadOrder>8021</LoadOrder></Properties> -->
+	<!-- </AddGameplayScripts> -->
+	
+	<!-- 核心-->
+	<UpdateDatabase id="Gameplay">
+	  <Properties><LoadOrder>8000</LoadOrder></Properties>                		  		    	            		  
+		  <File>GoldenAge_GameSpeeds.sql</File>			  		  		  		
+          <File>GoldenAge_Modifiers.xml</File>		  		  		  	
+		  <File>GoldenAge_Pedia.sql</File>		  			  
+		  <File>GoldenAge_Requirements.sql</File>		  		  				  	  
+		  <File>GoldenAge_zGlobal.sql</File>
+		  <File>GoldenAge_zGlobalParameters.xml</File>	        		  
+    </UpdateDatabase>	 
+	
+    <UpdateText id="Text">
+	  <Properties><LoadOrder>8001</LoadOrder></Properties>               	  		  
+		  <File>Texts/GoldenAge_Texts_Background.xml</File>
+		  <File>Texts/GoldenAge_Texts_Others.xml</File>
+		  <File>Texts/GoldenAge_Texts_Pedia.xml</File>	  		  		          	            		             
+    </UpdateText>
+		
+	<!-- 大修 -->   
+	<UpdateDatabase id="Tallplay">
+	  <Properties><LoadOrder>8190</LoadOrder></Properties>  
+      <Criteria>TALLPLAY</Criteria>	 		  
+		  <File>GoldenAge_CitizenBonus.sql</File>
+		  <File>GoldenAge_Happinesses.xml</File>
+		  <File>GoldenAge_TallplayCores.xml</File>
+	</UpdateDatabase>	
+	<ImportFiles id="UI">
+        <Properties><LoadOrder>1</LoadOrder></Properties>
+		<Criteria>TALLPLAY</Criteria>	
+		<File>UI/CityPanel.lua</File>
+		<File>UI/CityPanelOverview.lua</File>
+    </ImportFiles>	 
+	
+	<UpdateDatabase id="Worldwonder">
+	  <Properties><LoadOrder>8200</LoadOrder></Properties>  
+      <Criteria>WORLDWONDER</Criteria>	 		  
+		  <File>GoldenAge_Wonders.xml</File>
+		  <File>GoldenAge_Wonders.sql</File>
+		  <File>DLC_Support/GoldenAge_DLC_Wonders.sql</File>
+		  <File>Mod_Support/World_Wonders.sql</File>
+	</UpdateDatabase>	
+	<UpdateText id="Worldwonder">
+	  <Properties><LoadOrder>8201</LoadOrder></Properties>
+      <Criteria>WORLDWONDER</Criteria>	  
+	      <File>Texts/GoldenAge_Texts_WorldWonders.xml</File>
+    </UpdateText>
+	
+	<UpdateDatabase id="Naturalwonder">
+	  <Properties><LoadOrder>8210</LoadOrder></Properties>  
+      <Criteria>NATURALWONDER</Criteria>	 		  		  
+		  <File>GoldenAge_Natural_Wonders.sql</File>
+		  <File>Mod_Support/Terra_Mirabilis.sql</File>
+	</UpdateDatabase>	
+	<UpdateText id="Naturalwonder">
+	  <Properties><LoadOrder>8211</LoadOrder></Properties>
+      <Criteria>NATURALWONDER</Criteria>	  
+	      <File>Texts/GoldenAge_Texts_NaturalWonders.xml</File>
+		  <File>Mod_Support/Terra_Mirabilis_Texts.sql</File>
+    </UpdateText>
+	
+	<UpdateDatabase id="Policy">
+	  <Properties><LoadOrder>8220</LoadOrder></Properties>  
+      <Criteria>POLICY</Criteria>	 
+		  <File>GoldenAge_Policies.xml</File>
+		  <File>GoldenAge_Policies.sql</File>
+		  <File>GoldenAge_Policies_Darkage.sql</File>	
+	      <File>GoldenAge_Policies_Diplomatic.xml</File>
+		  <File>GoldenAge_Policies_Diplomatic.sql</File>
+          <File>GoldenAge_Policies_Economic.xml</File>		  
+		  <File>GoldenAge_Policies_Economic.sql</File>		  
+	      <File>GoldenAge_Policies_Government.xml</File>
+		  <File>GoldenAge_Policies_Government.sql</File>
+          <File>GoldenAge_Policies_Military.sql</File> 		  
+	</UpdateDatabase>	
+	<UpdateText id="Policy">
+	  <Properties><LoadOrder>8221</LoadOrder></Properties>
+      <Criteria>POLICY</Criteria>	  
+          <File>Texts/GoldenAge_Texts_Policies.xml</File>
+    </UpdateText>
+	   		
+	<UpdateDatabase id="Pantheons_and_Religions">
+	  <Properties><LoadOrder>8230</LoadOrder></Properties>  
+      <Criteria>RELIGION</Criteria>	 
+		  <File>GoldenAge_Pantheons.sql</File>
+          <File>GoldenAge_Religions.sql</File>
+          <File>GoldenAge_Religions.xml</File>		  
+	</UpdateDatabase>	
+	<UpdateText id="Pantheons_and_Religions">
+	  <Properties><LoadOrder>8231</LoadOrder></Properties>
+      <Criteria>RELIGION</Criteria>	  
+		  <File>Texts/GoldenAge_Texts_Religious.xml</File>
+    </UpdateText>
+	
+	<UpdateDatabase id="Tech_Civic">
+	  <Properties><LoadOrder>8240</LoadOrder></Properties>  
+      <Criteria>TECH_CIVIC</Criteria>	 
+		  <File>GoldenAge_Civics.sql</File>	
+		  <File>GoldenAge_Technologies.sql</File>
+	</UpdateDatabase>	
+	<UpdateDatabase id="Tech_Civic">
+	  <Properties><LoadOrder>8241</LoadOrder></Properties>  
+      <Criteria>TECH_CIVIC</Criteria>	 
+          <!-- Must load after GoldenAge_Civics and GoldenAge_Technologies-->
+		  <File>GoldenAge_Civic_Tech_cost.sql</File>	
+	</UpdateDatabase>	
+	<UpdateText id="Tech_Civic">
+	  <Properties><LoadOrder>8242</LoadOrder></Properties>
+      <Criteria>TECH_CIVIC</Criteria>	  
+	      <File>Texts/GoldenAge_Texts_Techs_Civics.xml</File> 
+    </UpdateText>	
+	
+	<UpdateDatabase id="Governors">
+	  <Properties><LoadOrder>8250</LoadOrder></Properties>  
+      <Criteria>GOVERNORS</Criteria>	 
+          <File>GoldenAge_Governors.xml</File>
+		  <File>GoldenAge_Governors.sql</File>
+	</UpdateDatabase>	
+	<UpdateText id="Governors">
+	  <Properties><LoadOrder>8251</LoadOrder></Properties>
+      <Criteria>GOVERNORS</Criteria>	  
+	      <File>Texts/GoldenAge_Texts_Governors.xml</File> 
+    </UpdateText>	
+	<ImportFiles id="UI">
+        <Properties><LoadOrder>1</LoadOrder></Properties>
+		<Criteria>GOVERNORS</Criteria>	  
+		<File>UI/GovernorPanel.xml</File>
+    </ImportFiles>	
+		
+	<UpdateDatabase id="Greatpersons">
+	  <Properties><LoadOrder>8260</LoadOrder></Properties>  
+      <Criteria>GREATPERSONS</Criteria>	 
+          <File>GoldenAge_GreatPersons.sql</File>
+		  <File>GoldenAge_GreatWorks.sql</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="Greatpersons">
+	  <Properties><LoadOrder>8261</LoadOrder></Properties>  
+      <Criteria>GA_GREATPERSON_BABYLON_GA</Criteria>	 
+          <File>DLC_Support/GoldenAge_DLC_Greatpersons.sql</File>
+	</UpdateDatabase>
+	<UpdateText id="Greatpersons">
+	  <Properties><LoadOrder>8262</LoadOrder></Properties>
+      <Criteria>GREATPERSONS</Criteria>	  
+          <File>Texts/GoldenAge_Texts_GreatPersons.xml</File> 
+    </UpdateText>	
+			
+	<UpdateDatabase id="Warfare">
+	  <Properties><LoadOrder>8270</LoadOrder></Properties>  
+      <Criteria>WARFARE</Criteria>	 		  
+		  <File>GoldenAge_UnitExpansion_Civilian_Support.sql</File> 
+		  <File>GoldenAge_UnitExpansion_FireSupport.sql</File> 
+		  <File>GoldenAge_UnitExpansion_Land.sql</File> 
+		  <File>GoldenAge_UnitExpansion_Navy_Air.sql</File> 
+		  <File>GoldenAge_UnitExpansion_UU.sql</File> 		  
+	</UpdateDatabase>	
+	<UpdateDatabase id="Warfare">
+	  <Properties><LoadOrder>8271</LoadOrder></Properties>  
+      <Criteria>WARFARE</Criteria>	 
+	      <File>GoldenAge_UnitAbilities.sql</File>			  
+		  <File>GoldenAge_UnitPromotions.sql</File>
+	      <File>GoldenAge_Units.xml</File>   
+		  <File>GoldenAge_Units.sql</File> 	  
+	</UpdateDatabase>			
+	<UpdateText id="Warfare">
+	  <Properties><LoadOrder>8272</LoadOrder></Properties>
+      <Criteria>WARFARE</Criteria>	  
+          <File>Texts/GoldenAge_Texts_Units.xml</File>
+		  <File>Texts/GoldenAge_Texts_Units_Promotions.xml</File>
+		  <File>Texts/GoldenAge_Texts_Units_Expansion.xml</File>	
+    </UpdateText>
+	<UpdateIcons id="Icons">
+	  <Properties><LoadOrder>8273</LoadOrder></Properties>
+	  <Criteria>WARFARE</Criteria>	  
+		  <File>Icons/GoldenAge_Icons_Units.xml</File>
+		  <File>Icons/GoldenAge_Icons_Units.sql</File>
+		  <File>Icons/GoldenAge_Icons_Units_Civilian_Support.sql</File>
+    </UpdateIcons>
+			
+	<UpdateDatabase id="Nationalwonder">
+	  <Properties><LoadOrder>8281</LoadOrder></Properties>  
+      <Criteria>NATIONALWONDER</Criteria>	 
+          <File>GoldenAge_National_Wonders.xml</File>
+		  <File>GoldenAge_National_Wonders.sql</File>		  
+	</UpdateDatabase>	
+	<UpdateText id="Nationalwonder">
+	  <Properties><LoadOrder>8282</LoadOrder></Properties>
+      <Criteria>NATIONALWONDER</Criteria>	  
+          <File>Texts/GoldenAge_Texts_NationalWonders.xml</File>
+    </UpdateText>	
+	<UpdateIcons id="NATIONALWONDER">
+	  <Properties><LoadOrder>18281</LoadOrder></Properties>
+	  <Criteria>NATIONALWONDER</Criteria>	  
+		  <File>Icons/GoldenAge_Icons_NationalWonders.sql</File>
+    </UpdateIcons>	
+		
+	<UpdateDatabase id="Buildings">
+	  <Properties><LoadOrder>8285</LoadOrder></Properties>  
+      <Criteria>BUILDING</Criteria>	
+	      <File>GoldenAge_Buildings.xml</File>	
+		  <File>GoldenAge_Buildings.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Buildings_Major.xml</File>
+		  <File>Major_Civilizations/GoldenAge_Buildings_Major.sql</File>
+		  <File>DLC_Support/GoldenAge_DLC_Buildings_Major.sql</File>
+	</UpdateDatabase>
+	<UpdateText id="Buildings">
+	  <Properties><LoadOrder>8285</LoadOrder></Properties>
+      <Criteria>BUILDING</Criteria>	  
+	      <File>Texts/GoldenAge_Texts_Buildings.xml</File>  
+    </UpdateText>
+
+    <UpdateDatabase id="Districts">
+	  <Properties><LoadOrder>8291</LoadOrder></Properties>  
+      <Criteria>DISTRICT</Criteria>	 
+	      <File>GoldenAge_Districts.xml</File>         
+		  <File>Major_Civilizations/GoldenAge_Districts_Major.xml</File>  	
+		  <File>Major_Civilizations/GoldenAge_Districts_Major.sql</File>  		  
+		  <File>DLC_Support/GoldenAge_DLC_Districts_Major.sql</File> 
+	</UpdateDatabase>
+	<UpdateDatabase id="Districts">
+	  <Properties><LoadOrder>8292</LoadOrder></Properties>  
+      <Criteria>DISTRICT</Criteria>	 
+	      <File>GoldenAge_Districts.sql</File> 
+	</UpdateDatabase>
+	<UpdateText id="Districts">
+	  <Properties><LoadOrder>8293</LoadOrder></Properties>
+      <Criteria>DISTRICT</Criteria>
+ 	      <File>Texts/GoldenAge_Texts_Districts.xml</File>
+		  <File>Texts/GoldenAge_Texts_DistrictAdjacencies.xml</File>	
+    </UpdateText>		
+
+	
+	<!-- <UpdateDatabase id="Specialist"> -->
+	  <!-- <Properties><LoadOrder>8295</LoadOrder></Properties>   -->
+      <!-- <Criteria>SPECIALIST</Criteria>	  -->
+	      <!-- <File>GoldenAge_Specialists.sql</File>  -->
+	<!-- </UpdateDatabase> -->
+	
+	<UpdateDatabase id="Improvements">
+	  <Properties><LoadOrder>8301</LoadOrder></Properties>  
+      <Criteria>IMPROVEMENT</Criteria>	
+	      <File>GoldenAge_Improvements.sql</File>	
+		  <File>GoldenAge_Improvements.xml</File>
+	</UpdateDatabase>
+	<UpdateText id="Improvements">
+	  <Properties><LoadOrder>8302</LoadOrder></Properties>
+      <Criteria>IMPROVEMENT</Criteria>	
+	      <File>Texts/GoldenAge_Texts_Improvements.xml</File>	 
+    </UpdateText>
+	
+	<UpdateDatabase id="Route">
+	  <Properties><LoadOrder>8303</LoadOrder></Properties>  
+      <Criteria>ROUTE</Criteria>	
+		  <File>GoldenAge_Routes.xml</File>
+	</UpdateDatabase>
+	
+	
+	<UpdateDatabase id="Projects">
+	  <Properties><LoadOrder>8311</LoadOrder></Properties>  
+      <Criteria>PROJECT</Criteria>	 
+	      <File>GoldenAge_Projects.sql</File>
+		  <File>GoldenAge_Projects.xml</File>
+	</UpdateDatabase>
+	<UpdateText id="Projects">
+	  <Properties><LoadOrder>8312</LoadOrder></Properties>
+      <Criteria>PROJECT</Criteria>	 
+          <File>Texts/GoldenAge_Texts_Projects.xml</File>	  	  
+    </UpdateText>
+	
+	<UpdateDatabase id="Resources">
+	  <Properties><LoadOrder>8321</LoadOrder></Properties>  
+      <Criteria>RESOURCE</Criteria>	 
+	      <File>GoldenAge_Resources.sql</File>	
+		  <File>GoldenAge_Resources.xml</File>
+	</UpdateDatabase>
+	<UpdateIcons id="Resources">
+	  <Properties><LoadOrder>8321</LoadOrder></Properties>  
+      <Criteria>RESOURCE</Criteria>	
+      <File>Icons/GoldenAge_Icons_Gold_Resources.xml</File>
+    </UpdateIcons>
+	<!-- <UpdateText id="Resources"> -->
+	  <!-- <Properties><LoadOrder>8322</LoadOrder></Properties> -->
+      <!-- <Criteria>RESOURCE</Criteria>	   -->
+    <!-- </UpdateText> -->
+	
+	<UpdateDatabase id="Featureterrain">
+	  <Properties><LoadOrder>8331</LoadOrder></Properties>  
+      <Criteria>FEATURETERRAIN</Criteria>	 	        
+		  <File>GoldenAge_Features.sql</File>
+		  <File>GoldenAge_Features.xml</File>
+		  <File>GoldenAge_Terrains.xml</File>
+	</UpdateDatabase>
+	<!-- <UpdateText id="Featureterrain"> -->
+	  <!-- <Properties><LoadOrder>8332</LoadOrder></Properties> -->
+      <!-- <Criteria>FEATURETERRAIN</Criteria>	   -->
+    <!-- </UpdateText> -->
+	
+	<UpdateDatabase id="Governments">
+	  <Properties><LoadOrder>8341</LoadOrder></Properties>  
+      <Criteria>GOVERNMENT</Criteria>	
+	      <File>GoldenAge_Governments.xml</File>
+		  <File>GoldenAge_Governments.sql</File>
+		  <File>GoldenAge_Moments.xml</File>
+		  <File>GoldenAge_Moments.sql</File>
+	</UpdateDatabase>
+	<UpdateText id="Governments">
+	  <Properties><LoadOrder>8342</LoadOrder></Properties>
+      <Criteria>GOVERNMENT</Criteria>	  
+	      <File>Texts/GoldenAge_Texts_Governments.xml</File>
+    </UpdateText>
+	
+	<UpdateDatabase id="Randomevents">
+	  <Properties><LoadOrder>8351</LoadOrder></Properties>  
+      <Criteria>RANDOMEVENTS</Criteria>	 	        		  
+		  <File>GoldenAge_GoodyHuts.xml</File>	
+		  <File>GoldenAge_RandomEvents.xml</File>
+		  <File>GoldenAge_RandomEvents.sql</File>		  
+	</UpdateDatabase>
+	<UpdateDatabase id="Randomevents">
+	  <Properties><LoadOrder>8352</LoadOrder></Properties>  
+      <Criteria>RANDOMEVENTS_DLC</Criteria>	 	        
+		  <File>DLC_Support/GoldenAge_DLC_GoodyHuts_RandomEvents.sql</File>	  
+	</UpdateDatabase>
+	
+	<UpdateDatabase id="Diplomatic">
+	  <Properties><LoadOrder>8361</LoadOrder></Properties>  
+      <Criteria>DIPLOMATIC</Criteria>	 	        		  
+		  <File>GoldenAge_Diplomatic.xml</File>
+		  <File>GoldenAge_Diplomatic.sql</File>
+	</UpdateDatabase>
+	
+	<UpdateDatabase id="Map">
+	  <Properties><LoadOrder>8371</LoadOrder></Properties>  
+      <Criteria>MAP</Criteria>	 	        		  
+		  <File>Maps/GoldenAge_Maps.sql</File>
+		  <File>Maps/GoldenAge_StartBias.sql</File>
+	</UpdateDatabase>
+	<ImportFiles id="MapGeneration">
+      <Properties><LoadOrder>8371</LoadOrder></Properties>
+	  <Criteria>MAP</Criteria>	
+	  <File>Maps/TerrainGenerator.lua</File>
+	  
+      <File>Maps/Pangaea.lua</File>
+      <File>Maps/Lakes.lua</File>
+      <File>Maps/Continents.lua</File>
+	  <File>Maps/Continents_Islands.lua</File>
+	  <File>Maps/Small_Continents.lua</File>
+    </ImportFiles>
+	
+	<UpdateDatabase id="AI">
+	  <Properties><LoadOrder>8381</LoadOrder></Properties>  
+      <Criteria>AI</Criteria>	 	        		  
+		  <File>GoldenAge_AI.sql</File>
+          <File>GoldenAge_Difficulty.sql</File> 
+	</UpdateDatabase>
+	
+	<UpdateDatabase id="WMD">
+	  <Properties><LoadOrder>8383</LoadOrder></Properties>  
+      <Criteria>WMD</Criteria>	 	        		  
+		  <File>GoldenAge_WMDs.sql</File>
+	</UpdateDatabase>
+	<UpdateIcons id="WMD">
+	  <Properties><LoadOrder>8383</LoadOrder></Properties>  
+      <Criteria>WMD</Criteria>	
+      <File>Icons/GoldenAge_Icons_WMDs.xml</File>
+    </UpdateIcons>
+	<UpdateText id="WMD">
+	  <Properties><LoadOrder>8383</LoadOrder></Properties>
+      <Criteria>WMD</Criteria>	  
+	      <File>Texts/GoldenAge_Texts_WMDs.xml</File>
+    </UpdateText>
+	<ImportFiles id="UI">
+      <Properties><LoadOrder>8383</LoadOrder></Properties>
+	  <Criteria>WMD</Criteria>	  
+		<File>UI/CityBannerManager.lua</File>
+		<File>UI/CityBannerManager.xml</File>
+		<File>UI/TopPanel.lua</File>
+		<File>UI/TopPanel.xml</File>
+    </ImportFiles>
+	
+
+	<UpdateDatabase id="Buildingexpansion">
+	  <Properties><LoadOrder>8385</LoadOrder></Properties>  
+		  <File>GoldenAge_Buildings_Expansion.sql</File>	
+	</UpdateDatabase>
+	<ImportFiles id="UI">
+	  <Properties><LoadOrder>8386</LoadOrder></Properties>  
+      <Criteria>BUILDINGEXPANSION</Criteria>
+	  <File>UI/ToolTipLoader_Expansion2_Involution.lua</File>
+    </ImportFiles>
+	<UpdateDatabase id="Buildingexpansion">
+	  <Properties><LoadOrder>8386</LoadOrder></Properties>  
+      <Criteria>BUILDINGEXPANSION</Criteria>
+		  <File>GoldenAge_Buildings_Expansion_Aqueduct.sql</File>	
+		  <File>GoldenAge_Buildings_Expansion_Campus.sql</File>
+		  <File>GoldenAge_Buildings_Expansion_Commercial.sql</File>
+		  <File>GoldenAge_Buildings_Expansion_IndustrialZone.sql</File>
+		  <File>GoldenAge_Buildings_Expansion_Theater.sql</File>	
+		  <File>GoldenAge_Buildings_Expansion_Entertainment.sql</File>
+		  <File>GoldenAge_Buildings_Expansion_Neighborhood.sql</File>
+	</UpdateDatabase>
+	<UpdateText id="Buildingexpansion">
+	  <Properties><LoadOrder>8386</LoadOrder></Properties>
+      <Criteria>BUILDINGEXPANSION</Criteria>	
+		  <File>Texts/GoldenAge_Texts_Buildings_Expansion.xml</File>	  
+    </UpdateText>	
+	<UpdateIcons id="Buildingexpansion">
+      <Criteria>BUILDINGEXPANSION</Criteria>
+    <Properties><LoadOrder>8386</LoadOrder></Properties>
+      <File>Icons/GoldenAge_Icons_Building_Expansion.sql</File>
+	  <File>Icons/GoldenAge_Icons_RenewableEnergyComplexity.sql</File>
+    </UpdateIcons>
+	<AddGameplayScripts id="NewAction">
+      <Criteria>BUILDINGEXPANSION</Criteria>
+	  <Properties><LoadOrder>8386</LoadOrder></Properties>
+	  <File>GoldenAge_Buildings_Expansion_Script.lua</File>
+    </AddGameplayScripts>
+
+	
+	<ImportFiles id="UI">
+      <Properties><LoadOrder>8390</LoadOrder></Properties>
+	  <Criteria>GA_CITYSTATE</Criteria>
+      <File>UI/CityStates.lua</File>
+      <File>UI/CityStates.xml</File>
+    </ImportFiles>
+    <ReplaceUIScript id="UI">
+      <Properties>
+		<LoadOrder>8390</LoadOrder>
+		<Criteria>GA_CITYSTATE</Criteria>
+        <LuaContext>CityStates</LuaContext>
+        <LuaReplace>UI/CityStates.lua</LuaReplace>
+      </Properties>	  
+    </ReplaceUIScript>
+	<UpdateDatabase id="Citystate">
+	  <Properties><LoadOrder>8391</LoadOrder></Properties>  
+      <Criteria>GA_CITYSTATE</Criteria>	 	        		  
+		<File>GoldenAge_CityStates.sql</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="Citystate_CSE">
+	  <Properties><LoadOrder>8392</LoadOrder></Properties>  
+      <Criteria>GA_CITYSTATE_CSE</Criteria>	 	        		  
+		<File>Mod_Support/GoldenAge_CityStates_CSE.sql</File>
+	</UpdateDatabase>
+	<UpdateText id="Citystate">
+	  <Properties><LoadOrder>8392</LoadOrder></Properties>
+      <Criteria>GA_CITYSTATE</Criteria>	  
+	      <File>Texts/GoldenAge_Texts_CityStates.sql</File>
+    </UpdateText>
+			
+	<!-- DLC basic-->
+	<UpdateDatabase id="Gameplay_DLC" criteria="GRANCOLOMBIAMAYA_GA">
+		<Properties><LoadOrder>8390</LoadOrder></Properties>  
+		<File>DLC_Support/GoldenAge_general_GranColombiaMaya.sql</File>
+	</UpdateDatabase>
+	
+    <UpdateDatabase id="Gameplay_DLC" criteria="ETHIOPIA_GA">
+		<Properties><LoadOrder>8390</LoadOrder></Properties>  
+		<File>DLC_Support/GoldenAge_general_Ethiopia.sql</File>
+	</UpdateDatabase>	
+	
+	<UpdateDatabase id="Gameplay_DLC" criteria="BYZANTIUM_GAUL_GA">
+		<Properties><LoadOrder>8390</LoadOrder></Properties>  
+		<File>DLC_Support/GoldenAge_general_Byzantium_Gaul.sql</File>
+	</UpdateDatabase>
+	
+    <UpdateDatabase id="Gameplay_DLC" criteria="BABYLON_GA">
+		<Properties><LoadOrder>8390</LoadOrder></Properties>  
+		<File>DLC_Support/GoldenAge_general_Babylon.sql</File>
+	</UpdateDatabase>	
+	
+	<UpdateDatabase id="Gameplay_DLC" criteria="KUBLAIKHAN_VIETNAM_GA">
+		<Properties><LoadOrder>8390</LoadOrder></Properties>  
+		<File>DLC_Support/GoldenAge_general_KublaiKhan_Vietnam.sql</File>
+	</UpdateDatabase>	
+	
+	<UpdateDatabase id="Gameplay_Major">
+	  <Properties><LoadOrder>8400</LoadOrder></Properties>  
+	  <Criteria>CIVILIZATIONS_AND_LEADERS</Criteria>
+		  <File>Major_Civilizations/GoldenAge_Improvements_Major.xml</File>
+		  <File>Major_Civilizations/GoldenAge_Improvements_Major.sql</File>
+		  <File>DLC_Support/GoldenAge_DLC_Improvements_Major.sql</File>	  
+		  
+		  <File>Major_Civilizations/GoldenAge_America.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Arabia.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Brazil.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Canada.sql</File>
+		  <File>Major_Civilizations/GoldenAge_China.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Cree.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Egypt.sql</File>
+		  <File>Major_Civilizations/GoldenAge_England.sql</File>
+		  <File>Major_Civilizations/GoldenAge_France.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Georgia.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Greece.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Gremany.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Hungray.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Inca.sql</File>
+		  <File>Major_Civilizations/GoldenAge_India.sql</File>	
+		  <File>Major_Civilizations/GoldenAge_Japan.sql</File>	
+		  <File>Major_Civilizations/GoldenAge_Kongo.sql</File>	
+		  <File>Major_Civilizations/GoldenAge_Korea.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Mali.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Maori.sql</File>
+          <File>Major_Civilizations/GoldenAge_Mapuche.sql</File>
+	      <File>Major_Civilizations/GoldenAge_Mongolia.sql</File>
+          <File>Major_Civilizations/GoldenAge_Netherlands.sql</File>		  
+		  <File>Major_Civilizations/GoldenAge_Norway.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Ottoman.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Phoenicia.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Rome.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Russia.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Scotland.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Scythia.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Spain.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Sumeria.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Sweden.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Zulu.sql</File>  	  
+	</UpdateDatabase>	   	   
+	
+	<UpdateDatabase id="Gameplay_Major_DLC" criteria="CIVILIZATIONS_AND_LEADERS_AUSTRALIA_GA">
+		<Properties><LoadOrder>8401</LoadOrder></Properties>  
+		<File>DLC_Support/Major/GoldenAge_Australia.sql</File>
+	</UpdateDatabase>	
+	<UpdateDatabase id="Gameplay_Major_DLC" criteria="CIVILIZATIONS_AND_LEADERS_AZTEC_GA">
+		<Properties><LoadOrder>8402</LoadOrder></Properties>  
+		<File>DLC_Support/Major/GoldenAge_Aztec.sql</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="Gameplay_Major_DLC" criteria="CIVILIZATIONS_AND_LEADERS_BABYLON_GA">
+		<Properties><LoadOrder>8403</LoadOrder></Properties>  
+		<File>DLC_Support/Major/GoldenAge_Babylon.sql</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="Gameplay_Major_DLC" criteria="CIVILIZATIONS_AND_LEADERS_BYZANTIUM_GAUL_GA">
+		<Properties><LoadOrder>8404</LoadOrder></Properties>  
+		<File>DLC_Support/Major/GoldenAge_Byzantium.sql</File>
+		<File>DLC_Support/Major/GoldenAge_Gaul.sql</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="Gameplay_Major_DLC" criteria="CIVILIZATIONS_AND_LEADERS_CATHERINEDEMEDICI_GA">
+		<Properties><LoadOrder>8405</LoadOrder></Properties>  
+		<File>DLC_Support/Major/GoldenAge_France_CatherineDeMedici.sql</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="Gameplay_Major_DLC" criteria="CIVILIZATIONS_AND_LEADERS_ETHIOPIA_GA">
+		<Properties><LoadOrder>8406</LoadOrder></Properties>  
+		<File>DLC_Support/Major/GoldenAge_Ethiopia.sql</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="Gameplay_Major_DLC" criteria="CIVILIZATIONS_AND_LEADERS_GRANCOLOMBIA_MAYA_GA">
+		<Properties><LoadOrder>8407</LoadOrder></Properties>  
+		<File>DLC_Support/Major/GoldenAge_GranColombia.sql</File>
+		<File>DLC_Support/Major/GoldenAge_Maya.sql</File>	
+	</UpdateDatabase>
+	<UpdateDatabase id="Gameplay_Major_DLC" criteria="CIVILIZATIONS_AND_LEADERS_INDONESIA_KHMER_GA">
+		<Properties><LoadOrder>8408</LoadOrder></Properties>  
+		<File>DLC_Support/Major/GoldenAge_Indonesia.sql</File>	
+        <File>DLC_Support/Major/GoldenAge_Khmer.sql</File>	
+	</UpdateDatabase>
+	<UpdateDatabase id="Gameplay_Major_DLC" criteria="CIVILIZATIONS_AND_LEADERS_KUBLAIKHAN_VIETNAM_GA">
+		<Properties><LoadOrder>8409</LoadOrder></Properties>  
+		<File>DLC_Support/Major/GoldenAge_China_KublaiKhan.sql</File>	
+		<File>DLC_Support/Major/GoldenAge_Vietnam.sql</File>		
+	</UpdateDatabase>
+    <AddGameplayScripts id="Gameplay_Major_DLC"  criteria="CIVILIZATIONS_AND_LEADERS_KUBLAIKHAN_VIETNAM_GA">
+      <Properties><LoadOrder>8409</LoadOrder></Properties>  
+	  <File>DLC_Support/Major/GoldenAge_China_KublaiKhan.lua</File>
+    </AddGameplayScripts>
+    <AddUserInterfaces id="Gameplay_Major_DLC"  criteria="CIVILIZATIONS_AND_LEADERS_KUBLAIKHAN_VIETNAM_GA">
+      <Properties>
+        <Context>InGame</Context>
+        <LoadOrder>8409</LoadOrder>
+      </Properties>
+	  <File>DLC_Support/Major/GoldenAge_China_KublaiKhan_ui.xml</File>
+    </AddUserInterfaces>
+	<UpdateDatabase id="Gameplay_Major_DLC" criteria="CIVILIZATIONS_AND_LEADERS_MACEDONIA_PERSIA_GA">
+		<Properties><LoadOrder>8410</LoadOrder></Properties>  
+		<File>DLC_Support/Major/GoldenAge_Macedon.sql</File>	
+		<File>DLC_Support/Major/GoldenAge_Persia.sql</File>
+	</UpdateDatabase>	
+	<UpdateDatabase id="Gameplay_Major_DLC" criteria="CIVILIZATIONS_AND_LEADERS_NUBIA_AMANITORE_GA">
+		<Properties><LoadOrder>8411</LoadOrder></Properties>  
+		<File>DLC_Support/Major/GoldenAge_Nubia.sql</File>
+	</UpdateDatabase>
+    <UpdateDatabase id="Gameplay_Major_DLC" criteria="CIVILIZATIONS_AND_LEADERS_POLAND_JADWIGA_GA">
+		<Properties><LoadOrder>8412</LoadOrder></Properties>  
+		<File>DLC_Support/Major/GoldenAge_Poland.sql</File>	
+	</UpdateDatabase>	
+	<UpdateDatabase id="Gameplay_Major_DLC" criteria="CIVILIZATIONS_AND_LEADERS_PORTUGAL_GA">
+		<Properties><LoadOrder>8413</LoadOrder></Properties>  
+		<File>DLC_Support/Major/GoldenAge_Portugal.sql</File>	
+	</UpdateDatabase>	
+	<UpdateDatabase id="Gameplay_Major_DLC" criteria="CIVILIZATIONS_AND_LEADERS_RULERS_OF_CHINA_GA">
+		<Properties><LoadOrder>8413</LoadOrder></Properties>  
+		<File>DLC_Support/Major/GoldenAge_China_Qin_alt.sql</File>	
+		<File>DLC_Support/Major/GoldenAge_China_Wuzetian.sql</File>	
+		<File>DLC_Support/Major/GoldenAge_China_Yongle.sql</File>	
+	</UpdateDatabase>	
+	<UpdateDatabase id="Gameplay_Major_DLC" criteria="CIVILIZATIONS_AND_LEADERS_RULERS_OF_ENGLAND_GA">
+		<Properties><LoadOrder>8413</LoadOrder></Properties>  
+		<File>DLC_Support/Major/GoldenAge_England_Elizabeth.sql</File>	
+		<File>DLC_Support/Major/GoldenAge_England_Victoria_alt.sql</File>	
+		<File>DLC_Support/Major/GoldenAge_Norway_Harald_alt.sql</File>	
+	</UpdateDatabase>	
+	
+	<UpdateDatabase id="Gameplay_Major_DLC" criteria="CIVILIZATIONS_AND_LEADERS_RULERS_OF_THE_SAHARA_GA">
+		<Properties><LoadOrder>8413</LoadOrder></Properties>  
+		<File>DLC_Support/Major/GoldenAge_Egypt_Cleopatra_alt.sql</File>	
+		<File>DLC_Support/Major/GoldenAge_Egypt_Ramses.sql</File>	
+		<File>DLC_Support/Major/GoldenAge_Mali_Sundiata_Keita.sql</File>	
+	</UpdateDatabase>		
+	<UpdateDatabase id="Gameplay_Major_DLC" criteria="CIVILIZATIONS_AND_LEADERS_TEDDYROOSEVELT_GA">
+		<Properties><LoadOrder>8414</LoadOrder></Properties>  
+		<File>DLC_Support/Major/GoldenAge_America_TeddyRoosevelt.sql</File>	
+	</UpdateDatabase>
+	<UpdateDatabase id="Gameplay_Major_DLC" criteria="CIVILIZATIONS_AND_LEADERS_JULIUSCAESAR_GA">
+		<Properties><LoadOrder>8415</LoadOrder></Properties>  
+		  <File>DLC_Support/Major/GoldenAge_Rome_Caesar.sql</File>			
+	</UpdateDatabase>		
+	<UpdateDatabase id="Gameplay_Major_DLC" criteria="CIVILIZATIONS_AND_LEADERS_GREAT_BUILDERS_GA">
+		<Properties><LoadOrder>8416</LoadOrder></Properties>  
+		<File>DLC_Support/Major/GoldenAge_Byzantium_Theodora.sql</File>	
+		<File>DLC_Support/Major/GoldenAge_Gemany_Ludwig.sql</File>
+		<File>DLC_Support/Major/GoldenAge_Korea_Sejong.sql</File>		
+	</UpdateDatabase>	
+	<UpdateDatabase id="Gameplay_Major_DLC" criteria="CIVILIZATIONS_AND_LEADERS_GREATNEGOTIATORS_GA">
+		<Properties><LoadOrder>8416</LoadOrder></Properties>  
+		<File>DLC_Support/Major/GoldenAge_America_AbrahamLincoln.sql</File>	
+		<File>DLC_Support/Major/GoldenAge_Kongo_Nzinga_Mbande.sql</File>
+		<File>DLC_Support/Major/GoldenAge_Arabia_Saladin.sql</File>		
+	</UpdateDatabase>	
+	<UpdateDatabase id="Gameplay_Major_DLC" criteria="CIVILIZATIONS_AND_LEADERS_GREATWARLORDS_GA">
+		<Properties><LoadOrder>8416</LoadOrder></Properties>  
+		<File>DLC_Support/Major/GoldenAge_Japan_Tokugawa.sql</File>	
+		<File>DLC_Support/Major/GoldenAge_Ottoman_Suleiman_alt.sql</File>
+		<File>DLC_Support/Major/GoldenAge_Persia_Nader_Shah.sql</File>		
+	</UpdateDatabase>	
+
+
+	<UpdateText id="Gameplay_Major">
+	  <Properties><LoadOrder>8420</LoadOrder></Properties>
+      <Criteria>CIVILIZATIONS_AND_LEADERS</Criteria>	  
+		  <File>Texts/GoldenAge_Texts_Major.sql</File>
+    </UpdateText>
+	
+	<UpdateDatabase id="Gameplay_Major_Mod">
+	  <Properties><LoadOrder>8430</LoadOrder></Properties>  
+	  <Criteria>CIVILIZATIONS_AND_LEADERS_WILLIAM_OF_ORANGE</Criteria>
+		  <File>Mod_Support/Major/Leader_William_of_Orange.sql</File>	
+	</UpdateDatabase>	
+	<UpdateDatabase id="Gameplay_Major_Mod">
+	  <Properties><LoadOrder>8430</LoadOrder></Properties>  
+	  <Criteria>CIVILIZATIONS_AND_LEADERS_OTTO_VON_BISMARCK</Criteria>
+		  <File>Mod_Support/Major/Leader_Otto_von_Bismarck.sql</File>	
+	</UpdateDatabase>
+	<UpdateDatabase id="Gameplay_Major_Mod">
+	  <Properties><LoadOrder>8430</LoadOrder></Properties>  
+	  <Criteria>CIVILIZATIONS_AND_LEADERS_DARIUS_I</Criteria>
+		  <File>Mod_Support/Major/Leader_Darius_I.sql</File>	
+	</UpdateDatabase>
+	<UpdateDatabase id="Gameplay_Major_Mod">
+	  <Properties><LoadOrder>8430</LoadOrder></Properties>  
+	  <Criteria>CIVILIZATIONS_AND_LEADERS_GAJA_MADA</Criteria>
+		  <File>Mod_Support/Major/Leader_Gaja_Mada.sql</File>	
+	</UpdateDatabase>
+	<UpdateText id="Gameplay_Major_Mod">
+	  <Properties><LoadOrder>8430</LoadOrder></Properties>
+      <Criteria>CIVILIZATIONS_AND_LEADERS</Criteria>	
+		  <File>Mod_Support/Major/Leader_texts.sql</File>
+    </UpdateText>
+	
+
+<!-- gamemode -->	
+	<UpdateDatabase id="Monopolies_mode">
+	  <Properties><LoadOrder>18605</LoadOrder></Properties>  
+      <Criteria>MONOPOLIES_GA</Criteria>	 
+          <File>DLC_Support/GoldenAge_mode_Monopolies.sql</File>	
+		  <File>DLC_Support/GoldenAge_mode_Monopolies_Gold.xml</File>	
+	</UpdateDatabase>
+	<UpdateIcons id="Monopolies_mode">
+      <Criteria>MONOPOLIES_GA</Criteria>
+    <Properties><LoadOrder>18605</LoadOrder></Properties>
+      <File>Icons/GoldenAge_Icons_Monopolies.xml</File>
+    </UpdateIcons>
+	<UpdateText id="Monopolies_mode">
+	  <Properties><LoadOrder>18605</LoadOrder></Properties>
+      <Criteria>MONOPOLIES_GA</Criteria>
+		  <File>Texts/GoldenAge_Texts_Monopolies.xml</File>	
+    </UpdateText>	
+	<UpdateDatabase id="Monopolies_mode_BXP">
+	  <Properties><LoadOrder>18605</LoadOrder></Properties>  
+      <Criteria>MONOPOLIES_GA_BXP</Criteria>	 
+          <File>DLC_Support/GoldenAge_mode_Monopolies_BXP.sql</File>	
+	</UpdateDatabase>
+			
+	<UpdateDatabase id="Randomevents">
+	  <Properties><LoadOrder>8353</LoadOrder></Properties>  
+      <Criteria>APOCALYPSE_GA</Criteria>	 	        
+		  <File>DLC_Support/GoldenAge_mode_Apocalypse.sql</File>	  
+	</UpdateDatabase>
+	
+	<UpdateDatabase id="Secretsocieties_mode">
+	  <Properties><LoadOrder>8601</LoadOrder></Properties>  
+      <Criteria>SECRETSOCIETIES_GA</Criteria>	 
+          <File>DLC_Support/GoldenAge_mode_Secretsocieties.sql</File>	
+	</UpdateDatabase>
+	<UpdateText id="Secretsocieties_mode">
+	  <Properties><LoadOrder>18571</LoadOrder></Properties>
+      <Criteria>SECRETSOCIETIES_GA</Criteria>	
+		  <File>Texts/GoldenAge_Texts_Secretsocieties.xml</File>	  
+    </UpdateText>
+	
+	<UpdateDatabase id="Dramaticages_mode">
+	  <Properties><LoadOrder>8602</LoadOrder></Properties>  
+      <Criteria>DRAMATICAGES_GA</Criteria>	 
+          <File>DLC_Support/GoldenAge_mode_DramaticAges.sql</File>	
+	</UpdateDatabase>
+	<UpdateText id="Dramaticages_mode">
+	  <Properties><LoadOrder>8602</LoadOrder></Properties>
+      <Criteria>DRAMATICAGES_GA</Criteria>
+		  <File>Texts/GoldenAge_Texts_DramaticAges.xml</File>	
+    </UpdateText>
+	
+	<UpdateDatabase id="Heroes_mode">
+	  <Properties><LoadOrder>8603</LoadOrder></Properties>  
+      <Criteria>HEROES_GA</Criteria>	 
+          <File>DLC_Support/GoldenAge_mode_Heroes.sql</File>	
+	</UpdateDatabase>	
+	
+
+	<!-- 新东西-->				
+	<UpdateDatabase id="Megalopolis">
+	  <Properties><LoadOrder>8790</LoadOrder></Properties>  
+      <Criteria>MEGALOPOLIS</Criteria>	
+ 	      <File>GoldenAge_Megalopolis.sql</File>
+	</UpdateDatabase>	
+	<UpdateText id="Megalopolis">
+	  <Properties><LoadOrder>8790</LoadOrder></Properties>
+		<Criteria>MEGALOPOLIS</Criteria>
+			<File>Texts/GoldenAge_Texts_Megalopolis.xml</File>				
+    </UpdateText>
+	<ImportFiles id="UI">
+        <Properties><LoadOrder>1</LoadOrder></Properties>
+		<Criteria>MEGALOPOLIS</Criteria>
+	    <File>UI/AdjacencyBonusSupport.lua</File>
+    </ImportFiles>
+	
+	<UpdateDatabase id="Citylevel">
+	  <Properties><LoadOrder>8840</LoadOrder></Properties>  
+      <Criteria>CITYLEVEL</Criteria>	 
+			<File>GoldenAge_City_levels.sql</File>
+	</UpdateDatabase>
+	<UpdateText id="Citylevel">
+	  <Properties><LoadOrder>8841</LoadOrder></Properties>
+      <Criteria>CITYLEVEL</Criteria>	  
+		  <File>Texts/GoldenAge_Texts_CityLevels.xml</File>
+    </UpdateText>
+	
+	<AddGameplayScripts id="Citylevel">
+      <Criteria>CITYLEVEL</Criteria>
+	  <Properties><LoadOrder>8840</LoadOrder></Properties>
+	  <File>lua/GoldenAge_CityLevels.lua</File>
+    </AddGameplayScripts>
+
+	<!-- 模组支持 -->
+	<UpdateDatabase id="Mod_Support">
+	  <Properties><LoadOrder>8900</LoadOrder></Properties>  
+	      <!-- <File>Mod_Support/Botanist_Herdsman.sql</File> -->
+		  <!-- <File>Mod_Support/CIVITAS_City_States_Expanded.sql</File>		 -->
+          <!-- <File>Mod_Support/Great_Person_Adjustments.sql</File>		  		   -->
+		  <File>Mod_Support/Immigration.sql</File>
+		  <File>Mod_Support/National_Projects_Satellites.sql</File>
+		  <!-- <File>Mod_Support/Renewable_Energies_Complexity.sql</File>		  		  	 -->
+	</UpdateDatabase>	
+	<UpdateText id="Mod_Support">
+	  <Properties><LoadOrder>8901</LoadOrder></Properties>  		  
+		  <!-- <File>Mod_Support/CIVITAS_City_States_Expanded_Texts.sql</File> -->
+		  <!-- <File>Mod_Support/CIVITAS_City_States_Expanded_Texts.xml</File> -->
+		  <!-- <File>Mod_Support/Great_Person_Adjustments_Texts.xml</File> -->
+          <!-- <File>Mod_Support/Renewable_Energy_Complexity_Texts.xml</File>	 -->
+    </UpdateText>
+	
+  </InGameActions> 	
+	
+  <Files>	
+	<!--ARTDEF-->	
+	<File>ArtDefs/Unit_Expansion_Land.artdef</File>
+	<File>ArtDefs/Unit_Expansion_Navy.artdef</File>		  	
+	<File>ArtDefs/GA_FireSupport.artdef</File>  											   
+	<File>ArtDefs/Cultivation_Units.artdef</File> 
+	<File>ArtDefs/Monopolies_Units.artdef</File>   	
+	<File>ArtDefs/Stealth_Units.artdef</File> 
+	
+	<File>ArtDefs/GoldenAge_National_Wonders_Buildings.artdef</File>
+	<File>ArtDefs/GoldenAge_National_Wonders_Districts.artdef</File>
+	<File>ArtDefs/GoldenAge_National_Wonders_Landmarks.artdef</File>
+	
+	<File>ArtDefs/GoldenAge_Building_Expansion_Buildings.artdef</File>
+    <File>ArtDefs/GoldenAge_Building_Expansion_Landmarks.artdef</File>
+	<File>ArtDefs/GA_BXP_Buildings.artdef</File>   	
+	<File>ArtDefs/GA_BXP_Landmarks.artdef</File>  
+	
+    <File>ArtDefs/GoldenAge_WMD.artdef</File>
+	<File>ArtDefs/Clutter.artdef</File>   
+	<File>ArtDefs/Features.artdef</File>    
+
+	<!--ART-->
+    <File>GoldenAge.dep</File>
+	<!--UI-->
+	<File>UI/AdjacencyBonusSupport.lua</File>
+	<File>UI/CityPanel.lua</File>
+	<File>UI/CityPanelOverview.lua</File>
+	<File>UI/CitySupport.lua</File>
+	<File>UI/GovernorPanel.xml</File>
+	<File>UI/ProjectBuiltPopup.lua</File>
+	
+	<File>UI/CityStates.lua</File>
+    <File>UI/CityStates.xml</File>
+
+	<File>UI/CityBannerManager.lua</File>
+    <File>UI/CityBannerManager.xml</File>
+    <File>UI/TopPanel.lua</File>
+    <File>UI/TopPanel.xml</File>
+	
+	<File>UI/ToolTipLoader_Expansion2_Involution.lua</File>
+
+	<!--GAMEPLAY-->
+	<File>GoldenAge_AI.sql</File>	
+	<File>GoldenAge_Buildings.xml</File>
+	<File>GoldenAge_Buildings.sql</File>
+	<File>GoldenAge_Buildings_Expansion.sql</File>	
+	<File>GoldenAge_Buildings_Expansion_Aqueduct.sql</File>	
+	<File>GoldenAge_Buildings_Expansion_Campus.sql</File>
+	<File>GoldenAge_Buildings_Expansion_Commercial.sql</File>
+	<File>GoldenAge_Buildings_Expansion_IndustrialZone.sql</File>	
+	<File>GoldenAge_Buildings_Expansion_Theater.sql</File>
+	<File>GoldenAge_Buildings_Expansion_Entertainment.sql</File>
+	<File>GoldenAge_Buildings_Expansion_Neighborhood.sql</File>
+	<File>GoldenAge_Buildings_Expansion_Script.lua</File>
+	<File>GoldenAge_CitizenBonus.sql</File>
+	<File>GoldenAge_City_levels.sql</File>
+	<File>GoldenAge_CityStates.sql</File>
+	<File>GoldenAge_Civics.sql</File>	
+	<File>GoldenAge_Civic_Tech_cost.sql</File>	
+    <File>GoldenAge_Difficulty.sql</File>        		  	
+    <File>GoldenAge_Diplomatic.xml</File>   
+	<File>GoldenAge_Diplomatic.sql</File>	
+	<File>GoldenAge_Districts.sql</File>
+	<File>GoldenAge_Districts.xml</File>
+	<File>GoldenAge_Features.sql</File>
+	<File>GoldenAge_Features.xml</File>
+	<File>GoldenAge_GameSpeeds.sql</File>		
+	<File>GoldenAge_GoodyHuts.xml</File>
+	<File>GoldenAge_Governments.xml</File>
+	<File>GoldenAge_Governments.sql</File>
+	<File>GoldenAge_Governors.xml</File>
+	<File>GoldenAge_Governors.sql</File>
+	<File>GoldenAge_GreatPersons.sql</File>
+	<File>GoldenAge_GreatWorks.sql</File>
+	<File>GoldenAge_Happinesses.xml</File>
+	<File>GoldenAge_Improvements.sql</File>	
+	<File>GoldenAge_Improvements.xml</File>	
+	<File>GoldenAge_Megalopolis.sql</File>
+	<File>GoldenAge_Modifiers.xml</File>		  
+	<File>GoldenAge_Moments.xml</File>
+	<File>GoldenAge_Moments.sql</File>
+	<File>GoldenAge_National_Wonders.xml</File>	
+	<File>GoldenAge_National_Wonders.sql</File>	
+	<File>GoldenAge_Natural_Wonders.sql</File>
+	<File>GoldenAge_Pantheons.sql</File>
+	<File>GoldenAge_Pedia.sql</File>
+	<File>GoldenAge_Policies.xml</File>
+	<File>GoldenAge_Policies.sql</File>
+	<File>GoldenAge_Policies_Darkage.sql</File>	
+	<File>GoldenAge_Policies_Diplomatic.xml</File>		
+	<File>GoldenAge_Policies_Diplomatic.sql</File>		
+	<File>GoldenAge_Policies_Economic.xml</File>
+	<File>GoldenAge_Policies_Economic.sql</File>
+	<File>GoldenAge_Policies_Government.xml</File>	
+	<File>GoldenAge_Policies_Government.sql</File>	
+    <File>GoldenAge_Policies_Military.sql</File>
+	<File>GoldenAge_Projects.sql</File>
+	<File>GoldenAge_Projects.xml</File>
+	<File>GoldenAge_RandomEvents.xml</File>	
+	<File>GoldenAge_RandomEvents.sql</File>
+	<File>GoldenAge_Religions.sql</File>
+	<File>GoldenAge_Religions.xml</File>
+	<File>GoldenAge_Requirements.sql</File>	
+	<File>GoldenAge_Resources.sql</File>	
+	<File>GoldenAge_Resources.xml</File>		
+	<File>GoldenAge_Routes.xml</File>
+	<!-- <File>GoldenAge_Specialists.sql</File>	 -->	
+	<File>GoldenAge_TallplayCores.xml</File>
+    <File>GoldenAge_Technologies.sql</File>	
+	<File>GoldenAge_Terrains.xml</File>
+	<File>GoldenAge_UnitAbilities.sql</File>			  
+	<File>GoldenAge_UnitPromotions.sql</File>
+	<File>GoldenAge_Units.xml</File>   
+	<File>GoldenAge_Units.sql</File> 		  
+	<File>GoldenAge_UnitExpansion_Civilian_Support.sql</File> 
+	<File>GoldenAge_UnitExpansion_FireSupport.sql</File> 
+	<File>GoldenAge_UnitExpansion_Land.sql</File> 
+	<File>GoldenAge_UnitExpansion_Navy_Air.sql</File> 
+	<File>GoldenAge_UnitExpansion_UU.sql</File> 	
+	<File>GoldenAge_WMDs.sql</File>
+	<File>GoldenAge_Wonders.xml</File>
+	<File>GoldenAge_Wonders.sql</File>
+	<File>GoldenAge_zGlobal.sql</File>
+    <File>GoldenAge_zGlobalParameters.xml</File>
+	
+	<File>DLC_Support/GoldenAge_DLC_GoodyHuts_RandomEvents.sql</File>	  
+	<File>DLC_Support/GoldenAge_DLC_Wonders.sql</File>
+		
+	<File>GoldenAge_GameMode.xml</File>	
+	<File>GoldenAge_GameMode.sql</File>
+	
+	<File>DLC_Support/GoldenAge_mode_Apocalypse.sql</File>
+    <File>DLC_Support/GoldenAge_mode_Secretsocieties.sql</File>		
+	<File>DLC_Support/GoldenAge_mode_DramaticAges.sql</File>
+    <File>DLC_Support/GoldenAge_mode_Heroes.sql</File>	
+	<File>DLC_Support/GoldenAge_mode_Monopolies.sql</File>	
+	<File>DLC_Support/GoldenAge_mode_Monopolies_Gold.xml</File>	
+	<File>DLC_Support/GoldenAge_mode_Monopolies_BXP.sql</File>	
+
+    <File>Maps/GoldenAge_Maps.sql</File>
+	<File>Maps/GoldenAge_StartBias.sql</File>	
+	<!--lua-->
+	<File>Maps/TerrainGenerator.lua</File>
+	<File>Maps/Pangaea.lua</File>
+    <File>Maps/Lakes.lua</File>
+    <File>Maps/Continents.lua</File>
+	<File>Maps/Continents_Islands.lua</File>
+	<File>Maps/Small_Continents.lua</File>
+	
+	<!--ICON-->
+	<File>Icons/GoldenAge_Icons.xml</File>
+	<File>Icons/GoldenAge_Icons_Front.xml</File>
+	<File>Icons/GoldenAge_Icons_Building_Expansion.sql</File>
+	<File>Icons/GoldenAge_Icons_DefensiveImprovements.xml</File>
+	<File>Icons/GoldenAge_Icons_Gold_Resources.xml</File>
+	<File>Icons/GoldenAge_Icons_Monopolies.xml</File>
+	<File>Icons/GoldenAge_Icons_NationalWonders.sql</File>
+	<File>Icons/GoldenAge_Icons_RenewableEnergyComplexity.sql</File>
+	<File>Icons/GoldenAge_Icons_Units.xml</File>
+	<File>Icons/GoldenAge_Icons_Units.sql</File>
+	<File>Icons/GoldenAge_Icons_Units_Civilian_Support.sql</File>
+	<File>Icons/GoldenAge_Icons_WMDs.xml</File>
+
+	<!--MAJOR-->
+    <File>Major_Civilizations/GoldenAge_Buildings_Major.xml</File>
+	<File>Major_Civilizations/GoldenAge_Buildings_Major.sql</File>
+	<File>Major_Civilizations/GoldenAge_Districts_Major.xml</File> 
+    <File>Major_Civilizations/GoldenAge_Districts_Major.sql</File>  	
+	<File>Major_Civilizations/GoldenAge_Improvements_Major.xml</File>
+	<File>Major_Civilizations/GoldenAge_Improvements_Major.sql</File>
+	      <File>Major_Civilizations/GoldenAge_America.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Arabia.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Brazil.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Canada.sql</File>
+		  <File>Major_Civilizations/GoldenAge_China.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Cree.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Egypt.sql</File>
+		  <File>Major_Civilizations/GoldenAge_England.sql</File>
+		  <File>Major_Civilizations/GoldenAge_France.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Georgia.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Greece.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Gremany.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Hungray.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Inca.sql</File>
+		  <File>Major_Civilizations/GoldenAge_India.sql</File>	
+		  <File>Major_Civilizations/GoldenAge_Japan.sql</File>	
+		  <File>Major_Civilizations/GoldenAge_Kongo.sql</File>	
+		  <File>Major_Civilizations/GoldenAge_Korea.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Mali.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Maori.sql</File>
+          <File>Major_Civilizations/GoldenAge_Mapuche.sql</File>
+	      <File>Major_Civilizations/GoldenAge_Mongolia.sql</File>
+          <File>Major_Civilizations/GoldenAge_Netherlands.sql</File>		  
+		  <File>Major_Civilizations/GoldenAge_Norway.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Ottoman.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Phoenicia.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Rome.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Russia.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Scotland.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Scythia.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Spain.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Sumeria.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Sweden.sql</File>
+		  <File>Major_Civilizations/GoldenAge_Zulu.sql</File>
+		  
+	<File>DLC_Support/GoldenAge_DLC_Buildings_Major.sql</File>
+	<File>DLC_Support/GoldenAge_DLC_Districts_Major.sql</File>
+	<File>DLC_Support/GoldenAge_DLC_Greatpersons.sql</File>
+	<File>DLC_Support/GoldenAge_DLC_Improvements_Major.sql</File>
+	
+	      <File>DLC_Support/Major/GoldenAge_Australia.sql</File>
+		  <File>DLC_Support/Major/GoldenAge_Aztec.sql</File>
+		  <File>DLC_Support/Major/GoldenAge_Babylon.sql</File>
+		  <File>DLC_Support/Major/GoldenAge_Byzantium.sql</File>
+		  <File>DLC_Support/Major/GoldenAge_China_Qin_alt.sql</File>	
+		  <File>DLC_Support/Major/GoldenAge_China_Wuzetian.sql</File>	
+		  <File>DLC_Support/Major/GoldenAge_China_Yongle.sql</File>	
+		  <File>DLC_Support/Major/GoldenAge_France_CatherineDeMedici.sql</File>
+		  <File>DLC_Support/Major/GoldenAge_Egypt_Cleopatra_alt.sql</File>	
+		  <File>DLC_Support/Major/GoldenAge_Egypt_Ramses.sql</File>	
+		  <File>DLC_Support/Major/GoldenAge_Ethiopia.sql</File>
+		  <File>DLC_Support/Major/GoldenAge_Gaul.sql</File>
+		  <File>DLC_Support/Major/GoldenAge_GranColombia.sql</File>
+          <File>DLC_Support/Major/GoldenAge_Indonesia.sql</File>	
+		  <File>DLC_Support/Major/GoldenAge_Khmer.sql</File>		
+		  <File>DLC_Support/Major/GoldenAge_China_KublaiKhan.sql</File>		
+		  <File>DLC_Support/Major/GoldenAge_China_KublaiKhan.lua</File>
+		  <File>DLC_Support/Major/GoldenAge_China_KublaiKhan_ui.lua</File>
+		  <File>DLC_Support/Major/GoldenAge_China_KublaiKhan_ui.xml</File>		
+ 		  <File>DLC_Support/Major/GoldenAge_Mali_Sundiata_Keita.sql</File>			
+          <File>DLC_Support/Major/GoldenAge_Maya.sql</File>	
+		  <File>DLC_Support/Major/GoldenAge_Macedon.sql</File>		 		 
+		  <File>DLC_Support/Major/GoldenAge_Nubia.sql</File>
+		  <File>DLC_Support/Major/GoldenAge_Persia.sql</File>
+		  <File>DLC_Support/Major/GoldenAge_Poland.sql</File>	
+		  <File>DLC_Support/Major/GoldenAge_Portugal.sql</File>
+		  <File>DLC_Support/Major/GoldenAge_America_TeddyRoosevelt.sql</File>
+		  <File>DLC_Support/Major/GoldenAge_Vietnam.sql</File>	
+		  <File>DLC_Support/Major/GoldenAge_Rome_Caesar.sql</File>	
+		  <File>DLC_Support/Major/GoldenAge_America_AbrahamLincoln.sql</File>	
+		  <File>DLC_Support/Major/GoldenAge_Kongo_Nzinga_Mbande.sql</File>
+		  <File>DLC_Support/Major/GoldenAge_Arabia_Saladin.sql</File>	
+		  <File>DLC_Support/Major/GoldenAge_Japan_Tokugawa.sql</File>	
+		  <File>DLC_Support/Major/GoldenAge_Ottoman_Suleiman_alt.sql</File>
+		  <File>DLC_Support/Major/GoldenAge_Persia_Nader_Shah.sql</File>		
+		  <File>DLC_Support/Major/GoldenAge_Byzantium_Theodora.sql</File>	
+		  <File>DLC_Support/Major/GoldenAge_Gemany_Ludwig.sql</File>
+		  <File>DLC_Support/Major/GoldenAge_Korea_Sejong.sql</File>					
+		  <File>DLC_Support/Major/GoldenAge_England_Elizabeth.sql</File>	
+		  <File>DLC_Support/Major/GoldenAge_England_Victoria_alt.sql</File>	
+		  <File>DLC_Support/Major/GoldenAge_Norway_Harald_alt.sql</File>	
+ 
+		  <File>DLC_Support/GoldenAge_general_GranColombiaMaya.sql</File>
+		  <File>DLC_Support/GoldenAge_general_Ethiopia.sql</File>
+		  <File>DLC_Support/GoldenAge_general_Byzantium_Gaul.sql</File>
+		  <File>DLC_Support/GoldenAge_general_Babylon.sql</File>
+		  <File>DLC_Support/GoldenAge_general_KublaiKhan_Vietnam.sql</File>
+		  
+	<!--MOD SUPPORT-->		
+	<File>Mod_Support/Immigration.sql</File>	
+	<File>Mod_Support/National_Projects_Satellites.sql</File>
+	<File>Mod_Support/Renewable_Energies_Complexity.sql</File>
+	<File>Mod_Support/Terra_Mirabilis.sql</File>
+	<File>Mod_Support/World_Wonders.sql</File>
+	<File>Mod_Support/GoldenAge_CityStates_CSE.sql</File>
+	
+	<File>Mod_Support/Major/Leaders_ConfigData.sql</File>	
+	<File>Mod_Support/Major/Leader_texts.sql</File>
+	<File>Mod_Support/Major/Leader_Darius_I.sql</File>	
+	<File>Mod_Support/Major/Leader_Gaja_Mada.sql</File>	
+	<File>Mod_Support/Major/Leader_Otto_von_Bismarck.sql</File>	
+	<File>Mod_Support/Major/Leader_William_of_Orange.sql</File>
+	
+    <!--TEXT-->			
+	<File>Texts/GoldenAge_Texts_Background.xml</File>
+	<File>Texts/GoldenAge_Texts_Buildings.xml</File>
+	<File>Texts/GoldenAge_Texts_Buildings_Expansion.xml</File>	  	
+	<File>Texts/GoldenAge_Texts_CityLevels.xml</File>
+	<File>Texts/GoldenAge_Texts_CityStates.sql</File>
+	<File>Texts/GoldenAge_Texts_DistrictAdjacencies.xml</File>	  
+	<File>Texts/GoldenAge_Texts_Districts.xml</File>	  
+	<File>Texts/GoldenAge_Texts_DramaticAges.xml</File>	
+    <File>Texts/GoldenAge_Texts_Front.xml</File>
+	<File>Texts/GoldenAge_Texts_Governments.xml</File>
+    <File>Texts/GoldenAge_Texts_Governors.xml</File> 	
+	<File>Texts/GoldenAge_Texts_GreatPersons.xml</File>
+	<File>Texts/GoldenAge_Texts_Improvements.xml</File>	 	
+	<File>Texts/GoldenAge_Texts_Major.sql</File>
+	<File>Texts/GoldenAge_Texts_Megalopolis.xml</File>
+	<File>Texts/GoldenAge_Texts_Monopolies.xml</File>	
+	<File>Texts/GoldenAge_Texts_NaturalWonders.xml</File>	
+	<File>Texts/GoldenAge_Texts_NationalWonders.xml</File>
+	<File>Texts/GoldenAge_Texts_Others.xml</File>
+	<File>Texts/GoldenAge_Texts_Pedia.xml</File>
+	<File>Texts/GoldenAge_Texts_Policies.xml</File>
+	<File>Texts/GoldenAge_Texts_Projects.xml</File>	 
+	<File>Texts/GoldenAge_Texts_Religious.xml</File>
+	<File>Texts/GoldenAge_Texts_Secretsocieties.xml</File>	  
+	<File>Texts/GoldenAge_Texts_Techs_Civics.xml</File>
+    <File>Texts/GoldenAge_Texts_Units.xml</File>
+	<File>Texts/GoldenAge_Texts_Units_Promotions.xml</File>
+	<File>Texts/GoldenAge_Texts_Units_Expansion.xml</File>	
+	<File>Texts/GoldenAge_Texts_WMDs.xml</File>
+	<File>Texts/GoldenAge_Texts_WorldWonders.xml</File>
+	
+	<File>Mod_Support/Renewable_Energy_Complexity_Texts.xml</File>	
+	<File>Mod_Support/Terra_Mirabilis_Texts.sql</File>	
+	
+	<!--美术资源-->	
+	<File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_fx_cannon_smoke_03</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_DustPage</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_Flash_Blast</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_LightSource</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_NukeScorchMark</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_NukeSphere_a_01</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_NukeSphere_a_still</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_NukeSphere_rgb</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_NukeSphere_rgb_02</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_Nuke_Flames</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_RingOut02</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_SmokeScroll_a</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_SmokeScroll_a_fixed</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_SmokeScroll_bottom_a</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_SmokeScroll_bottom_rgb</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_SmokeScroll_rgb</File>
+
+	  <File>lua/GoldenAge_CityLevels.lua</File>
+
+  </Files>
+  
+  <LocalizedText>
+	<Text id="LOC_GOLDENAGE_NAME">
+		<en_US>[ICON_GLORY_SUPER_GOLDEN_AGE][COLOR_FLOAT_GOLD]GoldenAge· Brave New World[ENDCOLOR]</en_US>
+		<zh_Hans_CN>[ICON_GLORY_SUPER_GOLDEN_AGE][COLOR_FLOAT_GOLD]黄金时代·美丽新世界[ENDCOLOR][ICON_GLORY_SUPER_GOLDEN_AGE]</zh_Hans_CN>
+		<zh_Hant_HK>[ICON_GLORY_SUPER_GOLDEN_AGE][COLOR_FLOAT_GOLD]黃金時代·美麗新世界[ENDCOLOR][ICON_GLORY_SUPER_GOLDEN_AGE]</zh_Hant_HK>
+	</Text>
+
+	<Text id="LOC_GOLDENAGE_TEASER">
+		<en_US>[COLOR:ResFoodLabelCS]Overhauled or tweaked[ENDCOLOR] [COLOR:ResScienceLabelCS]majority of the gameplay contents[ENDCOLOR] in Civilization VI.</en_US>
+		<zh_Hans_CN>对[COLOR:ResScienceLabelCS]大量游戏内容与机制[ENDCOLOR]进行[COLOR:ResFoodLabelCS]优化[ENDCOLOR]。</zh_Hans_CN>
+		<zh_Hant_HK>對[COLOR:ResScienceLabelCS]大量遊戲內容與機製[ENDCOLOR]進行[COLOR:ResFoodLabelCS]優化[ENDCOLOR]。</zh_Hant_HK>
+	</Text>
+	
+	<Text id="LOC_GOLDENAGE_AUTHOR">
+		<en_US>[COLOR_FLOAT_GOLD]Gold, Flactine, Errt[ENDCOLOR]</en_US>
+		<zh_Hans_CN>[COLOR_FLOAT_GOLD]黄小金, 焰色光芒, Errt[ENDCOLOR]</zh_Hans_CN>
+		<zh_Hant_HK>[COLOR_FLOAT_GOLD]黃小金, 焰色光芒, Errt[ENDCOLOR]</zh_Hant_HK>
+	</Text>
+	
+	<Text id="LOC_GOLDENAGE_DESCRIPTION">
+		<en_US>[COLOR_FLOAT_GOLD]GoldenAge·Brave New World[ENDCOLOR] is a comprehensive mod that [COLOR:ResProductionLabelCS]overhauls and tweaks[ENDCOLOR] a great deal of gameplay contents:[NEWLINE][ICON_CheckSuccess][COLOR:ResCultureLabelCS]Remade[ENDCOLOR] all Civilizations' and Leaders' Unique Abilities, Unique Units, and Unique Infrastructures.[NEWLINE][ICON_CheckSuccess][COLOR:ResFaithLabelCS]Modified[ENDCOLOR] the Costs, Effects and Bonuses of most Districts, Buildings, Wonders, Units, Projects, and so on.[NEWLINE][ICON_CheckSuccess][COLOR:ResMilitaryLabelCS]Tweaked [ENDCOLOR] Pantheons and Religions/Tech and Civic Tree/Governments and Policy Cards/Governors' Abilities/Terrains, Features and Resources yields/Power Consumption Mechanic and so on.[NEWLINE][ICON_New]Added [COLOR_LIGHTBLUE]“Glorious/Dark Era”[ENDCOLOR] to all Civilizations according to real history.[NEWLINE][ICON_New]Added NEW Unique Abilitiy [COLOR_GREEN]“Regional and Cultural Trait”[ENDCOLOR] to all Civilization.[NEWLINE][ICON_New]Added [COLOR_FLOAT_SCIENCE]“Urban Level Mechanic”[ENDCOLOR] to encourage Tall play.[NEWLINE][ICON_New]Reworked the [COLOR:Happiness]City Happiness Systems[ENDCOLOR].[NEWLINE][ICON_New]Reworked [COLOR_FLOAT_DIPLOMATIC]AI Difficulty[ENDCOLOR]. Strengthened the AI bonuses sharply in every level.[NEWLINE]This however, is just the tip of the iceberg……[NEWLINE]Civilization VI will become a [COLOR:ButtonCS]Brand new Game[ENDCOLOR] with [COLOR_FLOAT_GOLD]GoldenAge·Brave New World[ENDCOLOR]!</en_US>		
+		<zh_Hans_CN>[COLOR_FLOAT_GOLD]黄金时代·美丽新世界[ENDCOLOR]是一个[COLOR:ResProductionLabelCS]全面修改游戏内容与添加新游戏机制[ENDCOLOR]的集大成模组：[NEWLINE]
+		[ICON_CheckSuccess][COLOR:ResCultureLabelCS]重做[ENDCOLOR]全文明与领袖的特色能力/单位/建筑/改良设施；[NEWLINE]
+		[ICON_CheckSuccess][COLOR:ResFaithLabelCS]调整[ENDCOLOR]大量区域/建筑/奇观/单位/项目等造价成本、属性与功能；[NEWLINE]
+		[ICON_CheckSuccess][COLOR:ResMilitaryLabelCS]改动[ENDCOLOR]万神殿与宗教信条/科技市政树结构/政体与政策卡/总督能力/耗电机制/地形地貌资源产出等；[NEWLINE]
+		[ICON_New]为各文明增加[COLOR_LIGHTBLUE]辉煌/至暗时代[ENDCOLOR]设定；[NEWLINE]
+		[ICON_New]全文明新增[COLOR_GREEN]地域与人文特性[ENDCOLOR]；[NEWLINE]
+		[ICON_New]引入[COLOR_FLOAT_SCIENCE]城市分级系统[ENDCOLOR]，将精铺玩法加强到与爆铺持平；[NEWLINE]
+		[ICON_New]全新的[COLOR:ResCultureLabelCS]魅力[ENDCOLOR]系统；[NEWLINE]
+		[ICON_New]重做[COLOR:Happiness]宜居度系统[ENDCOLOR]，细化各级加成；[NEWLINE]
+		[ICON_New]重做[COLOR_FLOAT_DIPLOMATIC]AI难度系统[ENDCOLOR]，大幅增加每级难度之间的跨度；[NEWLINE]
+		然而，这只是冰山一角……[NEWLINE]
+		[COLOR_FLOAT_GOLD]黄金时代·美丽新世界[ENDCOLOR]的改动量与新内容堪比官方大型资料片[COLOR:ResMilitaryLabelCS]“迭起兴衰”和“风云变幻”[ENDCOLOR]，本模组将会使文明6[COLOR_LIGHTBLUE]焕然一新[ENDCOLOR]！</zh_Hans_CN>
+		<zh_Hant_HK>[COLOR_FLOAT_GOLD]黃金時代·美麗新世界[ENDCOLOR]是一個[COLOR:ResProductionLabelCS]全面修改遊戲內容與添加新遊戲機製[ENDCOLOR]的集大成模組：[NEWLINE]
+		[ICON_CheckSuccess][COLOR:ResCultureLabelCS]重做[ENDCOLOR]全文明與領袖的特色能力/單位/建築/改良設施；[NEWLINE]
+		[ICON_CheckSuccess][COLOR:ResFaithLabelCS]調整[ENDCOLOR]大量區域/建築/奇觀/單位/項目等造價成本、屬性與功能；[NEWLINE]
+		[ICON_CheckSuccess][COLOR:ResMilitaryLabelCS]改動[ENDCOLOR]萬神殿與宗教信條/科技市政樹結構/政體與政策卡/行政長官能力/耗電機製/地形地貌資源產出等；[NEWLINE]
+		[ICON_New]為各文明增加[COLOR_LIGHTBLUE]輝煌/至暗時代[ENDCOLOR]設定；[NEWLINE]
+		[ICON_New]全文明新增[COLOR_GREEN]地域與人文特性[ENDCOLOR]；[NEWLINE]
+		[ICON_New]引入[COLOR_FLOAT_SCIENCE]城市分級系統[ENDCOLOR]，將精鋪玩法加強到與爆鋪持平；[NEWLINE]
+		[ICON_New]全新的[COLOR:ResCultureLabelCS]魅力[ENDCOLOR]系統；[NEWLINE]
+		[ICON_New]重做[COLOR:Happiness]宜居度系統[ENDCOLOR]，細化各級加成；[NEWLINE]
+		[ICON_New]重做[COLOR_FLOAT_DIPLOMATIC]AI難度系統[ENDCOLOR]，大幅增加每級難度之間的跨度；[NEWLINE]
+		然而，這只是冰山一角……[NEWLINE]
+		[COLOR_FLOAT_GOLD]黃金時代·美麗新世界[ENDCOLOR]的改動量與新內容堪比官方大型資料片[COLOR:ResMilitaryLabelCS]「迭起興衰」和「風雲際會」[ENDCOLOR]，本模組將會使文明帝國6[COLOR_LIGHTBLUE]煥然一新[ENDCOLOR]！</zh_Hant_HK>
+	</Text>
+  </LocalizedText>
+</Mod>

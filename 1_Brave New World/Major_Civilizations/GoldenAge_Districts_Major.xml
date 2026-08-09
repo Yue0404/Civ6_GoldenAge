@@ -1,0 +1,225 @@
+<GameInfo>
+    <Districts>
+	    <Update>
+	        <Where DistrictType="DISTRICT_MBANZA"/> <Set Cost="24"/>
+	    </Update>
+		<Update>
+	        <Where DistrictType="DISTRICT_STREET_CARNIVAL"/> <Set Entertainment="1" Housing="0" Appeal="2"/>
+	    </Update>
+		<Update>
+	        <Where DistrictType="DISTRICT_WATER_STREET_CARNIVAL"/> <Set PrereqCivic="CIVIC_COLONIALISM" Entertainment="1" Housing="0" Appeal="2"/>
+	    </Update>
+		<Update>
+	        <Where DistrictType="DISTRICT_HANSA"/> <Set Appeal="0"/>
+	    </Update>
+		<Update>
+	        <Where DistrictType="DISTRICT_IKANDA"/> <Set NoAdjacentCity="false" Appeal="0"/>
+	    </Update>
+		<Update>
+	        <Where DistrictType="DISTRICT_COTHON"/> <Set PrereqTech="TECH_SAILING" Appeal="0"/>
+	    </Update>
+		<Update>
+	        <Where DistrictType="DISTRICT_BATH"/> <Set Appeal="1"/>
+	    </Update>
+	</Districts>
+				
+	<District_TradeRouteYields>
+	    <Delete DistrictType="DISTRICT_ACROPOLIS"/>
+		<Delete DistrictType="DISTRICT_HANSA" />
+		<Delete DistrictType="DISTRICT_LAVRA" />
+		<Delete DistrictType="DISTRICT_STREET_CARNIVAL" />
+		<Delete DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" />
+		<Delete DistrictType="DISTRICT_COTHON" />
+		<Delete DistrictType="DISTRICT_SUGUBA" />		
+		<Delete DistrictType="DISTRICT_WATER_STREET_CARNIVAL" />
+		<Delete DistrictType="DISTRICT_IKANDA" />
+		<Delete DistrictType="DISTRICT_SEOWON" />	
+		<Replace DistrictType="DISTRICT_LAVRA" YieldType="YIELD_FAITH" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Replace DistrictType="DISTRICT_LAVRA" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
+		<Replace DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="2"/>	
+		<Replace DistrictType="DISTRICT_COTHON" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="2"/>		
+		<Replace DistrictType="DISTRICT_SUGUBA" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="2"/>		
+		<Replace DistrictType="DISTRICT_STREET_CARNIVAL" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Replace DistrictType="DISTRICT_STREET_CARNIVAL" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
+		<Replace DistrictType="DISTRICT_ACROPOLIS" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>	
+        <Replace DistrictType="DISTRICT_ACROPOLIS" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>		
+		<Replace DistrictType="DISTRICT_HANSA" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Replace DistrictType="DISTRICT_HANSA" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>		
+		<Replace DistrictType="DISTRICT_WATER_STREET_CARNIVAL" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Replace DistrictType="DISTRICT_WATER_STREET_CARNIVAL" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>		
+		<Replace DistrictType="DISTRICT_IKANDA" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Replace DistrictType="DISTRICT_IKANDA" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>		
+		<Replace DistrictType="DISTRICT_SEOWON" YieldType="YIELD_SCIENCE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Replace DistrictType="DISTRICT_SEOWON" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>		
+		<Replace DistrictType="DISTRICT_BATH" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Replace DistrictType="DISTRICT_BATH" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>		
+		<Replace DistrictType="DISTRICT_MBANZA" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="2"/>		
+	</District_TradeRouteYields>
+	
+	<District_CitizenYieldChanges>	
+	    <Update>
+	        <Where DistrictType="DISTRICT_SEOWON" YieldType="YIELD_SCIENCE"/> <Set YieldChange="4"/>
+		</Update>
+		<Update>
+	        <Where DistrictType="DISTRICT_HANSA" YieldType="YIELD_PRODUCTION"/> <Set YieldChange="4"/>
+	    </Update>
+		<Update>
+	        <Where DistrictType="DISTRICT_ACROPOLIS" YieldType="YIELD_CULTURE"/> <Set YieldChange="4"/>
+	    </Update>
+		<Update>
+	        <Where DistrictType="DISTRICT_SUGUBA" YieldType="YIELD_GOLD"/> <Set YieldChange="4"/>
+	    </Update>
+		<Update>
+	        <Where DistrictType="DISTRICT_LAVRA" YieldType="YIELD_FAITH"/> <Set YieldChange="4"/>
+	    </Update>
+		<Update>
+	        <Where DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldType="YIELD_GOLD"/> <Set YieldChange="2"/>
+	    </Update>
+		<Replace DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Delete DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldType="YIELD_FOOD"/>
+		<Update>
+	        <Where DistrictType="DISTRICT_COTHON" YieldType="YIELD_GOLD"/> <Set YieldChange="2"/>
+	    </Update>
+		<Replace DistrictType="DISTRICT_COTHON" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Delete DistrictType="DISTRICT_COTHON" YieldType="YIELD_FOOD"/>
+		<Delete DistrictType="DISTRICT_IKANDA" />
+        <Replace DistrictType="DISTRICT_IKANDA" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Replace DistrictType="DISTRICT_IKANDA" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Replace DistrictType="DISTRICT_STREET_CARNIVAL" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Replace DistrictType="DISTRICT_STREET_CARNIVAL" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Replace DistrictType="DISTRICT_STREET_CARNIVAL" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Replace DistrictType="DISTRICT_STREET_CARNIVAL" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Replace DistrictType="DISTRICT_WATER_STREET_CARNIVAL" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Replace DistrictType="DISTRICT_WATER_STREET_CARNIVAL" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Replace DistrictType="DISTRICT_WATER_STREET_CARNIVAL" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Replace DistrictType="DISTRICT_WATER_STREET_CARNIVAL" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		
+		<Replace DistrictType="DISTRICT_SEOWON" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		<Replace DistrictType="DISTRICT_HANSA" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		<Replace DistrictType="DISTRICT_ACROPOLIS" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		<Replace DistrictType="DISTRICT_SUGUBA" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		<Replace DistrictType="DISTRICT_LAVRA" YieldType="YIELD_FOOD" YieldChange="-1"/>		
+		<Replace DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		<Replace DistrictType="DISTRICT_COTHON" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		<Replace DistrictType="DISTRICT_IKANDA" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		<Replace DistrictType="DISTRICT_STREET_CARNIVAL" YieldType="YIELD_FOOD" YieldChange="-1"/>
+		<Replace DistrictType="DISTRICT_WATER_STREET_CARNIVAL" YieldType="YIELD_FOOD" YieldChange="-1"/>
+	</District_CitizenYieldChanges>
+	
+	<District_CitizenGreatPersonPoints>
+	    <Row DistrictType="DISTRICT_ACROPOLIS" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_ACROPOLIS" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_ACROPOLIS" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_HANSA" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_LAVRA" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="1"/>
+        <Row DistrictType="DISTRICT_IKANDA" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_SEOWON" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>		
+		<Row DistrictType="DISTRICT_COTHON" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_SUGUBA" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+	</District_CitizenGreatPersonPoints>
+	
+	<!-- Major -->
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_HANSA" YieldChangeId="CITY_CENTER_PRODUCTION"/>
+		<Row DistrictType="DISTRICT_HANSA" YieldChangeId="AERODROME_PRODUCTION"/>
+		
+		<Row DistrictType="DISTRICT_ACROPOLIS" YieldChangeId="NATURALWONDER_CULTURE"/> 
+		<Row DistrictType="DISTRICT_ACROPOLIS" YieldChangeId="ANTIQUITY_CULTURE"/>  
+		
+		<Delete DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldChangeId="SeaResource_Gold"/>
+		<Row DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldChangeId="ROYAL_NAVY_DOCKYARD_SeaRESOURCE_GOLD"/> 
+					
+		<Delete DistrictType="DISTRICT_COTHON" YieldChangeId="SeaResource_Gold"/>
+		<Delete DistrictType="DISTRICT_COTHON" YieldChangeId="Harbor_City_Gold"/>
+        <Row DistrictType="DISTRICT_COTHON" YieldChangeId="COTHON_COMMERICAL_HUB_GOLD"/>
+		<Row DistrictType="DISTRICT_COTHON" YieldChangeId="COTHON_CITY_CENTER_GOLD"/>
+		<Row DistrictType="DISTRICT_COTHON" YieldChangeId="COTHON_ENCAMPMENT_GOLD"/>
+        <Row DistrictType="DISTRICT_COTHON" YieldChangeId="CANAL_GOLD"/>				
+		   	
+		<Delete DistrictType="DISTRICT_SUGUBA" YieldChangeId="Holy_Site_Gold"/>
+		<Delete DistrictType="DISTRICT_SUGUBA" YieldChangeId="Lavra_Gold"/>	
+		<Row DistrictType="DISTRICT_SUGUBA" YieldChangeId="CITY_CENTER_GOLD"/>	
+		<Row DistrictType="DISTRICT_SUGUBA" YieldChangeId="SUGUBA_RESOURCE_GOLD"/>	
+		
+        <Row DistrictType="DISTRICT_SEOWON" YieldChangeId="CITY_CENTER_SCIENCE"/>
+		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="BaseDistrict_Science_Plus"/>
+		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="BaseDistrict_Science_Plus_Plus"/>
+		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="SPACE_SCIENCE"/>
+		
+		<Row DistrictType="DISTRICT_LAVRA" YieldChangeId="LAVRA_TUNDRA_Faith"/>
+		<Row DistrictType="DISTRICT_LAVRA" YieldChangeId="LAVRA_TUNDRA_HILLS_Faith"/>
+		<Row DistrictType="DISTRICT_LAVRA" YieldChangeId="LAVRA_SNOW_Faith"/>
+		<Row DistrictType="DISTRICT_LAVRA" YieldChangeId="LAVRA_SNOW_HILLS_Faith"/>
+		<Row DistrictType="DISTRICT_LAVRA" YieldChangeId="CITY_CENTER_FAITH"/>
+		<Delete DistrictType="DISTRICT_LAVRA" YieldChangeId="Forest_Faith"/>
+		
+	</District_Adjacencies>
+	
+	<Adjacency_YieldChanges>
+	    <Row ID="BaseDistrict_Science_Plus" Description="LOC_DISTRICT_BASE_DISTRICT_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="3" Self="true" PrereqTech="TECH_EDUCATION"/>
+		<Row ID="BaseDistrict_Science_Plus_Plus" Description="LOC_DISTRICT_BASE_DISTRICT_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="3" Self="true" PrereqTech="TECH_ASTRONOMY"/>
+		<Update>
+	        <Where ID="BaseDistrict_Science"/> <Set YieldChange="3"/>
+	    </Update>
+        <Row ID="ROYAL_NAVY_DOCKYARD_SeaRESOURCE_GOLD" Description="LOC_DISTRICT_SEARESOURCE_GOLD" YieldType="YIELD_GOLD" YieldChange="3" TilesRequired="1" AdjacentSeaResource="true"/>				
+		<Row ID="COTHON_COMMERICAL_HUB_GOLD" Description="LOC_DISTRICT_COMMERICAL_HUB_GOLD" YieldType="YIELD_GOLD" YieldChange="3" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
+		<Row ID="COTHON_CITY_CENTER_GOLD" Description="LOC_CITY_CENTER_GOLD" YieldType="YIELD_GOLD" YieldChange="3" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
+		<Row ID="COTHON_ENCAMPMENT_GOLD" Description="LOC_DISTRICT_ENCAMPMENT_GOLD" YieldType="YIELD_GOLD" YieldChange="3" TilesRequired="1" AdjacentDistrict="DISTRICT_ENCAMPMENT"/>		
+		<Row ID="LAVRA_TUNDRA_Faith" Description="GOLDEN_LOC_TUNDRA_FAITH" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_TUNDRA"/>
+		<Row ID="LAVRA_TUNDRA_HILLS_Faith" Description="GOLDEN_LOC_TUNDRA_FAITH" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_TUNDRA_HILLS"/>
+		<Row ID="LAVRA_SNOW_Faith" Description="GOLDEN_LOC_SNOW_FAITH" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_SNOW"/>
+		<Row ID="LAVRA_SNOW_HILLS_Faith" Description="GOLDEN_LOC_SNOW_FAITH" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_SNOW_HILLS"/>
+		<Row ID="SUGUBA_RESOURCE_GOLD" Description="LOC_DISTRICT_RESOURCE_GOLD" YieldType="YIELD_GOLD" YieldChange="3" TilesRequired="1" AdjacentResource="true"/>
+		<Update>
+	        <Where ID="Resource_Production"/> <Set YieldChange="2"/>
+	    </Update>
+	</Adjacency_YieldChanges>
+	
+	<DistrictModifiers>
+		<Row DistrictType="DISTRICT_BATH" ModifierId="GOLDEN_BATH_CITY_GROWTH"/>
+		<Delete DistrictType="DISTRICT_BATH" ModifierId="BATH_ADDAMENITIES"/>
+		<Row DistrictType="DISTRICT_BATH" ModifierId="GOLDEN_BATH_FARM_FOOD"/>
+		<Row DistrictType="DISTRICT_MBANZA" ModifierId="GOLDEN_MBANZA_CITY_GROWTH"/>
+	</DistrictModifiers>
+	
+	<Modifiers>	
+	    <Row>
+			<ModifierId>GOLDEN_BATH_CITY_GROWTH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_BATH_FARM_FOOD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_FARM_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MBANZA_CITY_GROWTH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH</ModifierType>
+		</Row>	
+	</Modifiers>	
+	
+	<ModifierArguments>
+	    <Row>
+			<ModifierId>GOLDEN_BATH_CITY_GROWTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_BATH_FARM_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_BATH_FARM_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MBANZA_CITY_GROWTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+	</ModifierArguments>
+	
+</GameInfo>	

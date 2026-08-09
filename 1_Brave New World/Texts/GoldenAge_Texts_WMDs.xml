@@ -1,0 +1,110 @@
+<GameData>
+    <LocalizedText>	
+	<!--核武器-->
+	<Replace Tag="LOC_PROJECT_BUILD_NUCLEAR_DEVICE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>为您的国家增加一枚核装置。射程为10。爆炸半径为1个单元格。摧毁爆炸范围内的一切并生成核辐射。需要30 [ICON_Resource_Uranium] 铀。维护费是100 [ICON_Gold] 金币。</Text>
+    </Replace>
+	<Replace Tag="LOC_PROJECT_BUILD_NUCLEAR_DEVICE_DESCRIPTION" Language="en_US">
+      <Text>Adds one Nuclear Device to your nation's inventory. Range is 10. The explosion radius is 1 tiles. Destroying everything within range of the explosion and generating nuclear radiation. Requires 30 [ICON_Resource_Uranium] Uranium. Maintenance is 100 [ICON_Gold] Gold.</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_BUILD_THERMONUCLEAR_DEVICE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>为您的国家增加一枚热核装置。射程为12。爆炸半径为2个单元格。摧毁爆炸范围内的一切并生成核辐射。需要40 [ICON_Resource_Uranium] 铀。维护费是150 [ICON_Gold] 金币。</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_BUILD_THERMONUCLEAR_DEVICE_DESCRIPTION" Language="en_US">
+      <Text>Adds a Thermonuclear Device to your nation's inventory. Range is 12. The explosion radius is 2 tiles. Destroying everything within range of the explosion and generating nuclear radiation. Requires 40 [ICON_Resource_Uranium] Uranium. Maintenance is 150 [ICON_Gold] Gold.</Text>
+    </Replace>	
+		
+	<Replace Tag="LOC_PROJECT_OPERATION_IVY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>完成曼哈顿计划后解锁。允许创建热核装置和核导弹。</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_OPERATION_IVY_DESCRIPTION" Language="en_US">
+      <Text>Unlock this project upon completion of the Manhattan Project. Allows you to create Thermonuclear Device and Nuclear Missile.</Text>
+    </Replace>	
+	
+	<Replace Tag="LOC_PROJECT_OPERATION_CASTLE_NAME" Language="zh_Hans_CN">
+      <Text>两弹一星</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_OPERATION_CASTLE_NAME" Language="en_US">
+      <Text>Operation Castle</Text>
+    </Replace>	
+	<Replace Tag="LOC_PROJECT_OPERATION_CASTLE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>完成常春藤行动后解锁。允许创建氢弹和中子弹。</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_OPERATION_CASTLE_DESCRIPTION" Language="en_US">
+      <Text>Unlock this project upon completion of the Operation IVY. Allows you to create Hydrogen Bomb and Neutron bomb.</Text>
+    </Replace>	
+	<Replace Tag="LOC_PROJECT_BUILD_KUZKINE_MET_NAME" Language="zh_Hans_CN">
+      <Text>建造氢弹</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_BUILD_KUZKINE_MET_NAME" Language="en_US">
+      <Text>Build Hydrogen Bomb</Text>
+    </Replace>	
+	<Replace Tag="LOC_PROJECT_BUILD_KUZKINE_MET_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>为您的国家增加一枚氢弹。射程为15。爆炸半径为3个单元格。摧毁爆炸范围内的一切并生成核辐射。需要60 [ICON_Resource_Uranium] 铀。维护费是250 [ICON_Gold] 金币。</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_BUILD_KUZKINE_MET_DESCRIPTION" Language="en_US">
+      <Text>Adds a Hydrogen Bomb to your nation's inventory. Range is 15. The explosion radius is 3 tiles. Destroying everything within range of the explosion and generating nuclear radiation. Requires 60 [ICON_Resource_Uranium] Uranium. Maintenance is 250 [ICON_Gold] Gold.</Text>
+    </Replace>	
+	<Replace Tag="LOC_WMD_KUZKINE_MET_NAME" Language="zh_Hans_CN">
+      <Text>氢弹</Text>
+    </Replace>
+    <Replace Tag="LOC_WMD_KUZKINE_MET_NAME" Language="en_US">
+      <Text>Hydrogen Bomb</Text>
+    </Replace>	
+	<Replace Tag="LOC_PROJECT_BUILD_CASTLE_BRAVO_NAME" Language="zh_Hans_CN">
+      <Text>建造中子弹</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_BUILD_CASTLE_BRAVO_NAME" Language="en_US">
+      <Text>Build Neutron Bomb</Text>
+    </Replace>	
+	<Replace Tag="LOC_PROJECT_BUILD_CASTLE_BRAVO_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>为您的国家增加一枚中子弹。射程为15。爆炸半径为4个单元格。主要用于打击单位和城市人口，不会产生核辐射，不会对改良设施、建筑和区域造成破坏。需要50 [ICON_Resource_Uranium] 铀。维护费是200 [ICON_Gold] 金币。</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_BUILD_CASTLE_BRAVO_DESCRIPTION" Language="en_US">
+      <Text>Adds a Neutron Bomb to your nation's inventory. Range is 15. The explosion radius is 4 tiles. Mainly used to strike units and city populations. It will not produce nuclear radiation and will not cause damage to improvements, buildings and districts. Requires 50 [ICON_Resource_Uranium] Uranium. Maintenance is 200 [ICON_Gold] Gold.</Text>
+    </Replace>	
+	<Replace Tag="LOC_WMD_CASTLE_BRAVO_NAME" Language="zh_Hans_CN">
+      <Text>中子弹</Text>
+    </Replace>
+    <Replace Tag="LOC_WMD_CASTLE_BRAVO_NAME" Language="en_US">
+      <Text>Neutron bomb</Text>
+    </Replace>	
+	<Replace Tag="LOC_PROJECT_BUILD_R36_ORB_NAME" Language="zh_Hans_CN">
+      <Text>建造核导弹</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_BUILD_R36_ORB_NAME" Language="en_US">
+      <Text>Build Nuclear Missile</Text>
+    </Replace>	
+	<Replace Tag="LOC_PROJECT_BUILD_R36_ORB_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>为您的国家增加一枚核导弹。射程范围可覆盖全世界。爆炸半径为1个单元格。摧毁爆炸范围内的一切并生成核辐射。需要40 [ICON_Resource_Uranium] 铀。维护费是150 [ICON_Gold] 金币。</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_BUILD_R36_ORB_DESCRIPTION" Language="en_US">
+      <Text>Adds a Nuclear Missile to your nation's inventory. The strike range can cover the whole world. The explosion radius is 1 tiles. Destroying everything within range of the explosion and generating nuclear radiation. Requires 40 [ICON_Resource_Uranium] Uranium. Maintenance is 150 [ICON_Gold] Gold.</Text>
+    </Replace>	
+	<Replace Tag="LOC_WMD_R36_ORB_NAME" Language="zh_Hans_CN">
+      <Text>核导弹</Text>
+    </Replace>
+    <Replace Tag="LOC_WMD_R36_ORB_NAME" Language="en_US">
+      <Text>Nuclear Missile</Text>
+    </Replace>
+	<Replace Tag="LOC_CREATE_BASE_MISSILE_NAME" Language="zh_Hans_CN">
+      <Text>建造导弹</Text>
+    </Replace>
+    <Replace Tag="LOC_CREATE_BASE_MISSILE_NAME" Language="en_US">
+      <Text>Build Missile</Text>
+    </Replace>	
+	<Replace Tag="LOC_CREATE_BASE_MISSILE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>为您的国家增加一枚导弹。射程为20。仅打击目标单元格，摧毁目标单元格上的一切。需要30 [ICON_Resource_Aluminum] 铝。维护费是50 [ICON_Gold] 金币。</Text>
+    </Replace>
+    <Replace Tag="LOC_CREATE_BASE_MISSILE_DESCRIPTION" Language="en_US">
+      <Text>Adds a Missile to your nation's inventory. Range is 20. Only hit the target tile, destroying everything on that tile. Requires 30 [ICON_Resource_Aluminum] Aluminum. Maintenance is 50 [ICON_Gold] Gold.</Text>
+    </Replace>	
+	<Replace Tag="LOC_WMD_MISSILE_BASE_NAME" Language="zh_Hans_CN">
+      <Text>导弹</Text>
+    </Replace>
+    <Replace Tag="LOC_WMD_MISSILE_BASE_NAME" Language="en_US">
+      <Text>Missile</Text>	  		
+    </Replace>
+	</LocalizedText>
+</GameData>	
+		  

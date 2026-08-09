@@ -1,0 +1,67 @@
+<GameData>
+    <BaseGameText>
+	<Row Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_10">
+      <Text>{2_EraName} ends in {1_TurnsRemaining} {1_TurnsRemaining : plural 1?Turn; other?Turns;}. The rising latecomers are unhappy with today's division of global spheres of influence.</Text>
+    </Row>
+	<Row Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_9">
+      <Text>{2_EraName} ends in {1_TurnsRemaining} {1_TurnsRemaining : plural 1?Turn; other?Turns;}. The rising latecomers are unhappy with today's division of global spheres of influence.</Text>
+    </Row>
+	<Row Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_8">
+      <Text>{2_EraName} ends in {1_TurnsRemaining} {1_TurnsRemaining : plural 1?Turn; other?Turns;}. International disputes and outstanding issues sow the seeds of hatred.</Text>
+    </Row>
+	<Row Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_7">
+      <Text>{2_EraName} ends in {1_TurnsRemaining} {1_TurnsRemaining : plural 1?Turn; other?Turns;}. International disputes and outstanding issues sow the seeds of hatred.</Text>
+    </Row>
+	<Row Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_6">
+      <Text>{2_EraName} ends in {1_TurnsRemaining} {1_TurnsRemaining : plural 1?Turn; other?Turns;}. The global economic depression prompted some extreme countries to advocate Fascism, Nazism and Militarism.</Text>
+    </Row>
+	<Row Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_5">
+      <Text>{2_EraName} ends in {1_TurnsRemaining} {1_TurnsRemaining : plural 1?Turn; other?Turns;}. The global economic depression prompted some extreme countries to advocate Fascism, Nazism and Militarism.</Text>
+    </Row>
+	<Row Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_4">
+      <Text>{2_EraName} ends in {1_TurnsRemaining} {1_TurnsRemaining : plural 1?Turn; other?Turns;}. Conflicts intensified and a major war seemed inevitable...</Text>
+    </Row>
+	<Row Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_3">
+      <Text>{2_EraName} ends in {1_TurnsRemaining} {1_TurnsRemaining : plural 1?Turn; other?Turns;}. Conflicts intensified and a major war seemed inevitable...</Text>
+    </Row>
+	<Row Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_2">
+      <Text>{2_EraName} ends in {1_TurnsRemaining} {1_TurnsRemaining : plural 1?Turn; other?Turns;}. Pandora's box of war has been opened and a world war is about to break out!</Text>
+    </Row>
+	<Row Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_1">
+      <Text>{2_EraName} ends in {1_TurnsRemaining} {1_TurnsRemaining : plural 1?Turn; other?Turns;}. Pandora's box of war has been opened and a world war is about to break out!</Text>
+    </Row>
+	</BaseGameText>
+	
+	<LocalizedText>		
+	<Replace Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_10" Language="zh_Hans_CN">
+      <Text>{2_EraName}在{1_TurnsRemaining}{1_TurnsRemaining : plural 1?回合; other?回合;}后落幕。后发崛起国家对当今全球势力范围的划分十分不满</Text>
+    </Replace>
+	<Replace Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_9" Language="zh_Hans_CN">
+      <Text>{2_EraName}在{1_TurnsRemaining}{1_TurnsRemaining : plural 1?回合; other?回合;}后落幕。后发崛起国家对当今全球势力范围的划分十分不满</Text>
+    </Replace>	
+	<Replace Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_8" Language="zh_Hans_CN">
+      <Text>{2_EraName}在{1_TurnsRemaining}{1_TurnsRemaining : plural 1?回合; other?回合;}后落幕。国际纷争和各种悬而未决的问题埋下了仇恨的种子</Text>
+    </Replace>	
+	<Replace Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_7" Language="zh_Hans_CN">
+      <Text>{2_EraName}在{1_TurnsRemaining}{1_TurnsRemaining : plural 1?回合; other?回合;}后落幕。国际纷争和各种悬而未决的问题埋下了仇恨的种子</Text>
+    </Replace>	
+	<Replace Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_6" Language="zh_Hans_CN">
+      <Text>{2_EraName}在{1_TurnsRemaining}{1_TurnsRemaining : plural 1?回合; other?回合;}后落幕。全球经济大萧条促使部分极端国家推崇法西斯、纳粹、军国主义</Text>
+    </Replace>
+	<Replace Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_5" Language="zh_Hans_CN">
+      <Text>{2_EraName}在{1_TurnsRemaining}{1_TurnsRemaining : plural 1?回合; other?回合;}后落幕。全球经济大萧条促使部分极端国家推崇法西斯、纳粹、军国主义</Text>
+    </Replace>	
+	<Replace Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_4" Language="zh_Hans_CN">
+      <Text>{2_EraName}在{1_TurnsRemaining}{1_TurnsRemaining : plural 1?回合; other?回合;}后落幕。矛盾进一步激化，一场大战似乎不可避免。。。</Text>
+    </Replace>	
+	<Replace Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_3" Language="zh_Hans_CN">
+      <Text>{2_EraName}在{1_TurnsRemaining}{1_TurnsRemaining : plural 1?回合; other?回合;}后落幕。矛盾进一步激化，一场大战似乎不可避免。。。</Text>
+    </Replace>	
+	<Replace Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_2" Language="zh_Hans_CN">
+      <Text>{2_EraName}在{1_TurnsRemaining}{1_TurnsRemaining : plural 1?回合; other?回合;}后落幕。战争的潘多拉魔盒被打开，世界大战一触即发！</Text>
+    </Replace>
+	<Replace Tag="LOC_NEW_TURN_PANEL_NEXT_ERA_COUNTDOWN_WORLDWAR_1" Language="zh_Hans_CN">
+      <Text>{2_EraName}在{1_TurnsRemaining}{1_TurnsRemaining : plural 1?回合; other?回合;}后落幕。战争的潘多拉魔盒被打开，世界大战一触即发！</Text>
+    </Replace>	
+	</LocalizedText>
+</GameData>	

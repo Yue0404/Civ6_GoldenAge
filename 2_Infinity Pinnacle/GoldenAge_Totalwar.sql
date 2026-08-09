@@ -1,0 +1,6 @@
+--Boosts
+UPDATE Boosts SET TriggerDescription = 'LOC_BOOST_TRIGGER_NATIONALISM_TOTALWAR', BoostClass = 'BOOST_TRIGGER_HAVE_X_LAND_UNITS', NumItems = 20
+WHERE CivicType = 'CIVIC_NATIONALISM';
+
+--V225 War min turns
+UPDATE GlobalParameters SET Value = 15 WHERE Name = 'DIPLOMACY_WAR_MIN_TURNS';

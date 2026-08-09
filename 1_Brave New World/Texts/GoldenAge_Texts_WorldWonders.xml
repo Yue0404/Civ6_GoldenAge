@@ -1,0 +1,175 @@
+<GameData>
+    <LocalizedText>	    	
+	<!--世界奇观-->
+	<Replace Tag="LOC_BUILDING_RUHR_VALLEY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>该城市+20% [ICON_Production] 生产力，此城中每个矿山和采石场+1 [ICON_Production] 生产力。必须沿河而建，且与工业区相邻。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_RUHR_VALLEY_DESCRIPTION" Language="en_US">
+      <Text>+20% [ICON_Production] Production in this city, and +1 [ICON_Production] Production for each Mine and Quarry in this city. Must be built along a River adjacent to an Industrial Zone.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_EIFFEL_TOWER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>您的文明所有单元格+1魅力。必须建在邻近市中心的平原上。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_EIFFEL_TOWER_DESCRIPTION" Language="en_US">
+      <Text>All tiles in your civilization gain +1 Appeal. Must be built on flat land adjacent to the City Center.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_CHICHEN_ITZA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>你文明内的所有雨林单元格+1 [ICON_Culture] 文化值，+1 [ICON_Science] 科技值。必须建在雨林上。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_CHICHEN_ITZA_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Culture] Culture, +1 [ICON_Science] Science to all Rainforest tiles in your territory. Must be built on Rainforest.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_PETRA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>你文明内的所有沙漠单元格（沙漠泛滥平原除外）+2 [ICON_Food] 食物，+1 [ICON_Production] 生产力。必须建在沙漠（非丘陵）或沙漠泛滥平原上。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_PETRA_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_Food] Food and +1 [ICON_Production] Production on all Desert tiles (non-Floodplains) in your territory. Must be built on Desert (without Hills) or Desert Floodplains.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_ST_BASILS_CATHEDRAL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>你文明内的所有冻土单元格产出的 [ICON_Food] 食物+1、[ICON_Production] 生产力+1、[ICON_Culture] 文化值+1。必须建在冻土上。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_ST_BASILS_CATHEDRAL_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Food] Food, +1 [ICON_Production] Production, and +1 [ICON_Culture] Culture on all Tundra tiles in your territory. Must be built on tundra.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_APADANA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>建造奇观（包括阿帕达纳宫）时+1 [ICON_ENVOY] 使者。[NEWLINE][NEWLINE]必须建造在 [ICON_CAPITAL] 首都旁。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_APADANA_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_ENVOY] Envoys when you build a wonder, including Apadana.[NEWLINE][NEWLINE]Must be built adjacent to your [ICON_CAPITAL] Capital.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_HALICARNASSUS_MAUSOLEUM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>你文明内的所有海岸单元格+1 [ICON_SCIENCE] 科技值 +1 [ICON_CULTURE] 文化值。[ICON_GREATENGINEER] 大工程师拥有额外1点使用次数。必须建在港口区域旁的陆地上。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_HALICARNASSUS_MAUSOLEUM_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_SCIENCE] Science +1 [ICON_CULTURE] Culture on all Coast tiles in your territory. [ICON_GREATENGINEER] Great Engineers have an additional charge. Must be built adjacent to a Harbor district.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_COLOSSUS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+2 [ICON_TradeRoute] 贸易路线容量。获得2个商人单位。必须建在邻近陆地和港口的海岸上。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_COLOSSUS_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_TradeRoute] Trade Route capacity. Grants 2 Trader unit. Must be built on the Coast, adjacent to land and a Harbor district.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GREAT_LIGHTHOUSE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有海军单位+1 [ICON_Movement] 移动力。[ICON_GREATMERCHANT] 大商人拥有额外1点使用次数。[NEWLINE][NEWLINE]必须建在海岸上，且必须与陆地和已有灯塔的港口相邻。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GREAT_LIGHTHOUSE_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Movement] Movement for all naval units. [ICON_GREATMERCHANT] Great Merchant have an additional charge.[NEWLINE][NEWLINE]Must be built on the Coast, and adjacent to land and a Harbor district with a Lighthouse.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_MACHU_PICCHU_SCIENCE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_SCIENCE] 科技值来自相邻山脉{1_Num : plural 1?单元格; other?单元格;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_MACHU_PICCHU_SCIENCE" Language="en_US">
+      <Text>+{1_num} [ICON_SCIENCE] Science from the adjacent Mountain {1_Num : plural 1?tile; other?tiles;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_MACHU_PICCHU_FAITH" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_FAITH] 信仰值来自相邻山脉{1_Num : plural 1?单元格; other?单元格;}。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_MACHU_PICCHU_FAITH" Language="en_US">
+      <Text>+{1_num} [ICON_FAITH] Faith from the adjacent Mountain {1_Num : plural 1?tile; other?tiles;}.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_MACHU_PICCHU_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>山脉单元格为所有城市的商业中心、剧院广场、工业区、学院区和圣地提供标准的相邻加成。[NEWLINE][NEWLINE]必须修建在无火山的山脉单元格中。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_MACHU_PICCHU_DESCRIPTION" Language="en_US">
+      <Text>Mountain tiles provide a standard adjacency bonus to Commercial Hub, Theater Square, Campus, Holy Site and Industrial Zone districts in all cities.[NEWLINE][NEWLINE]Must be built on a Mountain tile that does not contain a Volcano.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_JEBEL_BARKAL_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>为8个单元格内的所有城市提供+2 [ICON_Faith] 信仰值， +2 [ICON_SCIENCE] 科技值，+2 [ICON_Culture] 文化值。[NEWLINE][NEWLINE]必须建在沙漠（丘陵）地貌上。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_JEBEL_BARKAL_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>Provides +2 [ICON_Faith] Faith,  +2 [ICON_SCIENCE] Science，+2 [ICON_Culture] Culture to all your cities that are within 8 tiles.[NEWLINE][NEWLINE]Must be built on Desert (Hills) terrain.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_HANGING_GARDENS_HERO_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有英雄单位的 [ICON_Lifespan] 寿命+20%。所有城市发展加速20%。必须建在河流旁边。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_HANGING_GARDENS_HERO_DESCRIPTION" Language="en_US">
+      <Text>All Hero units have 20% longer [ICON_Lifespan] Lifespans. Increases growth by 20% in all cities. Must be built next to a River.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_TAJ_MAHAL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>此奇观建成后，提供2点或以上时代得分的历史时刻所提供的时代得分+1。建成后+2外交胜利点数。[NEWLINE][NEWLINE]必须建在河流旁。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_TAJ_MAHAL_DESCRIPTION" Language="en_US">
+      <Text>+1 Era Score from Historic Moment earned after this wonder is complete if that Moment is usually worth 2 or more Era Score. +2 Diplomatic Victory Points when built.[NEWLINE][NEWLINE]Must be built next to a River.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_ORSZAGHAZ_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>成为一座城邦的宗主国后，每回合从此城邦获得+1 [ICON_Favor] 外交支持。建成后+2外交胜利点数。[NEWLINE][NEWLINE]必须修建在河边。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_ORSZAGHAZ_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Favor] Diplomatic Favor per turn from each City-State whom you are Suzerain of. +2 Diplomatic Victory Points when built.[NEWLINE][NEWLINE]Must be built on a River.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_CRISTO_REDENTOR_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[ICON_GreatWork_Relic] 遗物和圣城的 [ICON_Tourism] 旅游业绩产值不会被其他研究了“启蒙运动”市政的文明削弱。您文明中“海滨度假区”产出的 [ICON_Tourism] 旅游业绩+100%。建成后+2外交胜利点数。[NEWLINE][NEWLINE]必须建在丘陵上。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_CRISTO_REDENTOR_DESCRIPTION" Language="en_US">
+      <Text>[ICON_Tourism] Tourism output from [ICON_GreatWork_Relic] Relics and Holy Cities is not diminished by other civilizations who have researched The Enlightenment civic. +100% [ICON_Tourism] Tourism from Seaside Resorts across your civilization. +2 Diplomatic Victory Points when built.[NEWLINE][NEWLINE]Must be built on Hills.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GOLDEN_GATE_BRIDGE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>陆地单位无需上船便可从桥上跨越。大桥的效果与现代道路相同，并会在桥头两端的陆地单元格中建造现代道路（若未修建）。城市+3 [ICON_Amenities] 宜居度。城市中的所有单元格+2魅力。城市中的改良设施与国家公园+100% [ICON_Tourism] 旅游业绩。如 [ICON_TradeRoute] 贸易路线途径此处，其将从目的地的区域处获得成倍 [ICON_Gold] 金币。[NEWLINE][NEWLINE]必须修建在海岸单元格中。大桥必须修建在相隔一个单元格并正对的两个陆地单元格中。大桥左右两侧必须各有至少1个水域单元格。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GOLDEN_GATE_BRIDGE_DESCRIPTION" Language="en_US">
+      <Text>Land units can cross without needing to embark. Acts as Modern Road and creates Modern Roads (if not present) in land tiles on either end. City gains +3 [ICON_Amenities] Amenities. All tiles in this city +2 Appeal. +100% [ICON_Tourism] Tourism from improvements and National Parks in this city. [ICON_TradeRoute] Trade Routes traveling through it can multiply the [ICON_Gold] Gold they get from districts at their destination.[NEWLINE][NEWLINE]Must be built on a Coast tile. The bridge must run straight across the hex between two land tiles directly opposite one another. At least one water tile must be present on both the left and right sides of the bridge.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_HERMITAGE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+6 [ICON_GreatWork_Landscape] 艺术巨作槽位，填满即可获得主题化，主题化时 [ICON_Tourism] 旅游业绩和 [ICON_Culture] 文化值的产出是平时的3倍。必须沿河建造。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_HERMITAGE_DESCRIPTION" Language="en_US">
+      <Text>+6 [ICON_GreatWork_Landscape] Great Art slots. Gain theming bonus when it is full, theming bonus is 300% of the [ICON_Tourism] Tourism and [ICON_Culture] Culture output. Must be built along a River.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_SYDNEY_OPERA_HOUSE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+4  [ICON_GreatWork_MUSIC] 音乐巨作槽位，填满即可获得主题化，主题化时 [ICON_Tourism] 旅游业绩和 [ICON_Culture] 文化值的产出是平时的4倍。必须建在海岸上，且需要靠近陆地和一个港口。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_SYDNEY_OPERA_HOUSE_DESCRIPTION" Language="en_US">
+      <Text>+4 [ICON_GreatWork_MUSIC] Great Music slots. Gain theming bonus when it is full, theming bonus is 400% of the [ICON_Tourism] Tourism and [ICON_Culture] Culture output. Must be built along a River.</Text>
+    </Replace>
+	
+		<Replace Tag="LOC_BUILDING_APADANA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>建造奇观（包括阿帕达纳宫）时+1 [ICON_ENVOY] 使者。[NEWLINE][NEWLINE]必须建造在 [ICON_CAPITAL] 首都旁。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_APADANA_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_ENVOY] Envoys when you build a wonder, including Apadana.[NEWLINE][NEWLINE]Must be built adjacent to your [ICON_CAPITAL] Capital.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有城市的发展+20%。所有城市边境拓展速度+20%。（当英雄模式开启时）所有英雄单位的 [ICON_Lifespan] 寿命+20%。必须建在河流旁。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION"  Language="en_US">
+      <Text>Increases growth by 20% in all cities. Acquire new tiles in city 20% faster. (When the Heros Mode is on)All Hero units have 20% longer [ICON_Lifespan] Lifespans. Must be built next to a River.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_TEMPLE_ARTEMIS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>此奇观4个单元格内的每个营地、牧场和种植园改良设施+1 [ICON_AMENITIES] 宜居度和+1 [ICON_Housing]住房。必须放置在营地改良设施旁。</Text>
+    </Replace>
+	 <Replace Tag="LOC_BUILDING_TEMPLE_ARTEMIS_DESCRIPTION"  Language="en_US">
+      <Text>Each Camp, Pasture, and Plantation improvement within 4 tiles of this wonder provides +1 [ICON_AMENITIES] Amenity and +1 [ICON_Housing] Housing. Must be placed adjacent to a Camp improvement.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ETEMENANKI_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>帝国中的所有沼泽单元格+2 [ICON_Science] 科技值、+2 [ICON_Culture] 文化值。帝国中的所有泛滥平原单元格+1 [ICON_Production] 生产力。[NEWLINE][NEWLINE]必须建在泛滥平原或沼泽上。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_ETEMENANKI_DESCRIPTION"  Language="en_US">
+      <Text>+2 [ICON_Science] Science and +2 [ICON_Culture] Culture to all Marsh tiles in your empire. +1 [ICON_Production] Production to all Floodplains tiles in your empire.[NEWLINE][NEWLINE]Must be built on Floodplains or Marsh.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_GREAT_BATH_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>文明内的所有泛滥平原单元格免受洪水侵袭（但来自洪水的 [ICON_Food] 食物和 [ICON_Production] 生产力加成减半）。帝国每次洪水后，泛滥平原单元格所产出的 [ICON_Faith] 信仰值+1。[NEWLINE][NEWLINE]必须建在泛滥平原单元格中。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GREAT_BATH_DESCRIPTION"  Language="en_US">
+      <Text>All Floodplains tiles in your civilization are now immune to Flood damage (though [ICON_Food] Food and [ICON_Production] Production bonuses from flooding drop by 50%). Floodplains tiles belonging to your empire gain +1 [ICON_Faith] Faith for each Flood.[NEWLINE][NEWLINE]Must be built on a Floodplains tile.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_PYRAMIDS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有建造者+1劳动力且+1 [ICON_MOVEMENT] 移动力。（当资源培育模式开启时）所有农夫、渔民、牧人和矿工+1劳动力且+1 [ICON_MOVEMENT] 移动力。必须建在没有丘陵的沙漠上（包括沙漠泛滥平原）。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_PYRAMIDS_DESCRIPTION"  Language="en_US">
+      <Text>+1 charge and +1 [ICON_MOVEMENT] movement for all Builders. (When Resource Cultivation Mode is on) +1 charge and +1 [ICON_MOVEMENT] movement for all Farmers, Fishers, Herdmen and Miners. Must be built on Desert (including Desert Floodplains) without Hills.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_STONEHENGE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>免费获得1个 [ICON_GreatProphet] 大预言家。 [ICON_GreatProphet] 大预言家可在巨石阵（代替圣地）创立一个宗教。本城宗教传播的压力增加100%，传播距离增加50%。必须建在靠近 [ICON_RESOURCE_STONE] 石材的平原上。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_STONEHENGE_DESCRIPTION"  Language="en_US">
+      <Text>Grants a free [ICON_GreatProphet] Great Prophet. [ICON_GreatProphet] Great Prophets may found a Religion on Stonehenge instead of a Holy Site. Religious spread from this city pressure is 100% stronger and 50% further away. Must be adjacent to [ICON_RESOURCE_STONE] Stone and on flat land.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ORACLE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>伟人赞助和召回英雄消耗的 [ICON_Faith] 信仰值-20%。帝国内区域所提供其类型的 [ICON_GreatPerson] 伟人点数+1（例如剧院广场区域提供大作家、大艺术家和大音乐家点数）。必须建在丘陵上</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ORACLE_DESCRIPTION"  Language="en_US">
+      <Text>Recalling Heroes and Patronage of Great People cost 20% less [ICON_Faith] Faith. Districts in your empire provide +1 [ICON_GreatPerson] Great Person points of their type (for example, Great Writer, Great Artist and Great Musician points from Theater Square). Must be built on Hills.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

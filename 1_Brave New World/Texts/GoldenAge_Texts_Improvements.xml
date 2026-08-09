@@ -1,0 +1,138 @@
+<GameData>
+    <LocalizedText>	
+	<!--改良设施-->
+	<Replace Tag="LOC_IMPROVEMENT_FORT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁军事工程师建造堡垒的能力。-1魅力。该单元格的 [ICON_Movement] 移动力消耗增加1点。进驻单位+5 [ICON_Strength] 防御力，并自动获得两回合驻扎加成。</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_FORT_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Military Engineer ability to construct a Fort. -1 appeal. +1 [ICON_Movement] Movement cost for this tile. Occupying unit receives +5 [ICON_Strength] Defense Strength, and automatically gains 2 turns of fortification.</Text>
+    </Replace>	
+	<Replace Tag="LOC_IMPROVEMENT_LUMBER_MILL_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造伐木场的能力。[NEWLINE][NEWLINE]+1 [ICON_Production] 生产力。-1魅力。只能建在树林上。解锁“军事工程学”科技后也能建造雨林上。</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_LUMBER_MILL_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Builder ability to construct a Lumber Mill.[NEWLINE][NEWLINE]+1 [ICON_Production] Production. -1 appeal. Can only be built on Woods. Once "Military Engineering" is unlocked it can also be built on Rainforest.</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_FISHERY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造渔场能力。只能建在海洋资源旁。</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_FISHERY_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Builder ability to construct a fishery. Can only be built beside sea resources.</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_CITY_PARK_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造市立公园能力。+1魅力。如与水域相邻，则+1 [ICON_Amenities] 宜居度。无法建在另一个市立公园旁。</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_CITY_PARK_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Builder ability to construct a city park. +1 Appeal. +1 [ICON_Amenities] Amenity if adjacent to water. Cannot be adjacent to another City Park.</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_PASTURE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造牧场的能力。[NEWLINE][NEWLINE]+1 [ICON_Food] 食物。只能在有效资源上建造。[NEWLINE][NEWLINE]如果建在战略资源上，城市则可以利用该资源。</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_PASTURE_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Builder ability to construct Pastures. [NEWLINE][NEWLINE]+1 [ICON_Food] Food. Can only be built on valid resources.[NEWLINE][NEWLINE]If built on Strategic resources, the city will gain use of that resource.</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_CAMP_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造营地的能力。[NEWLINE][NEWLINE]+1 [ICON_Food] 食物。只能在有效资源上建造。[NEWLINE][NEWLINE]如果建在奢侈品资源上，城市则可以利用该资源。</Text>
+    </Replace>	
+	<Replace Tag="LOC_IMPROVEMENT_CAMP_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Builder ability to construct Camps. [NEWLINE][NEWLINE]+1 [ICON_Food] Food. Can only be built on valid resources. [NEWLINE][NEWLINE]If built on Luxury resources, the city will gain use of that resource.</Text>
+    </Replace>	
+	<Replace Tag="LOC_IMPROVEMENT_PLANTATION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造种植园的能力。[NEWLINE][NEWLINE]+1 [ICON_Food] 食物。只能在有效资源上建造。[NEWLINE][NEWLINE]如果建在奢侈品资源上，城市则可以利用该资源。</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_PLANTATION_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Builder ability to construct Plantations.[NEWLINE][NEWLINE]+1 [ICON_Food] Food. Can only be built on valid resources.[NEWLINE][NEWLINE]If built on Luxury resources, the city will gain use of that resource.</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_MINE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造矿山的能力。[NEWLINE][NEWLINE]+1 [ICON_Production] 生产力。-1魅力。只能在丘陵或有效资源上建造。[NEWLINE][NEWLINE]如果建在奢侈品资源或战略资源上，城市则可以利用该资源。</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_MINE_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Builder ability to construct Mines.[NEWLINE][NEWLINE]+1 [ICON_Production] Production. -1 Appeal. Can be built on hills or valid resources.[NEWLINE][NEWLINE]If built on Luxury or Strategic resources, the city will gain use of that resource.</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_QUARRY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造采石场的能力。[NEWLINE][NEWLINE]+1 [ICON_Production] 生产力。-1魅力。只能在有效资源上建造。[NEWLINE][NEWLINE]如果建在奢侈品资源上，城市则可以利用该资源。</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_QUARRY_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Builder ability to construct Quarries.[NEWLINE][NEWLINE]+1 [ICON_Production] Production. -1 Appeal. Can only be built on valid resources.[NEWLINE][NEWLINE]If built on a Luxury resource, the city will gain use of that resource.</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_FARM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造农场的能力。[NEWLINE][NEWLINE]+1 [ICON_Food] 食物。</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_FARM_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Builder ability to construct Farms.[NEWLINE][NEWLINE]+1 [ICON_Food] Food.</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_OIL_WELL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造油井的能力。[NEWLINE][NEWLINE]+3 [ICON_Production] 生产力。-1魅力。只能建在拥有 [ICON_RESOURCE_OIL] 石油的陆地单元格上。</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_OIL_WELL_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Builder ability to construct an Oil Well.[NEWLINE][NEWLINE]+3 [ICON_Production] Production. -1 Appeal. Can only be built on land tiles with[ICON_RESOURCE_OIL] Oil.</Text>
+    </Replace>
+    <Replace Tag="LOC_IMPROVEMENT_OFFSHORE_OIL_RIG_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造海上石油钻机的能力。[NEWLINE][NEWLINE]+3 [ICON_Production] 生产力。-1魅力。只能建在拥有 [ICON_RESOURCE_OIL] 石油的海岸或湖泊单元格上。</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_OFFSHORE_OIL_RIG_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Builder ability to construct an Offshore Oil Rig.[NEWLINE][NEWLINE]+3 [ICON_Production] Production. -1 Appeal. Can only be built on Coast or Lake tiles with [ICON_RESOURCE_OIL] Oil.</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_AIRSTRIP_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁军事工程师建造飞机跑道的能力。[NEWLINE][NEWLINE]-2魅力。能放置3个空中单位。只能建在平坦地貌上。</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_AIRSTRIP_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Military Engineer ability to construct an Airstrip.[NEWLINE][NEWLINE]-2 Appeal. Can support 3 air units. Can only be built on flat terrain. </Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_BEACH_RESORT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造海滨度假区的能力。[NEWLINE][NEWLINE]+1魅力。提供等于此单元格魅力两倍的 [ICON_Gold] 金币。提供等于此单元格魅力的 [ICON_Tourism] 旅游业绩。只能建在海岸沙漠、海岸平原，或海岸草原单元格上。所在单元格魅力必须达到惊艳以上。</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_BEACH_RESORT_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Builder ability to construct Seaside Resorts.[NEWLINE][NEWLINE]+1 Appeal. Provides [ICON_Gold] Gold equal to 200% of the tile's Appeal. Provides [ICON_Tourism] Tourism equal to the tile's Appeal. Can only be built on Coastal Desert, Coastal Plains, or Coastal Grassland tiles. Minimum Appeal of Breathtaking.</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_MISSILE_SILO_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁军事工程师能力来建造导弹发射井。[NEWLINE][NEWLINE]-2魅力。作为核装置和热核装置的发射地。</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_MISSILE_SILO_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Military Engineer ability to construct a Missile Silo.[NEWLINE][NEWLINE]-2 Appeal. Acts as a launch site for Nuclear and Thermonuclear Devices.</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_SKI_RESORT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造滑雪场的能力。[NEWLINE][NEWLINE]+1魅力。提供与单元格魅力值相同的 [ICON_Gold] 金币和 [ICON_Tourism] 旅游业绩。提供1点 [ICON_AMENITIES] 宜居度。仅能建在山脉上。无法建在与另一滑雪场相邻的单元格中。无法被掠夺、改良或移除。</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_SKI_RESORT_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Builder ability to construct a Ski Resort.[NEWLINE][NEWLINE]+1 Appeal. Provides [ICON_Gold] Gold and [ICON_Tourism] Tourism equal to the tile's Appeal. Provides an [ICON_AMENITIES] Amenity. Can only be built on a Mountain. Cannot be built adjacent to another Ski Resort. Cannot be pillaged, worked or removed.</Text>
+    </Replace>	
+	<Replace Tag="LOC_IMPROVEMENT_MOUNTAIN_TUNNEL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁军事工程师建造“穿山隧道”的能力。[NEWLINE][NEWLINE]-2魅力。其用作山脉地形上的移动通道，单位可消耗2点 [ICON_Movement] 移动力从一个点进入，再从另一个点走出。如 [ICON_TradeRoute] 贸易路线途径此处，其将从目的地的区域处获得成倍 [ICON_Gold] 金币。只能建在与山脉相邻的单元格上。无法被掠夺或移除。</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_MOUNTAIN_TUNNEL_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Military Engineer ability to construct a Mountain Tunnel.[NEWLINE][NEWLINE]-2 Appeal. Acts as a movement portal on a mountain range, allowing units to move into it and exit from another portal at the cost of 2 [ICON_Movement] Movement. [ICON_TradeRoute] Trade Routes traveling through it can multiply the [ICON_Gold] Gold they get from districts at their destination. Can only be built on an adjacent Mountain tile. Cannot be pillaged or removed.</Text>
+    </Replace>
+	    <Replace Tag="LOC_IMPROVEMENT_SEASTEAD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造海洋家园的能力。[NEWLINE][NEWLINE]+3 [ICON_Housing] 住房。+2 [ICON_Production] 生产力。每相邻一个风力发电厂或离岸风力发电厂则+2 [ICON_Gold] 金币。每相邻一个渔船则+2 [ICON_Production] 生产力，每相邻一个渔场则+1 [ICON_Production] 生产力。每相邻一个礁石地貌则+2 [ICON_Science] 科技值、+2 [ICON_Culture] 文化值、+2 [ICON_Tourism] 旅游业绩。必须建在海岸、湖泊或海洋地形上。无法建在其他海洋家园旁。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SEASTEAD_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Seastead.[NEWLINE][NEWLINE]+3 [ICON_HOUSING] Housing. +2 [ICON_Production] Production. +2 [ICON_Gold] Gold for each adjacent Wind Farm or Offshore Wind Farm. +2 [ICON_Production] Production for each adjacent Fishing Boats and +1 [ICON_Production] Production for each adjacent Fishery. +2 [ICON_Science] Science, [ICON_Culture] Culture and [ICON_Tourism] Tourism for every adjacent Reef. Must be built on Coast, Lake or Ocean terrain. Cannot be placed adjacent to another Seastead. </Text>
+		</Replace>	
+		<!--电力-->	
+    <Replace Tag="LOC_IMPROVEMENT_GEOTHERMAL_PLANT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造地热发电厂的能力。[NEWLINE][NEWLINE]每回合从可再生地热能中提供+2 [ICON_Power] 电力。[NEWLINE][ICON_Bullet]若建在地热裂缝或沼泽（生物质能）上则每回合可额外+2 [ICON_Gold] 金币、+2 [ICON_Power] 电力。[NEWLINE][ICON_Bullet]若与其它地热发电厂相邻则每回合额外+1 [ICON_Power] 电力。[NEWLINE]必须建在火山土，地热裂缝，或沼泽之上。</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_GEOTHERMAL_PLANT_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Builder ability to construct a Geothermal Plant.[NEWLINE][NEWLINE]Provides +2 [ICON_Power] Power per turn from renewable geothermal sources.[NEWLINE][ICON_Bullet]Extra +2 [ICON_Gold] Gold and +2 [ICON_Power] Power per turn if built on a Geothermal Fissure or Marsh (biomass energy).[NEWLINE][ICON_Bullet]Extra +1 [ICON_Power] Power per turn if it is adjacent to another Geothermal Plant.[NEWLINE]Must be built on a Volcanic Soil, Geothermal Fissure, or Marsh.</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_SOLAR_FARM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造太阳能发电厂的能力。[NEWLINE][NEWLINE]每回合从可再生太阳能中提供+2 [ICON_Power] 电力。[NEWLINE][ICON_Bullet]若建在沙漠地形上则每回合可额外+2 [ICON_Gold] 金币、+1 [ICON_Power] 电力。[NEWLINE][ICON_Bullet]若与其它太阳能发电厂相邻则每回合额外+1 [ICON_Power] 电力。[NEWLINE]必须建在平坦地形上。[NEWLINE]需要解锁“高级能量电池”科技后才能建在冻土和雪地地形上。</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_SOLAR_FARM_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Builder ability to construct a Solar Farm.[NEWLINE][NEWLINE]Provides +2 [ICON_Power] Power per turn from renewable solar sources.[NEWLINE][ICON_Bullet]Extra +2 [ICON_Gold] Gold and +1 [ICON_Power] Power per turn if built on Desert.[NEWLINE][ICON_Bullet]Extra +1 [ICON_Power] Power per turn if it is adjacent to another Solar Farm.[NEWLINE]Must be built on flat terrain.[NEWLINE]Requires the Advanced Power Cells technology to be built on Tundra or Snow terrain.</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_WIND_FARM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造风力发电厂的能力。[NEWLINE][NEWLINE]每回合从可再生风能中提供+2 [ICON_Power] 电力。[NEWLINE][ICON_Bullet]若建在靠近海岸的单元格上则每回合可额外+2 [ICON_Gold] 金币、+1 [ICON_Power] 电力。[NEWLINE][ICON_Bullet]若与其它风力发电厂相邻则每回合额外+1 [ICON_Power] 电力。[NEWLINE]必须建在丘陵地貌上。</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_WIND_FARM_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Builder ability to construct a Wind Farm.[NEWLINE][NEWLINE]Provides +2 [ICON_Power] Power per turn from renewable wind sources.[NEWLINE][ICON_Bullet]Extra +2 [ICON_Gold] Gold and +1 [ICON_Power] Power per turn if built adjacent to coast.[NEWLINE][ICON_Bullet]Extra +1 [ICON_Power] Power per turn if it is adjacent to another Wind Farm.[NEWLINE]Must be built on Hills terrain.</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_OFFSHORE_WIND_FARM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造离岸风力发电厂的能力。[NEWLINE][NEWLINE]每回合从可再生风能中提供+2 [ICON_Power] 电力。[NEWLINE][ICON_Bullet]若建在海洋地形上则每回合可额外+2 [ICON_Gold] 金币、+1 [ICON_Power] 电力。[NEWLINE][ICON_Bullet]若与其它离岸风力发电厂相邻则每回合额外+1 [ICON_Power] 电力。[NEWLINE]必须建在海岸、湖泊或海洋地形上。[NEWLINE]解锁“海洋家园”科技后才能建在海洋地形上。</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_OFFSHORE_WIND_FARM_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Builder ability to construct an Offshore Wind Farm.[NEWLINE][NEWLINE]Provides +2 [ICON_Power] Power per turn from renewable wind sources.[NEWLINE][ICON_Bullet]Extra +2 [ICON_Gold] Gold and +1 [ICON_Power] Power per turn if built on Ocean.[NEWLINE][ICON_Bullet]Extra +1 [ICON_Power] Power per turn if it is adjacent to another Offshore Wind Farm.[NEWLINE]Must be built on Coast, Lake, or Ocean terrain.[NEWLINE]Requires the Seasteads technology to be built on Ocean terrain.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

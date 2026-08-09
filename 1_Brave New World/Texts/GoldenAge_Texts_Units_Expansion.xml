@@ -1,0 +1,631 @@
+<GameData>
+	<LocalizedText>
+			
+	<!--Recon units-->
+	   <Replace Tag="LOC_UNIT_SCOUT_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>远古时代侦察单位。视野为3。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_SCOUT_DESCRIPTION" Language="en_US">
+            <Text>Ancient era Recon unit. Sight: 3</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_SKIRMISHER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中世纪侦察单位。视野为4。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SKIRMISHER_DESCRIPTION" Language="en_US">
+			<Text>Medieval Era recon unit. Sight: 4</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>工业时代侦察单位。视野为5。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGER_DESCRIPTION" Language="en_US">
+			<Text>Industrial era Recon unit. Sight: 5</Text>
+		</Replace>						
+	    <Replace Tag="LOC_UNIT_SPEC_OPS_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>原子能时代侦察单位。视野为6。[NEWLINE][NEWLINE]拥有“空投”能力，可移动到离友方单元格7个单元格的位置上（如果从航空港或飞机跑道上执行空投则距离上升为12个单元格）。无需先消灭地面战斗单位即可直接攻击支援单位。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_SPEC_OPS_DESCRIPTION" Language="en_US">
+            <Text>Atomic Era reconnaissance unit. Sight: 6 [NEWLINE][NEWLINE]Paradrop ability allows movement from friendly tile to location 7 tiles away (12 if starting from Aerodrome or Airstrip). Can attack support units directly without having to eliminate the combat unit first.</Text>
+        </Replace>
+<!--Melee units-->
+		<Replace Tag="LOC_UNIT_WARRIOR_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>远古时代近战单位，克制抗骑兵单位。视野为1。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_WARRIOR_DESCRIPTION" Language="en_US">
+            <Text>Ancient era Melee unit, counters Anti-Cavalry units well. Sight: 1</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_SWORDSMAN_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>古典时期近战单位，克制抗骑兵单位。视野为1。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_SWORDSMAN_DESCRIPTION" Language="en_US">
+          <Text>Classical era Melee unit, counters Anti-Cavalry units well. Sight: 1</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_MAN_AT_ARMS_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>中世纪近战单位，克制抗骑兵单位。视野为1。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_MAN_AT_ARMS_DESCRIPTION" Language="en_US">
+          <Text>Medieval era Melee unit, counters Anti-Cavalry units well. Sight: 1</Text>
+        </Replace>
+		 <Replace Tag="LOC_UNIT_MUSKETMAN_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>文艺复兴时期近战单位，克制抗骑兵单位。视野为1。</Text>
+        </Replace>
+	     <Replace Tag="LOC_UNIT_MUSKETMAN_DESCRIPTION" Language="en_US">
+          <Text>Renaissance era Melee unit, counters Anti-Cavalry units well. Sight: 1</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_LINE_INFANTRY_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>工业时代近战单位，克制抗骑兵单位。视野为1。</Text>
+        </Replace>
+	      <Replace Tag="LOC_UNIT_LINE_INFANTRY_DESCRIPTION" Language="en_US">
+          <Text>Industrial era Melee unit, counters Anti-Cavalry units well. Sight: 1</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_INFANTRY_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>电气时代近战单位，克制抗骑兵单位。视野为1。</Text>
+        </Replace>
+	      <Replace Tag="LOC_UNIT_INFANTRY_DESCRIPTION" Language="en_US">
+          <Text>Modern era Melee unit, counters Anti-Cavalry units well. Sight: 1</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_ELITE_INFANTRY_NAME" Language="zh_Hans_CN">
+          <Text>先进步兵</Text>
+        </Replace>
+	      <Replace Tag="LOC_UNIT_ELITE_INFANTRY_NAME" Language="en_US">
+          <Text>Elite Infantry</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_ELITE_INFANTRY_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>原子能时代近战单位，克制抗骑兵单位。视野为1。</Text>
+        </Replace>
+	      <Replace Tag="LOC_UNIT_ELITE_INFANTRY_DESCRIPTION" Language="en_US">
+          <Text>Atomic era Melee unit, counters Anti-Cavalry units well. Sight: 1</Text>
+        </Replace>
+		 <Replace Tag="LOC_UNIT_MECHANIZED_INFANTRY_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>信息时代近战单位，克制抗骑兵单位。视野为1。</Text>
+       </Replace>
+	      <Replace Tag="LOC_UNIT_MECHANIZED_INFANTRY_DESCRIPTION" Language="en_US">
+          <Text>Information era Melee unit, counters Anti-Cavalry units well. Sight: 1</Text>
+       </Replace>
+	   
+	   <!--Anti-Cavalry units-->
+		<Replace Tag="LOC_UNIT_SPEARMAN_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>远古时代抗骑兵单位，克制骑兵单位。视野为1。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_SPEARMAN_DESCRIPTION" Language="en_US">
+          <Text>Ancient era Anti-Cavalry unit, counters Cavalry units well. Sight: 1</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_HEAVY_INFANTRY_NAME" Language="zh_Hans_CN">
+          <Text>盾枪兵</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_HEAVY_INFANTRY_NAME" Language="en_US">
+          <Text>Shield Spearman</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_HEAVY_INFANTRY_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>古典时期抗骑兵单位，克制骑兵单位。视野为1。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_HEAVY_INFANTRY_DESCRIPTION" Language="en_US">
+          <Text>Classical era Anti-Cavalry unit, counters Cavalry units well. Sight: 1</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_PIKEMAN_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>中世纪抗骑兵单位，克制骑兵单位。视野为1。</Text>
+        </Replace>
+	     <Replace Tag="LOC_UNIT_PIKEMAN_DESCRIPTION" Language="en_US">
+          <Text>Medieval era Anti-Cavalry unit, counters Cavalry units well. Sight: 1</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_PIKE_AND_SHOT_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>文艺复兴时期的抗骑兵单位，克制骑兵单位。视野为1。</Text>
+       </Replace>
+	      <Replace Tag="LOC_UNIT_PIKE_AND_SHOT_DESCRIPTION" Language="en_US">
+          <Text>Renaissance era Anti-Cavalry unit, counters Cavalry units well. Sight: 1</Text>
+       </Replace>		
+		<Replace Tag="LOC_UNIT_ARQUEBUSIER_NAME" Language="zh_Hans_CN">
+          <Text>火绳枪手</Text>
+        </Replace>
+	     <Replace Tag="LOC_UNIT_ARQUEBUSIER_NAME" Language="en_US">
+          <Text>Arquebusier</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_ARQUEBUSIER_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>工业时代抗骑兵单位，克制骑兵单位。视野为1。</Text>
+        </Replace>
+	     <Replace Tag="LOC_UNIT_ARQUEBUSIER_DESCRIPTION" Language="en_US">
+          <Text>Industrial era Anti-Cavalry unit, counters Cavalry units well. Sight: 1</Text>
+        </Replace>		
+		<Replace Tag="LOC_UNIT_AT_CREW_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>电气时代抗骑兵单位，克制骑兵单位。视野为1。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_AT_CREW_DESCRIPTION" Language="en_US">
+          <Text>Modern era Anti-Cavalry unit, counters Cavalry units well. Sight: 1</Text>
+        </Replace>
+	   <Replace Tag="LOC_UNIT_MODERN_AT_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>原子能时代抗骑兵单位，克制骑兵单位。视野为1。</Text>
+       </Replace>
+	      <Replace Tag="LOC_UNIT_MODERN_AT_DESCRIPTION" Language="en_US">
+          <Text>Atomic era Anti-Cavalry unit, counters Cavalry units well. Sight: 1</Text>
+       </Replace>
+	   <Replace Tag="LOC_UNIT_UNIT_AT_MISSILE_NAME" Language="zh_Hans_CN">
+          <Text>反坦克火箭炮</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_UNIT_AT_MISSILE_NAME" Language="en_US">
+          <Text>Anti-Tank Missile</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_AT_MISSILE_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>信息时代抗骑兵单位，克制骑兵单位。视野为1。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_AT_MISSILE_DESCRIPTION" Language="en_US">
+          <Text>Information era Anti-Cavalry unit, counters Cavalry units well. Sight: 1</Text>
+        </Replace>
+			   	   
+	   <!--Ranged units-->
+		<Replace Tag="LOC_UNIT_SLINGER_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>远古时代远程单位，克制火力支援单位。视野为1。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_SLINGER_DESCRIPTION" Language="en_US">
+          <Text>Ancient era Ranged unit, counters Firesupport units well. Sight: 1</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_ARCHER_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>古典时期远程单位，克制火力支援单位。视野为1。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_ARCHER_DESCRIPTION" Language="en_US">
+          <Text>Classical era Ranged unit, counters Firesupport units well. Sight: 1</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_CROSSBOWMAN_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>中世纪远程单位，克制火力支援单位。视野为1。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_CROSSBOWMAN_DESCRIPTION" Language="en_US">
+          <Text>Medieval era Ranged unit, counters Firesupport units well. Sight: 1</Text>
+        </Replace>		
+		<Replace Tag="LOC_UNIT_CULVERIN_NAME" Language="zh_Hans_CN">
+          <Text>长管炮</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_CULVERIN_NAME" Language="en_US">
+          <Text>Culverin</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_CULVERIN_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>文艺复兴时期远程单位，克制火力支援单位。视野为1。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_CULVERIN_DESCRIPTION" Language="en_US">
+          <Text>Renaissance era Ranged unit, counters Firesupport units well. Sight: 1</Text>
+        </Replace>		
+		<Replace Tag="LOC_UNIT_FIELD_CANNON_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>工业时代远程单位，克制火力支援单位。视野为1。</Text>
+        </Replace>
+	     <Replace Tag="LOC_UNIT_FIELD_CANNON_DESCRIPTION" Language="en_US">
+          <Text>Industrial era Ranged unit, counters Firesupport units well. Sight: 1</Text>
+        </Replace>	
+		<Replace Tag="LOC_UNIT_HOWITZER_NAME" Language="zh_Hans_CN">
+			<Text>步兵炮</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HOWITZER_NAME" Language="en_US">
+			<Text>Infantry gun</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HOWITZER_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>电气时代远程单位，克制火力支援单位。视野为1。</Text>
+        </Replace>
+	     <Replace Tag="LOC_UNIT_HOWITZER_DESCRIPTION" Language="en_US">
+          <Text>Modern era Ranged unit, counters Firesupport units well. Sight: 1</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_MACHINE_GUN_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>原子能时代远程单位，克制火力支援单位。视野为1。</Text>
+       </Replace>
+	      <Replace Tag="LOC_UNIT_MACHINE_GUN_DESCRIPTION" Language="en_US">
+          <Text>Atomic era Ranged unit, counters Firesupport units well. Sight: 1</Text>
+       </Replace>
+	   <Replace Tag="LOC_UNIT_MISSILE_VEHICLE_NAME" Language="zh_Hans_CN">
+          <Text>导弹发射车</Text>
+        </Replace>
+	     <Replace Tag="LOC_UNIT_MISSILE_VEHICLE_NAME" Language="en_US">
+          <Text>Missile Vehicle</Text>
+        </Replace>
+			<Replace Tag="LOC_UNIT_MISSILE_VEHICLE_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>信息时代远程单位，克制火力支援单位。视野为1。</Text>
+        </Replace>
+	     <Replace Tag="LOC_UNIT_MISSILE_VEHICLE_DESCRIPTION" Language="en_US">
+          <Text>Information era Ranged unit, counters Firesupport units well. Sight: 1</Text>
+        </Replace>
+	   <!--Firesupport units-->		
+		<Replace Tag="LOC_PROMOTION_CLASS_FIRESUPPORT_NAME" Language="zh_Hans_CN">
+			<Text>火力支援</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_FIRESUPPORT_NAME" Language="en_US">
+			<Text>Fire Support</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT2_NAME" Language="zh_Hans_CN">
+			<Text>骑射手</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT2_NAME" Language="en_US">
+			<Text>Horse archer</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT3_NAME" Language="zh_Hans_CN">
+			<Text>弓骑兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT3_NAME" Language="en_US">
+			<Text>Mounted archer</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT4_NAME" Language="zh_Hans_CN">
+			<Text>弩骑兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT4_NAME" Language="en_US">
+			<Text>Crossbow cavalry</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT5_NAME" Language="zh_Hans_CN">
+			<Text>火绳枪骑兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT5_NAME" Language="en_US">
+			<Text>Harquebus Rider</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT6_NAME" Language="zh_Hans_CN">
+			<Text>重炮骑兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT6_NAME" Language="en_US">
+			<Text>Gun cavalry</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT7_NAME" Language="zh_Hans_CN">
+			<Text>掷弹筒</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT7_NAME" Language="en_US">
+			<Text>Grenade launchers</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT8_NAME" Language="zh_Hans_CN">
+			<Text>自行火炮</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT8_NAME" Language="en_US">
+			<Text>Self-propelled artillery</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>古典时期火力支援单位，克制近战单位。视野为2。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT2_DESCRIPTION" Language="en_US">
+			<Text>Classical era Melee unit, counters Anti-Cavalry units well. Sight: 2</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中世纪火力支援单位，克制近战单位。视野为2。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT3_DESCRIPTION" Language="en_US">
+			<Text>Medieval era Melee unit, counters Anti-Cavalry units well. Sight: 2</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT4_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>文艺复兴时期火力支援单位，克制近战单位。视野为2。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT4_DESCRIPTION" Language="en_US">
+			<Text>Renaissance era Melee unit, counters Anti-Cavalry units well. Sight: 2</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT5_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>工业时代火力支援单位，克制近战单位。视野为2。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT5_DESCRIPTION" Language="en_US">
+			<Text>Industrial era Melee unit, counters Anti-Cavalry units well. Sight: 2</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT6_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>电气时代火力支援单位，克制近战单位。视野为2。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT6_DESCRIPTION" Language="en_US">
+			<Text>Modern era Melee unit, counters Anti-Cavalry units well. Sight: 2</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT7_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>原子能时代火力支援单位，克制近战单位。视野为2。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT7_DESCRIPTION" Language="en_US">
+			<Text>Atomic era Melee unit, counters Anti-Cavalry units well. Sight: 2</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT8_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>信息时代火力支援单位，克制近战单位。视野为2。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT8_DESCRIPTION" Language="en_US">
+			<Text>Information era Melee unit, counters Anti-Cavalry units well. Sight: 2</Text>
+		</Replace>
+	   <!--Light Cavalry units-->
+		<Replace Tag="LOC_UNIT_HORSEMAN_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>古典时期轻骑兵单位，克制攻城单位。视野为2。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_HORSEMAN_DESCRIPTION" Language="en_US">
+          <Text>Classical era Light Cavalry unit, counters Siege units well. Sight: 2</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_COURSER_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>中世纪轻骑兵单位，克制攻城单位。视野为2。</Text>
+       </Replace>
+	       <Replace Tag="LOC_UNIT_COURSER_DESCRIPTION" Language="en_US">
+          <Text>Medieval Era Light Cavalry unit, counters Siege units well. Sight: 2</Text>
+       </Replace>	   
+	   <Replace Tag="LOC_UNIT_DRAGOON_NAME" Language="zh_Hans_CN">
+          <Text>龙骑兵</Text>
+        </Replace>
+	     <Replace Tag="LOC_UNIT_DRAGOON_NAME" Language="en_US">
+          <Text>Dragoon</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_DRAGOON_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>文艺复兴时期轻骑兵单位，克制攻城单位。视野为2。</Text>
+        </Replace>
+	     <Replace Tag="LOC_UNIT_DRAGOON_DESCRIPTION" Language="en_US">
+          <Text>Renaissance era Light Cavalry unit, counters Siege units well. Sight: 2</Text>
+        </Replace>		
+		<Replace Tag="LOC_UNIT_CAVALRY_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>工业时代轻骑兵单位，克制攻城单位。视野为2。</Text>
+        </Replace>
+	     <Replace Tag="LOC_UNIT_CAVALRY_DESCRIPTION" Language="en_US">
+          <Text>Industrial era Light Cavalry unit, counters Siege units well. Sight: 2</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_CARABINIER_NAME" Language="zh_Hans_CN">
+          <Text>卡宾枪骑兵</Text>
+        </Replace>
+	     <Replace Tag="LOC_UNIT_CARABINIER_NAME" Language="en_US">
+          <Text>Carabinier</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_CARABINIER_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>电气时代轻骑兵单位，克制攻城单位。视野为2。</Text>
+        </Replace>
+	     <Replace Tag="LOC_UNIT_CARABINIER_DESCRIPTION" Language="en_US">
+          <Text>Modern era Light Cavalry unit, counters Siege units well. Sight: 2</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_HELICOPTER_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>原子能时代轻骑兵单位，克制攻城单位。视野为2。</Text>
+       </Replace>
+	      <Replace Tag="LOC_UNIT_HELICOPTER_DESCRIPTION" Language="en_US">
+          <Text>Atomic era Light Cavalry unit, counters Siege units well. Sight: 2</Text>
+       </Replace>
+	   <Replace Tag="LOC_UNIT_SUPER_HELICOPTER_NAME" Language="zh_Hans_CN">
+          <Text>超级直升机</Text>
+        </Replace>
+	     <Replace Tag="LOC_UNIT_SUPER_HELICOPTER_NAME" Language="en_US">
+          <Text>Super Helicopter</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_SUPER_HELICOPTER_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>信息时代轻骑兵单位，克制攻城单位。视野为2。</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_SUPER_HELICOPTER_DESCRIPTION" Language="en_US">
+          <Text>Information era Light Cavalry unit, counters Siege units well. Sight: 2</Text>
+        </Replace>
+	   	   
+	   <!--Heavy Cavalry units-->
+		<Replace Tag="LOC_UNIT_HEAVY_CHARIOT_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>远古时代重骑兵单位，克制远程单位。视野为2。[NEWLINE][NEWLINE]如果在一个没有树林、雨林和丘陵的平坦单元格上开始一个回合，会获得1 [ICON_Movement] 移动力加成。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_HEAVY_CHARIOT_DESCRIPTION" Language="en_US">
+          <Text>Ancient era Heavy Cavalry unit, counters Ranged units well. Sight: 2[NEWLINE][NEWLINE]Gains 1 bonus [ICON_Movement] Movement if it begins a turn on a flat tile with no Woods, Rainforest, or Hills.</Text>
+        </Replace>		
+		<Replace Tag="LOC_UNIT_ARMORED_HORSEMAN_NAME" Language="zh_Hans_CN">
+          <Text>装甲骑兵</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_ARMORED_HORSEMAN_NAME" Language="en_US">
+          <Text>Armored Horseman</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_ARMORED_HORSEMAN_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>古典时期重骑兵单位，克制远程单位。视野为2。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_ARMORED_HORSEMAN_DESCRIPTION" Language="en_US">
+          <Text>Classical era Heavy Cavalry unit, counters Ranged units well. Sight: 2</Text>
+        </Replace>		
+		<Replace Tag="LOC_UNIT_KNIGHT_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>中世纪重骑兵单位，克制远程单位。视野为2。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_KNIGHT_DESCRIPTION" Language="en_US">
+          <Text>Medieval era Heavy Cavalry unit, counters Ranged units well. Sight: 2</Text>
+        </Replace>		
+		<Replace Tag="LOC_UNIT_REITER_NAME" Language="zh_Hans_CN">
+          <Text>黑骑士</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_REITER_NAME" Language="en_US">
+          <Text>Reiter</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_REITER_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>文艺复兴时期重骑兵单位，克制远程单位。视野为2。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_REITER_DESCRIPTION" Language="en_US">
+          <Text>Renaissance era Heavy Cavalry unit, counters Ranged units well. Sight: 2</Text>
+        </Replace>		
+		<Replace Tag="LOC_UNIT_CUIRASSIER_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>工业时代重骑兵单位，克制远程单位。视野为2。</Text>
+       </Replace>
+	        <Replace Tag="LOC_UNIT_CUIRASSIER_DESCRIPTION" Language="en_US">
+          <Text>Industrial era Heavy Cavalry unit, counters Ranged units well. Sight: 2</Text>
+       </Replace>	
+	   <Replace Tag="LOC_UNIT_LANDSHIP_NAME" Language="zh_Hans_CN">
+          <Text>履带战车</Text>
+       </Replace>
+	      <Replace Tag="LOC_UNIT_LANDSHIP_NAME" Language="en_US">
+          <Text>Landship</Text>
+       </Replace>
+	   <Replace Tag="LOC_UNIT_LANDSHIP_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>电气时代重骑兵单位，克制远程单位。它能忽略控制区。视野为2。</Text>
+       </Replace>
+	      <Replace Tag="LOC_UNIT_LANDSHIP_DESCRIPTION" Language="en_US">
+          <Text>Modern era Heavy Cavalry unit that ignores zone of control, counters Ranged units well. Sight: 2</Text>
+       </Replace>
+	   <Replace Tag="LOC_UNIT_TANK_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>原子能时代重骑兵单位，克制远程单位。它能忽略控制区。视野为2。</Text>
+       </Replace>
+	      <Replace Tag="LOC_UNIT_TANK_DESCRIPTION" Language="en_US">
+          <Text>Atomic era Heavy Cavalry unit that ignores zone of control, counters Ranged units well. Sight: 2</Text>
+       </Replace>
+	   <Replace Tag="LOC_UNIT_MODERN_ARMOR_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>信息时代重骑兵单位，克制远程单位。视野为2。</Text>
+       </Replace>
+	      <Replace Tag="LOC_UNIT_MODERN_ARMOR_DESCRIPTION" Language="en_US">
+          <Text>Information era Heavy Cavalry unit, counters Ranged units well. Sight: 2</Text>
+       </Replace>
+	      
+	   <!--Siege units-->
+	    <Replace Tag="LOC_UNIT_CATAPULT_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>古典时期攻城单位，非常适合进攻城市。视野为1。[NEWLINE][NEWLINE]不能在同一个回合移动和攻击，除非他们在回合开始时拥有不少于3点移动力，或获得了专家团队的晋升。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_CATAPULT_DESCRIPTION" Language="en_US">
+          <Text>Classical era Siege unit, ideal for attacking cities. Sight: 1 [NEWLINE][NEWLINE]Cannot move and attack on the same turn unless they start the turn with more than 3 movement (e.g. great general, logistics) or have the Expert Crew promotion.</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_TREBUCHET_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>中世纪攻城单位，非常适合进攻城市。视野为1。[NEWLINE][NEWLINE]不能在同一个回合移动和攻击，除非他们在回合开始时拥有不少于3点移动力，或获得了专家团队的晋升。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_TREBUCHET_DESCRIPTION" Language="en_US">
+          <Text>Medieval era Siege unit, ideal for attacking cities. Sight: 1 [NEWLINE][NEWLINE]Cannot move and attack on the same turn unless they start the turn with more than 3 movement (e.g. great general, logistics) or have the Expert Crew promotion.</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_BOMBARD_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>文艺复兴时期攻城单位，非常适合进攻城市。视野为1。[NEWLINE][NEWLINE]不能在同一个回合移动和攻击，除非他们在回合开始时拥有不少于3点移动力，或获得了专家团队的晋升。</Text>
+        </Replace>
+	     <Replace Tag="LOC_UNIT_BOMBARD_DESCRIPTION" Language="en_US">
+          <Text>Renaissance era Siege unit, ideal for attacking cities. Sight: 1 [NEWLINE][NEWLINE]Cannot move and attack on the same turn unless they start the turn with more than 3 movement (e.g. great general, logistics) or have the Expert Crew promotion.</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_RIFLED_CANNON_NAME" Language="zh_Hans_CN">
+          <Text>线膛炮</Text>
+       </Replace>
+	      <Replace Tag="LOC_UNIT_RIFLED_CANNON_NAME" Language="en_US">
+          <Text>Rifiled Cannon</Text>
+       </Replace>
+	   <Replace Tag="LOC_UNIT_RIFLED_CANNON_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>工业时代攻城单位，非常适合进攻城市。视野为1。[NEWLINE][NEWLINE]不能在同一个回合移动和攻击，除非他们在回合开始时拥有不少于3点移动力，或获得了专家团队的晋升。</Text>
+       </Replace>
+	      <Replace Tag="LOC_UNIT_RIFLED_CANNON_DESCRIPTION" Language="en_US">
+          <Text>Industrial era Siege unit, ideal for attacking cities. Sight: 1 [NEWLINE][NEWLINE]Cannot move and attack on the same turn unless they start the turn with more than 3 movement (e.g. great general, logistics) or have the Expert Crew promotion.</Text>
+       </Replace>
+		<Replace Tag="LOC_UNIT_ARTILLERY_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>电气时代攻城单位，非常适合进攻城市。视野为1。[NEWLINE][NEWLINE]不能在同一个回合移动和攻击，除非他们在回合开始时拥有不少于3点移动力，或获得了专家团队的晋升。</Text>
+       </Replace>
+	      <Replace Tag="LOC_UNIT_ARTILLERY_DESCRIPTION" Language="en_US">
+          <Text>Modern era Siege unit, ideal for attacking cities. Sight: 1 [NEWLINE][NEWLINE]Cannot move and attack on the same turn unless they start the turn with more than 3 movement (e.g. great general, logistics) or have the Expert Crew promotion.</Text>
+       </Replace>
+	   <Replace Tag="LOC_UNIT_ATOMIC_ARTILLERY_NAME" Language="zh_Hans_CN">
+          <Text>原子炮</Text>
+       </Replace>
+	      <Replace Tag="LOC_UNIT_ATOMIC_ARTILLERY_NAME" Language="en_US">
+          <Text>Atomic Artillery</Text>
+       </Replace>
+	   <Replace Tag="LOC_UNIT_ATOMIC_ARTILLERY_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>原子能时代攻城单位，非常适合进攻城市。视野为1。[NEWLINE][NEWLINE]不能在同一个回合移动和攻击，除非他们在回合开始时拥有不少于3点移动力，或获得了专家团队的晋升。</Text>
+       </Replace>
+	      <Replace Tag="LOC_UNIT_ATOMIC_ARTILLERY_DESCRIPTION" Language="en_US">
+          <Text>Atomic era Siege unit, ideal for attacking cities. Sight: 1 [NEWLINE][NEWLINE]Cannot move and attack on the same turn unless they start the turn with more than 3 movement (e.g. great general, logistics) or have the Expert Crew promotion.</Text>
+       </Replace>
+	   <Replace Tag="LOC_UNIT_ROCKET_ARTILLERY_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>信息时代攻城单位，非常适合进攻城市。视野为1。[NEWLINE][NEWLINE]不能在同一个回合移动和攻击，除非他们在回合开始时拥有不少于3点移动力，或获得了专家团队的晋升。</Text>
+       </Replace>
+	      <Replace Tag="LOC_UNIT_ROCKET_ARTILLERY_DESCRIPTION" Language="en_US">
+          <Text>Information era Siege unit, ideal for attacking cities. Sight: 1 [NEWLINE][NEWLINE]Cannot move and attack on the same turn unless they start the turn with more than 3 movement (e.g. great general, logistics) or have the Expert Crew promotion.</Text>
+       </Replace>
+	<!--NAVAL_MELEE-->	
+		<Replace Tag="LOC_UNIT_LEMBOS_NAME" Language="zh_Hans_CN">
+          <Text>木帆船</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_LEMBOS_NAME" Language="en_US">
+          <Text>Wooden sailing ship</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_COG_NAME" Language="zh_Hans_CN">
+          <Text>大帆船</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_COG_NAME" Language="en_US">
+          <Text>Carrack</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_TORPEDO_GUNBOAT_NAME" Language="zh_Hans_CN">
+          <Text>鱼雷快艇</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_TORPEDO_GUNBOAT_NAME" Language="en_US">
+          <Text>Torpedo Gunboat</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_MISSILE_FRIGATE_NAME" Language="zh_Hans_CN">
+          <Text>导弹护卫舰</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_MISSILE_FRIGATE_NAME" Language="en_US">
+          <Text>Missile Frigate</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_GALLEY_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>远古时代海军近战单位。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_GALLEY_DESCRIPTION" Language="en_US">
+          <Text>Ancient era naval melee unit.</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_LEMBOS_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>古典时代海军近战单位。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_LEMBOS_DESCRIPTION" Language="en_US">
+          <Text>Classical era naval melee unit.</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_COG_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>中世纪海军近战单位。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_COG_DESCRIPTION" Language="en_US">
+          <Text>Medieval era naval melee unit.</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_CARAVEL_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>文艺复兴时期海军近战单位。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_CARAVEL_DESCRIPTION" Language="en_US">
+          <Text>Renaissance era naval melee unit.</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_IRONCLAD_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>工业时代海军近战单位。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_IRONCLAD_DESCRIPTION" Language="en_US">
+          <Text>Industrial era naval melee unit.</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_TORPEDO_GUNBOAT_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>电气时代海军近战单位。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_TORPEDO_GUNBOAT_DESCRIPTION" Language="en_US">
+          <Text>Modern era naval melee unit.</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_DESTROYER_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>原子能时代海军近战单位。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_DESTROYER_DESCRIPTION" Language="en_US">
+          <Text>Atomic era naval melee unit.</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_MISSILE_FRIGATE_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>信息时代海军近战单位。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_MISSILE_FRIGATE_DESCRIPTION" Language="en_US">
+          <Text>Information era naval melee unit.</Text>
+        </Replace>
+	<!--NAVAL_RANGED-->	
+		<Replace Tag="LOC_UNIT_GALLEASS_NAME" Language="zh_Hans_CN">
+          <Text>三桅帆装军舰</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_GALLEASS_NAME" Language="en_US">
+          <Text>Galleass</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_ARMORED_CRUISER_NAME" Language="zh_Hans_CN">
+          <Text>风帆战舰</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_ARMORED_CRUISER_NAME" Language="en_US">
+          <Text>Ship of the Line</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_BATTLECRUISER_NAME" Language="zh_Hans_CN">
+			<Text>现代战列舰</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_BATTLECRUISER_NAME" Language="en_US">
+			<Text>Modern Battleship</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_QUADRIREME_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>古典时代海军远程单位。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_QUADRIREME_DESCRIPTION" Language="en_US">
+          <Text>Classical era naval ranged unit.</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_GALLEASS_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>中世纪海军远程单位。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_GALLEASS_DESCRIPTION" Language="en_US">
+          <Text>Medieval era naval ranged unit.</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_FRIGATE_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>文艺复兴时期海军远程单位。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_FRIGATE_DESCRIPTION" Language="en_US">
+          <Text>Renaissance era naval ranged unit.</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_ARMORED_CRUISER_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>工业时代海军远程单位。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_ARMORED_CRUISER_DESCRIPTION" Language="en_US">
+          <Text>Industrial era naval ranged unit.</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_BATTLESHIP_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>电气时代海军远程单位。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_BATTLESHIP_DESCRIPTION" Language="en_US">
+          <Text>Modern era naval ranged unit.</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_BATTLECRUISER_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>原子能时代海军远程单位。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_BATTLECRUISER_DESCRIPTION" Language="en_US">
+          <Text>Atomic era naval ranged unit.</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_MISSILE_CRUISER_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>信息时代海军远程单位。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_MISSILE_CRUISER_DESCRIPTION" Language="en_US">
+          <Text>Information era naval ranged unit.</Text>
+        </Replace>
+	</LocalizedText>
+</GameData>

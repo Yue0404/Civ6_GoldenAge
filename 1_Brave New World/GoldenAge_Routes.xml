@@ -1,0 +1,25 @@
+<GameInfo>
+    <!--工人修路-->	
+	<!-- <Route_ValidBuildUnits> -->
+		<!-- <Row RouteType="ROUTE_ANCIENT_ROAD" UnitType="UNIT_BUILDER"/> -->
+		<!-- <Row RouteType="ROUTE_MEDIEVAL_ROAD" UnitType="UNIT_BUILDER"/> -->
+		<!-- <Row RouteType="ROUTE_INDUSTRIAL_ROAD" UnitType="UNIT_BUILDER"/> -->
+		<!-- <Row RouteType="ROUTE_MODERN_ROAD" UnitType="UNIT_BUILDER"/> -->
+	<!-- </Route_ValidBuildUnits> -->
+	
+	<!--免费修路-->	
+	<Routes_XP2>
+	<Update>
+	    <Where RouteType="ROUTE_ANCIENT_ROAD"/> <Set BuildWithUnitChargeCost="0"/>
+	</Update>
+	<Update>
+	    <Where RouteType="ROUTE_MEDIEVAL_ROAD"/> <Set BuildWithUnitChargeCost="0"/>
+	</Update>
+	<Update>
+	    <Where RouteType="ROUTE_INDUSTRIAL_ROAD"/> <Set BuildWithUnitChargeCost="0"/>
+	</Update>
+	<Update>
+	    <Where RouteType="ROUTE_MODERN_ROAD"/> <Set BuildWithUnitChargeCost="0"/>
+	</Update>	
+    </Routes_XP2>	
+</GameInfo>

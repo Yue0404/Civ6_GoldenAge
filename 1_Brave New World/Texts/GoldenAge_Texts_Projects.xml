@@ -1,0 +1,357 @@
+<GameData>
+    <LocalizedText>	
+	<!--项目-->
+	<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_ENCAMPMENT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>基于区域的项目，每回合提供当前 [ICON_Production] 生产力水平20%的 [ICON_Gold] 金币、完成后提供 [ICON_GreatGeneral] 大将军点数。</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_HARBOR_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>基于区域的项目，每回合提供当前 [ICON_Production] 生产力水平20%的 [ICON_Gold] 金币、完成后提供 [ICON_GreatAdmiral] 海军统帅点数。</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_COMMERCIAL_HUB_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>基于区域的项目，每回合提供当前 [ICON_Production] 生产力水平20%的 [ICON_Gold] 金币、完成后提供 [ICON_GreatMerchant] 大商人点数。</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_HOLY_SITE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>基于区域的项目，每回合提供当前 [ICON_Production] 生产力水平20%的 [ICON_Faith] 信仰值、+100%宗教压力。完成后提供 [ICON_GreatProphet] 大预言家点数。</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_CAMPUS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>基于区域的项目，每回合提供当前 [ICON_Production] 生产力水平20%的 [ICON_Science] 科技值、完成后提供 [ICON_GreatScientist] 大科学家点数。</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_THEATER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>基于区域的项目，每回合提供当前 [ICON_Production] 生产力水平20%的 [ICON_Culture] 文化值、完成后提供少量 [ICON_GreatWriter] 大作家、[ICON_GreatArtist] 大艺术家和 [ICON_GreatMusician] 大音乐家点数。</Text>
+    </Replace>
+	<Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_ENCAMPMENT_DESCRIPTION" Language="en_US">
+      <Text>District-based project which provides [ICON_Gold] Gold equal to 20% of [ICON_Production] Production in this city every turn and [ICON_GreatGeneral] Great General points once finished.</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_HARBOR_DESCRIPTION" Language="en_US">
+      <Text>District-based project which provides [ICON_Gold] Gold equal to 20% of [ICON_Production] Production in this city every turn and [ICON_GreatAdmiral] Great Admiral points once finished.</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_COMMERCIAL_HUB_DESCRIPTION" Language="en_US">
+      <Text>District-based project which provides [ICON_Gold] Gold equal to 20% of [ICON_Production] Production in this city every turn and [ICON_GreatMerchant] Great Merchant points once finished.</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_HOLY_SITE_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>District-based project which provides [ICON_Faith] Faith equal to 20% of [ICON_Production] Production in this city and +100% Religious Pressure every turn. Awards [ICON_GreatProphet] Great Prophet points once finished.</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_CAMPUS_DESCRIPTION" Language="en_US">
+      <Text>District-based project which provides [ICON_Science] Science equal to 20% of [ICON_Production] Production in this city every turn and [ICON_GreatScientist] Great Scientist points once finished.</Text>
+    </Replace>
+    <Replace Tag="LOC_PROJECT_ENHANCE_DISTRICT_THEATER_DESCRIPTION" Language="en_US">
+      <Text>District-based project which provides [ICON_Culture] Culture equal to 20% of [ICON_Production] Production in this city every turn and a small amount of [ICON_GreatWriter] Great Writer, [ICON_GreatArtist] Great Artist, and [ICON_GreatMusician] Great Musician points once finished.</Text>
+    </Replace>
+	
+		<Replace Tag="LOC_PROJECT_HORSES_GOLD_NAME" Language="zh_Hans_CN">
+			<Text>马转化为金币</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_HORSES_GOLD_NAME" Language="en_US">
+			<Text>Convert Horses to Gold</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_HORSES_GOLD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>花费100 [ICON_PRODUCTION] 生产力将30个 [ICON_RESOURCE_HORSES] 马转化为200 [ICON_GOLD] 金币。 由商业中心区的第一级建筑解锁。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_HORSES_GOLD_DESCRIPTION" Language="en_US">
+			<Text>Spends 100 [ICON_PRODUCTION] Production and converts 30 [ICON_RESOURCE_HORSES] Horses into 200 [ICON_GOLD] Gold. Requires Commercial Hubs District Tier 1 building to unlock.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_IRON_GOLD_NAME" Language="zh_Hans_CN">
+			<Text>铁转化为金币</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_IRON_GOLD_NAME" Language="en_US">
+			<Text>Convert Iron to Gold</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_IRON_GOLD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>花费200 [ICON_PRODUCTION] 生产力将30个 [ICON_RESOURCE_IRON] 铁转化为400 [ICON_GOLD] 金币。由商业中心区的第一级建筑解锁。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_IRON_GOLD_DESCRIPTION" Language="en_US">
+			<Text>Spends 200 [ICON_PRODUCTION] Production and converts 30 [ICON_RESOURCE_IRON] Iron into 400 [ICON_GOLD] Gold. Requires Commercial Hubs District Tier 1 building to unlock.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NITER_GOLD_NAME" Language="zh_Hans_CN">
+			<Text>硝石转化为金币</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NITER_GOLD_NAME" Language="en_US">
+			<Text>Convert Niter to Gold</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NITER_GOLD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>花费300 [ICON_PRODUCTION] 生产力将30个 [ICON_RESOURCE_NITER] 硝石转化为600 [ICON_GOLD] 金币。由商业中心区的第二级建筑解锁。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NITER_GOLD_DESCRIPTION" Language="en_US">
+			<Text>Spends 300 [ICON_PRODUCTION] Production and converts 30 [ICON_RESOURCE_NITER] Niter into 600 [ICON_GOLD] Gold. Requires Commercial Hubs District Tier 2 building to unlock.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_COAL_GOLD_NAME" Language="zh_Hans_CN">
+			<Text>煤转化为金币</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_COAL_GOLD_NAME" Language="en_US">
+			<Text>Convert Coal to Gold</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_COAL_GOLD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>花费400 [ICON_PRODUCTION] 生产力将30个 [ICON_RESOURCE_COAL] 煤转化为800 [ICON_GOLD] 金币。由商业中心区的第二级建筑解锁。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_COAL_GOLD_DESCRIPTION" Language="en_US">
+			<Text>Spends 400 [ICON_PRODUCTION] Production and converts 30 [ICON_RESOURCE_COAL] Coal into 800 [ICON_GOLD] Gold. Requires Commercial Hubs District Tier 2 building to unlock.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_OIL_GOLD_NAME" Language="zh_Hans_CN">
+			<Text>石油转化为金币</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_OIL_GOLD_NAME" Language="en_US">
+			<Text>Convert Oil to Gold</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_OIL_GOLD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>花费500 [ICON_PRODUCTION] 生产力将30个 [ICON_RESOURCE_OIL] 石油转化为1000 [ICON_GOLD] 金币。由商业中心区的第三级建筑解锁。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_OIL_GOLD_DESCRIPTION" Language="en_US">
+			<Text>Spends 500 [ICON_PRODUCTION] Production and converts 30 [ICON_RESOURCE_OIL] Oil into 1000 [ICON_GOLD] Gold. Requires Commercial Hubs District Tier 3 building to unlock.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ALUMINUM_GOLD_NAME" Language="zh_Hans_CN">
+			<Text>铝转化为金币</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ALUMINUM_GOLD_NAME" Language="en_US">
+			<Text>Convert Aluminum to Gold</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ALUMINUM_GOLD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>花费600 [ICON_PRODUCTION] 生产力将30个 [ICON_RESOURCE_ALUMINUM] 铝转化为1200 [ICON_GOLD] 金币。由商业中心区的第三级建筑解锁。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ALUMINUM_GOLD_DESCRIPTION" Language="en_US">
+			<Text>Spends 600 [ICON_PRODUCTION] Production and converts 30 [ICON_RESOURCE_ALUMINUM] Aluminum into 1200 [ICON_GOLD] Gold. Requires Commercial Hubs District Tier 3 building to unlock.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_URANIUM_GOLD_NAME" Language="zh_Hans_CN">
+			<Text>铀转化为金币</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_URANIUM_GOLD_NAME" Language="en_US">
+			<Text>Convert Uranium to Gold</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_URANIUM_GOLD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>花费700 [ICON_PRODUCTION] 生产力将30个 [ICON_RESOURCE_URANIUM] 铀转化为1400 [ICON_GOLD] 金币。由商业中心区的第四级建筑解锁。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_URANIUM_GOLD_DESCRIPTION" Language="en_US">
+			<Text>Spends 700 [ICON_PRODUCTION] Production and converts 30 [ICON_RESOURCE_URANIUM] Uranium into 1400 [ICON_GOLD] Gold. Requires Commercial Hubs District Tier 4 building to unlock.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROJECT_MOVE_CAPITAL_NAME" Language="zh_Hans_CN">
+			<Text>迁都</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOVE_CAPITAL_NAME" Language="en_US">
+			<Text>Move Capital</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOVE_CAPITAL_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>迁都</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOVE_CAPITAL_SHORT_NAME" Language="en_US">
+			<Text>Move Capital</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOVE_CAPITAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>完成此项目后，将首都迁移到当前城市。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_MOVE_CAPITAL_DESCRIPTION" Language="en_US">
+			<Text>Move the Capital to this city after finishing this project.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CLOSE_COAL_POWER_PLANT_NAME" Language="zh_Hans_CN">
+			<Text>关闭燃煤发电厂</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CLOSE_COAL_POWER_PLANT_NAME" Language="en_US">
+			<Text>Decommission Coal Power Plant</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CLOSE_COAL_POWER_PLANT_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>关闭燃煤发电厂</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CLOSE_COAL_POWER_PLANT_SHORT_NAME" Language="en_US">
+			<Text>Decommission Coal Power Plant</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CLOSE_COAL_POWER_PLANT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从此城市中移除燃煤发电厂及其全部效果。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CLOSE_COAL_POWER_PLANT_DESCRIPTION" Language="en_US">
+			<Text>Removes the Coal Power Plant and all its effects from this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CLOSE_OIL_POWER_PLANT_NAME" Language="zh_Hans_CN">
+			<Text>关闭燃油发电厂</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CLOSE_OIL_POWER_PLANT_NAME" Language="en_US">
+			<Text>Decommission Oil Power Plant</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CLOSE_OIL_POWER_PLANT_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>关闭燃油发电厂</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CLOSE_OIL_POWER_PLANT_SHORT_NAME" Language="en_US">
+			<Text>Decommission Oil Power Plant</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CLOSE_OIL_POWER_PLANT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从此城市中移除燃油发电厂及其全部效果。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CLOSE_OIL_POWER_PLANT_DESCRIPTION" Language="en_US">
+			<Text>Removes the Oil Power Plant and all its effects from this city.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CLOSE_NUCLEAR_POWER_PLANT_NAME" Language="zh_Hans_CN">
+			<Text>关闭核电站</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CLOSE_NUCLEAR_POWER_PLANT_NAME" Language="en_US">
+			<Text>Decommission Nuclear Power Plant</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CLOSE_NUCLEAR_POWER_PLANT_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>关闭核电站</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CLOSE_NUCLEAR_POWER_PLANT_SHORT_NAME" Language="en_US">
+			<Text>Decommission Nuclear Power Plant</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CLOSE_NUCLEAR_POWER_PLANT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从此城市中移除核电站及其全部效果。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_CLOSE_NUCLEAR_POWER_PLANT_DESCRIPTION" Language="en_US">
+			<Text>Removes the Nuclear Power Plant and all its effects from this city.</Text>
+		</Replace>
+		
+		
+		<!-- <Replace Tag="LOC_PROJECT_METROPOLIS_MEGALOPOLIS_NAME" Language="zh_Hans_CN"> -->
+			<!-- <Text>扩建为国际大都市</Text> -->
+		<!-- </Replace> -->
+		<!-- <Replace Tag="LOC_PROJECT_METROPOLIS_MEGALOPOLIS_NAME" Language="en_US"> -->
+			<!-- <Text>Urban expansion (to Megalopolis)</Text> -->
+		<!-- </Replace> -->
+		<!-- <Replace Tag="LOC_PROJECT_METROPOLIS_MEGALOPOLIS_DESCRIPTION" Language="zh_Hans_CN"> -->
+			<!-- <Text>完成此项目后，将市政厅（大都会）升级为市政厅（国际大都市），且城市获得+5 [ICON_HOUSING] 住房（建筑提供的住房）。</Text> -->
+		<!-- </Replace> -->
+		<!-- <Replace Tag="LOC_PROJECT_METROPOLIS_MEGALOPOLIS_DESCRIPTION" Language="en_US"> -->
+			<!-- <Text>When the project is completed, Guildhall (Metropolis) of this city will be upgraded to Guildhall (Megalopolis). +5 [ICON_HOUSING] Housing (from buildings) for this city.</Text> -->
+		<!-- </Replace> -->
+	  <Replace Tag="LOC_PROJECT_SATELLITE_BROADCAST_NAME" Language="zh_Hans_CN">
+			<Text>发射广播卫星</Text>
+	  </Replace>  	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_BROADCAST_NAME" Language="en_US">
+			<Text>Launch Broadcast Satellite</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PROJECT_SATELLITE_BROADCAST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>把一颗文化广播卫星送入轨道的航天项目。[NEWLINE][NEWLINE]帝国全境+25% [ICON_Tourism] 旅游业绩。[NEWLINE][NEWLINE]需要事先完成“发射地球卫星”航天项目。</Text>
+	  </Replace>  	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_BROADCAST_DESCRIPTION" Language="en_US">
+			<Text>Space project which launches a satellite into orbit.[NEWLINE][NEWLINE]+25% [ICON_Tourism] Tourism across your empire.[NEWLINE][NEWLINE]Requires the completion of project "Launch Earth Satellite".</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PROJECT_SATELLITE_BROADCAST_POPUP" Language="zh_Hans_CN">
+			<Text>帝国全境+25% [ICON_Tourism] 旅游业绩。</Text>
+	  </Replace>  	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_BROADCAST_POPUP" Language="en_US">
+			<Text>+25% [ICON_Tourism] Tourism across your empire.</Text>
+	  </Replace>
+	  <!-- <Replace Tag="LOC_PROJECT_SATELLITE_WEATHER_NAME" Language="zh_Hans_CN"> -->
+			<!-- <Text>发射气候卫星</Text> -->
+		<!-- </Replace> -->
+		<!-- <Replace Tag="LOC_PROJECT_SATELLITE_WEATHER_NAME" Language="en_US"> -->
+			<!-- <Text>Launch Weather Satellite</Text> -->
+		<!-- </Replace> -->
+      <!-- <Replace Tag="LOC_PROJECT_SATELLITE_WEATHER_DESCRIPTION" Language="zh_Hans_CN"> -->
+			<!-- <Text>把一颗气候分析卫星星座送入轨道的航天项目。[NEWLINE][NEWLINE]由于天气预报和事先预防，帝国境内所有城市的区域，建筑和改良设施不会受到环境效应的伤害。[NEWLINE][NEWLINE]需要事先完成“发射地球卫星”航天项目。</Text> -->
+	  <!-- </Replace>  	 -->
+	  <!-- <Replace Tag="LOC_PROJECT_SATELLITE_WEATHER_DESCRIPTION" Language="en_US"> -->
+			<!-- <Text>Space project which launches a satellite constellation into orbit.[NEWLINE][NEWLINE]Because of weather forecast and precaution, improvements, buildings, and districts in all cities cannot be damaged by Environmental Effects.[NEWLINE][NEWLINE]Requires the completion of project "Launch Earth Satellite".</Text> -->
+	  <!-- </Replace> -->
+	  <Replace Tag="LOC_PROJECT_SATELLITE_WEATHER_POPUP" Language="zh_Hans_CN">
+			<Text>由于天气预报和事先预防，帝国境内所有城市的区域，建筑和改良设施不会受到环境效应的伤害。</Text>
+	  </Replace>  	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_WEATHER_POPUP" Language="en_US">
+			<Text>Because of weather forecast and precaution, improvements, buildings, and districts in all cities cannot be damaged by Environmental Effects.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PROJECT_SATELLITE_ESPIONAGE_NAME" Language="zh_Hans_CN">
+			<Text>发射间谍卫星</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SATELLITE_ESPIONAGE_NAME" Language="en_US">
+			<Text>Launch Espionage Satellite</Text>
+		</Replace>
+	  <Replace Tag="LOC_PROJECT_SATELLITE_ESPIONAGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>把一颗间谍机密卫星星座送入轨道的航天项目。[NEWLINE][NEWLINE]对所有文明+1外交能见度等级。[NEWLINE]己方间谍执行进攻性任务时+1等级。[NEWLINE][NEWLINE]需要事先完成“发射地球卫星”航天项目。</Text>
+	  </Replace>  	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_ESPIONAGE_DESCRIPTION" Language="en_US">
+			<Text>Space project which launches a satellite constellation into orbit.[NEWLINE][NEWLINE]+1 Level of diplomatic visibility with all other civilizations.[NEWLINE]Your Spy level is increased by 1 for offensive operations.[NEWLINE][NEWLINE]Requires the completion of project "Launch Earth Satellite".</Text>
+	  </Replace>
+	   <Replace Tag="LOC_PROJECT_SATELLITE_ESPIONAGE_POPUP" Language="zh_Hans_CN">
+			<Text>对所有文明+1外交能见度等级。[NEWLINE]己方间谍执行进攻性任务时+1等级。</Text>
+	  </Replace>  	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_ESPIONAGE_POPUP" Language="en_US">
+			<Text>+1 Level of diplomatic visibility with all other civilizations. Your Spy level is increased by 1 for offensive operations.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PROJECT_SATELLITE_MILITARY_NAME" Language="zh_Hans_CN">
+			<Text>发射军事卫星</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SATELLITE_MILITARY_NAME" Language="en_US">
+			<Text>Launch Military Satellite</Text>
+		</Replace>
+	  <Replace Tag="LOC_PROJECT_SATELLITE_MILITARY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>把一颗军事支援卫星星座送入轨道的航天项目。[NEWLINE][NEWLINE]所有单位获得+5 [ICON_Strength] 战斗力。[NEWLINE][NEWLINE]需要事先完成“发射地球卫星”航天项目。</Text>
+	  </Replace>  	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_MILITARY_DESCRIPTION" Language="en_US">
+			<Text>Space project which launches a satellite constellation into orbit.[NEWLINE][NEWLINE]All units gain +5 [ICON_Strength] Combat Strength.[NEWLINE][NEWLINE]Requires the completion of project "Launch Earth Satellite".</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PROJECT_SATELLITE_MILITARY_POPUP" Language="zh_Hans_CN">
+			<Text>所有单位获得+5 [ICON_Strength] 战斗力。</Text>
+	  </Replace>  	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_MILITARY_POPUP" Language="en_US">
+			<Text>All units gain +5 [ICON_Strength] Combat Strength.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PROJECT_SATELLITE_NAVIGATION_NAME" Language="zh_Hans_CN">
+			<Text>发射导航卫星</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SATELLITE_NAVIGATION_NAME" Language="en_US">
+			<Text>Launch Navigation Satellite</Text>
+		</Replace>
+	  <Replace Tag="LOC_PROJECT_SATELLITE_NAVIGATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>把一颗海洋导航卫星星座送入轨道的航天项目。[NEWLINE][NEWLINE]所有海军单位和上船单位获得+1 [ICON_Movement] 移动力。[NEWLINE]对不同大陆之间的 [ICON_TradeRoute] 贸易路线提供加成：当该路线去往其他文明时可获得+4 [ICON_Gold] 金币；当该路线往返于您不同城市之间时获得+2 [ICON_Production] 生产力。[NEWLINE][NEWLINE]需要事先完成“发射地球卫星”航天项目。</Text>
+	  </Replace>  	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_NAVIGATION_DESCRIPTION" Language="en_US">
+			<Text>Space project which launches a satellite constellation into orbit.[NEWLINE][NEWLINE]+1 [ICON_Movement] Movement for all naval and embarked units.[NEWLINE][ICON_TradeRoute] Trade Routes between multiple continents receive +4 [ICON_Gold] Gold for routes to other civilizations, and +2 [ICON_Production] Production for routes between your own cities.[NEWLINE][NEWLINE]Requires the completion of project "Launch Earth Satellite".</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PROJECT_SATELLITE_NAVIGATION_POPUP" Language="zh_Hans_CN">
+			<Text>所有海军单位和上船单位获得+1 [ICON_Movement] 移动力。[NEWLINE]对不同大陆之间的 [ICON_TradeRoute] 贸易路线提供加成：当该路线去往其他文明时可获得+4 [ICON_Gold] 金币；当该路线往返于您不同城市之间时获得+2 [ICON_Production] 生产力。</Text>
+	  </Replace>  	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_NAVIGATION_POPUP" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement for all naval and embarked units.[NEWLINE][ICON_TradeRoute] Trade Routes between multiple continents receive +4 [ICON_Gold] Gold for routes to other civilizations, and +2 [ICON_Production] Production for routes between your own cities.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PROJECT_SATELLITE_COMMUNICATION_NAME" Language="zh_Hans_CN">
+			<Text>发射通讯卫星</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SATELLITE_COMMUNICATION_NAME" Language="en_US">
+			<Text>Launch Communication Satellite</Text>
+		</Replace>
+	  <Replace Tag="LOC_PROJECT_SATELLITE_COMMUNICATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>把一颗通讯交流卫星送入轨道的航天项目。[NEWLINE][NEWLINE]发射完成时获得6位 [ICON_ENVOY] 使者。[NEWLINE][NEWLINE]需要事先完成“发射地球卫星”航天项目。</Text>
+	  </Replace>  	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_COMMUNICATION_DESCRIPTION" Language="en_US">
+			<Text>Space project which launches a satellite into orbit.[NEWLINE][NEWLINE]+6 [ICON_ENVOY] Envoys when completed.[NEWLINE][NEWLINE]Requires the completion of project "Launch Earth Satellite".</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PROJECT_SATELLITE_COMMUNICATION_POPUP" Language="zh_Hans_CN">
+			<Text>获得6位 [ICON_ENVOY] 使者。</Text>
+	  </Replace>  	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_COMMUNICATION_POPUP" Language="en_US">
+			<Text>+6 [ICON_ENVOY] Envoys.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PROJECT_SATELLITE_SOLAR_POWER_NAME" Language="zh_Hans_CN">
+			<Text>发射能源卫星</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_SATELLITE_SOLAR_POWER_NAME" Language="en_US">
+			<Text>Launch Solar Power Satellite</Text>
+		</Replace>
+	  <Replace Tag="LOC_PROJECT_SATELLITE_SOLAR_POWER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>把一颗太阳能源卫星送入轨道的航天项目。[NEWLINE][NEWLINE]从可再生太阳能中为所有城市提供+8 [ICON_Power] 电力。[NEWLINE][NEWLINE]需要事先完成“发射地球卫星”航天项目。</Text>
+	  </Replace>  	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_SOLAR_POWER_DESCRIPTION" Language="en_US">
+			<Text>Space project which launches a satellite into orbit.[NEWLINE][NEWLINE]Provides all cities in your empire +8 [ICON_Power] Power from renewable solar sources.[NEWLINE][NEWLINE]Requires the completion of project "Launch Earth Satellite".</Text>
+	  </Replace>
+	  <Replace Tag="LOC_PROJECT_SATELLITE_SOLAR_POWER_POPUP" Language="zh_Hans_CN">
+			<Text>从可再生太阳能中为所有城市提供+8 [ICON_Power] 电力。</Text>
+	  </Replace>  	
+	  <Replace Tag="LOC_PROJECT_SATELLITE_SOLAR_POWER_POPUP" Language="en_US">
+			<Text>Provides all cities in your empire +8 [ICON_Power] Power from renewable solar sources.</Text>
+	  </Replace>
+        <Replace Tag="LOC_ABILITY_SAT_MILITARY_COMBAT_STRENGTH_BUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+5 [ICON_Strength] 战斗力（军事卫星网络）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SAT_MILITARY_COMBAT_STRENGTH_BUFF_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength (Military Satellite network).</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SAT_NAVIGATION_SEA_MOVEMENT_BUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 [ICON_Movement] 移动力（导航卫星网络）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SAT_NAVIGATION_SEA_MOVEMENT_BUFF_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement (Navigation Satellite).</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SAT_NAVIGATION_EMBARKED_BUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>上船后+1 [ICON_Movement] 移动力（导航卫星网络）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SAT_NAVIGATION_EMBARKED_BUFF_DESCRIPTION" Language="en_US">
+			<Text>+1 Embarked [ICON_Movement] Movement (Navigation Satellite).</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

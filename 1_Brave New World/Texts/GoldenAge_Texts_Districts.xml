@@ -1,0 +1,90 @@
+<GameData>
+    <LocalizedText>	
+	<Replace Tag="LOC_PROJECT_TERRESTRIAL_LASER_SHORT_NAME" Language="zh_Hans_CN">
+      <Text>地面激光站或人民日常需求</Text>
+    </Replace>
+	<Replace Tag="LOC_PROJECT_TERRESTRIAL_LASER_SHORT_NAME" Language="en_US">
+      <Text>Terrestrial Laser Station or People's Daily Needs</Text>
+    </Replace>
+	<!--区域-->		
+	<Replace Tag="LOC_DISTRICT_AQUEDUCT_ALT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>城市人口增长速度30%，为本城的农场+1 [ICON_Food] 食物。从相邻河流、湖泊、绿洲或山脉引水，为该城市提供淡水资源。使没有淡水资源的城市拥有至8个来自水源的 [ICON_Housing] 住房。相反，已有淡水资源的城市因引入了更多的淡水，额外+3 [ICON_Housing] 住房。干旱时可防止 [ICON_Food] 食物损失。必须修建在与市中心相邻的单元格中。[NEWLINE]为相邻单元格提供+1魅力。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_AQUEDUCT_ALT_DESCRIPTION" Language="en_US">
+      <Text>City growth rate increase 30%, +1 [ICON_Food] Food for Farms in this city. It provides this city with a source of fresh water from an adjacent River, Lake, Oasis, or Mountain. Cities that do not yet have existing fresh water receive up to 8 [ICON_Housing] Housing. Cities that already have existing fresh water will instead get +3 [ICON_Housing] Housing. Prevents [ICON_Food] Food loss during Drought. Must be built adjacent to the City Center.[NEWLINE]+1 Appeal.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NEIGHBORHOOD_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>城市人口增长速度提高10%。基于单元格的魅力，该区域提供的额外住房如下：[NEWLINE]惊艳的：+4 [ICON_Housing] 住房。[NEWLINE]迷人的：+2 [ICON_Housing] 住房。[NEWLINE]普通的：+0 [ICON_Housing] 住房。[NEWLINE]无吸引力的：-2 [ICON_Housing] 住房。[NEWLINE]令人厌恶的：-4 [ICON_Housing] 住房。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_NEIGHBORHOOD_DESCRIPTION" Language="en_US">
+      <Text>City growth rate increase 10%. A district in your city that provides housing based on the Appeal of the tile:[NEWLINE]Breathtaking: +4 [ICON_Housing] Housing.[NEWLINE]Charming: +2 [ICON_Housing] Housing.[NEWLINE]Average: +0 [ICON_Housing] Housing.[NEWLINE]Uninviting: -2 [ICON_Housing] Housing.[NEWLINE]Disgusting: -4 [ICON_Housing] Housing.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_DAM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>建造在泛滥平原单元格上的区域，使相邻单元格+1 [ICON_Food] 食物，解锁电力科技之后额外+1 [ICON_Production] 生产力。从相邻河流、湖泊、绿洲或山脉引水，为该城市提供淡水资源。使没有淡水资源的城市拥有至8个来自水源的 [ICON_Housing] 住房。相反，已有淡水资源的城市因引入了更多的淡水，额外+3 [ICON_Housing] 住房。其可防止江河泛滥带来的损害（但来自洪水的产出减半），还可在干旱时防止 [ICON_Food] 食物损失。每条江河的泛滥平原中仅能建造1个（有文明建成便视为已建造），且江河必须至少穿过堤坝格位的两个面。[NEWLINE]为相邻单元格提供+1魅力。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_DAM_DESCRIPTION" Language="en_US">
+      <Text>A district built on a Floodplains tile that provides +1 [ICON_Food] Food for adjacent tiles, +1 extra [ICON_Production] Production after unlocking tech Electricity. It provides this city with a source of fresh water from an adjacent River, Lake, Oasis, or Mountain. Cities that do not yet have existing fresh water receive up to 8 [ICON_Housing] Housing. Cities that already have existing fresh water will instead get +3 [ICON_Housing] Housing. Prevents damage from flooding of this river (though yields from flooding drop by 50%). Prevents [ICON_Food] Food loss during Drought. Only one may be built along each river's floodplain (whichever player completes one first) and the river must traverse at least two sides of the Dam hex.[NEWLINE]+1 Appeal. </Text>
+    </Replace>	
+	<Replace Tag="LOC_DISTRICT_CANAL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>建在平原上的区域，连接两块水域单元格或将一块水域单元格与市中心连接。使相邻单元格+1 [ICON_Gold] 金币，解锁电力科技之后额外+2 [ICON_Gold] 金币。若运河途经河流、湖泊、绿洲或山脉，可以为该城市提供淡水资源。使没有淡水资源的城市拥有至8个来自水源的 [ICON_Housing] 住房。相反，已有淡水资源的城市因引入了更多的淡水，额外+3 [ICON_Housing] 住房。如果 [ICON_TradeRoute] 贸易路线途径此处，其将从目的地的区域处获得成倍 [ICON_Gold] 金币。运河可笔直穿过单元格，也可在其中进行60度转向。无法建造三向连接运河，且运河在其所建水路的两侧皆必须含有一个完整的陆地单元格。[NEWLINE]为相邻单元格提供+1魅力。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_CANAL_DESCRIPTION" Language="en_US">
+      <Text>A district built on flat land to connect two bodies of water or a body of water to a City Center. Provides +1 [ICON_Gold] Gold for adjacent tiles, +2 extra [ICON_Gold] Gold after unlocking tech Electricity. It provides this city with a source of fresh water from an adjacent River, Lake, Oasis, or Mountain. Cities that do not yet have existing fresh water receive up to 8 [ICON_Housing] Housing. Cities that already have existing fresh water will instead get +3 [ICON_Housing] Housing. [ICON_TradeRoute] Trade Routes traveling through it can multiply the [ICON_Gold] Gold they get from districts at their destination. Canals may either go straight through the hex or bend by 60 degrees. However three-way Canal junctures are not allowed and Canals must have a full land tile on each side of the waterway they create.[NEWLINE]+1 Appeal. </Text>
+    </Replace>	
+	<Replace Tag="LOC_DISTRICT_ENTERTAINMENT_COMPLEX_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>该区域致力于通过增加 [ICON_Amenities] 宜居度让您的人民开心和产出 [ICON_Tourism] 旅游业绩来吸引外国游客。[NEWLINE][NEWLINE]与水上乐园相邻时+1 [ICON_Amenities] 宜居度。[NEWLINE]与市中心相邻时+1 [ICON_Amenities] 宜居度。[NEWLINE]与市政广场相邻时+1 [ICON_Amenities] 宜居度。[NEWLINE]与娱乐中心相邻时+1 [ICON_Amenities] 宜居度。（需“城市圈”游戏模式）[NEWLINE]与国家娱乐中心相邻时+2 [ICON_Amenities] 宜居度。[NEWLINE][NEWLINE]为相邻单元格提供+1魅力。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_ENTERTAINMENT_COMPLEX_DESCRIPTION" Language="en_US">
+      <Text>>A district dedicated to keeping your people happy by increasing [ICON_Amenities] Amenities and attract foreign tourists by increasing [ICON_Tourism] Tourism.[NEWLINE][NEWLINE]+1 [ICON_Amenities] Amenity when adjacent to City center.[NEWLINE]+1 [ICON_Amenities] Amenity when adjacent to Government plaza.[NEWLINE]+1 [ICON_Amenities] Amenity when adjacent to Water Entertainment Complex.[NEWLINE]+1 [ICON_Amenities] Amenity when adjacent to Entertainment complex.(Requries Megalopolis game mode)[NEWLINE]+2 [ICON_Amenities] Amenity when adjacent to National Entertainment Complex.[NEWLINE][NEWLINE]+1 Appeal.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_WATER_ENTERTAINMENT_COMPLEX_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>建在海岸单元格上的区域，可增加 [ICON_Amenities] 宜居度让人民生活幸福，也产出 [ICON_Tourism] 旅游业绩来吸引外国游客。无法建在拥有娱乐设施的城市中。无法建在礁石上。[NEWLINE][NEWLINE]与娱乐中心相邻时+1 [ICON_Amenities] 宜居度。[NEWLINE]与市中心相邻时+1 [ICON_Amenities] 宜居度。[NEWLINE]与市政广场相邻时+1 [ICON_Amenities] 宜居度。[NEWLINE]与水上乐园相邻时+1 [ICON_Amenities] 宜居度。（需“城市圈”游戏模式）[NEWLINE]与国家娱乐中心相邻时+2 [ICON_Amenities] 宜居度。[NEWLINE][NEWLINE]为相邻单元格提供+1魅力。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_WATER_ENTERTAINMENT_COMPLEX_DESCRIPTION" Language="en_US">
+      <Text>A district placed out on a coastal tile dedicated to keeping your people happy by increasing [ICON_Amenities] Amenities and attract foreign tourists by increasing [ICON_Tourism] Tourism. Cannot be built in a city with an Entertainment Complex. Cannot be built on Reef.[NEWLINE][NEWLINE]+1 [ICON_Amenities] Amenity when adjacent to Entertainment complex.[NEWLINE]+1 [ICON_Amenities] Amenity when adjacent to City center.[NEWLINE]+1 [ICON_Amenities] Amenity when adjacent to Government plaza.[NEWLINE]+1 [ICON_Amenities] Amenity when adjacent to Water Entertainment Complex.(Requries Megalopolis game mode)[NEWLINE]+2 [ICON_Amenities] Amenity when adjacent to National Entertainment Complex.[NEWLINE][NEWLINE]+1 Appeal.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>城市中的海军活动区域，防御工事的攻击范围为1。同时取消从该单元格上下船的 [ICON_Movement] 移动力消耗。必须修建在和陆地相邻的海岸或湖泊单元格上。无法建造在礁石上。[NEWLINE]为相邻单元格提供-1魅力。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION" Language="en_US">
+      <Text>A district for naval activity in your city, attack range of defence is 1. Also removes the [ICON_Movement] Movement penalty for embarking and disembarking to and from this tile. Must be built on Coast or Lake Terrain adjacent to land. Cannot be built on Reef.[NEWLINE]-1 Appeal.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_ENCAMPMENT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>您城市里的军事机构区，防御工事的攻击范围为1。[NEWLINE][NEWLINE]与农场相邻时+1 [ICON_Housing] 住房。[NEWLINE]与牧场相邻时+1 [ICON_Housing] 住房。[NEWLINE]与种植园相邻时+1 [ICON_Housing] 住房。[NEWLINE]与营地相邻时+1 [ICON_Housing] 住房。[NEWLINE]与运河相邻时+1 [ICON_Housing] 住房。[NEWLINE]与航空港相邻时+1 [ICON_Housing] 住房。[NEWLINE]与市政广场相邻时+1 [ICON_Housing] 住房。[NEWLINE]与军营相邻时+1 [ICON_Housing] 住房。（需“城市圈”游戏模式）[NEWLINE]与国家军营相邻时+3 [ICON_Housing] 住房。[NEWLINE][NEWLINE]为相邻单元格提供-1魅力。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_ENCAMPMENT_DESCRIPTION" Language="en_US">
+      <Text>A district in your city for military facilities, attack range of defence is 1.[NEWLINE][NEWLINE]+1 [ICON_Housing] Housing when adjacent to Farm.[NEWLINE]+1 [ICON_Housing] Housing when adjacent to Pasture.[NEWLINE]+1 [ICON_Housing] Housing when adjacent to Plantation.[NEWLINE]+1 [ICON_Housing] Housing when adjacent to Camp.[NEWLINE]+1 [ICON_Housing] Housing when adjacent to Canal.[NEWLINE]+1 [ICON_Housing] Housing when adjacent to Aerodrome.[NEWLINE]+1 [ICON_Housing] Housing when adjacent to Government plaza.[NEWLINE]+1 [ICON_Housing] Housing when adjacent to Encampment. (Requries Megalopolis game mode)[NEWLINE]+3 [ICON_Housing] Housing when adjacent to National Encampment.[NEWLINE][NEWLINE]-1 Appeal.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>您城市里的工业活动区。[NEWLINE]为相邻单元格提供-2魅力。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_DESCRIPTION" Language="en_US">
+      <Text>A district in your city for industrial activity.[NEWLINE]-2 Appeal.</Text>
+    </Replace>
+    <Replace Tag="LOC_DISTRICT_AERODROME_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>可用于建造和存放飞机的区域。不能建在丘陵上。[NEWLINE]为相邻单元格提供-2魅力。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_AERODROME_DESCRIPTION" Language="en_US">
+      <Text>A district that allows you to build and store aircraft. Cannot be built on Hills.[NEWLINE]-2 Appeal.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_SPACEPORT_DESCRIPTION_XP2" Language="zh_Hans_CN">
+      <Text>建造科技胜利项目所需的区域。其中包括：{LOC_PROJECT_LAUNCH_EARTH_SATELLITE_NAME}、{LOC_PROJECT_LAUNCH_MOON_LANDING_NAME}、{LOC_PROJECT_LAUNCH_MARS_BASE_NAME}与{LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_NAME}。无法建在丘陵上。[NEWLINE]为相邻单元格提供-2魅力。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_SPACEPORT_DESCRIPTION_XP2" Language="en_US">
+      <Text>A district that is required to construct the Science Victory projects. This includes {LOC_PROJECT_LAUNCH_EARTH_SATELLITE_NAME}, {LOC_PROJECT_LAUNCH_MOON_LANDING_NAME}, {LOC_PROJECT_LAUNCH_MARS_BASE_NAME}, and {LOC_PROJECT_LAUNCH_EXOPLANET_EXPEDITION_NAME}. Cannot be built on Hills.[NEWLINE]-2 Appeal.</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_CITY_CENTER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>随着 [ICON_CITIZEN] 人口的增长，城市将会需要更多的 [ICON_Amenities] 宜居度（来自城市设施）和 [ICON_PowerInsufficient] 额外电力（来自杂项耗电）来满足日常生活需求：[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于10，则-1 [ICON_Amenities] 宜居度，[ICON_PowerInsufficient] 电力负荷+1；[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于20，则-2 [ICON_Amenities] 宜居度，[ICON_PowerInsufficient] 电力负荷+2；[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于30，则-3 [ICON_Amenities] 宜居度，[ICON_PowerInsufficient] 电力负荷+3；[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于40，则-4 [ICON_Amenities] 宜居度，[ICON_PowerInsufficient] 电力负荷+4；[NEWLINE][ICON_Bullet]若 [ICON_CITIZEN] 人口不少于50，则-5 [ICON_Amenities] 宜居度，[ICON_PowerInsufficient] 电力负荷+5。[NEWLINE][NEWLINE]人口红利：[NEWLINE][ICON_Bullet]城市中每增加一个人口，每个 [ICON_Citizen] 公民带来的 [ICON_SCIENCE] 科研值，[ICON_Culture] 文化值和 [ICON_Production] 生产力额外+0.01。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_CITY_CENTER_DESCRIPTION" Language="en_US">
+      <Text>With the growth of [ICON_CITIZEN] Population, city will need more [ICON_Amenities] Amenities (from City Facilities) and more [ICON_PowerInsufficient] Power (from Miscellaneous) to meet the everyday demand:[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is not less than 10, -1 [ICON_Amenities] Amenities, [ICON_PowerInsufficient] Power Load +1;[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is not less than 20, -2 [ICON_Amenities] Amenities, [ICON_PowerInsufficient] Power Load +2;[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is not less than 30, -3 [ICON_Amenities] Amenities, [ICON_PowerInsufficient] Power Load +3;[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is not less than 40, -4 [ICON_Amenities] Amenities, [ICON_PowerInsufficient] Power Load +4;[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is not less than 50, -5 [ICON_Amenities] Amenities, [ICON_PowerInsufficient] Power Load +5.[NEWLINE][NEWLINE]Population bonus:[NEWLINE][ICON_Bullet]+0.01 extra [ICON_SCIENCE] Science, [ICON_Culture] Culture, and [ICON_Production] Production per citizen when the population in this city increase by 1.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_DISTRICT_DIPLOMATIC_QUARTER_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>通过外交，外国文明的每个代表团或大使馆将为您的文明提供+1 [ICON_FAVOR] 外交支持。敌方间谍将此区域和相邻区域当做目标时，其效果将降低2级。文明中一次仅限建造一座此区域。[NEWLINE]奖励2个 [ICON_ENVOY]使者。</Text>
+    </Replace>
+	<Replace Tag="LOC_DISTRICT_DIPLOMATIC_QUARTER_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>Your civilization receives +1 [ICON_FAVOR] Diplomatic Favor for each Delegation or Embassy from a foreign civilization through diplomacy. Enemy Spies operate at 2 levels below normal targeting this district and adjacent districts. Only 1 can exist in your empire at a time.[NEWLINE]Awards +2 [ICON_ENVOY] Envoy.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

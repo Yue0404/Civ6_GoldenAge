@@ -1,0 +1,48 @@
+-----------------------------------------------
+-- ExcludedAdjacencies
+-----------------------------------------------
+INSERT OR REPLACE INTO ExcludedAdjacencies (YieldChangeId, 			TraitType) VALUES	
+('DISTRICT_FOOD',	        'TRAIT_CIVILIZATION_ADJACENT_DISTRICTS'),
+('CITY_CENTER_CULTURE',	    'TRAIT_CIVILIZATION_ADJACENT_DISTRICTS'),
+('CITY_CENTER_FAITH',	    'TRAIT_CIVILIZATION_ADJACENT_DISTRICTS'),
+('CITY_CENTER_GOLD',	    'TRAIT_CIVILIZATION_ADJACENT_DISTRICTS'),
+('CITY_CENTER_PRODUCTION',	'TRAIT_CIVILIZATION_ADJACENT_DISTRICTS'),
+('CITY_CENTER_SCIENCE',	    'TRAIT_CIVILIZATION_ADJACENT_DISTRICTS'),
+('CITY_CENTER_FOOD',	    'TRAIT_CIVILIZATION_ADJACENT_DISTRICTS');
+
+--Civilization
+-----------------------------------------------
+-- TraitModifiers
+-----------------------------------------------
+INSERT OR REPLACE INTO TraitModifiers (TraitType, 			ModifierID) VALUES	
+('TRAIT_CIVILIZATION_ADJACENT_DISTRICTS',	    'GOLDEN_TRAIT_TERRITORIAL_WAR_PRODUCTION'),
+-- ('TRAIT_CIVILIZATION_ADJACENT_DISTRICTS',	    'GOLDEN_TRAIT_ADJACENT_DISTRICTS_ENCAMPMENT_ADJACENCYPRODUCTION'),
+('TRAIT_CIVILIZATION_ADJACENT_DISTRICTS',		'GOLDEN_TRAIT_OCEAN_FAITH_FOOD');
+-----------------------------------------------
+-- Modifiers
+-----------------------------------------------
+INSERT OR REPLACE INTO Modifiers (ModifierId, ModifierType, RunOnce, Permanent, SubjectRequirementSetId) VALUES	
+('GOLDEN_TRAIT_TERRITORIAL_WAR_PRODUCTION',					          	'MODIFIER_PLAYER_ADD_DIPLOMATIC_YIELD_MODIFIER',								0,			0,			NULL),
+-- ('GOLDEN_TRAIT_ADJACENT_DISTRICTS_ENCAMPMENT_ADJACENCYPRODUCTION',	  	'MODIFIER_PLAYER_CITIES_DISTRICT_ADJACENCY',								    0,			0,			NULL),
+('GOLDEN_TRAIT_OCEAN_FAITH_FOOD',	                              		'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',								            0,			0,			'GOLDEN_PLOT_HAS_OCEAN_REQUIREMENTS');
+-----------------------------------------------
+-- ModifierArguments
+-----------------------------------------------
+INSERT OR REPLACE INTO ModifierArguments (ModifierId,			        Name,		        Value) VALUES
+('GOLDEN_TRAIT_TERRITORIAL_WAR_PRODUCTION',					'DiplomaticYieldSource',	'TERRITORIAL_EXPANSION_WAR_INITIATED'),
+('GOLDEN_TRAIT_TERRITORIAL_WAR_PRODUCTION',					'TurnsActive',	            10),
+('GOLDEN_TRAIT_TERRITORIAL_WAR_PRODUCTION',					'YieldType',	            'YIELD_PRODUCTION'),
+('GOLDEN_TRAIT_TERRITORIAL_WAR_PRODUCTION',					'Amount',	                100),
+-- ('GOLDEN_TRAIT_ADJACENT_DISTRICTS_ENCAMPMENT_ADJACENCYPRODUCTION',					'DistrictType',	            'DISTRICT_ENCAMPMENT'),
+-- ('GOLDEN_TRAIT_ADJACENT_DISTRICTS_ENCAMPMENT_ADJACENCYPRODUCTION',					'Description',	            'LOC_DISTRICT_DISTRICT_1_FOOD'),
+-- ('GOLDEN_TRAIT_ADJACENT_DISTRICTS_ENCAMPMENT_ADJACENCYPRODUCTION',					'YieldType',	            'YIELD_FOOD'),
+-- ('GOLDEN_TRAIT_ADJACENT_DISTRICTS_ENCAMPMENT_ADJACENCYPRODUCTION',					'Amount',	                1),
+('GOLDEN_TRAIT_OCEAN_FAITH_FOOD',	'YieldType',	            'YIELD_FAITH, YIELD_FOOD'),
+('GOLDEN_TRAIT_OCEAN_FAITH_FOOD',	'Amount',	                '2, 2');
+
+--Leader HOJO_TOKIMUNE
+UPDATE ModifierArguments SET Value = 10
+WHERE ModifierId = 'HOJO_TOKIMUNE_COASTAL_COMBAT_BONUS' AND Name = 'Amount';
+
+UPDATE ModifierArguments SET Value = 10
+WHERE ModifierId = 'HOJO_TOKIMUNE_SHALLOW_WATER_COMBAT_BONUS' AND Name = 'Amount';

@@ -1,0 +1,384 @@
+<GameInfo>
+    <Policies>
+        <!--GOVERNMENT-->	
+        <Row PolicyType="POLICY_COLLECTIVE_PRODUCTION" Name="LOC_POLICY_COLLECTIVE_PRODUCTION_NAME" Description="LOC_POLICY_COLLECTIVE_PRODUCTION_DESCRIPTION" PrereqCivic="CIVIC_CLASS_STRUGGLE" GovernmentSlotType="SLOT_MILITARY"/>
+		<Row PolicyType="POLICY_RESEARCH_FUNDING" Name="LOC_POLICY_RESEARCH_FUNDING_NAME" Description="LOC_POLICY_RESEARCH_FUNDING_DESCRIPTION" PrereqCivic="CIVIC_SUFFRAGE" GovernmentSlotType="SLOT_ECONOMIC"/>
+		<Row PolicyType="POLICY_BIG_EXPANSION" Name="LOC_POLICY_BIG_EXPANSION_NAME" Description="LOC_POLICY_BIG_EXPANSION_DESCRIPTION" PrereqCivic="CIVIC_EXPLORATION" GovernmentSlotType="SLOT_ECONOMIC"/>
+		<Row PolicyType="POLICY_PROSPEROUS_PORT" Name="LOC_POLICY_PROSPEROUS_PORT_NAME" Description="LOC_POLICY_PROSPEROUS_PORT_DESCRIPTION" PrereqCivic="CIVIC_EXPLORATION" GovernmentSlotType="SLOT_ECONOMIC"/>
+		<Row PolicyType="POLICY_CHURCH_COMMUNITY" Name="LOC_POLICY_CHURCH_COMMUNITY_NAME" Description="LOC_POLICY_CHURCH_COMMUNITY_DESCRIPTION" PrereqCivic="CIVIC_REFORMED_CHURCH" GovernmentSlotType="SLOT_ECONOMIC"/>
+		<Update>
+	        <Where PolicyType="POLICY_COLLECTIVIZATION"/> <Set GovernmentSlotType="SLOT_DIPLOMATIC"/>
+	    </Update>  
+		<Update>
+	        <Where PolicyType="POLICY_THIRD_ALTERNATIVE"/> <Set GovernmentSlotType="SLOT_MILITARY"/>
+	    </Update>  
+		<Update>
+	        <Where PolicyType="POLICY_MARTIAL_LAW"/> <Set GovernmentSlotType="SLOT_MILITARY"/>
+	    </Update>  
+		<Update>
+	        <Where PolicyType="POLICY_NEW_DEAL"/> <Set GovernmentSlotType="SLOT_ECONOMIC"/>
+	    </Update>  
+		<Update>
+	        <Where PolicyType="POLICY_WARS_OF_RELIGION"/> <Set GovernmentSlotType="SLOT_MILITARY"/>
+	    </Update>  		
+		<Update>
+	        <Where PolicyType="POLICY_CIVIL_PRESTIGE"/> <Set PrereqCivic="CIVIC_DIVINE_RIGHT" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+	    </Update>  
+		<Update>
+	        <Where PolicyType="POLICY_MEDINA_QUARTER" /> <Set PrereqCivic="CIVIC_DIVINE_RIGHT" GovernmentSlotType="SLOT_ECONOMIC"/>
+	    </Update> 
+	</Policies>		
+		
+	<PolicyModifiers>
+		<Row PolicyType="POLICY_RESEARCH_FUNDING" ModifierId="GOLDEN_RESEARCH_FUNDING_SCIENCE_COMMERCIAL_HUB"/>
+		<Row PolicyType="POLICY_RESEARCH_FUNDING" ModifierId="GOLDEN_RESEARCH_FUNDING_CULTURE_CAMPUS"/>
+		<Row PolicyType="POLICY_BIG_EXPANSION" ModifierId="GOLDEN_BIG_EXPANSION_SCIENCE_HARBOR"/>
+		<Row PolicyType="POLICY_BIG_EXPANSION" ModifierId="GOLDEN_BIG_EXPANSION_FOOD_HARBOR"/>
+		<Row PolicyType="POLICY_PROSPEROUS_PORT" ModifierId="GOLDEN_PROSPEROUS_PORT_CULTURE_HARBOR"/>
+		<Row PolicyType="POLICY_PROSPEROUS_PORT" ModifierId="GOLDEN_PROSPEROUS_PORT_PRODUCTION_HARBOR"/>
+		<Delete PolicyType="POLICY_CIVIL_PRESTIGE" ModifierId="CIVILPRESTIGE_GOVHOUSING"/>
+		<Delete PolicyType="POLICY_CIVIL_PRESTIGE" ModifierId="CIVILPRESTIGE_GOVAMENITY"/>
+		<Row PolicyType="POLICY_CIVIL_PRESTIGE" ModifierId="GOLDEN_CIVILPRESTIGE_ALL_YIELD"/>
+		<Delete PolicyType="POLICY_THIRD_ALTERNATIVE" ModifierId="THIRDALTERNATIVE_MILITARY_ACADEMY_CULTURE_MODIFIER"/>
+		<Delete PolicyType="POLICY_THIRD_ALTERNATIVE" ModifierId="THIRDALTERNATIVE_RESEARCH_LAB_CULTURE_MODIFIER"/>
+		<Delete PolicyType="POLICY_THIRD_ALTERNATIVE" ModifierId="THIRDALTERNATIVE_COAL_POWER_PLANT_CULTURE_MODIFIER"/>
+		<Delete PolicyType="POLICY_THIRD_ALTERNATIVE" ModifierId="THIRDALTERNATIVE_FOSSIL_FUEL_POWER_PLANT_CULTURE_MODIFIER"/>
+		<Delete PolicyType="POLICY_THIRD_ALTERNATIVE" ModifierId="THIRDALTERNATIVE_POWER_PLANT_CULTURE_MODIFIER"/>
+		<Delete PolicyType="POLICY_THIRD_ALTERNATIVE" ModifierId="THIRDALTERNATIVE_COAL_POWER_PLANT_GOLD_MODIFIER"/>
+		<Delete PolicyType="POLICY_THIRD_ALTERNATIVE" ModifierId="THIRDALTERNATIVE_FOSSIL_FUEL_POWER_PLANT_GOLD_MODIFIER"/>
+		<Delete PolicyType="POLICY_THIRD_ALTERNATIVE" ModifierId="THIRDALTERNATIVE_MILITARY_ACADEMY_GOLD_MODIFIER"/>
+		<Delete PolicyType="POLICY_THIRD_ALTERNATIVE" ModifierId="THIRDALTERNATIVE_RESEARCH_LAB_GOLD_MODIFIER"/>
+		<Delete PolicyType="POLICY_THIRD_ALTERNATIVE" ModifierId="THIRDALTERNATIVE_POWER_PLANT_GOLD_MODIFIER"/>
+		<Row PolicyType="POLICY_THIRD_ALTERNATIVE" ModifierId="GOLDEN_SEAPORT_ALL_YIELD"/>
+		<Row PolicyType="POLICY_THIRD_ALTERNATIVE" ModifierId="GOLDEN_COAL_POWER_PLANT_ALL_YIELD"/>
+		<Row PolicyType="POLICY_THIRD_ALTERNATIVE" ModifierId="GOLDEN_FOSSIL_FUEL_POWER_PLANT_ALL_YIELD"/>
+		<Row PolicyType="POLICY_THIRD_ALTERNATIVE" ModifierId="GOLDEN_POWER_PLANT_ALL_YIELD"/>
+		<Delete PolicyType='POLICY_NEW_DEAL' ModifierId='NEWDEAL_MAINTENANCECOST'/>
+		<Delete PolicyType='POLICY_NEW_DEAL' ModifierId='NEWDEAL_SPECIALTYAMENITY'/>
+		<Delete PolicyType='POLICY_NEW_DEAL' ModifierId='NEWDEAL_SPECIALTYHOUSING'/>
+		<Row PolicyType='POLICY_NEW_DEAL' ModifierId='GOLDEN_NEWDEAL_AMENITY'/>
+		<Row PolicyType='POLICY_NEW_DEAL' ModifierId='GOLDEN_NEWDEAL_GOLD_POP'/>
+		<Delete PolicyType='POLICY_MEDINA_QUARTER' ModifierId='MEDINAQUARTER_SPECIALTYHOUSING'/>
+		<!-- <Row PolicyType='POLICY_MEDINA_QUARTER' ModifierId='GOLDEN_MEDINAQUARTER_DISTRICT_GOLD'/> -->
+		<Row PolicyType='POLICY_MEDINA_QUARTER' ModifierId='GOLDEN_MEDINAQUARTER_DISTRICT_PRODUCTION'/>
+		<Row PolicyType='POLICY_MEDINA_QUARTER' ModifierId='GOLDEN_MEDINAQUARTER_DISTRICT_FOOD'/>
+		<Row PolicyType='POLICY_WARS_OF_RELIGION' ModifierId='THEOCRACY_LEGACY_RELIGIOUS'/>
+		<Row PolicyType='POLICY_CHURCH_COMMUNITY' ModifierId='GOLDEN_CHURCH_COMMUNITY_FAITH_CAMPUS'/>
+		<Row PolicyType='POLICY_CHURCH_COMMUNITY' ModifierId='GOLDEN_CHURCH_COMMUNITY_FAITH_THEATER'/>
+		<Row PolicyType='POLICY_CHURCH_COMMUNITY' ModifierId='GOLDEN_CHURCH_COMMUNITY_FAITH_COMMERCIAL_HUB'/>
+		<Row PolicyType="POLICY_COLLECTIVE_PRODUCTION" ModifierId="GOLDEN_COLLECTIVE_SCIENCE_INDUSTRIAL_ZONE"/>
+		<Row PolicyType="POLICY_COLLECTIVE_PRODUCTION" ModifierId="GOLDEN_COLLECTIVE_CULTURE_INDUSTRIAL_ZONE"/>
+		<Row PolicyType="POLICY_MARTIAL_LAW" ModifierId="FASCISM_LEGACY_ATTACK"/>		
+	</PolicyModifiers>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>GOLDEN_RESEARCH_FUNDING_SCIENCE_COMMERCIAL_HUB</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_COMMERCIAL_HUB</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RESEARCH_FUNDING_CULTURE_CAMPUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
+		</Row>		
+		<Row>
+			<ModifierId>GOLDEN_PROSPEROUS_PORT_PRODUCTION_HARBOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HARBOR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_BIG_EXPANSION_SCIENCE_HARBOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HARBOR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_BIG_EXPANSION_FOOD_HARBOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HARBOR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROSPEROUS_PORT_CULTURE_HARBOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HARBOR</SubjectRequirementSetId>
+		</Row>
+        <Row>
+			<ModifierId>GOLDEN_CIVILPRESTIGE_ALL_YIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_2_TITLE_GOVERNOR_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SEAPORT_ALL_YIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_BUILDING_SEAPORT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_COAL_POWER_PLANT_ALL_YIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_BUILDING_COAL_POWER_PLANT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FOSSIL_FUEL_POWER_PLANT_ALL_YIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_BUILDING_FOSSIL_FUEL_POWER_PLANT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_POWER_PLANT_ALL_YIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_BUILDING_POWER_PLANT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_NEWDEAL_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_NEWDEAL_GOLD_POP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+		</Row>	
+	<!-- <Row> -->
+      <!-- <ModifierId>GOLDEN_MEDINAQUARTER_DISTRICT_GOLD</ModifierId> -->
+      <!-- <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT</ModifierType> -->
+    <!-- </Row> -->
+	<Row>
+      <ModifierId>GOLDEN_MEDINAQUARTER_DISTRICT_PRODUCTION</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT</ModifierType>
+    </Row>
+	<Row>
+      <ModifierId>GOLDEN_MEDINAQUARTER_DISTRICT_FOOD</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT</ModifierType>
+    </Row>
+	<Row>
+			<ModifierId>GOLDEN_CHURCH_COMMUNITY_FAITH_CAMPUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CHURCH_COMMUNITY_FAITH_THEATER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_THEATER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CHURCH_COMMUNITY_FAITH_COMMERCIAL_HUB</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_COMMERCIAL_HUB</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_COLLECTIVE_SCIENCE_INDUSTRIAL_ZONE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_INDUSTRIAL_ZONE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_COLLECTIVE_CULTURE_INDUSTRIAL_ZONE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_INDUSTRIAL_ZONE</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GOLDEN_RESEARCH_FUNDING_SCIENCE_COMMERCIAL_HUB</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RESEARCH_FUNDING_SCIENCE_COMMERCIAL_HUB</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RESEARCH_FUNDING_CULTURE_CAMPUS</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RESEARCH_FUNDING_CULTURE_CAMPUS</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>GOLDEN_PROSPEROUS_PORT_PRODUCTION_HARBOR</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROSPEROUS_PORT_PRODUCTION_HARBOR</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_BIG_EXPANSION_SCIENCE_HARBOR</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_BIG_EXPANSION_SCIENCE_HARBOR</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_BIG_EXPANSION_FOOD_HARBOR</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_BIG_EXPANSION_FOOD_HARBOR</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROSPEROUS_PORT_CULTURE_HARBOR</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROSPEROUS_PORT_CULTURE_HARBOR</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<!-- <Update> -->
+		   <!-- <Where ModifierId="CIVILPRESTIGE_GOVAMENITY" Name="Amount"/> -->
+		   <!-- <Set Value="2"/> -->
+	    <!-- </Update> -->
+        <Row>
+			<ModifierId>GOLDEN_CIVILPRESTIGE_ALL_YIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SEAPORT_ALL_YIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_COAL_POWER_PLANT_ALL_YIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FOSSIL_FUEL_POWER_PLANT_ALL_YIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_POWER_PLANT_ALL_YIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Update>
+		   <Where ModifierId="MARTIALLAW_OVERALLWARWEARINESS" Name="Amount"/>
+		   <Set Value="-50"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="MARTIALLAW_GARRISONIDENTITY" Name="Amount"/>
+		   <Set Value="5"/>
+	    </Update>
+		<Row>
+			<ModifierId>GOLDEN_NEWDEAL_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>		
+		<Row>
+			<ModifierId>GOLDEN_NEWDEAL_GOLD_POP</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_NEWDEAL_GOLD_POP</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+	<!-- <Row> -->
+      <!-- <ModifierId>GOLDEN_MEDINAQUARTER_DISTRICT_GOLD</ModifierId> -->
+      <!-- <Name>YieldType</Name> -->
+      <!-- <Value>YIELD_GOLD</Value> -->
+    <!-- </Row> -->
+    <!-- <Row> -->
+      <!-- <ModifierId>GOLDEN_MEDINAQUARTER_DISTRICT_GOLD</ModifierId> -->
+      <!-- <Name>Amount</Name> -->
+      <!-- <Value>1</Value> -->
+    <!-- </Row> -->
+	<Row>
+      <ModifierId>GOLDEN_MEDINAQUARTER_DISTRICT_PRODUCTION</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_PRODUCTION</Value>
+    </Row>
+    <Row>
+      <ModifierId>GOLDEN_MEDINAQUARTER_DISTRICT_PRODUCTION</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+	<Row>
+      <ModifierId>GOLDEN_MEDINAQUARTER_DISTRICT_FOOD</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_FOOD</Value>
+    </Row>
+    <Row>
+      <ModifierId>GOLDEN_MEDINAQUARTER_DISTRICT_FOOD</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+	    <Row>
+			<ModifierId>GOLDEN_CHURCH_COMMUNITY_FAITH_CAMPUS</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CHURCH_COMMUNITY_FAITH_CAMPUS</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CHURCH_COMMUNITY_FAITH_THEATER</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CHURCH_COMMUNITY_FAITH_THEATER</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>		
+		<Row>
+			<ModifierId>GOLDEN_CHURCH_COMMUNITY_FAITH_COMMERCIAL_HUB</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CHURCH_COMMUNITY_FAITH_COMMERCIAL_HUB</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_COLLECTIVE_SCIENCE_INDUSTRIAL_ZONE</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_COLLECTIVE_SCIENCE_INDUSTRIAL_ZONE</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_COLLECTIVE_CULTURE_INDUSTRIAL_ZONE</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_COLLECTIVE_CULTURE_INDUSTRIAL_ZONE</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Update>
+		   <Where ModifierId="COLLECTIVIZATION_INTERNAL_TRADE_FOOD" Name="Amount"/>
+		   <Set Value="5"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="COLLECTIVIZATION_INTERNAL_TRADE_PRODUCTION" Name="Amount"/>
+		   <Set Value="5"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="WARS_OF_RELIGION_COMBAT_MODIFIER" Name="Amount"/>
+		   <Set Value="5"/>
+	    </Update>
+	</ModifierArguments>
+</GameInfo>

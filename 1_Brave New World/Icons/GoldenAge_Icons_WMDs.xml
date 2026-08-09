@@ -1,0 +1,40 @@
+<GameInfo>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_PROJECTS_BM" IconSize="32"   IconsPerRow="4" IconsPerColumn="4" Filename="MissileIcon_32"/>
+		<Row Name="ICON_ATLAS_PROJECTS_BM" IconSize="38"   IconsPerRow="4" IconsPerColumn="4" Filename="MissileIcon_38"/>
+		<Row Name="ICON_ATLAS_PROJECTS_BM" IconSize="50"   IconsPerRow="4" IconsPerColumn="4" Filename="MissileIcon_50"/>
+		<Row Name="ICON_ATLAS_PROJECTS_BM" IconSize="80"   IconsPerRow="4" IconsPerColumn="4" Filename="MissileIcon_80"/>
+		<Row Name="ICON_ATLAS_PROJECTS_BM" IconSize="128"  IconsPerRow="4" IconsPerColumn="4" Filename="MissileIcon_128"/>
+		<Row Name="ICON_ATLAS_PROJECTS_BM" IconSize="256"  IconsPerRow="4" IconsPerColumn="4" Filename="MissileIcon_256"/>
+
+		<Row Name="ICON_ATLAS_FONT_ICON_BM" Baseline="8"   IconSize="22" IconsPerRow="11" IconsPerColumn="25" Filename="MissileIcon_Font22.dds"/>
+	</IconTextureAtlases>
+
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_PROJECTS_KZ" IconSize="30"   IconsPerRow="4" IconsPerColumn="4" Filename="KZ_Projects30"/>
+    	<Row Name="ICON_ATLAS_PROJECTS_KZ" IconSize="32"   IconsPerRow="4" IconsPerColumn="4" Filename="KZ_Projects32"/>
+	    <Row Name="ICON_ATLAS_PROJECTS_KZ" IconSize="38"   IconsPerRow="4" IconsPerColumn="4" Filename="KZ_Projects38"/>
+    	<Row Name="ICON_ATLAS_PROJECTS_KZ" IconSize="50"   IconsPerRow="4" IconsPerColumn="4" Filename="KZ_Projects50"/>
+	    <Row Name="ICON_ATLAS_PROJECTS_KZ" IconSize="80"   IconsPerRow="4" IconsPerColumn="4" Filename="KZ_Projects80"/>
+    	<Row Name="ICON_ATLAS_PROJECTS_KZ" IconSize="256"  IconsPerRow="4" IconsPerColumn="4" Filename="KZ_Projects256"/>
+
+		<Row Name="ICON_ATLAS_FONT_ICON_KZ" Baseline="8"   IconSize="22" IconsPerRow="11" IconsPerColumn="25" Filename="KZ_FontIcons.dds"/>
+	</IconTextureAtlases>
+	
+	<IconDefinitions>
+		<Row Name="ICON_PROJECT_BUILD_BASE_MISSILE" Atlas="ICON_ATLAS_PROJECTS_BM" Index="0"/>
+		<Row Name="BaseMissile"                     Atlas="ICON_ATLAS_FONT_ICON_BM" Index="0"/>
+	</IconDefinitions>
+	
+	<IconDefinitions>
+		<Row Name="ICON_PROJECT_OPERATION_CASTLE"   Atlas="ICON_ATLAS_PROJECTS_KZ" Index="4"/>	
+		<Row Name="ICON_PROJECT_BUILD_CASTLE_BRAVO" Atlas="ICON_ATLAS_PROJECTS_KZ" Index="0"/>
+		<Row Name="ICON_PROJECT_BUILD_KUZKINE_MET"  Atlas="ICON_ATLAS_PROJECTS_KZ" Index="1"/>	
+		<Row Name="ICON_PROJECT_SS_9_MOD_3_SCARP"   Atlas="ICON_ATLAS_PROJECTS_KZ" Index="7"/>	
+		<Row Name="ICON_PROJECT_BUILD_R36_ORB"      Atlas="ICON_ATLAS_PROJECTS_KZ" Index="2"/>								
+		<Row Name="ICON_PROJECT_PRODUCT_602"        Atlas="ICON_ATLAS_PROJECTS_KZ" Index="5"/>		
+		<Row Name="CestleNuclear"                   Atlas="ICON_ATLAS_FONT_ICON_KZ" Index="107"/>
+		<Row Name="KuzkeNuclear"                    Atlas="ICON_ATLAS_FONT_ICON_KZ" Index="108"/>	
+		<Row Name="R36OrbNuclear"                   Atlas="ICON_ATLAS_FONT_ICON_KZ" Index="109"/>								
+	</IconDefinitions>		
+</GameInfo>

@@ -1,0 +1,328 @@
+<GameInfo>
+	<Types>
+		<Row Type="PROJECT_HORSES_GOLD" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_IRON_GOLD" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_NITER_GOLD" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_COAL_GOLD" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_OIL_GOLD" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_ALUMINUM_GOLD" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_URANIUM_GOLD" Kind="KIND_PROJECT"/>	
+		
+		<Row Type="PROJECT_MOVE_CAPITAL" Kind="KIND_PROJECT"/>
+		<Delete Type="PROJECT_COTHON_CAPITAL_MOVE" Kind="KIND_PROJECT"/>
+		
+		<Row Type="PROJECT_CLOSE_COAL_POWER_PLANT" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_CLOSE_OIL_POWER_PLANT" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_CLOSE_NUCLEAR_POWER_PLANT" Kind="KIND_PROJECT"/>
+	</Types>
+	
+	<Projects>
+		<Row ProjectType="PROJECT_HORSES_GOLD" Name="LOC_PROJECT_HORSES_GOLD_NAME" ShortName="LOC_PROJECT_HORSES_GOLD_NAME" Description="LOC_PROJECT_HORSES_GOLD_DESCRIPTION" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PrereqTech="TECH_MATHEMATICS" Cost="100" AdvisorType="ADVISOR_GENERIC"/>
+		<Row ProjectType="PROJECT_IRON_GOLD" Name="LOC_PROJECT_IRON_GOLD_NAME" ShortName="LOC_PROJECT_IRON_GOLD_NAME" Description="LOC_PROJECT_IRON_GOLD_DESCRIPTION" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PrereqTech="TECH_MACHINERY" Cost="200" AdvisorType="ADVISOR_GENERIC"/>
+		<Row ProjectType="PROJECT_NITER_GOLD" Name="LOC_PROJECT_NITER_GOLD_NAME" ShortName="LOC_PROJECT_NITER_GOLD_NAME" Description="LOC_PROJECT_NITER_GOLD_DESCRIPTION" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PrereqTech="TECH_ECONOMICS" Cost="300" AdvisorType="ADVISOR_GENERIC"/>
+		<Row ProjectType="PROJECT_COAL_GOLD" Name="LOC_PROJECT_COAL_GOLD_NAME" ShortName="LOC_PROJECT_COAL_GOLD_NAME" Description="LOC_PROJECT_COAL_GOLD_DESCRIPTION" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PrereqTech="TECH_REFINING" Cost="400" AdvisorType="ADVISOR_GENERIC"/>
+		<Row ProjectType="PROJECT_OIL_GOLD" Name="LOC_PROJECT_OIL_GOLD_NAME" ShortName="LOC_PROJECT_OIL_GOLD_NAME" Description="LOC_PROJECT_OIL_GOLD_DESCRIPTION" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PrereqTech="TECH_PLASTICS" Cost="500" AdvisorType="ADVISOR_GENERIC"/>
+		<Row ProjectType="PROJECT_ALUMINUM_GOLD" Name="LOC_PROJECT_ALUMINUM_GOLD_NAME" ShortName="LOC_PROJECT_ALUMINUM_GOLD_NAME" Description="LOC_PROJECT_ALUMINUM_GOLD_DESCRIPTION" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PrereqTech="TECH_SYNTHETIC_MATERIALS" Cost="600" AdvisorType="ADVISOR_GENERIC"/>
+		<Row ProjectType="PROJECT_URANIUM_GOLD" Name="LOC_PROJECT_URANIUM_GOLD_NAME" ShortName="LOC_PROJECT_URANIUM_GOLD_NAME" Description="LOC_PROJECT_URANIUM_GOLD_DESCRIPTION" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PrereqTech="TECH_NUCLEAR_FUSION" Cost="700" AdvisorType="ADVISOR_GENERIC"/>
+		<Update>
+	      <Where ProjectType="PROJECT_DECOMMISSION_COAL_POWER_PLANT"/> <Set Cost="50"/>
+	    </Update> 
+		<Update>
+	      <Where ProjectType="PROJECT_DECOMMISSION_OIL_POWER_PLANT"/> <Set Cost="50"/>
+	    </Update> 
+		<Update>
+	      <Where ProjectType="PROJECT_DECOMMISSION_NUCLEAR_POWER_PLANT"/> <Set Cost="50"/>
+	    </Update> 
+		<Update>
+	      <Where ProjectType="PROJECT_CONVERT_REACTOR_TO_COAL"/> <Set Cost="200" PrereqTech="TECH_STEAM_POWER"/>
+	    </Update> 
+		<Update>
+	      <Where ProjectType="PROJECT_CONVERT_REACTOR_TO_OIL"/> <Set Cost="200"/>
+	    </Update> 
+		<Update>
+	      <Where ProjectType="PROJECT_CONVERT_REACTOR_TO_URANIUM"/> <Set Cost="200"/>
+	    </Update> 
+		<Row ProjectType="PROJECT_MOVE_CAPITAL" Name="LOC_PROJECT_MOVE_CAPITAL_NAME" ShortName="LOC_PROJECT_MOVE_CAPITAL_SHORT_NAME" Description="LOC_PROJECT_MOVE_CAPITAL_DESCRIPTION" Cost="100" PrereqCivic="CIVIC_CIVIL_SERVICE" PrereqDistrict="DISTRICT_CITY_CENTER" AdvisorType="ADVISOR_GENERIC" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="600"/>
+		<Row ProjectType="PROJECT_CLOSE_COAL_POWER_PLANT" Name="LOC_PROJECT_CLOSE_COAL_POWER_PLANT_NAME" ShortName="LOC_PROJECT_CLOSE_COAL_POWER_PLANT_SHORT_NAME" Description="LOC_PROJECT_CLOSE_COAL_POWER_PLANT_DESCRIPTION" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PrereqCivic="CIVIC_CONSERVATION" Cost="150" AdvisorType="ADVISOR_GENERIC"/>
+		<Row ProjectType="PROJECT_CLOSE_OIL_POWER_PLANT" Name="LOC_PROJECT_CLOSE_OIL_POWER_PLANT_NAME" ShortName="LOC_PROJECT_CLOSE_OIL_POWER_PLANT_SHORT_NAME" Description="LOC_PROJECT_CLOSE_OIL_POWER_PLANT_DESCRIPTION" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PrereqCivic="CIVIC_CULTURAL_HERITAGE" Cost="150" AdvisorType="ADVISOR_GENERIC"/>			
+		<Row ProjectType="PROJECT_CLOSE_NUCLEAR_POWER_PLANT" Name="LOC_PROJECT_CLOSE_NUCLEAR_POWER_PLANT_NAME" ShortName="LOC_PROJECT_CLOSE_NUCLEAR_POWER_PLANT_SHORT_NAME" Description="LOC_PROJECT_CLOSE_NUCLEAR_POWER_PLANT_DESCRIPTION" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PrereqCivic="CIVIC_ENVIRONMENTALISM" Cost="150" AdvisorType="ADVISOR_GENERIC"/>
+	    <!-- 飞天-->
+        <Update>
+	      <Where ProjectType="PROJECT_LAUNCH_EARTH_SATELLITE"/> <Set Cost="3000"/>
+	    </Update> 
+		<Update>
+	      <Where ProjectType="PROJECT_LAUNCH_MOON_LANDING"/> <Set Cost="4000"/>
+	    </Update> 
+		<Update>
+	      <Where ProjectType="PROJECT_LAUNCH_MARS_BASE"/> <Set Cost="5000"/>
+	    </Update> 
+		<Update>
+	      <Where ProjectType="PROJECT_LAUNCH_EXOPLANET_EXPEDITION"/> <Set Cost="6000"/>
+	    </Update> 
+		<Update>
+	      <Where ProjectType="PROJECT_ORBITAL_LASER"/> <Set Cost="3000"/>
+	    </Update> 
+		<Update>
+	      <Where ProjectType="PROJECT_TERRESTRIAL_LASER"/> <Set Cost="3000"/>
+	    </Update> 
+		<!-- 区域项目费用-->
+		<Update>
+	      <Where CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"/> <Set CostProgressionParam1="4000"/>
+	    </Update> 
+	</Projects>
+	
+	<Projects_XP2>	
+	    <Row ProjectType="PROJECT_HORSES_GOLD" RequiredBuilding="BUILDING_MARKET"/>
+		<Row ProjectType="PROJECT_IRON_GOLD" RequiredBuilding="BUILDING_MARKET"/>
+		<Row ProjectType="PROJECT_NITER_GOLD" RequiredBuilding="BUILDING_BANK"/>
+		<Row ProjectType="PROJECT_COAL_GOLD" RequiredBuilding="BUILDING_BANK"/>
+		<Row ProjectType="PROJECT_OIL_GOLD" RequiredBuilding="BUILDING_STOCK_EXCHANGE"/>
+		<Row ProjectType="PROJECT_ALUMINUM_GOLD" RequiredBuilding="BUILDING_STOCK_EXCHANGE"/>
+		<Row ProjectType="PROJECT_URANIUM_GOLD" RequiredBuilding="BUILDING_STOCK_EXCHANGE"/>
+		<Row ProjectType="PROJECT_MOVE_CAPITAL" MaxSimultaneousInstances="1"/>
+		<Row ProjectType="PROJECT_CLOSE_COAL_POWER_PLANT" RequiredBuilding="BUILDING_COAL_POWER_PLANT"/>
+		<Row ProjectType="PROJECT_CLOSE_OIL_POWER_PLANT" RequiredBuilding="BUILDING_FOSSIL_FUEL_POWER_PLANT"/>
+		<Row ProjectType="PROJECT_CLOSE_NUCLEAR_POWER_PLANT" RequiredBuilding="BUILDING_POWER_PLANT"/>
+	</Projects_XP2>
+	
+	<Project_ResourceCosts>
+		<Row ProjectType="PROJECT_HORSES_GOLD" ResourceType="RESOURCE_HORSES" StartProductionCost="30" />
+		<Row ProjectType="PROJECT_IRON_GOLD" ResourceType="RESOURCE_IRON" StartProductionCost="30" />
+		<Row ProjectType="PROJECT_NITER_GOLD" ResourceType="RESOURCE_NITER" StartProductionCost="30" />
+		<Row ProjectType="PROJECT_COAL_GOLD" ResourceType="RESOURCE_COAL" StartProductionCost="30" />
+		<Row ProjectType="PROJECT_OIL_GOLD" ResourceType="RESOURCE_OIL" StartProductionCost="30" />
+		<Row ProjectType="PROJECT_ALUMINUM_GOLD" ResourceType="RESOURCE_ALUMINUM" StartProductionCost="30" />
+		<Row ProjectType="PROJECT_URANIUM_GOLD" ResourceType="RESOURCE_URANIUM" StartProductionCost="30" />
+	</Project_ResourceCosts>
+	
+	<Project_BuildingCosts>
+		<Row ProjectType="PROJECT_CLOSE_COAL_POWER_PLANT" ConsumedBuildingType="BUILDING_COAL_POWER_PLANT"/>
+		<Row ProjectType="PROJECT_CLOSE_OIL_POWER_PLANT" ConsumedBuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT"/>
+		<Row ProjectType="PROJECT_CLOSE_NUCLEAR_POWER_PLANT" ConsumedBuildingType="BUILDING_POWER_PLANT"/>
+	</Project_BuildingCosts>
+	
+	<Project_YieldConversions>
+		<Replace ProjectType="PROJECT_ENHANCE_DISTRICT_ENCAMPMENT" YieldType="YIELD_GOLD" PercentOfProductionRate="20"/>
+		<Replace ProjectType="PROJECT_ENHANCE_DISTRICT_HARBOR" YieldType="YIELD_GOLD" PercentOfProductionRate="20"/>
+		<Replace ProjectType="PROJECT_ENHANCE_DISTRICT_COMMERCIAL_HUB" YieldType="YIELD_GOLD" PercentOfProductionRate="20"/>
+		<Replace ProjectType="PROJECT_ENHANCE_DISTRICT_HOLY_SITE" YieldType="YIELD_FAITH" PercentOfProductionRate="20"/>
+		<Replace ProjectType="PROJECT_ENHANCE_DISTRICT_CAMPUS" YieldType="YIELD_SCIENCE" PercentOfProductionRate="20"/>
+		<Replace ProjectType="PROJECT_ENHANCE_DISTRICT_THEATER" YieldType="YIELD_CULTURE" PercentOfProductionRate="20"/>
+	</Project_YieldConversions>
+			
+	<RandomEvents>
+	    <Update>
+	      <Where RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MINOR"/> <Set MinTurnAtRisk="30"/>
+	    </Update> 
+		<Update>
+	      <Where RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR"/> <Set MinTurnAtRisk="45"/>
+	    </Update>
+		<Update>
+	      <Where RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC"/> <Set MinTurnAtRisk="60"/>
+	    </Update>
+	</RandomEvents>
+	
+	<CivicModifiers>
+		<Row CivicType="CIVIC_CIVIL_SERVICE" ModifierId="GOLDEN_MOVE_CAPITAL"/>
+	</CivicModifiers>
+	
+	<Modifiers>
+	    <Row>
+			<ModifierId>GOLDEN_MOVE_CAPITAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_CAPITAL</ModifierType>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+	    <Row>
+			<ModifierId>GOLDEN_MOVE_CAPITAL</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_MOVE_CAPITAL</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<ProjectCompletionModifiers>
+		<Row ProjectType="PROJECT_HORSES_GOLD" ModifierId="GOLDEN_PROJECT_HORSES_GOLD"/>
+		<Row ProjectType="PROJECT_IRON_GOLD" ModifierId="GOLDEN_PROJECT_IRON_GOLD" />
+		<Row ProjectType="PROJECT_NITER_GOLD" ModifierId="GOLDEN_PROJECT_NITER_GOLD" />
+		<Row ProjectType="PROJECT_COAL_GOLD" ModifierId="GOLDEN_PROJECT_COAL_GOLD" />
+		<Row ProjectType="PROJECT_OIL_GOLD" ModifierId="GOLDEN_PROJECT_OIL_GOLD" />
+		<Row ProjectType="PROJECT_ALUMINUM_GOLD" ModifierId="GOLDEN_PROJECT_ALUMINUM_GOLD" />
+		<Row ProjectType="PROJECT_URANIUM_GOLD" ModifierId="GOLDEN_PROJECT_URANIUM_GOLD" />
+	</ProjectCompletionModifiers>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_HORSES_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<RunOnce>False</RunOnce>
+			<Permanent>False</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_IRON_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<RunOnce>False</RunOnce>
+			<Permanent>False</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_NITER_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<RunOnce>False</RunOnce>
+			<Permanent>False</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_COAL_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<RunOnce>False</RunOnce>
+			<Permanent>False</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_OIL_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<RunOnce>False</RunOnce>
+			<Permanent>False</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_ALUMINUM_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<RunOnce>False</RunOnce>
+			<Permanent>False</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_URANIUM_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<RunOnce>False</RunOnce>
+			<Permanent>False</Permanent>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_HORSES_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_HORSES_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>200</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_HORSES_GOLD</ModifierId>
+			<Name>Scale</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_IRON_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_IRON_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>400</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_IRON_GOLD</ModifierId>
+			<Name>Scale</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_NITER_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_NITER_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>600</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_NITER_GOLD</ModifierId>
+			<Name>Scale</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_COAL_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_COAL_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>800</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_COAL_GOLD</ModifierId>
+			<Name>Scale</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_OIL_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_OIL_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>1000</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_OIL_GOLD</ModifierId>
+			<Name>Scale</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_ALUMINUM_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_ALUMINUM_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>1200</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_ALUMINUM_GOLD</ModifierId>
+			<Name>Scale</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_URANIUM_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_URANIUM_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>1400</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PROJECT_URANIUM_GOLD</ModifierId>
+			<Name>Scale</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	
+</GameInfo>

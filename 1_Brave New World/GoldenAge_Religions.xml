@@ -1,0 +1,1302 @@
+<GameInfo>
+    <GlobalParameters>
+	<!--创教初始信条数量（2）-->
+		<Replace Name="RELIGION_INITIAL_BELIEFS" Value="1" />
+	<!--传教效率（200）-->
+		<Replace Name="RELIGION_SPREAD_STRENGTH_MULTIPLIER" Value="250" />	
+	</GlobalParameters>
+	
+	<Types>
+		<Delete Type="BELIEF_HOLY_WATERS" Kind="KIND_BELIEF"/>	
+		<Delete Type="BELIEF_RELIQUARIES" Kind="KIND_BELIEF"/>	
+		<Delete Type="BELIEF_MONUMENT_TO_THE_GODS" Kind="KIND_BELIEF"/>	
+		<Delete Type="BELIEF_CITY_PATRON_GODDESS" Kind="KIND_BELIEF"/>
+		<Delete Type="BELIEF_GOD_OF_THE_FORGE" Kind="KIND_BELIEF"/>
+		<Delete Type="BELIEF_GOD_OF_HEALING" Kind="KIND_BELIEF"/>
+		<Delete Type="BELIEF_WARRIOR_MONKS" Kind="KIND_BELIEF"/>
+		<Row Type="BELIEF_GOLDEN_PSALM" Kind="KIND_BELIEF"/>	       
+        <Row Type="BELIEF_TWELVE_APOSTLES" Kind="KIND_BELIEF"/>
+		<Row Type="BELIEF_CHARITABLE_CONTRIBUTION" Kind="KIND_BELIEF"/>
+		<Row Type="BELIEF_GOLDEN_BURIAL_GROUNDS" Kind="KIND_BELIEF"/>
+		<Row Type="BELIEF_MANNA" Kind="KIND_BELIEF"/>
+		<Row Type="BELIEF_SACRED_SYMBOL" Kind="KIND_BELIEF"/>
+		<Row Type="BELIEF_GOLDEN_GODDESS_OF_THE_HARVEST" Kind="KIND_BELIEF"/>
+		<Row Type="BELIEF_GOLDEN_ORAL_TRADITION" Kind="KIND_BELIEF"/>
+		<Row Type="BELIEF_GOLDEN_SEA_GODDESS" Kind="KIND_BELIEF"/>	
+		<Row Type="BELIEF_GOLDEN_GOD_OF_MOUNTAINS" Kind="KIND_BELIEF"/>	
+		<Row Type="BELIEF_GOLDEN_NATURE_UNITY" Kind="KIND_BELIEF"/>	
+		<!--祭祀建筑-->
+		<Row Type="BUILDING_GOTHIC_CHURCH" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_TAOIST_TEMPLE" Kind="KIND_BUILDING"/>
+		<Row Type="BELIEF_GOTHIC_CHURCH" Kind="KIND_BELIEF"/>
+		<Row Type="BELIEF_TAOIST_TEMPLE" Kind="KIND_BELIEF"/>
+	</Types>
+	
+    <Beliefs>
+		<Update>
+	      <Where BeliefType="BELIEF_MONASTIC_ISOLATION"/> <Set BeliefClassType="BELIEF_CLASS_FOLLOWER"/>
+	    </Update>
+		<Update>
+	      <Where BeliefType="BELIEF_ITINERANT_PREACHERS"/> <Set BeliefClassType="BELIEF_CLASS_FOLLOWER"/>
+	    </Update>	
+
+		<Update>
+	      <Where BeliefType="BELIEF_RELIGIOUS_SETTLEMENTS"/> <Set BeliefClassType="BELIEF_CLASS_ENHANCER"/>
+	    </Update>
+		<Update>
+	      <Where BeliefType="BELIEF_JESUIT_EDUCATION"/> <Set BeliefClassType="BELIEF_CLASS_ENHANCER"/>
+	    </Update>
+		<Update>
+	      <Where BeliefType="BELIEF_GOD_OF_WAR"/> <Set BeliefClassType="BELIEF_CLASS_ENHANCER"/>
+	    </Update>
+		<Update>
+	      <Where BeliefType="BELIEF_DIVINE_SPARK"/> <Set BeliefClassType="BELIEF_CLASS_ENHANCER"/>
+	    </Update>
+		<Row BeliefType="BELIEF_GOLDEN_PSALM" Name="LOC_BELIEF_GOLDEN_PSALM_NAME" Description="LOC_BELIEF_GOLDEN_PSALM_DESCRIPTION" BeliefClassType="BELIEF_CLASS_FOLLOWER"/>
+		<Row BeliefType="BELIEF_TWELVE_APOSTLES" Name="LOC_BELIEF_TWELVE_APOSTLES_NAME" Description="LOC_BELIEF_TWELVE_APOSTLES_DESCRIPTION" BeliefClassType="BELIEF_CLASS_FOUNDER"/>
+		<Row BeliefType="BELIEF_CHARITABLE_CONTRIBUTION" Name="LOC_BELIEF_CHARITABLE_CONTRIBUTION_NAME" Description="LOC_BELIEF_CHARITABLE_CONTRIBUTION_DESCRIPTION" BeliefClassType="BELIEF_CLASS_FOUNDER"/>
+		<Row BeliefType="BELIEF_GOLDEN_BURIAL_GROUNDS" Name="LOC_BELIEF_BURIAL_GROUNDS_NAME" Description="LOC_BELIEF_BURIAL_GROUNDS_DESCRIPTION" BeliefClassType="BELIEF_CLASS_FOLLOWER"/>
+		<Row BeliefType="BELIEF_GOTHIC_CHURCH" Name="LOC_BELIEF_GOTHIC_CHURCH_NAME" Description="LOC_BELIEF_GOTHIC_CHURCH_DESCRIPTION" BeliefClassType="BELIEF_CLASS_WORSHIP"/>
+		<Row BeliefType="BELIEF_TAOIST_TEMPLE" Name="LOC_BELIEF_TAOIST_TEMPLE_NAME" Description="LOC_BELIEF_TAOIST_TEMPLE_DESCRIPTION" BeliefClassType="BELIEF_CLASS_WORSHIP"/>
+		<Row BeliefType="BELIEF_MANNA" Name="LOC_BELIEF_MANNA_NAME" Description="LOC_BELIEF_MANNA_DESCRIPTION" BeliefClassType="BELIEF_CLASS_FOLLOWER"/>	
+		<Row BeliefType="BELIEF_SACRED_SYMBOL" Name="LOC_BELIEF_SACRED_SYMBOL_NAME" Description="LOC_BELIEF_SACRED_SYMBOL_DESCRIPTION" BeliefClassType="BELIEF_CLASS_ENHANCER"/>
+		<Row BeliefType="BELIEF_GOLDEN_GODDESS_OF_THE_HARVEST" Name="LOC_BELIEF_GODDESS_OF_THE_HARVEST_NAME" Description="LOC_BELIEF_GODDESS_OF_THE_HARVEST_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	    <Row BeliefType="BELIEF_GOLDEN_ORAL_TRADITION" Name="LOC_BELIEF_ORAL_TRADITION_NAME" Description="LOC_BELIEF_ORAL_TRADITION_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	    <Row BeliefType="BELIEF_GOLDEN_SEA_GODDESS" Name="LOC_BELIEF_GOLDEN_SEA_GODDESS_NAME" Description="LOC_BELIEF_GOLDEN_SEA_GODDESS_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+		<Row BeliefType="BELIEF_GOLDEN_GOD_OF_MOUNTAINS" Name="LOC_BELIEF_GOLDEN_GOD_OF_MOUNTAINS_NAME" Description="LOC_BELIEF_GOLDEN_GOD_OF_MOUNTAINS_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+		<Row BeliefType="BELIEF_GOLDEN_NATURE_UNITY" Name="LOC_BELIEF_GOLDEN_NATURE_UNITY_NAME" Description="LOC_BELIEF_GOLDEN_NATURE_UNITY_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	</Beliefs>
+	
+	<Buildings>
+	    <Update>
+	      <Where BuildingType="BUILDING_CATHEDRAL"/> <Set Maintenance="4" Cost="500"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_DAR_E_MEHR"/> <Set Maintenance="4" Cost="500"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_GURDWARA"/> <Set Maintenance="4" Housing="0" Cost="500"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_MEETING_HOUSE"/> <Set Maintenance="4" Cost="500"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_MOSQUE"/> <Set Maintenance="4" Cost="500"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_PAGODA"/> <Set Maintenance="4" Cost="500"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_STUPA"/> <Set Maintenance="4" Entertainment="1" Cost="500"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_SYNAGOGUE"/> <Set Maintenance="4"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_WAT"/> <Set Maintenance="4"/>
+	    </Update>
+		<Row BuildingType="BUILDING_GOTHIC_CHURCH" Name="LOC_BUILDING_GOTHIC_CHURCH_NAME" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_FAITH" Cost="500" EnabledByReligion="true" CitizenSlots="1" Maintenance="4"/>
+		<Row BuildingType="BUILDING_TAOIST_TEMPLE" Name="LOC_BUILDING_TAOIST_TEMPLE_NAME" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_FAITH" Cost="500" EnabledByReligion="true" CitizenSlots="1" Maintenance="4" Housing="2"/>
+	</Buildings>
+	
+	<BuildingPrereqs>
+	    <Row Building="BUILDING_GOTHIC_CHURCH" PrereqBuilding="BUILDING_TEMPLE"/>
+		<Row Building="BUILDING_TAOIST_TEMPLE" PrereqBuilding="BUILDING_TEMPLE"/>
+	</BuildingPrereqs>
+	
+	<Building_YieldChanges>
+	    <Update>
+	      <Where BuildingType="BUILDING_CATHEDRAL" YieldType="YIELD_FAITH"/> <Set YieldChange="6"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_DAR_E_MEHR" YieldType="YIELD_FAITH"/> <Set YieldChange="6"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_GURDWARA" YieldType="YIELD_FAITH"/> <Set YieldChange="6"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_GURDWARA" YieldType="YIELD_FOOD"/> <Set YieldChange="2"/>
+	    </Update>		
+		<Row BuildingType="BUILDING_GURDWARA" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Update>
+	      <Where BuildingType="BUILDING_MEETING_HOUSE" YieldType="YIELD_FAITH"/> <Set YieldChange="6"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_MEETING_HOUSE" YieldType="YIELD_PRODUCTION"/> <Set YieldChange="3"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_MOSQUE" YieldType="YIELD_FAITH"/> <Set YieldChange="6"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_PAGODA" YieldType="YIELD_FAITH"/> <Set YieldChange="6"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_STUPA" YieldType="YIELD_FAITH"/> <Set YieldChange="6"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_SYNAGOGUE" YieldType="YIELD_FAITH"/> <Set YieldChange="9"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_WAT" YieldType="YIELD_FAITH"/> <Set YieldChange="6"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_WAT" YieldType="YIELD_SCIENCE"/> <Set YieldChange="3"/>
+	    </Update>
+		<Row BuildingType="BUILDING_GOTHIC_CHURCH" YieldType="YIELD_FAITH" YieldChange="6"/>
+		<Row BuildingType="BUILDING_GOTHIC_CHURCH" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Row BuildingType="BUILDING_TAOIST_TEMPLE" YieldType="YIELD_FAITH" YieldChange="6"/>
+	</Building_YieldChanges>
+	
+	<Building_YieldsPerEra>
+		<Update>
+	      <Where BuildingType="BUILDING_DAR_E_MEHR" YieldType="YIELD_FAITH"/> <Set YieldChange="3"/>
+	    </Update>
+	</Building_YieldsPerEra>
+	
+	<Buildings_XP2>
+       <Row BuildingType="BUILDING_CATHEDRAL" RequiredPower="3"/>
+	   <!-- <Row BuildingType="BUILDING_DAR_E_MEHR" RequiredPower="3"/> --><!--无法通电？-->
+	   <Row BuildingType="BUILDING_GURDWARA" RequiredPower="3"/>
+	   <Row BuildingType="BUILDING_MEETING_HOUSE" RequiredPower="3"/>
+	   <Row BuildingType="BUILDING_MOSQUE" RequiredPower="3"/>
+	   <Row BuildingType="BUILDING_PAGODA" RequiredPower="3"/>
+	   <Row BuildingType="BUILDING_STUPA" RequiredPower="3"/>
+	   <Row BuildingType="BUILDING_SYNAGOGUE" RequiredPower="3"/>
+	   <Row BuildingType="BUILDING_WAT" RequiredPower="3"/>
+	   <Row BuildingType="BUILDING_GOTHIC_CHURCH" RequiredPower="3"/>
+	   <Row BuildingType="BUILDING_TAOIST_TEMPLE" RequiredPower="3"/>
+	</Buildings_XP2>   
+	
+    <Building_YieldChangesBonusWithPower>
+	    <Row BuildingType="BUILDING_CATHEDRAL" YieldType="YIELD_FAITH" YieldChange="6"/>
+		<!-- <Row BuildingType="BUILDING_DAR_E_MEHR" YieldType="YIELD_FAITH" YieldChange="6"/> -->
+		<Row BuildingType="BUILDING_GURDWARA" YieldType="YIELD_FAITH" YieldChange="6"/>
+		<Row BuildingType="BUILDING_MEETING_HOUSE" YieldType="YIELD_FAITH" YieldChange="6"/>
+		<Row BuildingType="BUILDING_MOSQUE" YieldType="YIELD_FAITH" YieldChange="6"/>
+		<Row BuildingType="BUILDING_PAGODA" YieldType="YIELD_FAITH" YieldChange="6"/>
+		<Row BuildingType="BUILDING_STUPA" YieldType="YIELD_FAITH" YieldChange="6"/>
+		<Row BuildingType="BUILDING_SYNAGOGUE" YieldType="YIELD_FAITH" YieldChange="6"/>
+		<Row BuildingType="BUILDING_WAT" YieldType="YIELD_FAITH" YieldChange="6"/>
+		<Row BuildingType="BUILDING_GOTHIC_CHURCH" YieldType="YIELD_FAITH" YieldChange="6"/>
+		<Row BuildingType="BUILDING_TAOIST_TEMPLE" YieldType="YIELD_FAITH" YieldChange="6"/>
+    </Building_YieldChangesBonusWithPower>	
+	
+    <Building_CitizenYieldChanges>	    
+		<Row BuildingType="BUILDING_GOTHIC_CHURCH" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row BuildingType="BUILDING_TAOIST_TEMPLE" YieldType="YIELD_FAITH" YieldChange="1"/>
+	</Building_CitizenYieldChanges>
+	
+	<Building_GreatWorks>       
+		<Row BuildingType="BUILDING_CATHEDRAL" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
+   </Building_GreatWorks>
+   
+	<BuildingModifiers>
+	<Row>
+      <BuildingType>BUILDING_PAGODA</BuildingType>
+      <ModifierId>GOLDEN_PAGODA_ADJUST_INFLUENCE_POINTS</ModifierId>
+    </Row>
+    </BuildingModifiers>
+		
+	<BeliefModifiers>	    
+        <Row BeliefType="BELIEF_SCRIPTURE" ModifierId="ITINERANT_PREACHERS_SPREAD_DISTANCE"/>			
+		<Row BeliefType="BELIEF_RELIGIOUS_COLONIZATION" ModifierId="BURIAL_GROUNDS_CULTURE_BOMB_TRIGGER_HOLY_SITE"/>
+		<Row BeliefType="BELIEF_RELIGIOUS_COLONIZATION" ModifierId="CITY_PATRON_GODDESS_DISTRICT_PRODUCTION"/>
+		<Row BeliefType="BELIEF_MISSIONARY_ZEAL" ModifierId="MONASTIC_ISOLATION_REDUCE_COMBAT_LOSS"/>
+		<Row BeliefType="BELIEF_HOLY_ORDER" ModifierId="ALLOW_WARRIOR_MONKS"/>
+		<Row BeliefType="BELIEF_HOLY_ORDER" ModifierId="GOLDEN_HOLY_ORDER_GURU_DISCOUNT"/>
+		<Row BeliefType="BELIEF_RELIGIOUS_SETTLEMENTS" ModifierId="FERTILITY_RITES_GROWTH"/>
+		<Row BeliefType="BELIEF_RELIGIOUS_SETTLEMENTS" ModifierId="HOLY_WATERS_HEALING"/>
+		<Row BeliefType="BELIEF_DEFENDER_OF_FAITH" ModifierId="GOD_OF_HEALING_UNIT_HEALING"/>
+		<Row BeliefType="BELIEF_GOD_OF_WAR" ModifierId="GOD_OF_THE_FORGE_UNIT_ANCIENT_CLASSICAL_PRODUCTION"/>														
+		<Row BeliefType="BELIEF_TWELVE_APOSTLES" ModifierId="GOLDEN_PILGRIMAGE_FAITH"/>
+		<Row BeliefType="BELIEF_CHARITABLE_CONTRIBUTION" ModifierId="TITHE_GOLD_FOLLOWER"/>				
+        <Row BeliefType="BELIEF_RELIGIOUS_UNITY" ModifierId="GOLDEN_RELIGIOUS_UNITY_ENVOY_GOLD"/>
+		<Row BeliefType="BELIEF_RELIGIOUS_UNITY" ModifierId="GOLDEN_RELIGIOUS_UNITY_ENVOY_FAITH"/>
+        <Row BeliefType="BELIEF_JUST_WAR" ModifierId="INITIATION_RITES_HEALING_DISPERSAL"/>
+		<Row BeliefType="BELIEF_JESUIT_EDUCATION" ModifierId="GOLDEN_JESUIT_EDUCATION_FAITH_BUILDINGS"/>
+		<Row BeliefType="BELIEF_SACRED_SYMBOL" ModifierId="RELIQUARIES_RELIC_TOURISM"/>
+		<Row BeliefType="BELIEF_SACRED_SYMBOL" ModifierId="GOLDEN_SACRED_SYMBOL_WONDER_TOURISM"/>
+		
+		<Row BeliefType="BELIEF_GOTHIC_CHURCH" ModifierId="GOLDEN_ALLOW_GOTHIC_CHURCH"/>
+		<Row BeliefType="BELIEF_TAOIST_TEMPLE" ModifierId="GOLDEN_ALLOW_TAOIST_TEMPLE"/>
+			
+		<Row BeliefType="BELIEF_GOLDEN_BURIAL_GROUNDS" ModifierId="GOLDEN_BURIAL_GROUNDS_FOLLOWER_SCIENCE"/>
+		<Delete BeliefType="BELIEF_CHORAL_MUSIC"/>		
+		<Row BeliefType="BELIEF_CHORAL_MUSIC" ModifierId="GOLDEN_CHORAL_MUSIC_FOLLOWER_CULTURE"/>
+		<Delete BeliefType="BELIEF_FEED_THE_WORLD"/>
+		<Row BeliefType="BELIEF_FEED_THE_WORLD" ModifierId="GOLDEN_FEED_THE_WORLD_FOLLOWER_FOOD"/>
+		<Delete BeliefType="BELIEF_MONASTIC_ISOLATION"/>
+		<Row BeliefType="BELIEF_MONASTIC_ISOLATION" ModifierId="GOLDEN_MONASTIC_ISOLATION_FOLLOWER_PRODUCTION"/>
+		<Delete BeliefType="BELIEF_RELIGIOUS_COMMUNITY"/>
+		<Row BeliefType="BELIEF_RELIGIOUS_COMMUNITY" ModifierId="GOLDEN_RELIGIOUS_COMMUNITY_FOLLOWER_GOLD"/>	
+		<Delete BeliefType="BELIEF_DIVINE_INSPIRATION"/>
+		<Row BeliefType="BELIEF_DIVINE_INSPIRATION" ModifierId="GOLDEN_DIVINE_INSPIRATION_FOLLOWER_FAITH"/>
+		
+		<Row BeliefType="BELIEF_GOLDEN_PSALM" ModifierId="GOLDEN_PSALM_ADJACENCY_CULTURE"/>
+		<Delete BeliefType="BELIEF_ZEN_MEDITATION"/>
+		<Row BeliefType="BELIEF_ZEN_MEDITATION" ModifierId="GOLDEN_ZEN_MEDITATION_ADJACENCY_SCIENCE"/>
+		<Delete BeliefType="BELIEF_ITINERANT_PREACHERS"/>		
+		<Row BeliefType="BELIEF_ITINERANT_PREACHERS" ModifierId="GOLDEN_ITINERANT_PREACHERS_ADJACENCY_GOLD"/>
+		<Row BeliefType="BELIEF_MANNA" ModifierId="GOLDEN_MANNA_ADJACENCY_FOOD"/>
+		
+	   <Delete BeliefType="BELIEF_DIVINE_SPARK"/>	
+       <Row BeliefType="BELIEF_DIVINE_SPARK" ModifierId="DIVINE_SPARK_CAMPUS"/><!--SCIENTIST-->
+	   <Row BeliefType="BELIEF_DIVINE_SPARK" ModifierId="DIVINE_SPARK_THEATER"/><!--WRITER-->
+	   <Row BeliefType="BELIEF_DIVINE_SPARK" ModifierId="GOLDEN_DIVINE_SPARK_ENGINEER"/>
+	   <Row BeliefType="BELIEF_DIVINE_SPARK" ModifierId="GOLDEN_DIVINE_SPARK_MERCHANT"/>	   
+	   <Row BeliefType="BELIEF_DIVINE_SPARK" ModifierId="GOLDEN_DIVINE_SPARK_ARTIST"/>
+	   <Row BeliefType="BELIEF_DIVINE_SPARK" ModifierId="GOLDEN_DIVINE_SPARK_MUSICIAN"/>
+       <Row BeliefType="BELIEF_DIVINE_SPARK" ModifierId="GOLDEN_DIVINE_SPARK_GENERAL"/>
+       <Row BeliefType="BELIEF_DIVINE_SPARK" ModifierId="GOLDEN_DIVINE_SPARK_ADMIRAL"/>
+	   
+	   <Delete BeliefType="BELIEF_DANCE_OF_THE_AURORA" ModifierId="DANCE_OF_THE_AURORA_FAITHTUNDRAADJACENCY"/>	
+	   <Delete BeliefType="BELIEF_DANCE_OF_THE_AURORA" ModifierId="DANCE_OF_THE_AURORA_FAITHTUNDRAHILLSADJACENCY"/>	   
+	   <Row BeliefType="BELIEF_DANCE_OF_THE_AURORA" ModifierId="GOLDEN_DANCE_OF_THE_AURORA_FAITH"/>	   
+	   <Delete BeliefType="BELIEF_DESERT_FOLKLORE" ModifierId="DESERT_FOLKLORE_FAITHDESERTADJACENCY"/>	
+	   <Delete BeliefType="BELIEF_DESERT_FOLKLORE" ModifierId="DESERT_FOLKLORE_FAITHDESERTHILLSADJACENCY"/>	   
+	   <Row BeliefType="BELIEF_DESERT_FOLKLORE" ModifierId="GOLDEN_DESERT_FOLKLORE_FAITH"/>	  
+	   <Delete BeliefType="BELIEF_SACRED_PATH" ModifierId="SACRED_PATH_FAITHFEATUREADJACENCY"/>	   
+	   <Row BeliefType="BELIEF_SACRED_PATH" ModifierId="GOLDEN_SACRED_PATH_JUNGLEFAITH"/>
+       <Delete BeliefType="BELIEF_RIVER_GODDESS" ModifierId="RIVER_GODDESS_HOLY_SITE_AMENITIES"/>	 
+	   <Delete BeliefType="BELIEF_RIVER_GODDESS" ModifierId="RIVER_GODDESS_HOLY_SITE_HOUSING"/>		   
+	   <Row BeliefType="BELIEF_RIVER_GODDESS" ModifierId="GOLDEN_RIVER_GODDESS_FAITH"/>
+	   <Row BeliefType="BELIEF_GOLDEN_GODDESS_OF_THE_HARVEST" ModifierId="GODDESS_OF_THE_HARVEST_HARVEST"/>
+	   <Row BeliefType="BELIEF_GOLDEN_GODDESS_OF_THE_HARVEST" ModifierId="GODDESS_OF_THE_HARVEST_REMOVE_FEATURE"/>
+	   <Delete BeliefType="BELIEF_FERTILITY_RITES" ModifierId="FERTILITY_RITES_GROWTH"/>	
+	   <Delete BeliefType="BELIEF_FERTILITY_RITES" ModifierId="FERTILITY_RITES_BUILDER"/>	
+	   <Row BeliefType="BELIEF_FERTILITY_RITES" ModifierId="GOLDEN_FERTILITY_RITES_FARMS"/>	  	  
+	   <Delete BeliefType="BELIEF_RELIGIOUS_SETTLEMENTS" ModifierId="RELIGIOUS_SETTLEMENTS_SETTLER"/>	
+	   <Delete BeliefType="BELIEF_GOD_OF_CRAFTSMEN" ModifierId="GOD_OF_CRAFTSMEN_STRATEGIC_IMPROVED_PRODUCTION"/>	
+	   <Delete BeliefType="BELIEF_GODDESS_OF_THE_HUNT" ModifierId="GODDESS_OF_THE_HUNT_CAMP_PRODUCTION"/>		   	  
+       <Row BeliefType="BELIEF_GOLDEN_ORAL_TRADITION" ModifierId="GOLDEN_ORAL_TRADITION_FORESTFAITH"/>		  
+	   <Row BeliefType="BELIEF_GOLDEN_SEA_GODDESS" ModifierId="GOLDEN_SEA_GODDESS_COASTFAITH"/>	
+	   <Delete BeliefType="BELIEF_INITIATION_RITES" ModifierId="INITIATION_RITES_HEALING_DISPERSAL"/>
+	   
+	   <Row BeliefType="BELIEF_GOLDEN_GOD_OF_MOUNTAINS" ModifierId="GOLDEN_GOD_OF_MOUNTAINS_FAITH"/>
+	   <Row BeliefType="BELIEF_GOLDEN_NATURE_UNITY" ModifierId="GOLDEN_NATURE_UNITY_CAPITAL_FAITH"/>	   
+	</BeliefModifiers>
+	
+	<Modifiers>
+	    <Row>
+			<ModifierId>GOLDEN_JESUIT_EDUCATION_FAITH_BUILDINGS</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_JESUIT_EDUCATION_FAITH_BUILDINGS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_ENABLE_BUILDING_FAITH_PURCHASE</ModifierType>
+		</Row>
+	    <Row>
+			<ModifierId>GOLDEN_HOLY_ORDER_GURU_DISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_FOUNDED_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_HOLY_ORDER_GURU_DISCOUNT_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SACRED_SYMBOL_WONDER_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SACRED_SYMBOL_WONDER_TOURISM_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TOURISM</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PILGRIMAGE_FAITH</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_FOUNDED_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PILGRIMAGE_FAITH_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_RELIGION_ADD_RELIGIOUS_BELIEF_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PAGODA_ADJUST_INFLUENCE_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN</ModifierType>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_RELIGIOUS_UNITY_ENVOY_GOLD</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>GA_CAPITAL_CITY_FOLLOWS_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RELIGIOUS_UNITY_ENVOY_FAITH</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>GA_CAPITAL_CITY_FOLLOWS_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RELIGIOUS_UNITY_ENVOY_GOLD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_CHANGE_PER_USED_INFLUENCE_TOKEN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RELIGIOUS_UNITY_ENVOY_FAITH_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_CHANGE_PER_USED_INFLUENCE_TOKEN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ALLOW_GOTHIC_CHURCH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_RELIGION_ADD_RELIGIOUS_BUILDING</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ALLOW_TAOIST_TEMPLE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_RELIGION_ADD_RELIGIOUS_BUILDING</ModifierType>
+		</Row>		
+		<Row>
+			<ModifierId>GOLDEN_BURIAL_GROUNDS_FOLLOWER_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_BURIAL_GROUNDS_FOLLOWER_SCIENCE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_FOLLOWER_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CHORAL_MUSIC_FOLLOWER_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CHORAL_MUSIC_FOLLOWER_CULTURE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_FOLLOWER_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FEED_THE_WORLD_FOLLOWER_FOOD</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FEED_THE_WORLD_FOLLOWER_FOOD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_FOLLOWER_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MONASTIC_ISOLATION_FOLLOWER_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MONASTIC_ISOLATION_FOLLOWER_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_FOLLOWER_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RELIGIOUS_COMMUNITY_FOLLOWER_GOLD</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RELIGIOUS_COMMUNITY_FOLLOWER_GOLD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_FOLLOWER_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_INSPIRATION_FOLLOWER_FAITH</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_INSPIRATION_FOLLOWER_FAITH_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_FOLLOWER_YIELD_MODIFIER</ModifierType>
+		</Row>		
+		<Row>
+			<ModifierId>GOLDEN_PSALM_ADJACENCY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_ALL_DISTRICTS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PSALM_ADJACENCY_CULTURE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ZEN_MEDITATION_ADJACENCY_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_ALL_DISTRICTS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ZEN_MEDITATION_ADJACENCY_SCIENCE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ITINERANT_PREACHERS_ADJACENCY_GOLD</ModifierId>
+			<ModifierType>MODIFIER_ALL_DISTRICTS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ITINERANT_PREACHERS_ADJACENCY_GOLD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>		
+		<Row>
+			<ModifierId>GOLDEN_MANNA_ADJACENCY_FOOD</ModifierId>
+			<ModifierType>MODIFIER_ALL_DISTRICTS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MANNA_ADJACENCY_FOOD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>		
+		<Update>
+	        <Where ModifierId="GOD_OF_HEALING_UNIT_HEALING"/> <Set SubjectRequirementSetId="CITY_FOLLOWS_RELIGION_REQUIREMENTS"/>
+	    </Update>
+		<Update>
+	        <Where ModifierId="DIVINE_SPARK_HOLY_SITE"/> <Set SubjectRequirementSetId="CITY_FOLLOWS_RELIGION_REQUIREMENTS"/>
+	    </Update>
+		<Update>
+	        <Where ModifierId="DIVINE_SPARK_CAMPUS"/> <Set SubjectRequirementSetId="CITY_FOLLOWS_RELIGION_REQUIREMENTS"/>
+	    </Update>
+		<Update>
+	        <Where ModifierId="DIVINE_SPARK_THEATER"/> <Set SubjectRequirementSetId="CITY_FOLLOWS_RELIGION_REQUIREMENTS"/>
+	    </Update>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_ENGINEER</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_ENGINEER_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_INDUSTRIAL_ZONE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_MERCHANT</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_MERCHANT_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_COMMERCIAL_HUB</SubjectRequirementSetId>
+		</Row>		
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_ARTIST</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_ARTIST_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_THEATER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_MUSICIAN</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_MUSICIAN_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_THEATER</SubjectRequirementSetId>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_GENERAL</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_GENERAL_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_ENCAMPMENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_ADMIRAL</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_ADMIRAL_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HARBOR</SubjectRequirementSetId>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_DANCE_OF_THE_AURORA_FAITH</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DANCE_OF_THE_AURORA_FAITH_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_ANYTUNDRA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DESERT_FOLKLORE_FAITH</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DESERT_FOLKLORE_FAITH_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_PLOT_HAS_ANY_DESERT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SACRED_PATH_JUNGLEFAITH</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SACRED_PATH_JUNGLEFAITH_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_JUNGLE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RIVER_GODDESS_FAITH</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RIVER_GODDESS_FAITH_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_PLOT_IS_ADJACENT_TO_RIVER_AND_HOLY_SITE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FERTILITY_RITES_FARMS</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FERTILITY_RITES_FARMS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_FARM_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Update>
+	        <Where ModifierId="RELIGIOUS_SETTLEMENTS_CULTUREBORDER"/> <Set SubjectRequirementSetId="CITY_FOLLOWS_RELIGION_REQUIREMENTS"/>
+	    </Update> 	
+		<Update>
+	        <Where ModifierId="MONUMENT_TO_THE_GODS_ANCIENTCLASSICALWONDER"/> <Set SubjectRequirementSetId="CITY_FOLLOWS_RELIGION_REQUIREMENTS"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="GOD_OF_WAR_FAITH_KILLS"/> <Set SubjectRequirementSetId="CITY_FOLLOWS_RELIGION_REQUIREMENTS"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="CITY_PATRON_GODDESS_DISTRICT_PRODUCTION"/> <Set SubjectRequirementSetId="CITY_FOLLOWS_RELIGION_REQUIREMENTS"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="GOD_OF_THE_FORGE_UNIT_ANCIENT_CLASSICAL_PRODUCTION"/> <Set SubjectRequirementSetId="CITY_FOLLOWS_RELIGION_REQUIREMENTS"/>
+	    </Update> 	
+		<Row>
+			<ModifierId>GOLDEN_ORAL_TRADITION_FORESTFAITH</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ORAL_TRADITION_FORESTFAITH_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_PLOT_HAS_FOREST_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>      
+		<Row>
+			<ModifierId>GOLDEN_SEA_GODDESS_COASTFAITH</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SEA_GODDESS_COASTFAITH_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_PLOT_HAS_COAST_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>		
+		<Row>
+			<ModifierId>GOLDEN_GOD_OF_MOUNTAINS_FAITH</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOD_OF_MOUNTAINS_FAITH_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_PLOT_HAS_ANY_MOUNTAINS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_NATURE_UNITY_CAPITAL_FAITH</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_NATURE_UNITY_CAPITAL_FAITH_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_NATURE_UNITY_PLOT_IS_THREE_TILES_CAPITAL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		
+	</Modifiers>
+	
+	<ModifierArguments>  
+	    <Row>
+			<ModifierId>GOLDEN_JESUIT_EDUCATION_FAITH_BUILDINGS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_JESUIT_EDUCATION_FAITH_BUILDINGS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_JESUIT_EDUCATION_FAITH_BUILDINGS_MODIFIER</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_HOLY_ORDER_GURU_DISCOUNT</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_HOLY_ORDER_GURU_DISCOUNT_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_HOLY_ORDER_GURU_DISCOUNT_MODIFIER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_APOSTLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_HOLY_ORDER_GURU_DISCOUNT_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Update>
+	        <Where ModifierId="HOLY_ORDER_MISSIONARY_DISCOUNT_MODIFIER" Name="Amount"/> <Set Value="25"/>
+	    </Update> 		
+		<Update>
+	        <Where ModifierId="HOLY_ORDER_APOSTLE_DISCOUNT_MODIFIER" Name="Amount"/> <Set Value="25"/>
+	    </Update> 	
+		<Update>
+	        <Where ModifierId="GOD_OF_HEALING_UNIT_HEALING_MODIFIER" Name="Amount"/> <Set Value="20"/>
+	    </Update> 
+		<Row>
+			<ModifierId>GOLDEN_SACRED_SYMBOL_WONDER_TOURISM</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_SACRED_SYMBOL_WONDER_TOURISM_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SACRED_SYMBOL_WONDER_TOURISM_MODIFIER</ModifierId>
+			<Name>BoostsWonders</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SACRED_SYMBOL_WONDER_TOURISM_MODIFIER</ModifierId>
+			<Name>ScalingFactor</Name>
+			<Value>200</Value>
+		</Row>
+		<Update>
+	        <Where ModifierId="LAY_MINISTRY_CULTURE_DISTRICTS_MODIFIER" Name="Amount"/> <Set Value="2"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="LAY_MINISTRY_FAITH_DISTRICTS_MODIFIER" Name="Amount"/> <Set Value="2"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="STEWARDSHIP_SCIENCE_DISTRICTS_MODIFIER" Name="Amount"/> <Set Value="2"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="STEWARDSHIP_GOLD_DISTRICTS_MODIFIER" Name="Amount"/> <Set Value="2"/>
+	    </Update> 
+		<!-- <Update> -->
+	        <!-- <Where ModifierId="CROSS_CULTURAL_DIALOGUE_SCIENCE_FOREIGN_FOLLOWER_MODIFIER" Name="BeliefYieldType"/> <Set Value="BELIEF_YIELD_PER_CITY"/> -->
+	    <!-- </Update>  -->
+        <Update>
+	        <Where ModifierId="PAPAL_PRIMACY_PRESSURE_ON_ADOPTION" Name="Amount"/> <Set Value="1000"/>
+	    </Update> 		
+		<Row>
+			<ModifierId>GOLDEN_PILGRIMAGE_FAITH</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_PILGRIMAGE_FAITH_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PILGRIMAGE_FAITH_MODIFIER</ModifierId>
+			<Name>BeliefYieldType</Name>
+			<Value>BELIEF_YIELD_PER_FOLLOWER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PILGRIMAGE_FAITH_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PILGRIMAGE_FAITH_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PILGRIMAGE_FAITH_MODIFIER</ModifierId>
+			<Name>PerXItems</Name>
+			<Value>3</Value>
+		</Row>	
+        <Update>
+	        <Where ModifierId="CITY_PATRON_GODDESS_DISTRICT_PRODUCTION_MODIFIER" Name="Amount"/> <Set Value="100"/>
+	    </Update> 
+        <Update>
+	        <Where ModifierId="SCRIPTURE_SPEAD_STRENGTH" Name="SpreadMultiplier"/> <Set Value="50"/>
+	    </Update> 
+        <Update>
+	        <Where ModifierId="SCRIPTURE_SPEAD_STRENGTH" Name="TechEnabledSpreadMultiplier"/> <Set Value="100"/>
+	    </Update>
+ 		<Update>
+	        <Where ModifierId="ITINERANT_PREACHERS_SPREAD_DISTANCE" Name="DistanceChange"/> <Set Value="5"/>
+	    </Update> 
+		<Row>
+			<ModifierId>GOLDEN_PAGODA_ADJUST_INFLUENCE_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>				
+		<Update>
+	        <Where ModifierId="TITHE_GOLD_FOLLOWER_MODIFIER" Name="PerXItems"/> <Set Value="3"/>
+	    </Update> 
+		<Row>
+			<ModifierId>GOLDEN_RELIGIOUS_UNITY_ENVOY_GOLD</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_RELIGIOUS_UNITY_ENVOY_GOLD_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RELIGIOUS_UNITY_ENVOY_FAITH</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_RELIGIOUS_UNITY_ENVOY_FAITH_MODIFIER</Value>
+		</Row>	
+		
+		<Row>
+			<ModifierId>GOLDEN_RELIGIOUS_UNITY_ENVOY_GOLD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RELIGIOUS_UNITY_ENVOY_GOLD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_RELIGIOUS_UNITY_ENVOY_FAITH_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RELIGIOUS_UNITY_ENVOY_FAITH_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_ALLOW_GOTHIC_CHURCH</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOTHIC_CHURCH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ALLOW_TAOIST_TEMPLE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_TAOIST_TEMPLE</Value>
+		</Row>		
+		<Row>
+			<ModifierId>GOLDEN_BURIAL_GROUNDS_FOLLOWER_SCIENCE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_BURIAL_GROUNDS_FOLLOWER_SCIENCE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_BURIAL_GROUNDS_FOLLOWER_SCIENCE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_BURIAL_GROUNDS_FOLLOWER_SCIENCE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CHORAL_MUSIC_FOLLOWER_CULTURE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_CHORAL_MUSIC_FOLLOWER_CULTURE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CHORAL_MUSIC_FOLLOWER_CULTURE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CHORAL_MUSIC_FOLLOWER_CULTURE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FEED_THE_WORLD_FOLLOWER_FOOD</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_FEED_THE_WORLD_FOLLOWER_FOOD_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FEED_THE_WORLD_FOLLOWER_FOOD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FEED_THE_WORLD_FOLLOWER_FOOD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_MONASTIC_ISOLATION_FOLLOWER_PRODUCTION</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_MONASTIC_ISOLATION_FOLLOWER_PRODUCTION_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MONASTIC_ISOLATION_FOLLOWER_PRODUCTION_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MONASTIC_ISOLATION_FOLLOWER_PRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RELIGIOUS_COMMUNITY_FOLLOWER_GOLD</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_RELIGIOUS_COMMUNITY_FOLLOWER_GOLD_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RELIGIOUS_COMMUNITY_FOLLOWER_GOLD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RELIGIOUS_COMMUNITY_FOLLOWER_GOLD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_INSPIRATION_FOLLOWER_FAITH</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_DIVINE_INSPIRATION_FOLLOWER_FAITH_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_INSPIRATION_FOLLOWER_FAITH_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_INSPIRATION_FOLLOWER_FAITH_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>	
+        <Row>
+			<ModifierId>GOLDEN_PSALM_ADJACENCY_CULTURE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_PSALM_ADJACENCY_CULTURE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PSALM_ADJACENCY_CULTURE_MODIFIER</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PSALM_ADJACENCY_CULTURE_MODIFIER</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ZEN_MEDITATION_ADJACENCY_SCIENCE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_ZEN_MEDITATION_ADJACENCY_SCIENCE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ZEN_MEDITATION_ADJACENCY_SCIENCE_MODIFIER</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ZEN_MEDITATION_ADJACENCY_SCIENCE_MODIFIER</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ITINERANT_PREACHERS_ADJACENCY_GOLD</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_ITINERANT_PREACHERS_ADJACENCY_GOLD_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ITINERANT_PREACHERS_ADJACENCY_GOLD_MODIFIER</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ITINERANT_PREACHERS_ADJACENCY_GOLD_MODIFIER</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_MANNA_ADJACENCY_FOOD</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_MANNA_ADJACENCY_FOOD_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MANNA_ADJACENCY_FOOD_MODIFIER</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MANNA_ADJACENCY_FOOD_MODIFIER</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>	
+			    <Update>
+	        <Where ModifierId="CITY_PATRON_GODDESS_DISTRICT_PRODUCTION_MODIFIER" Name="Amount"/> <Set Value="30"/>
+	    </Update> 	
+
+        <Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_ENGINEER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_DIVINE_SPARK_ENGINEER_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_ENGINEER_MODIFIER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ENGINEER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_ENGINEER_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>		
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_MERCHANT</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_DIVINE_SPARK_MERCHANT_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_MERCHANT_MODIFIER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MERCHANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_MERCHANT_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_ARTIST</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_DIVINE_SPARK_ARTIST_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_ARTIST_MODIFIER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_ARTIST_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_MUSICIAN</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_DIVINE_SPARK_MUSICIAN_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_MUSICIAN_MODIFIER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_MUSICIAN_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_GENERAL</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_DIVINE_SPARK_GENERAL_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_GENERAL_MODIFIER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_GENERAL_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_ADMIRAL</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_DIVINE_SPARK_ADMIRAL_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_ADMIRAL_MODIFIER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ADMIRAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DIVINE_SPARK_ADMIRAL_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>		
+		<Update>
+	        <Where ModifierId="FERTILITY_RITES_GROWTH" Name="Amount"/> <Set Value="20"/>
+	    </Update> 
+		
+		<Update>
+	        <Where ModifierId="GOD_OF_THE_FORGE_UNIT_ANCIENT_CLASSICAL_PRODUCTION_MODIFIER" Name="EndEra"/> <Set Value="ERA_INFORMATION"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="GOD_OF_THE_FORGE_UNIT_ANCIENT_CLASSICAL_PRODUCTION_MODIFIER" Name="Amount"/> <Set Value="30"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="GOD_OF_THE_OPEN_SKY_PASTURE_CULTURE_MODIFIER" Name="YieldType"/> <Set Value="YIELD_FAITH"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="GOD_OF_THE_OPEN_SKY_PASTURE_CULTURE_MODIFIER" Name="Amount"/> <Set Value="2"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="GOD_OF_CRAFTSMEN_STRATEGIC_IMPROVED_FAITH_MODIFIER" Name="Amount"/> <Set Value="2"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="GOD_OF_THE_SEA_FISHINGBOATS_PRODUCTION_MODIFIER" Name="YieldType"/> <Set Value="YIELD_FAITH"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="GOD_OF_THE_SEA_FISHINGBOATS_PRODUCTION_MODIFIER" Name="Amount"/> <Set Value="2"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="GOD_OF_WAR_FAITH_KILLS_MODIFIER" Name="PercentDefeatedStrength"/> <Set Value="100"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="GODDESS_OF_THE_HARVEST_HARVEST_MODIFIER" Name="Amount"/> <Set Value="25"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="GODDESS_OF_THE_HARVEST_REMOVE_FEATURE_MODIFIER" Name="Amount"/> <Set Value="25"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="GODDESS_OF_THE_HUNT_CAMP_FOOD_MODIFIER" Name="YieldType"/> <Set Value="YIELD_FAITH"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="GODDESS_OF_THE_HUNT_CAMP_FOOD_MODIFIER" Name="Amount"/> <Set Value="2"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="GODDESS_OF_FESTIVALS_PLANTATION_CULTURE_MODIFIER" Name="YieldType"/> <Set Value="YIELD_FAITH"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="GODDESS_OF_FESTIVALS_PLANTATION_CULTURE_MODIFIER" Name="Amount"/> <Set Value="2"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="INITIATION_RITES_FAITH_DISPERSAL_MODIFIER" Name="Amount"/> <Set Value="200"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="LADY_OF_THE_REEDS_PRODUCTION2_MODIFIER" Name="YieldType"/> <Set Value="YIELD_FAITH"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="LADY_OF_THE_REEDS_PRODUCTION2_MODIFIER" Name="Amount"/> <Set Value="1"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="MONUMENT_TO_THE_GODS_ANCIENTCLASSICALWONDER_MODIFIER" Name="Amount"/> <Set Value="30"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="MONUMENT_TO_THE_GODS_ANCIENTCLASSICALWONDER_MODIFIER" Name="EndEra"/> <Set Value="ERA_INFORMATION"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="RELIGIOUS_IDOLS_BONUS_MINE_FAITH_MODIFIER" Name="Amount"/> <Set Value="2"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="RELIGIOUS_IDOLS_LUXURY_MINE_FAITH_MODIFIER" Name="Amount"/> <Set Value="2"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="RELIGIOUS_SETTLEMENTS_CULTUREBORDER" Name="Amount"/> <Set Value="30"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="STONE_CIRCLES_QUARRY_FAITH_MODIFIER" Name="Amount"/> <Set Value="2"/>
+	    </Update> 
+		<Row>
+			<ModifierId>GOLDEN_DANCE_OF_THE_AURORA_FAITH</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_DANCE_OF_THE_AURORA_FAITH_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DANCE_OF_THE_AURORA_FAITH_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DANCE_OF_THE_AURORA_FAITH_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_DESERT_FOLKLORE_FAITH</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_DESERT_FOLKLORE_FAITH_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DESERT_FOLKLORE_FAITH_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_DESERT_FOLKLORE_FAITH_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_SACRED_PATH_JUNGLEFAITH</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_SACRED_PATH_JUNGLEFAITH_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SACRED_PATH_JUNGLEFAITH_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SACRED_PATH_JUNGLEFAITH_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_RIVER_GODDESS_FAITH</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_RIVER_GODDESS_FAITH_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RIVER_GODDESS_FAITH_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_RIVER_GODDESS_FAITH_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_FERTILITY_RITES_FARMS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_FERTILITY_RITES_FARMS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FERTILITY_RITES_FARMS_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FERTILITY_RITES_FARMS_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Update>
+	        <Where ModifierId="GODDESS_OF_FIRE_FEATURES_FAITH_MODIFIER" Name="Amount"/> <Set Value="3"/>
+	    </Update> 
+		<Row>
+			<ModifierId>GOLDEN_ORAL_TRADITION_FORESTFAITH</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_ORAL_TRADITION_FORESTFAITH_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ORAL_TRADITION_FORESTFAITH_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ORAL_TRADITION_FORESTFAITH_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_SEA_GODDESS_COASTFAITH</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_SEA_GODDESS_COASTFAITH_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SEA_GODDESS_COASTFAITH_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SEA_GODDESS_COASTFAITH_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_GOD_OF_MOUNTAINS_FAITH</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_GOD_OF_MOUNTAINS_FAITH_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOD_OF_MOUNTAINS_FAITH_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOD_OF_MOUNTAINS_FAITH_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_NATURE_UNITY_CAPITAL_FAITH</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_NATURE_UNITY_CAPITAL_FAITH_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_NATURE_UNITY_CAPITAL_FAITH_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_NATURE_UNITY_CAPITAL_FAITH_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>	
+		
+	</ModifierArguments>
+	
+	<RequirementSets>
+		<Row> 
+			<RequirementSetId>GA_CAPITAL_CITY_FOLLOWS_RELIGION_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+		<Row> 
+			<RequirementSetId>GOLDEN_PLOT_IS_ADJACENT_TO_RIVER_AND_HOLY_SITE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+		<Row> 
+			<RequirementSetId>GOLDEN_NATURE_UNITY_PLOT_IS_THREE_TILES_CAPITAL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+	</RequirementSets>
+	
+	<RequirementSetRequirements>
+	    <Row>
+			<RequirementSetId>PLOT_HAS_REEDS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GA_REQUIRES_PLOT_HAS_FLOODPLAINS_GRASSLAND</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_REEDS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GA_REQUIRES_PLOT_HAS_FLOODPLAINS_PLAINS</RequirementId>
+		</Row>	
+		<Row>
+			<RequirementSetId>GA_CAPITAL_CITY_FOLLOWS_RELIGION_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_FOLLOWS_RELIGION</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GA_CAPITAL_CITY_FOLLOWS_RELIGION_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_PALACE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_IS_ADJACENT_TO_RIVER_AND_HOLY_SITE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_RIVER</RequirementId>
+		</Row>	
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_IS_ADJACENT_TO_RIVER_AND_HOLY_SITE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_WITHIN_TWO_TILES_TO_DISTRICT_HOLY_SITE</RequirementId>
+		</Row>	
+		<Row>
+			<RequirementSetId>GOLDEN_NATURE_UNITY_PLOT_IS_THREE_TILES_CAPITAL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_NATURE_UNITY_PLOT_IS_THREE_TILES_CAPITAL</RequirementId>
+		</Row>	
+	</RequirementSetRequirements>
+	
+	<Requirements>
+	    <Row>
+			<RequirementId>GOLDEN_REQUIRES_NATURE_UNITY_PLOT_IS_THREE_TILES_CAPITAL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_BUILDING_TYPE_MATCHES</RequirementType>
+		</Row>	
+	</Requirements>
+	
+	<RequirementArguments>
+		<Row>
+			<RequirementId>GOLDEN_REQUIRES_NATURE_UNITY_PLOT_IS_THREE_TILES_CAPITAL</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PALACE</Value>
+		</Row>
+		<Row>
+			<RequirementId>GOLDEN_REQUIRES_NATURE_UNITY_PLOT_IS_THREE_TILES_CAPITAL</RequirementId>
+			<Name>MaxRange</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<RequirementId>GOLDEN_REQUIRES_NATURE_UNITY_PLOT_IS_THREE_TILES_CAPITAL</RequirementId>
+			<Name>MinRange</Name>
+			<Value>1</Value>
+		</Row>
+	</RequirementArguments>	
+</GameInfo>

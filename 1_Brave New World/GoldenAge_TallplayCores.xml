@@ -1,0 +1,21 @@
+
+<GameInfo>
+	<GlobalParameters>
+		<!--1宜居度3人口（2）-->
+		<Replace Name="CITY_POP_PER_AMENITY" Value="3" />
+		<!--城市免费宜居度（1）官方更新了-->
+		<!-- <Replace Name="CITY_AMENITIES_FOR_FREE" Value="0"/> -->
+		<!--住房与人口增长（-4,0,1）-->
+		<Replace Name="CITY_HOUSING_LEFT_ZERO_GROWTH" Value="-1" />
+		<Replace Name="CITY_HOUSING_LEFT_25PCT_GROWTH" Value="0" />		
+		<Replace Name="CITY_HOUSING_LEFT_50PCT_GROWTH" Value="1" />						
+		<!--单元格2人（1）-->	
+		<Replace Name="CITY_NORMAL_PLOT_WORKER_CAPACITY" Value="2" />
+		<!--区域人口需求（3）-->	
+		<Replace Name="DISTRICT_POPULATION_REQUIRED_PER" Value="4" />	
+		<!--单位人口科技值和文化值（50，30）-->
+		<Replace Name="SCIENCE_PERCENTAGE_YIELD_PER_POP" Value="40" />
+		<Replace Name="CULTURE_PERCENTAGE_YIELD_PER_POP" Value="40" />		
+	</GlobalParameters>
+	
+</GameInfo>	

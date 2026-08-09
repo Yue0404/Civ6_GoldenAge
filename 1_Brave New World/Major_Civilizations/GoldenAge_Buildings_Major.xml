@@ -1,0 +1,92 @@
+<GameInfo>
+  <Buildings>  
+	<Update>
+	  <Where BuildingType="BUILDING_MADRASA"/> <Set Cost="180" Maintenance="3" Housing="0" RegionalRange="4"/>
+	</Update> 
+	<Update>
+	  <Where BuildingType="BUILDING_FILM_STUDIO"/> <Set Maintenance="4" Cost="500" RegionalRange="5"/>
+	</Update> 
+	<Update>
+	  <Where BuildingType="BUILDING_ELECTRONICS_FACTORY"/> <Set Maintenance="3" CitizenSlots="1" Cost="300" RegionalRange="4"/>
+	</Update> 
+	<Update>
+	  <Where BuildingType="BUILDING_ORDU"/> <Set Maintenance="2" Cost="50" Housing="2" Description="LOC_BUILDING_ORDU_EXPANSION2_DESCRIPTION"/>
+	</Update> 
+	<Update>
+	  <Where BuildingType="BUILDING_STAVE_CHURCH"/> <Set Maintenance="3" CitizenSlots="1" Cost="100" RegionalRange="4"/>
+	</Update> 	
+	<Update>
+	  <Where BuildingType="BUILDING_GRAND_BAZAAR"/> <Set CitizenSlots="1" Cost="240" RegionalRange="4"/>
+	</Update> 
+	<Update>
+	  <Where BuildingType="BUILDING_QUEENS_BIBLIOTHEQUE"/> <Set Cost="240"/>
+	</Update>
+	<Update>
+	  <Where BuildingType="BUILDING_MARAE"/> <Set Maintenance="2" Cost="80" RegionalRange="3"/>
+	</Update>
+	<Update>
+	  <Where BuildingType="BUILDING_THERMAL_BATH"/> <Set CitizenSlots="1" Maintenance="3" Cost="250" Entertainment="2" RegionalRange="4" PrereqCivic="CIVIC_THE_ENLIGHTENMENT"/>
+	</Update>		
+  </Buildings>  
+
+   <Building_YieldChanges>
+    <Update>
+	  <Where BuildingType="BUILDING_GRAND_BAZAAR" YieldType="YIELD_GOLD"/> <Set YieldChange="6"/>
+	</Update> 
+	<Update>
+	  <Where BuildingType="BUILDING_MADRASA" YieldType="YIELD_SCIENCE"/> <Set YieldChange="3"/>
+	</Update>
+	<Update>
+	  <Where BuildingType="BUILDING_STAVE_CHURCH" YieldType="YIELD_FAITH"/> <Set YieldChange="4"/>
+	</Update> 
+	<Delete BuildingType="BUILDING_ORDU" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	<Update>
+	  <Where BuildingType="BUILDING_FILM_STUDIO" YieldType="YIELD_CULTURE"/> <Set YieldChange="4"/>
+	</Update> 
+	<Update>
+	  <Where BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION"/> <Set YieldChange="4"/>
+	</Update>
+   </Building_YieldChanges>
+   
+   <Buildings_XP2>
+     <Row BuildingType="BUILDING_MADRASA" RequiredPower="2"/>
+	 <Row BuildingType="BUILDING_THERMAL_BATH" RequiredPower="2" EntertainmentBonusWithPower="2"/>
+	 <Update>
+	     <Where BuildingType="BUILDING_ELECTRONICS_FACTORY"/> <Set RequiredPower="2"/>
+	 </Update>
+   </Buildings_XP2>
+   
+   <Building_YieldChangesBonusWithPower>
+    <Update>
+	  <Where BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION"/> <Set YieldChange="4"/>
+	</Update> 
+	<Row BuildingType="BUILDING_MADRASA" YieldType="YIELD_SCIENCE" YieldChange="4"/>
+	<Row BuildingType="BUILDING_GRAND_BAZAAR" YieldType="YIELD_GOLD" YieldChange="4"/>
+   </Building_YieldChangesBonusWithPower>
+   
+   <Building_CitizenYieldChanges>
+     <Replace BuildingType="BUILDING_MARAE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+	 <Replace BuildingType="BUILDING_MADRASA" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+	 <Replace BuildingType="BUILDING_STAVE_CHURCH" YieldType="YIELD_FAITH" YieldChange="1"/>
+	 <Replace BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	 <Replace BuildingType="BUILDING_GRAND_BAZAAR" YieldType="YIELD_GOLD" YieldChange="1"/>
+	 <Update>
+	    <Where BuildingType="BUILDING_FILM_STUDIO"/> <Set YieldChange="1"/>
+	 </Update>
+	 
+	 <Replace BuildingType="BUILDING_ORDU" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	 <Replace BuildingType="BUILDING_THERMAL_BATH" YieldType="YIELD_GOLD" YieldChange="1"/>
+	 <Replace BuildingType="BUILDING_THERMAL_BATH" YieldType="YIELD_SCIENCE" YieldChange="1"/>	
+   </Building_CitizenYieldChanges>
+   
+   <Building_YieldDistrictCopies>
+		<Row BuildingType="BUILDING_ELECTRONICS_FACTORY" OldYieldType="YIELD_PRODUCTION" NewYieldType="YIELD_CULTURE"/>
+	</Building_YieldDistrictCopies>
+	
+   <BuildingModifiers>	
+	 <Row BuildingType="BUILDING_THERMAL_BATH" ModifierId="GOLDEN_ZOO_TOURISM"/>
+	 <Row BuildingType="BUILDING_GRAND_BAZAAR" ModifierId="GOLDEN_BANK_TRADE_ROUTE_CAPACITY_MODIFIER"/> 
+	 <Delete BuildingType="BUILDING_ELECTRONICS_FACTORY" ModifierId="ELECTRONICSFACTORY_CULTURE"/>
+   </BuildingModifiers>	
+   
+</GameInfo>

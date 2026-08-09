@@ -1,0 +1,75 @@
+<GameInfo>
+	<Types>
+		<Replace Type="GREATWORK_PRODUCT_GOLD_1" Kind="KIND_GREATWORK"/>
+		<Replace Type="GREATWORK_PRODUCT_GOLD_2" Kind="KIND_GREATWORK"/>
+		<Replace Type="GREATWORK_PRODUCT_GOLD_3" Kind="KIND_GREATWORK"/>
+		<Replace Type="GREATWORK_PRODUCT_GOLD_4" Kind="KIND_GREATWORK"/>
+		<Replace Type="GREATWORK_PRODUCT_GOLD_5" Kind="KIND_GREATWORK"/>
+		<Replace Type="PROJECT_CREATE_CORPORATION_PRODUCT_GOLD" Kind="KIND_PROJECT"/>
+	</Types>
+	<GreatWorks>
+		<Replace GreatWorkType="GREATWORK_PRODUCT_GOLD_1" GreatWorkObjectType="GREATWORKOBJECT_PRODUCT" Name="LOC_GREATWORK_PRODUCT_GOLD_1_NAME"/>
+		<Replace GreatWorkType="GREATWORK_PRODUCT_GOLD_2" GreatWorkObjectType="GREATWORKOBJECT_PRODUCT" Name="LOC_GREATWORK_PRODUCT_GOLD_2_NAME"/>
+		<Replace GreatWorkType="GREATWORK_PRODUCT_GOLD_3" GreatWorkObjectType="GREATWORKOBJECT_PRODUCT" Name="LOC_GREATWORK_PRODUCT_GOLD_3_NAME"/>
+		<Replace GreatWorkType="GREATWORK_PRODUCT_GOLD_4" GreatWorkObjectType="GREATWORKOBJECT_PRODUCT" Name="LOC_GREATWORK_PRODUCT_GOLD_4_NAME"/>
+		<Replace GreatWorkType="GREATWORK_PRODUCT_GOLD_5" GreatWorkObjectType="GREATWORKOBJECT_PRODUCT" Name="LOC_GREATWORK_PRODUCT_GOLD_5_NAME"/>
+	</GreatWorks>
+	<GreatWorkModifiers>
+		<Replace GreatWorkType="GREATWORK_PRODUCT_GOLD_1" ModifierId="PRODUCT_GOLD_YIELD_BONUS_GOLD"/>
+		<Replace GreatWorkType="GREATWORK_PRODUCT_GOLD_2" ModifierId="PRODUCT_GOLD_YIELD_BONUS_GOLD"/>
+		<Replace GreatWorkType="GREATWORK_PRODUCT_GOLD_3" ModifierId="PRODUCT_GOLD_YIELD_BONUS_GOLD"/>
+		<Replace GreatWorkType="GREATWORK_PRODUCT_GOLD_4" ModifierId="PRODUCT_GOLD_YIELD_BONUS_GOLD"/>
+		<Replace GreatWorkType="GREATWORK_PRODUCT_GOLD_5" ModifierId="PRODUCT_GOLD_YIELD_BONUS_GOLD"/>
+	</GreatWorkModifiers>
+	<GreatWorks_ImprovementType>
+		<Replace GreatWorkType="GREATWORK_PRODUCT_GOLD_1" ResourceType="RESOURCE_GOLD"/>
+		<Replace GreatWorkType="GREATWORK_PRODUCT_GOLD_2" ResourceType="RESOURCE_GOLD"/>
+		<Replace GreatWorkType="GREATWORK_PRODUCT_GOLD_3" ResourceType="RESOURCE_GOLD"/>
+		<Replace GreatWorkType="GREATWORK_PRODUCT_GOLD_4" ResourceType="RESOURCE_GOLD"/>
+		<Replace GreatWorkType="GREATWORK_PRODUCT_GOLD_5" ResourceType="RESOURCE_GOLD"/>
+	</GreatWorks_ImprovementType>
+	<GreatWork_YieldChanges>
+		<Replace GreatWorkType="GREATWORK_PRODUCT_GOLD_1" YieldType="YIELD_GOLD" YieldChange="6"/>
+		<Replace GreatWorkType="GREATWORK_PRODUCT_GOLD_2" YieldType="YIELD_GOLD" YieldChange="6"/>
+		<Replace GreatWorkType="GREATWORK_PRODUCT_GOLD_3" YieldType="YIELD_GOLD" YieldChange="6"/>
+		<Replace GreatWorkType="GREATWORK_PRODUCT_GOLD_4" YieldType="YIELD_GOLD" YieldChange="6"/>
+		<Replace GreatWorkType="GREATWORK_PRODUCT_GOLD_5" YieldType="YIELD_GOLD" YieldChange="6"/>
+	</GreatWork_YieldChanges>
+	<Projects>
+		<Replace ProjectType="PROJECT_CREATE_CORPORATION_PRODUCT_GOLD" Name="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_GOLD_NAME" ShortName="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_GOLD_SHORT_NAME" Description="LOC_PROJECT_CREATE_CORPORATION_PRODUCT_GOLD_DESCRIPTION" Cost="500" AdvisorType="ADVISOR_GENERIC"/>
+	</Projects>
+	<Projects_MODE>
+		<Replace ProjectType="PROJECT_CREATE_CORPORATION_PRODUCT_GOLD" ResourceType="RESOURCE_GOLD"/>
+	</Projects_MODE>
+	<ProjectCompletionModifiers>
+		<Replace ProjectType="PROJECT_CREATE_CORPORATION_PRODUCT_GOLD" ModifierId="PROJECT_COMPLETION_CREATE_CORPORATION_PRODUCT_GOLD"/>
+	</ProjectCompletionModifiers>
+	<Improvement_ValidResources>
+		<Replace ImprovementType="IMPROVEMENT_INDUSTRY" ResourceType="RESOURCE_GOLD" MustRemoveFeature="false"/>
+		<Replace ImprovementType="IMPROVEMENT_CORPORATION" ResourceType="RESOURCE_GOLD" MustRemoveFeature="false"/>
+	</Improvement_ValidResources>
+	<ResourceIndustries>
+		<Replace ResourceType="RESOURCE_GOLD" ResourceEffect="INDUSTRY_GOLD_YIELD_BONUS" ResourceEffectText="LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION"/>
+	</ResourceIndustries>
+	<ResourceCorporations>
+		<Replace ResourceType="RESOURCE_GOLD" ResourceEffect="CORPORATION_GOLD_YIELD_BONUS" ResourceEffectText="LOC_CORPORATION_GOLD_YIELD_BONUS_DESCRIPTION"/>
+	</ResourceCorporations>
+	<Modifiers>
+		<Replace ModifierId="PROJECT_COMPLETION_CREATE_CORPORATION_PRODUCT_GOLD" ModifierType="MODIFIER_PLAYER_GRANT_RANDOM_RESOURCE_PRODUCT"/>
+		<Replace ModifierId="PRODUCT_GOLD_YIELD_BONUS_GOLD" ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER" SubjectStackLimit="1"/>
+	</Modifiers>
+	<ModifierArguments>
+		<Replace ModifierId="PROJECT_COMPLETION_CREATE_CORPORATION_PRODUCT_GOLD" Name="ResourceType" Value="RESOURCE_GOLD"/>
+		<Replace ModifierId="PRODUCT_GOLD_YIELD_BONUS_GOLD" Name="Amount" Value="10"/>
+		<Replace ModifierId="PRODUCT_GOLD_YIELD_BONUS_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
+	</ModifierArguments>	
+	<RequirementArguments>
+		<Replace>
+			<RequirementId>REQUIREMENT_GOLD_BONUS_RESOURCE</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_GOLD</Value>
+		</Replace>
+	</RequirementArguments>
+	<ModifierStrings>
+		<Replace ModifierId="PRODUCT_GOLD_YIELD_BONUS_GOLD" Context="Summary" Text="LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION"/>
+	</ModifierStrings>

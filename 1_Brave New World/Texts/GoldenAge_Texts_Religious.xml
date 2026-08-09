@@ -1,0 +1,458 @@
+<GameData>
+    <LocalizedText>
+	<!--万神殿-->		
+	<Replace Tag="LOC_BELIEF_FERTILITY_RITES_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>农场+1 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_FERTILITY_RITES_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Faith] Faith for farms.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOD_OF_CRAFTSMEN_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>改良后的战略资源+2 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOD_OF_CRAFTSMEN_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_Faith] Faith for improved Strategic resources.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOD_OF_THE_OPEN_SKY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>牧场+2 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOD_OF_THE_OPEN_SKY_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_Faith] Faith for Pastures.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOD_OF_THE_SEA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>渔船+2 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOD_OF_THE_SEA_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_Faith] Faith for Fishing Boats.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_STONE_CIRCLES_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>采石场+2 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_STONE_CIRCLES_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_Faith] Faith for Quarries.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GODDESS_OF_THE_HUNT_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>营地+2 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	 <Replace Tag="LOC_BELIEF_GODDESS_OF_THE_HUNT_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_Faith] Faith for Camps.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GODDESS_OF_FESTIVALS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>种植园的+2 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GODDESS_OF_FESTIVALS_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_Faith] Faith for Plantations.</Text>
+    </Replace>		
+	<Replace Tag="LOC_BELIEF_GODDESS_OF_THE_HARVEST_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>收获一种资源或删除地貌获得等同于其他收益数量25%的 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GODDESS_OF_THE_HARVEST_DESCRIPTION" Language="en_US">
+      <Text>Harvesting a resource or removing a feature receives [ICON_Faith] Faith equal to 25% of the other yield's quantity.</Text>
+    </Replace>	 
+	<Replace Tag="LOC_BELIEF_INITIATION_RITES_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>清除每个蛮族哨站后+200 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_INITIATION_RITES_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>+200 [ICON_Faith] Faith for each Barbarian Outpost cleared.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>沼泽、 绿洲、泛滥平原+1 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Faith] Faith for Marsh, Oasis, and Floodplains.</Text>
+    </Replace>	
+	<Replace Tag="LOC_BELIEF_ORAL_TRADITION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>森林单元格+1 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_ORAL_TRADITION_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Faith] Faith for forest tiles.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_RELIGIOUS_IDOLS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>采集奢侈品资源和加成资源的矿山+2 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_RELIGIOUS_IDOLS_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_Faith] Faith for Mines over Luxury and Bonus resources.</Text>
+    </Replace>	
+	<Replace Tag="LOC_BELIEF_RIVER_GODDESS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>与圣地区相邻2格范围内的沿河单元格+1 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_RIVER_GODDESS_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Faith] Faith for tile that is two tiles within a holy site district and is adjacent to a river.</Text>
+    </Replace>		
+    <Replace Tag="LOC_BELIEF_SACRED_PATH_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>雨林单元格+1 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_SACRED_PATH_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Faith] Faith for Rainforest tiles.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_DEFENDER_OF_FAITH_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>战斗单位处于信奉该宗教的友好城市境内时+5 [ICON_Strength] 战斗力。在您的圣地区域或任何相邻单元格则恢复+20。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_DEFENDER_OF_FAITH_DESCRIPTION" Language="en_US">
+      <Text>Combat units gain +5 [ICON_Strength] Combat Strength when within the borders of friendly cities that follow this Religion. Increases Healing by +20 in your Holy Site district, or any adjacent tiles.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GODDESS_OF_FIRE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>火山土和地热裂缝单元格+3 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GODDESS_OF_FIRE_DESCRIPTION" Language="en_US">
+      <Text>+3 [ICON_FAITH] Faith for Geothermal Fissures and Volcanic Soil.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOLDEN_SEA_GODDESS_NAME" Language="zh_Hans_CN">
+      <Text>海神</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOLDEN_SEA_GODDESS_NAME" Language="en_US">
+      <Text>Sea Goddess</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOLDEN_SEA_GODDESS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>海岸和湖泊单元格+1 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOLDEN_SEA_GODDESS_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_FAITH] Faith for Coast and Lake tiles.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_DANCE_OF_THE_AURORA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有类型的冻土单元格+1 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_DANCE_OF_THE_AURORA_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Faith] Faith for any type of Tundra tiles.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_DESERT_FOLKLORE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有类型的沙漠单元格+1 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_DESERT_FOLKLORE_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Faith] Faith for any type of Desert tiles.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOLDEN_GOD_OF_MOUNTAINS_NAME" Language="zh_Hans_CN">
+      <Text>山神</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOLDEN_GOD_OF_MOUNTAINS_NAME" Language="en_US">
+      <Text>Mountains Goddess</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOLDEN_GOD_OF_MOUNTAINS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>山脉单元格+2 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOLDEN_GOD_OF_MOUNTAINS_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_FAITH] Faith for Mountains tiles.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOLDEN_NATURE_UNITY_NAME" Language="zh_Hans_CN">
+      <Text>天人合一</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOLDEN_NATURE_UNITY_NAME" Language="en_US">
+      <Text>Nature Unity</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOLDEN_NATURE_UNITY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>首都3环范围内的单元格+1 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOLDEN_NATURE_UNITY_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_FAITH] Faith for tiles within 3 ranges of the Capital.</Text>
+    </Replace>
+	<!-- <Replace Tag="LOC_BELIEF_GOD_OF_HEALING_DESCRIPTION" Language="zh_Hans_CN"> -->
+      <!-- <Text>在您的圣地区域或任何相邻单元格则恢复+50。</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BELIEF_GOD_OF_HEALING_DESCRIPTION" Language="en_US"> -->
+      <!-- <Text>Increases Healing by +50 in your Holy Site district, or any adjacent tiles.</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BELIEF_GOD_OF_THE_FORGE_DESCRIPTION" Language="zh_Hans_CN"> -->
+      <!-- <Text>为军事单位+30% [ICON_Production] 生产力。</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BELIEF_GOD_OF_THE_FORGE_DESCRIPTION" Language="en_US"> -->
+      <!-- <Text>+30% [ICON_Production] Production toward military units. </Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION" Language="zh_Hans_CN"> -->
+      <!-- <Text>没有专业化区域的城市建造区域时+40% [ICON_Production] 生产力。</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION" Language="en_US"> -->
+      <!-- <Text>+40% [ICON_Production] Production toward districts in cities without a specialty district.</Text> -->
+    <!-- </Replace> -->
+		
+	<!--宗教-->
+	<Replace Tag="LOC_BELIEF_JESUIT_EDUCATION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>可以使用 [ICON_Faith] 信仰值购买学院、剧院广场和圣地区域建筑。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_JESUIT_EDUCATION_DESCRIPTION" Language="en_US">
+      <Text>May purchase Campus, Holy Site, and Theater Square district buildings with [ICON_Faith] Faith.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_DIVINE_SPARK_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>圣地（大预言家）、学院（大科学家）、剧院广场（大作家，大艺术家，大音乐家）、商业中心（大商人）、工业区（大工程师）、军营（大将军）、港口（海军统帅）+1 [ICON_GreatPerson] 对应的伟人点数。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_DIVINE_SPARK_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_GreatPerson] Great Person point for Holy Site (Prophet), Campus (Scientist), Theater Square (Writer,Artist,Musician), Commercial hub(Merchant),Industrial zone(Engineer), Encampment (General), Harbor (Admiral) districts.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOD_OF_WAR_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>为军事单位+30% [ICON_Production] 生产力。在圣地区域的8个单元格范围内，每击杀1个战斗单位可获得等同其战斗力100%的 [ICON_Faith] 信仰值加成。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOD_OF_WAR_DESCRIPTION" Language="en_US">
+      <Text>+30% [ICON_Production] Production toward military units. Bonus [ICON_Faith] Faith equal to 100% of the strength of each combat unit killed within 8 tiles of a Holy Site district.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_RELIGIOUS_SETTLEMENTS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>城市人口增长速度提高20%。边境扩张速度提高30%。你的宗教单位在圣地区域（其所属城市须信仰你的主流宗教）或任意相邻单元格中的生命值回复量+10。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_RELIGIOUS_SETTLEMENTS_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>City growth rate is 20% higher. Border expansion rate is 30% higher. Increases Healing of your religious units by +10 in Holy Site districts belonging to cities with your majority religion, or any adjacent tiles.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_HOLY_ORDER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>购买传教士、使徒和上师的费用降低25%。允许花费 [ICON_FAITH] 信仰值来生产陆地战斗单位“武僧”。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_HOLY_ORDER_DESCRIPTION" Language="en_US">
+      <Text>Missionaries, Apostles, and Gurus are 25% cheaper to purchase. Allows spending [ICON_FAITH] Faith to train Warriors Monks (A land combat unit). </Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_RELIGIOUS_COLONIZATION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>以此为主流宗教的玩家建立城市后，城市初始便拥有此宗教。完成一个圣地后对相邻单元格施放文化炸弹。没有专业化区域的城市建造区域时+100% [ICON_Production] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_RELIGIOUS_COLONIZATION_DESCRIPTION" Language="en_US">
+      <Text>Cities start with this Religion in place if founded by a player who has this as their majority Religion. Culture Bomb adjacent tiles when completing a Holy Site. +100% [ICON_Production] Production toward districts in cities without a specialty district.</Text>
+    </Replace>	
+	<Replace Tag="LOC_BELIEF_SCRIPTURE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>邻近城市的宗教传播的压力增加50%，研发出印刷术后增加到100%。宗教传播距离增加50%。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_SCRIPTURE_DESCRIPTION" Language="en_US">
+      <Text>Religious spread from adjacent city pressure is 50% stronger. Boosted to 100% once Printing is researched. Religion spreads to cities 50% further away. </Text>
+    </Replace>	
+	<Replace Tag="LOC_BELIEF_MISSIONARY_ZEAL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>宗教单位忽略地形和地貌的 [ICON_Movement] 移动力消耗。您的宗教压力不会因为神学战斗失败而减少。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_MISSIONARY_ZEAL_DESCRIPTION" Language="en_US">
+      <Text>Religious units ignore [ICON_Movement] Movement costs of terrain and features. Your Religion's pressure never drops due to losses in Theological Combat.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_SACRED_SYMBOL_NAME" Language="zh_Hans_CN">
+      <Text>神圣象征</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_SACRED_SYMBOL_NAME" Language="en_US">
+      <Text>Sacred symbol</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_SACRED_SYMBOL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[ICON_GreatWork_Relic] 遗物能产出3倍的 [ICON_Tourism] 旅游业绩。世界奇观能产出2倍的 [ICON_Tourism] 旅游业绩。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_SACRED_SYMBOL_DESCRIPTION" Language="en_US">
+      <Text>[ICON_GreatWork_Relic] Relics have triple yield of [ICON_Tourism] Tourism. World wonders have double yield of [ICON_Tourism] Tourism.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_SACRED_SYMBOL_HERO_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[ICON_GreatWork_Relic] 遗物和 [ICON_GreatWork_HeroRelic] 英雄遗物能产出3倍的 [ICON_Tourism] 旅游业绩。世界奇观能产出2倍的 [ICON_Tourism] 旅游业绩。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_SACRED_SYMBOL_HERO_DESCRIPTION" Language="en_US">
+      <Text>[ICON_GreatWork_Relic] Relics and [ICON_GreatWork_HeroRelic] Heroic Relics have triple yield of [ICON_Tourism] Tourism. World wonders have double yield of [ICON_Tourism] Tourism.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_ITINERANT_PREACHERS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>圣地区域的 [ICON_Faith] 信仰值相邻加成也提供 [ICON_Gold] 金币。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_ITINERANT_PREACHERS_DESCRIPTION" Language="en_US">
+      <Text>Holy Site district’s [ICON_Faith] Faith adjacency bonus provides [ICON_Gold] Gold as well.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_MANNA_NAME" Language="zh_Hans_CN">
+      <Text>精神粮食</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_MANNA_NAME" Language="en_US">
+      <Text>Manna</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_MANNA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>圣地区域的 [ICON_Faith] 信仰值相邻加成也提供 [ICON_Food] 食物。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_MANNA_DESCRIPTION" Language="en_US">
+      <Text>Holy Site district’s [ICON_Faith] Faith adjacency bonus provides [ICON_Food] Food as well.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOLDEN_PSALM_NAME" Language="zh_Hans_CN">
+      <Text>圣诗</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOLDEN_PSALM_NAME" Language="en_US">
+      <Text>Psalm</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOLDEN_PSALM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>圣地区域的 [ICON_Faith] 信仰值相邻加成也提供 [ICON_Culture] 文化值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOLDEN_PSALM_DESCRIPTION" Language="en_US">
+      <Text>Holy Site district’s [ICON_Faith] Faith adjacency bonus provides [ICON_Culture] Culture as well.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_ZEN_MEDITATION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>圣地区域的 [ICON_Faith] 信仰值相邻加成也提供 [ICON_Science] 科技值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_ZEN_MEDITATION_DESCRIPTION" Language="en_US">
+      <Text>Holy Site district’s [ICON_Faith] Faith adjacency bonus provides [ICON_Science] Science as well.</Text>
+    </Replace>	
+	<Replace Tag="LOC_BELIEF_CATHEDRAL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>允许建造大教堂（+6 [ICON_Faith] 信仰值，拥有1个 [ICON_GREATWORK_RELIGIOUS] 宗教艺术槽位和一个 [ICON_GreatWork_Relic] 遗物槽位）。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_CATHEDRAL_DESCRIPTION" Language="en_US">
+      <Text>Allows construction of Cathedrals (+6 [ICON_Faith] Faith, 1 slot for religious art).</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GURDWARA_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>允许创建谒师所（+6 [ICON_Faith] 信仰值，+2 [ICON_Food] 食物，+2 [ICON_Gold] 金币)。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GURDWARA_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>Allows construction of Gurdwaras (+6 [ICON_Faith] Faith, +2 [ICON_Food] Food, +2 [ICON_Gold] Gold).</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_MEETING_HOUSE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>允许建造礼拜堂（+6 [ICON_Faith] 信仰值，+3 [ICON_Production] 生产力）。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_MEETING_HOUSE_DESCRIPTION" Language="en_US">
+      <Text>Allows construction of Meeting Houses (+6 [ICON_Faith] Faith, +3 [ICON_Production] Production).</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_MOSQUE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>允许建造清真寺（+6 [ICON_Faith] 信仰值）。传教士和使徒的传播次数+1。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_MOSQUE_DESCRIPTION" Language="en_US">
+      <Text>Allows construction of Mosques (+6 [ICON_Faith] Faith). Missionaries and Apostles +1 Spread.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_PAGODA_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>允许建造宝塔（+6 [ICON_Faith] 信仰值，每回合+1 [ICON_Favor] 外交支持，+1影响力点数）。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_PAGODA_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>Allows construction of Pagodas (+6 [ICON_Faith] Faith, +1 [ICON_Favor] Diplomatic Favor, +1 Influence point per turn.).</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_SYNAGOGUE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>允许建造犹太教堂（+9 [ICON_Faith] 信仰值）。</Text>
+    </Replace>	
+	<Replace Tag="LOC_BELIEF_SYNAGOGUE_DESCRIPTION" Language="en_US">
+      <Text>Allows construction of Synagogues (+9 [ICON_Faith] Faith).</Text>
+    </Replace>	
+	<Replace Tag="LOC_BELIEF_WAT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>允许建造佛寺（+6 [ICON_Faith] 信仰值，+3 [ICON_Science] 科技值）。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_WAT_DESCRIPTION" Language="en_US">
+      <Text>Allows construction of Wats (+6 [ICON_Faith] Faith, +3 [ICON_Science] Science).</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_STUPA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>允许修建窣堵波（+6 [ICON_Faith] 信仰值，+1 [ICON_Amenities] 宜居度）。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_STUPA_DESCRIPTION" Language="en_US">
+      <Text>Allows construction of Stupas (+6 [ICON_Faith] Faith, +1 [ICON_Amenities] Amenity).</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_DAR_E_MEHR_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>允许建造拜火神庙（+6 [ICON_Faith] 信仰值，从建造或最后被修复开始每个时代额外+3 [ICON_FAITH] 信仰值。无法被自然灾害掠夺。无法通过电力获得额外加成。）。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_DAR_E_MEHR_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>Allows construction of Dar-e Mehrs (+6 [ICON_Faith] Faith, +3 additional [ICON_FAITH] Faith for each era since constructed or last repaired. Cannot be pillaged by natural disasters. No additional bonus when powered.).</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_DAR_E_MEHR_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>从建造或最后被修复开始每个时代额外+3 [ICON_FAITH] 信仰值。无法被自然灾害掠夺。无法通过电力获得额外加成。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_DAR_E_MEHR_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>+3 additional [ICON_FAITH] Faith for each era since constructed or last repaired. Cannot be pillaged by natural disasters. No additional bonus when powered.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_TWELVE_APOSTLES_NAME" Language="zh_Hans_CN">
+      <Text>十二使徒</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_TWELVE_APOSTLES_NAME" Language="en_US">
+      <Text>Twelve Apostles</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_TWELVE_APOSTLES_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每有3个信仰该宗教的信徒，则+1 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_TWELVE_APOSTLES_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Faith] Faith for every 3 followers of this Religion.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_CHARITABLE_CONTRIBUTION_NAME" Language="zh_Hans_CN">
+      <Text>慈善捐赠</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_CHARITABLE_CONTRIBUTION_NAME" Language="en_US">
+      <Text>Charitable Contribution</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_CHARITABLE_CONTRIBUTION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>该宗教每有3个信徒则+1 [ICON_Gold] 金币。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_CHARITABLE_CONTRIBUTION_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Gold] Gold for every 3 followers of this Religion.</Text>
+    </Replace>
+	<!-- <Replace Tag="LOC_BELIEF_CHURCH_PROPERTY_DESCRIPTION" Language="zh_Hans_CN"> -->
+      <!-- <Text>每个信奉该宗教的城市的商业中心+2 [ICON_Gold] 金币。</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BELIEF_CHURCH_PROPERTY_DESCRIPTION" Language="en_US"> -->
+      <!-- <Text>Each Commercial Hub district in a city following this Religion provides +2 [ICON_Gold] Gold respectively.</Text> -->
+    <!-- </Replace> -->
+	<Replace Tag="LOC_BELIEF_PAPAL_PRIMACY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>将一个 [ICON_ENVOY] 使者派遣至城邦后，将对该城邦施加1000点宗教压力。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_PAPAL_PRIMACY_DESCRIPTION" Language="en_US">
+      <Text>When you send an [ICON_ENVOY] Envoy to a City-State it adds 1000 Religious pressure to that City-State. </Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_RELIGIOUS_UNITY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>除城邦任务中获得的使者外，城邦首次皈依此宗教时玩家还可在此处额外获得1名 [ICON_Envoy] 使者。每名 [ICON_Envoy] 使者+1 [ICON_Gold] 金币，+1 [ICON_Faith] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_RELIGIOUS_UNITY_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Envoy] Envoy at each City-State when it first adopts this Religion, in addition to any envoy from a City-State quest. +1 [ICON_Gold] Gold，+1 [ICON_Faith] Faith for each [ICON_Envoy] Envoy.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_RELIGIOUS_COMMUNITY_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>城市中每个信仰此宗教的居民将使 [ICON_Gold] 金币+1%。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_RELIGIOUS_COMMUNITY_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>+1% [ICON_Gold] Gold for each citizen following this religion in the city.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_DIVINE_INSPIRATION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>城市中每个信仰此宗教的居民将使 [ICON_Faith] 信仰值+1%。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_DIVINE_INSPIRATION_DESCRIPTION" Language="en_US">
+      <Text>+1% [ICON_Faith] Faith for each citizen following this religion in the city.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_CHORAL_MUSIC_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>城市中每个信仰此宗教的居民将使 [ICON_Culture] 文化值+1%。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_CHORAL_MUSIC_DESCRIPTION" Language="en_US">
+      <Text>+1% [ICON_Culture] Culture for each citizen following this religion in the city.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_FEED_THE_WORLD_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>城市中每个信仰此宗教的居民将使 [ICON_Food] 食物+1%。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_FEED_THE_WORLD_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>+1% [ICON_Food] Food for each citizen following this religion in the city.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_MONASTIC_ISOLATION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>城市中每个信仰此宗教的居民将使 [ICON_Production] 生产力+1%。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_MONASTIC_ISOLATION_DESCRIPTION" Language="en_US">
+      <Text>+1% [ICON_Production] Production for each citizen following this religion in the city.</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_BURIAL_GROUNDS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>城市中每个信仰此宗教的居民将使 [ICON_Science] 科技值+1%。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_BURIAL_GROUNDS_DESCRIPTION" Language="en_US">
+      <Text>+1% [ICON_Science] Science for each citizen following this religion in the city.</Text>
+    </Replace>	
+	<Replace Tag="LOC_BELIEF_JUST_WAR_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>战斗单位处于信奉该宗教的外国城市境内时+10 [ICON_Strength] 战斗力，清除蛮族哨站的单位回复满生命值。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_JUST_WAR_DESCRIPTION" Language="en_US">
+      <Text>Combat units gain +10 [ICON_Strength] Combat Strength when within the borders of foreign cities that follow this Religion. The unit that cleared the Barbarian Outpost heals +100 HP.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_PAGODA_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每回合+1 [ICON_Favor] 外交支持，+1影响力点数。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_PAGODA_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Favor] Diplomatic Favor, +1 Influence point per turn.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GOTHIC_CHURCH_NAME" Language="zh_Hans_CN">
+      <Text>哥特式教堂</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GOTHIC_CHURCH_NAME" Language="en_US">
+      <Text>Gothic Church</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_TAOIST_TEMPLE_NAME" Language="zh_Hans_CN">
+      <Text>道观</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_TAOIST_TEMPLE_NAME" Language="en_US">
+      <Text>Taoist Temple</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOTHIC_CHURCH_NAME" Language="zh_Hans_CN">
+      <Text>哥特式教堂</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOTHIC_CHURCH_NAME" Language="en_US">
+      <Text>Gothic Church</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_TAOIST_TEMPLE_NAME" Language="zh_Hans_CN">
+      <Text>道观</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_TAOIST_TEMPLE_NAME" Language="en_US">
+      <Text>Taoist Temple</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOTHIC_CHURCH_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>允许建造哥特式教堂（+6 [ICON_Faith] 信仰值，+3 [ICON_Culture] 文化值）。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_GOTHIC_CHURCH_DESCRIPTION" Language="en_US">
+      <Text>Allows construction of Gothic Church (+6 [ICON_Faith] Faith, +3 [ICON_Culture] Culture).</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_TAOIST_TEMPLE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>允许建造道观（+6 [ICON_Faith] 信仰值，+2 [ICON_Housing] 住房）。</Text>
+    </Replace>
+	<Replace Tag="LOC_BELIEF_TAOIST_TEMPLE_DESCRIPTION" Language="en_US">
+      <Text>Allows construction of Taoist Temple (+6 [ICON_Faith] Faith, +2 [ICON_Housing] Housing).</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

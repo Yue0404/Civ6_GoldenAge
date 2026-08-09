@@ -1,0 +1,258 @@
+<GameInfo>
+    <Types>
+	</Types>
+	
+	<Improvements>
+	    <!--住房优化-->
+	    <Update>
+	        <Where ImprovementType="IMPROVEMENT_FARM"/> <Set TilesRequired="1"/>
+	    </Update>
+		<Update>
+	        <Where ImprovementType="IMPROVEMENT_FISHING_BOATS"/> <Set TilesRequired="1"/>
+	    </Update>
+	    <Update>
+	        <Where ImprovementType="IMPROVEMENT_PASTURE"/> <Set TilesRequired="1"/>
+	    </Update>
+	    <Update>
+	        <Where ImprovementType="IMPROVEMENT_CAMP"/> <Set TilesRequired="1" PrereqTech="TECH_ARCHERY"/>
+	    </Update>
+	    <Update>
+	        <Where ImprovementType="IMPROVEMENT_PLANTATION"/> <Set TilesRequired="1"/>
+	    </Update>	 
+		<!--其它-->
+		<Update>
+	        <Where ImprovementType="IMPROVEMENT_OFFSHORE_OIL_RIG"/> <Set PrereqTech="TECH_CHEMISTRY"/>
+	    </Update>
+		<Update>
+	        <Where ImprovementType="IMPROVEMENT_FORT"/> <Set PrereqTech="TECH_MILITARY_ENGINEERING" MovementChange="1" DefenseModifier="6"/>
+	    </Update>
+		<Update>
+	        <Where ImprovementType="IMPROVEMENT_FISHERY"/> <Set PrereqTech="TECH_SHIPBUILDING" TraitType="" Housing="1" TilesRequired="1" AdjacentSeaResource="1" Workable="1"/>
+	    </Update>
+		<Update>
+	        <Where ImprovementType="IMPROVEMENT_CITY_PARK"/> <Set PrereqCivic="CIVIC_OPERA_BALLET" TraitType=""/>
+	    </Update>
+		<Update>
+	        <Where ImprovementType="IMPROVEMENT_MOUNTAIN_TUNNEL"/> <Set PrereqTech="TECH_GUNPOWDER"/>
+	    </Update>
+		<Update>
+	        <Where ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT"/> <Set PrereqTech="TECH_PLASTICS"/>
+	    </Update>
+		<Update>
+	        <Where ImprovementType="IMPROVEMENT_SOLAR_FARM"/> <Set PrereqTech="TECH_ROCKETRY" Housing="1" TilesRequired="2"/>
+	    </Update>
+		<Update>
+	        <Where ImprovementType="IMPROVEMENT_SKI_RESORT"/> <Set Workable="true" YieldFromAppeal="YIELD_GOLD"/>
+	    </Update>
+		<Update>
+	        <Where ImprovementType="IMPROVEMENT_SEASTEAD"/> <Set Housing="3" TilesRequired="1"/>
+	    </Update>
+		<Update>
+	        <Where ImprovementType="IMPROVEMENT_BEACH_RESORT"/> <Set YieldFromAppealPercent="200"/>
+	    </Update>
+		
+    </Improvements>
+    
+	<Improvement_YieldChanges>
+	    <Replace ImprovementType="IMPROVEMENT_PASTURE" YieldType="YIELD_GOLD" YieldChange="0"/>
+		<Update>
+	        <Where ImprovementType="IMPROVEMENT_PASTURE" YieldType="YIELD_FOOD"/> <Set YieldChange="1"/>
+	    </Update>
+		<Update>
+	        <Where ImprovementType="IMPROVEMENT_PASTURE" YieldType="YIELD_PRODUCTION"/> <Set YieldChange="0"/>
+	    </Update>		
+		<Update>
+	        <Where ImprovementType="IMPROVEMENT_CAMP" YieldType="YIELD_FOOD"/> <Set YieldChange="0"/>
+	    </Update>
+		<Update>
+	        <Where ImprovementType="IMPROVEMENT_CAMP" YieldType="YIELD_GOLD"/> <Set YieldChange="1"/>
+	    </Update>
+		<Update>
+	        <Where ImprovementType="IMPROVEMENT_OIL_WELL" YieldType="YIELD_PRODUCTION"/> <Set YieldChange="3"/>
+	    </Update>
+		<Update>
+	        <Where ImprovementType="IMPROVEMENT_OFFSHORE_OIL_RIG" YieldType="YIELD_PRODUCTION"/> <Set YieldChange="3"/>
+	    </Update>
+		<Update>
+	        <Where ImprovementType="IMPROVEMENT_LUMBER_MILL" YieldType="YIELD_PRODUCTION"/> <Set YieldChange="1"/>
+	    </Update>
+		<Update>
+	        <Where ImprovementType="IMPROVEMENT_PLANTATION" YieldType="YIELD_FOOD"/> <Set YieldChange="1"/>
+	    </Update>
+		<Update>
+	        <Where ImprovementType="IMPROVEMENT_PLANTATION" YieldType="YIELD_GOLD"/> <Set YieldChange="0"/>
+	    </Update>
+		<Update>
+	        <Where ImprovementType="IMPROVEMENT_FISHERY" YieldType="YIELD_FOOD"/> <Set YieldType="YIELD_GOLD"/>
+	    </Update>
+		<Replace ImprovementType="IMPROVEMENT_MOUNTAIN_TUNNEL" YieldType="YIELD_GOLD" YieldChange="2"/>	
+		<Replace ImprovementType="IMPROVEMENT_SEASTEAD" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Replace ImprovementType="IMPROVEMENT_QUARRY" YieldType="YIELD_CULTURE" YieldChange="0"/>
+		<Replace ImprovementType="IMPROVEMENT_MINE" YieldType="YIELD_SCIENCE" YieldChange="0"/>
+	</Improvement_YieldChanges>
+	
+	<Improvement_BonusYieldChanges>
+		<Delete ImprovementType="IMPROVEMENT_PASTURE"/>
+		<Row Id="301" ImprovementType="IMPROVEMENT_PASTURE" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_HORSEBACK_RIDING"/>
+		<Row Id="302" ImprovementType="IMPROVEMENT_PASTURE" YieldType="YIELD_FOOD" BonusYieldChange="1" PrereqTech="TECH_MASS_PRODUCTION"/>
+		<Row Id="303" ImprovementType="IMPROVEMENT_PASTURE" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_RADIO"/>
+		<Row Id="304" ImprovementType="IMPROVEMENT_PASTURE" YieldType="YIELD_FOOD" BonusYieldChange="1" PrereqTech="TECH_ROBOTICS"/>
+		
+		<Delete ImprovementType="IMPROVEMENT_MINE" />
+		<Row Id="311" ImprovementType="IMPROVEMENT_MINE" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_IRON_WORKING"/>
+		<Row Id="312" ImprovementType="IMPROVEMENT_MINE" YieldType="YIELD_SCIENCE" BonusYieldChange="1" PrereqTech="TECH_METAL_CASTING"/>
+		<Row Id="313" ImprovementType="IMPROVEMENT_MINE" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_REFINING"/>
+		<Row Id="314" ImprovementType="IMPROVEMENT_MINE" YieldType="YIELD_SCIENCE" BonusYieldChange="1" PrereqTech="TECH_COMPOSITES"/>
+		
+		<Delete ImprovementType="IMPROVEMENT_CAMP"/>
+		<Row Id="321" ImprovementType="IMPROVEMENT_CAMP" YieldType="YIELD_CULTURE" BonusYieldChange="1" PrereqCivic="CIVIC_GAMES_RECREATION"/>
+		<Row Id="322" ImprovementType="IMPROVEMENT_CAMP" YieldType="YIELD_GOLD" BonusYieldChange="1" PrereqCivic="CIVIC_MERCANTILISM"/>
+		<Row Id="323" ImprovementType="IMPROVEMENT_CAMP" YieldType="YIELD_CULTURE" BonusYieldChange="1" PrereqCivic="CIVIC_MASS_MEDIA"/>
+		<Row Id="324" ImprovementType="IMPROVEMENT_CAMP" YieldType="YIELD_GOLD" BonusYieldChange="1" PrereqCivic="CIVIC_GLOBALIZATION"/>
+		
+		<Delete ImprovementType="IMPROVEMENT_QUARRY"/>	
+		<Row Id="331" ImprovementType="IMPROVEMENT_QUARRY" YieldType="YIELD_CULTURE" BonusYieldChange="1" PrereqTech="TECH_CONSTRUCTION"/>
+		<Row Id="332" ImprovementType="IMPROVEMENT_QUARRY" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_GUNPOWDER"/>
+		<Row Id="333" ImprovementType="IMPROVEMENT_QUARRY" YieldType="YIELD_CULTURE" BonusYieldChange="1" PrereqTech="TECH_REFINING"/>
+		<Row Id="334" ImprovementType="IMPROVEMENT_QUARRY" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_LASERS"/>
+        
+        <Delete ImprovementType="IMPROVEMENT_FISHING_BOATS" />
+		<Row Id="341" ImprovementType="IMPROVEMENT_FISHING_BOATS" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_SHIPBUILDING"/>
+		<Row Id="342" ImprovementType="IMPROVEMENT_FISHING_BOATS" YieldType="YIELD_FOOD" BonusYieldChange="1" PrereqTech="TECH_CARTOGRAPHY"/>
+		<Row Id="343" ImprovementType="IMPROVEMENT_FISHING_BOATS" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_ELECTRICITY"/>
+		<Row Id="344" ImprovementType="IMPROVEMENT_FISHING_BOATS" YieldType="YIELD_FOOD" BonusYieldChange="1" PrereqTech="TECH_TELECOMMUNICATIONS"/>
+															
+		<Delete ImprovementType="IMPROVEMENT_PLANTATION"/>
+		<Row Id="351" ImprovementType="IMPROVEMENT_PLANTATION" YieldType="YIELD_GOLD" BonusYieldChange="1" PrereqTech="TECH_CURRENCY"/>
+		<Row Id="352" ImprovementType="IMPROVEMENT_PLANTATION" YieldType="YIELD_GOLD" BonusYieldChange="1" PrereqTech="TECH_BANKING"/>
+		<Row Id="353" ImprovementType="IMPROVEMENT_PLANTATION" YieldType="YIELD_FOOD" BonusYieldChange="1" PrereqTech="TECH_CHEMISTRY"/>
+		<Row Id="354" ImprovementType="IMPROVEMENT_PLANTATION" YieldType="YIELD_FOOD" BonusYieldChange="1" PrereqTech="TECH_NANOTECHNOLOGY"/>
+		
+		<Delete ImprovementType="IMPROVEMENT_LUMBER_MILL" />	
+		<Row Id="361" ImprovementType="IMPROVEMENT_LUMBER_MILL" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_MILITARY_TACTICS"/>
+		<Row Id="362" ImprovementType="IMPROVEMENT_LUMBER_MILL" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_BALLISTICS"/>
+		<Row Id="363" ImprovementType="IMPROVEMENT_LUMBER_MILL" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_SYNTHETIC_MATERIALS"/>
+		
+		<Delete ImprovementType="IMPROVEMENT_OIL_WELL"/>
+		<Delete ImprovementType="IMPROVEMENT_OFFSHORE_OIL_RIG"/>
+		<Row Id="371" ImprovementType="IMPROVEMENT_OIL_WELL" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_PLASTICS"/>
+		<Row Id="372" ImprovementType="IMPROVEMENT_OFFSHORE_OIL_RIG" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_PLASTICS"/>
+		<Row Id="373" ImprovementType="IMPROVEMENT_OIL_WELL" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_NUCLEAR_FUSION"/>
+		<Row Id="374" ImprovementType="IMPROVEMENT_OFFSHORE_OIL_RIG" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_NUCLEAR_FUSION"/>						
+	</Improvement_BonusYieldChanges>
+	
+	<Improvement_Adjacencies>
+	    <Row ImprovementType="IMPROVEMENT_CITY_PARK" YieldChangeId="CITY_PARK_DISTRICT_CULTURE"/>
+		<Row ImprovementType="IMPROVEMENT_FARM" YieldChangeId="FARM_PLANTATION_FOOD"/>
+		<Row ImprovementType="IMPROVEMENT_FARM" YieldChangeId="FARM_CAMP_FOOD"/>
+		<Row ImprovementType="IMPROVEMENT_FARM" YieldChangeId="FARM_PASTURE_FOOD"/>		
+		<Delete ImprovementType="IMPROVEMENT_FISHING_BOATS" YieldChangeId="Fishingboats_Seastead_Production"/>
+		<Row ImprovementType="IMPROVEMENT_SEASTEAD" YieldChangeId="Seastead_Fishery_Production"/>		
+		<Row ImprovementType="IMPROVEMENT_SEASTEAD" YieldChangeId="Seastead_Reef_Science"/>		
+		<Row ImprovementType="IMPROVEMENT_SEASTEAD" YieldChangeId="Seastead_WIND_FARM_GOLD"/>		
+		<Row ImprovementType="IMPROVEMENT_SEASTEAD" YieldChangeId="Seastead_OFFSHORE_WIND_FARM_GOLD"/>	
+		
+		<Row ImprovementType="IMPROVEMENT_QUARRY" YieldChangeId="QUARRY_ADJACENCY"/>
+		<Row ImprovementType="IMPROVEMENT_QUARRY" YieldChangeId="QUARRY_ADJACENCY_ADVANCED"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" YieldChangeId="MINE_ADJACENCY"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" YieldChangeId="MINE_ADJACENCY_ADVANCED"/>
+		<Row ImprovementType="IMPROVEMENT_PASTURE" YieldChangeId="PASTURE_ADJACENCY"/>
+		<Row ImprovementType="IMPROVEMENT_PASTURE" YieldChangeId="PASTURE_ADJACENCY_ADVANCED"/>
+		<Row ImprovementType="IMPROVEMENT_PLANTATION" YieldChangeId="PLANTATION_ADJACENCY"/>
+		<Row ImprovementType="IMPROVEMENT_PLANTATION" YieldChangeId="PLANTATION_ADJACENCY_ADVANCED"/>
+		<Row ImprovementType="IMPROVEMENT_CAMP" YieldChangeId="CAMP_ADJACENCY"/>
+		<Row ImprovementType="IMPROVEMENT_CAMP" YieldChangeId="CAMP_ADJACENCY_ADVANCED"/>
+		<Row ImprovementType="IMPROVEMENT_FISHING_BOATS" YieldChangeId="FISHING_BOATS_ADJACENCY"/>
+		<Row ImprovementType="IMPROVEMENT_FISHING_BOATS" YieldChangeId="FISHING_BOATS_ADJACENCY_ADVANCED"/>
+		<Row ImprovementType="IMPROVEMENT_LUMBER_MILL" YieldChangeId="LUMBER_MILL_ADJACENCY"/>
+		<Row ImprovementType="IMPROVEMENT_LUMBER_MILL" YieldChangeId="LUMBER_MILL_ADJACENCY_ADVANCED"/>
+		<Row ImprovementType="IMPROVEMENT_FISHERY" YieldChangeId="FISHERY_ADJACENCY"/>
+		<Row ImprovementType="IMPROVEMENT_FISHERY" YieldChangeId="FISHERY_ADJACENCY_ADVANCED"/>
+		<Delete ImprovementType="IMPROVEMENT_FARM" YieldChangeId="Farms_MechanizedAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_FARM" YieldChangeId="FARM_ADJACENCY_ADVANCED"/>
+	</Improvement_Adjacencies>
+	
+	<Adjacency_YieldChanges>
+		<Row ID="CITY_PARK_DISTRICT_CULTURE" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" OtherDistrictAdjacent="true"/>
+		<Update>
+	        <Where ID="Fishery_SeaResourceAdjacency"/> <Set YieldType="YIELD_GOLD"/>
+	    </Update>
+		<Row ID="FARM_PLANTATION_FOOD" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PLANTATION" PrereqTech="TECH_STIRRUPS"/>
+		<Row ID="FARM_CAMP_FOOD" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_CAMP" PrereqTech="TECH_STIRRUPS"/>
+		<Row ID="FARM_PASTURE_FOOD" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PASTURE" PrereqTech="TECH_STIRRUPS"/>	
+		<Row ID="Seastead_Fishery_Production" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_FISHERY"/>
+		<Row ID="Seastead_Reef_Science" Description="Placeholder" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentFeature="FEATURE_REEF"/>
+		<Update>
+	        <Where ID="Seastead_Reef_Culture"/> <Set YieldChange="2"/>
+	    </Update>
+		<Update>
+	        <Where ID="Seastead_Fishingboats_Production"/> <Set YieldChange="2"/>
+	    </Update>
+		<Row ID="Seastead_WIND_FARM_GOLD" Description="Placeholder" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_WIND_FARM"/>
+		<Row ID="Seastead_OFFSHORE_WIND_FARM_GOLD" Description="Placeholder" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_OFFSHORE_WIND_FARM"/>
+		<Row ID="FISHERY_ADJACENCY" Description="Placeholder" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_FISHERY" PrereqTech="TECH_SQUARE_RIGGING" ObsoleteTech="TECH_ELECTRICITY"/>
+		<Row ID="FISHERY_ADJACENCY_ADVANCED" Description="Placeholder" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_FISHERY" PrereqTech="TECH_ELECTRICITY"/>
+		<Row ID="QUARRY_ADJACENCY" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_QUARRY" PrereqTech="TECH_CASTLES" ObsoleteTech="TECH_MILITARY_SCIENCE"/>
+		<Row ID="QUARRY_ADJACENCY_ADVANCED" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_QUARRY" PrereqTech="TECH_MILITARY_SCIENCE"/>
+		<Row ID="MINE_ADJACENCY" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_MINE" PrereqTech="TECH_APPRENTICESHIP" ObsoleteTech="TECH_INDUSTRIALIZATION"/>
+		<Row ID="MINE_ADJACENCY_ADVANCED" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_MINE" PrereqTech="TECH_INDUSTRIALIZATION"/>
+		<Row ID="PASTURE_ADJACENCY" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_PASTURE" PrereqTech="TECH_STIRRUPS" ObsoleteTech="TECH_RIFLING"/>
+		<Row ID="PASTURE_ADJACENCY_ADVANCED" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PASTURE" PrereqTech="TECH_RIFLING"/>
+		<Row ID="PLANTATION_ADJACENCY" Description="Placeholder" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_PLANTATION" PrereqTech="TECH_EDUCATION" ObsoleteTech="TECH_ECONOMICS"/>
+		<Row ID="PLANTATION_ADJACENCY_ADVANCED" Description="Placeholder" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PLANTATION" PrereqTech="TECH_ECONOMICS"/>
+		<Row ID="CAMP_ADJACENCY" Description="Placeholder" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_CAMP" PrereqTech="TECH_EDUCATION" ObsoleteTech="TECH_SANITATION"/>
+		<Row ID="CAMP_ADJACENCY_ADVANCED" Description="Placeholder" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_CAMP" PrereqTech="TECH_SANITATION"/>
+		<Row ID="FISHING_BOATS_ADJACENCY" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_FISHING_BOATS" PrereqTech="TECH_BUTTRESS" ObsoleteTech="TECH_STEAM_POWER"/>
+		<Row ID="FISHING_BOATS_ADJACENCY_ADVANCED" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_FISHING_BOATS" PrereqTech="TECH_STEAM_POWER"/>
+		<Row ID="LUMBER_MILL_ADJACENCY" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_LUMBER_MILL" PrereqTech="TECH_SIEGE_TACTICS" ObsoleteTech="TECH_REPLACEABLE_PARTS"/>
+		<Row ID="LUMBER_MILL_ADJACENCY_ADVANCED" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_LUMBER_MILL" PrereqTech="TECH_REPLACEABLE_PARTS"/>
+		<Row ID="FARM_ADJACENCY_ADVANCED" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_FARM" PrereqTech="TECH_SCIENTIFIC_THEORY"/>
+		<Update>
+	        <Where ID="Farms_MedievalAdjacency"/> <Set ObsoleteTech="TECH_SCIENTIFIC_THEORY"/>
+	    </Update>
+		
+	</Adjacency_YieldChanges>
+	
+	<Improvement_ValidFeatures>
+	    <Delete ImprovementType="IMPROVEMENT_LUMBER_MILL" FeatureType="FEATURE_JUNGLE"/>
+		<Row ImprovementType="IMPROVEMENT_LUMBER_MILL" FeatureType="FEATURE_JUNGLE" PrereqTech="TECH_MILITARY_ENGINEERING"/>	
+		<Row ImprovementType="IMPROVEMENT_FORT" FeatureType="FEATURE_JUNGLE"/>
+		<Row ImprovementType="IMPROVEMENT_FORT" FeatureType="FEATURE_FOREST"/>
+		<!-- <Delete ImprovementType="IMPROVEMENT_FARM"/> -->
+		<!-- <Delete ImprovementType="IMPROVEMENT_MINE"/> -->
+	</Improvement_ValidFeatures>
+	
+	<Improvement_ValidTerrains>
+	    <Row ImprovementType="IMPROVEMENT_FARM" TerrainType="TERRAIN_DESERT" PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
+		<Row ImprovementType="IMPROVEMENT_FARM" TerrainType="TERRAIN_TUNDRA" PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
+		<Delete ImprovementType="IMPROVEMENT_FARM" TerrainType="TERRAIN_PLAINS_HILLS" PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
+		<Delete ImprovementType="IMPROVEMENT_FARM" TerrainType="TERRAIN_GRASS_HILLS" PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
+		<!-- <Delete ImprovementType="IMPROVEMENT_FARM"/> -->
+		<!-- <Delete ImprovementType="IMPROVEMENT_MINE"/> -->
+		
+		<Row ImprovementType="IMPROVEMENT_FISHERY" TerrainType="TERRAIN_OCEAN" PrereqCivic="CIVIC_COLONIALISM"/>	
+
+        <Delete ImprovementType="IMPROVEMENT_FORT" TerrainType="TERRAIN_DESERT"/>
+		<Delete ImprovementType="IMPROVEMENT_FORT" TerrainType="TERRAIN_TUNDRA"/>
+		<Delete ImprovementType="IMPROVEMENT_FORT" TerrainType="TERRAIN_PLAINS"/>
+		<Delete ImprovementType="IMPROVEMENT_FORT" TerrainType="TERRAIN_GRASS"/>
+		<Delete ImprovementType="IMPROVEMENT_FORT" TerrainType="TERRAIN_SNOW"/>		
+	</Improvement_ValidTerrains>
+	
+	<Improvement_ValidBuildUnits>
+
+	</Improvement_ValidBuildUnits>	
+	
+	<ImprovementModifiers>
+	    <Delete ImprovementType="IMPROVEMENT_FISHERY" ModifierId="FISHERY_GOVERNOR_PRODUCTION"/>
+		<Delete ImprovementType="IMPROVEMENT_CITY_PARK" ModifierId="CITY_PARK_GOVERNOR_CULTURE"/>
+	</ImprovementModifiers>		
+	
+	<Modifiers>
+
+	</Modifiers>
+	
+	<ModifierArguments>
+
+	</ModifierArguments>
+</GameInfo>

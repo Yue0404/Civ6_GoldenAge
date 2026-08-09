@@ -1,0 +1,49 @@
+<GameInfo>
+	<GlobalParameters>		
+        <!--削弱野蛮人-->
+        <!-- <Replace Name="BARBARIAN_CAMP_MAX_PER_MAJOR_CIV" Value="2" />	 -->
+        <!-- <Replace Name="BARBARIAN_CAMP_MINIMUM_DISTANCE_ANOTHER_CAMP" Value="8" />		 -->
+		<!-- <Replace Name="BARBARIAN_CAMP_MINIMUM_DISTANCE_CITY" Value="5" /> -->       
+		<!--旅游业绩与国外游客（200）-->	
+		<Replace Name="TOURISM_TOURISM_TO_MOVE_CITIZEN" Value="150" />
+		<!--文化值与国内游客（100）-->	
+		<Replace Name="TOURISM_CULTURE_PER_CITIZEN" Value="150" />
+		<!--金币与信仰值倍率（2,2）-->	
+        <Replace Name="GOLD_EQUIVALENT_OTHER_YIELDS" Value="1" />
+		<Replace Name="GOLD_PURCHASE_MULTIPLIER" Value="2" />	
+		<!--来自公民的忠诚度压力（20）-->
+		<Replace Name="LOYALTY_PER_TURN_FROM_NEARBY_CITIZEN_PRESSURE_MAX_LOYALTY" Value="20" />
+		<!--随城市数量增加时代分要求（1）-->
+		<Replace Name="THRESHOLD_SHIFT_PER_CITY" Value="4" />
+		<!--黄金时代多余时代分转为忠诚度压力（0）-->
+		<Replace Name="LOYALTY_FROM_EXCESS_SCORE_MULTIPLIER" Value=".05" />			
+		<!--连续进入黄金时代难度（5）-->
+		<Replace Name="THRESHOLD_SHIFT_PER_PAST_GOLDEN_AGE" Value="10" />		
+	</GlobalParameters>
+	
+	<!--区域相邻加成-->		
+	<Adjacency_YieldChanges>	
+		<Row ID="CITY_CENTER_CULTURE" Description="LOC_CITY_CENTER_CULTURE" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
+		<Row ID="CITY_CENTER_FAITH" Description="LOC_CITY_CENTER_FAITH" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
+		<Row ID="CITY_CENTER_GOLD" Description="LOC_CITY_CENTER_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
+		<Row ID="CITY_CENTER_PRODUCTION" Description="LOC_CITY_CENTER_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
+		<Row ID="CITY_CENTER_SCIENCE" Description="LOC_CITY_CENTER_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>		
+		<Row ID="CITY_CENTER_FOOD" Description="LOC_CITY_CENTER_FOOD" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
+		
+		<Row ID="GOVERNMENT_FOOD" Description="LOC_GOVERNMENT_FOOD" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_GOVERNMENT"/>
+		<Row ID="DISTRICT_FOOD" Description="LOC_DISTRICT_FOOD" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="2" OtherDistrictAdjacent="true"/>		
+	</Adjacency_YieldChanges>	
+	
+	<!--黄金时代与黑暗时代忠诚度压力-->	
+	<ModifierArguments>
+	    <Update>
+			<Where ModifierId="GOLDEN_AGE_CITY_IDENTITY" Name="Amount"/>
+			<Set Value="0.3"/>
+		</Update>
+		<Update>
+			<Where ModifierId="DARK_AGE_CITY_IDENTITY" Name="Amount"/>
+			<Set Value="-0.3"/>
+		</Update>
+	</ModifierArguments>
+					
+</GameInfo>

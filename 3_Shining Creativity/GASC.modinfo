@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="95948c7e-d4f6-4d83-b6d7-858b1d5db115" version="2">
+  <Properties>
+    <Name>LOC_MOD_GOLDENAGE_SC_NAME</Name>
+    <Description>LOC_MOD_GOLDENAGE_SC_DESCRIPTION</Description>
+    <Created>1706791747</Created>
+    <Teaser>LOC_MOD_GOLDENAGE_SC_TEASER</Teaser>
+    <Authors>LOC_MOD_GOLDENAGE_SC_AUTHOR</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="LOC_EXPANSION1_MOD_TITLE" />
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="LOC_EXPANSION2_MOD_TITLE" />
+    <Mod id="236af578-08bc-4278-ab57-c700ab3e1457" title="LOC_GOLDENAGE_NAME" />
+    <Mod id="a739fbf8-0b8d-40a3-8fd7-ddd8c8e2183b" title="LOC_GOLDENAGE_IP_NAME" />
+  </Dependencies>
+  <References>
+	<Mod id="a33a0981-1d8d-407c-b238-a32a6d2c6fe1" title="Second Unique Infrastructure (SUI)" />
+	
+	<Mod id="ba397683-e90e-4254-9571-c499a62268c5" title="LOC_MOD_FLAC_IDOLMASTER_NAME" />
+	<Mod id="bc4725f2-0b72-43eb-92a5-0d5126076d94" title="LOC_MOD_FLAC_LOVELIVE_NAME" />
+	<Mod id="5a42ebe5-2881-4b13-9cbb-b8a2c0738cdc" title="LOC_MOD_FLAC_HTT_NAME" />
+	<Mod id="af3b9ab9-c2e6-4a4d-b6bc-2797144b9b05" title="LOC_PHANTA_WORLD_TRADE_CENTER_MOD_NAME" />
+	<Mod id="1b8e4be6-73ae-4827-acf5-9d5b1de31487" title="LOC_ORIENTAL_PEARL_TOWER_MOD_NAME" />
+  </References>
+  <LocalizedText>
+    <File>GASC_ModText.xml</File>
+  </LocalizedText>
+  <FrontEndActions>
+    <UpdateDatabase id="NewAction">
+      <File>GASC_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="NewAction">
+      <File>GASC_RiseFall/RF_Text.xml</File>
+    </UpdateText>
+  </FrontEndActions>
+  <ActionCriteria>
+	<!--地域人文风俗-->
+	<Criteria id="GASC_CUSTOM_TRAITS">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>EXTRA_TRAITS_OPTION</ConfigurationId>
+        <Value>1</Value>
+		<ModInUse>4873eb62-8ccc-4574-b784-dda455e74e68</ModInUse>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<!--史实时代-->
+	<Criteria id="GASC_HISTORY">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>HISTORY_OPTION</ConfigurationId>
+        <Value>1</Value>
+		<ModInUse>4873eb62-8ccc-4574-b784-dda455e74e68</ModInUse>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<!--建筑扩展-->
+	<Criteria id="GASC_BUILDING_EXPANSION">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_BUILDINGEXPANSION</ConfigurationId>
+        <Value>1</Value>
+		<ModInUse>4873eb62-8ccc-4574-b784-dda455e74e68</ModInUse>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<!--国家区域 SUI-->
+	<Criteria id="GASC_NATIONALWONDER_MIK">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_NATIONALWONDER</ConfigurationId>
+        <Value>1</Value>
+		<ModInUse>a33a0981-1d8d-407c-b238-a32a6d2c6fe1</ModInUse>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<!--城市圈 SUI-->
+	<Criteria id="GASC_MEGA_MIK">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_MEGALOPOLIS</ConfigurationId>
+        <Value>1</Value>
+		<ModInUse>a33a0981-1d8d-407c-b238-a32a6d2c6fe1</ModInUse>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<!--建筑扩展 SUI-->
+	<Criteria id="GASC_BUILDING_EXPANSION_MIK">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GA_BUILDINGEXPANSION</ConfigurationId>
+        <Value>1</Value>
+		<ModInUse>a33a0981-1d8d-407c-b238-a32a6d2c6fe1</ModInUse>
+      </ConfigurationValueMatches>
+    </Criteria>
+	<!--单位扩展-->
+	<Criteria id="GASC_UNIT_EXPANSION">
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>WARFARE_OPTION</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <InGameActions>
+    <UpdateDatabase id="GASC_RF">
+      <Properties>
+		<LoadOrder>50000</LoadOrder>
+	  </Properties>  
+      <Criteria>GASC_HISTORY</Criteria>	 
+	  <File>GASC_RiseFall/RF_Table.sql</File>
+      <File>GASC_RiseFall/RF_Traits.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="GASC_RF_TEXT">
+      <Properties>
+		<LoadOrder>50000</LoadOrder>
+	  </Properties>  
+      <Criteria>GASC_HISTORY</Criteria>	 
+	  <File>GASC_RiseFall/RF_Text.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="GASC_BE">
+      <Properties>
+		<LoadOrder>1000000</LoadOrder>
+	  </Properties>  
+      <Criteria>GASC_BUILDING_EXPANSION</Criteria>	 
+	  <File>GASC_BuildingExpansion/GASC_IdolMaster.sql</File>
+	  <File>GASC_BuildingExpansion/GASC_LoveLive.sql</File>
+      <File>GASC_BuildingExpansion/GASC_HTT.sql</File>
+      <File>GASC_BuildingExpansion/GASC_Wonders.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GASC_BE_MIK">
+      <Properties>
+		<LoadOrder>1000000</LoadOrder>
+	  </Properties>  
+      <Criteria>GASC_BUILDING_EXPANSION_MIK</Criteria>	 
+	  <File>GASC_BuildingExpansion/GASC_MIK.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GASC_MEGA" />
+    <UpdateDatabase id="GASC_NW_MIK">
+      <Properties>
+		<LoadOrder>1000000</LoadOrder>
+	  </Properties>  
+      <Criteria>GASC_NATIONALWONDER_MIK</Criteria>	 
+	  <File>GASC_NationalWonder/NW_MIK.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GASC_MEGA_MIK">
+      <Properties>
+		<LoadOrder>1000000</LoadOrder>
+	  </Properties>  
+      <Criteria>GASC_MEGA_MIK</Criteria>	 
+	  <File>GASC_Megalopolis/MEGA_MIK.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="GASC_UE">
+      <Properties>
+		<LoadOrder>10000000</LoadOrder>
+	  </Properties>
+      <Criteria>GASC_UNIT_EXPANSION</Criteria>	 
+	  <File>GASC_UnitExpansion/UE_Units.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>GASC_BuildingExpansion/GASC_IdolMaster.sql</File>
+    <File>GASC_BuildingExpansion/GASC_LoveLive.sql</File>
+    <File>GASC_BuildingExpansion/GASC_HTT.sql</File>
+    <File>GASC_BuildingExpansion/GASC_MIK.sql</File>
+    <File>GASC_BuildingExpansion/GASC_Wonders.sql</File>
+    <File>GASC_Config.sql</File>
+    <File>GASC_CustomTrait/CT_Traits.sql</File>
+    <File>GASC_Megalopolis/MEGA_MIK.sql</File>
+    <File>GASC_ModText.xml</File>
+    <File>GASC_NationalWonder/NW_MIK.sql</File>
+    <File>GASC_RiseFall/RF_Table.sql</File>
+    <File>GASC_RiseFall/RF_Text.xml</File>
+    <File>GASC_RiseFall/RF_Traits.sql</File>
+    <File>GASC_UnitExpansion/UE_Units.sql</File>
+  </Files>
+</Mod>

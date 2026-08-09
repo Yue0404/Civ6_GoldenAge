@@ -1,0 +1,104 @@
+<GameInfo>
+    <CommemorationModifiers>
+	    <Delete CommemorationType="COMMEMORATION_SCIENTIFIC" ModifierId="COMMEMORATION_SCIENTIFIC_GA_HARBOR"/>
+		<Delete CommemorationType="COMMEMORATION_SCIENTIFIC" ModifierId="COMMEMORATION_SCIENTIFIC_GA_COMMERCIAL_HUB"/>
+		<Row CommemorationType="COMMEMORATION_SCIENTIFIC" ModifierId="GOLDEN_COMMEMORATION_DISTRICTSCIENCE"/>
+		<Delete CommemorationType="COMMEMORATION_INFRASTRUCTURE" ModifierId="COMMEMORATION_INFRASTRUCTURE_SETTLER_DISCOUNT_MODIFIER"/>
+		<Row CommemorationType="COMMEMORATION_INFRASTRUCTURE" ModifierId="GOLDEN_COMMEMORATION_INFRASTRUCTURE_BUILDER_CHARGE"/>
+		<Delete CommemorationType="COMMEMORATION_INDUSTRIAL" ModifierId="COMMEMORATION_INDUSTRIAL_GA_INDUSTRIALINFORMATION"/>
+		<Row CommemorationType="COMMEMORATION_INDUSTRIAL" ModifierId="GOLDEN_COMMEMORATION_INUDSTRIAL_CITIES_PRODUCTION_STACKING"/>
+		<Delete CommemorationType="COMMEMORATION_RELIGIOUS" ModifierId="COMMEMORATION_RELIGIOUS_GA_GREAT_PROPHET_POINTS"/>
+		<Row CommemorationType="COMMEMORATION_RELIGIOUS" ModifierId="GOLDEN_COMMEMORATION_RELIGIOUS_MISSIONARY_DISCOUNT_MODIFIER"/>
+		<Row CommemorationType="COMMEMORATION_RELIGIOUS" ModifierId="GOLDEN_COMMEMORATION_RELIGIOUS_APOSTLE_DISCOUNT_MODIFIER"/>
+	</CommemorationModifiers>
+	
+	<Modifiers>
+	    <Row>
+			<ModifierId>GOLDEN_COMMEMORATION_DISTRICTSCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT</ModifierType>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_COMMEMORATION_INFRASTRUCTURE_BUILDER_CHARGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_TRAINED_UNITS_ADJUST_BUILDER_CHARGES</ModifierType>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+			<SubjectRequirementSetId>UNIT_IS_BUILDER</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_COMMEMORATION_RELIGIOUS_MISSIONARY_DISCOUNT_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST</ModifierType>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_COMMEMORATION_RELIGIOUS_APOSTLE_DISCOUNT_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST</ModifierType>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Update>
+		   <Where ModifierId="COMMEMORATION_TOURISM_GA_WONDERS"/>
+		   <Set SubjectRequirementSetId="" OwnerRequirementSetId="PLAYER_HAS_GOLDEN_AGE"/>
+	    </Update>		
+		<Row>
+			<ModifierId>GOLDEN_COMMEMORATION_INUDSTRIAL_CITIES_PRODUCTION_STACKING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_COMMEMORATION_INUDSTRIAL_CITIES_PRODUCTION_STACKING_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_ADJUST_ALLOWED_INCOMING_REGIONAL_STACKING</ModifierType>			
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+	    <Row>
+			<ModifierId>GOLDEN_COMMEMORATION_DISTRICTSCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_COMMEMORATION_DISTRICTSCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_COMMEMORATION_INFRASTRUCTURE_BUILDER_CHARGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_COMMEMORATION_RELIGIOUS_MISSIONARY_DISCOUNT_MODIFIER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_MISSIONARY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_COMMEMORATION_RELIGIOUS_MISSIONARY_DISCOUNT_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_COMMEMORATION_RELIGIOUS_APOSTLE_DISCOUNT_MODIFIER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_APOSTLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_COMMEMORATION_RELIGIOUS_APOSTLE_DISCOUNT_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Update>
+		   <Where ModifierId="COMMEMORATION_TOURISM_GA_WONDERS" Name="ScalingFactor"/>
+		   <Set Value="200"/>
+	    </Update>
+		<Row>
+			<ModifierId>GOLDEN_COMMEMORATION_INUDSTRIAL_CITIES_PRODUCTION_STACKING</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_COMMEMORATION_INUDSTRIAL_CITIES_PRODUCTION_STACKING_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_COMMEMORATION_INUDSTRIAL_CITIES_PRODUCTION_STACKING_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+	</ModifierArguments>
+</GameInfo>

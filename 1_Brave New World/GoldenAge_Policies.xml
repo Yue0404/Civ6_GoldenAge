@@ -1,0 +1,216 @@
+<GameInfo>
+    <Types>
+		<!--ECONOMIC-->		
+        <Row Type="POLICY_URBAN_EXPANSION" Kind="KIND_POLICY"/>		
+		<Row Type="POLICY_FREE_TRIBE" Kind="KIND_POLICY"/>						
+		<Row Type="POLICY_MASS_MIGRATION" Kind="KIND_POLICY"/>    
+		<!-- <Row Type="POLICY_STRANDING_ARMY" Kind="KIND_POLICY"/>	     -->		
+		<!--区域与建筑产能-->
+		<Row Type="POLICY_RELAXATION" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_SACRED" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_SEAFAIRING" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_ARTS_HUMANITIES" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_MANUFACTURE" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_BUSINESS" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_MOTIVATION" Kind="KIND_POLICY"/>	
+		<Row Type="POLICY_AIRFORCE" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_WATER_CONSERVANCY" Kind="KIND_POLICY"/>			
+		<!--DIPLOMATIC-->
+		<Row Type="POLICY_MEDIA_TRANSMISSION" Kind="KIND_POLICY"/>		
+        <Row Type="POLICY_CULTURAL_EXCHANGE" Kind="KIND_POLICY"/>	
+		<Row Type="POLICY_CONCILIATION" Kind="KIND_POLICY"/>
+        <Row Type="POLICY_DIPLOMATIC_OFFICE" Kind="KIND_POLICY"/>		
+        <!--GOVERNMENT-->	
+        <Row Type="POLICY_COLLECTIVE_PRODUCTION" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_RESEARCH_FUNDING" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_BIG_EXPANSION" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_PROSPEROUS_PORT" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_CHURCH_COMMUNITY" Kind="KIND_POLICY"/>		
+	</Types>
+	
+    <Policies>
+	    <Update>
+	        <Where PolicyType="POLICY_URBAN_PLANNING" /> <Set PrereqCivic="CIVIC_CIVIL_SERVICE"/>
+	    </Update>  
+		<Row PolicyType="POLICY_URBAN_EXPANSION" Name="LOC_POLICY_URBAN_EXPANSION_NAME" Description="LOC_POLICY_URBAN_EXPANSION_DESCRIPTION" PrereqCivic="CIVIC_URBANIZATION" GovernmentSlotType="SLOT_ECONOMIC"/>
+		<Row PolicyType="POLICY_FREE_TRIBE" Name="LOC_POLICY_FREE_TRIBE_NAME" Description="LOC_POLICY_FREE_TRIBE_DESCRIPTION" PrereqCivic="CIVIC_CODE_OF_LAWS" GovernmentSlotType="SLOT_ECONOMIC"/>
+		<Row PolicyType="POLICY_MASS_MIGRATION" Name="LOC_POLICY_MASS_MIGRATION_NAME" Description="LOC_POLICY_MASS_MIGRATION_DESCRIPTION" PrereqCivic="CIVIC_MERCANTILISM" GovernmentSlotType="SLOT_ECONOMIC"/>
+		<!-- <Row PolicyType="POLICY_STRANDING_ARMY" Name="LOC_POLICY_STRANDING_ARMY_NAME" Description="LOC_POLICY_STRANDING_ARMY_DESCRIPTION" PrereqCivic="CIVIC_MILITARY_TRAINING" GovernmentSlotType="SLOT_MILITARY"/> -->
+		<Update>
+	        <Where PolicyType="POLICY_COLONIAL_OFFICES" /> <Set PrereqCivic="CIVIC_COLONIALISM"/>
+	    </Update>  		
+		<Update>
+	        <Where PolicyType="POLICY_RETAINERS" /> <Set PrereqCivic="CIVIC_MERCENARIES"/>
+	    </Update>  		
+		<Update>
+	        <Where PolicyType="POLICY_AESTHETICS" /> <Set PrereqCivic="CIVIC_RECORDED_HISTORY"/>
+	    </Update>   
+		<Update>
+	        <Where PolicyType="POLICY_SIMULTANEUM" /> <Set PrereqCivic="CIVIC_GUILDS"/>
+	    </Update>  
+		<Update>
+	        <Where PolicyType="POLICY_GOTHIC_ARCHITECTURE" /> <Set PrereqCivic="CIVIC_CIVIL_SERVICE"/>
+	    </Update>  	 		
+		<Update>
+	        <Where PolicyType="POLICY_CRAFTSMEN"/> <Set GovernmentSlotType="SLOT_MILITARY"/>
+	    </Update> 
+		<Update>
+	        <Where PolicyType="POLICY_NAVAL_INFRASTRUCTURE"/> <Set GovernmentSlotType="SLOT_MILITARY"/>
+	    </Update> 
+		<Update>
+	        <Where PolicyType="POLICY_LEVEE_EN_MASSE"/> <Set PrereqCivic="CIVIC_NATIONALISM"/>
+	    </Update> 
+		<Update>
+	        <Where PolicyType="POLICY_FINEST_HOUR"/> <Set PrereqCivic="CIVIC_IDEOLOGY" GovernmentSlotType="SLOT_MILITARY"/>
+	    </Update>  
+		<Update>
+	        <Where PolicyType="POLICY_DEFENSE_OF_MOTHERLAND"/> <Set PrereqCivic="CIVIC_IDEOLOGY" GovernmentSlotType="SLOT_MILITARY"/>
+	    </Update>  		
+        <Update>
+	        <Where PolicyType="POLICY_RELIGIOUS_ORDERS"/> <Set PrereqCivic="CIVIC_THEOLOGY" GovernmentSlotType="SLOT_MILITARY"/>
+	    </Update>
+        <Update>
+	        <Where PolicyType="POLICY_RETINUES"/> <Set PrereqCivic="CIVIC_MILITARY_TRAINING"/>
+	    </Update>  		
+		<Update>
+	        <Where PolicyType="POLICY_NATIVE_CONQUEST"/> <Set PrereqCivic="CIVIC_MERCANTILISM"/>
+	    </Update>  	
+		<!--区域与建筑产能-->
+		<Row PolicyType="POLICY_RELAXATION" Name="LOC_POLICY_RELAXATION_NAME" Description="LOC_POLICY_RELAXATION_DESCRIPTION" PrereqCivic="CIVIC_GAMES_RECREATION" GovernmentSlotType="SLOT_ECONOMIC"/>
+		<Row PolicyType="POLICY_SACRED" Name="LOC_POLICY_SACRED_NAME" Description="LOC_POLICY_SACRED_DESCRIPTION" PrereqCivic="CIVIC_MYSTICISM" GovernmentSlotType="SLOT_ECONOMIC"/>
+		<Row PolicyType="POLICY_SEAFAIRING" Name="LOC_POLICY_SEAFAIRING_NAME" Description="LOC_POLICY_SEAFAIRING_DESCRIPTION" PrereqCivic="CIVIC_DEFENSIVE_TACTICS" GovernmentSlotType="SLOT_MILITARY"/>
+		<Row PolicyType="POLICY_ARTS_HUMANITIES" Name="LOC_POLICY_ARTS_HUMANITIES_NAME" Description="LOC_POLICY_ARTS_HUMANITIES_DESCRIPTION" PrereqCivic="CIVIC_DRAMA_POETRY" GovernmentSlotType="SLOT_ECONOMIC"/>
+		<Row PolicyType="POLICY_MANUFACTURE" Name="LOC_POLICY_MANUFACTURE_NAME" Description="LOC_POLICY_MANUFACTURE_DESCRIPTION" PrereqCivic="CIVIC_FEUDALISM" GovernmentSlotType="SLOT_MILITARY"/>
+		<Row PolicyType="POLICY_BUSINESS" Name="LOC_POLICY_BUSINESS_NAME" Description="LOC_POLICY_BUSINESS_DESCRIPTION" PrereqCivic="CIVIC_DRAMA_POETRY" GovernmentSlotType="SLOT_ECONOMIC"/>
+		<Row PolicyType="POLICY_MOTIVATION" Name="LOC_POLICY_MOTIVATION_NAME" Description="LOC_POLICY_MOTIVATION_DESCRIPTION" PrereqCivic="CIVIC_STATE_WORKFORCE" GovernmentSlotType="SLOT_ECONOMIC"/>
+		<Row PolicyType="POLICY_WATER_CONSERVANCY" Name="LOC_POLICY_WATER_CONSERVANCY_NAME" Description="LOC_POLICY_WATER_CONSERVANCY_DESCRIPTION" PrereqCivic="CIVIC_DEFENSIVE_TACTICS" GovernmentSlotType="SLOT_MILITARY"/>
+		<Update>
+	      <Where PolicyType="POLICY_VETERANCY" /> <Set PrereqCivic="CIVIC_MILITARY_TRADITION"/>
+	    </Update>
+	    <Row PolicyType="POLICY_AIRFORCE" Name="LOC_POLICY_AIRFORCE_NAME" Description="LOC_POLICY_AIRFORCE_DESCRIPTION" PrereqCivic="CIVIC_NUCLEAR_PROGRAM" GovernmentSlotType="SLOT_MILITARY"/>
+		<Update>
+	        <Where PolicyType="POLICY_INSULAE" /> <Set PrereqCivic="CIVIC_CRAFTSMANSHIP"/>
+	    </Update> 
+		<!--伟人政策-->
+		<Update>
+	        <Where PolicyType="POLICY_INSPIRATION"/> <Set GovernmentSlotType="SLOT_ECONOMIC"/>
+	    </Update> 
+		<Update>
+	        <Where PolicyType="POLICY_REVELATION"/> <Set GovernmentSlotType="SLOT_ECONOMIC"/>
+	    </Update>
+		<Update>
+	        <Where PolicyType="POLICY_TRAVELING_MERCHANTS"/> <Set GovernmentSlotType="SLOT_ECONOMIC"/>
+	    </Update>
+		<Update>
+	        <Where PolicyType="POLICY_INVENTION"/> <Set PrereqCivic="CIVIC_GUILDS" GovernmentSlotType="SLOT_ECONOMIC"/>
+	    </Update>
+		<Update>
+	        <Where PolicyType="POLICY_LITERARY_TRADITION"/> <Set GovernmentSlotType="SLOT_ECONOMIC"/>
+	    </Update>
+		<Update>
+	        <Where PolicyType="POLICY_FRESCOES"/> <Set GovernmentSlotType="SLOT_ECONOMIC"/>
+	    </Update>
+		<Update>
+	        <Where PolicyType="POLICY_SYMPHONIES"/> <Set GovernmentSlotType="SLOT_ECONOMIC"/>
+	    </Update>	
+		<Update>
+	      <Where PolicyType="POLICY_STRATEGOS" /> <Set GovernmentSlotType="SLOT_MILITARY"/>
+	    </Update> 
+	    <Update>
+	      <Where PolicyType="POLICY_NAVIGATION" /> <Set GovernmentSlotType="SLOT_MILITARY"/>
+	    </Update> 
+        <!--人口与城市产出-->	
+		<!-- <Row PolicyType="POLICY_TOURING_PERFORMANCES" Name="LOC_POLICY_TOURING_PERFORMANCES_NAME" Description="LOC_POLICY_TOURING_PERFORMANCES_DESCRIPTION" PrereqCivic="CIVIC_CULTURAL_HERITAGE" GovernmentSlotType="SLOT_ECONOMIC"/> -->
+		<!-- <Row PolicyType="POLICY_MODERN_CATHEDRAL" Name="LOC_POLICY_MODERN_CATHEDRAL_NAME" Description="LOC_POLICY_MODERN_CATHEDRAL_DESCRIPTION" PrereqCivic="CIVIC_MASS_MEDIA" GovernmentSlotType="SLOT_ECONOMIC"/> -->
+		<!-- <Update> -->
+	        <!-- <Where PolicyType="POLICY_FIVE_YEAR_PLAN"/> <Set PrereqCivic="CIVIC_NUCLEAR_PROGRAM" GovernmentSlotType="SLOT_MILITARY"/> -->
+	    <!-- </Update>		   -->
+		<!-- <Update> -->
+	        <!-- <Where PolicyType="POLICY_ECONOMIC_UNION" /> <Set PrereqCivic="CIVIC_CAPITALISM"/> -->
+	    <!-- </Update>  -->
+	  <!--其他-->
+	  <Update>
+	      <Where PolicyType="POLICY_LOGISTICS" /> <Set PrereqCivic="CIVIC_MERCENARIES"/>
+	  </Update>  
+	  <!--DIPLOMATIC-->
+	  <Row PolicyType="POLICY_MEDIA_TRANSMISSION" Name="LOC_POLICY_MEDIA_TRANSMISSION_NAME" Description="LOC_POLICY_MEDIA_TRANSMISSION_DESCRIPTION" PrereqCivic="CIVIC_MASS_MEDIA" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+	  <Row PolicyType="POLICY_CULTURAL_EXCHANGE" Name="LOC_POLICY_CULTURAL_EXCHANGE_NAME" Description="LOC_POLICY_CULTURAL_EXCHANGE_DESCRIPTION" PrereqCivic="CIVIC_MEDIEVAL_FAIRES" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+	  <Row PolicyType="POLICY_CONCILIATION" Name="LOC_POLICY_CONCILIATION_NAME" Description="LOC_POLICY_CONCILIATION_DESCRIPTION" PrereqCivic="CIVIC_DIPLOMATIC_SERVICE" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+	  <Row PolicyType="POLICY_DIPLOMATIC_OFFICE" Name="LOC_POLICY_DIPLOMATIC_OFFICE_NAME" Description="LOC_POLICY_DIPLOMATIC_OFFICE_DESCRIPTION" PrereqCivic="CIVIC_SCORCHED_EARTH" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+	  
+	  <Update>
+	        <Where PolicyType="POLICY_CARAVANSARIES"/> <Set GovernmentSlotType="SLOT_DIPLOMATIC"/>
+	    </Update>  
+		<Update>
+	        <Where PolicyType="POLICY_TRIANGULAR_TRADE"/> <Set GovernmentSlotType="SLOT_DIPLOMATIC"/>
+	    </Update>  
+		<Update>
+	        <Where PolicyType="POLICY_ECOMMERCE"/> <Set GovernmentSlotType="SLOT_DIPLOMATIC"/>
+	    </Update> 
+		<Update>
+	        <Where PolicyType="POLICY_MARKET_ECONOMY" /> <Set GovernmentSlotType="SLOT_DIPLOMATIC"/>
+	    </Update> 
+		
+		<Update>
+	        <Where PolicyType="POLICY_COMMUNICATIONS_OFFICE" /> <Set PrereqCivic="CIVIC_PROFESSIONAL_SPORTS"/>
+	    </Update>
+		<Update>
+	        <Where PolicyType="POLICY_FUTURE_VICTORY_DIPLOMATIC" /> <Set GovernmentSlotType="SLOT_DIPLOMATIC"/>
+	    </Update>
+		<Update>
+	        <Where PolicyType="POLICY_TRADE_CONFEDERATION" /> <Set GovernmentSlotType="SLOT_DIPLOMATIC" PrereqCivic="CIVIC_MEDIEVAL_FAIRES"/>
+	    </Update> 
+		<Update>
+	        <Where PolicyType="POLICY_ONLINE_COMMUNITIES" /> <Set GovernmentSlotType="SLOT_DIPLOMATIC"/>
+	    </Update> 
+				
+	</Policies>
+	
+    <ObsoletePolicies>
+	    <Update>
+	        <Where PolicyType="POLICY_GOD_KING" /> <Set ObsoletePolicy="POLICY_URBAN_PLANNING"/>
+	    </Update>  
+		<Row PolicyType="POLICY_FREE_TRIBE" ObsoletePolicy="POLICY_URBAN_PLANNING"/>
+		<Update>
+	        <Where PolicyType="POLICY_URBAN_PLANNING" /> <Set ObsoletePolicy="POLICY_URBAN_EXPANSION"/>
+	    </Update>  				
+		<Delete PolicyType="POLICY_INSPIRATION" ObsoletePolicy="POLICY_NOBEL_PRIZE"/>
+		<Delete PolicyType="POLICY_TRAVELING_MERCHANTS" ObsoletePolicy="POLICY_LAISSEZ_FAIRE"/>				
+		<Delete PolicyType="POLICY_NATURAL_PHILOSOPHY" ObsoletePolicy="POLICY_FIVE_YEAR_PLAN"/>
+		<Delete PolicyType="POLICY_CRAFTSMEN" ObsoletePolicy="POLICY_FIVE_YEAR_PLAN"/>
+		<Delete PolicyType="POLICY_NAVAL_INFRASTRUCTURE" ObsoletePolicy="POLICY_ECONOMIC_UNION"/>
+		<Delete PolicyType="POLICY_TOWN_CHARTERS" ObsoletePolicy="POLICY_ECONOMIC_UNION"/>
+		<Delete PolicyType="POLICY_COLONIZATION" ObsoletePolicy="POLICY_EXPROPRIATION"/>
+		<Row PolicyType="POLICY_COLONIZATION" ObsoletePolicy="POLICY_MASS_MIGRATION"/>
+        <Delete PolicyType="POLICY_RETINUES" ObsoletePolicy="POLICY_FORCE_MODERNIZATION"/>		
+		<Row PolicyType="POLICY_RETINUES" ObsoletePolicy="POLICY_PROFESSIONAL_ARMY"/>
+		<!--DIPLOMATIC-->
+		<Delete PolicyType="POLICY_PRAETORIUM" ObsoletePolicy="POLICY_COMMUNICATIONS_OFFICE"/>
+	    <Row PolicyType="POLICY_PRAETORIUM" ObsoletePolicy="POLICY_DIPLOMATIC_OFFICE"/>
+	    <Row PolicyType="POLICY_DIPLOMATIC_OFFICE" ObsoletePolicy="POLICY_COMMUNICATIONS_OFFICE"/>
+	    <Row PolicyType="POLICY_COMMUNICATIONS_OFFICE" ObsoletePolicy="POLICY_FUTURE_VICTORY_DIPLOMATIC"/>
+		<Row PolicyType="POLICY_MEDIA_TRANSMISSION" ObsoletePolicy="POLICY_ONLINE_COMMUNITIES"/>
+		<Delete PolicyType="POLICY_TRADE_CONFEDERATION" ObsoletePolicy="POLICY_MARKET_ECONOMY"/>
+		<Delete PolicyType="POLICY_CHARISMATIC_LEADER" ObsoletePolicy="POLICY_GUNBOAT_DIPLOMACY"/>
+		<Row PolicyType="POLICY_CHARISMATIC_LEADER" ObsoletePolicy="POLICY_CONCILIATION"/>
+		<Row PolicyType="POLICY_CONCILIATION" ObsoletePolicy="POLICY_GUNBOAT_DIPLOMACY"/>
+		<!--GOVERNMENT-->	
+		<Delete PolicyType="POLICY_MEDINA_QUARTER" ObsoletePolicy="POLICY_NEW_DEAL"/>
+		<Delete PolicyType="POLICY_INSULAE" ObsoletePolicy="POLICY_MEDINA_QUARTER"/>
+	</ObsoletePolicies>	
+    
+	<!--GOVERNMENT-->	
+    <Policy_GovernmentExclusives_XP2>
+		<Row PolicyType="POLICY_COLLECTIVE_PRODUCTION" GovernmentType="GOVERNMENT_COMMUNISM"/>
+		<Row PolicyType="POLICY_RESEARCH_FUNDING" GovernmentType="GOVERNMENT_DEMOCRACY"/>
+		<Row PolicyType="POLICY_WARS_OF_RELIGION" GovernmentType="GOVERNMENT_THEOCRACY"/>
+		<Row PolicyType="POLICY_CHURCH_COMMUNITY" GovernmentType="GOVERNMENT_THEOCRACY"/>
+		<!-- <Row PolicyType="POLICY_RELIGIOUS_ORDERS" GovernmentType="GOVERNMENT_THEOCRACY"/> -->
+		<Row PolicyType="POLICY_CIVIL_PRESTIGE" GovernmentType="GOVERNMENT_MONARCHY"/>
+		<Row PolicyType="POLICY_MEDINA_QUARTER" GovernmentType="GOVERNMENT_MONARCHY"/>
+		<Row PolicyType="POLICY_BIG_EXPANSION" GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC"/>
+		<Row PolicyType="POLICY_PROSPEROUS_PORT" GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC"/>
+		<Delete PolicyType="POLICY_FINEST_HOUR" GovernmentType="GOVERNMENT_DEMOCRACY"/>
+		<Delete PolicyType="POLICY_DEFENSE_OF_MOTHERLAND" GovernmentType="GOVERNMENT_COMMUNISM"/>
+	</Policy_GovernmentExclusives_XP2>	
+</GameInfo>

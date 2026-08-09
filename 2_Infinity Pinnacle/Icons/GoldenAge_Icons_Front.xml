@@ -1,0 +1,17 @@
+<GameInfo>		
+	<IconDefinitions>
+		<Row Name="ICON_GA_MEGALOPOLIS_PRO"                        	Atlas="ICON_ATLAS_TECH_2" Index="1"/>
+		<Row Name="ICON_GA_CULTIVATION"                        		Atlas="ICON_ATLAS_TECH" Index="5"/>
+		<Row Name="ICON_GA_BUILDINGEXPANSION_NEW"                   Atlas="ICON_ATLAS_TECH" Index="35"/>
+		<Row Name="ICON_GA_MILESTONE"                        		Atlas="ICON_ATLAS_TECH_2" Index="2"/>
+		<Row Name="ICON_GA_CITYPOLICY"              Atlas="ICON_ATLAS_CIVICS" Index="0"/>
+		<Row Name="ICON_GOLDEN_EXTRA_TRAITS"                           Atlas="ICON_ATLAS_CIVICS" Index="22"/>
+		<Row Name="ICON_GOLDEN_FRIEND"                           Atlas="ICON_ATLAS_CIVICS" Index="16"/>
+		<Row Name="ICON_GA_TOTALWAR"                        Atlas="ICON_ATLAS_CIVICS" Index="38"/>
+		<Row Name="ICON_GOLDEN_WORLDWAR"                        Atlas="ICON_ATLAS_CIVICS" Index="43"/>
+		<Row Name="ICON_GOLDEN_HISTORY"                        Atlas="ICON_ATLAS_CIVICS" Index="26"/>
+		<Row Name="ICON_GOLDEN_APPEAL"                        Atlas="ICON_ATLAS_CIVICS" Index="48"/>
+		<Row Name="ICON_GA_MILITARYSERVICE"                        Atlas="ICON_ATLAS_CIVICS" Index="29"/>
+		<Row Name="ICON_GA_WONDERVICTORY"                        Atlas="ICON_ATLAS_WONDERS" Index="2"/>
+	</IconDefinitions>
+</GameInfo>

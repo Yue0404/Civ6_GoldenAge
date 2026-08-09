@@ -1,0 +1,211 @@
+<GameInfo>
+	<Features>
+	    <Update>
+	        <Where FeatureType="FEATURE_FLOODPLAINS"/> <Set Removable="true" RemoveTech="TECH_IRRIGATION"/>
+	    </Update>
+		<Update>
+	        <Where FeatureType="FEATURE_FLOODPLAINS_GRASSLAND"/> <Set Removable="true" RemoveTech="TECH_IRRIGATION"/>
+	    </Update>
+		<Update>
+	        <Where FeatureType="FEATURE_FLOODPLAINS_PLAINS"/> <Set Removable="true" RemoveTech="TECH_IRRIGATION"/>
+	    </Update>
+		<Update>
+	        <Where FeatureType="FEATURE_ICE"/> <Set MovementChange="3" AddsFreshWater="true" Impassable="false" Removable="true" RemoveTech="TECH_COMBUSTION"/>
+	    </Update>
+		<Update>
+	        <Where FeatureType="FEATURE_REEF"/> <Set MovementChange="2" Removable="true" RemoveTech="TECH_COMBUSTION"/>
+	    </Update>
+		<Update>
+	        <Where FeatureType="FEATURE_GEOTHERMAL_FISSURE"/> <Set Removable="true" RemoveTech="TECH_COMBUSTION"/>
+	    </Update>
+	</Features>
+	
+	<Features_XP2>
+		<Replace FeatureType="FEATURE_FLOODPLAINS" ValidWonderPlacement="false" ValidDistrictPlacement="false" ValidForReplacement="true"/>
+		<Replace FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" ValidWonderPlacement="false" ValidDistrictPlacement="false" ValidForReplacement="true"/>
+		<Replace FeatureType="FEATURE_FLOODPLAINS_PLAINS" ValidWonderPlacement="false" ValidDistrictPlacement="false" ValidForReplacement="true"/>
+		<Replace FeatureType="FEATURE_GEOTHERMAL_FISSURE" ValidForReplacement="true"/>
+	</Features_XP2>
+			   	
+	<Feature_Removes>
+	    <Update>
+	        <Where FeatureType="FEATURE_FOREST" YieldType="YIELD_PRODUCTION"/> <Set Yield="14"/>
+	    </Update>
+		<Update>
+	        <Where FeatureType="FEATURE_JUNGLE" YieldType="YIELD_PRODUCTION"/> <Set Yield="7"/>
+	    </Update>
+		<Update>
+	        <Where FeatureType="FEATURE_JUNGLE" YieldType="YIELD_FOOD"/> <Set Yield="7"/>
+	    </Update>
+		<Update>
+	        <Where FeatureType="FEATURE_MARSH" YieldType="YIELD_FOOD"/> <Set Yield="14"/>
+	    </Update>
+		<Replace FeatureType="FEATURE_FLOODPLAINS" YieldType="YIELD_FOOD" Yield="14"/>
+		<Replace FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" YieldType="YIELD_FOOD" Yield="14"/>
+		<Replace FeatureType="FEATURE_FLOODPLAINS_PLAINS" YieldType="YIELD_FOOD" Yield="14"/>
+	</Feature_Removes>
+	
+	<Feature_YieldChanges>
+		<Replace FeatureType="FEATURE_FLOODPLAINS" YieldType="YIELD_FOOD" YieldChange="3"/>
+		<Replace FeatureType="FEATURE_FLOODPLAINS" YieldType="YIELD_GOLD" YieldChange="-1"/>
+		<Replace FeatureType="FEATURE_FLOODPLAINS" YieldType="YIELD_FAITH" YieldChange="-1"/>
+		<Replace FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Replace FeatureType="FEATURE_FLOODPLAINS_PLAINS" YieldType="YIELD_FOOD" YieldChange="1"/>
+		
+        <Replace FeatureType="FEATURE_OASIS" YieldType="YIELD_FOOD" YieldChange="6"/>
+		<Replace FeatureType="FEATURE_OASIS" YieldType="YIELD_GOLD" YieldChange="-2"/>
+		<Replace FeatureType="FEATURE_OASIS" YieldType="YIELD_FAITH" YieldChange="-1"/>
+		
+		<Delete FeatureType="FEATURE_REEF"/>
+		<Replace FeatureType="FEATURE_REEF" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
+		<Replace FeatureType="FEATURE_REEF" YieldType="YIELD_GOLD" YieldChange="-1"/>
+		<Replace FeatureType="FEATURE_REEF" YieldType="YIELD_FOOD" YieldChange="-2"/>
+		
+		<Replace FeatureType="FEATURE_GEOTHERMAL_FISSURE" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Replace FeatureType="FEATURE_GEOTHERMAL_FISSURE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		
+		<Replace FeatureType="FEATURE_MARSH" YieldType="YIELD_FOOD" YieldChange="2"/>
+	</Feature_YieldChanges>
+	
+	<RandomEvent_Yields>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_FOOD" FeatureType="FEATURE_FLOODPLAINS_TUNDRA" Percentage="16" ReplaceFeature="false"/>
+        <Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_FAITH" FeatureType="FEATURE_FLOODPLAINS_TUNDRA" Percentage="8" ReplaceFeature="false"/>		
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_FLOODPLAINS_TUNDRA" Percentage="8" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_FLOODPLAINS_TUNDRA" Percentage="8" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_CULTURE" FeatureType="FEATURE_FLOODPLAINS_TUNDRA" Percentage="8" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_GOLD" FeatureType="FEATURE_FLOODPLAINS_TUNDRA" Percentage="8" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_FOOD" FeatureType="FEATURE_FLOODPLAINS_TUNDRA" Percentage="20" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_FAITH" FeatureType="FEATURE_FLOODPLAINS_TUNDRA" Percentage="10" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_FLOODPLAINS_TUNDRA" Percentage="10" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_FLOODPLAINS_TUNDRA" Percentage="10" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_CULTURE" FeatureType="FEATURE_FLOODPLAINS_TUNDRA" Percentage="10" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_GOLD" FeatureType="FEATURE_FLOODPLAINS_TUNDRA" Percentage="10" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_FOOD" FeatureType="FEATURE_FLOODPLAINS_TUNDRA" Percentage="24" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_FAITH" FeatureType="FEATURE_FLOODPLAINS_TUNDRA" Percentage="12" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_FLOODPLAINS_TUNDRA" Percentage="12" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_FLOODPLAINS_TUNDRA" Percentage="12" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_CULTURE" FeatureType="FEATURE_FLOODPLAINS_TUNDRA" Percentage="12" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_GOLD" FeatureType="FEATURE_FLOODPLAINS_TUNDRA" Percentage="12" ReplaceFeature="false"/>
+	</RandomEvent_Yields>
+	
+	<CivicModifiers>
+		<Row CivicType="CIVIC_SCORCHED_EARTH" ModifierId="GOLDEN_FOREST_PRODUCTION"/>
+		<Row CivicType="CIVIC_SCORCHED_EARTH" ModifierId="GOLDEN_JUNGLE_FOOD"/>
+	</CivicModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>GOLDEN_FOREST_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_PLOT_HAS_FOREST_AND_FOREST_ADJACENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_JUNGLE_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_PLOT_HAS_JUNGLE_AND_JUNGLE_ADJACENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GOLDEN_FOREST_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FOREST_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_JUNGLE_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_JUNGLE_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_HAS_FOREST_AND_FOREST_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_HAS_JUNGLE_AND_JUNGLE_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_HAS_FLOODPLAINS_AND_FLOODPLAINS_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_HAS_FLOODPLAINS_GRASSLAND_AND_FLOODPLAINS_GRASSLAND_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_HAS_FLOODPLAINS_PLAINS_AND_FLOODPLAINS_PLAINS_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_HAS_FLOODPLAINS_TUNDRA_AND_FLOODPLAINS_TUNDRA_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		
+	</RequirementSets>
+	
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_HAS_FOREST_AND_FOREST_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_FOREST_ADJACENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_HAS_FOREST_AND_FOREST_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_HAS_FOREST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_HAS_JUNGLE_AND_JUNGLE_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_JUNGLE_ADJACENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_HAS_JUNGLE_AND_JUNGLE_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_HAS_JUNGLE</RequirementId>
+		</Row>		
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_HAS_FLOODPLAINS_AND_FLOODPLAINS_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_FLOODPLAINS_ADJACENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_HAS_FLOODPLAINS_AND_FLOODPLAINS_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GA_REQUIRES_PLOT_HAS_FLOODPLAINS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_HAS_FLOODPLAINS_GRASSLAND_AND_FLOODPLAINS_GRASSLAND_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_FLOODPLAINS_GRASSLAND_ADJACENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_HAS_FLOODPLAINS_GRASSLAND_AND_FLOODPLAINS_GRASSLAND_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GA_REQUIRES_PLOT_HAS_FLOODPLAINS_GRASSLAND</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_HAS_FLOODPLAINS_PLAINS_AND_FLOODPLAINS_PLAINS_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_FLOODPLAINS_PLAINS_ADJACENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_HAS_FLOODPLAINS_PLAINS_AND_FLOODPLAINS_PLAINS_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GA_REQUIRES_PLOT_HAS_FLOODPLAINS_PLAINS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_HAS_FLOODPLAINS_TUNDRA_AND_FLOODPLAINS_TUNDRA_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_IS_FLOODPLAINS_TUNDRA_ADJACENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_HAS_FLOODPLAINS_TUNDRA_AND_FLOODPLAINS_TUNDRA_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GA_REQUIRES_PLOT_HAS_FLOODPLAINS_TUNDRA</RequirementId>
+		</Row>
+		
+	</RequirementSetRequirements>
+</GameInfo>	

@@ -1,0 +1,22 @@
+<GameData>
+	<LocalizedText>	
+		<Replace Tag="LOC_DIPLOACTION_DENOUNCE_NAME" Language="zh_Hans_CN">
+			<Text>全面战争</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLOACTION_DENOUNCE_NAME" Language="en_US">
+			<Text>Total War</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_CHOICE_DENOUNCE" Language="zh_Hans_CN">
+			<Text>[SIZE_16]全面战争[NEWLINE][SIZE_12]</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_CHOICE_DENOUNCE" Language="en_US">
+			<Text>[SIZE_16]Total War[NEWLINE][SIZE_12]</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLOACTION_DENOUNCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>全面战争模式下不存在谴责，谴责即宣战！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLOACTION_DENOUNCE_DESCRIPTION" Language="en_US">
+			<Text>No denounce in Total War mode! Denounce means war!</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>	

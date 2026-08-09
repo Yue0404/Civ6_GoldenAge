@@ -1,0 +1,61 @@
+<GameInfo>
+	<Terrain_YieldChanges>
+	    <Update>
+	        <Where TerrainType="TERRAIN_GRASS" YieldType="YIELD_FOOD"/> <Set YieldChange="3"/>
+	    </Update>
+		<Update>
+	        <Where TerrainType="TERRAIN_PLAINS" YieldType="YIELD_FOOD"/> <Set YieldChange="2"/>
+	    </Update>
+		<Replace TerrainType="TERRAIN_TUNDRA" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Replace TerrainType="TERRAIN_TUNDRA_HILLS" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Replace TerrainType="TERRAIN_DESERT" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Replace TerrainType="TERRAIN_DESERT" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Replace TerrainType="TERRAIN_DESERT_HILLS" YieldType="YIELD_GOLD" YieldChange="2"/>	
+		<Update>
+	        <Where TerrainType="TERRAIN_COAST" YieldType="YIELD_FOOD"/> <Set YieldChange="2"/>
+	    </Update>
+		<Replace TerrainType="TERRAIN_OCEAN" YieldType="YIELD_GOLD" YieldChange="2"/>	
+		<Replace TerrainType="TERRAIN_SNOW" YieldType="YIELD_FAITH" YieldChange="3"/>
+		<Replace TerrainType="TERRAIN_SNOW_HILLS" YieldType="YIELD_FAITH" YieldChange="2"/>
+		
+		<Replace TerrainType="TERRAIN_GRASS_MOUNTAIN" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Replace TerrainType="TERRAIN_GRASS_MOUNTAIN" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Replace TerrainType="TERRAIN_GRASS_MOUNTAIN" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Replace TerrainType="TERRAIN_PLAINS_MOUNTAIN" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Replace TerrainType="TERRAIN_PLAINS_MOUNTAIN" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Replace TerrainType="TERRAIN_PLAINS_MOUNTAIN" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Replace TerrainType="TERRAIN_DESERT_MOUNTAIN" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Replace TerrainType="TERRAIN_DESERT_MOUNTAIN" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Replace TerrainType="TERRAIN_DESERT_MOUNTAIN" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Replace TerrainType="TERRAIN_TUNDRA_MOUNTAIN" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Replace TerrainType="TERRAIN_TUNDRA_MOUNTAIN" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Replace TerrainType="TERRAIN_TUNDRA_MOUNTAIN" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Replace TerrainType="TERRAIN_SNOW_MOUNTAIN" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Replace TerrainType="TERRAIN_SNOW_MOUNTAIN" YieldType="YIELD_PRODUCTION" YieldChange="1"/>	
+		<Replace TerrainType="TERRAIN_SNOW_MOUNTAIN" YieldType="YIELD_FAITH" YieldChange="1"/>	
+	</Terrain_YieldChanges>
+	
+<!--山脉工作-->	
+	<TechnologyModifiers>
+	    <Row>
+			<TechnologyType>TECH_ENGINEERING</TechnologyType>
+			<ModifierId>TRAIT_WORK_GRASS_MOUNTAIN</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_ENGINEERING</TechnologyType>
+			<ModifierId>TRAIT_WORK_PLAINS_MOUNTAIN</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_ENGINEERING</TechnologyType>
+			<ModifierId>TRAIT_WORK_DESERT_MOUNTAIN</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_ENGINEERING</TechnologyType>
+			<ModifierId>TRAIT_WORK_TUNDRA_MOUNTAIN</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_ENGINEERING</TechnologyType>
+			<ModifierId>TRAIT_WORK_SNOW_MOUNTAIN</ModifierId>
+		</Row>
+	</TechnologyModifiers>
+</GameInfo>	

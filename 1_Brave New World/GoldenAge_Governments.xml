@@ -1,0 +1,589 @@
+<GameInfo>
+	<Governments>
+	    <Update>
+	        <Where GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC"/> <Set OtherGovernmentIntolerance="-4"/>
+	    </Update>
+		<Update>
+	        <Where GovernmentType="GOVERNMENT_AUTOCRACY"/> <Set OtherGovernmentIntolerance="-4"/>
+	    </Update>
+		<Update>
+	        <Where GovernmentType="GOVERNMENT_OLIGARCHY"/> <Set OtherGovernmentIntolerance="-4"/>
+	    </Update>
+		<Update>
+	        <Where GovernmentType="GOVERNMENT_MONARCHY"/> <Set OtherGovernmentIntolerance="-8" />
+	    </Update>
+		<Update>
+	        <Where GovernmentType="GOVERNMENT_THEOCRACY"/> <Set OtherGovernmentIntolerance="-8"/>
+	    </Update>
+		<Update>
+	        <Where GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC"/> <Set OtherGovernmentIntolerance="-8"/>
+	    </Update>
+		<Update>
+	        <Where GovernmentType="GOVERNMENT_FASCISM"/> <Set OtherGovernmentIntolerance="-12"/>
+	    </Update>
+		<Update>
+	        <Where GovernmentType="GOVERNMENT_COMMUNISM"/> <Set OtherGovernmentIntolerance="-12"/>
+	    </Update>
+		<Update>
+	        <Where GovernmentType="GOVERNMENT_DEMOCRACY"/> <Set OtherGovernmentIntolerance="-12"/>
+	    </Update>
+		<Update>
+	        <Where GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM"/> <Set OtherGovernmentIntolerance="-16"/>
+	    </Update>
+		<Update>
+	        <Where GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY"/> <Set OtherGovernmentIntolerance="-16"/>
+	    </Update>
+		<Update>
+	        <Where GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY"/> <Set OtherGovernmentIntolerance="-16"/>
+	    </Update>				
+	</Governments>
+	
+	<Policies>
+	</Policies>	
+	
+	<GovernmentModifiers>
+	<!--寡头-->
+	    <Delete GovernmentType="GOVERNMENT_OLIGARCHY" ModifierId="OLIGARCHY_MELEE"/>
+		<Delete GovernmentType="GOVERNMENT_OLIGARCHY" ModifierId="OLIGARCHY_UNIT_EXPERIENCE"/>
+		<Row GovernmentType="GOVERNMENT_OLIGARCHY" ModifierId="GOLDEN_OLIGARCHY_CITY_CENTER"/>
+		<Row GovernmentType="GOVERNMENT_OLIGARCHY" ModifierId="GOLDEN_OLIGARCHY_BORDER_EXPANSION"/>
+		<Row GovernmentType="GOVERNMENT_OLIGARCHY" ModifierId="GOLDEN_OLIGARCHY_DISTRICT_DEBUFF"/>
+	<!--独裁-->
+		<Row GovernmentType="GOVERNMENT_AUTOCRACY" ModifierId="GOLDEN_AUTOCRACY_GOVERNMENT_ALLYIELD"/>
+		<Row GovernmentType="GOVERNMENT_AUTOCRACY" ModifierId="GOLDEN_AUTOCRACY_CITY_GROWTH_DEBUFF"/>
+	<!--古典共和-->	
+		<Row GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC" ModifierId="GOLDEN_CLASSICAL_UNIT_DEBUFF"/>
+		<Delete GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC" ModifierId="CLASSICAL_REPUBLIC_HOUSING"/>
+		<Delete GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC" ModifierId="CLASSICAL_REPUBLIC_AMENITY"/>
+		<Row GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC" ModifierId="GOLDEN_CLASSICAL_REPUBLIC_ALLYIELD"/>
+	<!--君主制-->
+	    <Delete GovernmentType="GOVERNMENT_MONARCHY"/>
+        <Row GovernmentType="GOVERNMENT_MONARCHY" ModifierId="MONARCHY_ENVOYS"/>
+		<Row GovernmentType="GOVERNMENT_MONARCHY" ModifierId="GOLDEN_MONARCHY_IDENTITY_DEBUFF"/>
+		<Row GovernmentType="GOVERNMENT_MONARCHY" ModifierId="GOLDEN_MONARCHY_ALLYIELD"/>
+	<!--商人共和-->	
+        <Delete GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC" ModifierId="MERCHANT_REPUBLIC_GOLD_MODIFIER"/>	
+		<Row GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC" ModifierId="GOLDEN_MERCHANT_REPUBLIC_FAITH_DEBUFF"/>
+		<Row GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC" ModifierId="GOLDEN_MERCHANT_REPUBLIC_FOREIGN_CITY_ALLYIELD"/>
+	<!--神权-->	
+	    <Delete GovernmentType="GOVERNMENT_THEOCRACY" ModifierId="THEOCRACY_RELIGIOUS_PEOPLE"/>	
+		<Row GovernmentType="GOVERNMENT_THEOCRACY" ModifierId="GOLDEN_THEOCRACY_SCIENCE_DEBUFF"/>	
+		<Row GovernmentType="GOVERNMENT_THEOCRACY" ModifierId="GOLDEN_THEOCRACY_ALL_YIELDS"/>			
+	<!--法西斯主义-->	
+        <Delete GovernmentType="GOVERNMENT_FASCISM" ModifierId="FASCISM_WAR_WEARINESS"/>	
+		<Delete GovernmentType="GOVERNMENT_FASCISM" ModifierId="FASCISM_ATTACK"/>	
+		<Row GovernmentType="GOVERNMENT_FASCISM" ModifierId="GOLDEN_FASCISM_CULTURE_DEBUFF"/>	
+		<Row GovernmentType="GOVERNMENT_FASCISM" ModifierId="GOLDEN_FASCISM_CITY_ALLYIELD"/>	
+	<!--民主主义-->	
+	    <Delete GovernmentType="GOVERNMENT_DEMOCRACY"/>
+		<Row GovernmentType="GOVERNMENT_DEMOCRACY" ModifierId="DEMOCRACY_GOLD_PURCHASE"/>
+		<Row GovernmentType="GOVERNMENT_DEMOCRACY" ModifierId="GOLDEN_DEMOCRACY_PRODUCTION_DEBUFF"/>
+		<Row GovernmentType="GOVERNMENT_DEMOCRACY" ModifierId="GOLDEN_DEMOCRACY_CITY_ALLYIELD"/>
+	<!--共产主义-->		
+	    <Delete GovernmentType="GOVERNMENT_COMMUNISM" ModifierId="COMMUNISM_PRODUCTIVE_PEOPLE"/>
+		<Delete GovernmentType="GOVERNMENT_COMMUNISM" ModifierId="COMMUNISM_SCIENCE"/>
+		<Row GovernmentType="GOVERNMENT_COMMUNISM" ModifierId="GOLDEN_COMMUNISM_BUILDING_PRODUCTION"/>
+		<Row GovernmentType="GOVERNMENT_COMMUNISM" ModifierId="GOLDEN_COMMUNISM_GOLD_DEBUFF"/>
+		<Row GovernmentType="GOVERNMENT_COMMUNISM" ModifierId="GOLDEN_COMMUNISM_CITY_ALLYIELD"/>
+	<!--合成专家政治-->	
+        <Delete GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY" ModifierId="SYNTHETIC_TECHNOCRACY_CITY_POWER"/>
+		<Row GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY" ModifierId="GOLDEN_SYNTHETIC_TECHNOCRACY_CITY_ALLYIELD"/>
+	<!--数字化民主-->
+		<Delete GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY" ModifierId="DIGITAL_DEMOCRACY_CITY_AMENITIES"/>	
+        <Delete GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY" ModifierId="DIGITAL_DEMOCRACY_DISTRICT_CULTURE"/>			
+		<Row GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY" ModifierId="GOLDEN_DIGITAL_DEMOCRACY_TOURISM"/>	
+        <Row GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY" ModifierId="GOLDEN_DIGITAL_DEMOCRACY_CITY_ALLYIELD"/>
+	<!--团体自由意志-->	
+	    <Delete GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" ModifierId="CORPORATE_LIBERTARIANISM_ENCAMPMENT_PRODUCTION"/>	
+		<Delete GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" ModifierId="CORPORATE_LIBERTARIANISM_COMMERCIAL_HUB_PRODUCTION"/>	
+		<Delete GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" ModifierId="CORPORATE_LIBERTARIANISM_SCIENCE_PENALTY"/>
+        <Delete GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" ModifierId="CORPORATE_LIBERTARIANISM_RESOURCE_EXTRACTION"/>			
+		<Row GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" ModifierId="DIGITAL_DEMOCRACY_D_CARD_FAVOR"/>
+		<Row GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" ModifierId="DIGITAL_DEMOCRACY_W_CARD_FAVOR"/>
+		<Row GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" ModifierId="DIGITAL_DEMOCRACY_GREATPEOPLE_DEBUFF"/>
+        <Row GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" ModifierId="GOLDEN_CORPORATE_LIBERTARIANISM_CITY_ALLYIELD"/>
+	</GovernmentModifiers>
+	
+	<PolicyModifiers>
+	<!--独裁-->
+		<Row PolicyType="POLICY_GOV_AUTOCRACY" ModifierId="GOLDEN_AUTOCRACY_GOVERNMENT_ALLYIELD"/>
+	<!--寡头-->	
+	    <Delete PolicyType="POLICY_GOV_OLIGARCHY" ModifierId="OLIGARCHY_LEGACY_MELEE"/>
+		<Row PolicyType="POLICY_GOV_OLIGARCHY" ModifierId="GOLDEN_OLIGARCHY_CITY_CENTER"/>
+	<!--古典共和-->	
+		<Delete PolicyType="POLICY_GOV_CLASSICAL_REPUBLIC" ModifierId="CLASSICAL_REPUBLIC_HOUSING"/>
+		<Delete PolicyType="POLICY_GOV_CLASSICAL_REPUBLIC" ModifierId="CLASSICAL_REPUBLIC_AMENITY"/>
+		<Row PolicyType="POLICY_GOV_CLASSICAL_REPUBLIC" ModifierId="GOLDEN_CLASSICAL_REPUBLIC_ALLYIELD"/>
+	<!--君主制-->	
+        <Delete PolicyType="POLICY_GOV_MONARCHY" ModifierId="MONARCHY_WALLS_HOUSING"/>
+		<Delete PolicyType="POLICY_GOV_MONARCHY" ModifierId="MONARCHY_CASTLE_HOUSING"/>
+		<Delete PolicyType="POLICY_GOV_MONARCHY" ModifierId="MONARCHY_STARFORT_HOUSING"/>	
+		<Row PolicyType="POLICY_GOV_MONARCHY" ModifierId="GOLDEN_MONARCHY_ALLYIELD"/>			
+	<!--神权-->	
+        <Delete PolicyType="POLICY_GOV_THEOCRACY" ModifierId="THEOCRACY_RELIGIOUS_PEOPLE"/>	
+		<Row PolicyType="POLICY_GOV_THEOCRACY" ModifierId="GOLDEN_THEOCRACY_ALL_YIELDS"/>		
+	<!--商人共和-->	
+	    <Delete PolicyType="POLICY_GOV_MERCHANT_REPUBLIC" ModifierId="MERCHANT_REPUBLIC_GOLD_MODIFIER"/>
+		<Row PolicyType="POLICY_GOV_MERCHANT_REPUBLIC" ModifierId="GOLDEN_MERCHANT_REPUBLIC_FOREIGN_CITY_ALLYIELD"/>		
+	<!--法西斯主义-->
+	    <Delete PolicyType="POLICY_GOV_FASCISM" ModifierId="FASCISM_WAR_WEARINESS"/>
+		<Delete PolicyType="POLICY_GOV_FASCISM" ModifierId="FASCISM_LEGACY_ATTACK"/>
+		<Row PolicyType="POLICY_GOV_FASCISM" ModifierId="GOLDEN_FASCISM_CITY_ALLYIELD"/>		
+	<!--民主主义-->	
+	    <Delete PolicyType="POLICY_GOV_DEMOCRACY"/>
+		<Row PolicyType="POLICY_GOV_DEMOCRACY" ModifierId="GOLDEN_DEMOCRACY_CITY_ALLYIELD"/>				
+	<!--共产主义-->		
+	    <Delete PolicyType="POLICY_GOV_COMMUNISM" ModifierId="COMMUNISM_PRODUCTIVE_PEOPLE"/>
+		<Row PolicyType="POLICY_GOV_COMMUNISM" ModifierId="GOLDEN_COMMUNISM_CITY_ALLYIELD"/>
+	</PolicyModifiers>
+	
+	<Modifiers>
+	<!--寡头-->
+	    <Row>
+			<ModifierId>GOLDEN_OLIGARCHY_CITY_CENTER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_DISTRICT_CITY_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_OLIGARCHY_BORDER_EXPANSION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_OLIGARCHY_BORDER_EXPANSION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_CULTURE_BORDER_EXPANSION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_OLIGARCHY_DISTRICT_DEBUFF</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+		</Row>
+	<!--独裁-->
+		<Row>
+			<ModifierId>GOLDEN_AUTOCRACY_GOVERNMENT_ALLYIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_DISTRICT_GOVERNMENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_AUTOCRACY_CITY_GROWTH_DEBUFF</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_GROWTH</ModifierType>
+		</Row>			
+	<!--古典共和-->
+		<Row>
+			<ModifierId>GOLDEN_CLASSICAL_UNIT_DEBUFF</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CLASSICAL_REPUBLIC_ALLYIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_1_SPECIALTY_DISTRICTS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	<!--君主制-->	
+		<Row>
+			<ModifierId>GOLDEN_MONARCHY_IDENTITY_DEBUFF</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType>
+			<SubjectRequirementSetId>CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MONARCHY_ALLYIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_IS_OWNER_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>		
+	<!--商人共和-->	
+		<Row>
+            <ModifierId>GOLDEN_MERCHANT_REPUBLIC_FAITH_DEBUFF</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+        </Row>
+		<Row>
+			<ModifierId>GOLDEN_MERCHANT_REPUBLIC_FOREIGN_CITY_ALLYIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE</ModifierType>
+			<SubjectRequirementSetId>CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>				
+	<!--神权-->	
+		<Row>
+            <ModifierId>GOLDEN_THEOCRACY_SCIENCE_DEBUFF</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+        </Row>
+		<Row>
+			<ModifierId>GOLDEN_THEOCRACY_ALL_YIELDS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE</ModifierType>
+			<SubjectRequirementSetId>CITY_FOLLOWS_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	<!--法西斯主义-->	
+		<Row>
+            <ModifierId>GOLDEN_FASCISM_CULTURE_DEBUFF</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+        </Row>
+		<Row>
+			<ModifierId>GOLDEN_FASCISM_CITY_ALLYIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_BUILDING_MILITARY_ACADEMY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>		
+	<!--民主主义-->		
+		<Row>
+            <ModifierId>GOLDEN_DEMOCRACY_PRODUCTION_DEBUFF</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+        </Row>
+		<Row>
+			<ModifierId>GOLDEN_DEMOCRACY_CITY_ALLYIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_DISTRICT_COMMERCIAL_HUB_T3_BUILDING_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>	
+	<!--共产主义-->	
+		<Row>
+            <ModifierId>GOLDEN_COMMUNISM_BUILDING_PRODUCTION</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+        </Row>
+		<Row>
+            <ModifierId>GOLDEN_COMMUNISM_GOLD_DEBUFF</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+        </Row>
+		<Row>
+			<ModifierId>GOLDEN_COMMUNISM_CITY_ALLYIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_DISTRICT_INDUSTRIAL_ZONE_T2_BUILDING_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>		
+	<!--合成专家政治-->	
+	    <Row>
+			<ModifierId>GOLDEN_SYNTHETIC_TECHNOCRACY_CITY_ALLYIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_IS_WITHIN_8_TILES_DISTRICT_GOVERNMENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	<!--数字化民主-->
+    	<Row>
+            <ModifierId>GOLDEN_DIGITAL_DEMOCRACY_TOURISM</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_ADJUST_TOURISM</ModifierType>
+        </Row>
+		<Row>
+			<ModifierId>GOLDEN_DIGITAL_DEMOCRACY_CITY_ALLYIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_THIRTY_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		
+	<!--团体自由意志-->	
+		<Row>
+			<ModifierId>DIGITAL_DEMOCRACY_D_CARD_FAVOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNMENT_SLOT_TYPE_GRANT_FAVOR</ModifierType>
+		</Row>	
+		<Row>
+			<ModifierId>DIGITAL_DEMOCRACY_W_CARD_FAVOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNMENT_SLOT_TYPE_GRANT_FAVOR</ModifierType>
+		</Row>		
+		<Row>
+			<ModifierId>DIGITAL_DEMOCRACY_GREATPEOPLE_DEBUFF</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CORPORATE_LIBERTARIANISM_CITY_ALLYIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_NO_GOVERNOR_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+    <!--独裁-->
+		<Update>
+		   <Where ModifierId="AUTOCRACY_WONDERS" Name="Amount"/>
+		   <Set Value="25"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="AUTOCRACY_CAPITAL" Name="Amount"/>
+		   <Set Value="2"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="AUTOCRACY_TIER1" Name="Amount"/>
+		   <Set Value="2"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="AUTOCRACY_TIER2" Name="Amount"/>
+		   <Set Value="2"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="AUTOCRACY_TIER3" Name="Amount"/>
+		   <Set Value="2"/>
+	    </Update>
+		<Row>
+			<ModifierId>GOLDEN_AUTOCRACY_GOVERNMENT_ALLYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_AUTOCRACY_CITY_GROWTH_DEBUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>-15</Value>
+		</Row>
+		
+	<!--寡头-->	
+	    <Row>
+			<ModifierId>GOLDEN_OLIGARCHY_CITY_CENTER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_OLIGARCHY_BORDER_EXPANSION</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_OLIGARCHY_BORDER_EXPANSION_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_OLIGARCHY_BORDER_EXPANSION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>GOLDEN_OLIGARCHY_DISTRICT_DEBUFF</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_DISTRICT_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_OLIGARCHY_DISTRICT_DEBUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>-15</Value>
+		</Row>
+	    <!-- <Update> -->
+		   <!-- <Where ModifierId="OLIGARCHY_UNIT_EXPERIENCE" Name="Amount"/> -->
+		   <!-- <Set Value="50"/> -->
+	    <!-- </Update> -->
+	<!--古典共和-->		
+	    <Update>
+		   <Where ModifierId="CLASSICAL_REPUBLIC_GREAT_PEOPLE" Name="Amount"/>
+		   <Set Value="25"/>
+	    </Update>
+		<Row>
+			<ModifierId>GOLDEN_CLASSICAL_UNIT_DEBUFF</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_UNIT_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CLASSICAL_UNIT_DEBUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>-15</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CLASSICAL_REPUBLIC_ALLYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>		
+	<!--君主制-->
+    	<Update>
+		   <Where ModifierId="MONARCHY_ENVOYS" Name="Amount"/>
+		   <Set Value="50"/>
+	    </Update>		
+		<Row>
+			<ModifierId>GOLDEN_MONARCHY_IDENTITY_DEBUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>-8</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MONARCHY_ALLYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		
+	<!--商人共和-->	
+		<Update>
+		   <Where ModifierId="MERCHANT_REPUBLIC_DISTRICTS" Name="Amount"/>
+		   <Set Value="25"/>
+	    </Update>
+	<Row>
+      <ModifierId>GOLDEN_MERCHANT_REPUBLIC_FAITH_DEBUFF</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_FAITH</Value>
+    </Row>
+    <Row>
+      <ModifierId>GOLDEN_MERCHANT_REPUBLIC_FAITH_DEBUFF</ModifierId>
+      <Name>Amount</Name>
+      <Value>-10</Value>
+    </Row>
+	    <Row>
+			<ModifierId>GOLDEN_MERCHANT_REPUBLIC_FOREIGN_CITY_ALLYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		
+	<!--神权-->		
+		<Update>
+		   <Where ModifierId="THEOCRACY_FAITH_PURCHASE" Name="Amount"/>
+		   <Set Value="20"/>
+	    </Update>	
+	<Row>
+      <ModifierId>GOLDEN_THEOCRACY_SCIENCE_DEBUFF</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_SCIENCE</Value>
+    </Row>
+    <Row>
+      <ModifierId>GOLDEN_THEOCRACY_SCIENCE_DEBUFF</ModifierId>
+      <Name>Amount</Name>
+      <Value>-10</Value>
+    </Row>
+		 <Row>
+			<ModifierId>GOLDEN_THEOCRACY_ALL_YIELDS</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+	<!--法西斯主义-->	
+		<Update>
+		   <Where ModifierId="FASCISM_UNIT_PRODUCTION" Name="Amount"/>
+		   <Set Value="25"/>
+	    </Update>
+	<Row>
+      <ModifierId>GOLDEN_FASCISM_CULTURE_DEBUFF</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_CULTURE</Value>
+    </Row>
+    <Row>
+      <ModifierId>GOLDEN_FASCISM_CULTURE_DEBUFF</ModifierId>
+      <Name>Amount</Name>
+      <Value>-10</Value>
+    </Row>
+	    <Row>
+			<ModifierId>GOLDEN_FASCISM_CITY_ALLYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		
+	<!--民主主义-->	
+		<Update>
+		   <Where ModifierId="DEMOCRACY_GOLD_PURCHASE" Name="Amount"/>
+		   <Set Value="20"/>
+	    </Update>		
+	<Row>
+      <ModifierId>GOLDEN_DEMOCRACY_PRODUCTION_DEBUFF</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_PRODUCTION</Value>
+    </Row>
+    <Row>
+      <ModifierId>GOLDEN_DEMOCRACY_PRODUCTION_DEBUFF</ModifierId>
+      <Name>Amount</Name>
+      <Value>-10</Value>
+    </Row>
+	    <Row>
+			<ModifierId>GOLDEN_DEMOCRACY_CITY_ALLYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>		
+	<!--共产主义-->
+		<Row>
+			<ModifierId>GOLDEN_COMMUNISM_BUILDING_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>		
+	<Row>
+      <ModifierId>GOLDEN_COMMUNISM_GOLD_DEBUFF</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_GOLD</Value>
+    </Row>
+    <Row>
+      <ModifierId>GOLDEN_COMMUNISM_GOLD_DEBUFF</ModifierId>
+      <Name>Amount</Name>
+      <Value>-10</Value>
+    </Row>
+	    <Row>
+			<ModifierId>GOLDEN_COMMUNISM_CITY_ALLYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+	<!--合成专家政治-->	
+		<Update>
+		   <Where ModifierId="SYNTHETIC_TECHNOCRACY_CITY_PROJECT_PRODUCTION" Name="Amount"/>
+		   <Set Value="25"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="SYNTHETIC_TECHNOCRACY_TOURISM_PENALTY" Name="Amount"/>
+		   <Set Value="-20"/>
+	    </Update>
+		<Row>
+			<ModifierId>GOLDEN_SYNTHETIC_TECHNOCRACY_CITY_ALLYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+	<!--数字化民主-->	
+	    <Row>
+          <ModifierId>GOLDEN_DIGITAL_DEMOCRACY_TOURISM</ModifierId>
+          <Name>Amount</Name>
+          <Value>25</Value>
+        </Row>
+		<Row>
+			<ModifierId>GOLDEN_DIGITAL_DEMOCRACY_CITY_ALLYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Update>
+		   <Where ModifierId="DIGITAL_DEMOCRACY_DEBUFF" Name="Amount"/>
+		   <Set Value="-5"/>
+	    </Update>
+	<!--团体自由意志-->	
+		<Row>
+			<ModifierId>DIGITAL_DEMOCRACY_D_CARD_FAVOR</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_DIPLOMATIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>DIGITAL_DEMOCRACY_D_CARD_FAVOR</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>DIGITAL_DEMOCRACY_W_CARD_FAVOR</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_WILDCARD</Value>
+		</Row>
+		<Row>
+			<ModifierId>DIGITAL_DEMOCRACY_W_CARD_FAVOR</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>	
+		<Row>
+			<ModifierId>DIGITAL_DEMOCRACY_GREATPEOPLE_DEBUFF</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_GREAT_PEOPLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>DIGITAL_DEMOCRACY_GREATPEOPLE_DEBUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>-20</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CORPORATE_LIBERTARIANISM_CITY_ALLYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+	</ModifierArguments>
+	
+	 <RequirementSets>
+        <Row>
+			<RequirementSetId>GOLDEN_CITY_IS_WITHIN_8_TILES_DISTRICT_GOVERNMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>		
+    </RequirementSets>
+   
+    <RequirementSetRequirements>
+        <Row>
+			<RequirementSetId>GOLDEN_CITY_IS_WITHIN_8_TILES_DISTRICT_GOVERNMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_CITY_IS_WITHIN_8_TILES_DISTRICT_GOVERNMENT</RequirementId>
+		</Row>
+    </RequirementSetRequirements>
+   
+    <Requirements>
+		<Row>
+			<RequirementId>GOLDEN_REQUIRES_CITY_IS_WITHIN_8_TILES_DISTRICT_GOVERNMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	
+	<RequirementArguments>
+		<Row>
+			<RequirementId>GOLDEN_REQUIRES_CITY_IS_WITHIN_8_TILES_DISTRICT_GOVERNMENT</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_GOVERNMENT</Value>
+		</Row>
+		<Row>
+			<RequirementId>GOLDEN_REQUIRES_CITY_IS_WITHIN_8_TILES_DISTRICT_GOVERNMENT</RequirementId>
+			<Name>MaxRange</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<RequirementId>GOLDEN_REQUIRES_CITY_IS_WITHIN_8_TILES_DISTRICT_GOVERNMENT</RequirementId>
+			<Name>MinRange</Name>
+			<Value>1</Value>
+		</Row>
+	</RequirementArguments>
+</GameInfo>

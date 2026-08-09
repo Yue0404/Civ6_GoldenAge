@@ -1,0 +1,49 @@
+<GameInfo>
+	 	
+	<Types>
+	    <Row Type="HAPPINESS_HELL"  Kind="KIND_HAPPINESS"/>
+        <Row Type="HAPPINESS_FURIOUS" Kind="KIND_HAPPINESS"/>
+		<Row Type="HAPPINESS_JOYOUS"  Kind="KIND_HAPPINESS"/>
+		<Row Type="HAPPINESS_ELATED"  Kind="KIND_HAPPINESS"/>
+		<Row Type="HAPPINESS_UTOPIC"  Kind="KIND_HAPPINESS"/>
+		<Row Type="HAPPINESS_HEAVEN"  Kind="KIND_HAPPINESS"/>
+	</Types>
+	
+	<Happinesses>
+        <Row HappinessType="HAPPINESS_HELL" Name="LOC_HAPPINESS_HELL_NAME" MaximumAmenityScore="-11" GrowthModifier="-72" NonFoodYieldModifier="-36" RebellionPoints="7"/>
+		<Replace HappinessType="HAPPINESS_REVOLT" Name="LOC_HAPPINESS_REVOLT_NAME" MinimumAmenityScore="-10" MaximumAmenityScore="-9" GrowthModifier="-60" NonFoodYieldModifier="-30" RebellionPoints="5"/>
+		<Replace HappinessType="HAPPINESS_UNREST" Name="LOC_HAPPINESS_UNREST_NAME" MinimumAmenityScore="-8" MaximumAmenityScore="-7" GrowthModifier="-48" NonFoodYieldModifier="-24" RebellionPoints="3"/>		
+		<Row HappinessType="HAPPINESS_FURIOUS" Name="LOC_HAPPINESS_FURIOUS_NAME" MinimumAmenityScore="-6" MaximumAmenityScore="-5" GrowthModifier="-36" NonFoodYieldModifier="-18" RebellionPoints="1"/>
+		<Replace HappinessType="HAPPINESS_UNHAPPY" Name="LOC_HAPPINESS_UNHAPPY_NAME" MinimumAmenityScore="-4" MaximumAmenityScore="-3" GrowthModifier="-24" NonFoodYieldModifier="-12"/>
+		<Replace HappinessType="HAPPINESS_DISPLEASED" Name="LOC_HAPPINESS_DISPLEASED_NAME" MinimumAmenityScore="-2" MaximumAmenityScore="-1" GrowthModifier="-12" NonFoodYieldModifier="-6" RebellionPoints="-1"/>
+		<Replace HappinessType="HAPPINESS_CONTENT" Name="LOC_HAPPINESS_CONTENT_NAME" MinimumAmenityScore="0" MaximumAmenityScore="0" GrowthModifier="0" NonFoodYieldModifier="0" RebellionPoints="-1"/>
+		<Replace HappinessType="HAPPINESS_HAPPY" Name="LOC_HAPPINESS_HAPPY_NAME" MinimumAmenityScore="1" MaximumAmenityScore="2" GrowthModifier="12" NonFoodYieldModifier="6" RebellionPoints="-1"/>
+		<Row HappinessType="HAPPINESS_JOYOUS" Name="LOC_HAPPINESS_JOYOUS_NAME" MinimumAmenityScore="3" MaximumAmenityScore="4" GrowthModifier="24" NonFoodYieldModifier="12" RebellionPoints="-1"/>
+		<Row HappinessType="HAPPINESS_ELATED" Name="LOC_HAPPINESS_ELATED_NAME" MinimumAmenityScore="5" MaximumAmenityScore="6" GrowthModifier="36" NonFoodYieldModifier="18" RebellionPoints="-1"/>
+		<Replace HappinessType="HAPPINESS_ECSTATIC" Name="LOC_HAPPINESS_ECSTATIC_NAME" MinimumAmenityScore="7" MaximumAmenityScore="8" GrowthModifier="48" NonFoodYieldModifier="24" RebellionPoints="-2"/>
+		<Row HappinessType="HAPPINESS_UTOPIC" Name="LOC_HAPPINESS_UTOPIC_NAME" MinimumAmenityScore="9" MaximumAmenityScore="10" GrowthModifier="60" NonFoodYieldModifier="30" RebellionPoints="-2"/>
+		<Row HappinessType="HAPPINESS_HEAVEN" Name="LOC_HAPPINESS_HEAVEN_NAME" MinimumAmenityScore="11" GrowthModifier="72" NonFoodYieldModifier="36" RebellionPoints="-2"/>
+	</Happinesses>
+	
+	<Happinesses_XP1>
+		<Row HappinessType="HAPPINESS_HELL" IdentityPerTurnChange="-18"/>	
+		<Replace HappinessType="HAPPINESS_REVOLT" IdentityPerTurnChange="-15"/>
+		<Replace HappinessType="HAPPINESS_UNREST" IdentityPerTurnChange="-12"/>		
+		<Row HappinessType="HAPPINESS_FURIOUS" IdentityPerTurnChange="-9"/>	
+        <Replace HappinessType="HAPPINESS_UNHAPPY" IdentityPerTurnChange="-6"/>
+		<Replace HappinessType="HAPPINESS_DISPLEASED" IdentityPerTurnChange="-3"/>
+		<Replace HappinessType="HAPPINESS_HAPPY" IdentityPerTurnChange="3"/>
+		<Row HappinessType="HAPPINESS_JOYOUS" IdentityPerTurnChange="6"/>
+		<Row HappinessType="HAPPINESS_ELATED" IdentityPerTurnChange="9"/>
+		<Replace HappinessType="HAPPINESS_ECSTATIC" IdentityPerTurnChange="12"/>
+		<Row HappinessType="HAPPINESS_UTOPIC" IdentityPerTurnChange="15"/>
+		<Row HappinessType="HAPPINESS_HEAVEN" IdentityPerTurnChange="18"/>
+	</Happinesses_XP1>
+	
+	<LoyaltyLevels>
+		<Replace LoyaltyLevelType="LOYALTY_LEVEL_0" LoyaltyMax="25" LoyaltyMin="0" YieldChange="-0.6" GrowthChange="0.0" IdentityChange="0.0" Name="LOC_LOYALTY_LEVEL_0_NAME" Description="LOC_LOYALTY_LEVEL_0_DESCRIPTION"/>
+		<Replace LoyaltyLevelType="LOYALTY_LEVEL_1" LoyaltyMax="50" LoyaltyMin="26" YieldChange="-0.4" GrowthChange="0.25" IdentityChange="0.0" Name="LOC_LOYALTY_LEVEL_1_NAME" Description="LOC_LOYALTY_LEVEL_1_DESCRIPTION"/>
+		<Replace LoyaltyLevelType="LOYALTY_LEVEL_2" LoyaltyMax="75" LoyaltyMin="51" YieldChange="-0.2" GrowthChange="0.75" IdentityChange="0.0" Name="LOC_LOYALTY_LEVEL_2_NAME" Description="LOC_LOYALTY_LEVEL_2_DESCRIPTION"/>
+		<Replace LoyaltyLevelType="LOYALTY_LEVEL_3" LoyaltyMax="100" LoyaltyMin="76" YieldChange="0" GrowthChange="1.0" IdentityChange="0.0" Name="LOC_LOYALTY_LEVEL_3_NAME" Description="LOC_LOYALTY_LEVEL_3_DESCRIPTION"/>
+	</LoyaltyLevels>
+</GameInfo>

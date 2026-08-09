@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_Unitsexp" IconSize="22" IconsPerRow="16" Filename="Unitsexp_22"/>
+        <Row Name="ATLAS_Unitsexp" IconSize="32" IconsPerRow="16" Filename="Unitsexp_32"/>
+        <Row Name="ATLAS_Unitsexp" IconSize="38" IconsPerRow="16" Filename="Unitsexp_38"/>
+        <Row Name="ATLAS_Unitsexp" IconSize="50" IconsPerRow="16" Filename="Unitsexp_50"/>
+        <Row Name="ATLAS_Unitsexp" IconSize="80" IconsPerRow="16" Filename="Unitsexp_80"/>
+        <Row Name="ATLAS_Unitsexp" IconSize="256" IconsPerRow="16" Filename="Unitsexp_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_CULVERIN" Atlas="ATLAS_Unitsexp" Index="0"/>
+        <Row Name="ICON_UNIT_ARQUEBUSIER" Atlas="ATLAS_Unitsexp" Index="1"/>
+        <Row Name="ICON_UNIT_CARABINIER" Atlas="ATLAS_Unitsexp" Index="2"/>
+        <Row Name="ICON_UNIT_HEAVY_INFANTRY" Atlas="ATLAS_Unitsexp" Index="3"/>
+        <Row Name="ICON_UNIT_REITER" Atlas="ATLAS_Unitsexp" Index="4"/>
+        <Row Name="ICON_UNIT_HOWITZER" Atlas="ATLAS_Unitsexp" Index="5"/>
+        <Row Name="ICON_UNIT_ELITE_INFANTRY" Atlas="ATLAS_Unitsexp" Index="6"/>
+        <Row Name="ICON_UNIT_AT_MISSILE" Atlas="ATLAS_Unitsexp" Index="7"/>
+        <Row Name="ICON_UNIT_DRAGOON" Atlas="ATLAS_Unitsexp" Index="8"/>
+        <Row Name="ICON_UNIT_ATOMIC_ARTILLERY" Atlas="ATLAS_Unitsexp" Index="9"/>
+        <Row Name="ICON_UNIT_SUPER_HELICOPTER" Atlas="ATLAS_Unitsexp" Index="10"/>
+        <Row Name="ICON_UNIT_ARMORED_HORSEMAN" Atlas="ATLAS_Unitsexp" Index="11"/>
+        <Row Name="ICON_UNIT_MISSILE_VEHICLE" Atlas="ATLAS_Unitsexp" Index="12"/>
+        <Row Name="ICON_UNIT_RIFLED_CANNON" Atlas="ATLAS_Unitsexp" Index="13"/>
+        <Row Name="ICON_UNIT_LANDSHIP" Atlas="ATLAS_Unitsexp" Index="14"/>
+				
+		<Row Name="ICON_UNIT_CULVERIN_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="58"/>
+        <Row Name="ICON_UNIT_ARQUEBUSIER_PORTRAIT" Atlas="ICON_ATLAS_EXPANSION_1_UNIT_PORTRAITS" Index="5"/>
+        <Row Name="ICON_UNIT_CARABINIER_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="59"/>
+        <Row Name="ICON_UNIT_HEAVY_INFANTRY_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="28"/>
+        <Row Name="ICON_UNIT_REITER_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="43"/>
+        <Row Name="ICON_UNIT_HOWITZER_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="17"/>
+        <Row Name="ICON_UNIT_ELITE_INFANTRY_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="5"/>
+        <Row Name="ICON_UNIT_AT_MISSILE_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="28"/>
+        <Row Name="ICON_UNIT_DRAGOON_PORTRAIT" Atlas="ICON_ATLAS_EXPANSION_2_UNIT_PORTRAITS" Index="10"/>
+        <Row Name="ICON_UNIT_ATOMIC_ARTILLERY_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="6"/>
+        <Row Name="ICON_UNIT_SUPER_HELICOPTER_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="20"/>
+        <Row Name="ICON_UNIT_ARMORED_HORSEMAN_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="43"/>
+        <Row Name="ICON_UNIT_MISSILE_VEHICLE_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="23"/>
+        <Row Name="ICON_UNIT_RIFLED_CANNON_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="54"/>
+        <Row Name="ICON_UNIT_LANDSHIP_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="12"/>
+				
+		<!-- <Row Name="ICON_UNIT_LEMBOS"                   	Atlas="ICON_ATLAS_UNITS" Index="27"/> -->
+		<!-- <Row Name="ICON_UNIT_COG"                  		Atlas="ICON_ATLAS_UNITS" Index="55"/> -->
+		<!-- <Row Name="ICON_UNIT_TORPEDO_GUNBOAT"           Atlas="ICON_ATLAS_UNITS" Index="66"/> -->
+		<!-- <Row Name="ICON_UNIT_MISSILE_FRIGATE"           Atlas="ICON_ATLAS_UNITS" Index="85"/> -->
+		
+		<!-- <Row Name="ICON_UNIT_GALLEASS"               	Atlas="ICON_ATLAS_UNITS" Index="41"/> -->
+		<!-- <Row Name="ICON_UNIT_ARMORED_CRUISER"           Atlas="ICON_ATLAS_UNITS" Index="73"/> -->
+		<!-- <Row Name="ICON_UNIT_BATTLECRUISER"             Atlas="ICON_ATLAS_UNITS" Index="93"/> -->
+		
+		<Row Name="ICON_UNIT_LEMBOS_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="25"/>
+		<Row Name="ICON_UNIT_COG_PORTRAIT"                      Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="53"/>
+		<Row Name="ICON_UNIT_TORPEDO_GUNBOAT_PORTRAIT"          Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="0"/>
+		<Row Name="ICON_UNIT_MISSILE_FRIGATE_PORTRAIT"          Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="19"/>
+		
+		<Row Name="ICON_UNIT_GALLEASS_PORTRAIT"                 Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="39"/>
+		<Row Name="ICON_UNIT_ARMORED_CRUISER_PORTRAIT"          Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="7"/>
+		<Row Name="ICON_UNIT_BATTLECRUISER_PORTRAIT"            Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="27"/>
+    </IconDefinitions>
+</GameData>

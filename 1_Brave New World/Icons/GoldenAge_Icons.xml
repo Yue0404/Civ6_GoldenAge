@@ -1,0 +1,467 @@
+<GameInfo>	
+	<IconAliases>
+	    <Row Name="ICON_POLICY_LIVELIHOOD_ARMY" OtherName="ICON_POLICY_MILITARY"/>
+		<Row Name="ICON_POLICY_AIRFORCE" OtherName="ICON_POLICY_MILITARY"/>
+		<Row Name="ICON_POLICY_TRAINING" OtherName="ICON_POLICY_MILITARY"/>
+		<Row Name="ICON_POLICY_SPECIAL_FORCES" OtherName="ICON_POLICY_MILITARY"/>
+		<Row Name="ICON_POLICY_PLUNDER" OtherName="ICON_POLICY_MILITARY"/>
+		<Row Name="ICON_POLICY_RESOURCE_RECYCLE" OtherName="ICON_POLICY_MILITARY"/>
+		<Row Name="ICON_POLICY_STRANDING_ARMY" OtherName="ICON_POLICY_MILITARY"/>
+		<Row Name="ICON_POLICY_OPTIMAL_MANAGEMENT" OtherName="ICON_POLICY_MILITARY"/>		
+		<Row Name="ICON_POLICY_GA_RAPID_MARCH" OtherName="ICON_POLICY_MILITARY"/>
+		<Row Name="ICON_POLICY_GA_SURROUND" OtherName="ICON_POLICY_MILITARY"/>
+		<Row Name="ICON_POLICY_GA_EMBATTLE" OtherName="ICON_POLICY_MILITARY"/>
+		<Row Name="ICON_POLICY_GA_AMBUSH" OtherName="ICON_POLICY_MILITARY"/>
+		<Row Name="ICON_POLICY_GA_GUERRILLA" OtherName="ICON_POLICY_MILITARY"/>
+		<Row Name="ICON_POLICY_GA_PROTECTION_SUIT" OtherName="ICON_POLICY_MILITARY"/>
+		<Row Name="ICON_POLICY_GA_RATIONS" OtherName="ICON_POLICY_MILITARY"/>
+		<Row Name="ICON_POLICY_GA_MILITARY_SUPPLIES" OtherName="ICON_POLICY_MILITARY"/>	
+		<Row Name="ICON_POLICY_RESOURCE_HORSES" OtherName="ICON_POLICY_MILITARY"/>	
+		<Row Name="ICON_POLICY_RESOURCE_COAL" OtherName="ICON_POLICY_MILITARY"/>	
+		<Row Name="ICON_POLICY_RESOURCE_ALUMINUM" OtherName="ICON_POLICY_MILITARY"/>	
+		<Row Name="ICON_POLICY_RESOURCE_URANIUM" OtherName="ICON_POLICY_MILITARY"/>		
+		<Update>
+	        <Where Name="ICON_POLICY_STRATEGOS"/> <Set OtherName="ICON_POLICY_MILITARY"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_NAVIGATION"/> <Set OtherName="ICON_POLICY_MILITARY"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_MILITARY_ORGANIZATION"/> <Set OtherName="ICON_POLICY_MILITARY"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_FIVE_YEAR_PLAN"/> <Set OtherName="ICON_POLICY_MILITARY"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_CRAFTSMEN"/> <Set OtherName="ICON_POLICY_MILITARY"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_NAVAL_INFRASTRUCTURE"/> <Set OtherName="ICON_POLICY_MILITARY"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_RELIGIOUS_ORDERS"/> <Set OtherName="ICON_POLICY_MILITARY"/>
+	    </Update>	
+		<Row Name="ICON_POLICY_URBAN_EXPANSION" OtherName="ICON_POLICY_ECONOMIC"/>
+		<Row Name="ICON_POLICY_CIVIL_TRADE" OtherName="ICON_POLICY_ECONOMIC"/>
+		<Row Name="ICON_POLICY_MEDIA_TRANSMISSION" OtherName="ICON_POLICY_ECONOMIC"/>
+		<Row Name="ICON_POLICY_CAPIAL_CONSTRUCTION" OtherName="ICON_POLICY_ECONOMIC"/>
+		<Row Name="ICON_POLICY_RELAXATION" OtherName="ICON_POLICY_ECONOMIC"/>
+		<Row Name="ICON_POLICY_SACRED" OtherName="ICON_POLICY_ECONOMIC"/>
+		<Row Name="ICON_POLICY_SEAFAIRING" OtherName="ICON_POLICY_MILITARY"/>
+		<Row Name="ICON_POLICY_ARTS_HUMANITIES" OtherName="ICON_POLICY_ECONOMIC"/>
+		<Row Name="ICON_POLICY_MANUFACTURE" OtherName="ICON_POLICY_MILITARY"/>
+		<Row Name="ICON_POLICY_BUSINESS" OtherName="ICON_POLICY_ECONOMIC"/>
+		<Row Name="ICON_POLICY_MOTIVATION" OtherName="ICON_POLICY_ECONOMIC"/>	
+        <Row Name="ICON_POLICY_FREE_TRIBE" OtherName="ICON_POLICY_ECONOMIC"/>
+        <Row Name="ICON_POLICY_TONDEN" OtherName="ICON_POLICY_ECONOMIC"/>
+		<Row Name="ICON_POLICY_FOOD_MASS_PRODUCTION" OtherName="ICON_POLICY_ECONOMIC"/>	
+        <Row Name="ICON_POLICY_FISHERY" OtherName="ICON_POLICY_ECONOMIC"/>		
+		<Row Name="ICON_POLICY_TOURING_PERFORMANCES" OtherName="ICON_POLICY_ECONOMIC"/>	
+		<Row Name="ICON_POLICY_MODERN_CATHEDRAL" OtherName="ICON_POLICY_ECONOMIC"/>	
+		<Row Name="ICON_POLICY_MASS_MIGRATION" OtherName="ICON_POLICY_ECONOMIC"/>	
+        <Update>
+	        <Where Name="ICON_POLICY_NOBEL_PRIZE"/> <Set OtherName="ICON_POLICY_ECONOMIC"/>
+	    </Update>
+		
+		<Update>
+	        <Where Name="ICON_POLICY_INSPIRATION"/> <Set OtherName="ICON_POLICY_ECONOMIC"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_REVELATION"/> <Set OtherName="ICON_POLICY_ECONOMIC"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_TRAVELING_MERCHANTS"/> <Set OtherName="ICON_POLICY_ECONOMIC"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_INVENTION"/> <Set OtherName="ICON_POLICY_ECONOMIC"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_LITERARY_TRADITION"/> <Set OtherName="ICON_POLICY_ECONOMIC"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_FRESCOES"/> <Set OtherName="ICON_POLICY_ECONOMIC"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_SYMPHONIES"/> <Set OtherName="ICON_POLICY_ECONOMIC"/>
+	    </Update>	
+
+		<Row Name="ICON_POLICY_COLLECTIVE_PRODUCTION" OtherName="ICON_POLICY_WILDCARD"/>
+        <Row Name="ICON_POLICY_RESEARCH_FUNDING" OtherName="ICON_POLICY_WILDCARD"/>	
+		<Row Name="ICON_POLICY_BIG_EXPANSION" OtherName="ICON_POLICY_WILDCARD"/>
+        <Row Name="ICON_POLICY_PROSPEROUS_PORT" OtherName="ICON_POLICY_WILDCARD"/>	
+		<Row Name="ICON_POLICY_CHURCH_COMMUNITY" OtherName="ICON_POLICY_WILDCARD"/>
+
+		<Update>
+	        <Where Name="ICON_POLICY_CARAVANSARIES"/> <Set OtherName="ICON_POLICY_DIPLOMATIC"/>
+	    </Update>	
+		<Update>
+	        <Where Name="ICON_POLICY_TRIANGULAR_TRADE"/> <Set OtherName="ICON_POLICY_DIPLOMATIC"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_ECOMMERCE"/> <Set OtherName="ICON_POLICY_DIPLOMATIC"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_MARKET_ECONOMY"/> <Set OtherName="ICON_POLICY_DIPLOMATIC"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_TRADE_CONFEDERATION"/> <Set OtherName="ICON_POLICY_DIPLOMATIC"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_ONLINE_COMMUNITIES"/> <Set OtherName="ICON_POLICY_DIPLOMATIC"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_MEDIA_TRANSMISSION"/> <Set OtherName="ICON_POLICY_DIPLOMATIC"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_PUBLIC_TRANSPORT"/> <Set OtherName="ICON_POLICY_DIPLOMATIC"/>
+	    </Update>
+		<Row Name="ICON_POLICY_CULTURAL_EXCHANGE" OtherName="ICON_POLICY_DIPLOMATIC"/>	
+		<Update>
+	        <Where Name="ICON_POLICY_FUTURE_VICTORY_DIPLOMATIC"/> <Set OtherName="ICON_POLICY_DIPLOMATIC"/>
+	    </Update>
+		<Row Name="ICON_POLICY_CONCILIATION" OtherName="ICON_POLICY_DIPLOMATIC"/>	
+		<Row Name="ICON_POLICY_DIPLOMATIC_OFFICE" OtherName="ICON_POLICY_DIPLOMATIC"/>		
+		<Row Name="ICON_POLICY_DOMESTIC_FOOD_LV1" OtherName="ICON_POLICY_DIPLOMATIC"/>
+		<Row Name="ICON_POLICY_DOMESTIC_FOOD_LV2" OtherName="ICON_POLICY_DIPLOMATIC"/>
+		<Row Name="ICON_POLICY_DOMESTIC_FOOD_LV3" OtherName="ICON_POLICY_DIPLOMATIC"/>
+		<Row Name="ICON_POLICY_INTERNATIONAL_FOOD_LV1" OtherName="ICON_POLICY_DIPLOMATIC"/>
+		<Row Name="ICON_POLICY_INTERNATIONAL_FOOD_LV2" OtherName="ICON_POLICY_DIPLOMATIC"/>
+		<Row Name="ICON_POLICY_INTERNATIONAL_FOOD_LV3" OtherName="ICON_POLICY_DIPLOMATIC"/>
+	</IconAliases>
+	
+	<IconDefinitions>
+		<!--项目-->
+		<Row Name="ICON_PROJECT_ALUMINUM_GOLD"       Atlas="ICON_ATLAS_RESOURCES" Index="40"/>
+        <Row Name="ICON_PROJECT_COAL_GOLD"           Atlas="ICON_ATLAS_RESOURCES" Index="41"/>
+        <Row Name="ICON_PROJECT_HORSES_GOLD"         Atlas="ICON_ATLAS_RESOURCES" Index="42"/>
+        <Row Name="ICON_PROJECT_IRON_GOLD"           Atlas="ICON_ATLAS_RESOURCES" Index="43"/>
+        <Row Name="ICON_PROJECT_NITER_GOLD"          Atlas="ICON_ATLAS_RESOURCES" Index="44"/>
+        <Row Name="ICON_PROJECT_OIL_GOLD"            Atlas="ICON_ATLAS_RESOURCES" Index="45"/>
+        <Row Name="ICON_PROJECT_URANIUM_GOLD"        Atlas="ICON_ATLAS_RESOURCES" Index="46"/>
+		<Row Name="ICON_PROJECT_MOVE_CAPITAL"        Atlas="ICON_ATLAS_XP2_PROJECTS"   Index="5"/>
+		<Row Name="ICON_PROJECT_CLOSE_COAL_POWER_PLANT" Atlas="ICON_ATLAS_XP2_PROJECTS" Index="16"/>
+		<Row Name="ICON_PROJECT_CLOSE_OIL_POWER_PLANT" Atlas="ICON_ATLAS_XP2_PROJECTS" Index="14"/>
+		<Row Name="ICON_PROJECT_CLOSE_NUCLEAR_POWER_PLANT" Atlas="ICON_ATLAS_XP2_PROJECTS" Index="15"/>
+		
+		<Row Name="ICON_PROJECT_SATELLITE_ESPIONAGE"       		Atlas="ICON_ATLAS_PROJECTS" Index="1"/>
+		<Row Name="ICON_PROJECT_SATELLITE_MILITARY"      		Atlas="ICON_ATLAS_PROJECTS" Index="1"/>
+		<Row Name="ICON_PROJECT_SATELLITE_NAVIGATION"    	  	Atlas="ICON_ATLAS_PROJECTS" Index="1"/>
+		<Row Name="ICON_PROJECT_SATELLITE_WEATHER"       		Atlas="ICON_ATLAS_PROJECTS" Index="1"/>
+		<Row Name="ICON_PROJECT_SATELLITE_BROADCAST"      		Atlas="ICON_ATLAS_PROJECTS" Index="1"/>
+		<Row Name="ICON_PROJECT_SATELLITE_COMMUNICATION"      	Atlas="ICON_ATLAS_PROJECTS" Index="1"/>
+		<Row Name="ICON_PROJECT_SATELLITE_SOLAR_POWER"      	Atlas="ICON_ATLAS_PROJECTS" Index="1"/>
+		
+		<Row Name="ICON_PROJECT_VILLAGE_TOWN"       		Atlas="ICON_ATLAS_DIPLOACTIONS" Index="0"/>
+		<Row Name="ICON_PROJECT_TOWN_COUNTY"       			Atlas="ICON_ATLAS_DIPLOACTIONS" Index="0"/>
+		<Row Name="ICON_PROJECT_COUNTY_CITY"       			Atlas="ICON_ATLAS_DIPLOACTIONS" Index="0"/>
+		<Row Name="ICON_PROJECT_CITY_METROPOLIS"       		Atlas="ICON_ATLAS_DIPLOACTIONS" Index="0"/>
+		<Row Name="ICON_PROJECT_METROPOLIS_MEGALOPOLIS"     Atlas="ICON_ATLAS_DIPLOACTIONS" Index="0"/>
+		
+		<Row Name="ICON_PROJECT_SACRIFICE"       Atlas="ICON_ATLAS_PROJECTS" Index="10"/>
+		
+		<Row Name="ICON_GA_PROJECT_WONDER_VICTORY1"       Atlas="ICON_ATLAS_WONDERS" Index="2"/>
+		<Row Name="ICON_GA_PROJECT_WONDER_VICTORY2"       Atlas="ICON_ATLAS_WONDERS" Index="25"/>
+		
+		<!--城市政策-->	
+		<Row Name="ICON_BUILDING_CITIPOLICY_NONE"       		Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="24"/>
+		<Row Name="ICON_BUILDING_CITIPOLICY_YIELD_SCIENCE"      Atlas="ICON_ATLAS_YIELDS" Index="27"/>
+		<Row Name="ICON_BUILDING_CITIPOLICY_YIELD_CULTURE"      Atlas="ICON_ATLAS_YIELDS" Index="28"/>
+		<Row Name="ICON_BUILDING_CITIPOLICY_YIELD_FOOD"       	Atlas="ICON_ATLAS_YIELDS" Index="24"/>
+		<Row Name="ICON_BUILDING_CITIPOLICY_YIELD_PRODUCTION"   Atlas="ICON_ATLAS_YIELDS" Index="25"/>
+		<Row Name="ICON_BUILDING_CITIPOLICY_YIELD_FAITH"       	Atlas="ICON_ATLAS_YIELDS" Index="29"/>
+		<Row Name="ICON_BUILDING_CITIPOLICY_YIELD_GOLD"       	Atlas="ICON_ATLAS_YIELDS" Index="26"/>
+		
+		<Row Name="ICON_PROJECT_CITIPOLICY_NONE_TO_YIELD_SCIENCE"       Atlas="ICON_ATLAS_YIELDS" Index="27"/>
+		<Row Name="ICON_PROJECT_CITIPOLICY_NONE_TO_YIELD_CULTURE"       Atlas="ICON_ATLAS_YIELDS" Index="28"/>
+		<Row Name="ICON_PROJECT_CITIPOLICY_NONE_TO_YIELD_FOOD"       	Atlas="ICON_ATLAS_YIELDS" Index="24"/>
+		<Row Name="ICON_PROJECT_CITIPOLICY_NONE_TO_YIELD_PRODUCTION"    Atlas="ICON_ATLAS_YIELDS" Index="25"/>
+		<Row Name="ICON_PROJECT_CITIPOLICY_NONE_TO_YIELD_FAITH"       	Atlas="ICON_ATLAS_YIELDS" Index="29"/>
+		<Row Name="ICON_PROJECT_CITIPOLICY_NONE_TO_YIELD_GOLD"       	Atlas="ICON_ATLAS_YIELDS" Index="26"/>
+		
+		<Row Name="ICON_PROJECT_CITIPOLICY_YIELD_SCIENCE_TO_NONE"       Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="24"/>
+		<Row Name="ICON_PROJECT_CITIPOLICY_YIELD_CULTURE_TO_NONE"       Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="24"/>
+		<Row Name="ICON_PROJECT_CITIPOLICY_YIELD_FOOD_TO_NONE"       	Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="24"/>
+		<Row Name="ICON_PROJECT_CITIPOLICY_YIELD_PRODUCTION_TO_NONE"    Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="24"/>
+		<Row Name="ICON_PROJECT_CITIPOLICY_YIELD_FAITH_TO_NONE"       	Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="24"/>
+		<Row Name="ICON_PROJECT_CITIPOLICY_YIELD_GOLD_TO_NONE"       	Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="24"/>
+		
+		<!--政策-->
+		<Row Name="ICON_POLICY_LIVELIHOOD_ARMY" Atlas="ICON_ATLAS_POLICIES" Index="1"/>
+		<Row Name="ICON_POLICY_AIRFORCE" Atlas="ICON_ATLAS_POLICIES" Index="1"/>
+		<Row Name="ICON_POLICY_TRAINING" Atlas="ICON_ATLAS_POLICIES" Index="1"/>
+		<Row Name="ICON_POLICY_SPECIAL_FORCES" Atlas="ICON_ATLAS_POLICIES" Index="1"/>
+		<Row Name="ICON_POLICY_PLUNDER" Atlas="ICON_ATLAS_POLICIES" Index="1"/>
+		<Row Name="ICON_POLICY_RESOURCE_RECYCLE" Atlas="ICON_ATLAS_POLICIES" Index="1"/>
+		<Row Name="ICON_POLICY_STRANDING_ARMY" Atlas="ICON_ATLAS_POLICIES" Index="1"/>
+		<Row Name="ICON_POLICY_OPTIMAL_MANAGEMENT" Atlas="ICON_ATLAS_POLICIES" Index="1"/>
+		<Row Name="ICON_POLICY_WATER_CONSERVANCY" Atlas="ICON_ATLAS_POLICIES" Index="1"/>		
+		<Row Name="ICON_POLICY_GA_RAPID_MARCH" Atlas="ICON_ATLAS_POLICIES" Index="1"/>
+		<Row Name="ICON_POLICY_GA_SURROUND" Atlas="ICON_ATLAS_POLICIES" Index="1"/>
+		<Row Name="ICON_POLICY_GA_EMBATTLE" Atlas="ICON_ATLAS_POLICIES" Index="1"/>
+		<Row Name="ICON_POLICY_GA_AMBUSH" Atlas="ICON_ATLAS_POLICIES" Index="1"/>
+		<Row Name="ICON_POLICY_GA_GUERRILLA" Atlas="ICON_ATLAS_POLICIES" Index="1"/>
+		<Row Name="ICON_POLICY_GA_PROTECTION_SUIT" Atlas="ICON_ATLAS_POLICIES" Index="1"/>
+		<Row Name="ICON_POLICY_GA_RATIONS" Atlas="ICON_ATLAS_POLICIES" Index="1"/>
+		<Row Name="ICON_POLICY_GA_MILITARY_SUPPLIES" Atlas="ICON_ATLAS_POLICIES" Index="1"/>	
+		<Row Name="ICON_POLICY_RESOURCE_HORSES" Atlas="ICON_ATLAS_POLICIES" Index="1"/>	
+		<Row Name="ICON_POLICY_RESOURCE_COAL" Atlas="ICON_ATLAS_POLICIES" Index="1"/>	
+		<Row Name="ICON_POLICY_RESOURCE_ALUMINUM" Atlas="ICON_ATLAS_POLICIES" Index="1"/>	
+		<Row Name="ICON_POLICY_RESOURCE_URANIUM" Atlas="ICON_ATLAS_POLICIES" Index="1"/>			
+		<Update>
+	        <Where Name="ICON_POLICY_STRATEGOS"/> <Set Index="1"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_NAVIGATION"/> <Set Index="1"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_MILITARY_ORGANIZATION"/> <Set Index="1"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_CRAFTSMEN"/> <Set Index="1"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_NAVAL_INFRASTRUCTURE"/> <Set Index="1"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_FIVE_YEAR_PLAN"/> <Set Index="1"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_CARAVANSARIES"/> <Set Index="2"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_TRIANGULAR_TRADE"/> <Set Index="2"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_ECOMMERCE"/> <Set Index="2"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_MARKET_ECONOMY"/> <Set Index="2"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_TRADE_CONFEDERATION"/> <Set Index="2"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_ONLINE_COMMUNITIES"/> <Set Index="2"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_MEDIA_TRANSMISSION"/> <Set Index="2"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_PUBLIC_TRANSPORT"/> <Set Index="2"/>
+	    </Update>
+		<Row Name="ICON_POLICY_CULTURAL_EXCHANGE" Atlas="ICON_ATLAS_POLICIES" Index="2"/>
+		<Row Name="ICON_POLICY_CONCILIATION" Atlas="ICON_ATLAS_POLICIES" Index="2"/>
+		<Row Name="ICON_POLICY_DOMESTIC_FOOD_LV1" Atlas="ICON_ATLAS_POLICIES" Index="2"/>
+		<Row Name="ICON_POLICY_DOMESTIC_FOOD_LV2" Atlas="ICON_ATLAS_POLICIES" Index="2"/>
+		<Row Name="ICON_POLICY_DOMESTIC_FOOD_LV3" Atlas="ICON_ATLAS_POLICIES" Index="2"/>
+		<Row Name="ICON_POLICY_INTERNATIONAL_FOOD_LV1" Atlas="ICON_ATLAS_POLICIES" Index="2"/>
+		<Row Name="ICON_POLICY_INTERNATIONAL_FOOD_LV2" Atlas="ICON_ATLAS_POLICIES" Index="2"/>
+		<Row Name="ICON_POLICY_INTERNATIONAL_FOOD_LV3" Atlas="ICON_ATLAS_POLICIES" Index="2"/>		
+		<Row Name="ICON_POLICY_DIPLOMATIC_OFFICE" Atlas="ICON_ATLAS_POLICIES" Index="2"/>
+		<Update>
+	        <Where Name="ICON_POLICY_FUTURE_VICTORY_DIPLOMATIC"/> <Set Index="2"/>
+	    </Update>
+		<Row Name="ICON_POLICY_URBAN_EXPANSION" Atlas="ICON_ATLAS_POLICIES" Index="0"/>
+		<Row Name="ICON_POLICY_CIVIL_TRADE" Atlas="ICON_ATLAS_POLICIES" Index="0"/>
+		<Row Name="ICON_POLICY_MEDIA_TRANSMISSION" Atlas="ICON_ATLAS_POLICIES" Index="0"/>
+		<Row Name="ICON_POLICY_CAPIAL_CONSTRUCTION" Atlas="ICON_ATLAS_POLICIES" Index="0"/>
+		<Row Name="ICON_POLICY_RELAXATION" Atlas="ICON_ATLAS_POLICIES" Index="0"/>
+		<Row Name="ICON_POLICY_SACRED" Atlas="ICON_ATLAS_POLICIES" Index="0"/>
+		<Row Name="ICON_POLICY_SEAFAIRING" Atlas="ICON_ATLAS_POLICIES" Index="1"/>
+		<Row Name="ICON_POLICY_ARTS_HUMANITIES" Atlas="ICON_ATLAS_POLICIES" Index="0"/>
+		<Row Name="ICON_POLICY_MANUFACTURE" Atlas="ICON_ATLAS_POLICIES" Index="1"/>
+		<Row Name="ICON_POLICY_BUSINESS" Atlas="ICON_ATLAS_POLICIES" Index="0"/>
+		<Row Name="ICON_POLICY_MOTIVATION" Atlas="ICON_ATLAS_POLICIES" Index="0"/>	
+		<Row Name="ICON_POLICY_FREE_TRIBE" Atlas="ICON_ATLAS_POLICIES" Index="0"/>	
+		<Row Name="ICON_POLICY_TONDEN" Atlas="ICON_ATLAS_POLICIES" Index="0"/>
+		<Row Name="ICON_POLICY_FOOD_MASS_PRODUCTION" Atlas="ICON_ATLAS_POLICIES" Index="0"/>	
+		<Row Name="ICON_POLICY_FISHERY" Atlas="ICON_ATLAS_POLICIES" Index="0"/>	
+		<Row Name="ICON_POLICY_TOURING_PERFORMANCES" Atlas="ICON_ATLAS_POLICIES" Index="0"/>	
+		<Row Name="ICON_POLICY_MODERN_CATHEDRAL" Atlas="ICON_ATLAS_POLICIES" Index="0"/>	
+		<Row Name="ICON_POLICY_MASS_MIGRATION" Atlas="ICON_ATLAS_POLICIES" Index="0"/>	
+		<Update>
+	        <Where Name="ICON_POLICY_NOBEL_PRIZE"/> <Set Index="0"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_INSPIRATION"/> <Set Index="0"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_REVELATION"/> <Set Index="0"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_TRAVELING_MERCHANTS"/> <Set Index="0"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_INVENTION"/> <Set Index="0"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_LITERARY_TRADITION"/> <Set Index="0"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_FRESCOES"/> <Set Index="0"/>
+	    </Update>
+		<Update>
+	        <Where Name="ICON_POLICY_SYMPHONIES"/> <Set Index="0"/>
+	    </Update>	
+		
+		<Row Name="ICON_POLICY_COLLECTIVE_PRODUCTION" Atlas="ICON_ATLAS_POLICIES" Index="3"/>
+        <Row Name="ICON_POLICY_RESEARCH_FUNDING" Atlas="ICON_ATLAS_POLICIES" Index="3"/>	
+        <Update>
+	        <Where Name="ICON_POLICY_COLLECTIVIZATION"/> <Set Index="3"/>
+	    </Update>	
+        <Update>
+	        <Where Name="ICON_POLICY_THIRD_ALTERNATIVE"/> <Set Index="3"/>
+	    </Update>	
+        <Update>
+	        <Where Name="ICON_POLICY_NEW_DEAL"/> <Set Index="3"/>
+	    </Update>	
+		<Update>
+	        <Where Name="ICON_POLICY_WARS_OF_RELIGION"/> <Set Index="3"/>
+	    </Update>	
+		<Update>
+	        <Where Name="ICON_POLICY_RELIGIOUS_ORDERS"/> <Set Index="1"/>
+	    </Update>	
+		<Update>
+	        <Where Name="ICON_POLICY_CIVIL_PRESTIGE"/> <Set Index="3"/>
+	    </Update>	
+		<Update>
+	        <Where Name="ICON_POLICY_MEDINA_QUARTER"/> <Set Index="3"/>
+	    </Update>	
+		<Row Name="ICON_POLICY_BIG_EXPANSION" Atlas="ICON_ATLAS_POLICIES" Index="3"/>
+		<Row Name="ICON_POLICY_PROSPEROUS_PORT" Atlas="ICON_ATLAS_POLICIES" Index="3"/>
+        <Row Name="ICON_POLICY_CHURCH_COMMUNITY" Atlas="ICON_ATLAS_POLICIES" Index="3"/>
+		
+		<!--万神殿与宗教-->
+		<Update>
+	        <Where Name="ICON_BELIEF_MONASTIC_ISOLATION"/> <Set Index="23"/>
+	    </Update>	
+        <Update>
+	        <Where Name="ICON_BELIEF_BURIAL_GROUNDS"/> <Set Index="23"/>
+	    </Update>	
+		<Update>
+	        <Where Name="ICON_BELIEF_ITINERANT_PREACHERS"/> <Set Index="23"/>
+	    </Update>
+        <!-- <Update> -->
+	        <!-- <Where Name="ICON_BELIEF_DIVINE_INSPIRATION"/> <Set Index="25"/> -->
+	    <!-- </Update>	 -->
+        <!-- <Update> -->
+	        <!-- <Where Name="ICON_BELIEF_RELIQUARIES"/> <Set Index="25"/> -->
+	    <!-- </Update>			 -->
+        <Update>
+	        <Where Name="ICON_BELIEF_RELIGIOUS_SETTLEMENTS"/> <Set Index="25"/>
+	    </Update>	
+		<Update>
+	        <Where Name="ICON_BELIEF_JESUIT_EDUCATION"/> <Set Index="25"/>
+	    </Update>
+        <Update>
+	        <Where Name="ICON_BELIEF_GOD_OF_WAR"/> <Set Index="25"/>
+	    </Update>	
+        <Update>
+	        <Where Name="ICON_BELIEF_DIVINE_SPARK"/> <Set Index="25"/>
+	    </Update>		
+        <Row Name="ICON_BELIEF_GOLDEN_ORAL_TRADITION"              Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="14"/>
+        <Row Name="ICON_BELIEF_GOLDEN_GODDESS_OF_THE_HARVEST"      Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="21"/>				
+		<Row Name="ICON_BELIEF_GOLDEN_SEA_GODDESS"               Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="3"/>
+		<Row Name="ICON_BELIEF_GOLDEN_GOD_OF_MOUNTAINS"               Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="10"/>
+		<Row Name="ICON_BELIEF_GOLDEN_NATURE_UNITY"               Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="5"/>
+		<Row Name="ICON_BELIEF_GOLDEN_PSALM"               Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="23"/>
+		<Row Name="ICON_BELIEF_GOLDEN_BURIAL_GROUNDS"               Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="23"/>
+		<Row Name="ICON_BELIEF_MANNA"               Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="23"/>
+		<Row Name="ICON_BELIEF_TWELVE_APOSTLES"               Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="24"/>
+		<Row Name="ICON_BELIEF_CHARITABLE_CONTRIBUTION"               Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="24"/>		
+		<Row Name="ICON_BELIEF_GOTHIC_CHURCH"               Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="22"/>
+		<Row Name="ICON_BELIEF_TAOIST_TEMPLE"               Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="22"/>
+		<Row Name="ICON_BELIEF_SACRED_SYMBOL"               Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="25"/>
+		<!--建筑-->
+		<Row Name="ICON_BUILDING_SCIENTIFIC_STATION"       Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS" Index="8"/>
+		<Row Name="ICON_BUILDING_SCIENTIFIC_STATION_FOW"       Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS_FOW" Index="8"/>
+		<Row Name="ICON_BUILDING_ARTISTS_ASSOCIATION"       Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS" Index="7"/>
+		<Row Name="ICON_BUILDING_ARTISTS_ASSOCIATION_FOW"       Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS_FOW" Index="7"/>		
+		<Row Name="ICON_BUILDING_SUPER_FACTORY"       Atlas="ICON_ATLAS_EXPANSION_2_BUILDINGS" Index="6"/>
+		<Row Name="ICON_BUILDING_SUPER_FACTORY_FOW"       Atlas="ICON_ATLAS_EXPANSION_2_BUILDINGS_FOW" Index="6"/>
+		
+		<Row Name="ICON_BUILDING_GOTHIC_CHURCH"            Atlas="ICON_ATLAS_BUILDINGS" Index="45"/>
+		<Row Name="ICON_BUILDING_GOTHIC_CHURCH_FOW"           Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="45"/>
+		<Row Name="ICON_BUILDING_TAOIST_TEMPLE"            Atlas="ICON_ATLAS_BUILDINGS" Index="47"/>
+		<Row Name="ICON_BUILDING_TAOIST_TEMPLE_FOW"           Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="47"/>
+				
+		<Row Name="ICON_BUILDING_NATIONAL_LIBRARY"              Atlas="ICON_ATLAS_BUILDINGS" Index="4"/>
+		<Row Name="ICON_BUILDING_NATIONAL_LIBRARY_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="4"/>
+		<Row Name="ICON_BUILDING_NATIONAL_UNIVERSITY"              Atlas="ICON_ATLAS_BUILDINGS" Index="18"/>
+		<Row Name="ICON_BUILDING_NATIONAL_UNIVERSITY_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="18"/>
+		<Row Name="ICON_BUILDING_NATIONAL_RESEARCH_LAB"              Atlas="ICON_ATLAS_BUILDINGS" Index="37"/>
+		<Row Name="ICON_BUILDING_NATIONAL_RESEARCH_LAB_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="37"/>
+		<Row Name="ICON_BUILDING_NATIONAL_MARKET"              Atlas="ICON_ATLAS_BUILDINGS" Index="11"/>
+		<Row Name="ICON_BUILDING_NATIONAL_MARKET_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="11"/>
+		<Row Name="ICON_BUILDING_NATIONAL_BANK"              Atlas="ICON_ATLAS_BUILDINGS" Index="23"/>
+		<Row Name="ICON_BUILDING_NATIONAL_BANK_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="23"/>
+		<Row Name="ICON_BUILDING_NATIONAL_STOCK_EXCHANGE"              Atlas="ICON_ATLAS_BUILDINGS" Index="28"/>
+		<Row Name="ICON_BUILDING_NATIONAL_STOCK_EXCHANGE_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="28"/>
+		<Row Name="ICON_BUILDING_NATIONAL_WORKSHOP"              Atlas="ICON_ATLAS_BUILDINGS" Index="20"/>
+		<Row Name="ICON_BUILDING_NATIONAL_WORKSHOP_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="20"/>
+		<Row Name="ICON_BUILDING_NATIONAL_FACTORY"              Atlas="ICON_ATLAS_BUILDINGS" Index="26"/>
+		<Row Name="ICON_BUILDING_NATIONAL_FACTORY_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="26"/>
+		<Row Name="ICON_BUILDING_NATIONAL_SHRINE"              Atlas="ICON_ATLAS_BUILDINGS" Index="5"/>
+		<Row Name="ICON_BUILDING_NATIONAL_SHRINE_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="5"/>
+		<Row Name="ICON_BUILDING_NATIONAL_TEMPLE"              Atlas="ICON_ATLAS_BUILDINGS" Index="14"/>
+		<Row Name="ICON_BUILDING_NATIONAL_TEMPLE_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="14"/>
+		<Row Name="ICON_BUILDING_NATIONAL_AMPHITHEATER"              Atlas="ICON_ATLAS_BUILDINGS" Index="16"/>
+		<Row Name="ICON_BUILDING_NATIONAL_AMPHITHEATER_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="16"/>
+		<Row Name="ICON_BUILDING_NATIONAL_MUSEUM"              Atlas="ICON_ATLAS_BUILDINGS" Index="25"/>
+		<Row Name="ICON_BUILDING_NATIONAL_MUSEUM_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="25"/>
+		<Row Name="ICON_BUILDING_NATIONAL_BROADCAST_CENTER"              Atlas="ICON_ATLAS_BUILDINGS" Index="35"/>
+		<Row Name="ICON_BUILDING_NATIONAL_BROADCAST_CENTER_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="35"/>
+		<Row Name="ICON_BUILDING_NATIONAL_BARRACKS"              Atlas="ICON_ATLAS_BUILDINGS" Index="2"/>
+		<Row Name="ICON_BUILDING_NATIONAL_BARRACKS_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="2"/>
+		<Row Name="ICON_BUILDING_NATIONAL_ARMORY"              Atlas="ICON_ATLAS_BUILDINGS" Index="21"/>
+		<Row Name="ICON_BUILDING_NATIONAL_ARMORY_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="21"/>
+		<Row Name="ICON_BUILDING_NATIONAL_MILITARY_ACADEMY"              Atlas="ICON_ATLAS_BUILDINGS" Index="29"/>
+		<Row Name="ICON_BUILDING_NATIONAL_MILITARY_ACADEMY_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="29"/>
+		<Row Name="ICON_BUILDING_NATIONAL_CATHEDRAL"              Atlas="ICON_ATLAS_BUILDINGS" Index="40"/>
+		<Row Name="ICON_BUILDING_NATIONAL_CATHEDRAL_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="40"/>
+		<Row Name="ICON_BUILDING_NATIONAL_POWER_STATION"              Atlas="ICON_ATLAS_BUILDINGS" Index="34"/>
+		<Row Name="ICON_BUILDING_NATIONAL_POWER_STATION_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="34"/>	
+        <Row Name="ICON_BUILDING_NATIONAL_ARENA"              Atlas="ICON_ATLAS_BUILDINGS" Index="8"/>
+		<Row Name="ICON_BUILDING_NATIONAL_ARENA_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="8"/>
+		<Row Name="ICON_BUILDING_NATIONAL_ZOO"              Atlas="ICON_ATLAS_BUILDINGS" Index="31"/>
+		<Row Name="ICON_BUILDING_NATIONAL_ZOO_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="31"/>
+		<Row Name="ICON_BUILDING_NATIONAL_STADIUM"              Atlas="ICON_ATLAS_BUILDINGS" Index="39"/>
+		<Row Name="ICON_BUILDING_NATIONAL_STADIUM_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="39"/>		
+		<Row Name="ICON_BUILDING_NATIONAL_LIGHTHOUSE"              Atlas="ICON_ATLAS_BUILDINGS" Index="10"/>
+		<Row Name="ICON_BUILDING_NATIONAL_LIGHTHOUSE_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="10"/>
+		<Row Name="ICON_BUILDING_NATIONAL_SHIPYARD"              Atlas="ICON_ATLAS_BUILDINGS" Index="22"/>
+		<Row Name="ICON_BUILDING_NATIONAL_SHIPYARD_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="22"/>
+		<Row Name="ICON_BUILDING_NATIONAL_SEAPORT"              Atlas="ICON_ATLAS_BUILDINGS" Index="33"/>
+		<Row Name="ICON_BUILDING_NATIONAL_SEAPORT_FOW"              Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="33"/>
+		
+		<Row Name="ICON_BUILDING_CITYHALL_VILLAGE"             Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS" Index="0"/>
+		<Row Name="ICON_BUILDING_CITYHALL_VILLAGE_FOW"         Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS_FOW" Index="0"/>
+		<Row Name="ICON_BUILDING_CITYHALL_TOWN"                Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS" Index="1"/>
+		<Row Name="ICON_BUILDING_CITYHALL_TOWN_FOW"            Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS_FOW" Index="1"/>
+		<Row Name="ICON_BUILDING_CITYHALL_COUNTY"              Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS" Index="2"/>
+		<Row Name="ICON_BUILDING_CITYHALL_COUNTY_FOW"          Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS_FOW" Index="2"/>
+		<Row Name="ICON_BUILDING_CITYHALL_CITY"              Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS" Index="5"/>
+		<Row Name="ICON_BUILDING_CITYHALL_CITY_FOW"          Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS_FOW" Index="5"/>
+		<Row Name="ICON_BUILDING_CITYHALL_METROPOLIS"              Atlas="ICON_ATLAS_EXPANSION_2_DISTRICT_BUILDINGS" Index="3"/>
+		<Row Name="ICON_BUILDING_CITYHALL_METROPOLIS_FOW"          Atlas="ICON_ATLAS_EXPANSION_2_BUILDINGS_FOW" Index="3"/>
+		<Row Name="ICON_BUILDING_CITYHALL_MEGALOPOLIS"              Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS" Index="6"/>
+		<Row Name="ICON_BUILDING_CITYHALL_MEGALOPOLIS_FOW"          Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS_FOW" Index="6"/>
+		
+		<Row Name="ICON_DISTRICT_NATIONAL_CAMPUS"                  Atlas="ICON_ATLAS_DISTRICTS" Index="2"/>
+		<Row Name="ICON_DISTRICT_NATIONAL_CAMPUS_FOW"                Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="2"/>
+		<Row Name="ICON_DISTRICT_NATIONAL_INDUSTRIAL_ZONE"                  Atlas="ICON_ATLAS_DISTRICTS" Index="9"/>
+		<Row Name="ICON_DISTRICT_NATIONAL_INDUSTRIAL_ZONE_FOW"                Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="9"/>
+		<Row Name="ICON_DISTRICT_NATIONAL_HOLY_SITE"                  Atlas="ICON_ATLAS_DISTRICTS" Index="1"/>
+		<Row Name="ICON_DISTRICT_NATIONAL_HOLY_SITE_FOW"                Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="1"/>
+		<Row Name="ICON_DISTRICT_NATIONAL_COMMERCIAL_HUB"                  Atlas="ICON_ATLAS_DISTRICTS" Index="6"/>
+		<Row Name="ICON_DISTRICT_NATIONAL_COMMERCIAL_HUB_FOW"                Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="6"/>
+		<Row Name="ICON_DISTRICT_NATIONAL_THEATER"                  Atlas="ICON_ATLAS_DISTRICTS" Index="8"/>
+		<Row Name="ICON_DISTRICT_NATIONAL_THEATER_FOW"                Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="8"/>		
+		<Row Name="ICON_DISTRICT_NATIONAL_ENTERTAINMENT_COMPLEX"                  Atlas="ICON_ATLAS_DISTRICTS" Index="7"/>
+		<Row Name="ICON_DISTRICT_NATIONAL_ENTERTAINMENT_COMPLEX_FOW"                Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="7"/>
+		<Row Name="ICON_DISTRICT_NATIONAL_ENCAMPMENT"                  Atlas="ICON_ATLAS_DISTRICTS" Index="3"/>
+		<Row Name="ICON_DISTRICT_NATIONAL_ENCAMPMENT_FOW"                Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="3"/>
+		<Row Name="ICON_DISTRICT_NATIONAL_HARBOR"                  Atlas="ICON_ATLAS_DISTRICTS" Index="4"/>
+		<Row Name="ICON_DISTRICT_NATIONAL_HARBOR_FOW"                Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="4"/>
+	</IconDefinitions>
+</GameInfo>

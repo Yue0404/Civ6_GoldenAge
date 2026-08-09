@@ -1,0 +1,228 @@
+<GameInfo>
+	<PolicyModifiers>
+		<Delete PolicyType='POLICY_TRIANGULAR_TRADE' ModifierId='TRIANGULARTRADE_TRADEROUTEFAITH'/>
+		<Delete PolicyType='POLICY_ECOMMERCE' ModifierId='ECOMMERCE_TRADEROUTEPRODUCTION'/>
+		<!-- <Row PolicyType='POLICY_CIVIL_TRADE' ModifierId='GOLDEN_CIVIL_TRADE_INTERNAL_TRADE_FOOD'/> -->
+		<!-- <Row PolicyType='POLICY_CIVIL_TRADE' ModifierId='GOLDEN_CIVIL_TRADE_INTERNAL_TRADE_PRODUCTION'/> -->
+		<Row PolicyType='POLICY_MEDIA_TRANSMISSION' ModifierId='GOLDEN_MEDIA_TRANSMISSION_TOURISM'/>   
+	  <Delete PolicyType='POLICY_MUSIC_CENSORSHIP' ModifierId='MUSIC_CENSORSHIP_AMENITY_LOSS'/>
+	  <Delete PolicyType='POLICY_PRAETORIUM' ModifierId='PRAETORIUM_GOVERNORIDENTITY'/>
+	  <Delete PolicyType='POLICY_COMMUNICATIONS_OFFICE' ModifierId='COMMUNICATIONS_OFFICE_GOVERNOR_IDENTITY_PER_TITLE'/>
+	  <Row PolicyType='POLICY_PRAETORIUM' ModifierId='GOLDEN_PRAETORIUM_DIPLOMATIC_FAVOR_PER_TURN'/>
+	  <Row PolicyType='POLICY_DIPLOMATIC_OFFICE' ModifierId='GOLDEN_PUBLIC_TRANSPORT_DIPLOMATIC_FAVOR_PER_TURN'/>
+	  <Row PolicyType='POLICY_COMMUNICATIONS_OFFICE' ModifierId='GOLDEN_COMMUNICATIONS_OFFICE_DIPLOMATIC_FAVOR_PER_TURN'/>	
+	  <Row PolicyType='POLICY_MERCHANT_CONFEDERATION' ModifierId='GOLDEN_MERCHANTCONFEDERATION_INFLUENCETOKEN_SCIENCE'/>
+	  <Row PolicyType='POLICY_CULTURAL_EXCHANGE' ModifierId='GOLDEN_CULTURAL_EXCHANGE_INFLUENCETOKEN_CULTURE'/>
+	  <Row PolicyType='POLICY_CULTURAL_EXCHANGE' ModifierId='GOLDEN_CULTURAL_EXCHANGE_INFLUENCETOKEN_FAITH'/>
+	  <Row PolicyType='POLICY_CONCILIATION' ModifierId='GOLDEN_CONCILIATION_INFLUENCEPOINTS'/>
+	  <Row PolicyType='POLICY_CONCILIATION' ModifierId='GUNBOATDIPLOMACY_OPENBORDERS'/>
+	</PolicyModifiers>
+	
+	<Modifiers>
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_CIVIL_TRADE_INTERNAL_TRADE_FOOD</ModifierId> -->
+			<!-- <ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_CIVIL_TRADE_INTERNAL_TRADE_PRODUCTION</ModifierId> -->
+			<!-- <ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType> -->
+		<!-- </Row> -->
+		<Row>
+			<ModifierId>GOLDEN_MEDIA_TRANSMISSION_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_TOURISM_MODIFIER</ModifierType>
+		</Row>
+	    <Row>
+			<ModifierId>GOLDEN_PRAETORIUM_DIPLOMATIC_FAVOR_PER_TURN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_EXTRA_FAVOR_PER_TURN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PUBLIC_TRANSPORT_DIPLOMATIC_FAVOR_PER_TURN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_EXTRA_FAVOR_PER_TURN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_COMMUNICATIONS_OFFICE_DIPLOMATIC_FAVOR_PER_TURN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_EXTRA_FAVOR_PER_TURN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MERCHANTCONFEDERATION_INFLUENCETOKEN_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_CHANGE_PER_USED_INFLUENCE_TOKEN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CULTURAL_EXCHANGE_INFLUENCETOKEN_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_CHANGE_PER_USED_INFLUENCE_TOKEN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CULTURAL_EXCHANGE_INFLUENCETOKEN_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_CHANGE_PER_USED_INFLUENCE_TOKEN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CONCILIATION_INFLUENCEPOINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN</ModifierType>
+		</Row>
+		
+		
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Update>
+		   <Where ModifierId="CARAVANSARIES_TRADEROUTEGOLD" Name="Amount"/>
+		   <Set Value="3"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="TRIANGULARTRADE_TRADEROUTEGOLD" Name="Amount"/>
+		   <Set Value="6"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="ECOMMERCE_TRADEROUTEGOLD" Name="Amount"/>
+		   <Set Value="9"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="TRADECONFEDERATION_TRADEROUTECULTURE" Name="Amount"/>
+		   <Set Value="2"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="TRADECONFEDERATION_TRADEROUTESCIENCE" Name="Amount"/>
+		   <Set Value="2"/>
+	    </Update>
+		<!-- <Update> -->
+		   <!-- <Where ModifierId="MARKETECONOMY_TRADEROUTECULTURE" Name="Amount"/> -->
+		   <!-- <Set Value="3"/> -->
+	    <!-- </Update> -->
+		<!-- <Update> -->
+		   <!-- <Where ModifierId="MARKETECONOMY_TRADEROUTESCIENCE" Name="Amount"/> -->
+		   <!-- <Set Value="3"/> -->
+	    <!-- </Update> -->
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_CIVIL_TRADE_INTERNAL_TRADE_FOOD</ModifierId> -->
+			<!-- <Name>YieldType</Name> -->
+			<!-- <Value>YIELD_FOOD</Value> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_CIVIL_TRADE_INTERNAL_TRADE_FOOD</ModifierId> -->
+			<!-- <Name>Amount</Name> -->
+			<!-- <Value>2</Value> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_CIVIL_TRADE_INTERNAL_TRADE_PRODUCTION</ModifierId> -->
+			<!-- <Name>YieldType</Name> -->
+			<!-- <Value>YIELD_PRODUCTION</Value> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_CIVIL_TRADE_INTERNAL_TRADE_PRODUCTION</ModifierId> -->
+			<!-- <Name>Amount</Name> -->
+			<!-- <Value>1</Value> -->
+		<!-- </Row> -->
+		<Update>
+		   <Where ModifierId="ONLINECOMMUNITIES_TOURISM" Name="Amount"/>
+		   <Set Value="100"/>
+	    </Update>
+		<Row>
+			<ModifierId>GOLDEN_MEDIA_TRANSMISSION_TOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>	
+		 <Row>
+			<ModifierId>GOLDEN_PRAETORIUM_DIPLOMATIC_FAVOR_PER_TURN</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_PUBLIC_TRANSPORT_DIPLOMATIC_FAVOR_PER_TURN</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_COMMUNICATIONS_OFFICE_DIPLOMATIC_FAVOR_PER_TURN</ModifierId>
+			<Name>Amount</Name>
+			<Value>9</Value>
+		</Row>
+	<Update>
+		<Where ModifierId="FUTURE_VICTORY_DIPLOMATIC_FAVOR_PER_TURN" Name="Amount"/>
+		<Set Value="12"/>
+	</Update>
+		<Row>
+			<ModifierId>GOLDEN_MERCHANTCONFEDERATION_INFLUENCETOKEN_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MERCHANTCONFEDERATION_INFLUENCETOKEN_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Update>
+		   <Where ModifierId="MERCHANTCONFEDERATION_INFLUENCETOKENGOLD" Name="Amount"/>
+		   <Set Value="1"/>
+	    </Update>
+		<Row>
+			<ModifierId>GOLDEN_CULTURAL_EXCHANGE_INFLUENCETOKEN_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CULTURAL_EXCHANGE_INFLUENCETOKEN_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CULTURAL_EXCHANGE_INFLUENCETOKEN_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_CULTURAL_EXCHANGE_INFLUENCETOKEN_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	
+        <Update>
+		   <Where ModifierId="RAJ_GOLDPERTRIBUTARY" Name="Amount"/>
+		   <Set Value="5"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="RAJ_FAITHPERTRIBUTARY" Name="Amount"/>
+		   <Set Value="5"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="RAJ_SCIENCEPERTRIBUTARY" Name="Amount"/>
+		   <Set Value="5"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="RAJ_CULTUREPERTRIBUTARY" Name="Amount"/>
+		   <Set Value="5"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="MARKETECONOMY_TRADEROUTEGOLDPERLUXURY" Name="Amount"/>
+		   <Set Value="2"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="MARKETECONOMY_TRADEROUTEGOLDPERSTRATEGIC" Name="YieldType"/>
+		   <Set Value="YIELD_PRODUCTION"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="MARKETECONOMY_TRADEROUTEGOLDPERSTRATEGIC" Name="Amount"/>
+		   <Set Value="2"/>
+	    </Update>		
+		<Row>
+			<ModifierId>GOLDEN_CONCILIATION_INFLUENCEPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Update>
+		   <Where ModifierId="CHARISMATICLEADER_INFLUENCEPOINTS" Name="Amount"/>
+		   <Set Value="3"/>
+	    </Update>	
+		<Update>
+		   <Where ModifierId="GUNBOATDIPLOMACY_INFLUENCEPOINTS" Name="Amount"/>
+		   <Set Value="9"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="INTERNATIONALSPACEAGENCY_SCIENCEPERTRIBUTARY" Name="Amount"/>
+		   <Set Value="3"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="COLLECTIVEACTIVISM_CULTUREPERTRIBUTARY" Name="Amount"/>
+		   <Set Value="3"/>
+	    </Update>	
+	</ModifierArguments>
+</GameInfo>

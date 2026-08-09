@@ -1,0 +1,65 @@
+<GameInfo>
+	<GlobalParameters>
+	<!--野蛮人经验（2）-->
+		<Replace Name="EXPERIENCE_MAX_BARB_LEVEL" Value="3" />
+	<!--单位获得经验最大值（8）-->
+		<Replace Name="EXPERIENCE_MAXIMUM_ONE_COMBAT" Value="20" />		
+	</GlobalParameters>
+	
+  <Types>
+      <!--摇滚乐队无法进入港口-->
+	  <Delete Type="PROMOTION_SURF_ROCK" Kind="KIND_PROMOTION"/>
+  </Types>
+    
+  <!--随着科技进步增加平民的使用次数和移动力-->	
+  <TechnologyModifiers>
+		<Row>
+			<TechnologyType>TECH_MACHINERY</TechnologyType>
+			<ModifierId>TRAIT_ADJUST_BUILDER_CHARGES</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_MILITARY_SCIENCE</TechnologyType>
+			<ModifierId>TRAIT_ADJUST_BUILDER_CHARGES</ModifierId>
+		</Row>
+		<Delete TechnologyType="TECH_COMBUSTION" ModifierId="COMBUSTION_ADJUST_EMBARKED_MOVEMENT"/>
+		<Row TechnologyType="TECH_COMBUSTION" ModifierId="GOLDEN_BUILDER_MOVEMENT"/>
+		<Row TechnologyType="TECH_COMBUSTION" ModifierId="GOLDEN_SETTLER_MOVEMENT"/>
+		<Row TechnologyType="TECH_COMBUSTION" ModifierId="GOLDEN_MILITARY_ENGINEER_MOVEMENT"/>
+	</TechnologyModifiers>
+	
+	<Modifiers>
+	    <Row>
+			<ModifierId>GOLDEN_BUILDER_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_UNIT_IS_BUILDER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SETTLER_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_UNIT_IS_SETTLER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MILITARY_ENGINEER_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_UNIT_IS_MILITARY_ENGINEER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+	    <Row>
+			<ModifierId>GOLDEN_BUILDER_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SETTLER_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MILITARY_ENGINEER_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+</GameInfo>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <!-- Almost all gameplay types should first be added to the types table. -->
+  <!-- This serves as a central way to reference any type -->
+	<Types>
+		<Row Type="UNIT_FLY_CITY" Kind="KIND_UNIT" />
+		<Row Type="PROJECT_MOVE_CITY" Kind="KIND_PROJECT"/>
+	</Types>
+	<Projects>
+		<Row ProjectType="PROJECT_MOVE_CITY" name="LOC_PROJECT_MOVE_CITY_NAME"  Description="LOC_PROJECT_MOVE_CITY_DESCRIPTION"
+			 ShortName="LOC_PROJECT_MOVE_CITY_SHORTNAME"   Cost="1" 
+			 AdvisorType="ADVISOR_GENERIC"	 />
+	</Projects>
+  <!-- Define the actual unit here. For examples of additional properties and values, look at Units.xml in /Base/Assets/Gameplay/Data/-->
+  <Units>
+    <Row>
+      <UnitType>UNIT_FLY_CITY</UnitType>
+      <Name>LOC_UNIT_FLY_CITY_NAME</Name>
+      <Description>LOC_UNIT_FLY_CITY_DESCRIPTION</Description>
+      <BaseSightRange>2</BaseSightRange>
+      <BaseMoves>10</BaseMoves>
+      <Domain>DOMAIN_LAND</Domain>
+      <FormationClass>FORMATION_CLASS_CIVILIAN</FormationClass>
+      <Cost>1</Cost>
+		<CanTrain>0</CanTrain>
+		<!--<PurchaseYield>YIELD_GOLD</PurchaseYield>-->
+		<FoundCity>1</FoundCity>
+	</Row>
+  </Units>
+	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_FLY_CITY" PrereqBuilding="BUILDING_MONUMENT" NumSupported="1"/>
+	</Unit_BuildingPrereqs>
+</GameData>

@@ -1,0 +1,235 @@
+<GameData>
+	<LocalizedText>
+	<Replace Tag="LOC_UNIT_SETTLER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>可创建新城市。新城市的初始人口和单元格数量会随着时代的进步而增加。[NEWLINE]完成时，该城市 [ICON_Citizen] 人口减1。</Text>
+    </Replace>
+	<Replace Tag="LOC_UNIT_SETTLER_DESCRIPTION" Language="en_US">
+      <Text>May create new cities. Initial population and tiles of a new city will increase with the progression of game era.[NEWLINE]Reduces city's [ICON_Citizen] Population by 1 when completed.</Text>
+    </Replace>
+	<!--单位-->	
+	<Replace Tag="GOLDEN_LOC_COMBAT_SCALING" Language="zh_Hans_CN">
+      <Text>因难度设置而+{Amount} [ICON_Strength] 战斗力。</Text>
+    </Replace>	
+	<Replace Tag="GOLDEN_LOC_COMBAT_SCALING" Language="en_US">
+      <Text>+{Amount} [ICON_Strength] Combat Strength bonus due to difficulty.</Text>
+    </Replace>
+	<Replace Tag="LOC_ABILITY_ENHANCED_SIGHT_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>初始视野为1，位于丘陵上时额外+1视野。（视野修正）</Text>
+    </Replace>	
+	<Replace Tag="LOC_ABILITY_ENHANCED_SIGHT_MODIFIER_DESCRIPTION" Language="en_US">
+      <Text>Base sight is 1. Extra +1 sight when on a hill.</Text>
+    </Replace>	
+	<!-- <Replace Tag="LOC_ABILITY_MORE_SUPPORT_FLANKING_BONUS_DESCRIPTION" Language="zh_Hans_CN"> -->
+      <!-- <Text>+50%夹击和支援 [ICON_Strength] 战斗加成。（雇佣兵）</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_ABILITY_MORE_SUPPORT_FLANKING_BONUS_DESCRIPTION" Language="en_US"> -->
+      <!-- <Text>+50% Support and Flanking [ICON_Strength] combat bonus. (Mercenaries)</Text> -->
+    <!-- </Replace> -->
+	
+	<Replace Tag="LOC_UNIT_MILITARY_ENGINEER_ALT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>中世纪支援单位。需要“兵工厂”才能生产。[NEWLINE][NEWLINE]与军事工程师相邻的友方近战和抗骑兵单位可对所有等级的城墙造成全额伤害。[NEWLINE][NEWLINE]能建造道路、铁路、堡垒、飞机跑道、导弹发射井和穿山隧道改良设施。其建造次数可用于加快水渠、运河、堤坝、社区和城墙的建造进度。</Text>
+    </Replace>
+	<Replace Tag="LOC_UNIT_MILITARY_ENGINEER_ALT_DESCRIPTION" Language="en_US">
+      <Text>Medieval era support unit. Requires an Armory to produce. [NEWLINE][NEWLINE]Adjacent friendly melee and anti-cavalry units do full damage to city defenses.[NEWLINE][NEWLINE]Can construct Roads, Railroads, Forts, Airstrips, Missile Silos, and Mountain Tunnel improvements. One of their build charges can also be used to boost the construction of a Aqueduct, Canal, Dam, and Neighborhoods district and city Walls.</Text>
+    </Replace>
+	<Replace Tag="LOC_UNIT_MEDIC_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>中世纪支援单位。能治疗邻近单位。</Text>
+    </Replace>
+	<Replace Tag="LOC_UNIT_MEDIC_DESCRIPTION" Language="en_US">
+      <Text>Medieval era support unit. Can heal adjacent units.</Text>
+    </Replace>
+	   <Replace Tag="LOC_UNIT_OBSERVATION_BALLOON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可以无视地形提供6格视野的支援单位。可显示视野范围内的隐身单位。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_OBSERVATION_BALLOON_DESCRIPTION" Language="en_US">
+			<Text>Support unit that can provide a huge range (6 tiles) of sight regardless of terrain. Can reveal stealth units in its field of view.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_DRONE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可以无视地形提供8格视野的支援单位。可显示视野范围内的隐身单位。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_DRONE_DESCRIPTION" Language="en_US">
+			<Text>Support unit that can provide a huge range (8 tiles) of sight regardless of terrain. Can reveal stealth units in its field of view.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_GA_STEALTH_1_NAME" Language="zh_Hans_CN">
+			<Text>女巫</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GA_STEALTH_1_NAME" Language="en_US">
+			<Text>Sorceress</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GA_STEALTH_2_NAME" Language="zh_Hans_CN">
+			<Text>雷达干扰车</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GA_STEALTH_2_NAME" Language="en_US">
+			<Text>Radar Jammers</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GA_STEALTH_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>支援单位。使1个单元格范围内的己方单位获得隐身能力（不包括自身和其他隐身单位）。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GA_STEALTH_1_DESCRIPTION" Language="en_US">
+			<Text>Support unit. Gives stealth ability to all your units within 1 tile.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GA_STEALTH_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>支援单位。使2个单元格范围内的己方单位获得隐身能力（不包括自身和其他隐身单位）。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GA_STEALTH_2_DESCRIPTION" Language="en_US">
+			<Text>Support unit. Gives stealth ability to all your units within 2 tile.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTH_1_NAME" Language="zh_Hans_CN">
+			<Text>隐形药水</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTH_1_NAME" Language="en_US">
+			<Text>Invisibility potion</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTH_2_NAME" Language="zh_Hans_CN">
+			<Text>信号屏蔽</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTH_2_NAME" Language="en_US">
+			<Text>Signal shielding</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTHED_NAME" Language="zh_Hans_CN">
+			<Text>获得隐身效果</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTHED_NAME" Language="en_US">
+			<Text>Gain invisibility.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTH_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>使1个单元格范围内的己方单位获得隐身能力（不包括自身和其他隐身单位）。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTH_1_DESCRIPTION" Language="en_US">
+			<Text>Gives stealth ability to all your units within 1 tile.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTH_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>使2个单元格范围内的己方单位获得隐身能力（不包括自身和其他隐身单位）。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTH_2_DESCRIPTION" Language="en_US">
+			<Text>Gives stealth ability to all your units within 2 tile.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTHED_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从支援单位获得了隐身能力。（女巫或雷达干扰器）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTHED_DESCRIPTION" Language="en_US">
+			<Text>Gain invisibility from support unit.(Sorceress or Radar Jammers)</Text>
+		</Replace>
+	  <!--单位克制-->
+	<Replace Tag="LOC_ABILITY_RANGED_ATTACK_DISTRICT_DEBUFF_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>对抗区域和海军单位时 [COLOR_RED]-20 [ICON_Ranged][ENDCOLOR] 远程攻击力。（火力修正）</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_BOMBARD_ATTACK_UNIT_DEBUFF_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>对抗单位时 [COLOR_RED]-20 [ICON_Bombard][ENDCOLOR] 轰炸攻击力。（火力修正）</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_AIR_FIGHTER_ATTACK_DISTRICT_DEBUFF_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>对抗区域时 [COLOR_RED]-20 [ICON_Ranged][ENDCOLOR] 远程攻击力。（火力修正）</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_AIR_BOMBER_ATTACK_UNIT_DEBUFF_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>对抗单位时 [COLOR_RED]-20 [ICON_Bombard][ENDCOLOR] 轰炸攻击力。（火力修正）</Text>
+    </Replace>
+	<Replace Tag="LOC_ABILITY_RANGED_ATTACK_DISTRICT_DEBUFF_DESCRIPTION" Language="en_US">
+      <Text>[COLOR_RED]-20 [ICON_Ranged][ENDCOLOR]Ranged Strength vs. Districts and Naval units.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_BOMBARD_ATTACK_UNIT_DEBUFF_DESCRIPTION" Language="en_US">
+      <Text>[COLOR_RED]-20 [ICON_Bombard][ENDCOLOR]Bombard Strength vs. units.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_AIR_FIGHTER_ATTACK_DISTRICT_DEBUFF_DESCRIPTION" Language="en_US">
+      <Text>[COLOR_RED]-20 [ICON_Ranged][ENDCOLOR]Ranged Strength vs. Districts.</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_AIR_BOMBER_ATTACK_UNIT_DEBUFF_DESCRIPTION" Language="en_US">
+      <Text>[COLOR_RED]-20 [ICON_Bombard][ENDCOLOR]Bombard Strength vs. units.</Text>
+    </Replace>
+	  <Replace Tag="LOC_ABILITY_CAVALRY_SIEGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>对抗攻城单位时+15 [ICON_Strength] 战斗力。（克制关系）</Text>
+	  </Replace>
+	  <Replace Tag="LOC_ABILITY_CAVALRY_SIEGE_DESCRIPTION" Language="en_US">
+			<Text>+15 [ICON_Strength] Combat Strength vs. Siege units.</Text>
+	  </Replace>			  
+	  <Replace Tag="LOC_ABILITY_CAVALRY_SIEGE_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+{1_Amount} 对抗攻城单位。</Text>
+	  </Replace>		  
+	  <Replace Tag="LOC_ABILITY_CAVALRY_SIEGE_MODIFIER_DESCRIPTION" Language="en_US">
+			<Text>+{1_Amount} strength vs Siege Units.</Text>
+	  </Replace>
+	<Replace Tag="LOC_ABILITY_RANGE_MELEE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>对抗火力支援单位时+15 [ICON_Strength] 战斗力。（克制关系）</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_RANGE_MELEE_DESCRIPTION" Language="en_US">
+      <Text>+15 [ICON_Strength] Combat Strength vs. Firesupport units.</Text>
+    </Replace>		
+	<Replace Tag="LOC_ABILITY_RANGE_MELEE_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+{1_Amount} 对抗火力支援单位。</Text>
+    </Replace>	
+	<Replace Tag="LOC_ABILITY_RANGE_MELEE_MODIFIER_DESCRIPTION" Language="en_US">
+		<Text>+{1_Amount} strength vs Firesupport Units.</Text>
+	</Replace>    
+	<Replace Tag="LOC_ABILITY_FIRESUPPORT_MELEE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>对抗近战单位时+15 [ICON_Strength] 战斗力。（克制关系）</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_FIRESUPPORT_MELEE_DESCRIPTION" Language="en_US">
+      <Text>+15 [ICON_Strength] Combat Strength vs. Melee units.</Text>
+    </Replace>	
+	<Replace Tag="LOC_ABILITY_FIRESUPPORT_MELEE_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+{1_Amount} 对抗近战单位。</Text>
+    </Replace>	
+	<Replace Tag="LOC_ABILITY_FIRESUPPORT_MELEE_MODIFIER_DESCRIPTION" Language="en_US">
+		<Text>+{1_Amount} strength vs Melee Units.</Text>
+	</Replace>   
+	  <Replace Tag="LOC_ABILITY_HEAVYCAVALRY_RANGE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>对抗远程单位时+15 [ICON_Strength] 战斗力。（克制关系）</Text>
+	  </Replace>
+	  <Replace Tag="LOC_ABILITY_HEAVYCAVALRY_RANGE_DESCRIPTION" Language="en_US">
+			<Text>+15 [ICON_Strength] Combat Strength vs. Range units.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_ABILITY_HEAVYCAVALRY_RANGE_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+{1_Amount} 对抗远程单位。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_ABILITY_HEAVYCAVALRY_RANGE_MODIFIER_DESCRIPTION" Language="en_US">
+			<Text>+{1_Amount} strength vs Range Units.</Text>
+	  </Replace>	  
+	  <Replace Tag="LOC_ABILITY_ANIT_SPEAR_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+{1_Amount} 对抗抗骑兵单位。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_ABILITY_ANIT_SPEAR_MODIFIER_DESCRIPTION" Language="en_US">
+			<Text>+{1_Amount} Combat Strength vs. anti-cavalry units.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_ABILITY_ANTI_CAVALRY_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+{1_Amount} 对抗骑兵单位。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_ABILITY_ANTI_CAVALRY_MODIFIER_DESCRIPTION" Language="en_US">
+			<Text>+{1_Amount} Combat Strength vs. Cavalry units.</Text>
+	  </Replace>	  
+	  <Replace Tag="LOC_ABILITY_ANTI_CAVALRY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>与轻重骑兵单位作战时+15 [ICON_Strength] 战斗力。（克制关系）</Text>
+    </Replace>   
+	<Replace Tag="LOC_ABILITY_ANTI_CAVALRY_DESCRIPTION" Language="en_US">
+      <Text>+15 [ICON_Strength] Combat Strength against Light and Heavy cavalry units.</Text>
+    </Replace>
+	<Replace Tag="LOC_ABILITY_ANTI_SPEAR_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>迎战抗骑兵单位+15 [ICON_Strength] 战斗力。（克制关系）</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_ANTI_SPEAR_DESCRIPTION" Language="en_US">
+      <Text>+15 [ICON_Strength] Combat Strength against anti-cavalry units.</Text>
+    </Replace>
+	  
+	  <!-- <Replace Tag="LOC_ABILITY_ATTRITION_NAME" Language="zh_Hans_CN"> -->
+			<!-- <Text>补给供应</Text> -->
+	  <!-- </Replace> -->
+	  <!-- <Replace Tag="LOC_ABILITY_ATTRITION_NAME" Language="en_US"> -->
+			<!-- <Text>Attrition and Supply</Text> -->
+	  <!-- </Replace> -->
+	  <!-- <Replace Tag="LOC_ABILITY_ATTRITION_DESCRIPTION" Language="zh_Hans_CN"> -->
+			<!-- <Text>回合开始时，处于敌方文明领土内的区域上则-3生命值，处于敌方文明领土内的其他（无区域）单元格上则额外-2生命值。若与商人，军事工程师，医疗兵，或补给车队位于同一单元格内则不会损失生命值。</Text> -->
+	  <!-- </Replace> -->
+	  <!-- <Replace Tag="LOC_ABILITY_ATTRITION_DESCRIPTION" Language="en_US"> -->
+			<!-- <Text>At the beginning of your turn, -3 healths if it is on a district tile of enemy territory, -2 additional healths if it is on other (no district) tiles of enemy territory. If it is in the same tile with Trader, Military engineer, Medic, and Supply Convoy, no such health loss.</Text> -->
+	  <!-- </Replace> -->
+	<!--Ability-->
+		
+	   
+	<!--AIRCRAFT_CARRIER-->
+	<Replace Tag="LOC_UNIT_AIRCRAFT_CARRIER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>可运输空中单位的海军单位。无法获得经验值，通过解锁科技来获得新的晋升。</Text>
+    </Replace>
+	<Replace Tag="LOC_UNIT_AIRCRAFT_CARRIER_DESCRIPTION" Language="en_US">
+      <Text>Naval unit that can transport air units. Can't gain experience. Get new promotions by unlocking new techs on tech tree.</Text>
+    </Replace>	   
+	</LocalizedText>
+	
+</GameData>
