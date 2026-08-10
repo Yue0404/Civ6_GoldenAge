@@ -726,7 +726,7 @@
 	</Replace>
 	
 	<Replace Tag="LOC_BUILDING_GABE_ENTCOMPLEX_TIER_2_BASE_DESCRIPTION" Language="zh_Hans_CN">
-		 <Text>+6 [ICON_TOURISM] 旅游业绩。[NEWLINE][NEWLINE][ICON_Amenities] 宜居度加成延伸到4个单元格中的每个市中心(此加成1座城市仅能应用1次，可与水上乐园建筑叠加)。</Text>
+		<Text>+6 [ICON_TOURISM] 旅游业绩。[NEWLINE][NEWLINE][ICON_Amenities] 宜居度加成延伸到4个单元格中的每个市中心(此加成1座城市仅能应用1次，可与水上乐园建筑叠加)。</Text>
 	</Replace>
 	<Replace Tag="LOC_BUILDING_GABE_ENTCOMPLEX_TIER_2_BASE_DESCRIPTION" Language="en_US">
 		<Text>+6 [ICON_TOURISM] Tourism.[NEWLINE][NEWLINE]Bonus [ICON_Amenities] Amenity extends to each city center within 4 tiles. This bonus applies once to a city but can stack with Water Park buildings.</Text>
@@ -846,13 +846,13 @@
     </Replace>
 	
 	<Replace Tag="LOC_BUILDING_GA_FIREST_DESCRIPTION" Language="zh_Hans_CN">
-		<Text>回合开始时，自动修复城市内[ICON_Pillaged]被掠夺的建筑。自身不会被自然灾害掠夺。[NEWLINE]无法修复被敌人占据，或是被核辐射污染的建筑。</Text>
+		<Text>回合开始时，自动修复城市内[ICON_Pillaged]被掠夺的区域和建筑。自身不会被自然灾害掠夺。[NEWLINE]无法修复被敌人占据，或是被核辐射污染的区域或建筑。</Text>
 	</Replace>
 	<Replace Tag="LOC_BUILDING_GA_FIREST_DESCRIPTION" Language="en_US">
-		<Text>Automatically repair [ICON_Pillaged] pillaged buildings in the city at the start of the turn. Cannot be pillaged by natural disasters. [NEWLINE] Cannot repair buildings occupied by enemies or polluted by nuclear fallout.</Text>
+		<Text>Automatically repair [ICON_Pillaged] pillaged districts and buildings in the city at the start of the turn. Cannot be pillaged by natural disasters. [NEWLINE] Cannot repair districts or buildings occupied by enemies or polluted by nuclear fallout.</Text>
 	</Replace>
 	<Replace Tag="LOC_BUILDING_GA_FIREST_DESCRIPTION" Language="zh_Hant_HK">
-		<Text>回合開始時，自動修復城市內[ICON_Pillaged]被掠奪的建築物。 自身不會被天災掠奪。 [NEWLINE]無法修復被敵人佔據，或是被核輻射污染的建築。</Text>
+		<Text>回合開始時，自動修復城市內[ICON_Pillaged]被掠奪的區域和建築物。自身不會被天災掠奪。 [NEWLINE]無法修復被敵人佔據，或是被核輻射污染的區域或建築物。</Text>
 	</Replace>
 	
 	<Replace Tag="LOC_BUILDING_GA_CLINIC_NAME" Language="zh_Hans_CN">

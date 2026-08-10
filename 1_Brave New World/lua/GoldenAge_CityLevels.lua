@@ -69,7 +69,7 @@ for _, data in ipairs(CITY_HALL_TYPES) do
             Level = data.Level
         }
     else
-        print("[CrazyExpansion] 警告：未找到市政厅建筑类型：".. tostring(data.BuildingType))
+        print("[CrazyExpansion] Warning: No City Hall Type: ".. tostring(data.BuildingType))
     end
 end
 
@@ -83,7 +83,7 @@ do
     if buildingInfo then
         GOV_WIDE_BUILDING_INDEX = buildingInfo.Index
     else
-        print("[CrazyExpansion] 警告：未找到全国建筑类型：".. tostring(GOV_WIDE_BUILDING_TYPE))
+        print("[CrazyExpansion] Warning: No Gov Wide Hall Type: ".. tostring(GOV_WIDE_BUILDING_TYPE))
     end
 end
 
@@ -360,6 +360,3 @@ Events.PlayerTurnActivated.Add(RefreshAllCityLevel)
 
 -- 新城市加入地图时刷新该城市。
 Events.CityAddedToMap.Add(RefreshCityLevel)
-
-
-print("[CrazyExpansion] 城市扩张惩罚 Gameplay 脚本已加载。")
