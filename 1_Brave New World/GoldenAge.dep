@@ -22,9 +22,7 @@
 			<ArtDefDependencyPaths>
 				<Element text="GoldenAge_National_Wonders_Districts.artdef"/>
 				<Element text="GoldenAge_National_Wonders_Landmarks.artdef"/>
-				<Element text="GoldenAge_National_Wonders_Buildings.artdef"/>
-				<Element text="GoldenAge_Building_Expansion_Landmarks.artdef"/>
-				<Element text="GoldenAge_Building_Expansion_Buildings.artdef"/>				
+				<Element text="GoldenAge_National_Wonders_Buildings.artdef"/>			
 				<Element text="Unit_Expansion_Land.artdef"/>
 				<Element text="Unit_Expansion_Navy.artdef"/>
 				<Element text="GoldenAge_WMD.artdef"/>
@@ -144,8 +142,6 @@
 			<ArtDefDependencyPaths>
 				<Element text="GoldenAge_National_Wonders_Landmarks.artdef"/>
 				<Element text="GoldenAge_National_Wonders_Buildings.artdef"/>
-				<Element text="GoldenAge_Building_Expansion_Landmarks.artdef"/>
-				<Element text="GoldenAge_Building_Expansion_Buildings.artdef"/>
 				<Element text="GA_BXP_Landmarks.artdef"/>
 				<Element text="GA_BXP_Buildings.artdef"/>
 			</ArtDefDependencyPaths>
@@ -286,8 +282,6 @@
 				<Element text="GoldenAge_National_Wonders_Buildings.artdef"/>
 				<Element text="GoldenAge_National_Wonders_Districts.artdef"/>
 				<Element text="GoldenAge_National_Wonders_Landmarks.artdef"/>
-				<Element text="GoldenAge_Building_Expansion_Buildings.artdef"/>
-				<Element text="GoldenAge_Building_Expansion_Landmarks.artdef"/>
 				<Element text="GA_BXP_Landmarks.artdef"/>
 				<Element text="GA_BXP_Buildings.artdef"/>
 			</ArtDefDependencyPaths>
@@ -409,7 +403,6 @@
 				<Element text="GoldenAge_National_Wonders_Buildings.artdef"/>
 				<Element text="GoldenAge_National_Wonders_Districts.artdef"/>
 				<Element text="GoldenAge_National_Wonders_Landmarks.artdef"/>
-				<Element text="GoldenAge_Building_Expansion_Buildings.artdef"/>
 				<Element text="GA_BXP_Landmarks.artdef"/>
 				<Element text="GA_BXP_Buildings.artdef"/>
 			</ArtDefDependencyPaths>
@@ -428,7 +421,7 @@
 		<Element>
 			<ArtDefPath text="Districts.artdef"/>
 			<ArtDefDependencyPaths>
-				<Element text="GoldenAge_Building_Expansion_Landmarks.artdef"/>
+				<Element text="GA_BXP_Landmarks.artdef"/>
 			</ArtDefDependencyPaths>
 		</Element>
 		<Element>
@@ -443,22 +436,9 @@
 			</ArtDefDependencyPaths>
 		</Element>
 		<Element>
-			<ArtDefPath text="GoldenAge_Building_Expansion_Landmarks.artdef"/>
-			<ArtDefDependencyPaths>
-				<Element text="GoldenAge_Building_Expansion_Landmarks.artdef"/>
-				<Element text="GoldenAge_Building_Expansion_Buildings.artdef"/>
-			</ArtDefDependencyPaths>
-		</Element>
-		<Element>
 			<ArtDefPath text="GoldenAge_National_Wonders_Buildings.artdef"/>
 			<ArtDefDependencyPaths>
 				<Element text="GoldenAge_National_Wonders_Buildings.artdef"/>
-			</ArtDefDependencyPaths>
-		</Element>
-		<Element>
-			<ArtDefPath text="GoldenAge_Building_Expansion_Buildings.artdef"/>
-			<ArtDefDependencyPaths>
-				<Element text="GoldenAge_Building_Expansion_Buildings.artdef"/>
 			</ArtDefDependencyPaths>
 		</Element>
 		<Element>

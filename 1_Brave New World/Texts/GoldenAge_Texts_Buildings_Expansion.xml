@@ -716,7 +716,7 @@
     </Replace>
     <Replace Tag="LOC_GABE_INVTYPE_ALAW_NAME" Language="en_US">
       <Text>Antitrust law</Text>
-    </Replace>	
+    </Replace>
 	
 	<Replace Tag="LOC_BUILDING_GABE_ENTCOMPLEX_TIER_1_BASE_DESCRIPTION" Language="zh_Hans_CN">
 		<Text>+3 [ICON_TOURISM] 旅游业绩。[NEWLINE][NEWLINE][ICON_Amenities] 宜居度加成延伸到3个单元格中的每个市中心(此加成1座城市仅能应用1次，可与水上乐园建筑叠加)。</Text>
@@ -786,13 +786,6 @@
 	</Replace>
 	<Replace Tag="LOC_BUILDING_ARBORETUM_DESCRIPTION" Language="en_US">
 		<Text>{LOC_BUILDING_GABE_ENTCOMPLEX_TIER_2_BASE_DESCRIPTION}[NEWLINE]+1[ICON_Science] if the city has a {LOC_BUILDING_BIOLOGY_LAB_NAME}.[NEWLINE]All {LOC_IMPROVEMENT_PLANTATION_NAME} Improvement in this city +1[ICON_Science] Science.</Text>
-	</Replace>
-	
-	<Replace Tag="LOC_BUILDING_AQUARIUM_DESCRIPTION" Language="zh_Hans_CN">
-		<Text>+6 [ICON_TOURISM] 旅游业绩。[NEWLINE][NEWLINE][ICON_Amenities] 宜居度加成延伸到4个单元格中的每个市中心(此加成1座城市仅能应用1次，可与娱乐中心建筑叠加)。[NEWLINE]若该城市拥有海洋实验室，则+1[ICON_Science]科技值。[NEWLINE]该城市的渔船改良设施+1[ICON_Science]科技值。</Text>
-	</Replace>
-	<Replace Tag="LOC_BUILDING_AQUARIUM_DESCRIPTION" Language="en_US">
-		<Text>+6 [ICON_TOURISM] Tourism.[NEWLINE][NEWLINE]Bonus [ICON_Amenities] Amenity extends to each city center within 4 tiles. This bonus applies once to a city but can stack with Entertainment Complex buildings.[NEWLINE]+1[ICON_Science] if the city has a {LOC_BUILDING_RESEARCH_LAB_NAME}.[NEWLINE]All {LOC_IMPROVEMENT_FISHING_BOATS_NAME} Improvement in this city +1[ICON_Science] Science.</Text>
 	</Replace>
 	
 	<Replace Tag="LOC_BUILDING_GA_POLICEST_NAME" Language="zh_Hans_CN">
@@ -933,6 +926,117 @@
 	</Replace>
 	<Replace Tag="LOC_BUILDING_GA_WATERWORKS_DESCRIPTION" Language="zh_Hant_HK">
 		<Text>城市[ICON_Citizen]人口增長速度提高+50%。[NEWLINE]若所在城市擁有與水渠相鄰的工業區，則該工業區+200% [ICON_Production] 生產力。</Text>
+	</Replace>
+	
+	<Replace Tag="LOC_BUILDING_GA_FOREST_RESERVE_NAME" Language="zh_Hans_CN">
+      <Text>森林保护站</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_GA_FOREST_RESERVE_NAME" Language="en_US">
+      <Text>Forest Protection Station</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_GA_FOREST_RESERVE_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>+5 [ICON_TOURISM] 旅游业绩。[NEWLINE][NEWLINE]城市内所有森林和雨林单元格+1 [ICON_Culture] 文化值，+1 [ICON_Faith] 信仰，+1魅力。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_GA_FOREST_RESERVE_DESCRIPTION" Language="en_US">
+		<Text>+5 [ICON_TOURISM] Tourism. [NEWLINE][NEWLINE]All Forest and Jungle tiles within the city Gain +1 [ICON_Culture] Culture, +1 [ICON_Faith] Faith, and +1 Appeal.</Text>
+	</Replace>
+	
+	<Replace Tag="LOC_BUILDING_GA_FLOODPLAINS_RESERVE_NAME" Language="zh_Hans_CN">
+      <Text>湿地保护站</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_GA_FLOODPLAINS_RESERVE_NAME" Language="en_US">
+      <Text>Wetland Protection Station</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_GA_FLOODPLAINS_RESERVE_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>+5 [ICON_TOURISM] 旅游业绩。[NEWLINE][NEWLINE]城市内所有绿洲，沼泽和泛滥平原单元格+1 [ICON_Culture] 文化值，+1 [ICON_Faith] 信仰，+1魅力。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_GA_FLOODPLAINS_RESERVE_DESCRIPTION" Language="en_US">
+		<Text>+5 [ICON_TOURISM] Tourism. [NEWLINE][NEWLINE]All Oasis, Marsh and Floodplains tiles within the city Gain +1 [ICON_Culture] Culture, +1 [ICON_Faith] Faith, and +1 Appeal.</Text>
+	</Replace>
+	
+	<Replace Tag="LOC_BUILDING_GA_WONDER_RESERVE_NAME" Language="zh_Hans_CN">
+      <Text>自然奇观保护站</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_GA_WONDER_RESERVE_NAME" Language="en_US">
+      <Text>Natural Wonder Protection Station</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_GA_WONDER_RESERVE_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>+5 [ICON_TOURISM] 旅游业绩。[NEWLINE][NEWLINE]城市内所有与自然奇观相邻的单元格+2 [ICON_Culture] 文化值，+2 [ICON_Faith] 信仰。[NEWLINE]若该城市拥有国家公园，则城市内所有单元格+1魅力。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_GA_WONDER_RESERVE_DESCRIPTION" Language="en_US">
+		<Text>+5 [ICON_TOURISM] Tourism. [NEWLINE][NEWLINE]All tiles adjacent Natural Wonder Gain +2 [ICON_Culture] Culture, +2 [ICON_Faith] Faith. [NEWLINE] If the city has a national park, all tiles in this city are +1 Appeal.</Text>
+	</Replace>
+	
+	<Replace Tag="LOC_BUILDING_GABE_WATER_PARK_TIER_1_BASE_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>+3 [ICON_TOURISM] 旅游业绩。[NEWLINE][NEWLINE][ICON_Amenities] 宜居度加成延伸到3个单元格中的每个市中心(此加成1座城市仅能应用1次，可与娱乐中心建筑叠加)。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_GABE_WATER_PARK_TIER_1_BASE_DESCRIPTION" Language="en_US">
+		<Text>+3 [ICON_TOURISM] Tourism.[NEWLINE][NEWLINE]Bonus [ICON_Amenities] Amenity extends to each city center within 3 tiles. This bonus applies once to a city but can stack with Entertainment Complex buildings.</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_GABE_WATER_PARK_TIER_2_BASE_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>+6 [ICON_TOURISM] 旅游业绩。[NEWLINE][NEWLINE][ICON_Amenities] 宜居度加成延伸到4个单元格中的每个市中心(此加成1座城市仅能应用1次，可与娱乐中心建筑叠加)。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_GABE_WATER_PARK_TIER_2_BASE_DESCRIPTION" Language="en_US">
+		<Text>+6 [ICON_TOURISM] Tourism.[NEWLINE][NEWLINE]Bonus [ICON_Amenities] Amenity extends to each city center within 4 tiles. This bonus applies once to a city but can stack with Entertainment Complex buildings.</Text>
+	</Replace>
+	
+	<Replace Tag="LOC_BUILDING_FERRIS_WHEEL_GABE_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>{LOC_BUILDING_GABE_WATER_PARK_TIER_1_BASE_DESCRIPTION}[NEWLINE]若所在城市拥有自然奇观或世界奇观，则该城市额外+2[ICON_Amenities]宜居度。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_FERRIS_WHEEL_GABE_DESCRIPTION" Language="en_US">
+		<Text>{LOC_BUILDING_GABE_WATER_PARK_TIER_1_BASE_DESCRIPTION}If the city has Natural Wonder or World Wonder, the city will have +2 more [ICON_Amenities] amenities.</Text>
+	</Replace>
+	
+	<Replace Tag="LOC_BUILDING_AQUARIUM_GABE_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>{LOC_BUILDING_GABE_WATER_PARK_TIER_2_BASE_DESCRIPTION}[NEWLINE]若该城市拥有海洋实验室，则+1 [ICON_Science] 科技值。[NEWLINE]该城市的渔船改良设施+1[ICON_Science]科技值。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_AQUARIUM_GABE_DESCRIPTION" Language="en_US">
+		<Text>{LOC_BUILDING_GABE_WATER_PARK_TIER_2_BASE_DESCRIPTION}[NEWLINE]+1 [ICON_Science] Science if the city has a {LOC_BUILDING_RESEARCH_LAB_NAME}.[NEWLINE]All {LOC_IMPROVEMENT_FISHING_BOATS_NAME} Improvement in this city +1 [ICON_Science] Science.</Text>
+	</Replace>
+	
+	<Replace Tag="LOC_BUILDING_GA_ROLLER_COASTER_NAME" Language="zh_Hans_CN">
+      <Text>过山车</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_GA_ROLLER_COASTER_NAME" Language="en_US">
+      <Text>Roller Coaster</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_GA_ROLLER_COASTER_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>{LOC_BUILDING_GABE_WATER_PARK_TIER_1_BASE_DESCRIPTION}[NEWLINE]若所在城市拥有5个及以上的丘陵或山脉地形，则该城市额外+2[ICON_Amenities]宜居度。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_GA_ROLLER_COASTER_DESCRIPTION" Language="en_US">
+		<Text>{LOC_BUILDING_GABE_WATER_PARK_TIER_1_BASE_DESCRIPTION}If the city has 5 or more Hills or Mountain terrain, the city will have +2 more [ICON_Amenities] amenities.</Text>
+	</Replace>
+	
+	<Replace Tag="LOC_BUILDING_GA_CAROUSEL_NAME" Language="zh_Hans_CN">
+      <Text>旋转木马</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_GA_CAROUSEL_NAME" Language="en_US">
+      <Text>Carousel</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_GA_CAROUSEL_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>{LOC_BUILDING_GABE_WATER_PARK_TIER_1_BASE_DESCRIPTION}[NEWLINE]若所在城市拥有至少4个标准化区域，则该城市额外+2[ICON_Amenities]宜居度。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_GA_CAROUSEL_DESCRIPTION" Language="en_US">
+		<Text>{LOC_BUILDING_GABE_WATER_PARK_TIER_1_BASE_DESCRIPTION}If the city has 4 or more Specialized Districts, the city will have +2 more [ICON_Amenities] amenities.</Text>
+	</Replace>
+	
+	<Replace Tag="LOC_BUILDING_GA_POLARIA_NAME" Language="zh_Hans_CN">
+      <Text>极地水族馆</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_GA_POLARIA_NAME" Language="en_US">
+      <Text>Arctic Aquarium</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_GA_POLARIA_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>{LOC_BUILDING_GABE_WATER_PARK_TIER_2_BASE_DESCRIPTION}[NEWLINE]若该城市拥有海洋实验室，则+1 [ICON_Science] 科技值。[NEWLINE]该城市与冻土，雪地或冰相邻的海岸单元格+1 [ICON_Science] 科技值。</Text>
+	</Replace>
+	<Replace Tag="LOC_BUILDING_GA_POLARIA_DESCRIPTION" Language="en_US">
+		<Text>{LOC_BUILDING_GABE_WATER_PARK_TIER_2_BASE_DESCRIPTION}[NEWLINE]+1 [ICON_Science] Science if the city has a {LOC_BUILDING_RESEARCH_LAB_NAME}.[NEWLINE]Coast tiles in this city adjacent to {LOC_TERRAIN_TUNDRA_NAME}, {LOC_TERRAIN_SNOW_NAME}, or {LOC_FEATURE_ICE_NAME} gain +1 [ICON_Science] Science.</Text>
 	</Replace>
 	
 </LocalizedText>

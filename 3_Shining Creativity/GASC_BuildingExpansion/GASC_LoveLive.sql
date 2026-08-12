@@ -26,7 +26,7 @@ WHERE a.BuildingType = 'BUILDING_FLAC_IRCLUB' AND b.Building = 'BUILDING_ART_ASS
 --=====
 DELETE FROM BuildingModifiers WHERE BuildingType = 'BUILDING_FLAC_IRCLUB';
 
-INSERT INTO BuildingModifiers			
+INSERT OR REPLACE INTO BuildingModifiers			
 (BuildingType,		ModifierId)
 SELECT 
 a.BuildingType, 	b.ModifierId

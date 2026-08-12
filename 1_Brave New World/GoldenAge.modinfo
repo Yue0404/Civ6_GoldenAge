@@ -43,14 +43,14 @@
         <Value>1</Value>
       </ConfigurationValueMatches>
     </Criteria>
-		<Criteria id="BUILDINGEXPANSION_RENEWABLE">
-			<!-- <ModInUse inverse="1">95f89921-a4be-4cce-841d-a6a67b48a0f8</ModInUse> -->
-			<ConfigurationValueMatches>
-				<Group>Game</Group>
-				<ConfigurationId>GA_BUILDINGEXPANSION</ConfigurationId>
-				<Value>1</Value>
-			</ConfigurationValueMatches>
-		</Criteria>
+	<Criteria id="BUILDINGEXPANSION_PRESERVE">
+		<ModInUse>A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C</ModInUse>
+		<ConfigurationValueMatches>
+			<Group>Game</Group>
+			<ConfigurationId>GA_BUILDINGEXPANSION</ConfigurationId>
+			<Value>1</Value>
+		</ConfigurationValueMatches>
+	</Criteria>
 
 	<!--高级设置-->
 	<Criteria id="CIVILIZATIONS_AND_LEADERS">
@@ -975,13 +975,19 @@
 	<UpdateDatabase id="Buildingexpansion">
 	  <Properties><LoadOrder>8386</LoadOrder></Properties>  
       <Criteria>BUILDINGEXPANSION</Criteria>
-		  <File>GoldenAge_Buildings_Expansion_Aqueduct.sql</File>	
+		  <File>GoldenAge_Buildings_Expansion_Aqueduct.sql</File>
 		  <File>GoldenAge_Buildings_Expansion_Campus.sql</File>
 		  <File>GoldenAge_Buildings_Expansion_Commercial.sql</File>
 		  <File>GoldenAge_Buildings_Expansion_IndustrialZone.sql</File>
 		  <File>GoldenAge_Buildings_Expansion_Theater.sql</File>	
 		  <File>GoldenAge_Buildings_Expansion_Entertainment.sql</File>
+		  <File>GoldenAge_Buildings_Expansion_Water_Park.sql</File>
 		  <File>GoldenAge_Buildings_Expansion_Neighborhood.sql</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="Buildingexpansion_Preserve">
+	  <Properties><LoadOrder>8386</LoadOrder></Properties>  
+      <Criteria>BUILDINGEXPANSION_PRESERVE</Criteria>
+		  <File>GoldenAge_Buildings_Expansion_Preserve.sql</File>
 	</UpdateDatabase>
 	<UpdateText id="Buildingexpansion">
 	  <Properties><LoadOrder>8386</LoadOrder></Properties>
@@ -1361,8 +1367,6 @@
 	<File>ArtDefs/GoldenAge_National_Wonders_Districts.artdef</File>
 	<File>ArtDefs/GoldenAge_National_Wonders_Landmarks.artdef</File>
 	
-	<File>ArtDefs/GoldenAge_Building_Expansion_Buildings.artdef</File>
-    <File>ArtDefs/GoldenAge_Building_Expansion_Landmarks.artdef</File>
 	<File>ArtDefs/GA_BXP_Buildings.artdef</File>   	
 	<File>ArtDefs/GA_BXP_Landmarks.artdef</File>  
 	
@@ -1401,7 +1405,9 @@
 	<File>GoldenAge_Buildings_Expansion_IndustrialZone.sql</File>	
 	<File>GoldenAge_Buildings_Expansion_Theater.sql</File>
 	<File>GoldenAge_Buildings_Expansion_Entertainment.sql</File>
+	<File>GoldenAge_Buildings_Expansion_Water_Park.sql</File>
 	<File>GoldenAge_Buildings_Expansion_Neighborhood.sql</File>
+	<File>GoldenAge_Buildings_Expansion_Preserve.sql</File>
 	<File>GoldenAge_Buildings_Expansion_Script.lua</File>
 	<File>GoldenAge_CitizenBonus.sql</File>
 	<File>GoldenAge_City_levels.sql</File>
@@ -1501,7 +1507,6 @@
 	<File>Icons/GoldenAge_Icons.xml</File>
 	<File>Icons/GoldenAge_Icons_Front.xml</File>
 	<File>Icons/GoldenAge_Icons_Building_Expansion.sql</File>
-	<File>Icons/GoldenAge_Icons_DefensiveImprovements.xml</File>
 	<File>Icons/GoldenAge_Icons_Gold_Resources.xml</File>
 	<File>Icons/GoldenAge_Icons_Monopolies.xml</File>
 	<File>Icons/GoldenAge_Icons_NationalWonders.sql</File>

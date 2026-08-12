@@ -655,7 +655,7 @@
 	<UpdateDatabase id="Defensiveimprovements">
 	  <Properties><LoadOrder>8610</LoadOrder></Properties>  
       <Criteria>DEFENSIVEIMPROVEMENTS_PORTUGAL_GA</Criteria>	 
-          <File>GoldenAge_DefensiveImprovements.xml</File>	
+          <File>GoldenAge_Def_Improvements.sql</File>	
 	</UpdateDatabase>	
 	<UpdateIcons id="Defensiveimprovements">
 	  <Properties><LoadOrder>8611</LoadOrder></Properties>  
@@ -821,7 +821,7 @@
 	<File>GoldenAge_ConfigData.sql</File>
 	<File>GoldenAge_GameMode.sql</File>
 	
-	<File>GoldenAge_DefensiveImprovements.xml</File>	
+	<File>GoldenAge_Def_Improvements.sql</File>	
 	<File>GoldenAge_WonderVictory.sql</File> 
 
 	<!--Gamemode-->	

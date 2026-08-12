@@ -41,7 +41,7 @@
 		<Row ParameterId="GA_MONOPOLIES" ConfigurationGroup="Game" ConfigurationId="GA_MONOPOLIES" DefaultValue="1" Description="LOC_GA_MONOPOLIES_DESCRIPTION" Domain="bool" GroupId="AdvancedOptions" Hash="0" Name="LOC_GA_MONOPOLIES_NAME" SortIndex="44"/>	    		
 		<Row ParameterId="GA_HEROES" ConfigurationGroup="Game" ConfigurationId="GA_HEROES" DefaultValue="1" Description="LOC_GA_HEROES_DESCRIPTION" Domain="bool" GroupId="AdvancedOptions" Hash="0" Name="LOC_GA_HEROES_NAME" SortIndex="45"/>	    		
 
-		<Row ParameterId="GAFooter" ConfigurationGroup="Game" ConfigurationId="GA_FOOTER" DefaultValue="1" Description="LOC_GA_FOOTER_DESCRIPTION" Domain="bool" GroupId="AdvancedOptions" Hash="0" Name="LOC_GA_FOOTER_NAME" ReadOnly="1" SortIndex="50"/>
+		<Row ParameterId="GAFooter" ConfigurationGroup="Game" ConfigurationId="GA_FOOTER" DefaultValue="1" Description="LOC_GA_FOOTER_DESCRIPTION" Domain="bool" GroupId="AdvancedOptions" Hash="0" Name="LOC_GA_FOOTER_NAME" ReadOnly="1" SortIndex="100"/>
 	</Parameters>
 	
 	<GameModeItems>

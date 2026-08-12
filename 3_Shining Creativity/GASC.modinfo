@@ -19,6 +19,7 @@
 	
 	<Mod id="ba397683-e90e-4254-9571-c499a62268c5" title="LOC_MOD_FLAC_IDOLMASTER_NAME" />
 	<Mod id="bc4725f2-0b72-43eb-92a5-0d5126076d94" title="LOC_MOD_FLAC_LOVELIVE_NAME" />
+	<Mod id="a8432748-d00f-468e-ba7c-90c32c54b9b3" title="LOC_MOD_FLAC_LLSS_NAME" />
 	<Mod id="5a42ebe5-2881-4b13-9cbb-b8a2c0738cdc" title="LOC_MOD_FLAC_HTT_NAME" />
 	<Mod id="af3b9ab9-c2e6-4a4d-b6bc-2797144b9b05" title="LOC_PHANTA_WORLD_TRADE_CENTER_MOD_NAME" />
 	<Mod id="1b8e4be6-73ae-4827-acf5-9d5b1de31487" title="LOC_ORIENTAL_PEARL_TOWER_MOD_NAME" />
@@ -130,6 +131,7 @@
       <Criteria>GASC_BUILDING_EXPANSION</Criteria>	 
 	  <File>GASC_BuildingExpansion/GASC_IdolMaster.sql</File>
 	  <File>GASC_BuildingExpansion/GASC_LoveLive.sql</File>
+	  <File>GASC_BuildingExpansion/GASC_LLSS.sql</File>
       <File>GASC_BuildingExpansion/GASC_HTT.sql</File>
       <File>GASC_BuildingExpansion/GASC_Wonders.sql</File>
     </UpdateDatabase>
@@ -172,6 +174,7 @@
   <Files>
     <File>GASC_BuildingExpansion/GASC_IdolMaster.sql</File>
     <File>GASC_BuildingExpansion/GASC_LoveLive.sql</File>
+    <File>GASC_BuildingExpansion/GASC_LLSS.sql</File>
     <File>GASC_BuildingExpansion/GASC_HTT.sql</File>
     <File>GASC_BuildingExpansion/GASC_MIK.sql</File>
     <File>GASC_BuildingExpansion/GASC_Wonders.sql</File>
